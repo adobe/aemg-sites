@@ -1,0 +1,77 @@
+/*Created with AEM Guides*/
+.frontcover {
+  padding-top: 40px;
+  padding-left: 73px;
+  padding-right: 73px;
+  padding-bottom: 52.33px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.frontcover_cover-img {
+  width: 650px;
+  height: 406px;
+}
+.frontcover_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 350;
+  letter-spacing: 0.125rem;
+}
+.frontcover_header .frontcover_doctype {
+  text-transform: uppercase;
+}
+.frontcover_header .frontcover_created-date {
+  font-weight: bold;
+}
+.frontcover_header .frontcover_version {
+  font-weight: bold;
+}
+.frontcover_header .frontcover_version-label {
+  text-transform: uppercase;
+}
+.frontcover_metadata {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-5xl);
+  font-weight: 400;
+  line-height: var(--text-5xl-lh);
+}
+.frontcover_metadata .frontcover_created-date {}
+.frontcover_metadata .frontcover_product-brand {}
+.frontcover_metadata .frontcover_product-name {}
+.frontcover_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+.frontcover_logo-image {
+  width: 160px;
+  height: 40px;
+}
+.frontcover_footer-right {
+  text-align: right;
+}
+.frontcover_footer-description p {
+  margin: 0;
+  font-size: var(--text-lg);
+  line-height: var(--text-lg-lh);
+  font-weight: 400;
+}
+.frontcover_urls {
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  color: var(--color-primary);
+  text-decoration: none;
+}
