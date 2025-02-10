@@ -1,6 +1,12 @@
 .lot_header {
+  /* margin-top: 50px;
+  text-align: left; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid #AEAEAE;
+  padding-bottom: 4px;
   margin-top: 50px;
-  text-align: left;
 }
 .lot_header_title {
   font-family: var(--font-fam-secondary);
@@ -30,6 +36,7 @@
 .lot_content .lot-level-1::after,
 .lot-level-1::after {
   color: #013220;
+   font-weight: 700;
 }
 /* .lot_footer {
   border-top: 0.5px solid #2C343B;
@@ -63,4 +70,8 @@
 .lot_content,
 .lot-body {
   padding-top: 60px;
+}
+.header_logo {
+  max-height: 17px;
+  max-width: 33px;
 }

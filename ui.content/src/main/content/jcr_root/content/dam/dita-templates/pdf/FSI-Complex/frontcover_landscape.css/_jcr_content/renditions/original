@@ -29,8 +29,6 @@
   bottom: 28%;
 }
 .barchart_landsc_image {
-  background-image: url('../../../aemguidesDALP/fsi/images/bar-chart-img.png');
-  background-size: 100% 100%;
   width: 344px;
   height: 422.34px;
   position: absolute;
@@ -39,8 +37,6 @@
   z-index: 1;
 }
 .piechart_landsc_image {
-  background-image: url('../../../aemguidesDALP/fsi/images/pie-chart-img.png');
-  background-size: 100% 100%;
   width: 83px;
   height: 107.17px;
   position: absolute;
@@ -54,8 +50,6 @@
   left: 0;
 }
 .histogram_landsc_image {
-  background-image: url('../../../aemguidesDALP/fsi/images/histogram-img.png');
-  background-size: 100% 100%;
   width: 323px;
   height: 231px;
 }
@@ -73,8 +67,6 @@
   box-sizing: border-box;
 }
 .frontcover_landsc_logo {
-  background-image: url('../../../aemguidesDALP/fsi/images/frontcover-logo.png');
-  background-size: 100% 100%;
   width: 132px;
   height: 102px;
 }

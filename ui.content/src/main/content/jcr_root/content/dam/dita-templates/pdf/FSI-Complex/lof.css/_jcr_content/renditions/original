@@ -36,7 +36,7 @@
 .lof_content .lof-level-1::after,
 .lof-level-1::after {
   color: #013220;
-  ;
+  font-weight: 700;
 }
 /* .lof_footer {
   margin-bottom: 40px;
@@ -58,11 +58,11 @@
   font-weight: 400;
   color: #0F85EC;
 }
-.lof_footer_hr {
+/* .lof_footer_hr {
   border: 0.5px solid #2C343B;
   margin: 0;
   padding: 0;
-}
+} */
 .lof-body {
   column-count: 2;
   column-gap: 85px;
@@ -74,4 +74,8 @@
   border-bottom: 0.5px solid #AEAEAE;
   padding-bottom: 4px;
   margin-top: 50px;
+}
+.header_logo {
+  max-height: 17px;
+  max-width: 33px;
 }

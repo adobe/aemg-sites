@@ -8,6 +8,7 @@
   <destTableContinuationText>Continued from page %page-num%</destTableContinuationText>
   <modifyHeadings type="boolean">true</modifyHeadings>
   <notDisplayPageNo>false</notDisplayPageNo>
+  <noChapterNumberInTOC type="boolean">true</noChapterNumberInTOC>
   <leaderFormat>dotted</leaderFormat>
   <tableContinuation type="boolean">true</tableContinuation>
   <useUserToc type="boolean">true</useUserToc>
@@ -113,7 +114,7 @@
   <backPageLayout>BackCover</backPageLayout>
   <emptyPageLayout>Blank</emptyPageLayout>
   <tocLayout>TOC</tocLayout>
-  <topicLayout>Chapter</topicLayout>
+  <topicLayout>Chapter_Landscape</topicLayout>
   <gloLayout>Glossary</gloLayout>
   <indexLayout>Index</indexLayout>
   <bibLayout>Citations</bibLayout>

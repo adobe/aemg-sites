@@ -37,7 +37,8 @@
 }
 .idx-unit {
   padding-bottom: 0px;
-  margin: unset;
+  margin: 0px;
+  flex-basis: 40%;
 }
 .idx-keyword {
   margin: unset;
@@ -81,7 +82,7 @@ a.book-idx-link.idx-link {
   font-family: var(--font-fam-secondary);
   font-size: 0.75rem;
   line-height: 0.875rem;
-  font-weight: 350;
+  font-weight: 700;
 }
 /* .book-idx-child.idx-child {
   column-count: 2;
@@ -96,11 +97,11 @@ a.book-idx-link.idx-link {
   margin: unset;
   padding: unset;
 }
-.header_logo{
+.header_logo {
   max-height: 17px;
   max-width: 33px;
 }
-.index_header{
+.index_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -113,9 +114,4 @@ a.book-idx-link.idx-link {
   flex-wrap: wrap;
   column-gap: 84px;
   row-gap: 0px;
-}
-.idx-unit {
-  padding-bottom: 0px;
-  margin: 0px;
-  flex-basis: 40%;
 }
