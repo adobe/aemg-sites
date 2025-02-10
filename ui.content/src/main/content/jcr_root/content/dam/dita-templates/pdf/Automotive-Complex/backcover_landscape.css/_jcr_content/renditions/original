@@ -1,0 +1,113 @@
+/*Created with AEM Guides*/
+.backcover-landsc {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-right: 73px;
+  padding-bottom: 40px;
+  padding-left: 73px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.backcover-landsc_header {}
+.backcover-landsc_title {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-fam-primary);
+  color: var(--color-primary);
+  font-size: var(--text-5xl);
+  font-weight: 400;
+  line-height: var(--text-5xl-lh);
+}
+.backcover-landsc_header-text {
+  font-size: var(--text-sm);
+  font-weight: 400;
+  color: var(--color-primary);
+  line-height: var(--text-sm-lh);
+}
+/* backcover-landsc_desciption */
+.backcover-landsc_desciption {
+  margin-top: auto;
+  width: 304px;
+  font-size: var(--text-xs);
+  font-weight: 350;
+  line-height: var(--text-xs-lh);
+  color: var(--color-secondary);
+}
+/* backcover-landsc_organization-details */
+.backcover-landsc_organization-details {
+  display: flex;
+  max-width: 711px;
+  width: 100%;
+  column-gap: 40px;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+/* backcover-landsc_contact-container */
+.backcover-landsc_contact-container {
+  width: 33%;
+}
+.backcover-landsc_address-container {
+  width: 33%;
+}
+.backcover-landsc_socials-container {
+  max-width: 33%;
+  /* width: fit-content;
+  margin-left: auto; */
+  white-space: nowrap;
+}
+.backcover-landsc_contact-container,
+.backcover-landsc_address-container,
+.backcover-landsc_socials-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* backcover-landsc_org-contact-label */
+.backcover-landsc_org-contact-label,
+.backcover-landsc_org-address-label,
+.backcover-landsc_org-socials-label {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  line-height: var(--text-xs-lh);
+  color: var(--color-accent);
+}
+/* backcover-landsc_org-contactnumbers */
+.backcover-landsc_org-contactnumbers,
+.backcover-landsc_org-emailaddresses,
+.backcover-landsc_org-addressdetails,
+.backcover-landsc_org-socials {
+  display: flex;
+  align-items: center;
+  font-size: var(--text-xs);
+  color: var(--color-primary);
+  font-weight: 400;
+  line-height: var(--text-xs-lh);
+}
+.backcover-landsc_socials-container a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+/* backcover-landsc_footer */
+.backcover-landsc_footer {
+  margin-top: 40px;
+  padding-top: 8px;
+  border-top: 0.5px solid #2C343B;
+  font-size: var(--text-xs);
+  font-weight: 400;
+  line-height: var(--text-xs-lh);
+  opacity: 0.7;
+  color: var(--color-tertiary);
+}
+.backcover-landsc_created-date {}
+.backcover-landsc_isbn {}
+.backcover-landsc_booknumber {}
+.backcover-landsc_bookseries {}
+.img-icon {
+  margin-right: 8px;
+  max-width: 13px;
+  max-height: 13px;
+}

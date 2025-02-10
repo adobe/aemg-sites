@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>TOC Page Layout</title>
+  <meta name="page-style" content="size:portrait; margin-left:73px; margin-right:73px; margin-top: 80px;  margin-bottom: 140px;" />
+  <meta name="footnote-style" content="" />
+  <!-- <link rel="stylesheet" type="text/css" href="toc_automotive_complex.css" /> -->
+  <link rel="stylesheet" type="text/css" href="common.css" />
+  <link rel="stylesheet" type="text/css" href="toc.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+</head>
+<body>
+  <div data-region="header" style=""><br />
+    
+  </div>
+  <div data-region="content" id="toc_firstpage"><!-- <img src="carimage_toc.png" style="width: 100%; height: 220px; cursor: nwse-resize;" /> --></div>
+  <div data-region="footer">
+    <hr style="border: 0.5px solid #2C343B; margin: 0; padding: 0;" />
+    <div style="font-size: 0.625rem; line-height: 0.75rem; color: var(--color-tertiary); margin-top : 8px;">Smith, J. A. (2020). The future of automotive technology:<br />
+      Innovations and trends. Tech Publishers.</div>
+  </div>
+</body>
+</html>
