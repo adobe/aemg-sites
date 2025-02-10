@@ -34,7 +34,7 @@ body {
   letter-spacing: 1px;
   margin-bottom: 8px;
   margin-top: 30px;
-  font-family: var(--font-fam-primary);
+  font-family: var(--font-fam-primary-bold);
 }
 .pdf-toc-level-1:first-of-type {
   margin-top: 0px;
@@ -46,7 +46,7 @@ body {
   color: var(--color-accent);
   margin-bottom: 6px;
   text-indent: 0px;
-  font-family: var(--font-fam-primary);
+  font-family: var(--font-fam-primary-regular);
 }
 .toc-footer_title {
   background-color: var(--color-secondary);
@@ -55,16 +55,18 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.toc_footer-number{
+.toc_footer-number {
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
+  font-family: var(--font-fam-primary-medium);
   color: #0C1256;
 }
 .toc-footer_title p {
   font-size: 9px;
   line-height: 12px;
   font-weight: 400;
+  font-family: var(--font-fam-primary-regular);
   margin: 0px;
   color: var(--color-accent);
 }

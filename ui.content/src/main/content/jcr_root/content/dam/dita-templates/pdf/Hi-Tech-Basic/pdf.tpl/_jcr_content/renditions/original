@@ -47,18 +47,18 @@
       <label>FrontCover</label>
     </bookListsitem>
     <bookListsitem>
-      <name>topicLayout</name>
-      <mergeMode>none</mergeMode>
-      <showInTOC type="boolean">true</showInTOC>
-      <label>Chapters &amp; Topics</label>
-      <disabled type="boolean">true</disabled>
-    </bookListsitem>
-    <bookListsitem>
       <name>tocLayout</name>
       <mergeMode>none</mergeMode>
       <showInTOC type="boolean">true</showInTOC>
       <label>TOC</label>
       <disabled type="boolean">false</disabled>
+    </bookListsitem>
+    <bookListsitem>
+      <name>topicLayout</name>
+      <mergeMode>none</mergeMode>
+      <showInTOC type="boolean">true</showInTOC>
+      <label>Chapters &amp; Topics</label>
+      <disabled type="boolean">true</disabled>
     </bookListsitem>
     <bookListsitem>
       <name>lofLayout</name>
@@ -100,7 +100,7 @@
   <layout>Common</layout>
   <coverPageLayout>FrontCover</coverPageLayout>
   <tocLayout>TOC</tocLayout>
-  <topicLayout></topicLayout>
+  <topicLayout>Common</topicLayout>
   <gloLayout></gloLayout>
   <indexLayout></indexLayout>
 </settings>

@@ -1,5 +1,4 @@
 /*Created with AEM Guides*/
-
 .frontcover p {
   margin: 0px;
 }
@@ -36,12 +35,12 @@
   color: #FFFFFF;
   display: inline-block;
   margin-bottom: 8px;
-  font-family: var(--font-fam-secondry); 
+  font-family: var(--font-fam-secondry);
 }
 .frontcover_textdata .frontcover_booktitlealt {
   font-size: 14px;
   line-height: 20px;
-  font-family: var(--font-fam-primary);
+  font-family: var(--font-fam-primary-regular);
   font-weight: 400;
   color: #FFFFFF;
   display: inline-block;
@@ -50,7 +49,7 @@
 .frontcover_critdates {
   font-size: 11px;
   line-height: 14px;
-  font-family: var(--font-fam-primary);
+  font-family: var(--font-fam-primary-medium);
   font-weight: 500;
   color: #01EA57;
 }
