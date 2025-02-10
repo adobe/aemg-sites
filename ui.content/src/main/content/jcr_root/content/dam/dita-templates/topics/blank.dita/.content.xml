@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="cd61c316-48d9-4456-9bdb-fdec0ff1618f">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-08T16:29:26.966+05:30"
+        jcr:lastModifiedBy="fmdita-serviceuser"
+        jcr:primaryType="dam:AssetContent"
+        fmdita-dita-template="{Boolean}true"
+        fmdita-newfile="{Boolean}true"
+        templateDescription="Blank Template"
+        templateTitle="Blank">
+        <metadata
+            dam:extracted="{Date}2025-02-08T16:29:26.757+05:30"
+            dam:sha1="c42a910ee0d303dc5f9d03ad17a41aa386a32a23"
+            dam:size="{Long}88"
+            dc:format="application/xml"
+            dc:title="Blank"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

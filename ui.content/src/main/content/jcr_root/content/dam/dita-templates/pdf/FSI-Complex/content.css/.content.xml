@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="8bd1179a-7760-4e85-a8b1-33f5428bcd0e">
+    <jcr:content
+        cq:name="content.css"
+        cq:parentPath="/content/dam/dita-templates/pdf/FSI-Complex"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-08T16:29:05.016+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        fmditaDynamicTitle="{Boolean}false"
+        fmditaTitle="\0">
+        <metadata
+            dam:extracted="{Date}2025-02-08T16:29:04.814+05:30"
+            dam:sha1="8a4969279ca6a01b88c4d24ff62bef4132db6157"
+            dam:size="{Long}12352"
+            dc:format="text/css"
+            dc:title="\0"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            docstate="Draft"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

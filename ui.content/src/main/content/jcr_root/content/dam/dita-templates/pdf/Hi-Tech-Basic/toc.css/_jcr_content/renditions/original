@@ -1,0 +1,70 @@
+/*Created with AEM Guides*/
+body {
+  margin: 0px;
+}
+.topic-body {
+  padding-left: 73px;
+  padding-right: 73px;
+}
+.toc-header_title {
+  font-size: 21px;
+  line-height: 21px;
+  font-family: var(--font-fam-secondry);
+  font-weight: 500;
+  color: var(--color-accent);
+  margin: 0px;
+}
+.toc-header_title .dot {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: var(--color-primary);
+  margin-left: 2px;
+}
+.pdf-toc-body {
+  column-count: 2;
+  column-gap: 80px;
+  margin-top: 30px;
+}
+.pdf-toc-level-1 {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 700;
+  color: var(--color-accent);
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  margin-top: 30px;
+  font-family: var(--font-fam-primary);
+}
+.pdf-toc-level-1:first-of-type {
+  margin-top: 0px;
+}
+.pdf-toc-level-2 {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: var(--color-accent);
+  margin-bottom: 6px;
+  text-indent: 0px;
+  font-family: var(--font-fam-primary);
+}
+.toc-footer_title {
+  background-color: var(--color-secondary);
+  padding: 24px 71px 24px 73px;
+  margin-bottom: -15px;
+  display: flex;
+  justify-content: space-between;
+}
+.toc_footer-number{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #0C1256;
+}
+.toc-footer_title p {
+  font-size: 9px;
+  line-height: 12px;
+  font-weight: 400;
+  margin: 0px;
+  color: var(--color-accent);
+}

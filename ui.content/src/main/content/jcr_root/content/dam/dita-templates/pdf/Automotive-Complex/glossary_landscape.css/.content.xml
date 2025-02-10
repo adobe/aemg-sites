@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="56b8eb91-692b-4131-8d45-2e0d50600840">
+    <jcr:content
+        cq:name="glossary_landscape.css"
+        cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Complex"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-08T16:28:57.100+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2025-02-08T16:28:56.908+05:30"
+            dam:sha1="d1537dec48acad133590577ea3c8df21faf6b372"
+            dam:size="{Long}1820"
+            dc:format="text/css"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

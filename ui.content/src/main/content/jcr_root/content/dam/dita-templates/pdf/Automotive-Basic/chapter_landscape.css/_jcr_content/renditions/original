@@ -1,0 +1,19 @@
+body .section:first-of-type h2 {
+  margin-top: 0;
+}
+/*Created with AEM Guides*/
+/* .chapter-body .topic-body>.body {
+  column-count: 2;
+  column-gap: 40px;
+}
+ */
+.chapter_info {
+  background-color: #D9E6EB;
+  padding: 8px 40px 8px 16px;
+  color: #2C343B;
+  font-family: var(--font-fam-secondary);
+  font-size: 0.625rem;
+  line-height: 0.875rem;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}

@@ -1,0 +1,66 @@
+.lot_header {
+  margin-top: 50px;
+  text-align: left;
+}
+.lot_header_title {
+  font-family: var(--font-fam-secondary);
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  font-weight: 400;
+  color: #013220;
+  margin-bottom: 8px;
+}
+.lot_header_titlealts {
+  font-family: var(--font-fam-primay);
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: 400;
+  color: #013220;
+  margin-bottom: 40px;
+}
+.lot_content .lot-level-1,
+.lot-level-1 {
+  font-family: var(--font-fam-secondary);
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: 350;
+  color: #013220;
+  margin-bottom: 16px;
+}
+.lot_content .lot-level-1::after,
+.lot-level-1::after {
+  color: #013220;
+}
+/* .lot_footer {
+  border-top: 0.5px solid #2C343B;
+} */
+.lot_footer_product-name {
+  font-family: var(--font-fam-secondary);
+  font-weight: 400;
+  padding-top: 8px;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  color: #2C343B;
+  padding-top: 8px;
+  margin: unset;
+}
+.lot_footer_urls {
+  font-family: var(--font-fam-secondary);
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  font-weight: 400;
+  color: #2C343B;
+}
+.lot_footer_hr {
+  border: 0.5px solid #2C343B;
+  margin: 0;
+  padding: 0;
+}
+.lot-body {
+  column-count: 2;
+  column-gap: 70px;
+}
+.lot_content,
+.lot-body {
+  padding-top: 60px;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:lockable,mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="cce6755b-0466-4cb5-8913-361e5550a0aa">
+    <jcr:content
+        cq:name="Chapter_first.plt"
+        cq:parentPath="/content/dam/dita-templates/pdf/Automative-Medium"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-08T16:28:59.250+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2025-02-08T16:28:59.042+05:30"
+            dam:sha1="e3c7442302ff0a6e3bee87d3953396b2a498e772"
+            dam:size="{Long}2556"
+            dc:format="application/xhtml+xml"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            docstate="Draft"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

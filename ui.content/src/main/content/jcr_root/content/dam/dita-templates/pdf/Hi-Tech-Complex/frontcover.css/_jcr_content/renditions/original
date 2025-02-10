@@ -1,0 +1,50 @@
+/*Created with AEM Guides*/
+.frontcover-footer {
+  display: flex;
+  gap: 215px;
+  position: fixed;
+  bottom: 0;
+  margin-left: 73px;
+  margin-bottom: 40px;
+  align-items: end;
+}
+.footer-title-subtitle .frontcover_mainbooktitle {
+  font-family: Urbanist;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 54px;
+  text-align: left;
+  color: #01EA57;
+  margin-bottom: 16px;
+}
+.frontcover_booktitlealt {
+  font-family: Adobe Clean;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #01EA57;
+  margin: 0;
+}
+.frontcover_publish-date {
+  color: #FFFFFF;
+  font-family: Adobe Clean;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+}
+.footer-title-descript {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer-title {
+  margin: 0;
+}
+.frontcover_logo {
+  width: 144px;
+  height: 26px;
+  margin-left: 73px;
+  margin-top: 80px;
+}

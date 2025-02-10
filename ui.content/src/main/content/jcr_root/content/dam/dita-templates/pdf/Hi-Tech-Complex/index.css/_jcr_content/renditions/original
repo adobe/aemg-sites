@@ -1,0 +1,107 @@
+#index-header {
+  margin-bottom: 27px;
+  text-align: left;
+}
+#index_header_title {
+  font-family: var(--font-fam-secondary);
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 0px;
+}
+#index_header_titlealts {
+  font-family: var(--font-fam-primay);
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: 400;
+  color: #7F8794;
+  margin-bottom: 40px;
+  margin-top: 8px;
+}
+.idx-body {
+  column-count: unset;
+  column-fill: unset;
+}
+.idx-title {
+  column-span: all;
+}
+.idx-keyword-group {
+  font-weight: bold;
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
+  margin-top: 16px;
+}
+.idx-keyword-group:first-of-type {
+  margin-top: 0;
+}
+.idx-unit {
+  padding-bottom: 0px;
+  margin: 0px;
+  flex-basis: 40%;
+}
+.idx-keyword {
+  margin: unset;
+}
+.idx-name {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 350;
+  color: var(--color-primary);
+  margin-bottom: 16px;
+}
+.idx-link {
+  text-decoration: none;
+}
+.idx-child {
+  padding-left: 0px;
+}
+#index_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  row-gap: 1px;
+  border-top: 0.5px solid #2C343B;
+  justify-content: flex-start;
+  padding-bottom: 108px;
+}
+#index_footer_product-name {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-tertiary);
+  padding-top: 8px;
+  margin: 0px;
+}
+#index_footer_urls {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-link);
+  text-decoration: none;
+}
+a.book-idx-link.idx-link {
+  color: var(--color-accent);
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 350;
+}
+.book-idx-child.idx-child {
+display: flex;
+    flex-wrap: wrap;
+ column-gap: 84px;
+  /* row-gap: 16px; */
+}
+.idx-unit.book-idx-keyword {
+  padding: 0px;
+  margin: 0px;
+}
+.content-page--img {
+  width: 648px;
+  height: 300px;
+  opacity: 0px;
+}

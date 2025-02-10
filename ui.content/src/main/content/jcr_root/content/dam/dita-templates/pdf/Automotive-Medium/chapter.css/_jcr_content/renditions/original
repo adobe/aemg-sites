@@ -1,0 +1,124 @@
+body {}
+.chapter_firstpage_header {}
+.chapter_header_title {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-3xl);
+  font-weight: 400;
+  line-height: var(--text-3xl-lh);
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-primary);
+  margin-bottom: 57%;
+}
+.chapter_header_titlealts {}
+.chapter_header_mainbooktitle {}
+.chapter_header_chapter-number {
+  border-top: 0.5px solid #2C343B;
+  display: inline-flex;
+  position: relative;
+  bottom: -130px;
+  padding: 8px 0px;
+  margin-bottom: 10vh;
+  width: 144px;
+  color: var(--color-primary);
+  width: 100px;
+  text-align: right;
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-2xl);
+  font-weight: 400;
+  line-height: var(--text-2xl-lh);
+}
+.chapter_header_page-number {}
+.chapter_firstpage_cover-image {
+  width: 648px;
+  height: 406px;
+}
+.chapter_firstpage_footer {}
+.chapter_footer_mainbooktitle {}
+.chapter_footer_product-name {}
+.chapter_footer_copyright {}
+.chapter_footer_product-brand {}
+.chapter_footer_page-number {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  line-height: var(--text-xs-lh);
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-accent);
+}
+.chapter_footer_urls {}
+.chapter_footer_version {}
+.chapter_footer_email {}
+.chapter_footer_organization {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  line-height: var(--text-xs-lh);
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-tertiary);
+}
+.chapter_leftpage_header {}
+.chapter_leftpage_footer {}
+.chapter_rightpage_header {}
+.chapter_rightpage_footer {}
+.b {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-base);
+  font-weight: 600;
+  line-height: var(--text-base-lh);
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-primary);
+}
+.p {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  line-height: var(--text-xs-lh);
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-tertiary);
+}
+h1.title {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xl);
+  font-weight: 400;
+  line-height: var(--text-xl-lh);
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  border-top: 0.5px solid #2C343B;
+  display: inline-block;
+  padding-top: 4px;
+}
+.chapter_footer {
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.5px solid #2C343B;
+  color: var(--color-tertiary);
+  align-items: center;
+}
+h1.chapter {
+  color: var(--color-primary);
+}
+h1.chapter::before {
+  color: var(--color-accent);
+}
+h2 {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xl);
+  font-weight: 400;
+  line-height: var(--text-xl-lh);
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-primary);
+}
