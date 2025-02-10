@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d390b42e-3935-4d20-9b6b-bd37f942461f">
+    <jcr:content
+        cq:name="pdf.tpl"
+        cq:parentPath="/content/dam/dita-templates/pdf/FSI-Complex"
+        dam:assetState="processed"
+        dam:processingId="01c5bc1b-999c-49b6-b1a6-263b29180329"
+        dam:processingRenditions="[cq5dam.thumbnail.48.48.png,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.features.json,cq5dam.thumbnail.140.100.png,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.tags.json,cqdam.text.txt,cqdam.metadata.xml]"
+        dam:processingRequestedDate="{Date}2022-06-06T16:55:24.576Z"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2025-02-08T16:29:10.033+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        dxmlLastCreatedVersion="1.0"
+        dxmlSkipVersionCreation="{Boolean}true"
+        fmPostProcessedAt="2022-06-06T16:55:23.651Z|099f6e36-fb15-4734-bde6-511eb24c30b7|2022-06-06T16:55:23.651Z|13|0"
+        fmUuid="GUID-7b252a45-3f58-4646-af30-749f37939d2f">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.web.1280.1280.jpeg
+                jcr:primaryType="nt:unstructured"
+                message="Format jpg is not supported for tpl files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.thumbnail.140.100.png
+                jcr:primaryType="nt:unstructured"
+                message="Format png is not supported for tpl files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.thumbnail.48.48.png
+                jcr:primaryType="nt:unstructured"
+                message="Format png is not supported for tpl files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.zoom.2048.2048.jpeg
+                jcr:primaryType="nt:unstructured"
+                message="Format jpg is not supported for tpl files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.thumbnail.319.319.png
+                jcr:primaryType="nt:unstructured"
+                message="Format png is not supported for tpl files"
+                reason="RenditionFormatUnsupported"/>
+            <cqdam.text.txt
+                jcr:primaryType="nt:unstructured"
+                message="Text extraction (fmt=txt) is not supported for tpl files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            dam:extracted="{Date}2025-02-08T16:29:09.900+05:30"
+            dam:sha1="1f112adc4050fae3c02a152adedcf37de721a1e9"
+            dam:size="{Long}4874"
+            dc:format="application/vnd.groove-tool-template"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            docstate="Draft"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?> 
 <workspaceFilter version="1.0">
     <filter root="/conf/aemguidesDALP" mode="merge"/>
     <filter root="/content/aemguidesDALP" mode="merge"/>
-    <filter root="/content/dam/aemguidesDALP" mode="merge">
-        <exclude pattern="/content/dam/aemguidesDALP(/.*)?"/>
-        <include pattern="/content/dam/aemguidesDALP/jcr:content(/.*)?"/>
-    </filter>
-    <filter root="/content/dam/aemguidesDALP/asset.jpg" mode="merge"/>
     <filter root="/content/experience-fragments/aemguidesDALP" mode="merge"/>
+    <filter root="/content/dam/dita-templates" mode="replace">
+        <!-- Include everything under /content/dam/dita-templates -->
+        <include pattern="/content/dam/dita-templates(/.*)?"/>
+    </filter>
 </workspaceFilter>
