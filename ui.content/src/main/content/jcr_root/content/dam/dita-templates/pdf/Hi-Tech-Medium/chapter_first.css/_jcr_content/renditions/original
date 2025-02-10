@@ -1,0 +1,53 @@
+.chapter_firstpage_header {
+  display: none;
+}
+.chapter_firstpage_content {
+  /* padding: 80px 73px 40px 73px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.chapter_firstpage_metadata {
+  width: 311px;
+  margin-bottom: 69%;
+}
+.chapter_firstpage_title {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+  color: #0C1256;
+  padding-bottom: 8px;
+  margin: 0;
+}
+.chapter_firstpage_description {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #0C1256;
+  margin: 0;
+}
+.chapter_firstpage_cover-img {
+  width: 648px;
+  height: 286px;
+}
+.chapter_firstpage_footer {
+  /* padding: 0 73px 40px 73px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.chapter_firstpage_footer_text {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 400;
+  color: #0C1256;
+  margin: 0;
+}
+.chapter_firstpage_footer_page_number {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+  color: #0C1256;
+  margin: 0;
+}
