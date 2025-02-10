@@ -6,16 +6,16 @@
   <link rel="stylesheet" href="layout.css" type="text/css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
   <title>Blank Page Layout</title>
-  <meta name="page-style" content="background-image:url(&#39;emptybackground.svg&#39;);background-size:;content:&quot;&quot;;background-position:center center;background-repeat:no-repeat;" />
+  <meta name="page-style" content="background-image:url(&#39;emptybackground.svg&#39;);background-size:;content:&quot;&quot;;background-position:center center;background-repeat:no-repeat;size:landscape;" />
   <meta name="footnote-style" content="" />
 </head>
 <body>
   <div data-region="header">
-    <p> </p>
+    <p></p>
   </div>
-  <div data-region="content"> </div>
+  <div data-region="content"></div>
   <div data-region="footer">
-    <p> </p>
+    <p></p>
   </div>
 </body>
 </html>

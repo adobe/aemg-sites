@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- <link rel="stylesheet" href="layout.css" type="text/css" /> -->
+  <link rel="stylesheet" href="frontcover_landscape.css" type="text/css" />
+  <meta name="page-style" content="background-image:url(&#39;../../../aemguidesDALP/hi-tech/pdf/complex/images/frontcover-image.png&#39;);background-repeat:no-repeat;background-size:100% auto;background-position:center bottom;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;size:landscape;" />
+  <title>Front Cover Page</title>
+  <meta name="footnote-style" content="" />
+</head>
+<body>
+  <div></div>
+  <div class="frontcover-header"><img class="frontcover_logo" src="../../../aemguidesDALP/hi-tech/pdf/complex/images/logo.png" /></div>
+  <div class="frontcover-footer-landscape">
+    <div class="footer-title-subtitle">
+      <p class="frontcover_mainbooktitle">Jetson AGX<br />
+        Orin Series</p>
+      <p class="frontcover_booktitlealt">Application Note</p>
+    </div>
+    <div class="frontcover_publish-date">
+      <p>DA-11040-001_v1.3 | May 2024</p>
+    </div>
+  </div>
+</body>
+</html>
