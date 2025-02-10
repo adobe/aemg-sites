@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="a3f140b6-6d5f-418f-8ad9-eee7a145f6a7">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-08T16:29:06.759+05:30"
+        jcr:lastModified="{Date}2025-02-03T19:31:43.801+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-08T16:29:06.607+05:30"
-            dam:sha1="2ab1e728261a20be0b5a301918f428df278429b3"
-            dam:size="{Long}577"
-            dc:format="application/octet-stream"
+            dam:extracted="{Date}2025-02-03T19:31:43.773+05:30"
+            dam:sha1="52582c5a7e575abac6348f8e30b2ad45268c44ba"
+            dam:size="{Long}559"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>

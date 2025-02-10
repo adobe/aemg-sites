@@ -19,7 +19,7 @@
   <div class="lot_content" data-region="content"></div>
   <div class="lot_footer" data-region="footer"><!-- <hr class="lot_footer_hr" /> -->
     <div>
-   <p class="toc_footer_text"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span> <span class="toc_footer_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> Sustainability Report<span class="toc_publish-date"> Q3 2024</span></p>
+      <p class="toc_footer_text"><span class="toc_footer_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span><span class="toc_footer_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> Sustainability Report<span class="toc_publish-date"> Q3 2024</span></p>
     </div>
   </div>
 </body>

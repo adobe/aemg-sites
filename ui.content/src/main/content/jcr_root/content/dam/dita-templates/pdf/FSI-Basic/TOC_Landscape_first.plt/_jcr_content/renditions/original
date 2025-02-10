@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>TOC Page Layout</title>
-  <meta name="page-style" content="size:A4 landscape;" />
+  <meta name="page-style" content="size:A4 landscape; margin-bottom : 140px;" />
   <meta name="footnote-style" content="" />
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
@@ -14,7 +14,7 @@
 <body>
   <div data-region="header">
     <div class="toc_landsc_header">
-      <p class="toc_landsc_cheader_title">Content Overview</p>
+      <p class="toc_landsc_header_title">Content Overview</p>
       <img class="toc_landsc_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img.png" />
     </div>
   </div>

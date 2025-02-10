@@ -12,7 +12,7 @@
         dam:processingRenditions="[cq5dam.thumbnail.48.48.png,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.features.json,cq5dam.thumbnail.140.100.png,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.tags.json,cqdam.text.txt,cqdam.metadata.xml]"
         dam:processingRequestedDate="{Date}2022-06-06T16:55:24.576Z"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2025-02-08T16:29:10.033+05:30"
+        jcr:lastModified="{Date}2024-12-02T17:36:18.400+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlLastCreatedVersion="1.0"
@@ -46,9 +46,9 @@
                 reason="RenditionFormatUnsupported"/>
         </dam:failedRenditions>
         <metadata
-            dam:extracted="{Date}2025-02-08T16:29:09.900+05:30"
-            dam:sha1="1f112adc4050fae3c02a152adedcf37de721a1e9"
-            dam:size="{Long}4874"
+            dam:extracted="{Date}2024-12-02T17:36:18.287+05:30"
+            dam:sha1="d45a8c526fc4f549d7aedc751880d1135166183e"
+            dam:size="{Long}2388"
             dc:format="application/vnd.groove-tool-template"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

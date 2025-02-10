@@ -15,10 +15,10 @@
     <p class="lof_header_title" style="">List Of Figure</p>
     <div class="header_logo"><img src="../../../aemguidesDALP/fsi/images/logo-img1.png" /></div>
   </div>
-  <div class="lof_content" data-region="content"></div>
+  <div class="lof_content" data-region="content" style=""></div>
   <div class="lof_footer" data-region="footer"><!-- <hr class="of_footer_hr" /> -->
     <div>
-    <p class="toc_footer_text"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span> <span class="toc_footer_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> Sustainability Report<span class="toc_publish-date"> Q3 2024</span></p>
+      <p class="toc_footer_text"><span class="toc_footer_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span><span class="toc_footer_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> Sustainability Report<span class="toc_publish-date"> Q3 2024</span></p>
     </div>
   </div>
 </body>

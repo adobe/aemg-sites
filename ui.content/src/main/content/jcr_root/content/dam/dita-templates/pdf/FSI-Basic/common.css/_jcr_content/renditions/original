@@ -10,6 +10,7 @@ body {
   justify-content: space-between;
   border-bottom: 0.5px solid var(--color-gray);
   padding-bottom: 8px;
+  margin-bottom: 20px;
 }
 .chapter_header_page-number {
   font-family: var(--font-fam-primary);
@@ -51,7 +52,7 @@ body {
   text-decoration: none;
 }
 .chapter-body {
-  padding-bottom: 56px;
+  padding-bottom: 30px;
 }
 h1.title {
   font-family: var(--font-fam-primary);
@@ -148,8 +149,12 @@ li {
 .entry {
   padding: 8px 16px;
 }
+.table_img_container {
+  text-align: center;
+}
 .table_img {
   width: 98px;
   height: 98px;
   padding-top: 16px;
+  display: block;
 }

@@ -8,11 +8,11 @@
         cq:name="polararea_chart.js"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-08T16:29:21.523+05:30"
+        jcr:lastModified="{Date}2025-01-31T12:29:41.367+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-08T16:29:21.243+05:30"
+            dam:extracted="{Date}2025-01-31T12:29:41.310+05:30"
             dam:sha1="b5eee1f734faeae21f9251ca83713ec7f23564e1"
             dam:size="{Long}608"
             dc:format="application/javascript"

@@ -6,7 +6,7 @@
   <!-- <link rel="stylesheet" href="layout.css" type="text/css" />
   <link rel="stylesheet" type="text/css" href="content.css" /> -->
   <title>Left Chapter Page Layout</title>
-  <meta name="page-style" content="" />
+  <meta name="page-style" content="size:A4 portrait; margin-bottom: 120px;" />
   <meta name="footnote-style" content="margin-top:1rem;" />
   <link rel="stylesheet" type="text/css" href="chapter.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
@@ -15,7 +15,7 @@
 <body>
   <div data-region="header">
     <div class="chapter_header" style="">
-      <div class="chapter_header_logo"><img class="chapter_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img1.png" /></div>
+      <div class="chapter_header_logo" style=""><img class="chapter_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img1.png" /></div>
       <span class="chapter_header_page-number" data-field="page-number" data-format="default">1</span>
     </div>
   </div>

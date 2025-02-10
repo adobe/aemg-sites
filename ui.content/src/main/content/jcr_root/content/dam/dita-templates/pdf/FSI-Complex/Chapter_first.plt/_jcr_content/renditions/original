@@ -11,7 +11,9 @@
   <link rel="stylesheet" type="text/css" href="content.css" />
 </head>
 <body>
-  <div class="chapter_firstpage_header" data-region="header"></div>
+  <div class="chapter_firstpage_header" data-region="header" style=""><br />
+    
+  </div>
   <div data-region="content">
     <div class="chapter_firstpage_content">
       <div class="chapter_firstpage_content_left">
@@ -23,7 +25,7 @@
       </div>
       <div class="chapter_firstpage_content_right">
         <div class="chapter_firstpage_logo_container">
-          <div class="chapter_firstpage_logo"><img class="chapter_firstpage_logo" src="../../../aemguidesDALP/fsi/images/logo-img1.png" /></div>
+           <div class="chapter_firstpage_logo" style=""><img class="chapter_firstpage_landsc_logo" src="../../../aemguidesDALP/fsi/images/logo-img1.png" /></div>
         </div>
         <!-- <div class="chapter_firstpage_cover_img"></div> -->
       </div>
