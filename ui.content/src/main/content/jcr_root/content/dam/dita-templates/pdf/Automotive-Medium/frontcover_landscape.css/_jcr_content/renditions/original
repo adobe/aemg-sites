@@ -1,0 +1,117 @@
+/*Created with AEM Guides*/
+.frontcover-landsc-config {
+  /* text-sizes */
+  --base-size: 16px;
+  --fs-base: 0.75rem;
+  --lh-base: 0.875rem;
+  --fs-medium: 1.125rem;
+  --lh-medium: 1.313rem;
+  --fs-large: 3.25rem;
+  --lh-large: 4.15rem;
+  /* text-weight */
+  --font-light: 350;
+  --font-normal: 400;
+  --font-bold: 700;
+  /* text-color */
+  --text-color-primary: #000000;
+  --text-color-secondary: #888888;
+  /* letter spacing */
+  --letter-spacing: 0.125rem;
+}
+html {
+  font-size: var(--base-size);
+  font-family: var(--font-fam-secondary);
+}
+.frontcover-landsc_description {
+  font-family: Adobe Clean;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFF;
+  margin: 0;
+}
+.frontcover-landsc {
+  padding-top: 40px;
+  padding-left: 73px;
+  padding-right: 73px;
+  padding-bottom: 51px;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.frontcover-landsc_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 38px;
+}
+.frontcover-landsc_header-right {
+  text-align: right;
+  color: #FFFFFF;
+}
+.frontcover-landsc_header-right p {
+  margin: 0;
+}
+.frontcover-landsc_doctype {
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+}
+.frontcover-landsc_header .frontcover-landsc_created-date {
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: var(--font-bold);
+}
+.frontcover-landsc_header .frontcover-landsc_logo-image {
+  width: 185px;
+  height: 47px;
+}
+.frontcover-landsc_metadata {
+  font-family: var(--font-fam-primary);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  display: flex;
+  flex-direction: column;
+}
+.frontcover-landsc_metadata .frontcover-landsc_created-date {}
+.frontcover-landsc_metadata .frontcover-landsc_product-brand {}
+.frontcover-landsc_metadata .frontcover-landsc_product-name {}
+.frontcover-landsc_footer {
+  display: flex;
+  gap: 40px;
+  font-size: var(--fs-sm);
+  line-height: var(--lh-sm);
+  margin-top: 32px;
+  color: #FFFFFF;
+  margin-top: auto;
+}
+.frontcover-landsc_version-label {
+  font-weight: var(--font-light);
+}
+.frontcover-landsc_version {
+  text-align: right;
+  font-weight: var(--font-bold);
+}
+.frontcover-landsc_language-label {
+  font-weight: var(--font-light);
+  margin-right: auto;
+}
+.frontcover-landsc_language {
+  font-weight: var(--font-bold);
+  margin-right: auto;
+}
+.frontcover-landsc_urls {
+  color: #FFFFFF;
+  text-decoration: none;
+  white-space: nowrap;
+}

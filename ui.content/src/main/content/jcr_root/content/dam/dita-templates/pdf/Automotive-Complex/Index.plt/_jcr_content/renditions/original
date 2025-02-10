@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Index Page Layout</title>
+  <!-- <link rel="stylesheet" href="layout.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="content.css" /> -->
+  <meta name="page-style" content="size:portrait; margin-left:73px; margin-right:73px; margin-top: 80px;  margin-bottom: 140px;" />
+  <!-- <link rel="stylesheet" type="text/css" href="index_complex.css" /> -->
+  <link rel="stylesheet" type="text/css" href="common.css" />
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+</head>
+<body>
+  <div data-region="header" id="index_header">
+    <h5 id="index_header_title">Index</h5>
+    <p id="index_header_titlealts">2024 Mercedes-Benz EQG</p>
+  </div>
+  <div data-region="content" id="idx_content"></div>
+  <div data-region="footer" id="index_footer">
+    <hr style="border: 0.5px solid #2C343B; margin: 0; padding: 0;" />
+    <div id="index_footer_product-name">Smith, J. A. (2020). The future of automotive technology: Innovations and trends. Tech Publishers.</div>
+    <a id="index_footer_urls">www.carmanualsite.com/vehicle-overview</a><br />
+    <a id="index_footer_urls">www.carmanualsite.com/dashboard-controls</a>
+  </div>
+</body>
+</html>

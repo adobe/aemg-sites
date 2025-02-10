@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:lockable,mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="09a07257-a203-4e3d-b36a-cec758f5c7bf">
+    <jcr:content
+        cq:name="pdf.tpl"
+        cq:parentPath="/content/dam/dita-templates/pdf/Automative-Medium"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-08T16:29:05.392+05:30"
+        jcr:lastModifiedBy="prashant.singh@deptagency.com"
+        jcr:primaryType="dam:AssetContent"
+        dxmlSkipVersionCreation="{Boolean}true">
+        <metadata
+            dam:extracted="{Date}2025-02-08T16:29:05.152+05:30"
+            dam:sha1="4f346bd3d0701550c1335e1d0ef7e0e88d1ff631"
+            dam:size="{Long}4881"
+            dc:format="application/vnd.groove-tool-template"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            docstate="Draft"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
