@@ -69,13 +69,12 @@ body {
   color: #013220;
 }
 .chapter_header_logo {
-  background-image: url('../../../aemguidesDALP/fsi/images/logo-img.png');
-  background-size: 100% 100%;
   width: 33px;
   height: 17px;
 }
 .chapter_footer {
   padding-bottom: 24px;
+  padding-top: 32px;
 }
 .chapter_footer_text_container {
   display: flex;
@@ -252,12 +251,10 @@ li {
   padding-top: 82px;
   padding-left: 190px;
 } */
-.chapter_firstpage_logo {
-  background-image: url('../../../aemguidesDALP/fsi/images/logo-img1.png');
-  background-size: 100% 100%;
+/* .chapter_firstpage_logo {
   width: 87px;
   height: 45px;
-}
+} */
 /* .chapter_firstpage_cover_img {
   background-image: url('../../../aemguidesDALP/fsi/images/cover-page-img.png');
   background-size: 100% 100%;
@@ -293,4 +290,12 @@ h1.title.chapter {
   width: 98px;
   height: 98px;
   padding-top: 16px;
+  display: block;
+}
+.topic-body {
+  margin-bottom: 40px;
+}
+.graph_landscape-content {
+  display: block;
+  column-count: unset;
 }

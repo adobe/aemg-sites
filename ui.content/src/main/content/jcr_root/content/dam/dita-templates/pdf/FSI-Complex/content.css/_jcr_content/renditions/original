@@ -40,7 +40,7 @@ h1.chapter {
   position: relative;
   column-span: all;
   margin-bottom: 24pt;
-  margin-left: calc(var(--list-indent) + var(--prefix-size) + var(--prefix-gap));
+  /* margin-left: calc(var(--list-indent) + var(--prefix-size) + var(--prefix-gap)); */
   margin-top: calc(var(--vertical-spacing) / 2);
 }
 h1.chapter:before {
@@ -556,12 +556,12 @@ figcaption.title>.prefix-content::after {
   content: " " counter(h1\.chapter1, decimal) "." counter(fig-count) " : ";
   font-weight: bold;
 }
-.toc-level-1{
-    counter-increment: alphabeticList;
+.toc-level-1 {
+  counter-increment: alphabeticList;
 }
-.toc-level-1::before{
-    content:"Section " counter(alphabeticList, upper-alpha) ": " !important;
-    speak: counter(alphabeticList, upper-alpha);
+.toc-level-1::before {
+  content: "Section " counter(alphabeticList, upper-alpha) ": " !important;
+  speak: counter(alphabeticList, upper-alpha);
 }
 /**** Others ****/
 /*

@@ -84,3 +84,7 @@ glossdef {
   padding-bottom: 4px;
   margin-top: 50px;
 }
+.header_logo {
+  max-height: 17px;
+  max-width: 33px;
+}

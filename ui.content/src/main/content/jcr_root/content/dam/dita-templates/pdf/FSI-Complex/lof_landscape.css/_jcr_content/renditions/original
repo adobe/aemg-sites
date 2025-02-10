@@ -1,7 +1,7 @@
-.lof_header {
+/* .lof_header {
   margin-top: 50px;
   text-align: left;
-}
+} */
 .lof_content,
 .lof-body {
   padding-top: 60px;
@@ -33,7 +33,8 @@
 }
 .lof_content .lof-level-1::after,
 .lof-level-1::after {
-  color: var(--color-accent);
+  color: #013220;
+   font-weight: 700;
 }
 .lof_footer {
   margin-bottom: 0px;
@@ -62,4 +63,16 @@
 .lof-body {
   column-count: 2;
   column-gap: 60px;
+}
+.lof_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid #AEAEAE;
+  padding-bottom: 4px;
+  margin-top: 50px;
+}
+.header_logo {
+  max-height: 17px;
+  max-width: 33px;
 }

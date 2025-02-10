@@ -50,8 +50,6 @@
   padding-left: 308px;
 }
 .chapter_firstpage_landsc_logo {
-  background-image: url('../../../aemguidesDALP/fsi/images/logo-img1.png');
-  background-size: 100% 100%;
   width: 87px;
   height: 45px;
 }
@@ -77,8 +75,6 @@
   color: var(--color-primary);
 }
 .chapter_leftpage_landsc_header_logo {
-  background-image: url('../../../aemguidesDALP/fsi/images/logo-img.png');
-  background-size: 100% 100%;
   width: 33px;
   height: 17px;
 }
@@ -114,6 +110,7 @@ h1.title.chapter {
   color: var(--color-primary);
   margin-bottom: 8px;
   padding-left: 8px;
+  display: inline-block;
 }
 .shortdesc {
   font-family: var(--font-fam-primary);
@@ -124,11 +121,11 @@ h1.title.chapter {
   margin-bottom: 36px;
   padding-bottom: 0px;
 }
-/* .chart-container {
-  background-color: #F9F9F9;
-  width: 500px;
-  height: 500px;
-} */
+.chart-container {
+  /* background-color: #F9F9F9; */
+  width: 476px;
+  height: 323px;
+}
 .thead {
   font-family: var(--font-fam-primary);
   font-size: var(--text-sm);
@@ -200,8 +197,6 @@ li {
   color: var(--color-primary);
 }
 .chapter_rightpage_landsc_header_logo {
-  background-image: url('../../../aemguidesDALP/fsi/images/logo-img.png');
-  background-size: 100% 100%;
   width: 33px;
   height: 17px;
 }
@@ -234,7 +229,7 @@ li {
 }
 .chapter_leftpage_landsc_header,
 .chapter_rightpage_landsc_header {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .intro_content {
   font-weight: 350;
@@ -248,15 +243,16 @@ li {
   max-width: 300px;
   max-height: 300px;
 } */
-.chapter_leftpage_footer {
+.chapter_footer {
   padding-bottom: 24px;
+  padding-top: 32px;
 }
 .chapter_footer_text_container {
   display: flex;
   gap: 4px;
   padding-bottom: 4px;
 }
-.chapter_leftpage_footer_text {
+.chapter_footer_text {
   font-family: var(--font-fam-primary);
   font-size: var(--text-4xs);
   line-height: var(--text-4xs-lh);
@@ -264,16 +260,28 @@ li {
   color: var(--color-secondary);
   margin: 0;
 }
-.chapter_leftpage_footer_number {
+.chapter_footer_number {
   font-family: var(--font-fam-primary);
   font-size: var(--text-4xs);
   line-height: var(--text-4xs-lh);
   font-weight: 400;
   color: var(--color-secondary);
-  padding-right: 3px;
   margin: 0;
 }
-.chapter_leftpage_footer_urls {
+.chapter_footer_urls {
   color: var(--color-secondary);
   text-decoration: none;
+}
+.topic-body {
+  margin-bottom: 40px;
+}
+.graph_landscape-content {
+  column-count: 2;
+  column-gap: 100px;
+}
+.table_img {
+  width: 98px;
+  height: 98px;
+  padding-top: 16px;
+  display: block;
 }

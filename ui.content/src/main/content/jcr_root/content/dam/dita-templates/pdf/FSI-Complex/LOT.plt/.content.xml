@@ -12,7 +12,7 @@
         dam:processingRenditions="[cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.140.100.png,cq5dam.web.1280.1280.jpeg,cqdam.text.txt,cqdam.machine.metadata.features.json,cqdam.metadata.xml,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.tags.json]"
         dam:processingRequestedDate="{Date}2022-06-06T16:55:17.764Z"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2025-02-08T16:29:10.585+05:30"
+        jcr:lastModified="{Date}2024-12-02T17:36:12.823+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlCreateVersion="{Boolean}true"
@@ -47,9 +47,9 @@
                 reason="RenditionFormatUnsupported"/>
         </dam:failedRenditions>
         <metadata
-            dam:extracted="{Date}2025-02-08T16:29:10.429+05:30"
-            dam:sha1="9a89fa4d0014769348f337ed6b15ec0099f84df2"
-            dam:size="{Long}1474"
+            dam:extracted="{Date}2024-12-02T17:36:12.729+05:30"
+            dam:sha1="31561a3d7df99dfd56aa597e3d72e871c55dbba3"
+            dam:size="{Long}850"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
