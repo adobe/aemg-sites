@@ -22,8 +22,8 @@
   padding-top: 90px;
 }
 .toc_footer {
-  padding-top: 80px;
-  padding-bottom: 41px;
+  margin-bottom: 20px;
+  margin-top : 60px;
 }
 .toc_footer_text {
   font-family: var(--font-fam-primary);

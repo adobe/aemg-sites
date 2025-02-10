@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Common Page Layout</title>
-  <meta name="page-style" content="size:A4 portrait;" />
+  <meta name="page-style" content="size:A4 portrait; margin-bottom: 130px;" />
   <meta name="footnote-style" content="" />
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
@@ -13,9 +13,7 @@
 </head>
 <body>
   <div data-region="header">
-    <div class="chapter_header"><span class="chapter_header_page-number" data-field="page-number" data-format="default">1</span>
-      <img class="chapter_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img.png" />
-    </div>
+    <div class="chapter_header"><span class="chapter_header_page-number" data-field="page-number" data-format="default">1</span> <img class="chapter_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img.png" /></div>
   </div>
   <div data-region="content"></div>
   <div data-region="footer">
