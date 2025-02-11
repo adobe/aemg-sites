@@ -75,6 +75,7 @@ h1.title.chapter {
 h1.title::before {
   font-family: var(--font-fam-primary);
   padding-left: 15px;
+  color: var(--color-primary);
 }
 .shortdesc {
   font-family: var(--font-fam-primary);
