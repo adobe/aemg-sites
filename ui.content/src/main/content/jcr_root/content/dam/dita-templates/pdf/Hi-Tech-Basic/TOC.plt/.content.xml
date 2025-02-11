@@ -6,15 +6,15 @@
     jcr:uuid="cb281250-337d-4bcd-a20b-825d95101814">
     <jcr:content
         cq:name="TOC.plt"
-        cq:parentPath="/content/dam/dita-templates/pdf/Basic"
+        cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-08T16:29:22.623+05:30"
+        jcr:lastModified="{Date}2025-02-03T19:05:05.402+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-08T16:29:22.369+05:30"
-            dam:sha1="4e3a2f24e3ca8b68bdaf55669c95a41e5b4181b0"
-            dam:size="{Long}1115"
+            dam:extracted="{Date}2025-02-03T19:05:05.194+05:30"
+            dam:sha1="682f11736fa2ff9cc4156488653c8e5d955e3641"
+            dam:size="{Long}837"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
