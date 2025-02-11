@@ -8,13 +8,13 @@
         cq:name="global.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-08T16:28:53.209+05:30"
+        jcr:lastModified="{Date}2025-02-11T12:54:17.145+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-08T16:28:52.916+05:30"
-            dam:sha1="25c6fa437df03c1bacd096e09d8ae0b3d63438ca"
-            dam:size="{Long}3869"
+            dam:extracted="{Date}2025-02-11T12:54:16.938+05:30"
+            dam:sha1="6ac697e5548067dd10ecfa48864ab23e17ac57c5"
+            dam:size="{Long}3908"
             dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

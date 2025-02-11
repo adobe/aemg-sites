@@ -8,11 +8,11 @@
         cq:name="Chapter_first.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automative-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-08T16:28:59.250+05:30"
+        jcr:lastModified="{Date}2025-02-11T12:54:21.546+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-08T16:28:59.042+05:30"
+            dam:extracted="{Date}2025-02-11T12:54:21.447+05:30"
             dam:sha1="e3c7442302ff0a6e3bee87d3953396b2a498e772"
             dam:size="{Long}2556"
             dc:format="application/xhtml+xml"
