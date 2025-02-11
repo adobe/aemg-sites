@@ -12,7 +12,7 @@
         dam:processingRenditions="[cq5dam.zoom.2048.2048.jpeg,cqdam.metadata.xml,cq5dam.thumbnail.48.48.png,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.features.json,cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.tags.json,cqdam.text.txt,cq5dam.thumbnail.140.100.png]"
         dam:processingRequestedDate="{Date}2022-06-06T16:55:16.469Z"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2024-12-02T17:36:15.252+05:30"
+        jcr:lastModified="{Date}2025-02-11T11:34:49.981+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         fmPostProcessedAt="2022-06-06T16:55:15.452Z|aab2d8c2-2458-444a-a5d5-e22dbfd44d00|2022-06-06T16:55:15.451Z|13|0"
@@ -44,9 +44,9 @@
                 reason="RenditionFormatUnsupported"/>
         </dam:failedRenditions>
         <metadata
-            dam:extracted="{Date}2024-12-02T17:36:15.172+05:30"
-            dam:sha1="9b47f72b6a4e3f5e4d4611615de1a36b9a8bea00"
-            dam:size="{Long}832"
+            dam:extracted="{Date}2025-02-11T11:34:49.926+05:30"
+            dam:sha1="55be4ceb346be73a88c6e35af9d3f96e6b711af9"
+            dam:size="{Long}1565"
             dc:format="application/octet-stream"
             dc:title="Glossary_Portrait.plt"
             jcr:mixinTypes="[cq:Taggable]"

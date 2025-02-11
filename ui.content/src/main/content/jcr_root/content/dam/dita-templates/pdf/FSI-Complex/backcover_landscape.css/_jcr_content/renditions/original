@@ -2,7 +2,7 @@
   box-sizing: border-box;
   width: 500px;
   height: 290px;
-  background-color: #FFFFFF;
+  background-color: var(--color-white, #FFFFFF);
   padding: 40px 110px 90px 40px;
   display: flex;
   gap: 16px;
@@ -16,36 +16,39 @@
 }
 .backcover_landsc_author-addressdetails {
   font-family: var(--font-fam-primary);
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 400;
-  color: #013220;
+  font-size: var(--text-xs); 
+  line-height: var(--text-xs-lh); 
+  font-weight: var(--font-fam-regular);
+  color: var(--color-primary);
   margin: 0;
 }
+
 .backcover_landsc_author-contactnumbers {
   font-family: var(--font-fam-primary);
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 400;
-  color: #013220;
+  font-size: var(--text-xs); 
+  line-height: var(--text-xs-lh); 
+  font-weight: var(--font-fam-regular);
+  color: var(--color-primary);
   padding-top: 16px;
   margin: 0;
 }
+
 .backcover_landsc_author-urls {
   font-family: var(--font-fam-primary);
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 400;
-  color: #013220;
+  font-size: var(--text-xs); 
+  line-height: var(--text-xs-lh); 
+  font-weight: var(--font-fam-regular);
+  color: var(--color-primary);
   padding-top: 16px;
   margin: 0;
 }
+
 .backcover_landsc_author-text {
   font-family: var(--font-fam-primary);
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 400;
-  color: #013220;
+  font-size: var(--text-xs); 
+  line-height: var(--text-xs-lh); 
+  font-weight: var(--font-fam-regular);
+  color: var(--color-primary);
   padding-top: 16px;
   margin: 0;
 }

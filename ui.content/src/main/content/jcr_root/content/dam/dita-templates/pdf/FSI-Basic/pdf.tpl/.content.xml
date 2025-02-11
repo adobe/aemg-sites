@@ -8,13 +8,13 @@
         cq:name="pdf.tpl"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-01-28T20:38:57.347+05:30"
+        jcr:lastModified="{Date}2025-02-11T11:34:53.461+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-01-28T20:38:57.293+05:30"
-            dam:sha1="4a39e62adb6c92305787d1128b5339f06507c865"
-            dam:size="{Long}2613"
+            dam:extracted="{Date}2025-02-11T11:34:53.351+05:30"
+            dam:sha1="99b2b3b38b5e744d5d9f108b4e088b89d9767c3b"
+            dam:size="{Long}3997"
             dc:format="application/vnd.groove-tool-template"
             dc:modified="{Date}2022-06-13T16:06:29.493+05:30"
             jcr:lastModified="{Date}2022-06-13T16:06:29.493+05:30"
