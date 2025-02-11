@@ -8,12 +8,12 @@
         cq:name="Chapter_right.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-08T16:28:46.210+05:30"
+        jcr:lastModified="{Date}2025-02-11T12:54:11.393+05:30"
         jcr:lastModifiedBy="krishna.mulik@deptagency.com"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-08T16:28:46.027+05:30"
+            dam:extracted="{Date}2025-02-11T12:54:10.802+05:30"
             dam:sha1="5000c986e558ddf8d457adb2a024f18b2232ae2a"
             dam:size="{Long}1181"
             dc:format="application/xhtml+xml"

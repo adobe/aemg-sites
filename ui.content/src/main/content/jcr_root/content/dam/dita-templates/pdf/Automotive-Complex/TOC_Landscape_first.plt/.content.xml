@@ -8,11 +8,11 @@
         cq:name="TOC_Landscape_first.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-08T16:28:46.154+05:30"
+        jcr:lastModified="{Date}2025-02-11T12:54:11.393+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-08T16:28:46.006+05:30"
+            dam:extracted="{Date}2025-02-11T12:54:10.810+05:30"
             dam:sha1="edbb257d26836eb7f0505fc41f8ef09a547e6e4f"
             dam:size="{Long}1481"
             dc:format="application/octet-stream"
