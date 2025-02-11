@@ -91,9 +91,9 @@
   </bookLists>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
   <layout>Common</layout>
-  <coverPageLayout>FrontCover_Landscape</coverPageLayout>
-  <tocLayout>TOC_Landscape</tocLayout>
-  <topicLayout>Common_Landscape</topicLayout>
+  <coverPageLayout>FrontCover</coverPageLayout>
+  <tocLayout>TOC</tocLayout>
+  <topicLayout>Common</topicLayout>
   <gloLayout></gloLayout>
   <indexLayout></indexLayout>
   <lofLayout></lofLayout>

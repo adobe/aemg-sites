@@ -63,6 +63,7 @@ h1.title.chapter {
 }
 h1.title::before {
   font-family: var(--font-fam-primary);
+  color: var(--color-primary);
   padding-left: 15px;
 }
 h2.title {
