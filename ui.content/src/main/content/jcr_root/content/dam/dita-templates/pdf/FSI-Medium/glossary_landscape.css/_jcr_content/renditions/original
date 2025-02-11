@@ -3,45 +3,45 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 0.5px solid #AEAEAE;
+  border-bottom: 0.5px solid var(--color-gray);
   padding-bottom: 4px;
   margin-top: 40px;
 }
 #glossary_header_title,
 .glo-title {
-  font-family: var(--font-fam-secondary);
-  font-size: 1.3rem;
-  line-height: 1.3rem;
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xl);
+  line-height: var(--text-xl-lh);
   font-weight: 400;
-  color: #013220;
+  color: var(--color-primary);
   margin-bottom: 8px;
 }
 #glossary_header_titlealts,
 .glossary_header_titlealts {
   font-family: var(--font-fam-primary);
-  font-size: 0.75rem;
-  line-height: 0.875rem;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
   font-weight: 400;
-  color: #013220;
+  color: var(--color-primary);
   margin-bottom: 40px;
 }
 /* Glossary Term and Definition Styles */
 .glo-term,
 glossterm {
-  font-family: var(--font-fam-secondary);
-  font-size: 0.75rem;
-  line-height: 0.875rem;
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
   font-weight: 700;
-  color: #013220;
+  color: var(--color-primary);
   margin-bottom: 4px;
 }
 .glo-definition,
 glossdef {
-  font-family: var(--font-fam-secondary);
-  font-size: 0.625rem;
-  line-height: 0.75rem;
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-3xs);
+  line-height: var(--text-3xs-lh);
   font-weight: 350;
-  color: #013220;
+  color: var(--color-primary);
   margin: unset;
 }
 /* Glossary Footer Styles */
@@ -49,20 +49,20 @@ glossdef {
   margin-bottom: 40px;
 } */
 .glossary_footer_product-name {
-  font-family: var(--font-fam-secondary);
-  font-size: 0.625rem;
-  line-height: 0.75rem;
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-2xs);
+  line-height: var(--text-2xs-lh);
   font-weight: 400;
-  color: #2C343B;
+  color: var(--color-secondary);
   padding-top: 8px;
   margin: unset;
 }
 .glossary_footer_urls {
-  font-family: var(--font-fam-secondary);
-  font-size: 0.625rem;
-  line-height: 0.75rem;
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-2xs);
+  line-height: var(--text-2xs-lh);
   font-weight: 400;
-  color: #2C343B;
+  color: var(--color-secondary);
 }
 .glo-body {
   display: grid;

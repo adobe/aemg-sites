@@ -6,39 +6,38 @@
 #glossary_header_title,
 .glo-title {
   font-family: var(--font-fam-secondary);
-  font-size: 1.3rem;
-  line-height: 1.3rem;
-  font-weight: 400;
-  color: #013220;
+  font-size: var(--text-lg);
+  line-height: var(--text-lg-lh);
+  font-weight: var(--font-fam-regular);
+  color: var(--color-primary);
   margin-bottom: 0px;
   margin-top: 0px;
 }
 #glossary_header_titlealts,
 .glossary_header_titlealts {
   font-family: var(--font-fam-primary);
-  font-size: 0.75rem;
-  line-height: 0.875rem;
-  font-weight: 400;
-  /* color: #7F8794; */
-  color: #013220;
+  font-size: var(--text-2xs);
+  line-height: var(--text-2xs-lh);
+  font-weight: var(--font-fam-regular);
+  color: var(--color-primary);
   margin-bottom: 40px;
 }
 /* Glossary Term and Definition Styles */
 .glo-term,
 glossterm {
   font-family: var(--font-fam-secondary);
-  font-size: 0.75rem;
-  line-height: 0.875rem;
-  font-weight: 700;
-  color: #013220;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: var(--font-fam-semibold); /* Adjusted to semi-bold weight */
+  color: var(--color-primary);
 }
 .glo-definition,
 glossdef {
   font-family: var(--font-fam-secondary);
-  font-size: 0.625rem;
-  line-height: 0.75rem;
-  font-weight: 350;
-  color: #013220;
+  font-size: var(--text-4xs);
+  line-height: var(--text-4xs-lh);
+  font-weight: 350; /* Consider creating a custom variable for lighter weight */
+  color: var(--color-primary);
 }
 /* Glossary Footer Styles */
 /* .glossary_footer {
@@ -46,22 +45,22 @@ glossdef {
 } */
 .glossary_footer_product-name {
   font-family: var(--font-fam-secondary);
-  font-size: 0.625rem;
-  line-height: 0.75rem;
-  font-weight: 400;
-  color: #2C343B;
+  font-size: var(--text-4xs);
+  line-height: var(--text-4xs-lh);
+  font-weight: var(--font-fam-regular);
+  color: var(--color-secondary);
   padding-top: 8px;
   margin: unset;
 }
 .glossary_footer_urls {
   font-family: var(--font-fam-secondary);
-  font-size: 0.625rem;
-  line-height: 0.75rem;
-  font-weight: 400;
-  color: #0F85EC;
+  font-size: var(--text-4xs);
+  line-height: var(--text-4xs-lh);
+  font-weight: var(--font-fam-regular);
+  color: var(--color-blue); /* Replaced with color-blue */
 }
 .glossary_footer_hr {
-  border: 0.5px solid #2C343B;
+  border: 0.5px solid var(--color-secondary);
   margin: 0;
   padding: 0;
 }
@@ -80,7 +79,7 @@ glossdef {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 0.5px solid #AEAEAE;
+  border-bottom: 0.5px solid var(--color-gray);
   padding-bottom: 4px;
   margin-top: 50px;
 }

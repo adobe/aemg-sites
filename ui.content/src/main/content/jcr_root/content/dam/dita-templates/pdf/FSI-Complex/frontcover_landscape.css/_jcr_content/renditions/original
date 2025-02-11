@@ -5,23 +5,23 @@
 }
 .frontcover_landsc_product-name {
   font-family: var(--font-fam-primary);
-  font-size: 60px;
-  line-height: 76px;
+  font-size: var(--text-6xl);
+  line-height: var(--text-6xl-lh);
   font-weight: 400;
-  color: #FFFFFF;
+  color: var(--color-accent);
   margin: 0;
 }
 .frontcover_landsc_publish-date {
   font-family: var(--font-fam-primary);
-  font-size: 24px;
-  line-height: 32px;
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
   font-weight: 400;
-  color: #FFFFFF;
+  color: var(--color-accent);
   margin: 0;
   padding-top: 4px;
 }
 .barchart_landsc_image_bg_color {
-  background-color: #002417;
+  background-color: var(--color-dark);
   width: 500px;
   height: 290px;
   position: absolute;
@@ -63,7 +63,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  background-color: #FFFFFF;
+  background-color: var(--color-accent);
   box-sizing: border-box;
 }
 .frontcover_landsc_logo {
@@ -72,10 +72,10 @@
 }
 .frontcover_landsc_text {
   font-family: var(--font-fam-primary);
-  font-size: 24px;
-  line-height: 32px;
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
   font-weight: 400;
-  color: #222222;
+  color: var(--color-black);
   margin: 0;
   width: 520px;
 }

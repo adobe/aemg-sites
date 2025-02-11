@@ -285,3 +285,6 @@ li {
   padding-top: 16px;
   display: block;
 }
+figure { 
+  break-inside: avoid;
+}

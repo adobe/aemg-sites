@@ -1,3 +1,4 @@
+/* Use global CSS variables for font-family, font-size, and colors */
 .content-card_img {
   height: 100%;
   width: 220px;
@@ -7,24 +8,24 @@
 }
 .intro_heading {
   font-weight: 700;
-  font-size: 40px;
-  line-height: 51px;
+  font-size: var(--text-4xl);
+  line-height: var(--text-4xl-lh);
   max-width: 100%;
-  color: #2C343B;
+  color: var(--color-secondary);
   margin-bottom: 35px;
 }
 .intro_subheading {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 23px;
-  color: #2C343B;
+  font-size: var(--text-xl);
+  line-height: var(--text-xl-lh);
+  color: var(--color-secondary);
   margin-bottom: 8px;
 }
 .intro_content {
   font-weight: 350;
-  font-size: 12px;
-  line-height: 16px;
-  color: #013220;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  color: var(--color-primary);
   margin-bottom: 25px;
   margin-top: 20px;
 }
@@ -41,32 +42,30 @@
 }
 body {
   font-family: var(--font-fam-primary);
-  font-size: 14px;
-  line-height: 19.12px;
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
   font-weight: 400;
-  color: #013220;
+  color: var(--color-primary);
 }
 .chapter_header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 0.5px solid #AEAEAE;
+  border-bottom: 0.5px solid var(--color-gray);
   padding-bottom: 8px;
-  /* margin-top: 30px;
-  margin-bottom: 20px; */
 }
 .chapter_header-right {
   flex-direction: row-reverse;
   display: flex;
   justify-content: space-between;
-  border-bottom: 0.5px solid #AEAEAE;
+  border-bottom: 0.5px solid var(--color-gray);
   padding-bottom: 8px;
 }
 .chapter_header_page-number {
   font-family: var(--font-fam-primary);
-  font-size: 12px;
-  line-height: 16px;
+  font-size: var(--text-4xs);
+  line-height: var(--text-4xs-lh);
   font-weight: 400;
-  color: #013220;
+  color: var(--color-primary);
 }
 .chapter_header_logo {
   width: 33px;
@@ -103,73 +102,73 @@ body {
 }
 h1.title {
   font-family: var(--font-fam-primary);
-  font-size: 24px;
-  line-height: 32px;
+  font-size: var(--text-xl);
+  line-height: var(--text-xl-lh);
   font-weight: 400;
-  color: #013220;
+  color: var(--color-primary);
   margin-bottom: 8px;
   margin-left: 10px;
 }
 h2.title {
   font-family: var(--font-fam-primary);
-  font-size: 16px;
-  line-height: 21.86px;
+  font-size: var(--text-lg);
+  line-height: var(--text-lg-lh);
   font-weight: 400;
-  color: #013220;
+  color: var(--color-primary);
 }
 .shortdesc {
   font-family: var(--font-fam-primary);
-  font-size: 16px;
-  line-height: 24px;
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
   font-weight: 400;
-  color: #013220;
+  color: var(--color-primary);
   margin-bottom: 36px;
   padding-bottom: unset;
 }
 .link,
 .topic a {
   font-family: var(--font-fam-primary);
-  font-size: 14px;
-  line-height: 20px;
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
   font-weight: 500;
-  color: #013220;
+  color: var(--color-primary);
 }
 .thead {
   font-family: var(--font-fam-primary);
-  font-size: 14px;
-  line-height: 20px;
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
   font-weight: 500;
-  color: #0C1256;
-  background-color: #E2F8F0;
-  border: 0.5px solid #ACACAC;
+  color: var(--color-dark);
+  background-color: var(--color-primary-light);
+  border: 0.5px solid var(--color-gray);
   text-align: left;
 }
 b,
 bold-text {
   font-weight: 700;
-  color: #0C1256;
+  color: var(--color-dark);
 }
 .tbody {
   font-family: var(--font-fam-primary);
-  font-size: 11px;
-  line-height: 14px;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
   font-weight: 400;
-  color: #454545;
-  border: 0.5px solid #ACACAC;
+  color: var(--color-neutral);
+  border: 0.5px solid var(--color-gray);
 }
 .tbody .entry {
   font-family: var(--font-fam-primary);
-  font-size: 11px;
-  line-height: 14px;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
   font-weight: 400;
-  color: #454545;
+  color: var(--color-neutral);
 }
 .tbody b {
   font-family: var(--font-fam-primary);
-  font-size: 11px;
-  line-height: 14px;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
   font-weight: 700;
-  color: #454545;
+  color: var(--color-neutral);
   margin-bottom: 16px;
 }
 .table {
@@ -181,17 +180,17 @@ ul {
 }
 li {
   font-family: var(--font-fam-primary);
-  font-size: 11px;
-  line-height: 14px;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
   font-weight: 400;
-  color: #454545;
+  color: var(--color-neutral);
   margin-bottom: 16px;
 }
 .entry {
   padding: 8px 16px;
-  color: #013220;
+  color: var(--color-primary);
 }
-/* chapter 1st page  */
+/* chapter 1st page */
 .chapter_firstpage_header {
   display: none;
 }
@@ -203,7 +202,7 @@ li {
   height: 1124px;
 }
 .chapter_firstpage_content_left {
-  background-color: #013220;
+  background-color: var(--color-primary);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -212,10 +211,10 @@ li {
 }
 .chapter_firstpage_title {
   font-family: var(--font-fam-primary);
-  font-size: 36px;
-  line-height: 48px;
+  font-size: var(--text-4xl);
+  line-height: var(--text-4xl-lh);
   font-weight: 500;
-  color: #E8F1FF;
+  color: var(--color-accent);
 }
 .chapter_firstpage_metadata {
   padding-right: 30px;
@@ -223,44 +222,35 @@ li {
 }
 .chapter_firstpage_desc {
   font-family: var(--font-fam-primary);
-  font-size: 24px;
-  line-height: 33px;
+  font-size: var(--text-xl);
+  line-height: var(--text-xl-lh);
   font-weight: 400;
-  color: #E8F1FF;
+  color: var(--color-accent);
   margin: 0;
 }
 .chapter_firstpage_descalt {
   font-family: var(--font-fam-primary);
-  font-size: 14px;
-  line-height: 19.12px;
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
   font-weight: 400;
-  color: #E8F1FF;
+  color: var(--color-accent);
   margin: 8px 0 0 0;
 }
 .chapter_firstpage_content_right {
-  background-color: #C6DFD9;
+  background-color: var(--color-blue);
   flex-basis: 350px;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
   padding-top: 82px;
   padding-left: 175px;
   box-sizing: border-box;
 }
-/* .chapter_firstpage_logo_container {
-  padding-top: 82px;
-  padding-left: 190px;
-} */
-/* .chapter_firstpage_logo {
-  width: 87px;
-  height: 45px;
-} */
-/* .chapter_firstpage_cover_img {
-  background-image: url('../../../aemguidesDALP/fsi/images/cover-page-img.png');
-  background-size: 100% 100%;
-  width: 350px;
-  height: 343px;
-} */
+.chapter_firstpage_logo_container {
+  max-width: 87px;
+  max-height: 45px;
+}
+.chapter_firstpage_logo {
+  width: 100%;
+  height: 100%;
+}
 .changetitle {
   width: 500px;
   height: 500px;
@@ -298,4 +288,11 @@ h1.title.chapter {
 .graph_landscape-content {
   display: block;
   column-count: unset;
+}
+figure {
+  break-inside: avoid;
+}
+.chart-container {
+  width: 674px;
+  height: 400px;
 }

@@ -12,7 +12,7 @@
         dam:processingRenditions="[cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.tags.json,cqdam.machine.metadata.features.json,cq5dam.zoom.2048.2048.jpeg,cqdam.metadata.xml,cq5dam.thumbnail.140.100.png,cq5dam.thumbnail.319.319.png,cqdam.text.txt,cq5dam.web.1280.1280.jpeg]"
         dam:processingRequestedDate="{Date}2022-06-06T16:55:19.585Z"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2024-12-02T17:36:15.017+05:30"
+        jcr:lastModified="{Date}2025-02-11T11:34:53.641+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         fmPostProcessedAt="2022-06-06T16:55:19.065Z|6827867b-4a9f-4441-9ded-3e1dd26ed844|2022-06-06T16:55:19.065Z|13|0"
@@ -44,9 +44,9 @@
                 reason="RenditionFormatUnsupported"/>
         </dam:failedRenditions>
         <metadata
-            dam:extracted="{Date}2024-12-02T17:36:14.839+05:30"
-            dam:sha1="e7f51ce3d2c9a5f1a86cfb3a063b4e57dc7b1f06"
-            dam:size="{Long}1266"
+            dam:extracted="{Date}2025-02-11T11:34:53.571+05:30"
+            dam:sha1="119356557cd4bae9ecafef6eb3f7315bdb29b490"
+            dam:size="{Long}1523"
             dc:format="application/octet-stream"
             dc:title="TOC_Portrait.plt"
             jcr:mixinTypes="[cq:Taggable]"

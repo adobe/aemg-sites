@@ -5,6 +5,6 @@
         dam:folderThumbnailPaths="[/content/dam/dita-templates/pdf/FSI-Basic/hsbc-logo-img.png,/content/dam/dita-templates/pdf/FSI-Basic/cover-page-img.png,/content/dam/dita-templates/pdf/FSI-Basic/logo-img.png]"
         jcr:primaryType="nt:unstructured"
         bgcolor="{Long}-1"
-        height="{Long}240"
-        width="{Long}280"/>
+        height="{Long}200"
+        width="{Long}240"/>
 </jcr:root>

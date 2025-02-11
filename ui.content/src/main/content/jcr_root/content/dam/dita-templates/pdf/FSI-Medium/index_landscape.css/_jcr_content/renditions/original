@@ -7,19 +7,19 @@
   margin-top: 40px;
 }
 #index_header_title {
-  font-family: var(--font-fam-secondary);
-  font-size: 1.3rem;
-  line-height: 1.3rem;
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xl);
+  line-height: var(--text-xl-lh);
   font-weight: 400;
-  color: #013220;
+  color: var(--color-primary);
   margin-bottom: 8px;
 }
 #index_header_titlealts {
-  font-family: var(--font-fam-primay);
-  font-size: 0.75rem;
-  line-height: 0.875rem;
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
   font-weight: 400;
-  color: #013220;
+  color: var(--color-primary);
   /* margin-bottom: 40px; */
   /* padding-bottom: 40px; */
 }
@@ -49,11 +49,11 @@
   padding: unset;
 }
 .idx-name {
-  font-family: var(--font-fam-secondary);
-  font-size: 0.75rem;
-  line-height: 0.875rem;
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
   font-weight: 350;
-  color: #013220;
+ color: var(--color-primary);
   /* margin-bottom: 16px; */
 }
 .idx-link {
@@ -71,23 +71,25 @@
   font-size: 0.625rem;
   line-height: 0.75rem;
   font-weight: 400;
-  color: #2C343B;
+  color: #var(--color-secondary);
   padding-top: 8px;
   margin: unset;
 }
 #index_footer_urls {
-  font-family: var(--font-fam-secondary);
-  font-size: 0.625rem;
-  line-height: 0.75rem;
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-3xs);
+  line-height: var(--text-3xs-lh);
   font-weight: 400;
-  color: #2C343B;
+  color: var(--color-secondary);
+  font-weight: 400;
+  color: var(--color-secondary);
   /* margin: unset; */
 }
 a.book-idx-link.idx-link {
-  color: #013220;
-  font-family: var(--font-fam-secondary);
-  font-size: 0.75rem;
-  line-height: 0.875rem;
+  color: var(--color-primary);
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
   font-weight: 700;
 }
 /* .book-idx-child.idx-child {
@@ -105,7 +107,7 @@ a.book-idx-link.idx-link {
   font-size: var(--text-3xs);
   line-height: var(--text-3xs-lh);
   font-weight: 400;
-  color: #var(--color-secondary);
+  color: var(--color-secondary);
   margin: 0;
 }
 .index_publish-date {

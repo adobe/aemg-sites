@@ -12,7 +12,7 @@
         dam:processingRenditions="[cq5dam.zoom.2048.2048.jpeg,cq5dam.web.1280.1280.jpeg,cqdam.metadata.xml,cqdam.machine.metadata.tags.json,cqdam.text.txt,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.features.json,cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.48.48.png]"
         dam:processingRequestedDate="{Date}2022-06-06T16:55:15.893Z"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2024-12-02T17:36:17.376+05:30"
+        jcr:lastModified="{Date}2025-02-11T11:34:52.481+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         fmPostProcessedAt="2022-06-06T16:55:15.104Z|5c0e83eb-994e-417a-b9d3-70ce60be987b|2022-06-06T16:55:15.104Z|13|0"
@@ -44,9 +44,9 @@
                 reason="RenditionFormatUnsupported"/>
         </dam:failedRenditions>
         <metadata
-            dam:extracted="{Date}2024-12-02T17:36:17.291+05:30"
-            dam:sha1="3ecae2c1fe9a46c43999c96918349fe7bf2aff44"
-            dam:size="{Long}1419"
+            dam:extracted="{Date}2025-02-11T11:34:52.426+05:30"
+            dam:sha1="6095976fc39b1a6a4b69f4db9e06fe47ff227016"
+            dam:size="{Long}1813"
             dc:format="application/octet-stream"
             dc:title="FrontCover_Portrait.plt"
             jcr:mixinTypes="[cq:Taggable]"
