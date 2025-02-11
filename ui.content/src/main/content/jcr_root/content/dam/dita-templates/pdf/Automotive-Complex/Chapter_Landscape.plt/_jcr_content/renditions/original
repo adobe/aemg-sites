@@ -8,8 +8,10 @@
   <title>Page Layout</title>
 </head>
 <body>
-  <div data-region="header" style=""></div>
-  <div data-region="content"></div>
+  <div data-region="header"></div>
+  <div data-region="content"><br />
+    
+  </div>
   <div data-region="footer">
     <p style="text-align: center;"><span data-field="page-number">1</span></p>
   </div>
