@@ -7,14 +7,14 @@
   <title>Page Layout</title>
   <meta name="footnote-style" content="" />
 
-
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="chapter_landscape.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
-  <link rel="stylesheet" type="text/css" href="global.css" />
 </head>
 <body>
-  <div data-region="header"></div>
+  <div data-region="header"><br />
+    
+  </div>
   <div data-region="content"></div>
   <div class="chapter_footer" data-region="footer" style="">
     <p class="chapter_footer_organization">Smith, J. A. (2020). The future of automotive technology:<br />
