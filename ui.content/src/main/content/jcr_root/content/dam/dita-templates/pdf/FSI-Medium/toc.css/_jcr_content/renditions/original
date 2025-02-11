@@ -33,7 +33,7 @@
   font-size: var(--text-3xs);
   line-height: var(--text-3xs-lh);
   font-weight: 400;
-  color: #var(--color-secondary);
+  color: var(--color-secondary);
   margin: 0;
 }
 .toc_footer_product-name {
@@ -49,7 +49,7 @@
   line-height: var(--text-2xs-lh);
   font-weight: 700;
   color: var(--color-secondary);
-  padding-right:4px;
+  padding-right: 4px;
 }
 .toc_publish-date {
   font-family: var(--font-fam-primary);
