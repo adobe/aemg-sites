@@ -171,3 +171,7 @@ footer {
   font-size: var(--text-9xl);
   line-height: var(--text-9xl-lh);
 }
+
+figure {
+  break-inside: avoid;
+}
