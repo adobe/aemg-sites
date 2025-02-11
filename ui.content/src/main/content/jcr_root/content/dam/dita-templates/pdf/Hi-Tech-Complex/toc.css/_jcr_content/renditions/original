@@ -46,8 +46,8 @@
   text-align: left;
   color: #FFFFFF;
   position: absolute;
-    bottom: 14%;
-    left: 0px;
-    padding-left: 19px;
-    padding-bottom: 41px;
+  bottom: 14%;
+  left: 0px;
+  padding-left: 19px;
+  padding-bottom: 41px;
 }

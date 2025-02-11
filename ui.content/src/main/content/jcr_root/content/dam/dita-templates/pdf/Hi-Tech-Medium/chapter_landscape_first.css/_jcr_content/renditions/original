@@ -1,0 +1,53 @@
+.chapter_firstpage_landsc_header {
+  display: none;
+}
+.chapter_firstpage_landsc_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.chapter_firstpage_landsc_metadata {
+  width: 311px;
+  margin-bottom: 13%;
+}
+.chapter_firstpage_landsc_title {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+  color: #0C1256;
+  padding-bottom: 8px;
+  margin: 0;
+}
+.chapter_firstpage_landsc_description {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #0C1256;
+  margin: 0;
+}
+.chapter_firstpage_landsc_cover-img {
+  width: 977px;
+  height: 286px;
+}
+.chapter_firstpage_landsc_footer {
+  /* padding: 0 73px 40px 73px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 36px;
+  margin-top: 16px;
+}
+.chapter_firstpage_landsc_footer_text {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 400;
+  color: #0C1256;
+  margin: 0;
+}
+.chapter_firstpage_landsc_footer_page_number {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+  color: #0C1256;
+  margin: 0;
+}

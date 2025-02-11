@@ -5,13 +5,15 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="b52c1243-0457-4a62-84af-81c3f191d3a6">
     <jcr:content
+        cq:name="Blank.plt"
+        cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
         dam:assetState="processed"
         dam:processingId="b2476df0-71bf-4e52-a3f4-5070caa6d507"
         dam:processingRenditions="[cqdam.machine.metadata.tags.json,cq5dam.thumbnail.48.48.png,cq5dam.web.1280.1280.jpeg,cqdam.text.txt,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.features.json,cq5dam.thumbnail.140.100.png,cqdam.metadata.xml]"
         dam:processingRequestedDate="{Date}2022-06-06T16:55:13.485Z"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2025-02-08T16:29:16.845+05:30"
-        jcr:lastModifiedBy="qeadmin"
+        jcr:lastModified="{Date}2025-02-04T02:19:25.236+05:30"
+        jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlLastCreatedVersion="1.0"
         dxmlSkipVersionCreation="{Boolean}true"
@@ -44,7 +46,7 @@
                 reason="RenditionFormatUnsupported"/>
         </dam:failedRenditions>
         <metadata
-            dam:extracted="{Date}2025-02-08T16:29:16.536+05:30"
+            dam:extracted="{Date}2025-02-04T02:19:25.124+05:30"
             dam:sha1="0547dae57bf1aa045d252cbfa3cfc00f4ddc2ee7"
             dam:size="{Long}767"
             dc:format="application/octet-stream"

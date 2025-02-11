@@ -4,23 +4,23 @@
   justify-content: space-between;
   align-items: center;
 }
-.chapter-text_wrapper .chapter_header-language{
-   font-size:12px;
-    line-height: 14px;
-    font-weight: 500px;
-    font-family: var(--font-fam-primary);
-    color: #0C1256;
-    letter-spacing: 1px;
-    padding-left: 73px;
+.chapter-text_wrapper .chapter_header-language {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+  font-family: var(--font-fam-primary-medium);
+  color: #0C1256;
+  letter-spacing: 1px;
+  padding-left: 73px;
 }
 .chapter-text_wrapper p {
   margin-top: -10px;
 }
-.title-number {
+.toc_header_page-number {
   font-size: 12px;
   line-height: 14px;
   font-weight: 500;
-  font-family: var(--font-fam-primary);
+  font-family: var(--font-fam-primary-medium);
   color: var(--color-accent);
   letter-spacing: 1px;
   padding: 21px 25px;
@@ -48,41 +48,65 @@
 .footer-text {
   font-size: 9px;
   line-height: 12px;
-  font-family: var(--font-fam-primary);
+  font-family: var(--font-fam-primary-regular);
   font-weight: 400;
   color: var(--color-accent);
 }
 .footer-number {
   font-size: 16px;
   line-height: 24px;
+  font-family: var(--font-fam-primary-medium);
   font-weight: 500;
   color: var(--color-accent);
 }
 .chapter-footer {
   margin: 0px;
 }
-.flex_col3 {
+h1.chapter{
+  font-size: 24px;
+  line-height: 32px;
+  font-family: var(--font-fam-secondry);
+  font-weight: 500;
+  color: #0C1256;
+}
+h2.chapter_sub-titles{
+  font-size: 14px;
+  line-height: 20px;
+  color: #0C1256;
+  font-weight: 500;
+  font-family: var(--font-fam-primary-medium);  
+}
+
+.chapter-body .p{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: var(--font-fam-primary-regular);
+    color: #0C1256;
+}
+
+.col-container-1 {
   display: flex;
   gap: 24px;
   margin-bottom: 144px;
 }
-.chapter_title {
+.col-1 {
   padding: 25px 20px 25px 14px;
 }
-.chapter_title,
-.chapter_title .p {
+.col-1,
+.col-1 .p {
   background-color: var(--color-accent);
   font-size: 20px;
   line-height: 24px;
   font-weight: 500;
-  font-family: var(--font-fam-primary);
+  font-family: var(--font-fam-primary-medium);
   color: #FFFFFF;
   flex-basis: 33.33%;
 }
-.chapter-flex2 {
+.col-2 {
   flex-basis: 33.33%;
 }
-.chapter-flex3 {
+.col-3 {
   flex-basis: 33.33%;
 }
 .desc_circle .p {
@@ -92,6 +116,7 @@
 .hi-tech_topic-template {
   font-size: 14px;
   line-height: 20px;
+  font-family: var(--font-fam-primary-medium);
   font-weight: 500;
   color: #0C1256;
   margin: 0px;
@@ -107,11 +132,11 @@ ol li {
   font-size: 12px;
   line-height: 16px;
   font-weight: 400;
-  font-family: var(--font-fam-primary);
+  font-family: var(--font-fam-primary-regular);
   color: #0C1256;
   margin-bottom: 16px;
 }
-.desc_circle {
+.desc_circle.p {
   width: 40px;
   height: 40px;
   margin: 0px;
@@ -124,11 +149,11 @@ ol li {
   justify-content: center;
   font-size: 16px;
   line-height: 24px;
-  font-family: var(--font-fam-primary);
+  font-family: var(--font-fam-primary-bold);
   font-weight: 700;
   color: #01EA57;
 }
-.flex-col2 {
+.section2_text-image-wrapper {
   display: flex;
   gap: 24px;
   border-top: 0.5px solid #000000;
@@ -140,11 +165,10 @@ ol li {
 .section2_text-wrapper .para-text {
   font-size: 14px;
   line-height: 20px;
-  font-family: var(--font-fam-primary);
+  font-family: var(--font-fam-primary-regular);
   font-weight: 400;
   color: #0C1256;
   margin-bottom: 16px;
-  width: 85%;
 }
 info p {
   margin-bottom: 16px;
@@ -152,7 +176,7 @@ info p {
 .info {
   font-size: 11px;
   line-height: 14px;
-  font-family: var(--font-fam-primary);
+  font-family: var(--font-fam-primary-regular);
   font-weight: 400;
   color: #FFFFFF;
   background: #87A3FB;
@@ -172,7 +196,7 @@ info p {
   padding: 12px;
   font-size: 9px;
   line-height: 12px;
-  font-family: var(--font-fam-primary);
+  font-family: var(--font-fam-primary-regular);
   font-weight: 400;
   color: #1a2a4a;
   border-left: 0px;
@@ -211,8 +235,8 @@ info p {
   flex-direction: column-reverse;
   margin: 0px;
 }
-.fig .prefix-content{
-  display: none !important; 
+.fig .prefix-content {
+  display: none !important;
 }
 .fig_image-wrapper {
   flex-basis: 58%;
@@ -225,7 +249,7 @@ info p {
   font-size: 9px;
   line-height: 12px;
   font-weight: 400;
-  font-family: var(--font-fam-primary);
+  font-family: var(--font-fam-primary-regular);
   color: #2C343B;
   margin-bottom: 0px;
   margin-top: 8px;

@@ -6,7 +6,7 @@
   <title>First Chapter Page Layout</title>
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
-  <meta name="page-style" content="" />
+  <meta name="page-style" content="size:portrait;" />
   <meta name="footnote-style" content="margin-top:1rem;" />
 </head>
 <body data-layout="page">

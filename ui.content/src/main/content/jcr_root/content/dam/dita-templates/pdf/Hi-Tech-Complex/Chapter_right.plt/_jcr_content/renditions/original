@@ -6,13 +6,13 @@
   <title>Right Chapter Page Layout</title>
   <link rel="stylesheet" href="layout.css" type="text/css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
-  <meta name="page-style" content="" />
+  <meta name="page-style" content="size:portrait;" />
   <meta name="footnote-style" content="margin-top:1rem;" />
 </head>
 <body data-layout="page">
   <div data-region="header">
     <p class="chapter-rightpage-lang">EN</p>
-   <p class="chapter-rightpage-nums"><span data-field="chapter-number" data-format="default">1</span></p>
+    <p class="chapter-rightpage-nums"><span data-field="chapter-number" data-format="default">1</span></p>
   </div>
   <div data-region="content"></div>
   <div data-region="footer">
