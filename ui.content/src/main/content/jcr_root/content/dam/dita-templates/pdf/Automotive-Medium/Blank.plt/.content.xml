@@ -8,11 +8,11 @@
         cq:name="Blank.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-08T16:28:56.925+05:30"
+        jcr:lastModified="{Date}2025-02-11T12:54:19.155+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-08T16:28:56.735+05:30"
+            dam:extracted="{Date}2025-02-11T12:54:19.060+05:30"
             dam:sha1="24c249654b9ab08307ad63dffe1877c02e5d708b"
             dam:size="{Long}677"
             dc:format="application/xhtml+xml"

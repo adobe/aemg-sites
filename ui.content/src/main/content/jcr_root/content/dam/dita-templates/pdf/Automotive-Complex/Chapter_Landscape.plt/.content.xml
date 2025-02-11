@@ -5,11 +5,11 @@
     jcr:uuid="bf3e9eb8-5099-4589-b59b-740f4700934a">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-08T16:28:53.279+05:30"
+        jcr:lastModified="{Date}2025-02-11T12:54:17.155+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-08T16:28:52.971+05:30"
+            dam:extracted="{Date}2025-02-11T12:54:16.978+05:30"
             dam:sha1="0eb27df1e9892d5306b2700265ee413be9b334fd"
             dam:size="{Long}570"
             dc:format="application/octet-stream"

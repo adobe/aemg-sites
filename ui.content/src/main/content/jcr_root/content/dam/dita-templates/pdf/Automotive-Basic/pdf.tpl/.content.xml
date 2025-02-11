@@ -8,11 +8,11 @@
         cq:name="pdf.tpl"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-08T16:29:02.964+05:30"
+        jcr:lastModified="{Date}2025-02-11T12:54:22.678+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-08T16:29:02.651+05:30"
+            dam:extracted="{Date}2025-02-11T12:54:22.596+05:30"
             dam:sha1="e408a765c92524ea264ad1d3e56e7c4caffe4cd6"
             dam:size="{Long}4193"
             dc:format="application/vnd.groove-tool-template"

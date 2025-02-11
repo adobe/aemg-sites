@@ -6,14 +6,14 @@
     jcr:uuid="09a07257-a203-4e3d-b36a-cec758f5c7bf">
     <jcr:content
         cq:name="pdf.tpl"
-        cq:parentPath="/content/dam/dita-templates/pdf/Automative-Medium"
+        cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-08T16:29:05.392+05:30"
-        jcr:lastModifiedBy="prashant.singh@deptagency.com"
+        jcr:lastModified="{Date}2025-02-11T12:54:25.640+05:30"
+        jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-08T16:29:05.152+05:30"
+            dam:extracted="{Date}2025-02-11T12:54:25.549+05:30"
             dam:sha1="4f346bd3d0701550c1335e1d0ef7e0e88d1ff631"
             dam:size="{Long}4881"
             dc:format="application/vnd.groove-tool-template"
