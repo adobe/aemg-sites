@@ -1,0 +1,26 @@
+@mixin light-theme {
+
+}
+
+@mixin dark-theme {
+
+}
+
+.light {
+  @include light-theme();
+}
+
+.dark {
+  @include dark-theme();
+}
+
+// OS Default.
+:root:not(.light):not(.dark) {
+  @media (prefers-color-scheme: light) {
+    @include light-theme;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    @include dark-theme;
+  }
+}
