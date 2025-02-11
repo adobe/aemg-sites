@@ -12,7 +12,7 @@
 <body>
   <p></p>
   <div data-region="header"><img src="../../../aemguidesDALP/hi-tech/pdf/complex/images/back_logo.png" style="width: 144px; height: 106px; margin-top: 69px;" /></div>
-  <div class="backcover-details" data-regio="content" style="
+  <div class="backcover-details-landscape" data-regio="content" style="
 ">
     <p class="main-description">Jetson AGX Orin Series Modules<br />
       Tuning and Compliance Guide</p>

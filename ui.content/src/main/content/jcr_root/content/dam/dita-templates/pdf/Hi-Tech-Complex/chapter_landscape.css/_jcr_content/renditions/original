@@ -147,6 +147,11 @@ h2.chapter_sub-titles {
   margin-top: 8px;
 }
 /* content-image start from here  */
+.Images-content-section-container-landscape {
+  display: flex;
+  gap: 80px;
+  flex-direction: row;
+}
 .content-figure-image-landscape {
   margin-left: 0px;
   margin-right: 0px;
@@ -162,10 +167,6 @@ figcaption.title>.prefix-content::after {
   text-align: left;
   color: #2C343B;
   margin-bottom: 8px;
-}
-.Images-content-section-container-landscape {
-  display: flex;
-  gap: 80px;
 }
 .images-main-container-landscape {
   display: flex;
@@ -198,42 +199,53 @@ figcaption.title>.prefix-content::after {
   height: 165px;
   opacity: 0px;
 }
-.content-section-landscape {
-  margin-top: 26px;
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-  text-align: left;
-  color: #0C1256;
-}
-  .note-cont {
-    display: flex;
-    background: #E8F1FF;
-    font-family: Urbanist;
-    font-size: 9px;
-    font-style: italic;
+  .content-section-landscape {
+    margin-top: 26px;
+    font-family: Inter;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 11px;
+    line-height: 18px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    margin: 27px 0px;
-    padding: 27px 15px;
+    color: #0C1256;
+    column-count: initial;
+    column-gap: initial;
+  }
+  .content-section-landscape div.p {
+    column-count: initial;
+    column-gap: initial;
+  }
+.note-cont {
+  display: flex;
+  background: #E8F1FF;
+  font-family: Urbanist;
+  font-size: 9px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 11px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 27px 0px;
+  padding: 27px 15px;
 }
-.note-cont img{
-   max-width: 24px;
-   max-height: 24px;
+.note-cont img {
+  max-width: 24px;
+  max-height: 24px;
   width: 100%;
   height: 100%;
 }
 .p {
-  column-count: unset;
-  column-gap: unset;
+  column-count: initial;
+  column-gap: initial;
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
   text-align: left;
   color: #0C1256;
+}
+.img-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
 }

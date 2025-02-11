@@ -13,7 +13,8 @@
   gap: 40px;
 }
 .backcover_org-contact-label,
-.backcover_org-address-label, .backcover_org-socials-label {
+.backcover_org-address-label,
+.backcover_org-socials-label {
   font-family: Adobe Clean;
   font-size: 12px;
   font-weight: 700;
@@ -22,13 +23,17 @@
   color: #000000;
   margin: 0;
 }
-.backcover_contact-container, .backcover_address-container, .backcover_socials-container {
+.backcover_contact-container,
+.backcover_address-container,
+.backcover_socials-container {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.backcover_org-contactnumbers, .backcover_org-emailaddresses
-,.backcover_org-addressdetails, .backcover_org-socials{
+.backcover_org-contactnumbers,
+.backcover_org-emailaddresses,
+.backcover_org-addressdetails,
+.backcover_org-socials {
   font-family: Adobe Clean;
   font-size: 12px;
   font-weight: 400;
@@ -45,4 +50,9 @@
   text-align: left;
   color: #010101;
   margin: 0;
+}
+.img-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
 }
