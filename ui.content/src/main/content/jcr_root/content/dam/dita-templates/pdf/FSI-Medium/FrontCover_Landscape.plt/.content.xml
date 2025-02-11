@@ -3,7 +3,7 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="5b74281b-4a0a-48d9-ad6f-1033b37b7b9c">
+    jcr:uuid="ffe47614-3915-4e36-ac23-0b30915595c5">
     <jcr:content
         cq:name="FrontCover_Landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Medium"
