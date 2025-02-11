@@ -32,7 +32,7 @@
   font-size: 30px;
   line-height: 40px;
   font-weight: 500;
-  color: #FFFFFF;
+  color: var(--color-primary-white);
   display: inline-block;
   margin-bottom: 8px;
   font-family: var(--font-fam-secondry);
@@ -42,7 +42,7 @@
   line-height: 20px;
   font-family: var(--font-fam-primary-regular);
   font-weight: 400;
-  color: #FFFFFF;
+  color: var(--color-primary-white);
   display: inline-block;
   margin-bottom: 40px;
 }
@@ -51,5 +51,5 @@
   line-height: 14px;
   font-family: var(--font-fam-primary-medium);
   font-weight: 500;
-  color: #01EA57;
+  color: var(--color-primary);
 }
