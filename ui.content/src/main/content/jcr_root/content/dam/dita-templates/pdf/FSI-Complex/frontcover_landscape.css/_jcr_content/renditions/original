@@ -5,16 +5,16 @@
 }
 .frontcover_landsc_product-name {
   font-family: var(--font-fam-primary);
-  font-size: var(--text-6xl);
-  line-height: var(--text-6xl-lh);
+  font-size: 60px;
+  line-height: 76px;
   font-weight: 400;
   color: var(--color-accent);
   margin: 0;
 }
 .frontcover_landsc_publish-date {
   font-family: var(--font-fam-primary);
-  font-size: var(--text-base);
-  line-height: var(--text-base-lh);
+  font-size: 24px;
+  line-height: 32px;
   font-weight: 400;
   color: var(--color-accent);
   margin: 0;
@@ -72,8 +72,8 @@
 }
 .frontcover_landsc_text {
   font-family: var(--font-fam-primary);
-  font-size: var(--text-base);
-  line-height: var(--text-base-lh);
+  font-size: 24px;
+  line-height: 32px;
   font-weight: 400;
   color: var(--color-black);
   margin: 0;

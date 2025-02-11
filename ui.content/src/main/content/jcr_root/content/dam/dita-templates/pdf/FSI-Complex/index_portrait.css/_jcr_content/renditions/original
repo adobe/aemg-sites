@@ -2,125 +2,105 @@
   margin-bottom: 27px;
   text-align: left;
 } */
-
 #index_header_title {
-  font-family: var(--font-fam-secondary); /* Assuming you have a secondary font defined */
-  font-size: var(--text-lg);
-  line-height: var(--text-lg-lh);
+  font-family: var(--font-fam-secondary);
+  font-size: 1.3rem;
+  line-height: 1.3rem;
   font-weight: 400;
   color: var(--color-primary);
   margin-bottom: 0px;
   margin-top: 0px;
 }
-
 #index_header_titlealts {
-  font-family: var(--font-fam-primary);
-  font-size: var(--text-xs);
-  line-height: var(--text-xs-lh);
+  font-family: var(--font-fam-primay);
+  font-size: 0.75rem;
+  line-height: 0.875rem;
   font-weight: 400;
   color: var(--color-secondary);
   margin-bottom: 40px;
   padding-bottom: 40px;
 }
-
 .idx-body {
   column-count: unset;
   column-fill: unset;
 }
-
 .idx-title {
   column-span: all;
 }
-
 .idx-keyword-group {
   font-weight: bold;
-  font-size: var(--text-sm);
-  margin-top: var(--text-xs);
+  font-size: 12pt;
+  margin-top: 16pt;
 }
-
 .idx-keyword-group:first-of-type {
   margin-top: 0pt;
 }
-
 .idx-unit {
   padding-bottom: 0px;
   margin: 0px;
   flex-basis: 40%;
 }
-
 .idx-keyword {
   margin: unset;
   padding: unset;
 }
-
 .idx-name {
   font-family: var(--font-fam-secondary);
-  font-size: var(--text-3xs);
-  line-height: var(--text-3xs-lh);
+  font-size: 0.75rem;
+  line-height: 0.875rem;
   font-weight: 350;
   color: var(--color-primary);
   /* margin-bottom: 16px; */
 }
-
 .idx-link {
   text-decoration: none;
 }
-
 .idx-child {
   padding-left: 0pt;
 }
-
 /* #index_footer {
   border-top: 0.5px solid #2C343B;
 } */
-
 .index_footer_product-name {
   font-family: var(--font-fam-secondary);
-  font-size: var(--text-4xs);
-  line-height: var(--text-4xs-lh);
+  font-size: 0.625rem;
+  line-height: 0.75rem;
   font-weight: 400;
   color: var(--color-secondary);
   padding-top: 8px;
   margin: unset;
 }
-
 .index_footer_urls {
   font-family: var(--font-fam-secondary);
-  font-size: var(--text-4xs);
-  line-height: var(--text-4xs-lh);
+  font-size: 0.625rem;
+  line-height: 0.75rem;
   font-weight: 400;
-  color: var(--color-blue);
+  color: #0F85EC;
 }
-
 a.book-idx-link.idx-link {
   color: var(--color-primary);
   font-family: var(--font-fam-secondary);
-  font-size: var(--text-xs);
-  line-height: var(--text-xs-lh);
+  font-size: 0.75rem;
+  line-height: 0.875rem;
   font-weight: 700;
 }
-
 /* .book-idx-child.idx-child {
   column-count: 2;
   column-gap: 85px;
 } */
-
 .index_footer_hr {
   border: 0.5px solid var(--color-secondary);
   margin: 0;
   padding: 0;
 }
-
 .idx-unit p:first-of-type {
   margin: unset;
   padding: unset;
 }
-
 .header_logo {
   max-height: 17px;
   max-width: 33px;
 }
-
 .index_header {
   display: flex;
   justify-content: space-between;
@@ -129,7 +109,6 @@ a.book-idx-link.idx-link {
   padding-bottom: 4px;
   margin-top: 50px;
 }
-
 .book-idx-child.idx-child {
   display: flex;
   flex-wrap: wrap;
