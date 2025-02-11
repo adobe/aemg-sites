@@ -3,16 +3,16 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="5b74281b-4a0a-48d9-ad6f-1033b37b7b9c">
+    jcr:uuid="ffe47614-3915-4e36-ac23-0b30915595c5">
     <jcr:content
         cq:name="FrontCover_Landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-07T16:39:33.441+05:30"
+        jcr:lastModified="{Date}2025-02-11T12:05:30.550+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-07T16:39:33.421+05:30"
+            dam:extracted="{Date}2025-02-11T12:05:30.508+05:30"
             dam:sha1="52582c5a7e575abac6348f8e30b2ad45268c44ba"
             dam:size="{Long}559"
             jcr:mixinTypes="[cq:Taggable]"

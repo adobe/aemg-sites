@@ -43,6 +43,14 @@
   font-weight: 700;
   color: var(--color-secondary);
 }
+.toc_footer_product-brand {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-2xs);
+  line-height: var(--text-2xs-lh);
+  font-weight: 700;
+  color: var(--color-secondary);
+  padding-right:4px;
+}
 .toc_publish-date {
   font-family: var(--font-fam-primary);
   font-size: var(--text-3xs);
