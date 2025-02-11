@@ -21,6 +21,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #E8F1FF;
+    height: 72px;
+    padding: 0px 73px;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    right: 0px;
+    left: -73px;
 ">
       <p style="
     font-family: Adobe Clean;
