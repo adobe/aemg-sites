@@ -112,9 +112,9 @@ h1.title {
 }
 h2.title {
   font-family: var(--font-fam-primary);
-  font-size: 16px;
-  line-height: 21.86px;
-  font-weight: 400;
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
+  font-weight: 600;
   color: var(--color-primary);
 }
 .shortdesc {
@@ -275,7 +275,7 @@ h1.title.chapter {
   font-family: var(--font-fam-primary);
   font-size: var(--text-2xl);
   line-height: var(--text-2xl-lh);
-  font-weight: 400;
+  font-weight: 600;
   color: var(--color-primary);
   margin-bottom: 8px;
   padding-left: 8px;
@@ -301,13 +301,6 @@ figure {
   height: 400px;
 }
 .chapter_sub-titles {
-  font-family: var(--font-fam-primary);
-  font-size: var(--text-base);
-  line-height: var(--text-base-lh);
-  font-weight: 600;
-  color: var(--color-primary);
-}
-h2.title {
   font-family: var(--font-fam-primary);
   font-size: var(--text-base);
   line-height: var(--text-base-lh);
