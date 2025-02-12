@@ -1,21 +1,21 @@
-.frontcover-content-landscape {
+.frontcover-content {
   display: flex;
   flex-direction: column;
   gap: 56px;
 }
-.frontcover_logo-landscape {
+.frontcover_logo {
   width: 144px;
   height: 26px;
   margin-left: 0px;
 }
-.footer-title-subtitle-landscape {
+.footer-title-subtitle {
   display: flex;
   flex-direction: column;
   gap: 16px;
   width: 543px;
   height: 202px;
 }
-.frontcover_mainbooktitle-landscape {
+.frontcover_mainbooktitle {
   font-family: Urbanist;
   font-size: 48px;
   font-weight: 600;
@@ -24,7 +24,7 @@
   color: #0C1256;
   margin: 0px;
 }
-.frontcover_booktitlealt-landscape {
+.frontcover_booktitlealt {
   font-family: Adobe Clean;
   font-size: 16px;
   font-weight: 400;
@@ -33,7 +33,7 @@
   color: #0C1256;
   margin: 0px;
 }
-.frontcover-footer-landscape {
+.frontcover-footer {
   display: flex;
   gap: 8px;
   position: fixed;
@@ -46,20 +46,24 @@
   align-items: baseline;
   transform: translate(-73px, 0px);
 }
-.frontcover_publish-date-landscape {
+.frontcover_publish-date {
   font-family: Adobe Clean;
   font-size: 10px;
   font-weight: 400;
   line-height: 12px;
   text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
   color: #0C1256;
 }
-.frontcover_organization-landscape {
+.frontcover_organization {
   width: 312px;
   font-family: Adobe Clean;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
   color: #0C1256;
 }
