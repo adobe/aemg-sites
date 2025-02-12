@@ -1,0 +1,637 @@
+body {
+  font-family: var(--font-fam-primary, sans-serif);
+  counter-reset: h1\.chapter1 0;
+  counter-reset: h1\.chapter1 0 h2\.chapter1 0 alphabeticList;
+  /* counter-reset: table; */
+  /* counter-reset: table\.title 0; */
+  /* counter-reset: table\.title 0; */
+}
+
+/**** Heading Styles ****/
+h1 {
+  font-size: var(--font-size-h1, 24pt);
+  margin-bottom: var(--spacing-lg, 24pt);
+}
+
+h2 {
+  font-size: var(--font-size-h2, 20pt);
+}
+
+h3 {
+  font-size: var(--font-size-h3, 18pt);
+}
+
+h4 {
+  font-size: var(--font-size-h4, 16pt);
+}
+
+h5 {
+  font-size: var(--font-size-h5, 14pt);
+}
+
+h6 {
+  font-size: var(--font-size-h6, 12pt);
+}
+
+h1.chapter {
+  --autonumber: autonumber;
+  --prefix-size: var(--font-size-h1-prefix, 33px);
+  --prefix-fixed-size: true;
+  --prefix-gap: var(--spacing-xs, 0px);
+  --vertical-spacing: var(--spacing-sm, 0px);
+  --list-indent: var(--spacing-xs, 0px);
+  counter-reset: lot-count fig-count subsection h2\.chapter1 0;
+  position: relative;
+  column-span: all;
+  margin-bottom: var(--spacing-lg, 24pt);
+  margin-top: calc(var(--vertical-spacing) / 2);
+}
+
+h1.chapter:before {
+  font-family: var(--font-fam-primary);
+  counter-increment: h1\.chapter1;
+  content: counter(h1\.chapter1, decimal)" ";
+  text-align: left;
+  position: absolute;
+  left: calc(-0.5 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+  overflow: hidden;
+  top: 0px;
+  color: var(--color-primary, #013220);
+  padding-left: 7px;
+}
+
+h2.chapter:before {
+  counter-increment: subsection;
+  content: counter(h1\.chapter1, decimal) "." counter(subsection) " ";
+}
+
+h1.appendix {}
+
+/**** Paragraph Styles ****/
+p {
+  font-size: var(--font-size-paragraph, 11pt);
+}
+
+.draft-comment {
+  display: none;
+}
+
+.pre {}
+
+.shortdesc {
+  font-size: 1.1em;
+  color: var(--color-secondary, #666);
+  line-height: 1.4em;
+  font-weight: 100;
+  padding-bottom: 0.8em;
+}
+
+/**** Link Styles ****/
+a {
+  text-decoration: underline;
+}
+.link {
+  display: block;
+}
+.link>.desc {
+  display: none;
+}
+.related-links {
+  margin-top: 1rem;
+}
+.relatedlinks .link {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+.xref {
+  color: #0074D9;
+  text-decoration: none;
+}
+/**** List Styles ****/
+ul,
+ol {
+  margin-top: 0.5em;
+  padding-bottom: 0em;
+}
+li {
+  margin-bottom: 0.8em;
+  font-size: 11pt;
+}
+ul {
+  list-style-type: disc;
+}
+ol {
+  list-style-type: decimal;
+}
+ol ul {
+  list-style-type: disc;
+}
+ul ul {
+  list-style-type: circle;
+}
+ul ol,
+ol ol {
+  list-style-type: lower-alpha;
+}
+ol ol ol {
+  list-style-type: lower-roman;
+}
+/**** Table Styles ****/
+table {
+  width: 100%;
+  font-size: 11pt;
+  border-collapse: collapse;
+}
+table .title {
+  font-size: 14pt;
+  font-weight: bold;
+  margin-bottom: 14pt;
+  margin-top: 14pt;
+}
+.tgroup {
+  text-align: start;
+  table-layout: fixed;
+  word-break: break-all;
+  word-break: break-word;
+}
+.thead {
+  text-align: left;
+  background: #fafafa;
+  color: #888;
+}
+.row {}
+.entry {
+  padding: 0.5em 1em;
+  vertical-align: top;
+  border-left-style: solid;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-color: #eeeeee;
+  border-top-color: #eeeeee;
+  border-right-color: #eeeeee;
+  border-bottom-color: #eeeeee;
+  border-left-width: 1px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+}
+/**** Simple Table Styles ****/
+.simpletable {}
+.sthead {
+  text-align: left;
+  background: #fafafa;
+  color: #888;
+}
+.strow {
+  vertical-align: top;
+}
+.stentry {
+  padding: 0.5em 1em;
+  border-left-style: solid;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-color: #EEEEEE;
+  border-top-color: #EEEEEE;
+  border-right-color: #EEEEEE;
+  border-bottom-color: #EEEEEE;
+  border-left-width: 1px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+}
+/**** Figure & Image Styles ****/
+.fig {}
+.fig .title {
+  font-size: 14pt;
+  font-weight: bold;
+  margin-bottom: 14pt;
+  margin-top: 14pt;
+}
+.figgroup {}
+.image {
+  max-width: 100%;
+}
+.svg-container {
+  display: inline-block;
+}
+video {
+  max-height: 100%;
+  max-width: 100%;
+}
+/**** Note Styles ****/
+.note {
+  border-left: 4px solid #ddd;
+  background-color: #EEEEEE;
+  padding-top: 0.3rem;
+  padding-right: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.3rem;
+}
+.note.caution {
+  background-color: #fff9e5;
+  border-left-color: #f5c823;
+}
+.note.danger {
+  background-color: #fff0f0;
+  border-left-color: #ffd7d6;
+}
+.note.notice {
+  background-color: #f6f9fc;
+  border-left-color: #e4edf6;
+}
+.note.warning {
+  background-color: #ffeddf;
+  border-left-color: #ffb47b;
+}
+.hazardstatement.attention,
+.hazardstatement.fastpath,
+.hazardstatement.note,
+.hazardstatement.important,
+.hazardstatement.notice,
+.hazardstatement.other,
+.hazardstatement.remember,
+.hazardstatement.restriction,
+.hazardstatement.tip {
+  background: #F8F8F8 0% 0% no-repeat padding-box;
+  border: 1px solid #6D6D6D;
+}
+.hazardstatement {
+  width: 29.188rem;
+  border-radius: 4px;
+  opacity: 1;
+  padding: 16px;
+  font-size: 14px;
+}
+.hazardstatement td,
+.hazardstatement th {
+  padding: 0.5rem;
+}
+.hazardstatement th {
+  text-align: center;
+  text-transform: uppercase;
+}
+.hazardstatement.caution {
+  background: #FFECCC 0% 0% no-repeat padding-box;
+  border: 1px solid #F68511;
+}
+.hazardstatement .prefix-content {
+  background-position: 0 0;
+  padding-left: 1.5rem;
+  background: transparent url("AlertSmall.svg") 0% 0% no-repeat padding-box;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.hazardstatement .messagepanel {
+  list-style-type: none;
+  padding-inline-start: 1.5rem;
+}
+.hazardstatement.danger {
+  background: #FFEBE7 0% 0% no-repeat padding-box;
+  border: 1px solid #EA3829;
+}
+.hazardstatement.warning {
+  background-color: #ffeddf;
+  border: 1px solid #ffb47b;
+}
+/**** Character Styles ****/
+.apiname {
+  font-style: italic;
+}
+.boolean {
+  font-style: italic;
+}
+.delim {}
+.equation-block {
+  display: inline-block;
+}
+.filepath {
+  font-style: italic;
+}
+.foreign {
+  background: #f5f5f5;
+  font-family: monospace;
+}
+.indexterm {
+  display: none;
+}
+.keyword {}
+.keywords {}
+.kwd {}
+.mathml {
+  display: inline-block;
+}
+.menucascade .uicontrol+.uicontrol:before {
+  content: "\00a0\203a\00a0";
+}
+.ph {}
+.shortcut {}
+.systemoutput {}
+.term {
+  font-style: italic;
+}
+.tm {}
+.uicontrol {
+  font-weight: bold;
+}
+.tt {
+  font-family: monospace;
+}
+.state {
+  font-style: italic;
+}
+.userinput {
+  font-family: monospace;
+}
+.var {}
+.varname {
+  font-style: italic;
+}
+/**** Footnote Styles ****/
+.fn {
+  float: footnote;
+  font-weight: normal;
+  text-align: left;
+}
+.fn::footnote-call {
+  /*content: counter(footnote, decimal);*/
+}
+.fn::footnote-marker {
+  /*content: counter(footnote, decimal);*/
+}
+.fn[id]::footnote-call {
+  display: none;
+}
+.xref-fn {}
+/**** Quote Styles ****/
+blockquote {
+  background: #fff;
+  padding: 1rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  border-left: 4px solid #eee;
+}
+blockquote::before {
+  content: "\"";
+}
+blockquote::after {
+  content: "\"";
+}
+.cite {
+  font-style: italic;
+}
+.q {}
+/**** Codeblock Styles ****/
+.codeblock {
+  background: #f5f5f5;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 10px 16px;
+  margin-bottom: 0.8rem;
+  font-size: 11pt;
+  font-family: monospace;
+  white-space: normal;
+  word-wrap: break-word;
+}
+.codeph {
+  font-size: 11pt;
+  background: #f5f5f5;
+  border: 1px solid #eee;
+}
+/**** Definition List Styles ****/
+.dd {
+  margin-bottom: 0.5rem;
+  margin-left: 1.4rem;
+  font-size: 11pt;
+}
+.ddhd {
+  font-weight: bold;
+  margin-left: 1.4rem;
+}
+.dl {
+  margin-bottom: 0.5rem;
+}
+.dlentry {}
+.dlhead {}
+.dt {
+  font-weight: bold;
+  line-height: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+.dthd {
+  font-weight: bold;
+}
+/**** Task Styles ****/
+.choice {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+.choices {}
+.chdesc {}
+.chdeschd {}
+.chhead {}
+.choicetable {}
+.choption {}
+.choptionhd {}
+.chrow {}
+.cmd {}
+.cmd .prefix-content {
+  font-weight: bold;
+}
+.cmdname {
+  font-weight: bold;
+}
+.example {}
+.example>.title {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+.info {}
+li:last-child>.info {}
+li>.tutorialinfo {}
+.p {
+  font-size: 11pt;
+  margin-bottom: 1em;
+}
+.p:last-child {
+  margin-bottom: 0;
+}
+.postreq {}
+.prereq {}
+.result {
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+.step {
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+.step-unordered {
+  margin-top: 0.2rem;
+  margin-bottom: 0.4rem;
+}
+.stepresult {
+  margin-bottom: 0.5rem;
+}
+.steps {}
+.stepsection {
+  display: block;
+  margin-left: -0.3rem;
+}
+.stepxmp {}
+.substep {
+  margin-top: 0.2rem;
+  margin-bottom: 0.4rem;
+}
+.substeps {}
+.tutorialinfo {
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+.tutorialinfo .note {
+  margin-bottom: 0.5rem;
+}
+.tutorialinfo>ol>li:last-child {}
+.tutorialinfo>ul>li:last-child {}
+.prefix-content {
+  display: inline;
+}
+/* table .title {
+  text-align: left;
+  color: #001F3F;
+  font-size: 14pt;
+  font-weight: bold;
+  margin-bottom: 14pt;
+  margin-top: 14pt;
+}
+table .title::before {
+  counter-increment: table\.title;
+  content: "Table " counter(table\.title, decimal) ": ";
+  font-weight: bold;
+} */
+/* table .title {
+  text-align: left;
+  color: #001F3F;
+  font-size: 14pt;
+  font-weight: bold;
+  margin-bottom: 14pt;
+  margin-top: 14pt;
+  --autonumber: autonumber;
+   counter-reset: subsection;
+}
+table .title::before {
+  counter-increment: table\.title;
+  content: "Table " counter(table\.title, decimal) "." counter(table\.title, decimal)": ";
+  font-weight: bold;
+   counter-increment: subsection;
+  content:"Table " counter(table\.title, decimal)  "." counter(subsection) " ";
+} */
+/* table caption .title {
+    counter-reset: section;
+} 
+table caption .title::before {
+  counter-increment: section;
+  content: "table " counter(section) ". ";
+} */
+/* table caption .title::before {
+  counter-increment: section;
+  content: " " counter(section) ". ";
+  font-weight: bold;
+   /* counter-increment: subsection; */
+/* content:"Table " counter(table\.title, decimal)  "." counter(subsection) " "; */
+/* }  */
+table .title::before {
+  counter-increment: lot-count;
+  content: "Table " counter(h1\.chapter1, decimal) "." counter(lot-count) " : ";
+  font-weight: bold;
+}
+figcaption.title>.prefix-content::after {
+  counter-increment: fig-count;
+  content: " " counter(h1\.chapter1, decimal) "." counter(fig-count) " : ";
+  font-weight: bold;
+}
+.toc-level-1 {
+  counter-increment: alphabeticList;
+}
+.toc-level-1::before {
+  content: "Section " counter(alphabeticList, upper-alpha) ": " !important;
+  speak: counter(alphabeticList, upper-alpha);
+}
+/**** Others ****/
+/*
+.abstract {}
+.alt {}
+.bodydiv {}
+.context {}
+.data {}
+.data-about {}
+.desc {}
+.featnum {}
+.fragment {}
+.groupseq {}
+.index-base {}
+.index-see {}
+.index-see-also {}
+.index-sort-as {}
+.indextermref {}
+.itemgroup {}
+.lines {}
+.linethrough {
+  text-decoration: line-through;
+}
+.linkinfo {}
+.linklist {}
+.linkpool {}
+.linktext {}
+.lq {}
+.msgblock {}
+.msgnum {}
+.msgph {}
+.no-topic-nesting {}
+.object {}
+.oper {}
+.option {}
+.overline {
+  text-decoration: overline;
+}
+.param {}
+.parml {}
+.parmname {}
+.pd {}
+.plentry {}
+.propdesc {}
+.propdeschd {}
+.properties {}
+.prophead {}
+.proptype {}
+.proptypehd {}
+.propvalue {}
+.propvaluehd {}
+.pt {}
+.refsyn {}
+.required-cleanup {}
+.screen {}
+.searchtitle {}
+.section {}
+.section>.title {}
+.sectiondiv {}
+.sl {}
+.sli {}
+.sub {}
+.sup {}
+.synblk {}
+.synnote {}
+.synph {}
+.syntaxdiagram {}
+.text {}
+.title {}
+.titlealts {}
+.topic {}
+.unknown {}
+.wintitle {}
+.xmlatt {}
+.xmlelement {}
+*/

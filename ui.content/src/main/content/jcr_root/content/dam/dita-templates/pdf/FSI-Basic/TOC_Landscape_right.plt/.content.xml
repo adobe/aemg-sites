@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="b6c78ae0-4825-4473-91e7-c97fb1965647">
+    <jcr:content
+        cq:name="TOC_Landscape_right.plt"
+        cq:parentPath="/content/dam/dita-templates/pdf/FSI-Basic"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-11T11:34:52.169+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2025-02-11T11:34:52.020+05:30"
+            dam:sha1="48b9ccc45b3a791db0339fc11e7208dad74439dd"
+            dam:size="{Long}1152"
+            dc:format="application/octet-stream"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

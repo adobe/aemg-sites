@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ccbedb5e-7db3-425e-95bd-df78e0ae3d4a">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-08T16:28:57.126+05:30"
+        jcr:lastModifiedBy="fmdita-serviceuser"
+        jcr:primaryType="dam:AssetContent"
+        fmdita-dita-template="{Boolean}true"
+        fmdita-newfile="{Boolean}true"
+        templateDescription="Template for subject scheme"
+        templateTitle="Subject Scheme">
+        <metadata
+            dam:extracted="{Date}2025-02-08T16:28:56.943+05:30"
+            dam:sha1="7aec1cf719f860535fa07cca1148598e1fb44cee"
+            dam:size="{Long}223"
+            dc:format="application/xml"
+            dc:title="Subject Scheme"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            dita_class="- map/map subjectScheme/subjectScheme"/>
+    </jcr:content>
+</jcr:root>

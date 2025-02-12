@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="60781c72-c98e-452a-8796-5b02e408aaa9">
+    <jcr:content
+        dam:assetState="processed"
+        dam:processingId="0dfdad7e-21d7-47d8-a985-728f0995e28e"
+        dam:processingRenditions="[cqdam.metadata.xml,cq5dam.web.1280.1280.jpeg,cq5dam.thumbnail.140.100.png,cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.features.json,cqdam.text.txt,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.48.48.png,cq5dam.thumbnail.319.319.png]"
+        dam:processingRequestedDate="{Date}2022-06-06T16:55:22.862Z"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2025-02-04T02:19:32.216+05:30"
+        jcr:lastModifiedBy="qeadmin"
+        jcr:primaryType="dam:AssetContent"
+        dxmlLastCreatedVersion="1.0"
+        fmPostProcessedAt="2022-06-06T16:55:22.256Z|219b23e8-03d6-45a1-a167-21d7b4395b16|2022-06-06T16:55:22.255Z|13|0"
+        fmUuid="GUID-7463b5d1-dfbd-40a1-a71d-117d4d403bce">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cqdam.text.txt
+                jcr:primaryType="nt:unstructured"
+                message="Text extraction (fmt=txt) is not supported for svg files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            dam:extracted="{Date}2025-02-04T02:19:31.636+05:30"
+            dam:sha1="4ed0e8dbd9d5b48b90fe582c91332ebec3a8bcce"
+            dam:size="{Long}448"
+            dc:format="image/svg+xml"
+            dc:title="logo facebook"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            docstate="Draft"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="page-style" content="size:A4 landscape;" />
+  <title>Page Layout</title>
+  <!-- <link rel="stylesheet" type="text/css" href="toc_automotive_complex.css" /> -->
+  <meta name="footnote-style" content="" />
+  <!-- <link rel="stylesheet" type="text/css" href="Landscape_complex.css" /> -->
+  <link rel="stylesheet" type="text/css" href="toc_landscape.css" />
+</head>
+<body>
+  <div data-region="header">
+    <div class="toc_header">
+      <p class="toc_header_title" style="">Content Overview</p>
+      <div class="toc_header_logo" style=""><img class="toc_header_logo" height="90" src="../../../aemguidesDALP/fsi/images/logo-img1.png" width="174" /></div>
+    </div>
+  </div>
+  <div data-region="content"><!-- <script type="text/javascript" src="draft.js"></script> -->
+    <script type="text/javascript" src="titlechange.js"></script>
+  </div>
+  <div data-region="footer">
+    <div class="toc_footer">
+      <p class="toc_footer_text"><span class="toc_footer_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span><span class="toc_footer_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> Sustainability Report<span class="toc_publish-date"> Q3 2024</span></p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,177 @@
+/*Created with AEM Guides*/
+@font-face {
+  font-family: PP Editorial New;
+  src: url('../../../aemguidesDALP/fonts/pp-editorial-new/PPEditorialNew-Regular.otf');
+}
+@font-face {
+  font-family: Adobe Clean;
+  src: url('../../../aemguidesDALP/fonts/adobe-clean/AdobeClean-Regular.woff');
+}
+
+body {
+  font-family: var(--font-fam-secondary);
+}
+
+.global-config,
+:root {
+  /* font family */
+  --font-fam-primary: PP Editorial New;
+  --font-fam-secondary: Adobe Clean;
+  --base-font-size: 16px;
+}
+
+html {
+  font-size: var(--base-font-size);
+}
+
+.color-config,
+:root {
+	--color-accent: #821616;
+	--color-primary: #001E3A;
+	--color-secondary: #0D0D0D;
+	--color-tertiary: #2C343B;
+	--color-neutral: #979797;
+  --color-link: #0F85EC;
+
+  --color-tertiary-opa-50: rgba(235, 95, 95, 0.6);
+	--color-tertiary-opa-70: rgba(44, 52, 59, 0.7);
+}
+
+.toc-config,
+:root {
+  --toc-gap: 20px;
+  --toc-level-1-gap: calc(var(--toc-gap) * 0);
+  --toc-level-2-gap: calc(var(--toc-gap) * 0);
+  --toc-level-3-gap: calc(var(--toc-gap) * 1);
+  --toc-level-4-gap: calc(var(--toc-gap) * 2);
+}
+
+footer {
+  color: rgba(44, 52, 59, 0.7);
+}
+
+.typography-config,
+:root {
+  /* converted form 16px base size*/
+  --text-xs: 0.75rem; /* 12px */
+  --text-xs-lh: 1rem; /* 16px */
+
+  --text-sm: 0.875rem; /* 14px */
+  --text-sm-lh: 1.25rem; /* 20px */
+
+  --text-base: 1rem; /* 16px */
+  --text-base-lh: 1.5rem; /* 24px */
+
+  --text-lg: 1.125rem; /* 18px */
+  --text-lg-lh: 1.5rem; /* 24px */
+
+  --text-xl: 1.25rem; /* 20px */
+  --text-xl-lh: 1.75rem; /* 28px */
+
+  --text-2xl: 1.5rem; /* 24px */
+  --text-2xl-lh: 2rem; /* 32px */
+
+  --text-3xl: 1.875rem; /* 30px */
+  --text-3xl-lh: 2.5rem; /* 40px */
+
+  --text-4xl: 2.25rem; /* 36px */
+  --text-4xl-lh: 3rem; /* 48px */
+
+  --text-5xl: 3rem; /* 48px */
+  --text-5xl-lh: 3.875rem; /* 62px */
+
+  --text-6xl: 3.75rem; /* 60px */
+  --text-6xl-lh: 4.75rem; /* 76px */
+
+  --text-7xl: 4.5rem; /* 72px */
+  --text-7xl-lh: 5.625rem; /* 90px */
+
+  --text-8xl: 6rem; /* 96px */
+  --text-8xl-lh: 7.75rem; /* 124px */
+
+  --text-9xl: 8rem; /* 128px */
+  --text-9xl-lh: 9.625rem; /* 154px */
+}
+
+/* Text size classes */
+.p.text-xs,
+.text-xs {
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+}
+
+.p.text-sm,
+.text-sm {
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
+}
+
+.p.text-base,
+.text-base {
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
+}
+
+.p.text-lg,
+.text-lg {
+  font-size: var(--text-lg);
+  line-height: var(--text-lg-lh);
+}
+
+.p.text-xl,
+.text-xl {
+  font-size: var(--text-xl);
+  line-height: var(--text-xl-lh);
+}
+
+.p.text-2xl,
+.text-2xl {
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl-lh);
+}
+
+.p.text-3xl,
+.text-3xl {
+  font-size: var(--text-3xl);
+  line-height: var(--text-3xl-lh);
+}
+
+.p.text-4xl,
+.text-4xl {
+  font-size: var(--text-4xl);
+  line-height: var(--text-4xl-lh);
+}
+
+.p.text-5xl,
+.text-5xl {
+  font-size: var(--text-5xl);
+  line-height: var(--text-5xl-lh);
+}
+
+.p.text-6xl,
+.text-6xl {
+  font-size: var(--text-6xl);
+  line-height: var(--text-6xl-lh);
+}
+
+.p.text-7xl,
+.text-7xl {
+  font-size: var(--text-7xl);
+  line-height: var(--text-7xl-lh);
+}
+
+.p.text-8xl,
+.text-8xl {
+  font-size: var(--text-8xl);
+  line-height: var(--text-8xl-lh);
+}
+
+.p.text-9xl,
+.text-9xl {
+  font-size: var(--text-9xl);
+  line-height: var(--text-9xl-lh);
+}
+
+figure {
+  break-inside: avoid;
+}

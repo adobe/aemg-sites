@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="f05967b6-c2ec-4516-b8f6-7fe32ddd474e">
+    <jcr:content
+        cq:name="content.css"
+        cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-04T02:19:28.474+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        fmditaDynamicTitle="{Boolean}false"
+        fmditaTitle="\0">
+        <metadata
+            dam:extracted="{Date}2025-02-04T02:19:27.026+05:30"
+            dam:sha1="13b53c4bae2d65f372793fb656b642206f54de60"
+            dam:size="{Long}9969"
+            dc:format="text/css"
+            dc:title="\0"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            docstate="Draft"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

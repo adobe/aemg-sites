@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="25d562e3-90b9-4ecf-9327-3f72fa9334af">
+    <jcr:content
+        cq:name="chapter_landscape.css"
+        cq:parentPath="/content/dam/dita-templates/pdf/FSI-Medium"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-12T13:27:56.693+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2025-02-12T13:27:56.613+05:30"
+            dam:sha1="2c63707301b0bfe7abd8c6bb39f18748245b700e"
+            dam:size="{Long}1722"
+            dc:format="text/css"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
