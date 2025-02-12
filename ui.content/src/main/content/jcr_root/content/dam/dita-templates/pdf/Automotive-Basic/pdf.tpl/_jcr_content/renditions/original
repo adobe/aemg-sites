@@ -97,9 +97,9 @@
     </bookListsitem>
   </bookLists>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
-  <layout>Common</layout>
+  <layout>Common_Portrait</layout>
   <coverPageLayout>FrontCover_Portrait</coverPageLayout>
-  <tocLayout>FrontCover_Portrait</tocLayout>
+  <tocLayout>TOC_Portrait</tocLayout>
   <topicLayout></topicLayout>
   <gloLayout></gloLayout>
   <indexLayout></indexLayout>

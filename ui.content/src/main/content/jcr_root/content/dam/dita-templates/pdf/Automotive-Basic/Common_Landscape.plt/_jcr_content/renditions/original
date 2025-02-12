@@ -3,17 +3,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <link rel="stylesheet" href="layout.css" type="text/css" />
-  <link rel="stylesheet" href="chapter_landscape.css" type="text/css" />
-  <link rel="stylesheet" href="global.css" type="text/css" />
+
   <meta name="page-style" content="size:A4 landscape;" />
   <title>Page Layout</title>
   <meta name="footnote-style" content="" />
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="common_landscape.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
 </head>
 <body>
-  <div data-region="header"><br />
-    
-  </div>
+  <div data-region="header"></div>
   <div data-region="content"></div>
   <div class="chapter_footer" data-region="footer"><span class="chapter_footer_page-number" data-field="page-number" data-format="default">1</span>
     <p class="chapter_footer_organization">Smith, J. A. (2020). The future of automotive technology:<br />
