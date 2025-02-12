@@ -8,13 +8,13 @@
         cq:name="Landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Prime"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-12T12:52:45.744+05:30"
+        jcr:lastModified="{Date}2025-02-12T17:13:02.608+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-12T12:52:45.665+05:30"
-            dam:sha1="9bb62a62595a97796c0dd4357a668b89ee68392d"
-            dam:size="{Long}815"
+            dam:extracted="{Date}2025-02-12T17:13:02.512+05:30"
+            dam:sha1="65b880ac8fea8fce748e62a7d18eab0f71f9ed57"
+            dam:size="{Long}835"
             dc:format="application/xhtml+xml"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

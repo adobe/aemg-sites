@@ -8,12 +8,12 @@
         cq:name="glo_landscape.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-12T12:52:44.480+05:30"
+        jcr:lastModified="{Date}2025-02-12T17:13:00.839+05:30"
         jcr:lastModifiedBy="krishna.mulik@deptagency.com"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-12T12:52:44.365+05:30"
+            dam:extracted="{Date}2025-02-12T17:13:00.721+05:30"
             dam:sha1="fbe4946cb93809ef3a65f444f33b650ba936ca85"
             dam:size="{Long}1893"
             dc:format="text/css"
