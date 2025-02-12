@@ -8,11 +8,11 @@
         cq:name="toc_landscape.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-11T12:54:19.891+05:30"
+        jcr:lastModified="{Date}2025-02-12T13:17:27.033+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-11T12:54:19.313+05:30"
+            dam:extracted="{Date}2025-02-12T13:17:27.005+05:30"
             dam:sha1="97c763d44a14ca865cf3d9d3ee6942ef3c166992"
             dam:size="{Long}5708"
             dc:format="text/css"

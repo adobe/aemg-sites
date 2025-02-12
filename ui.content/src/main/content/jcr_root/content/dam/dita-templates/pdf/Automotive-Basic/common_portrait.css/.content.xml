@@ -3,22 +3,21 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="01b30b42-53cd-406f-b39c-a6af7e484013">
+    jcr:uuid="27ec8760-ba24-427e-b730-d804fb4603f8">
     <jcr:content
-        cq:name="Common.plt"
+        cq:name="common_portrait.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-11T12:54:15.433+05:30"
+        jcr:lastModified="{Date}2025-02-12T13:23:32.190+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-11T12:54:15.309+05:30"
-            dam:sha1="f8f84c26abf189aa519eccc37401217065111c33"
-            dam:size="{Long}1071"
-            dc:format="application/octet-stream"
+            dam:extracted="{Date}2025-02-12T13:23:32.166+05:30"
+            dam:sha1="62dd7c4507d77527121b26725d51b237c24c5c97"
+            dam:size="{Long}27"
+            dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
-            jcr:primaryType="nt:unstructured"
-            docstate="Draft"/>
+            jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

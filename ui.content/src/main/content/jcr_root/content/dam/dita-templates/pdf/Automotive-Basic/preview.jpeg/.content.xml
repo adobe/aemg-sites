@@ -5,7 +5,7 @@
     jcr:uuid="375ea04a-d845-440f-9b00-822840fd436b">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-11T12:54:18.194+05:30"
+        jcr:lastModified="{Date}2025-02-12T13:17:27.325+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         fmditaDynamicTitle="{Boolean}false"
@@ -13,7 +13,7 @@
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:Comments="Compressed by jpeg-recompress&#xa;"
-            dam:extracted="{Date}2025-02-11T12:54:17.489+05:30"
+            dam:extracted="{Date}2025-02-12T13:17:27.119+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"

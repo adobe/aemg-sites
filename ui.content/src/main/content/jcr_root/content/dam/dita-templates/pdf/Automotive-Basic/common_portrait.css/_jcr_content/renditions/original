@@ -183,7 +183,6 @@ li {
 }
 /* Notes */
 
-
 .chapter_info {
   background-color: #D9E6EB;
   padding: 8px 40px 8px 16px;
@@ -194,7 +193,6 @@ li {
   margin-bottom: 40px;
   margin-top: 50px;
 }
-
 .note {
   border-left: 4px solid var(--color-primary);
   background-color: var(--color-neutral);
