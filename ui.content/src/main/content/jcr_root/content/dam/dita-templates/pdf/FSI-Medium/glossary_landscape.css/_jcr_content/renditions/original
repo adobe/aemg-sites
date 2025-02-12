@@ -48,6 +48,16 @@ glossdef {
 /* .glossary_footer {
   margin-bottom: 40px;
 } */
+.glossary_footer_product-brand {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-2xs);
+  line-height: var(--text-2xs-lh);
+  font-weight: 400;
+  color: var(--color-secondary);
+  padding-top: 8px;
+  margin: unset;
+  padding-right: 3px;
+}
 .glossary_footer_product-name {
   font-family: var(--font-fam-primary);
   font-size: var(--text-2xs);

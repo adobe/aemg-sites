@@ -8,13 +8,13 @@
         cq:name="pdf.tpl"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-11T11:34:56.986+05:30"
+        jcr:lastModified="{Date}2025-02-12T13:28:05.285+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-11T11:34:56.935+05:30"
-            dam:sha1="31275f2e80e2c719235e9917bd475f6c0b3e7c79"
-            dam:size="{Long}4908"
+            dam:extracted="{Date}2025-02-12T13:28:05.212+05:30"
+            dam:sha1="3bb3a1ee3756eced26ce07d9182fbadc42de5737"
+            dam:size="{Long}4876"
             dc:format="application/vnd.groove-tool-template"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

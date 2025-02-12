@@ -66,7 +66,18 @@
 /* #index_footer {
   border-top: 0.5px solid #2C343B;
 } */
+.index_footer_product-brand {
+  padding-right: 3px;
+  padding-top: 8px;
+  margin: unset;
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-2xs);
+  line-height: var(--text-2xs-lh);
+  font-weight: 700;
+  color: #var(--color-secondary);
+}
 .index_footer_product-name {
+  padding-right: 3px;
   padding-top: 8px;
   margin: unset;
   font-family: var(--font-fam-primary);
@@ -83,7 +94,8 @@
   color: var(--color-secondary);
 }
 a.book-idx-link.idx-link {
-  color: var(--color-primary);color: var(--color-primary);
+  color: var(--color-primary);
+  color: var(--color-primary);
   font-family: var(--font-fam-primary);
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);

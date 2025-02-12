@@ -17,7 +17,7 @@
   <div data-region="content" id="idx_content"></div>
   <div data-region="footer">
     <div class="index_footer">
-      <p class="index_footer_text"><span class="index_footer_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand </span><span class="index_footer_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> Sustainability Report<span class="index_publish-date"> Q3 2024</span></p>
+      <p class="index_footer_text"><span class="index_footer_product-brand" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span><span class="index_footer_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> Sustainability Report<span class="index_publish-date"> Q3 2024</span></p>
     </div>
   </div>
 </body>
