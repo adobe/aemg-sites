@@ -1,75 +1,79 @@
+/* .lof_header {
+  margin-top: 50px;
+  text-align: left;
+} */
 .lof_content,
 .lof-body {
-  padding-top: var(--spacing-lg);
+  padding-top: 60px;
 }
-
 .lof_header_title {
   font-family: var(--font-fam-secondary);
-  font-size: var(--text-lg);
-  line-height: var(--text-lg-lh);
-  font-weight: var(--font-fam-regular);
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  font-weight: 400;
   color: var(--color-primary);
-  margin-bottom: var(--spacing-sm);
-  margin-top: 0;
+  margin-bottom: 8px;
+  margin-top: 0px;
 }
-
 .lof_header_titlealts {
-  font-family: var(--font-fam-primary);
-  font-size: var(--text-2xs);
-  line-height: var(--text-2xs-lh);
-  font-weight: var(--font-fam-regular);
+  font-family: var(--font-fam-primay);
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: 400;
   color: var(--color-secondary);
-  margin-bottom: var(--spacing-md);
+  margin-bottom: 24px;
 }
-
 .lof_content .lof-level-1,
 .lof-level-1 {
   font-family: var(--font-fam-secondary);
-  font-size: var(--text-xs);
-  line-height: var(--text-xs-lh);
-  font-weight: var(--font-fam-light);
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: 350;
   color: var(--color-primary);
-  margin-bottom: var(--spacing-md);
+  margin-bottom: 16px;
 }
-
 .lof_content .lof-level-1::after,
 .lof-level-1::after {
   color: var(--color-primary);
-  font-weight: var(--font-fam-semibold);
+  font-weight: 700;
 }
-
+/* .lof_footer {
+  margin-bottom: 40px;
+} */
 .lof_footer_product-name {
   font-family: var(--font-fam-secondary);
-  font-weight: var(--font-fam-regular);
-  padding-top: var(--spacing-sm);
-  font-size: var(--text-4xs);
-  line-height: var(--text-4xs-lh);
+  font-weight: 400;
+  padding-top: 8px;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
   color: var(--color-secondary);
   margin: unset;
+  padding-top: 8px;
 }
-
 .lof_footer_urls {
   font-family: var(--font-fam-secondary);
-  font-size: var(--text-4xs);
-  line-height: var(--text-4xs-lh);
-  font-weight: var(--font-fam-regular);
-  color: var(--color-link);
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  font-weight: 400;
+  color: #0F85EC;
 }
-
+/* .lof_footer_hr {
+  border: 0.5px solid #2C343B;
+  margin: 0;
+  padding: 0;
+} */
 .lof-body {
   column-count: 2;
-  column-gap: var(--spacing-lg);
+  column-gap: 85px;
 }
-
 .lof_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 0.5px solid var(--color-gray);
-  padding-bottom: var(--spacing-xs);
-  margin-top: var(--spacing-lg);
+  padding-bottom: 4px;
+  margin-top: 50px;
 }
-
 .header_logo {
   max-height: 17px;
   max-width: 33px;

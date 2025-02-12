@@ -92,7 +92,6 @@ p {
 a {
   text-decoration: underline;
 }
-
 .link {
   display: block;
 }
