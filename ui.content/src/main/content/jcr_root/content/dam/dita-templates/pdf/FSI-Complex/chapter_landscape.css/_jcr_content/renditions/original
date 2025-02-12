@@ -106,7 +106,7 @@ h1.title.chapter {
   font-family: var(--font-fam-primary);
   font-size: var(--text-2xl);
   line-height: var(--text-2xl-lh);
-  font-weight: 400;
+  font-weight: 600;
   color: var(--color-primary);
   margin-bottom: 8px;
   padding-left: 8px;
