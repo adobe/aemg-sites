@@ -1,28 +1,28 @@
-.backcover_landsc_header {
+.backcover_header {
   padding-top: 69px;
-  padding-left: 74px;
+  padding-left: 73px;
 }
-.backcover_landsc_logo {
+.backcover_logo {
   width: 144px;
   height: 106px;
 }
-.backcover_landsc_text {
-  margin-bottom: 44px;
+.backcover_text {
+  margin-bottom: 69px;
 }
-.backcover_landsc_description {
+.backcover_description {
   font-size: var(--text-2xl);
   line-height: var(--text-2xl-lh);
   font-weight: 500;
   color: var(--color-accent);
   margin: 0;
 }
-.backcover_landsc_content {
-  width: 468px;
+.backcover_content {
+  width: 304px;
   position: absolute;
-  bottom: 46px;
-  right: 80px;
+  bottom: 86px;
+  right: 81px;
 }
-.backcover_landsc_contact_label {
+.backcover_contact_label {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 700;
@@ -32,7 +32,7 @@
   margin: 0;
   text-transform: uppercase;
 }
-.backcover_landsc_address_label {
+.backcover_address_label {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 700;
@@ -42,7 +42,7 @@
   margin: 0;
   text-transform: uppercase;
 }
-.backcover_landsc_socials_label {
+.backcover_socials_label {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 700;
@@ -52,39 +52,39 @@
   margin: 0;
   text-transform: uppercase;
 }
-.backcover_landsc_phoneno_container,
-.backcover_landsc_email_container,
-.backcover_landsc_socials_link_container {
+.backcover_phoneno_container,
+.backcover_email_container,
+.backcover_socials_link_container {
   display: flex;
   align-items: center;
   gap: 8px;
 }
-.backcover_landsc_phoneno_container {
+.backcover_phoneno_container {
   padding-bottom: 10px;
 }
-.backcover_landsc_phone_number,
-.backcover_landsc_email,
-.backcover_landsc_address,
-.backcover_landsc_social {
+.backcover_phone_number,
+.backcover_email,
+.backcover_address,
+.backcover_social {
   font-size: var(--text-4xs);
   line-height: var(--text-4xs-lh);
   font-weight: 400;
   color: var(--color-accent);
   margin: 0;
 }
-.backcover_landsc_phone_img {
+.backcover_phone_img {
   width: 16px;
   height: 16px;
 }
-.backcover_landsc_email_img {
+.backcover_email_img {
   width: 16px;
   height: 10.89px;
 }
-.backcover_landsc_insta_img {
+.backcover_insta_img {
   width: 16px;
   height: 16px;
 }
-.backcover_landsc_contact_container,
-.backcover_landsc_address_container {
+.backcover_contact_container,
+.backcover_address_container {
   margin-bottom: 40px;
 }
