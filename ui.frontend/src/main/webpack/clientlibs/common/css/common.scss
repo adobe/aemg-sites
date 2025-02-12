@@ -11,7 +11,7 @@
   }
 }
 
-.cq-Editable-dom .topic-container > .cmp-container {
+.cq-Editable-dom .topic-container>.cmp-container {
   gap: 100px;
 }
 
@@ -21,15 +21,19 @@
     flex-wrap: nowrap;
   }
 }
-  
-.left-panel {
+
+.left-container {
   max-width: 23%;
   position: sticky;
 }
 
-.right-panel {
+.right-container {
   max-width: 23%;
   position: sticky;
+}
+
+.hero-container {
+  display: flex;
 }
 
 .aem-Grid.aem-Grid--default--12>.aem-GridColumn.aem-GridColumn--default--12 {

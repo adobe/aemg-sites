@@ -38,9 +38,9 @@ const libsBaseConfig = {
 };
 
 const clientlibArr = [
-  {name : 'common', module: 'common'},
 
   //automotive
+  {name : 'automotive_global', module: 'automotive'},
   {name : 'automotive-footer', module: 'automotive'},
   {name : 'automoitve_toc', module: 'automotive'},
 ]
