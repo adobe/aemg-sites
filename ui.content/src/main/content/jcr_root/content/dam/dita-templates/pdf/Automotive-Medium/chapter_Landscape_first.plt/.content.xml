@@ -3,16 +3,16 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="e665f7ba-6e5e-4218-bb40-0ddf4acbdea3">
+    jcr:uuid="7f6f9fbc-4398-49fc-a1db-ddbed5425784">
     <jcr:content
         cq:name="Chapter_Landscape_first.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-12T13:17:09.950+05:30"
+        jcr:lastModified="{Date}2025-02-12T16:56:15.180+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-12T13:17:09.856+05:30"
+            dam:extracted="{Date}2025-02-12T16:56:15.123+05:30"
             dam:sha1="52582c5a7e575abac6348f8e30b2ad45268c44ba"
             dam:size="{Long}559"
             jcr:mixinTypes="[cq:Taggable]"
