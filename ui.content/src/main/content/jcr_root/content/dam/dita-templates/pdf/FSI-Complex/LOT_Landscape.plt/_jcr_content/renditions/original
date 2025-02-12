@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="page-style" content="size:A4 landscape; margin-left:73px; margin-right:73px; margin-top: 80px;  margin-bottom: 120px;" />
+  <title>Page Layout</title>
+  <meta name="footnote-style" content="" />
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="lot_landscape.css" />
+</head>
+<body>
+   <div class="lot_header" data-region="header">
+    <p class="lot_header_title" style="">List Of Table</p>
+  </div>
+  <div class="lot_content" data-region="content"></div>
+  <div class="lot_footer" data-region="footer">
+    <hr class="lot_footer_hr" />
+    <div>
+      <p class="lot_footer_product-name">HSBC Green Financing Framework Sustainability Report Q3 2024</p>
+    </div>
+  </div>
+</body>
+</html>

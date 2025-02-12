@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Chapter Page Layout</title>
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="chapter_portrait_left.css" />
+  <meta name="page-style" content="margin-left:0px;margin-right:0px;margin-top:56px;" />
+  <meta name="footnote-style" content="" />
+</head>
+<body data-layout="page">
+  <div data-region="header">
+    <div class="chapter_header">
+      <p class="chapter_header_lang">EN</p>
+      <p class="chapter_header_number"><span data-field="page-number" data-format="default">1</span></p>
+    </div>
+  </div>
+  <div data-region="content">
+    <div class="chapter_content"></div>
+  </div>
+  <div data-region="footer">
+    <div class="chapter_footer">
+      <p class="chapter_footer_page_number"><span data-field="page-number" data-format="default">1</span></p>
+      <p class="chapter_footer_text">Jetson AGX Orin Series Modules Tuning and Compliance Guide</p>
+    </div>
+  </div>
+</body>
+</html>

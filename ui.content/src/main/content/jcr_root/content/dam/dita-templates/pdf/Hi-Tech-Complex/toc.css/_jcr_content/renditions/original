@@ -1,0 +1,53 @@
+/*Created with AEM Guides*/
+.rh-toc-page-wrapper>.topic-body {
+  display: flex;
+  gap: 24px;
+}
+.toc_firstpage_cover-image {
+  position: relative;
+  top: -75px;
+  width: 50%;
+}
+.toc-body {
+  margin-top: 53px;
+}
+.toc-cover-img {
+  width: 312px;
+  height: 411px;
+  object-fit: cover;
+  object-position: top;
+}
+.toc-level-1 {
+  font-family: Urbanist;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.4px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #0C1256;
+  margin-top: 22px;
+}
+.toc-level-2 {
+  font-family: Urbanist;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #0C1256;
+  margin-top: 8px;
+  text-indent: 0px;
+}
+.toc_title {
+  font-family: Urbanist;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 34px;
+  text-align: left;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 14%;
+  left: 0px;
+  padding-left: 19px;
+  padding-bottom: 41px;
+}

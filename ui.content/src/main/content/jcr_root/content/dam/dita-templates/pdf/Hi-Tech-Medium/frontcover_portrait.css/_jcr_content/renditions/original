@@ -1,0 +1,65 @@
+.frontcover_content {
+  padding-top: 80px;
+  padding-right: 73px;
+  padding-left: 73px;
+}
+.frontcover_content_container {
+  width: 323px;
+}
+.frontcover_mainbooktitle {
+  font-size: var(--text-3xl);
+  line-height: var(--text-3xl-lh);
+  font-weight: 500;
+  margin: 0;
+  color: var(--color-accent);
+  padding-bottom: 8px;
+}
+.frontcover_titlealt {
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
+  font-weight: 400;
+  margin: 0;
+  color: var(--color-accent);
+  padding-bottom: 40px;
+}
+.frontcover_cover_img {
+  width: 648px;
+  height: 286px;
+}
+.frontcover_footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding-right: 73px;
+  padding-left: 73px;
+}
+.frontcover_metadata {
+  display: flex;
+  align-items: flex-end;
+}
+.frontcover_version {
+  font-size: var(--text-2xs);
+  line-height: var(--text-2xs-lh);
+  font-weight: 500;
+  margin: 0;
+  color: var(--color-accent);
+}
+.break_line {
+  background-color: var(--color-accent);
+  ;
+  height: 15px;
+  width: 0.8px;
+  margin: 0 10px;
+}
+.frontcover_publish_date {
+  font-size: var(--text-2xs);
+  line-height: var(--text-2xs-lh);
+  font-weight: 500;
+  margin: 0;
+  color: var(--color-accent);
+  ;
+}
+.frontcover_logo {
+  width: 69px;
+  height: 51px;
+}

@@ -1,0 +1,82 @@
+
+/*Created with AEM Guides*/
+.lot_header {
+  margin-top: 50px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.lot_header_title {
+  font-family: var(--font-fam-secondary);
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 0px;
+}
+.lot_header_titlealts {
+  font-family: var(--font-fam-primay);
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: 400;
+  color: #7F8794;
+  margin-bottom: 40px;
+  margin-top: 8px;
+}
+.lot_content .lot-level-1,
+.lot-level-1 {
+  margin-top: 40px;
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 350;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+  width: 350px;
+}
+.lot_content .lot-level-1::after,
+.lot-level-1::after {
+  color: var(--color-accent);
+}
+.lot_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  row-gap: 1px;
+  border-top: 0.5px solid #2C343B;
+  justify-content: flex-start;
+  padding-bottom: 108px;
+}
+.lot_footer_product-name {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-tertiary);
+  padding-top: 8px;
+  margin: 0px;
+}
+.lot_footer_urls {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-link);
+  text-decoration: none;
+}
+.lot_footer_hr {
+  border: 0.5px solid var(--color-tertiary);
+  margin: 0;
+  padding: 0;
+}
+.lot-body {
+  column-count: 2;
+  column-gap: 85px;
+}
+.lot_content,
+.lot-body {
+  padding-top: 0px;
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 158px;
+}

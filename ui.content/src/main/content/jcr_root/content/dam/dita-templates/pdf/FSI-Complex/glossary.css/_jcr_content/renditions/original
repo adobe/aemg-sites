@@ -1,0 +1,86 @@
+/* Glossary Header Styles */
+/* .glossary_header {
+  margin-bottom: 27px;
+  text-align: left;
+} */
+#glossary_header_title,
+.glo-title {
+  font-family: var(--font-fam-secondary);
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  font-weight: 400;
+  color: #013220;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+#glossary_header_titlealts,
+.glossary_header_titlealts {
+  font-family: var(--font-fam-primary);
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: 400;
+  /* color: #7F8794; */
+  color: #013220;
+  margin-bottom: 40px;
+}
+/* Glossary Term and Definition Styles */
+.glo-term,
+glossterm {
+  font-family: var(--font-fam-secondary);
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: 700;
+  color: #013220;
+}
+.glo-definition,
+glossdef {
+  font-family: var(--font-fam-secondary);
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  font-weight: 350;
+  color: #013220;
+}
+/* Glossary Footer Styles */
+/* .glossary_footer {
+  margin-bottom: 40px;
+} */
+.glossary_footer_product-name {
+  font-family: var(--font-fam-secondary);
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  font-weight: 400;
+  color: #2C343B;
+  padding-top: 8px;
+  margin: unset;
+}
+.glossary_footer_urls {
+  font-family: var(--font-fam-secondary);
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  font-weight: 400;
+  color: #0F85EC;
+}
+.glossary_footer_hr {
+  border: 0.5px solid #2C343B;
+  margin: 0;
+  padding: 0;
+}
+.glo-body {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 84px;
+  grid-row-gap: 16px;
+  margin-top: 30px;
+}
+.rh-glossary-page-wrapper {
+  display: flex;
+  /* column-gap: 85px; */
+}
+.glossary_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid #AEAEAE;
+  padding-bottom: 4px;
+  margin-top: 50px;
+}

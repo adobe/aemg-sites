@@ -1,0 +1,63 @@
+.chapter_firstpage_landsc_header {
+  display: none;
+}
+.chapter_firstpage_landsc_footer {
+  display: none;
+}
+.chapter_firstpage_landsc_content {
+  display: flex;
+  height: 794px;
+}
+.chapter_firstpage_landsc_content_left {
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 80px 164px 80px 74px;
+  flex-basis: 655px;
+}
+.chapter_firstpage_landsc_title {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-4xl);
+  line-height: var(--text-4xl-lh);
+  font-weight: 400;
+  color: var(--color-accent);
+}
+.chapter_firstpage_landsc_metadata {
+  padding-right: 30px;
+  width: 417px;
+}
+.chapter_firstpage_landsc_desc {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl-lh);
+  font-weight: 400;
+  color: var(--color-accent);
+  margin: 0;
+}
+.chapter_firstpage_landsc_descalt {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
+  font-weight: 400;
+  color: var(--color-accent);
+  margin: 8px 0 0 0;
+}
+.chapter_firstpage_landsc_content_right {
+  background-color: var(--color-blue);
+  flex-basis: 468px;
+  padding-top: 82px;
+  padding-left: 308px;
+}
+.chapter_firstpage_landsc_logo {
+  background-image: url('../../../aemguidesDALP/fsi/images/logo-img1.png');
+  background-size: 100% 100%;
+  width: 87px;
+  height: 45px;
+}
+/* .chapter_firstpage_landsc_cover_img {
+  background-image: url('../../../aemguidesDALP/fsi/images/cover-page-img.png');
+  background-size: 100% 100%;
+  width: 350px;
+  height: 343px;
+} */
