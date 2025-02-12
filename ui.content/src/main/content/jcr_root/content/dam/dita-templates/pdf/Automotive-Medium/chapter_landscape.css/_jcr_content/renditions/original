@@ -35,8 +35,8 @@
   margin-top: 30px;
 }
 .content-img-landscape {
-   height: 547px;
-   width: 447px;
+  height: 547px;
+  width: 447px;
 }
 .landscape-section {
   width: 50%;
@@ -68,4 +68,13 @@ h1.title {
   color: var(--color-tertiary);
   align-items: center;
   padding-bottom: 0;
+}
+.b{
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xl);
+  font-weight: 400;
+  line-height: var(--text-xl-lh);
+  text-align: left;
+  display: inline-block;
+  padding-top: 4px;
 }
