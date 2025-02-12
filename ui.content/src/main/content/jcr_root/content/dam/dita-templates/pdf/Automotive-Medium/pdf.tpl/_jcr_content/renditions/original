@@ -113,7 +113,7 @@
   <backPageLayout>BackCover_Portrait</backPageLayout>
   <emptyPageLayout></emptyPageLayout>
   <tocLayout>TOC_Portrait</tocLayout>
-  <topicLayout>Chapter</topicLayout>
+  <topicLayout>Chapter_Portrait</topicLayout>
   <gloLayout>Glossary_Portrait</gloLayout>
   <indexLayout>Index_Portrait</indexLayout>
   <bibLayout>Citations</bibLayout>

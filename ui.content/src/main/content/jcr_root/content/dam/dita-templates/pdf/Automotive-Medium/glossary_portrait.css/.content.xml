@@ -8,13 +8,13 @@
         cq:name="glossary_portrait.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-11T17:28:38.533+05:30"
+        jcr:lastModified="{Date}2025-02-12T12:52:44.511+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-11T17:28:38.506+05:30"
-            dam:sha1="62dd7c4507d77527121b26725d51b237c24c5c97"
-            dam:size="{Long}27"
+            dam:extracted="{Date}2025-02-12T12:52:44.401+05:30"
+            dam:sha1="d253b3b271a8fc5f5034beceb7c9943d0943d291"
+            dam:size="{Long}2046"
             dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
