@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a052ac7e-2963-4be7-a621-78027fffa25a">
+    <jcr:content
+        cq:name="TOC_Portrait_first.plt"
+        cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Medium"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-11T19:29:16.077+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2025-02-11T19:29:16.028+05:30"
+            dam:sha1="1b0b3a01484adec4d03f83a1dac58a11bc455ab9"
+            dam:size="{Long}1046"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

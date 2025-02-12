@@ -3,11 +3,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="page-style" content="size:A4 landscape;margin-top:56px;margin-left:0px;margin-right:0px;" />
-  <title>Page Layout</title>
-  <meta name="footnote-style" content="" />
+  <title>Chapter Page Layout</title>
   <link rel="stylesheet" type="text/css" href="layout.css" />
-  <link rel="stylesheet" type="text/css" href="chapter_landscape_left.css" />
+  <link rel="stylesheet" type="text/css" href="chapter_portrait_left.css" />
+  <meta name="page-style" content="margin-left:0px;margin-right:0px;margin-top:56px;" />
+  <meta name="footnote-style" content="" />
 </head>
 <body data-layout="page">
   <div data-region="header">

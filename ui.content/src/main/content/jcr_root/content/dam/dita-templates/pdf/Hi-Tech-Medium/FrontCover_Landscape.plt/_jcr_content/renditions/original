@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="page-style" content="size:A4 landscape;margin-top:0px;margin-left:0px;margin-right:0px;" />
+  <title>Page Layout</title>
+  <meta name="footnote-style" content="" />
+
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="frontcover_landscape.css" />
+</head>
+<body>
+  <div data-region="content">
+    <div class="frontcover_landsc_content">
+      <div class="frontcover_landsc_content_container">
+        <p class="frontcover_landsc_mainbooktitle">Jetson AGX Orin Series Modules Tuning and Compliance Guide</p>
+        <p class="frontcover_landsc_titlealt">Application Note</p>
+      </div>
+      <img class="frontcover_landsc_cover_img" src="../../../aemguidesDALP/hi-tech/images/frontcover-img.png" style="cursor: nesw-resize;" />
+    </div>
+  </div>
+  <div data-region="footer">
+    <div class="frontcover_landsc_footer">
+      <div class="frontcover_landsc_metadata">
+        <p class="frontcover_landsc_version">DA-11040-001_v1.3</p>
+        <div class="break_line"></div>
+        <p class="frontcover_landsc_publish_date">May 2024</p>
+      </div>
+      <img class="frontcover_landsc_logo" src="../../../aemguidesDALP/hi-tech/images/backcover_logo.png" />
+    </div>
+  </div>
+</body>
+</html>

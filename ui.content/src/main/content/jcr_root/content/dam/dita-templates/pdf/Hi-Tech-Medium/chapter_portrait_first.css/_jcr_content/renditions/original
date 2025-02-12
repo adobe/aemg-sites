@@ -1,20 +1,20 @@
-.chapter_firstpage_landsc_header {
+.chapter_firstpage_header {
   display: none;
 }
 .chapter-body {
   padding-left: 73px;
   padding-right: 73px;
 }
-.chapter_firstpage_landsc_content {
+.chapter_firstpage_content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.chapter_firstpage_landsc_metadata {
+.chapter_firstpage_metadata {
   width: 311px;
-  margin-bottom: 13%;
+  margin-bottom: 66%;
 }
-.chapter_firstpage_landsc_title {
+.chapter_firstpage_title {
   font-size: var(--text-3xl);
   line-height: var(--text-3xl-lh);
   font-weight: 500;
@@ -22,34 +22,33 @@
   padding-bottom: 8px;
   margin: 0;
 }
-.chapter_firstpage_landsc_description {
+.chapter_firstpage_description {
   font-size: var(--text-base);
   line-height: var(--text-base-lh);
   font-weight: 400;
   color: var(--color-accent);
   margin: 0;
 }
-.chapter_firstpage_landsc_cover-img {
-  width: 977px;
+.chapter_firstpage_cover-img {
+  width: 648px;
   height: 286px;
 }
-.chapter_firstpage_landsc_footer {
+.chapter_firstpage_footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 36px;
-  margin-top: 16px;
+  margin-bottom: 40px;
   padding-left: 73px;
   padding-right: 73px;
 }
-.chapter_firstpage_landsc_footer_text {
+.chapter_firstpage_footer_text {
   font-size: var(--text-3xs);
   line-height: var(--text-3xs);
   font-weight: 400;
   color: var(--color-accent);
   margin: 0;
 }
-.chapter_firstpage_landsc_footer_page_number {
+.chapter_firstpage_footer_page_number {
   font-size: var(--text-3xl);
   line-height: var(--text-3xl-lh);
   font-weight: 500;
