@@ -8,13 +8,13 @@
         cq:name="chapter_landscape.css"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-11T11:34:54.802+05:30"
+        jcr:lastModified="{Date}2025-02-12T13:28:02.273+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-11T11:34:54.692+05:30"
-            dam:sha1="f05eb8b6adf0ea60c1d03af90dfe822a0e0a79d4"
-            dam:size="{Long}6570"
+            dam:extracted="{Date}2025-02-12T13:28:02.242+05:30"
+            dam:sha1="731c89f4cddc17433b8dc4059804257081d9fd2f"
+            dam:size="{Long}6894"
             dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

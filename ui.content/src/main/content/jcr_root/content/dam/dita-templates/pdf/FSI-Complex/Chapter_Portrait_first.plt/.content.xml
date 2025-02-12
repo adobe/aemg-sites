@@ -8,13 +8,13 @@
         cq:name="Chapter_Portrait_first.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-11T11:34:54.088+05:30"
+        jcr:lastModified="{Date}2025-02-12T13:28:01.315+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-11T11:34:54.021+05:30"
-            dam:sha1="f134c162b54c6b38d30bd16d5d2941152bf3da28"
-            dam:size="{Long}2107"
+            dam:extracted="{Date}2025-02-12T13:28:01.233+05:30"
+            dam:sha1="10c9fce69f4747efbd779ae410a702e9177ec35b"
+            dam:size="{Long}2111"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
