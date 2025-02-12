@@ -39,10 +39,13 @@ const libsBaseConfig = {
 
 const clientlibArr = [
   {name : 'common', module: 'common'},
+
+  //automotive
   {name : 'automotive-footer', module: 'automotive'},
+  {name : 'automoitve_toc', module: 'automotive'},
 ]
 
-const libsArr = []
+const libsArr = [];
 generateClibs(libsArr, libsBaseConfig, ...clientlibArr)
 
  // Config for `aem-clientlib-generator`
