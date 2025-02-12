@@ -3,25 +3,21 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="704edddb-bcc6-4568-ba82-30d994a70b3b">
+    jcr:uuid="50eecf98-3545-41e2-bb79-e1e1324ed1e8">
     <jcr:content
-        cq:name="content.css"
+        cq:name="index_portrait.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-05T12:26:35.362+05:30"
+        jcr:lastModified="{Date}2025-02-12T19:48:31.021+05:30"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent"
-        fmditaDynamicTitle="{Boolean}false"
-        fmditaTitle="\0">
+        jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-05T12:26:35.246+05:30"
-            dam:sha1="13b53c4bae2d65f372793fb656b642206f54de60"
-            dam:size="{Long}9969"
+            dam:extracted="{Date}2025-02-12T19:48:31.001+05:30"
+            dam:sha1="62dd7c4507d77527121b26725d51b237c24c5c97"
+            dam:size="{Long}27"
             dc:format="text/css"
-            dc:title="\0"
             jcr:mixinTypes="[cq:Taggable]"
-            jcr:primaryType="nt:unstructured"
-            docstate="Draft"/>
+            jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

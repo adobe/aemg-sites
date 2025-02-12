@@ -1,7 +1,7 @@
-.backcover_header {
+/* .backcover_header {
   padding-top: 69px;
   padding-left: 73px;
-}
+} */
 .backcover_logo {
   width: 144px;
   height: 106px;
