@@ -7,7 +7,6 @@
   <title>Front Page</title>
   <meta name="footnote-style" content="" />
 
-
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
@@ -16,7 +15,7 @@
 <body>
   <div class="frontcover_content">
     <div class="frontcover_metadata">
-      <p class="frontcover_product-name"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand </span><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+      <p class="frontcover_product-name"><span class="frontcover_product-brand" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
       <p class="frontcover_publish-date"><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span></p>
     </div>
     <div class="barchart_image_bg_color"></div>

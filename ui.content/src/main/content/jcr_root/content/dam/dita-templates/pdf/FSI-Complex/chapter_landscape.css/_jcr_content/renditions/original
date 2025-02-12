@@ -285,6 +285,20 @@ li {
   padding-top: 16px;
   display: block;
 }
-figure { 
+figure {
   break-inside: avoid;
+}
+.chapter_sub-titles {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
+  font-weight: 600;
+  color: var(--color-primary);
+}
+h2.title {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
+  font-weight: 600;
+  color: var(--color-primary);
 }

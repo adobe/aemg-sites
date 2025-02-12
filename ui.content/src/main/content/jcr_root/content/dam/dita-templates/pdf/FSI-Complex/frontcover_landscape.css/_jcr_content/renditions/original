@@ -21,7 +21,7 @@
   padding-top: 4px;
 }
 .barchart_landsc_image_bg_color {
-  background-color: var(--color-dark);
+  background-color: var(--color-primary);
   width: 500px;
   height: 290px;
   position: absolute;
@@ -46,7 +46,7 @@
 }
 .histogram_landsc_image_container {
   position: absolute;
-  bottom: 0;
+  bottom: -3px;
   left: 0;
 }
 .histogram_landsc_image {

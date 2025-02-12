@@ -53,7 +53,7 @@
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 350;
- color: var(--color-primary);
+  color: var(--color-primary);
   /* margin-bottom: 16px; */
 }
 .idx-link {
@@ -102,6 +102,33 @@ a.book-idx-link.idx-link {
 }
 .index_footer {
   padding-bottom: 40px;
+}
+.index_footer_product-brand {
+  padding-right: 3px;
+  padding-top: 8px;
+  margin: unset;
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-2xs);
+  line-height: var(--text-2xs-lh);
+  font-weight: 700;
+  color: #var(--color-secondary);
+}
+.index_footer_product-name {
+  padding-right: 3px;
+  padding-top: 8px;
+  margin: unset;
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-2xs);
+  line-height: var(--text-2xs-lh);
+  font-weight: 700;
+  color: #var(--color-secondary);
+}
+.index_footer_urls {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-3xs);
+  line-height: var(--text-3xs-lh);
+  font-weight: 400;
+  color: var(--color-secondary);
 }
 .index_footer_text {
   font-size: var(--text-3xs);
