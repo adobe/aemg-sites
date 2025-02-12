@@ -18,7 +18,7 @@
     <div class="backcover_organization-details">
       <div class="backcover_contact-container">
         <p class="backcover_org-contact-label">CONTACT</p>
-        <span class="backcover_org-contactnumbers"><i class="fa fa-phone"></i> 000 800 050 01888</span> <span class="backcover_org-emailaddresses"><i class="fa-regular fa fa-envelope"></i>cs.ind@cac.mercedes-benz.com</span>
+        <span class="backcover_org-contactnumbers"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/phone-icon.png" /> 000 800 050 01888</span> <span class="backcover_org-emailaddresses"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/email-icon.png" />info@nvidia.com</span>
       </div>
       <div class="backcover_address-container">
         <p class="backcover_org-address-label">ADDRESS</p>
@@ -27,10 +27,10 @@
       </div>
       <div class="backcover_socials-container">
         <p class="backcover_org-socials-label">SOCIAL MEDIA</p>
-        <span class="backcover_org-socials"><i class="fa-brands fa fa-square-instagram"></i> Instagram link</span>
+        <span class="backcover_org-socials"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/insta-icon.png" /> Instagram link</span>
       </div>
     </div>
-    <div data-region="footer"></div>
   </div>
+  <div data-region="footer"></div>
 </body>
 </html>

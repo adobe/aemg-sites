@@ -7,33 +7,65 @@
   font-family: Adobe Clean;
   src: url('../../../aemguidesDALP/fonts/adobe-clean/AdobeClean-Regular.woff');
 }
+@font-face {
+  font-family: Inter;
+  src: url('../../../aemguidesDALP/fonts/inter/Inter-Light.woff');
+  font-weight: 300;
+}
+@font-face {
+  font-family: Inter;
+  src: url('../../../aemguidesDALP/fonts/inter/Inter-Regular.woff');
+  font-weight: 400;
+}
+@font-face {
+  font-family: Inter;
+  src: url('../../../aemguidesDALP/fonts/inter/Inter-Medium.woff');
+  font-weight: 500;
+}
+@font-face {
+  font-family: Inter;
+  src: url('../../../aemguidesDALP/fonts/inter/Inter-Bold.woff');
+  font-weight: 700;
+}
+@font-face {
+  font-family: Urbanist;
+  src: url('../../../aemguidesDALP/fonts/urbanist/Urbanist-Medium.ttf');
+  font-weight: 500;
+}
+html {
+  font-size: var(--base-font-size);
+}
 body {
   font-family: var(--font-fam-secondary);
 }
 .global-config,
 :root {
   /* font family */
-  --font-fam-primary: PP Editorial New;
-  --font-fam-secondary: Adobe Clean;
-  --base-font-size: 16px;
-}
-html {
-  font-size: var(--base-font-size);
+  --font-fam-primary-light: "Inter", sans-serif;
+  --font-fam-primary-regular: "Inter", sans-serif;
+  --font-fam-primary-medium: "Inter", sans-serif;
+  --font-fam-primary-bold: "Inter", sans-serif;
+  --font-fam-secondry: "Urbanist", serif;
 }
 .color-config,
 :root {
-  --color-accent: #821616;
-  --color-primary: #001E3A;
-  --color-secondary: #0D0D0D;
+  --color-accent: #0C1256;
+  --color-primary: #01EA57;
+  --color-primary-white: #FFFFFF;
+  --color-secondry-white: #F2F2F2;
+  --color-natural-blue: #87A3FB;
+  --color-secondary: #E8F1FF;
   --color-tertiary: #2C343B;
-  --color-neutral: #979797;
+  --color-neutral: #D8D8D8;
   --color-link: #0F85EC;
-  --color-tertiary-opa-50: rgba(235, 95, 95, 0.6);
-  --color-tertiary-opa-70: rgba(44, 52, 59, 0.7);
-  --frontcover-text-color: #FFFFFF;
-  --frontcover-right-bg: #000000;
-  --frontcover-landsc-bg: #006d9c;
-  --frontcover-landsc-bg-blur: #02719F;
+}
+.toc-config,
+:root {
+  --toc-gap: 20px;
+  --toc-level-1-gap: calc(var(--toc-gap) * 0);
+  --toc-level-2-gap: calc(var(--toc-gap) * 0);
+  --toc-level-3-gap: calc(var(--toc-gap) * 1);
+  --toc-level-4-gap: calc(var(--toc-gap) * 2);
 }
 .toc-config,
 :root {
