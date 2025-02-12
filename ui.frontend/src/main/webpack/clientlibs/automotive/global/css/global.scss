@@ -1,0 +1,13 @@
+@use "../../../common/css/common.scss";
+
+.hero-container {
+  .cover-img {
+    max-width: 940px;
+    max-height: 400px;
+
+    &> img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

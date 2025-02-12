@@ -20,7 +20,8 @@ module.exports = {
     resolve: resolve,
     entry: {
         site: SOURCE_ROOT + '/site/main.ts',
-        common: SOURCE_ROOT + '/clientlibs/common/main.ts'
+        automotive_global: SOURCE_ROOT + '/clientlibs/automotive/global/main.ts',
+        automoitve_toc: SOURCE_ROOT + '/clientlibs/automotive/toc/main.ts'
     },
     output: {
         filename: (chunkData) => {
