@@ -2,7 +2,7 @@
   box-sizing: border-box;
   width: 500px;
   height: 290px;
-  background-color: var(--color-white, #FFFFFF);
+  background-color: var(--color-accent);
   padding: 40px 110px 90px 40px;
   display: flex;
   gap: 16px;

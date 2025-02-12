@@ -28,13 +28,13 @@
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 350;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   margin-bottom: 16px;
 }
 .lof_content .lof-level-1::after,
 .lof-level-1::after {
   color: var(--color-primary);
-   font-weight: 700;
+  font-weight: 700;
 }
 .lof_footer {
   margin-bottom: 0px;
