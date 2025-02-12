@@ -8,13 +8,13 @@
         cq:name="Index_Landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-12T12:52:44.211+05:30"
+        jcr:lastModified="{Date}2025-02-12T17:13:00.687+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-12T12:52:44.086+05:30"
-            dam:sha1="3abc26571f0d91e18a30b0865fdb735e588e63b0"
-            dam:size="{Long}1264"
+            dam:extracted="{Date}2025-02-12T17:13:00.563+05:30"
+            dam:sha1="d5c28d191538a796fd37c9c21854503ab0262cc7"
+            dam:size="{Long}1287"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
