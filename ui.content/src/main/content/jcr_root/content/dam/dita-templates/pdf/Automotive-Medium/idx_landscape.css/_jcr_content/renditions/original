@@ -1,0 +1,89 @@
+/*Created with AEM Guides*/
+#index-header {
+  margin-bottom: 27px;
+  text-align: left;
+}
+#index_header_title {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xl);
+  line-height: var(--text-xl-lh);
+  font-weight: 400;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+}
+#index_header_titlealts {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-tertiary);
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+.idx-body {
+  column-count: unset;
+  column-fill: unset;
+}
+.idx-title {
+  column-span: all;
+}
+.idx-keyword-group {
+  font-weight: bold;
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
+  margin-top: 16pt;
+}
+.idx-keyword-group:first-of-type {
+  margin-top: 0;
+}
+.idx-unit {
+  padding-bottom: 0px;
+}
+.idx-keyword {
+  margin: unset;
+}
+.idx-name {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 350;
+  color: var(--color-primary);
+  margin-bottom: 16px;
+}
+.idx-link {
+  text-decoration: none;
+}
+.idx-child {
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+#index_footer_product-name {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-tertiary);
+  padding-top: 8px;
+  margin: 0;
+}
+#index_footer_urls {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-link);
+  text-decoration: none;
+}
+a.book-idx-link.idx-link {
+  color: var(--color-accent);
+}
+#index_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  row-gap: 1px;
+  border-top: 0.5px solid #2C343B;
+  color: var(--color-tertiary);
+  justify-content: flex-start;
+}

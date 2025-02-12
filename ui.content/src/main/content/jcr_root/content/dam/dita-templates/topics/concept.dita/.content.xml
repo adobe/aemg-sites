@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="c8e8dfd5-2b47-404f-bbcb-96404f89f3f1">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-08T16:29:25.556+05:30"
+        jcr:lastModifiedBy="fmdita-serviceuser"
+        jcr:primaryType="dam:AssetContent"
+        fmdita-dita-template="{Boolean}true"
+        fmdita-newfile="{Boolean}true"
+        templateDescription="Template for concept topic"
+        templateTitle="Concept">
+        <metadata
+            dam:extracted="{Date}2025-02-08T16:29:25.342+05:30"
+            dam:sha1="0a8ad8be1f1fc5663a2aa3ebb7bbbcf06ea8ea6e"
+            dam:size="{Long}242"
+            dc:format="application/xml"
+            dc:title="Concept"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            dita_class="- topic/topic concept/concept"/>
+    </jcr:content>
+</jcr:root>

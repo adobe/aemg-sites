@@ -1,0 +1,301 @@
+/* :root {
+  --themeclr: #FF7700;
+  --hftextclr: #888899;
+}
+body {
+  font-family: sans-serif;
+} */
+/*Chapter Styling*/
+/* .chapter-header {
+  font-weight: bold;
+  color: var(--hftextclr);
+  font-size: 12pt;
+  border-bottom-width: 3pt;
+  border-bottom-color: var(--themeclr);
+  border-bottom-style: solid;
+}
+.chapter-footer {
+  border-top-style: solid;
+  border-top-color: var(--themeclr);
+  border-top-width: 1px;
+  font-weight: bold;
+  font-size: 12pt;
+  color: var(--hftextclr);
+  text-align: center;
+} */
+.chapter-body {}
+/*
+.topic-body {}
+*/
+/*TOC Styling*/
+.toc-header {
+  font-weight: bold;
+  color: var(--hftextclr);
+  font-size: 12pt;
+}
+.toc-footer {
+  font-weight: bold;
+  font-size: 12pt;
+  color: var(--hftextclr);
+  text-align: center;
+}
+.toc-body {}
+.toc-title {
+  font-size: 21pt;
+  font-weight: bold;
+  margin-top: 24pt;
+  margin-bottom: 24pt;
+}
+.toc-level-1 {
+  font-size: 15pt;
+  text-decoration: none;
+  font-weight: bold;
+}
+/*
+.toc-level-1::after {
+  content: leader(solid) " "target-counter(attr(href url), page) !important;
+}
+*/
+.toc-level-1.front-matter {
+  display: none;
+}
+.toc-level-1.front-matter::after {
+  display: none;
+}
+.toc-level-2 {
+  font-size: 14pt;
+  text-decoration: none;
+  font-weight: bold;
+}
+.toc-level-3 {
+  font-size: 13pt;
+  text-decoration: none;
+}
+.toc-level-4 {
+  font-size: 12pt;
+  text-decoration: none;
+}
+.toc-level-5 {
+  font-size: 11pt;
+  text-decoration: none;
+}
+.toc-level-6 {
+  font-size: 11pt;
+  text-decoration: none;
+}
+/*Chapter TOC Styling*/
+.chaptoc-body {}
+.chaptoc-level-1 {
+  font-size: 12pt;
+  text-decoration: none;
+}
+.chaptoc-level-2 {
+  font-size: 12pt;
+  text-decoration: none;
+}
+.chaptoc-level-3 {
+  font-size: 11pt;
+  text-decoration: none;
+}
+.chaptoc-level-4 {
+  font-size: 11pt;
+  text-decoration: none;
+}
+.chaptoc-level-5 {
+  font-size: 11pt;
+  text-decoration: none;
+}
+.chaptoc-level-6 {
+  font-size: 11pt;
+  text-decoration: none;
+}
+/*List of Figures Styling*/
+.lof-header {
+  border-bottom-style: solid;
+  border-bottom-color: var(--themeclr);
+  border-bottom-width: 3pt;
+  font-weight: bold;
+  color: var(--hftextclr);
+  font-size: 12pt;
+}
+.lof-footer {
+  border-top-style: solid;
+  border-top-color: var(--themeclr);
+  border-top-width: 1px;
+  font-weight: bold;
+  font-size: 12pt;
+  color: var(--hftextclr);
+  text-align: center;
+}
+.lof-body {}
+.lof-title {
+  font-size: 21pt;
+  font-weight: bold;
+  margin-top: 24pt;
+  margin-bottom: 24pt;
+}
+.lof-level-1 {
+  text-decoration: none;
+  font-size: 12pt;
+}
+/*List of Tables styling*/
+.lot-header {
+  border-bottom-style: solid;
+  border-bottom-color: var(--themeclr);
+  border-bottom-width: 3pt;
+  font-weight: bold;
+  color: var(--hftextclr);
+  font-size: 12pt;
+}
+.lot-footer {
+  border-top-style: solid;
+  border-top-color: var(--themeclr);
+  border-top-width: 1px;
+  font-weight: bold;
+  font-size: 12pt;
+  color: var(--hftextclr);
+  text-align: center;
+}
+.lot-body {}
+.lot-title {
+  font-size: 21pt;
+  font-weight: bold;
+  margin-top: 24pt;
+  margin-bottom: 24pt;
+}
+.lot-level-1 {
+  text-decoration: none;
+  font-size: 12pt;
+}
+/*Index Styling*/
+.idx-header {
+  border-bottom-style: solid;
+  border-bottom-color: var(--themeclr);
+  border-bottom-width: 3pt;
+  font-weight: bold;
+  color: var(--hftextclr);
+  font-size: 12pt;
+}
+.idx-footer {
+  border-top-style: solid;
+  border-top-color: var(--themeclr);
+  border-top-width: 1px;
+  font-weight: bold;
+  font-size: 12pt;
+  color: var(--hftextclr);
+  text-align: center;
+}
+.idx-body {
+  column-count: 2;
+  column-fill: balance;
+}
+.idx-title {
+  column-span: all;
+  font-size: 21pt;
+  font-weight: bold;
+  margin-top: 24pt;
+  margin-bottom: 24pt;
+}
+.idx-keyword-group {
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 16pt;
+}
+.idx-keyword-group:first-of-type {
+  margin-top: 0pt;
+}
+.idx-unit {}
+.idx-keyword {}
+.idx-name {}
+.idx-link {
+  text-decoration: none;
+}
+.idx-child {
+  padding-left: 10pt;
+}
+/*Glossary Styling*/
+.glo-header {
+  border-bottom-style: solid;
+  border-bottom-color: var(--themeclr);
+  border-bottom-width: 3pt;
+  font-weight: bold;
+  color: var(--hftextclr);
+  font-size: 12pt;
+}
+.glo-footer {
+  border-top-style: solid;
+  border-top-color: var(--themeclr);
+  border-top-width: 1px;
+  font-weight: bold;
+  font-size: 12pt;
+  color: var(--hftextclr);
+  text-align: center;
+}
+.glo-body {}
+.glo-title {
+  font-size: 21pt;
+  font-weight: bold;
+  margin-top: 24pt;
+  margin-bottom: 24pt;
+}
+.glo-unit {}
+.glo-term {
+  font-weight: bold;
+  margin-top: 16pt;
+}
+.glo-definition {}
+.glo-link {}
+/*Footnote area */
+@page {
+  @footnote {
+    -ro-border-length: 30%;
+    border-top-style: solid;
+    border-top-color: #000000;
+    border-top-width: 1px;
+  }
+}
+.inserted-block {
+  color: #2ECC40;
+  display: inline;
+  -ro-comment-content: " ";
+  -ro-comment-style: underline;
+  -ro-comment-title: "Inserted";
+  -ro-comment-date: attr(data-time);
+  -ro-comment-dateformat: "yyyy/dd/MM HH:mm:ss";
+}
+.deleted-block {
+  display: inline;
+  color: #FF6961;
+  text-decoration: line-through;
+  -ro-comment-content: " ";
+  -ro-comment-style: strikeout;
+  -ro-comment-title: "Deleted";
+  -ro-comment-date: attr(data-time);
+  -ro-comment-dateformat: "yyyy/dd/MM HH:mm:ss";
+}
+.inserted-change-bar {
+  -ro-change-bar-color: #2ECC40;
+}
+.deleted-change-bar {
+  -ro-change-bar-color: #FF6961;
+}
+.changed-topic {
+  -ro-change-bar-color: #2ECC40;
+}
+.citations-list {
+  padding-left: 0;
+  list-style: none;
+}
+.citations-list-item {
+  line-height: 2;
+}
+.cite {
+  margin-left: 0.25rem;
+}
+.cite a {
+  text-decoration: none;
+}
+.aha {
+  vertical-align: super;
+  font-size: 0.8em;
+}
