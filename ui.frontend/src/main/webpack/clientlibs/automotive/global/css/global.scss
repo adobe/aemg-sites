@@ -1,4 +1,9 @@
 @use "../../../common/css/common.scss";
+@use "themes";
+
+body {
+  background-color: var(--color-bg);
+}
 
 .hero-container {
   .cover-img {

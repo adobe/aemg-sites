@@ -1,5 +1,9 @@
 @mixin light-theme {
-
+  --color-accent: #821616;
+  --color-primary: #001E3A;
+  --color-primary-70: #001e3ab3;
+  --color-neutral: #D8D8D8;
+  --color-bg: #FFFFFF;
 }
 
 @mixin dark-theme {

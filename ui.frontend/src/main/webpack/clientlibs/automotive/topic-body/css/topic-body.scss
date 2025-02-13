@@ -1,0 +1,16 @@
+#topic-title {
+  &>.cmp-title__text {
+    font-size: var(--text-2xl);
+    line-height: var(--text-2xl-lh);
+    color: var(--color-primary);
+    font-weight: 400;
+  }
+}
+
+.topic-body {
+  &>.cmp-container {
+    font-size: var(--text-sm);
+    line-height: var(--text-sm-lh);
+    color: var(--color-primary);
+  }
+}
