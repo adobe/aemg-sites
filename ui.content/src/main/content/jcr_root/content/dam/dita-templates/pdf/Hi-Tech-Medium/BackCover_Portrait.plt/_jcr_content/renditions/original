@@ -6,8 +6,10 @@
   <title>Back Cover Layout</title>
   <meta name="page-style" content="size:portrait;position:relative;margin-left:0px;margin-right:0px;" />
   <meta name="footnote-style" content="" />
+
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="backcover_portrait.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
 </head>
 <body>
   <div class="backcover_header"><img class="backcover_logo" src="../../../aemguidesDALP/hi-tech/images/backcover_logo.png" /></div>

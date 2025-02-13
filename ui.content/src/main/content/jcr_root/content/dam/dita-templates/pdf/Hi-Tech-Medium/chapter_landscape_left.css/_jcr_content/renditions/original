@@ -3,7 +3,8 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 0 40px 0;
-  padding-left: 71px;
+  padding-left: 73px;
+  padding-right: 0;
   height: 56px;
 }
 .chapter_header_lang {
@@ -11,6 +12,7 @@
   line-height: var(--text-xs-lh);
   letter-spacing: 1px;
   font-weight: 500;
+  font-family: var(--font-fam-primary-medium);
   color: var(--color-accent);
 }
 .chapter_header_number {
@@ -18,9 +20,10 @@
   line-height: var(--text-xs-lh);
   letter-spacing: 1px;
   font-weight: 500;
+  font-family: var(--font-fam-primary-medium);
   color: var(--color-accent);
   background-color: var(--color-primary);
-  padding: 21px 25px;
+  /* padding: 21px 25px; */
 }
 .chapter_footer {
   background-color: var(--color-secondary);
@@ -33,6 +36,7 @@
   font-size: var(--text-4xs);
   line-height: var(--text-4xs-lh);
   font-weight: 400;
+  font-family: var(--font-fam-primary-regular);
   color: var(--color-accent);
   margin: 0;
 }
@@ -40,11 +44,46 @@
   font-size: var(--text-base);
   line-height: var(--text-base-lh);
   font-weight: 500;
+  font-family: var(--font-fam-primary-medium);
   color: var(--color-accent);
   margin: 0;
 }
-h1.chapter {
-  display: none;
+h1.title.chapter {
+  /* display: none; */
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl-lh);
+  font-weight: 700;
+  font-family: var(--font-fam-primary-bold);
+  color: var(--color-accent);
+  margin: 0;
+  padding-left: 20px;
+}
+h1.title::before {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl-lh);
+  font-weight: 700;
+  font-family: var(--font-fam-primary-bold);
+  color: var(--color-accent);
+  padding-left: 15px;
+}
+h2.title {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
+  font-weight: 500;
+  font-family: var(--font-fam-primary-medium);
+  color: var(--color-accent);
+}
+.shortdesc {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
+  font-weight: 400;
+  font-family: var(--font-fam-primary-regular);
+  color: var(--color-accent);
+  margin: 0;
 }
 .display_flex {
   display: flex;
@@ -60,6 +99,7 @@ h1.chapter {
   font-size: var(--text-base);
   line-height: var(--text-base-lh);
   font-weight: 700;
+  font-family: var(--font-fam-primary-bold);
   color: var(--color-accent);
   margin: 0;
   padding-bottom: 25px;
@@ -68,6 +108,7 @@ h1.chapter {
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   font-weight: 400;
+  font-family: var(--font-fam-primary-regular);
   color: var(--color-accent);
   margin: 0;
 }
@@ -82,22 +123,33 @@ h1.chapter {
   width: 300px;
   height: 210px;
   background-color: var(--color-secondry-white);
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .desc_circle {
   font-size: var(--text-base);
   line-height: var(--text-base-lh);
   font-weight: 700;
+  font-family: var(--font-fam-primary-bold);
   color: var(--color-primary);
   margin: 0;
   padding: 8px 16px;
   border-radius: 20px;
-  background-color: var(--color-accent);;
+  background-color: var(--color-accent);
   display: inline-block;
+  position: absolute;
+  left: 16px;
+  top: 16px;
 }
 .figure_info {
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   font-weight: 400;
+  font-family: var(--font-fam-primary-regular);
   color: var(--color-accent);
   margin: 0;
 }
@@ -107,27 +159,48 @@ h1.chapter {
 }
 thead .entry {
   padding: 10px 16px;
-  background-color: var(--color-secondary-blue);;
+  background-color: var(--color-secondary);
   color: var(--color-accent);
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   font-weight: 500;
+  font-family: var(--font-fam-primary-medium);
   margin: 0;
 }
 tbody .entry {
-  padding: 12px 0 12px 16px;
+  padding: 12px 16px 12px 16px;
   color: var(--color-accent);
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 400;
+  font-family: var(--font-fam-primary-regular);
   margin: 0;
   word-wrap: break-word;
+}
+tbody .entry b {
+  color: var(--color-accent);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 500;
+  font-family: var(--font-fam-primary-medium);
+}
+tbody .entry ul {
+  margin: 0;
+  padding-inline-start: 15px;
+}
+tbody .entry ul li {
+  color: var(--color-accent);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  font-family: var(--font-fam-primary-regular);
 }
 .chapter_body_heading {
   color: var(--color-accent);
   font-size: var(--text-base);
   line-height: var(--text-base-lh);
   font-weight: 700;
+  font-family: var(--font-fam-primary-bold);
   margin: 0;
   padding-bottom: 8px;
 }
@@ -136,6 +209,7 @@ tbody .entry {
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   font-weight: 400;
+  font-family: var(--font-fam-primary-regular);
   margin: 0;
 }
 .caution_conatiner {
@@ -151,6 +225,7 @@ tbody .entry {
   font-size: var(--text-4xs);
   line-height: var(--text-4xs-lh);
   font-weight: 400;
+  font-family: var(--font-fam-primary-regular);
   font-style: italic;
   margin: 0;
   color: var(--color-accent);
@@ -159,6 +234,7 @@ tbody .entry {
   font-size: var(--text-4xs);
   line-height: var(--text-4xs-lh);
   font-weight: 700;
+  font-family: var(--font-fam-primary-bold);
   font-style: italic;
   margin: 0;
   color: var(--color-accent);
@@ -168,12 +244,14 @@ h2.chapter_sub-titles {
   font-size: var(--text-base);
   line-height: var(--text-base-lh);
   font-weight: 700;
+  font-family: var(--font-fam-primary-bold);
 }
 body {
   color: var(--color-accent);
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   font-weight: 400;
+  font-family: var(--font-fam-primary-regular);
 }
 .caution_img {
   margin: 0;
@@ -182,4 +260,12 @@ body {
 }
 figure {
   margin: 0;
+}
+.glo-link {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
+  font-weight: 400;
+  font-family: var(--font-fam-primary-regular);
+  color: var(--color-accent);
 }

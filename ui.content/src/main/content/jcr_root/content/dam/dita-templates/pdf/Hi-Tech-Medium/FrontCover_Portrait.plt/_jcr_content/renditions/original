@@ -6,7 +6,6 @@
   <meta name="page-style" content="size:A4 portrait;" />
   <title>Page Layout</title>
   <meta name="footnote-style" content="" />
-
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="frontcover_portrait.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
@@ -16,7 +15,7 @@
     <div class="frontcover_content">
       <div class="frontcover_content_container">
         <p class="frontcover_mainbooktitle" style=""><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
-        <p class="frontcover_titlealt"><span data-field="metadata" data-format="default" data-subtype="//doctype[1]">doctype</span></p>
+        <p class="frontcover_titlealt">Application Note</p>
       </div>
       <img class="frontcover_cover_img" src="../../../aemguidesDALP/hi-tech/images/frontcover-img.png" style="cursor: nesw-resize;" />
     </div>

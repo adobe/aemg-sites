@@ -1,25 +1,21 @@
-.chapter_left_body {
-  position: relative;
-}
-.chapter_leftpage_header {
+.chapter_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 0 40px 0;
+  padding-right: 73px;
+  padding-left: 0;
+  height: 56px;
 }
-.chapter_leftpage_header_lang {
+.chapter_header_lang {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   letter-spacing: 1px;
   font-weight: 500;
   font-family: var(--font-fam-primary-medium);
   color: var(--color-accent);
-  position: absolute;
-  top: 21px;
-  right: 7%;
-  margin: 0;
 }
-.chapter_leftpage_header_number {
+.chapter_header_number {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   letter-spacing: 1px;
@@ -27,24 +23,16 @@
   font-family: var(--font-fam-primary-medium);
   color: var(--color-accent);
   background-color: var(--color-primary);
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 56px;
-  width: 56px;
-  margin: 0;
-  justify-content: center;
-  display: flex;
-  align-items: center;
+  /* padding: 21px 25px; */
 }
-.chapter_leftpage_footer {
+.chapter_footer {
   background-color: var(--color-secondary);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 27px 60px 21px 73px;
 }
-.chapter_leftpage_footer_text {
+.chapter_footer_text {
   font-size: var(--text-4xs);
   line-height: var(--text-4xs-lh);
   font-weight: 400;
@@ -52,7 +40,7 @@
   color: var(--color-accent);
   margin: 0;
 }
-.chapter_leftpage_footer_page_number {
+.chapter_footer_page_number {
   font-size: var(--text-base);
   line-height: var(--text-base-lh);
   font-weight: 500;
@@ -70,7 +58,6 @@ h1.title.chapter {
   color: var(--color-accent);
   margin: 0;
   padding-left: 20px;
-  padding-bottom: 15px;
 }
 h1.title::before {
   font-family: var(--font-fam-primary);
@@ -100,24 +87,20 @@ h2.title {
 }
 .display_flex {
   display: flex;
-  gap: 35px;
+  gap: 80px;
 }
 .flex_col1 {
-  /* flex-basis: 140px; */
-  max-width: 30%;
-  width: 100%;
+  flex-basis: 272px;
 }
 .flex_col2 {
-  /* flex-basis: 460px; */
-  max-width: 70%;
-  width: 100%;
+  flex-basis: 624px;
 }
 .chapter_title {
   font-size: var(--text-base);
   line-height: var(--text-base-lh);
   font-weight: 700;
-  color: var(--color-accent);
   font-family: var(--font-fam-primary-bold);
+  color: var(--color-accent);
   margin: 0;
   padding-bottom: 25px;
 }
@@ -125,8 +108,8 @@ h2.title {
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   font-weight: 400;
-  color: var(--color-accent);
   font-family: var(--font-fam-primary-regular);
+  color: var(--color-accent);
   margin: 0;
 }
 .figure_container {
@@ -134,10 +117,10 @@ h2.title {
   gap: 24px;
 }
 .figure_content_wrapper {
-  width: 218px;
+  width: 300px;
 }
 .fig_content {
-  width: 218px;
+  width: 300px;
   height: 210px;
   background-color: var(--color-secondry-white);
   padding: 16px;
@@ -146,8 +129,6 @@ h2.title {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 8px;
-  position: relative;
 }
 .desc_circle {
   font-size: var(--text-base);
@@ -155,7 +136,7 @@ h2.title {
   font-weight: 700;
   font-family: var(--font-fam-primary-bold);
   color: var(--color-primary);
-  margin: 0 0;
+  margin: 0;
   padding: 8px 16px;
   border-radius: 20px;
   background-color: var(--color-accent);
@@ -168,16 +149,13 @@ h2.title {
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   font-weight: 400;
-  color: var(--color-accent);
   font-family: var(--font-fam-primary-regular);
+  color: var(--color-accent);
   margin: 0;
 }
 .table {
   padding-top: 36px;
   padding-bottom: 40px;
-}
-.entry {
-  border: 0.5px solid var(--color-secondary-blue);
 }
 thead .entry {
   padding: 10px 16px;

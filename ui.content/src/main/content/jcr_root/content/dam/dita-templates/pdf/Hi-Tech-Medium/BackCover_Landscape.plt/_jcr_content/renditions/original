@@ -6,8 +6,10 @@
   <meta name="page-style" content="size:A4 landscape;margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px;" />
   <title>Page Layout</title>
   <meta name="footnote-style" content="" />
+
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="backcover_landscape.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
 </head>
 <body>
   <div class="backcover_landsc_header"><img class="backcover_landsc_logo" src="../../../aemguidesDALP/hi-tech/images/backcover_logo.png" /></div>

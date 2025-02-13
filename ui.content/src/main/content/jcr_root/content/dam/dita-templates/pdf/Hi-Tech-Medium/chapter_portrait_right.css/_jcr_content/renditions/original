@@ -1,13 +1,13 @@
-.chapter_left_body {
+.chapter_right_body {
   position: relative;
 }
-.chapter_leftpage_header {
+.chapter_rightpage_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 0 40px 0;
 }
-.chapter_leftpage_header_lang {
+.chapter_rightpage_header_lang {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   letter-spacing: 1px;
@@ -15,11 +15,11 @@
   font-family: var(--font-fam-primary-medium);
   color: var(--color-accent);
   position: absolute;
+  left: 7%;
   top: 21px;
-  right: 7%;
   margin: 0;
 }
-.chapter_leftpage_header_number {
+.chapter_rightpage_header_number {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   letter-spacing: 1px;
@@ -28,7 +28,7 @@
   color: var(--color-accent);
   background-color: var(--color-primary);
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
   height: 56px;
   width: 56px;
@@ -37,14 +37,16 @@
   display: flex;
   align-items: center;
 }
-.chapter_leftpage_footer {
+.chapter_rightpage_footer {
   background-color: var(--color-secondary);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 27px 60px 21px 73px;
+  /* position: absolute;
+  bottom: 0; */
 }
-.chapter_leftpage_footer_text {
+.chapter_rightpage_footer_text {
   font-size: var(--text-4xs);
   line-height: var(--text-4xs-lh);
   font-weight: 400;
@@ -52,7 +54,7 @@
   color: var(--color-accent);
   margin: 0;
 }
-.chapter_leftpage_footer_page_number {
+.chapter_rightpage_footer_page_number {
   font-size: var(--text-base);
   line-height: var(--text-base-lh);
   font-weight: 500;
@@ -155,7 +157,7 @@ h2.title {
   font-weight: 700;
   font-family: var(--font-fam-primary-bold);
   color: var(--color-primary);
-  margin: 0 0;
+  margin: 0;
   padding: 8px 16px;
   border-radius: 20px;
   background-color: var(--color-accent);

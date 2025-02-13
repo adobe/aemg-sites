@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  counter-reset: h1\.chapter1 0;
+  counter-reset: h1\.chapter1 0 h2\.chapter1 0;
   /* counter-reset: table; */
   /* counter-reset: table\.title 0; */
   /* counter-reset: table\.title 0; */

@@ -12,7 +12,7 @@
 <body>
   <div class="index_header" data-region="header" id="index_firstpage_header"></div>
   <div class="index_firstpage_content" data-region="content" id="index_firstpage_content">
-    <p class="index_title" style="">Index</p>
+      <p class="index_title" style="">Index</p>
   </div>
   <div data-region="footer">
     <div class="index_footer">

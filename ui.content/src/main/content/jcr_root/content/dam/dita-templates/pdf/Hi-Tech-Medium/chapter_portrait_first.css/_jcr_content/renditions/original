@@ -12,7 +12,7 @@
 }
 .chapter_firstpage_metadata {
   width: 311px;
-  margin-bottom: 66%;
+  margin-bottom: 62%;
 }
 .chapter_firstpage_title {
   font-size: var(--text-3xl);
@@ -40,6 +40,7 @@
   margin-bottom: 40px;
   padding-left: 73px;
   padding-right: 73px;
+  /* margin-top: 40px; */
 }
 .chapter_firstpage_footer_text {
   font-size: var(--text-3xs);

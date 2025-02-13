@@ -93,6 +93,7 @@
       <disabled type="boolean">false</disabled>
     </bookListsitem>
   </bookLists>
+  <hyperlinkGlossary type="boolean">true</hyperlinkGlossary>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
   <layout>Common</layout>
   <coverPageLayout>FrontCover_Portrait</coverPageLayout>
