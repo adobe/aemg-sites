@@ -1,0 +1,14 @@
+/*Created with AEM Guides*/@font-face {
+  font-family: PP Editorial New;
+  src: url('../../../aemguidesDALP/fonts/pp-editorial-new/PPEditorialNew-Regular.otf');
+}
+@font-face {
+  font-family: adobe-clean;
+  src: url(../../../aemguidesDALP/fonts/adobe-clean/AdobeClean-Regular.woff);
+}
+
+:root, .global-config {
+  /* font family */
+  --font-fam-primay: PP Editorial New;
+  --font-fam-secondary: Adobe Clean;
+}

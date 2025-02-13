@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Back Cover Layout</title>
+  <meta name="page-style" content="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;size:portrait;position:relative;" />
+  <meta name="footnote-style" content="" />
+
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="backcover_portrait.css" />
+</head>
+<body>
+  <div class="backcover_header"><img class="backcover_logo" src="../../../aemguidesDALP/hi-tech/images/backcover_logo.png" /></div>
+  <div class="backcover_content">
+    <div class="backcover_text">
+      <p class="backcover_description">Jetson AGX Orin Series Modules Tuning and Compliance Guide</p>
+    </div>
+    <div class="backcover_organization_details">
+      <div class="backcover_contact_container">
+        <p class="backcover_contact_label">Contact</p>
+        <div class="backcover_phoneno_container"><img class="backcover_phone_img" src="../../../aemguidesDALP/hi-tech/images/phone-img.png" />
+          <p class="backcover_phone_number">000 800 050 01888</p>
+        </div>
+        <div class="backcover_email_container"><img class="backcover_email_img" src="../../../aemguidesDALP/hi-tech/images/email-img.png" />
+          <p class="backcover_email">info@nvidia.com</p>
+        </div>
+      </div>
+      <div class="backcover_address_container">
+        <p class="backcover_address_label">Address</p>
+        <p class="backcover_address">2788 San Tomas Express Way,<br />
+          Santa Clara, CA 95051.</p>
+      </div>
+      <div class="backcover_socials_container">
+        <p class="backcover_socials_label">Social media</p>
+        <div class="backcover_socials_link_container"><img class="backcover_insta_img" src="../../../aemguidesDALP/hi-tech/images/insta-img.png" />
+          <p class="backcover_social">info@nvidia.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

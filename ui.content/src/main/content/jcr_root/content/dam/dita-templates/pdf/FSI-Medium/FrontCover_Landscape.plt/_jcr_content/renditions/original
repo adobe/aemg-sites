@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="page-style" content="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;size:A4 landscape;background-color: var(--color-primary);position:relative;" />
+  <title>Front Page</title>
+  <meta name="footnote-style" content="" />
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="content.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+  <link rel="stylesheet" type="text/css" href="frontcover_landscape.css" />
+</head>
+<body>
+  <div class="frontcover_landsc_content">
+    <div class="frontcover_landsc_metadata">
+      <p class="frontcover_landsc_product-name"><span class="frontcover_landsc_product-brand" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand </span><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+      <p class="frontcover_landsc_publish-date"><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span></p>
+    </div>
+    <div class="barchart_landsc_image_bg_color"></div>
+    <img class="barchart_landsc_image" src="../../../aemguidesDALP/fsi/images/bar-chart-img.png" />
+    <div class="histogram_landsc_image_container"><img class="histogram_landsc_image" src="../../../aemguidesDALP/fsi/images/histogram-img.png" /></div>
+    <div class="frontcover_landsc_logo_container"><img class="frontcover_landsc_logo" src="../../../aemguidesDALP/fsi/images/frontcover-logo.png" />
+      <p class="frontcover_landsc_text">HSBC is one of the largest banking and financial services organisations in the world.</p>
+    </div>
+  </div>
+</body>
+</html>

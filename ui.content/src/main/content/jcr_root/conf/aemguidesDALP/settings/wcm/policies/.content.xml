@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
     <rep:policy/>
@@ -34,11 +34,11 @@
                     jcr:title="Content Image"
                     sling:resourceType="wcm/core/components/policy/policy"
                     allowedRenditionWidths="[320,480,600,800,1024,1200,1600]"
-                    disableLazyLoading="false"
-                    enableAssetDelivery="true"
                     allowUpload="false"
                     altValueFromDAM="true"
+                    disableLazyLoading="false"
                     displayPopupTitle="true"
+                    enableAssetDelivery="true"
                     isDecorative="false"
                     jpegQuality="{Long}85"
                     titleValueFromDAM="true"
@@ -208,10 +208,13 @@
             <container jcr:primaryType="nt:unstructured">
                 <policy_1574694950110
                     jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                    jcr:lastModified="{Date}2025-02-11T12:05:08.549+05:30"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Root"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:AEM Guides DALP - Content,/apps/aemguidesDALP/components/form/container,group:AEM Guides DALP - Structure]">
+                    components="[group:AEM Guides DALP - Content,/apps/aemguidesDALP/components/form/container,group:AEM Guides DALP - Structure,group:Core Content,group:Core Structure,/apps/guides-components/components/guidessidenavigation]"
+                    layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -236,44 +239,44 @@
                         </assetToComponentMapping>
                     </cq:authoring>
                 </policy_1574694950110>
-                <policy_1574695586800
-                    jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+            </container>
+            <teaser jcr:primaryType="nt:unstructured">
+                <policy_1575031387650
+                    jcr:description="Sets the title size to H3."
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Page Content"
+                    jcr:title="Content Teaser"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:AEM Guides DALP - Content,/apps/aemguidesDALP/components/form/container]">
+                    titleType="h3">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
-                    <cq:authoring jcr:primaryType="nt:unstructured">
-                        <assetToComponentMapping jcr:primaryType="nt:unstructured">
-                            <mapping_1575030255082
-                                jcr:primaryType="nt:unstructured"
-                                assetGroup="media"
-                                assetMimetype="image/*"
-                                droptarget="image"
-                                resourceType="aemguidesDALP/components/image"/>
-                            <mapping_1575030260142
-                                jcr:primaryType="nt:unstructured"
-                                assetGroup="content"
-                                assetMimetype="text/html"
-                                droptarget="experiencefragment"
-                                resourceType="aemguidesDALP/components/experiencefragment"/>
-                            <mapping_1575030269139
-                                jcr:primaryType="nt:unstructured"
-                                assetGroup="media"
-                                assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
-                                droptarget="contentfragment"
-                                resourceType="aemguidesDALP/components/contentfragment"/>
-                        </assetToComponentMapping>
-                    </cq:authoring>
-                </policy_1574695586800>
-                <policy_649128221558427
-                    cq:styleDefaultElement="main"
-                    jcr:description="Sets a &lt;main> element on the page content area."
+                </policy_1575031387650>
+            </teaser>
+            <download jcr:primaryType="nt:unstructured">
+                <policy_1575032193319
+                    jcr:description="Sets the title size to H3."
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Page Main"
-                    sling:resourceType="wcm/core/components/policy/policy">
+                    jcr:title="Content Download"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    allowUpload="false"
+                    displayFilename="true"
+                    displayFormat="true"
+                    displaySize="true"
+                    titleType="h3">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
-                </policy_649128221558427>
+                </policy_1575032193319>
+            </download>
+            <page jcr:primaryType="nt:unstructured">
+                <policy
+                    jcr:description="Includes the required client libraries."
+                    jcr:lastModified="{Date}2025-02-07T19:37:08.295+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Generic Page"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    clientlibs="[aemguidesDALP.dependencies,aemguidesDALP.site,guides-components.components]"
+                    clientlibsAsync="false"
+                    clientlibsJsHead="aemguidesDALP.dependencies">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy>
                 <policy_1575040440977
                     jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
                     jcr:primaryType="nt:unstructured"
@@ -304,51 +307,94 @@
                         </assetToComponentMapping>
                     </cq:authoring>
                 </policy_1575040440977>
-            </container>
-            <teaser jcr:primaryType="nt:unstructured">
-                <policy_1575031387650
-                    jcr:description="Sets the title size to H3."
-                    jcr:primaryType="nt:unstructured"
-                    jcr:title="Content Teaser"
-                    sling:resourceType="wcm/core/components/policy/policy"
-                    titleType="h3">
-                    <jcr:content jcr:primaryType="nt:unstructured"/>
-                </policy_1575031387650>
-            </teaser>
-            <download jcr:primaryType="nt:unstructured">
-                <policy_1575032193319
-                    jcr:description="Sets the title size to H3."
-                    jcr:primaryType="nt:unstructured"
-                    jcr:title="Content Download"
-                    sling:resourceType="wcm/core/components/policy/policy"
-                    allowUpload="false"
-                    displayFilename="true"
-                    displayFormat="true"
-                    displaySize="true"
-                    titleType="h3">
-                    <jcr:content jcr:primaryType="nt:unstructured"/>
-                </policy_1575032193319>
-            </download>
-            <page jcr:primaryType="nt:unstructured">
-                <policy
+                <policy_1739193201043
                     jcr:description="Includes the required client libraries."
+                    jcr:lastModified="{Date}2025-02-11T16:56:36.597+05:30"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Generic Page"
+                    jcr:title="Automative"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="[aemguidesDALP.dependencies,aemguidesDALP.site]"
+                    clientlibs="[aemguidesDALP.dependencies,aemguidesDALP.site,aemguidesDALP.components,aemguidesDALP.common,aemguidesDALP.automoitve_toc]"
+                    clientlibsAsync="false"
                     clientlibsJsHead="aemguidesDALP.dependencies">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
-                </policy>
+                </policy_1739193201043>
             </page>
         </components>
     </aemguidesDALP>
     <wcm jcr:primaryType="nt:unstructured">
         <foundation jcr:primaryType="nt:unstructured">
             <components jcr:primaryType="nt:unstructured">
-                <responsivegrid jcr:primaryType="nt:unstructured">
-            
-                </responsivegrid>
+                <responsivegrid jcr:primaryType="nt:unstructured"/>
             </components>
         </foundation>
     </wcm>
+    <core jcr:primaryType="nt:unstructured">
+        <wcm jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <container jcr:primaryType="nt:unstructured">
+                    <v1 jcr:primaryType="nt:unstructured">
+                        <container jcr:primaryType="nt:unstructured">
+                            <policy_1739193808878
+                                jcr:lastModified="{Date}2025-02-13T12:21:57.068+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="container policy"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                components="[group:AEM Guides DALP - Content,group:AEM Guides DALP - Form,group:Core Content,group:Core Form,group:Core Structure,/apps/guides-components/components/pager]"
+                                layoutDisabled="false">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Box Container"
+                                        cq:styleGroupMultiple="true"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="box-container"
+                                                cq:styleId="1739193905757"
+                                                cq:styleLabel="Box Container"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                    <item1
+                                        cq:styleGroupLabel="Topic Body"
+                                        cq:styleGroupMultiple="true"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="left-container"
+                                                cq:styleId="1739265684209"
+                                                cq:styleLabel="Left Panel"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="topic-container"
+                                                cq:styleId="1739353947627"
+                                                cq:styleLabel="Topic Container"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item2
+                                                cq:styleClasses="right-container"
+                                                cq:styleId="1739266406174"
+                                                cq:styleLabel="Right Panel"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item1>
+                                </cq:styleGroups>
+                            </policy_1739193808878>
+                            <policy_1739430397665
+                                cq:styleDefaultClasses="topic-body"
+                                jcr:lastModified="{Date}2025-02-13T12:37:48.997+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="topic-body"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                layoutDisabled="false">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                            </policy_1739430397665>
+                        </container>
+                    </v1>
+                </container>
+            </components>
+        </wcm>
+    </core>
 </jcr:root>

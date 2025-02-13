@@ -1,0 +1,110 @@
+#index-header {
+  margin-top: 50px;
+  text-align: left;
+}
+#index_header_title {
+  font-family: var(--font-fam-secondary);
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  font-weight: 400;
+  color:  var(--color-primary);
+  margin-bottom: 8px;
+}
+#index_header_titlealts {
+  font-family: var(--font-fam-primay);
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: 400;
+  color:  var(--color-primary);
+  /* margin-bottom: 40px; */
+  /* padding-bottom: 40px; */
+}
+.idx-body {
+  column-count: unset;
+  column-fill: unset;
+}
+.idx-title {
+  column-span: all;
+}
+.idx-keyword-group {
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 16pt;
+}
+.idx-keyword-group:first-of-type {
+  margin-top: 0pt;
+  display: none;
+}
+.idx-unit {
+  padding-bottom: 0px;
+  padding: unset;
+  margin: unset;
+}
+.idx-keyword {
+  margin: unset;
+  padding: unset;
+}
+.idx-name {
+  font-family: var(--font-fam-secondary);
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: 350;
+  color:  var(--color-primary);
+  /* margin-bottom: 16px; */
+}
+.idx-link {
+  text-decoration: none;
+}
+.idx-child {
+  padding-left: 0pt;
+}
+/* #index_footer {
+  border-top: 0.5px solid #2C343B;
+} */
+#index_footer_product-name {
+  font-family: var(--font-fam-secondary);
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  font-weight: 400;
+  color: var(--color-secondary);
+  padding-top: 8px;
+  margin: unset;
+}
+#index_footer_urls {
+  font-family: var(--font-fam-secondary);
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  font-weight: 400;
+  color: var(--color-secondary);
+  /* margin: unset; */
+}
+a.book-idx-link.idx-link {
+  color: var(--color-primary);
+  font-family: var(--font-fam-secondary);
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: 700;
+}
+.book-idx-child.idx-child {
+  column-count: 2;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 84px;
+  row-gap: 0px;
+}
+.idx-unit p:first-of-type {
+  margin: unset;
+  padding: unset;
+}
+.header_logo {
+  max-height: 17px;
+  max-width: 33px;
+}
+.index_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid var(--color-gray);
+  padding-bottom: 4px;
+  margin-top: 50px;
+}

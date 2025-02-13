@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>TOC Page Layout</title>
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="content.css" />
+  <link rel="stylesheet" type="text/css" href="toc_portrait.css" />
+</head>
+<body>
+  <div class="toc_header" data-region="header" style="
+"></div>
+  <div data-region="content">
+    <div class="toc_firstpage_cover-image" style="
+"><img class="toc-cover-img" src="../../../aemguidesDALP/hi-tech/pdf/complex/images/frontcover-image.png" />
+      <p class="toc_title" style="">Table of<br />
+        Content</p>
+    </div>
+  </div>
+  <div data-region="footer">
+    <div class="toc_footer" style="
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+">
+      <p style="
+    font-family: Adobe Clean;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    color: #0C1256;
+">Jetson AGX Orin Series Modules Tuning and Compliance Guide</p>
+      <p style="
+    font-family: Urbanist;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    color: #0C1256;
+">0<span data-field="page-number" data-format="default">1</span></p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,259 @@
+/*Created with AEM Guides*/
+/*Created with AEM Guides*/
+.chapter_firstpage_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.chapter_footer_organization {
+  font-family: Adobe Clean;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  color: #0C1256;
+  margin: 0px;
+}
+.chapter_footer_page-number {
+  font-family: Urbanist;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #0C1256;
+  margin: 0px;
+}
+.chapter-content {}
+.chapter_header_title {
+  font-family: Urbanist;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  color: #0C1256;
+  margin: 0px;
+}
+.chapter_header_titlealts {
+  font-family: Adobe Clean;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #0C1256;
+  margin: 0px;
+}
+.chapter_firstpage_cover-image {
+  width: 977px;
+  height: 286px;
+  top: 717px;
+  left: 73px;
+  gap: 0px;
+  opacity: 0px;
+  margin-bottom: 40px;
+}
+.chapter-image-content-landscape {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 188px;
+}
+.chapter-leftpage-nums-landscape {
+  width: Fixed (56px)px;
+  height: Fixed (56px)px;
+  padding: 18px 25px 18px 25px;
+  opacity: 0px;
+  background: #01EA57;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: #0C1256;
+  position: absolute;
+  left: -7.7%;
+  top: 0%;
+  margin: 0px;
+}
+.chapter-leftpage-lang {
+  font-family: Urbanist;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-align: right;
+  color: #0C1256;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin-top: 21px;
+}
+.chapter-rightpage-nums-landscape {
+  width: Fixed (56px)px;
+  height: Fixed (56px)px;
+  padding: 18px 25px 18px 25px;
+  opacity: 0px;
+  background: #01EA57;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: #0C1256;
+  position: absolute;
+  right: -7.7%;
+  top: 0%;
+  margin: 0px;
+}
+.chapter-rightpage-lang {
+  font-family: Urbanist;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-align: right;
+  color: #0C1256;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 21px;
+}
+h1.title,
+h1.title::before {
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #0C1256;
+  margin: 0px;
+  padding-inline-start: 20px;
+  margin-top: 40px;
+}
+h2.chapter_sub-titles {
+  font-family: Urbanist;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  margin: 0px;
+  color: #0C1256;
+  padding-top: 0px;
+  padding-bottom: 16px;
+  border-bottom: 0.5px solid #9D9D9D;
+  margin-bottom: 24px;
+  margin-top: 8px;
+}
+/* content-image start from here  */
+.Images-content-section-container-landscape {
+  display: flex;
+  gap: 80px;
+  flex-direction: row;
+}
+.content-figure-image-landscape {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+.content-figure-image-landscape .title,
+figcaption.title>.prefix-content::after {
+  font-family: Adobe Clean;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  color: #2C343B;
+  margin-bottom: 8px;
+}
+.images-main-container-landscape {
+  display: flex;
+  gap: 9px;
+  width: 648px;
+}
+.image-num-container-landscape {
+  background: #F2F2F2;
+  height: 300px;
+  width: 210px;
+  padding: 14px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.image-num-container-landscape .number-landscape {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #0C1256;
+  font-family: Urbanist;
+  color: #01EA57;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-num-container-landscape .resistor-image-landscape {
+  width: 183px;
+  height: 165px;
+  opacity: 0px;
+}
+.content-section-landscape {
+  margin-top: 26px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #0C1256;
+  column-count: initial;
+  column-gap: initial;
+}
+.content-section-landscape div.p {
+  column-count: initial;
+  column-gap: initial;
+}
+.note-cont {
+  display: flex;
+  background: #E8F1FF;
+  font-family: Urbanist;
+  font-size: 9px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 11px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 27px 0px;
+  padding: 27px 15px;
+}
+.note-cont img {
+  width: 74%;
+  height: 74%;
+  border-top: 0.5px solid #001E3A33;
+  padding: 8px 8px 8px 0px;
+  border-bottom: 0.5px solid #001E3A33;
+}
+.note-cont .note {
+  border-left: unset;
+  background-color: unset;
+  border-top: 0.5px solid #001E3A33;
+  border-bottom: 0.5px solid #001E3A33;
+  padding: 9px -0px;
+}
+.p {
+  column-count: initial;
+  column-gap: initial;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #0C1256;
+}
+.img-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+}

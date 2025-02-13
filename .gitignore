@@ -106,3 +106,13 @@ reports/
 dispatcher/src/conf.d/variables/default.vars
 ui.tests.wdio/test-module/assets/form/themes/**/*diff.png
 ui.tests.wdio/test-module/assets/form/themes/**/*current.png
+
+# Dam ignored and Dita Templates Accepted.
+ui.content/src/main/content/jcr_root/content/dam/*
+!ui.content/src/main/content/jcr_root/content/dam/dita-templates/
+
+# Pages ignored.
+ui.content/src/main/content/jcr_root/content/aemguidesDALP
+
+# static html
+ui.frontend/src/main/webpack/static/index.html

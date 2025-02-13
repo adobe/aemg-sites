@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>TOC Page Layout</title>
+  <meta name="page-style" content="size:A4 landscape; margin-bottom : 140px;" />
+  <meta name="footnote-style" content="" />
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="content.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+  <link rel="stylesheet" type="text/css" href="toc_landscape.css" />
+</head>
+<body>
+  <div data-region="header">
+    <div class="toc_landsc_header">
+      <p class="toc_landsc_header_title">Content Overview</p>
+      <img class="toc_landsc_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img.png" />
+    </div>
+  </div>
+  <div data-region="content"></div>
+  <div data-region="footer">
+    <div class="toc_landsc_footer">
+      <p class="toc_landsc_footer_text"><span class="toc_landsc_footer_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand </span><span class="toc_landsc_footer_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> Sustainability Report<span class="toc_landsc_publish-date"> Q3 2024</span></p>
+    </div>
+  </div>
+</body>
+</html>

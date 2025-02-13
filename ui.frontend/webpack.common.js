@@ -19,13 +19,16 @@ const resolve = {
 module.exports = {
     resolve: resolve,
     entry: {
-        site: SOURCE_ROOT + '/site/main.ts'
+        site: SOURCE_ROOT + '/site/main.ts',
+        automotive_global: SOURCE_ROOT + '/clientlibs/automotive/global/main.ts',
+        automoitve_toc: SOURCE_ROOT + '/clientlibs/automotive/toc/main.ts',
+        'automotive_topic-body': SOURCE_ROOT + '/clientlibs/automotive/topic-body/main.ts'
     },
     output: {
         filename: (chunkData) => {
-            return chunkData.chunk.name === 'dependencies' ? 'clientlib-dependencies/[name].js' : 'clientlib-site/[name].js';
+            let chunkName = chunkData.chunk.name
+            return `clientlib-${chunkName}/[name].js`;
         },
-        path: path.resolve(__dirname, 'dist')
     },
     module: {
         rules: [

@@ -1,0 +1,108 @@
+.frontcover {
+  box-sizing: border-box;
+  padding-left: 73px;
+  padding-right: 73px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+.frontcover_logo-image {
+  height: 44px;
+  width: 170px;
+  margin-bottom: 36px;
+  background-image: url('../../../aemguidesDALP/automotives/images/benzlogo.png');
+  background-size: 100% 100%;
+}
+.hr {
+  border-top-style: solid;
+  border-top-color: #2C343B;
+  border-top-width: 0.5px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+.frontcover_metadata {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-primary);
+  font-weight: 400;
+  line-height: var(--text-5xl-lh);
+  font-size: var(--text-5xl);
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-family: var(--font-fam-primary);
+}
+.frontcover_created-date {
+  font-weight: 400;
+  /* display: block; */
+}
+.frontcover_doctype {
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  color: var(--color-primary);
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+  font-weight: 400px;
+  font-family: var(--font-fam-secondary);
+}
+.frontcover_footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-family: var(--font-fam-secondary);
+  color: var(--color-primary);
+}
+.frontcover_footer .frontcover_created-date {
+  letter-spacing: 0.125rem;
+}
+.frontcover_footer p {
+  margin: unset;
+}
+.frontcover_urls {
+  color: var(--color-primary);
+  flex-basis: 50%;
+  text-align: right;
+  font-family: var(--font-fam-secondary);
+}
+.frontcover_version-contaier {
+  margin-top: auto;
+  width: 100%;
+  color: var(--color-neutral);
+  text-align: right;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  letter-spacing: 0.125rem;
+}
+.frontcover_version {
+  color: var(--frontcover-text-color);
+  font-weight: bold;
+}
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+.product-brand {}
+.product-name {}
+.brand {}
+.prodname {}
+.mainbooktitle {}
+.booktitlealt {}
+.publish-date {}
+.organization {}
+.critdates {}
+.language {}
+.copyright {}
+.urls {}
+.marketing_claim {}

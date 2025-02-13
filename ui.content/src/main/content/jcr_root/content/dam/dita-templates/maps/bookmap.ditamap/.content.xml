@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="10f0530e-91a6-44be-8b4e-2b3603d84b84">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-08T16:29:00.129+05:30"
+        jcr:lastModifiedBy="fmdita-serviceuser"
+        jcr:primaryType="dam:AssetContent"
+        fmdita-dita-template="{Boolean}true"
+        fmdita-newfile="{Boolean}true"
+        templateDescription="Template for bookmap"
+        templateTitle="Bookmap">
+        <metadata
+            dam:extracted="{Date}2025-02-08T16:28:59.763+05:30"
+            dam:sha1="f8b736f936bc52f97c70fd919b3da9fda23f7786"
+            dam:size="{Long}206"
+            dc:format="application/xml"
+            dc:title="Bookmap"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            dita_class="- map/map bookmap/bookmap"/>
+    </jcr:content>
+</jcr:root>
