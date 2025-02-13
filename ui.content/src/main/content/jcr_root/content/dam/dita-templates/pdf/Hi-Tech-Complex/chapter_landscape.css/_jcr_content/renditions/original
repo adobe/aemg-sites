@@ -121,8 +121,7 @@
   top: 0px;
   margin-top: 21px;
 }
-h1.title,
-h1.title::before {
+h1.title {
   font-family: Urbanist;
   font-size: 16px;
   font-weight: 600;
@@ -130,7 +129,6 @@ h1.title::before {
   letter-spacing: 1px;
   color: #0C1256;
   margin: 0px;
-  padding-inline-start: 20px;
   margin-top: 40px;
 }
 h2.chapter_sub-titles {
@@ -229,18 +227,12 @@ figcaption.title>.prefix-content::after {
   padding: 27px 15px;
 }
 .note-cont img {
-  width: 74%;
-  height: 74%;
-  border-top: 0.5px solid #001E3A33;
-  padding: 8px 8px 8px 0px;
-  border-bottom: 0.5px solid #001E3A33;
+  width: 24px;
+  height: 24px;
 }
 .note-cont .note {
   border-left: unset;
   background-color: unset;
-  border-top: 0.5px solid #001E3A33;
-  border-bottom: 0.5px solid #001E3A33;
-  padding: 9px -0px;
 }
 .p {
   column-count: initial;

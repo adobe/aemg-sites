@@ -57,3 +57,7 @@
   width: 16px;
   margin-right: 8px;
 }
+.email-icon {
+  height: 10.68px;
+  width: 16px;
+}

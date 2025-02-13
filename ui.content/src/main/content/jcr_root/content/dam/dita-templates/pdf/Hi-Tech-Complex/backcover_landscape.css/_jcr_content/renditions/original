@@ -54,3 +54,12 @@
   color: #010101;
   margin: 0;
 }
+.img-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+}
+.email-icon-land {
+  height: 10.68px;
+  width: 16px;
+}

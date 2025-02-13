@@ -4,19 +4,24 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" href="layout.css" type="text/css" />
-  <link rel="stylesheet" href="backcover_portrait.css" type="text/css" />
-  <meta name="page-style" content="size:portrait;" />
+  <link rel="stylesheet" href="backcover_landscape.css" type="text/css" />
+  <meta name="page-style" content="size:landscape;" />
   <title>Page Layout</title>
   <meta name="footnote-style" content="" />
 </head>
 <body>
+  <p><br />
+    
+  </p>
   <div data-region="header"><img src="../../../aemguidesDALP/hi-tech/pdf/complex/images/back_logo.png" style="width: 144px; height: 106px; margin-top: 69px;" /></div>
-  <div class="backcover-details" data-regio="content">
-    <p class="main-description"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+  <div class="backcover-details-landscape" data-regio="content" style="
+">
+    <p class="main-description">Jetson AGX Orin Series Modules<br />
+      Tuning and Compliance Guide</p>
     <div class="backcover_organization-details">
       <div class="backcover_contact-container">
         <p class="backcover_org-contact-label">CONTACT</p>
-        <span class="backcover_org-contactnumbers"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/phone-icon.png" /> 000 800 050 01888</span> <span class="backcover_org-emailaddresses"><img class="email-icon img-icon" height="23" src="../../../aemguidesDALP/automotives/images/email-icon.png" width="32" />info@nvidia.com</span>
+        <span class="backcover_org-contactnumbers"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/phone-icon.png" /> 000 800 050 01888</span> <span class="backcover_org-emailaddresses"><img class="email-icon-land img-icon" height="23" src="../../../aemguidesDALP/automotives/images/email-icon.png" width="32" />info@nvidia.com</span>
       </div>
       <div class="backcover_address-container">
         <p class="backcover_org-address-label">ADDRESS</p>
@@ -29,6 +34,6 @@
       </div>
     </div>
   </div>
-  <div data-region="footer"></div>
+  <!-- <div data-region="footer"></div> -->
 </body>
 </html>

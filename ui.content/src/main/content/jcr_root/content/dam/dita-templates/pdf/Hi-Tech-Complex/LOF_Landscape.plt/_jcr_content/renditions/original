@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>List of Figures Page Layout</title>
+  <meta name="page-style" content="size:landscape;" />
+  <link rel="stylesheet" type="text/css" href="lof_landscape.css" />
+  <meta name="footnote-style" content="" />
+</head>
+<body>
+  <div class="lof_header" data-region="header">
+    <p class="lof_header_title">List Of Figure</p>
+  </div>
+  <div class="lof_content" data-region="content"></div>
+  <div class="lof_footer" data-region="footer">
+    <p class="lof_footer_product-name">Jetson AGX Orin Series Modules Tuning and Compliance Guide.</p>
+    <a class="lof_footer_urls">www.carmanualsite.com/vehicle-overview</a> <a class="lof_footer_urls"> www.carmanualsite.com/dashboard-controls</a>
+  </div>
+</body>
+</html>
