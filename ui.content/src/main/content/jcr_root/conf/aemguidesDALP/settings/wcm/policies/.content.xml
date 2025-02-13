@@ -336,7 +336,7 @@
                     <v1 jcr:primaryType="nt:unstructured">
                         <container jcr:primaryType="nt:unstructured">
                             <policy_1739193808878
-                                jcr:lastModified="{Date}2025-02-12T18:09:20.346+05:30"
+                                jcr:lastModified="{Date}2025-02-13T12:21:57.068+05:30"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="container policy"
@@ -381,6 +381,16 @@
                                     </item1>
                                 </cq:styleGroups>
                             </policy_1739193808878>
+                            <policy_1739430397665
+                                cq:styleDefaultClasses="topic-body"
+                                jcr:lastModified="{Date}2025-02-13T12:37:48.997+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="topic-body"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                layoutDisabled="false">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                            </policy_1739430397665>
                         </container>
                     </v1>
                 </container>
