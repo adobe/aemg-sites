@@ -6,7 +6,6 @@
   <meta name="page-style" content="size:A4 landscape;" />
   <title>Page Layout</title>
   <meta name="footnote-style" content="" />
-
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="frontcover_landscape.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
@@ -26,7 +25,7 @@
       <div class="frontcover_landsc_metadata">
         <p class="frontcover_landsc_version">DA-11040-001_v1.3</p>
         <div class="break_line"></div>
-        <p class="frontcover_landsc_publish_date"><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span></p>
+        <p class="frontcover_landsc_publish_date"><span data-field="date" data-format="MMMM YYYY">February 2025</span></p>
       </div>
       <img class="frontcover_landsc_logo" src="../../../aemguidesDALP/hi-tech/images/backcover_logo.png" />
     </div>

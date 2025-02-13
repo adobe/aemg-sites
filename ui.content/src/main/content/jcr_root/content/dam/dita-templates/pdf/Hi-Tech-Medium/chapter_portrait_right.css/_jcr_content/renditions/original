@@ -43,8 +43,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 27px 60px 21px 73px;
-  /* position: absolute;
-  bottom: 0; */
 }
 .chapter_rightpage_footer_text {
   font-size: var(--text-4xs);
@@ -63,7 +61,6 @@
   margin: 0;
 }
 h1.title.chapter {
-  /* display: none; */
   font-family: var(--font-fam-primary);
   font-size: var(--text-2xl);
   line-height: var(--text-2xl-lh);
@@ -238,6 +235,7 @@ tbody .entry ul li {
 }
 .caution_conatiner {
   display: flex;
+  align-items: center;
   gap: 8px;
   padding-bottom: 8px;
   padding-top: 8px;
@@ -279,6 +277,11 @@ body {
 }
 .caution_img {
   margin: 0;
+  width: 24px;
+  height: 24px;
+}
+span:has(.caution_img) {
+  display: inline-block;
   width: 24px;
   height: 24px;
 }

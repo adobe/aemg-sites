@@ -6,12 +6,11 @@
   <title>Chapter Page Layout</title>
   <meta name="page-style" content="margin-left:0px;margin-right:0px;margin-top:90px;" />
   <meta name="footnote-style" content="" />
-
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
   <link rel="stylesheet" type="text/css" href="chapter_portrait_left.css" />
 </head>
-<body data-layout="page" class="chapter__left_body">
+<body data-layout="page" class="chapter_left_body">
   <div data-region="header">
     <div class="chapter_leftpage_header">
       <p class="chapter_leftpage_header_number"><span data-field="page-number" data-format="default">1</span></p>

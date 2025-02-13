@@ -61,7 +61,6 @@
   margin: 0;
 }
 h1.title.chapter {
-  /* display: none; */
   font-family: var(--font-fam-primary);
   font-size: var(--text-2xl);
   line-height: var(--text-2xl-lh);
@@ -236,6 +235,7 @@ tbody .entry ul li {
 }
 .caution_conatiner {
   display: flex;
+  align-items: center;
   gap: 8px;
   padding-bottom: 8px;
   padding-top: 8px;
@@ -282,6 +282,11 @@ body {
 }
 figure {
   margin: 0;
+}
+span:has(.caution_img) {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
 }
 .glo-link {
   font-family: var(--font-fam-primary);
