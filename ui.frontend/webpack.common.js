@@ -21,7 +21,8 @@ module.exports = {
     entry: {
         site: SOURCE_ROOT + '/site/main.ts',
         automotive_global: SOURCE_ROOT + '/clientlibs/automotive/global/main.ts',
-        automoitve_toc: SOURCE_ROOT + '/clientlibs/automotive/toc/main.ts'
+        automoitve_toc: SOURCE_ROOT + '/clientlibs/automotive/toc/main.ts',
+        'automotive_topic-body': SOURCE_ROOT + '/clientlibs/automotive/topic-body/main.ts'
     },
     output: {
         filename: (chunkData) => {

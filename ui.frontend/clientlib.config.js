@@ -43,6 +43,7 @@ const clientlibArr = [
   {name : 'automotive_global', module: 'automotive'},
   {name : 'automotive-footer', module: 'automotive'},
   {name : 'automoitve_toc', module: 'automotive'},
+  {name : 'automotive_topic-body', module: 'automotive'},
 ]
 
 const libsArr = [];
