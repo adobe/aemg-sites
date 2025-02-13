@@ -28,8 +28,10 @@
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 350;
-  color: var(--color-primary);
+  color: var(--color-accent);
+  margin-top: 0px;
   margin-bottom: 8px;
+  width: 250px;
 }
 .lot_content .lot-level-1::after,
 .lot-level-1::after {
@@ -67,11 +69,11 @@
   padding: 0;
 }
 .lot-body {
-  column-count: 2;
-  column-gap: 85px;
+  margin-top: 40px;
+  padding-top: 40px
 }
 .lot_content,
 .lot-body {
-  padding-top: 0px;
-  margin-top: 60px;
+    display: flex;
+    column-gap: 100px;
 }

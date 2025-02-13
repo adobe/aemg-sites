@@ -16,8 +16,8 @@
   </div>
   <div data-region="content"></div>
   <div data-region="footer" id="glossary-footer">
-    <p id="glossary_footer_product-name">Jetson AGX Orin Series Modules Tuning and Compliance Guide</p>
-    <a id="glossary_footer_urls">www.carmanualsite.com/vehicle-overview</a> <a id="glossary_footer_urls">www.carmanualsite.com/dashboard-controls</a>
+    <p id="glossary_footer_product-name"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+    <a href="https://www.adobe.com/in/acrobat/complete-pdf-solution.html?sdid=JQVGW2NN&amp;mv=search&amp;mv2=paidsearch&amp;ef_id=CjwKCAiAzba9BhBhEiwA7glbavS1BxhU9lqgWJ7cpzBG8qhvdjngTPYGyqwdLgAcaB4vvLKUwp5rIxoCZq8QAvD_BwE:G:s&amp;s_kwcid=AL!3085!3!718375486069!e!!g!!acrobat!85623901!17214200821&amp;gad_source=1&amp;gclid=CjwKCAiAzba9BhBhEiwA7glbavS1BxhU9lqgWJ7cpzBG8qhvdjngTPYGyqwdLgAcaB4vvLKUwp5rIxoCZq8QAvD_BwE" id="glossary_footer_urls">www.carmanualsite.com/vehicle-overview</a> <a href="https://experienceleague.adobe.com/en/docs/experience-manager-guides" id="glossary_footer_urls">www.carmanualsite.com/dashboard-controls</a>
   </div>
 </body>
 </html>

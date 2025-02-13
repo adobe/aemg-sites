@@ -3,9 +3,12 @@
   margin-top: 50px;
   text-align: left;
 }
-.lof_content,
+
 .lof-body {
+  display: flex;
+  flex-wrap: wrap;
   padding-top: 40px;
+  column-gap: 100px;
 }
 .lof_header_title {
   font-family: var(--font-fam-secondary);
@@ -30,8 +33,9 @@
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 350;
-  color: var(--color-primary);
-  margin-bottom: 16px;
+  color: var(--color-accent);
+  margin-bottom: 8px;
+  width: 250px;
 }
 .lof_content .lof-level-1::after,
 .lof-level-1::after {
@@ -67,7 +71,4 @@
   border: 0.5px solid var(--color-tertiary);
   margin: 0;
   padding: 0;
-}
-.lof-body {
-  padding-top: 60px;
 }

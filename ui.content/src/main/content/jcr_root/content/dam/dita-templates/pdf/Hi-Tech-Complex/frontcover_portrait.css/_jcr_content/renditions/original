@@ -17,21 +17,21 @@
 }
 .frontcover_mainbooktitle {
   font-family: Urbanist;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 54px;
+  font-size: var(--text-5xl);
+  font-weight: 500;
+  line-height: var(--text-5xl-lh);
   text-align: left;
-  color: #0C1256;
   margin: 0px;
+  color: var(--color-accent);
 }
 .frontcover_booktitlealt {
-  font-family: Adobe Clean;
-  font-size: 16px;
+  font-family: Inter;
+  font-size: var(--text-base);
   font-weight: 400;
-  line-height: 24px;
+  line-height: var(--text-base-lh);
   text-align: left;
-  color: #0C1256;
   margin: 0px;
+  color: var(--color-accent);
 }
 .frontcover-footer {
   display: flex;
@@ -47,23 +47,19 @@
   transform: translate(-73px, 0px);
 }
 .frontcover_publish-date {
-  font-family: Adobe Clean;
-  font-size: 10px;
-  font-weight: 400;
-  line-height: 12px;
+  font-family: Inter;
+  font-size: var(--text-2xs);
+  font-weight: 500;
+  line-height: var(--text-sm);
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  color: #0C1256;
+  color: var(--color-accent);
 }
 .frontcover_organization {
   width: 312px;
-  font-family: Adobe Clean;
-  font-size: 16px;
+  font-family: Inter;
+  font-size: var(--text-base);
   font-weight: 400;
-  line-height: 24px;
+  line-height: var(--text-base-lh);
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  color: #0C1256;
+  color: var(--color-accent);
 }

@@ -15,7 +15,6 @@ body {
 .toc-level-2::before {
   counter-increment: toc2;
   content: counter(toc1) "." counter(toc2) " " !important;
-  ;
 }
 /**** Heading Styles ****/
 h1 {
@@ -84,7 +83,7 @@ figcaption.title>.prefix-content::after {
 h1.appendix {}
 /**** Paragraph Styles ****/
 p {
-  font-size: 11pt;
+  /* font-size: 11pt; */
 }
 .p {
   font-size: 11pt;

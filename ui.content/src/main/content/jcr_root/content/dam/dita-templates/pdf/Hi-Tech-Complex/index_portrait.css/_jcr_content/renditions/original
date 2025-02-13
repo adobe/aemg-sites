@@ -48,7 +48,7 @@
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 350;
-  color: var(--color-primary);
+  color: var(--color-accent);
   margin-bottom: 16px;
 }
 .idx-link {
@@ -89,12 +89,14 @@ a.book-idx-link.idx-link {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 350;
+  margin: 0px;
+  padding: 0;
 }
 .book-idx-child.idx-child {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 84px;
-  /* row-gap: 16px; */
+  padding-top: 40px;
+  column-gap: 100px;
 }
 .idx-unit.book-idx-keyword {
   padding: 0px;
