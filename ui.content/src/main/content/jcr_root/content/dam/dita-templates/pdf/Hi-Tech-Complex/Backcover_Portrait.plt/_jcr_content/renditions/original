@@ -16,7 +16,7 @@
     <div class="backcover_organization-details">
       <div class="backcover_contact-container">
         <p class="backcover_org-contact-label">CONTACT</p>
-        <span class="backcover_org-contactnumbers"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/phone-icon.png" /> 000 800 050 01888</span> <span class="backcover_org-emailaddresses"><img class="email-icon img-icon" height="23" src="../../../aemguidesDALP/automotives/images/email-icon.png" width="32" />info@nvidia.com</span>
+        <span class="backcover_org-contactnumbers"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/phone-icon.png" /> 000 800 050 01888</span> <span class="backcover_org-emailaddresses"><a href="https://myaccount.google.com/email"><img class="email-icon img-icon" height="23" src="../../../aemguidesDALP/automotives/images/email-icon.png" width="32" />info@nvidia.com</a></span>
       </div>
       <div class="backcover_address-container">
         <p class="backcover_org-address-label">ADDRESS</p>
@@ -25,7 +25,7 @@
       </div>
       <div class="backcover_socials-container">
         <p class="backcover_org-socials-label">SOCIAL MEDIA</p>
-        <span class="backcover_org-socials"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/insta-icon.png" /> Instagram link</span>
+        <span class="backcover_org-socials"><a href="https://www.instagram.com/accounts/login/?hl=en"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/insta-icon.png" /> Instagram link</a></span>
       </div>
     </div>
   </div>
