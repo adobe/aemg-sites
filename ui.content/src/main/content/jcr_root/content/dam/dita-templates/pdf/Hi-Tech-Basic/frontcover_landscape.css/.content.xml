@@ -3,22 +3,21 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="cb281250-337d-4bcd-a20b-825d95101814">
+    jcr:uuid="e544808f-caca-4b1a-8cf9-7e4414e11fc6">
     <jcr:content
-        cq:name="TOC.plt"
+        cq:name="frontcover_landscape.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-03T19:05:05.402+05:30"
+        jcr:lastModified="{Date}2025-02-11T16:50:15.261+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-03T19:05:05.194+05:30"
-            dam:sha1="682f11736fa2ff9cc4156488653c8e5d955e3641"
-            dam:size="{Long}837"
-            dc:format="application/octet-stream"
+            dam:extracted="{Date}2025-02-11T16:50:15.211+05:30"
+            dam:sha1="62dd7c4507d77527121b26725d51b237c24c5c97"
+            dam:size="{Long}27"
+            dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
-            jcr:primaryType="nt:unstructured"
-            docstate="Draft"/>
+            jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

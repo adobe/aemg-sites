@@ -18,9 +18,8 @@
     <p class="toc-header_title">Table of Contents<span class="dot"></span></p>
   </div>
   <div class="toc-footer_title" data-region="footer">
-    <p><span>Jetson AGX Orin Series Modules Tuning and Compliance Guide</span></p>
-    <p><span class="toc_footer-number">02</span></p>
-    
+     <p><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+    <p><span class="toc_footer-number" data-field="page-number" data-format="default">1</span></p>
   </div>
 </body>
 </html>
