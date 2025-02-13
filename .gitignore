@@ -111,8 +111,11 @@ ui.tests.wdio/test-module/assets/form/themes/**/*current.png
 ui.content/src/main/content/jcr_root/content/dam/*
 !ui.content/src/main/content/jcr_root/content/dam/dita-templates/
 
+
+
 # Pages ignored.
 ui.content/src/main/content/jcr_root/content/aemguidesDALP
 
 # static html
 ui.frontend/src/main/webpack/static/index.html
+
