@@ -3,18 +3,18 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="078be7fa-36c9-4904-80be-003892a59644">
+    jcr:uuid="49c233d1-395e-4fca-abc5-a1c70ab607d0">
     <jcr:content
-        cq:name="LOT_landscape.plt"
+        cq:name="LOT_Landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-07T19:56:47.808+05:30"
+        jcr:lastModified="{Date}2025-02-12T16:12:27.859+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-07T19:56:47.786+05:30"
-            dam:sha1="52582c5a7e575abac6348f8e30b2ad45268c44ba"
-            dam:size="{Long}559"
+            dam:extracted="{Date}2025-02-12T16:12:27.839+05:30"
+            dam:sha1="c80612da3453b544ed392f7e47de55688e98c687"
+            dam:size="{Long}946"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>

@@ -27,6 +27,10 @@ module.exports = {
         //fsi
         'fsi_topic-body':  SOURCE_ROOT + '/clientlibs/fsi/topic-body/main.ts',
         'fsi_global':  SOURCE_ROOT + '/clientlibs/fsi/global/main.ts',
+        
+        // hi-tech
+        'hi-tech_topic-body' : SOURCE_ROOT + '/clientlibs/hi-tech/topic-body/main.ts',
+        'hi-tech_global' : SOURCE_ROOT + '/clientlibs/hi-tech/global/main.ts'
     },
     output: {
         filename: (chunkData) => {
