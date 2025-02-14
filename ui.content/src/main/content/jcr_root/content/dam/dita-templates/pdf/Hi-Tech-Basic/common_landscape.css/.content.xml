@@ -3,18 +3,18 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="11e59efe-cfac-458b-9d1a-1038b47ddf3b">
+    jcr:uuid="e896ea1b-43b2-482f-b3b0-b23f1f475d2e">
     <jcr:content
-        cq:name="global.css"
+        cq:name="common_landscape.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-14T12:18:26.206+05:30"
+        jcr:lastModified="{Date}2025-02-14T12:18:25.349+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-14T12:18:26.145+05:30"
-            dam:sha1="4bac1a9d2f4f8ca8002f1b53ba6115f80b45a514"
-            dam:size="{Long}1288"
+            dam:extracted="{Date}2025-02-14T12:18:25.240+05:30"
+            dam:sha1="68b12e390f753aa26a77f0cf99cb8216a81df629"
+            dam:size="{Long}6727"
             dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
