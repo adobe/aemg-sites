@@ -2,7 +2,19 @@
 @import url("https://use.typekit.net/vul1wum.css");
 body {
   font-family: montserrat, sans-serif;
-  counter-reset: h1\.chapter1 0 h2\.chapter1 0;
+  counter-reset: toc1 h1\.chapter1 0;
+}
+.toc-level-1 {
+  counter-reset: toc2;
+}
+.toc-level-1::before {
+  counter-increment: toc1;
+  content: " " counter(toc1) ". " !important;
+  ;
+}
+.toc-level-2::before {
+  counter-increment: toc2;
+  content: counter(toc1) "." counter(toc2) " " !important;
 }
 /**** Heading Styles ****/
 h1 {
@@ -31,8 +43,8 @@ h1.chapter {
   --prefix-gap: 0px;
   --vertical-spacing: 0px;
   --list-indent: 0px;
-  /* counter-reset: h2\.chapter1 0; */
-  /* counter-reset: subsection; */
+  /* counter-reset: h2\.chapter1 0;
+  counter-reset: subsection; */
   counter-reset: lot-count fig-count subsection h2\.chapter1 0;
   /* counter-reset: fig-count; */
   position: relative;
@@ -44,8 +56,7 @@ h1.chapter {
 h1.chapter:before {
   font-family: PP Editorial New;
   counter-increment: h1\.chapter1;
-  /* content: counter(h1\.chapter1, decimal)" "; */
-  content: counter(h1\.chapter1, decimal)" ";
+  content: " ";
   text-align: left;
   position: absolute;
   left: calc(-0.5* var(--prefix-size) - var(--prefix-gap));
@@ -55,10 +66,10 @@ h1.chapter:before {
   top: -41px;
   color: #013220;
 }
-h2.chapter:before {
+/* h2.chapter:before {
   counter-increment: subsection;
   content: counter(h1\.chapter1, decimal) "." counter(subsection) " ";
-}
+} */
 table .title::before {
   counter-increment: lot-count;
   content: "Table " counter(h1\.chapter1, decimal) "." counter(lot-count) " : ";
@@ -72,7 +83,7 @@ figcaption.title>.prefix-content::after {
 h1.appendix {}
 /**** Paragraph Styles ****/
 p {
-  font-size: 11pt;
+  /* font-size: 11pt; */
 }
 .p {
   font-size: 11pt;

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Common Page Layout</title>
+  <meta name="page-style" content="size:A4 portrait;margin-left:0px;margin-right:0px;" />
+  <meta name="footnote-style" content="margin-left:0px;margin-right:0px;" />
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="content.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+  <link rel="stylesheet" type="text/css" href="common.css" />
+</head>
+<body>
+  <div class="chapter-text_wrapper" data-region="header">
+    <p class="chapter-header"><span class="chapter_header-language">EN</span></p>
+    <p><span class="toc_header_page-number" data-field="page-number" data-format="default">1</span></p>
+  </div>
+  <div data-region="content"></div>
+  <div class="footer-common" data-region="footer">
+    <p class="chapter-footer"><span class="footer-number" data-field="page-number">1</span></p>
+    <p><span data-field="metadata" class="footer-text" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+  </div>
+</body>
+</html>

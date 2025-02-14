@@ -8,13 +8,13 @@
         cq:name="toc.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-05T14:58:33.592+05:30"
+        jcr:lastModified="{Date}2025-02-14T12:18:26.123+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-05T14:58:33.558+05:30"
-            dam:sha1="62dd7c4507d77527121b26725d51b237c24c5c97"
-            dam:size="{Long}27"
+            dam:extracted="{Date}2025-02-14T12:18:26.047+05:30"
+            dam:sha1="db4869da7aff79846262e84f9219f4a039133aeb"
+            dam:size="{Long}1580"
             dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

@@ -11,12 +11,11 @@
 <body>
   <div class="lot_header" data-region="header">
     <p class="lot_header_title">List Of Table</p>
-    <p class="lot_header_titlealts">2024 Jetson AGX</p>
   </div>
   <div class="lot_content" data-region="content"></div>
   <div class="lot_footer" data-region="footer">
-    <p class="lot_footer_product-name">Jetson AGX Orin Series Modules Tuning and Compliance Guide</p>
-    <a class="lof_footer_urls">www.carmanualsite.com/vehicle-overview</a> <a class="lot_footer_urls"> www.carmanualsite.com/dashboard-controls</a>
+    <p class="lot_footer_product-name"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+    <a class="lof_footer_urls" href="https://business.adobe.com/in/products/experience-manager/sites/aem-sites.html?gclid=CjwKCAiAzba9BhBhEiwA7glbaowT3fKiUepikb1Ve7PzNrGsuY0ydNW3Mlw0LIceBnZ0DDVlxVOnaBoC9QkQAvD_BwE&amp;sdid=RPZBMZBW&amp;mv=search&amp;mv2=paidsearch&amp;ef_id=CjwKCAiAzba9BhBhEiwA7glbaowT3fKiUepikb1Ve7PzNrGsuY0ydNW3Mlw0LIceBnZ0DDVlxVOnaBoC9QkQAvD_BwE:G:s&amp;s_kwcid=AL!3085!3!730065767468!p!!g!!aem%20content%20management%20software!22149927722!175402267564&amp;gad_source=1">www.carmanualsite.com/vehicle-overview</a> <a class="lot_footer_urls" href="https://business.adobe.com/products/experience-manager/guides/aem-guides.html"> www.carmanualsite.com/dashboard-controls</a>
   </div>
 </body>
 </html>
