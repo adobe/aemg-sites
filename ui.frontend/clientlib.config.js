@@ -44,6 +44,10 @@ const clientlibArr = [
   {name : 'automotive-footer', module: 'automotive'},
   {name : 'automoitve_toc', module: 'automotive'},
   {name : 'automotive_topic-body', module: 'automotive'},
+
+  // hi-tec
+  {name : 'hi-tech_topic-body', module: 'hi-tech'},
+  {name : 'hi-tech_global', module: 'hi-tech'},
 ]
 
 const libsArr = [];

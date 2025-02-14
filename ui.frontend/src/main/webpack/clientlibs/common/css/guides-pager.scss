@@ -1,0 +1,11 @@
+.guides-pager > .cmp-pager:first-child  {
+    display: flex;
+    justify-content: space-between;
+}
+.guides-pager{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.cmp-pager__prev span:first-child{
+    font-family: var( --font-fam-primary);
+}
