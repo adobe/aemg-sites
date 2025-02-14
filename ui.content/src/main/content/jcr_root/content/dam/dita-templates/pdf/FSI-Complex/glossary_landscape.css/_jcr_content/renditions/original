@@ -82,7 +82,7 @@ glossdef {
   align-items: center;
   border-bottom: 0.5px solid var(--color-gray);
   padding-bottom: 4px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .header_logo {
   max-height: 17px;

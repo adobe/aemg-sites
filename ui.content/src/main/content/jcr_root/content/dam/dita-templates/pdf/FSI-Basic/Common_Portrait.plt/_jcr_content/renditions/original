@@ -13,8 +13,9 @@
 </head>
 <body>
   <div data-region="header">
-    <div class="chapter_header"><span class="chapter_header_page-number" data-field="page-number" data-format="default">1</span>
+    <div class="chapter_header">
       <div class="chapter_header_logo"></div>
+      <span class="chapter_header_page-number" data-field="page-number" data-format="default">1</span>
     </div>
   </div>
   <div data-region="content"></div>
