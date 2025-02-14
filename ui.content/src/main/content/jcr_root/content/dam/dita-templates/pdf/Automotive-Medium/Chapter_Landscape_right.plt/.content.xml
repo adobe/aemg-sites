@@ -10,7 +10,7 @@
         dam:assetState="processed"
         jcr:lastModified="{Date}2025-02-14T11:36:38.854+05:30"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:primaryType="dam:AssetContent" >
         <metadata
             dam:extracted="{Date}2025-02-14T11:36:38.784+05:30"
             dam:sha1="52582c5a7e575abac6348f8e30b2ad45268c44ba"
