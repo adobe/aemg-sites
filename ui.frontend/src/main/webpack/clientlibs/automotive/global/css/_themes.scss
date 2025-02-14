@@ -6,12 +6,6 @@
   --color-primary-70: #001e3ab3;
   --color-neutral: #D8D8D8;
   --color-bg: #FFFFFF;
-
-  $colors: (
-    accent: #821616,
-    primary: #001E3A
-  );
-  @include color-palette($colors);
 }
 
 @mixin dark-theme {
