@@ -24,7 +24,7 @@ body {
 .pdf-toc-body {
   column-count: 2;
   column-gap: 80px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .pdf-toc-level-1 {
   font-size: 12px;
