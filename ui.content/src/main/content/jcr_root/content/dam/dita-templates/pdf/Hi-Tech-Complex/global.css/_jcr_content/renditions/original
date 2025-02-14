@@ -67,6 +67,14 @@ body {
   --toc-level-3-gap: calc(var(--toc-gap) * 1);
   --toc-level-4-gap: calc(var(--toc-gap) * 2);
 }
+.toc-config,
+:root {
+  --toc-gap: 20px;
+  --toc-level-1-gap: calc(var(--toc-gap) * 0);
+  --toc-level-2-gap: calc(var(--toc-gap) * 0);
+  --toc-level-3-gap: calc(var(--toc-gap) * 1);
+  --toc-level-4-gap: calc(var(--toc-gap) * 2);
+}
 footer {
   color: rgba(44, 52, 59, 0.7);
 }
@@ -75,7 +83,6 @@ footer {
   /* converted form 16px base size*/
   --text-4xs: 0.563rem;
   /* 9px */
-  --text-4xs-fs: 0.75rem;
   --text-4xs-lh: 0.75rem;
   /* 12px */
   --text-3xs: 0.625rem;
@@ -90,7 +97,6 @@ footer {
   /* 12px */
   --text-xs-lh: 1rem;
   /* 16px */
-  --text-sm-fs: 0.875rem;
   --text-sm: 0.875rem;
   /* 14px */
   --text-sm-lh: 1.25rem;
@@ -109,7 +115,6 @@ footer {
   /* 28px */
   --text-2xl: 1.5rem;
   /* 24px */
-  --text-2xl-fs: 2rem;
   --text-2xl-lh: 2rem;
   /* 32px */
   --text-3xl: 1.875rem;
@@ -117,7 +122,6 @@ footer {
   --text-3xl-lh: 2.5rem;
   /* 40px */
   --text-4xl: 2.25rem;
-  --text-4xl-lh: 2.25rem;
   /* 36px */
   --text-4xl-lh: 3rem;
   /* 48px */

@@ -43,8 +43,8 @@
       <name>customLayout</name>
       <mergeMode>none</mergeMode>
       <showInTOC type="boolean">true</showInTOC>
-      <path>FrontCover_Landscape.plt</path>
-      <label>FrontCover_Landscape</label>
+      <path>FrontCover.plt</path>
+      <label>FrontCover</label>
     </bookListsitem>
     <bookListsitem>
       <name>tocLayout</name>
@@ -97,10 +97,10 @@
     </bookListsitem>
   </bookLists>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
-  <layout>Common_Landscape</layout>
-  <coverPageLayout>FrontCover_Landscape</coverPageLayout>
-  <tocLayout>TOC_Landscape</tocLayout>
-  <topicLayout>Common_Landscape</topicLayout>
+  <layout>Common</layout>
+  <coverPageLayout>FrontCover</coverPageLayout>
+  <tocLayout>TOC</tocLayout>
+  <topicLayout>Common</topicLayout>
   <gloLayout></gloLayout>
   <indexLayout></indexLayout>
 </settings>

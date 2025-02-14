@@ -9,10 +9,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 600px;
 }
 .chapter_firstpage_landsc_metadata {
   width: 311px;
-  margin-bottom: 13%;
 }
 .chapter_firstpage_landsc_title {
   font-size: var(--text-3xl);

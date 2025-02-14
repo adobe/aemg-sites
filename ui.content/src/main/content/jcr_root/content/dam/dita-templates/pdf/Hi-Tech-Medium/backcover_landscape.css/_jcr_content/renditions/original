@@ -1,7 +1,7 @@
-.backcover_landsc_header {
+/* .backcover_landsc_header {
   padding-top: 69px;
   padding-left: 74px;
-}
+} */
 .backcover_landsc_logo {
   width: 144px;
   height: 106px;

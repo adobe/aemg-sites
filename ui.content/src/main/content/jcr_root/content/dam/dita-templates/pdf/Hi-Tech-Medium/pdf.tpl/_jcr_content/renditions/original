@@ -7,7 +7,8 @@
   <origTableContinuationText>Continued on page %page-num%</origTableContinuationText>
   <destTableContinuationText>Continued from page %page-num%</destTableContinuationText>
   <modifyHeadings type="boolean">true</modifyHeadings>
-  <notDisplayPageNo>false</notDisplayPageNo>
+  <notDisplayPageNo type="boolean">false</notDisplayPageNo>
+  <noChapterNumberInTOC type="boolean">false</noChapterNumberInTOC>
   <leaderFormat>dotted</leaderFormat>
   <tableContinuation type="boolean">false</tableContinuation>
   <useUserToc type="boolean">true</useUserToc>
@@ -92,6 +93,7 @@
       <disabled type="boolean">false</disabled>
     </bookListsitem>
   </bookLists>
+  <hyperlinkGlossary type="boolean">true</hyperlinkGlossary>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
   <layout>Common</layout>
   <coverPageLayout>FrontCover_Landscape</coverPageLayout>
@@ -99,8 +101,8 @@
   <emptyPageLayout></emptyPageLayout>
   <tocLayout>TOC_Landscape</tocLayout>
   <topicLayout>Chapter_Landscape</topicLayout>
-  <gloLayout>Glossary</gloLayout>
-  <indexLayout>Index</indexLayout>
+  <gloLayout>Glossary_Landscape</gloLayout>
+  <indexLayout>Index_Landscape</indexLayout>
   <bibLayout></bibLayout>
   <lotLayout></lotLayout>
   <lofLayout></lofLayout>

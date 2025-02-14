@@ -4,7 +4,7 @@
 .toc-body {
   column-count: 2;
   column-gap: 80px;
-  /* padding: 0 73px 135px 73px; */
+  padding: 0 73px 120px 73px;
 }
 .toc-level-1 {
   font-size: var(--text-xs);
@@ -13,6 +13,7 @@
   letter-spacing: 1px;
   color: var(--color-accent);
   margin: 30px 0 4px 0;
+  text-transform: uppercase;
 }
 .toc-level-1:first-child {
   margin-top: 0;
@@ -53,7 +54,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 73px 24px 71px;
+  padding: 24px 73px 24px 73px;
 }
 .toc_footer_text {
   font-size: var(--text-4xs);
@@ -77,3 +78,18 @@
 .toc-level-6 {
   text-indent: 0px;
 }
+/* body {
+  counter-reset: toc1 h1\.chapter1 0;
+}
+.toc-level-1 {
+  counter-reset: toc2;
+}
+.toc-level-1::before {
+  counter-increment: toc1;
+  content: " " counter(toc1) ". " !important;
+  ;
+}
+.toc-level-2::before {
+  counter-increment: toc2;
+  content: counter(toc1) "." counter(toc2) " " !important;
+} */

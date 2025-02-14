@@ -3,17 +3,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="page-style" content="size:A4 landscape;margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px;" />
+  <meta name="page-style" content="size:A4 landscape;margin-left:0px;margin-right:0px;" />
   <title>Page Layout</title>
   <meta name="footnote-style" content="" />
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="backcover_landscape.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
 </head>
 <body>
   <div class="backcover_landsc_header"><img class="backcover_landsc_logo" src="../../../aemguidesDALP/hi-tech/images/backcover_logo.png" /></div>
   <div class="backcover_landsc_content">
     <div class="backcover_landsc_text">
-      <p class="backcover_landsc_description">Jetson AGX Orin Series Modules Tuning and Compliance Guide</p>
+      <p class="backcover_landsc_description"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
     </div>
     <div class="backcover_landsc_organization_details">
       <div class="backcover_landsc_contact_container">
