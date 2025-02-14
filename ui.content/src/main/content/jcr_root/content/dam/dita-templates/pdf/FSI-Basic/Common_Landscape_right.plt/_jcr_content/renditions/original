@@ -13,7 +13,10 @@
 </head>
 <body>
   <div data-region="header">
-    <div class="chapter_header"><span class="chapter_header_page-number" data-field="page-number" data-format="default">1</span> <img class="chapter_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img.png" /></div>
+    <div class="chapter_header">
+     <img class="chapter_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img.png" />
+    <span class="chapter_header_page-number" data-field="page-number" data-format="default">1</span>
+     </div>
   </div>
   <div data-region="content"></div>
   <div data-region="footer">

@@ -15,8 +15,10 @@
 <body>
   <div data-region="header">
     <div class="chapter_header" style="">
-      <div class="chapter_header_logo" style=""><img class="chapter_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img1.png" /></div>
-      <span class="chapter_header_page-number" data-field="page-number" data-format="default">1</span>
+     <span class="chapter_header_page-number" data-field="page-number" data-format="default">1</span>
+      <div class="chapter_header_logo" style="">
+      <img class="chapter_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img1.png" /></div>
+     
     </div>
   </div>
   <div data-region="content" style="">
