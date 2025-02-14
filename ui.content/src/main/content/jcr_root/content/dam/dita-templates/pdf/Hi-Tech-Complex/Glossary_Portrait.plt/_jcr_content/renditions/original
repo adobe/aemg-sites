@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="page-style" content="size:portrait;" />
+  <link rel="stylesheet" href="glossary_portrait.css" type="text/css" />
+  <title>Glossary Page Layout</title>
+  <meta name="footnote-style" content="" />
+</head>
+<body>
+  <div data-region="header" id="glossary_header" style="
+    margin: 0;
+">
+    <h5 id="glossary_header_title">Glossary</h5>
+  </div>
+  <div data-region="content"></div>
+  <div data-region="footer" id="glossary-footer">
+    <p id="glossary_footer_product-name"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span>  </p>
+      <a href="https://experienceleague.adobe.com/en/docs/experience-manager-guides" id="glossary_footer_urls">www.carmanualsite.com/vehicle-overview</a> <a href="https://www.adobe.com/in/acrobat/complete-pdf-solution.html?sdid=JQVGW2NN&amp;mv=search&amp;mv2=paidsearch&amp;ef_id=CjwKCAiAzba9BhBhEiwA7glbavS1BxhU9lqgWJ7cpzBG8qhvdjngTPYGyqwdLgAcaB4vvLKUwp5rIxoCZq8QAvD_BwE:G:s&amp;s_kwcid=AL!3085!3!718375486069!e!!g!!acrobat!85623901!17214200821&amp;gad_source=1&amp;gclid=CjwKCAiAzba9BhBhEiwA7glbavS1BxhU9lqgWJ7cpzBG8qhvdjngTPYGyqwdLgAcaB4vvLKUwp5rIxoCZq8QAvD_BwE" id="glossary_footer_urls">www.carmanualsite.com/dashboard-controls</a>
+  </div>
+</body>
+</html>

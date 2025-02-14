@@ -8,7 +8,7 @@
   gap: 63px;
   margin-right: 80px;
   margin-bottom: 0px;
-  /* width: 468px; */
+  width: 468px;
 }
 .backcover_organization-details {
   display: flex;
@@ -18,13 +18,13 @@
 .backcover_org-contact-label,
 .backcover_org-address-label,
 .backcover_org-socials-label {
-  font-family: Adobe Clean;
-  font-size: 12px;
+  font-family: Inter;
+  font-size: var(--text-xs);
   font-weight: 700;
-  line-height: 14px;
+  line-height: var(--text-xs-lh);
+  letter-spacing: 1px;
   text-align: left;
-  color: #000000;
-  margin: 0;
+  color: var(--color-accent);
 }
 .backcover_contact-container,
 .backcover_address-container,
@@ -37,20 +37,27 @@
 .backcover_org-emailaddresses,
 .backcover_org-addressdetails,
 .backcover_org-socials {
-  font-family: Adobe Clean;
-  font-size: 12px;
+  font-family: Inter;
+  font-size: var(--text-4xs);
   font-weight: 400;
-  line-height: 14px;
+  line-height: var(--text-4xs-lh);
   text-align: left;
-  color: #000000;
-  margin: 0;
+  color: var(--color-accent);
 }
 .main-description {
   font-family: Urbanist;
-  font-size: 28px;
+  font-size: var(--text-2xl);
   font-weight: 500;
-  line-height: 34px;
+  line-height: var(--text-2xl-lh);
   text-align: left;
-  color: #010101;
-  margin: 0;
+  color: var(--color-accent);
+}
+.img-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+}
+.email-icon-land {
+  height: 10.68px;
+  width: 16px;
 }
