@@ -243,16 +243,7 @@ h2.chapter_sub-titles {
     column-count: unset;
     column-gap: unset;
   }
-  .p {
-    column-count: 2;
-    column-gap: 80px;
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    text-align: left;
-    color: #0C1256;
-  }
+
   .note-cont {
     background: #E8F1FF;
     font-family: Urbanist;
@@ -278,5 +269,8 @@ h2.chapter_sub-titles {
   .note-cont .icon-note .note {
     border-left: unset;
     background-color: unset;
+  }
+ .thead {
+        background: aquamarine;
   }
 }

@@ -277,3 +277,6 @@ figcaption.title>.prefix-content::after {
   width: 16px;
   margin-right: 8px;
 }
+.thead {
+        background: aquamarine;
+  }

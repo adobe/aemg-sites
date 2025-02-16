@@ -17,8 +17,8 @@
   <div data-region="content"></div>
   <div data-region="footer">
     <div class="chapter_footer" style="">
-      <p class="toc_page_no"><span data-field="page-number" data-format="default">1</span></p>
-        <p class="chapter_page_productname"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+     
+      <p class="chapter_page_productname"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p> <p class="toc_page_no"><span data-field="page-number" data-format="default">1</span></p>
     </div>
   </div>
 </body>
