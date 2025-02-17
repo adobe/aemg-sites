@@ -37,7 +37,7 @@
   </div>
   <div class="chapter_firstpage_footer" data-region="footer" style="/* margin-top: 40px; */">
     <p class="chapter_footer_organization">Jetson AGX Orin Series Modules Tuning and Compliance Guide</p>
-    <p class="chapter_footer_page-number">0<span data-field="page-number" data-format="default">1</span></p>
+    <p class="chapter_footer_page-number"><span data-field="page-number" data-format="default">1</span></p>
   </div>
 </body>
 </html>
