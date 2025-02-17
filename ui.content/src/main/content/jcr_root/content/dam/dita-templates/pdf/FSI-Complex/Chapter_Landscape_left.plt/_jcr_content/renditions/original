@@ -13,7 +13,9 @@
 </head>
 <body>
   <div data-region="header">
-    <div class="chapter_leftpage_landsc_header" style=""><img class="chapter_leftpage_landsc_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img1.png" /> <span class="chapter_leftpage_landsc_header_page-number" data-field="page-number" data-format="default">1</span></div>
+    <div class="chapter_leftpage_landsc_header" style=""><span class="chapter_leftpage_landsc_header_page-number" data-field="page-number" data-format="default">1</span> 
+      <div>  <img class="chapter_leftpage_landsc_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img1.png" /> </div>
+    </div>
   </div>
   <div data-region="content">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>

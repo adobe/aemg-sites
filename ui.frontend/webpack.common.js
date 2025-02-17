@@ -22,7 +22,11 @@ module.exports = {
         site: SOURCE_ROOT + '/site/main.ts',
         automotive_global: SOURCE_ROOT + '/clientlibs/automotive/global/main.ts',
         automoitve_toc: SOURCE_ROOT + '/clientlibs/automotive/toc/main.ts',
-        'automotive_topic-body': SOURCE_ROOT + '/clientlibs/automotive/topic-body/main.ts'
+        'automotive_topic-body': SOURCE_ROOT + '/clientlibs/automotive/topic-body/main.ts',
+
+        // hi-tech
+        'hi-tech_topic-body' : SOURCE_ROOT + '/clientlibs/hi-tech/topic-body/main.ts',
+        'hi-tech_global' : SOURCE_ROOT + '/clientlibs/hi-tech/global/main.ts'
     },
     output: {
         filename: (chunkData) => {

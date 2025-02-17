@@ -3,24 +3,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <!-- <link rel="stylesheet" href="layout.css" type="text/css" /> -->
+  <link rel="stylesheet" href="layout.css" type="text/css" />
   <link rel="stylesheet" href="frontcover_landscape.css" type="text/css" />
-  <meta name="page-style" content="background-image:url(&#39;../../../aemguidesDALP/hi-tech/pdf/complex/images/frontcover-image.png&#39;);background-repeat:no-repeat;background-size:100% auto;background-position:center bottom;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;size:landscape;" />
-  <title>Front Cover Page</title>
+  <meta name="page-style" content="size:landscape;background-image:url(&#39;../../../aemguidesDALP/hi-tech/pdf/complex/images/Vector.png&#39;);background-color:#01EA57;background-size:1122px 100%;margin-left:73px;margin-right:73px;margin-top:158px;" />
+  <title>Page Layout</title>
   <meta name="footnote-style" content="" />
 </head>
 <body>
-  <div></div>
-  <div class="frontcover-header"><img class="frontcover_logo" src="../../../aemguidesDALP/hi-tech/pdf/complex/images/logo.png" /></div>
-  <div class="frontcover-footer-landscape">
-    <div class="footer-title-subtitle">
-      <p class="frontcover_mainbooktitle">Jetson AGX<br />
-        Orin Series</p>
-      <p class="frontcover_booktitlealt">Application Note</p>
+  <div data-region="header"></div>
+  <div class="frontcover-content-landscape" data-region="content" style=""><img class="frontcover_logo-landscape" src="../../../aemguidesDALP/hi-tech/pdf/complex/images/logo.png" style="" />
+    <div class="footer-title-subtitle-landscape" style="">
+      <p class="frontcover_mainbooktitle-landscape" style=""><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+      <p class="frontcover_booktitlealt-landscape" style="">Application Note</p>
     </div>
-    <div class="frontcover_publish-date">
-      <p>DA-11040-001_v1.3 | May 2024</p>
-    </div>
+  </div>
+  <div class="frontcover-footer-landscape" data-region="footer" style="">
+    <p class="frontcover_publish-date-landscape" style="">DA-11040-001_v1.3 | <span data-field="metadata" data-format="default" data-subtype="//critdates/revised/@golive">2001-08-20</span><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">//critdates/created/@date</span></p>
+    <p class="frontcover_organization-landscape" style="">Nvidia Corporation is an American multinational corporation and technology company headquartered in Santa Clara, California, and incorporated in Delaware.</p>
   </div>
 </body>
 </html>
