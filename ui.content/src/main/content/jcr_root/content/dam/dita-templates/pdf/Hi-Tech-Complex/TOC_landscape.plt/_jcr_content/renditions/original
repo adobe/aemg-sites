@@ -12,7 +12,9 @@
 </head>
 <body>
   <div class="toc_header" data-region="header" style="
-"></div>
+"><br />
+    
+  </div>
   <div data-region="content">
     <div class="toc_firstpage_cover-image" style="
 "><img class="toc-cover-img" src="../../../aemguidesDALP/hi-tech/pdf/complex/images/frontcover-image.png" />
@@ -21,27 +23,8 @@
     </div>
   </div>
   <div data-region="footer">
-    <div class="toc_footer" style="
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-">
-      <p style="
-    font-family: Adobe Clean;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 12px;
-    text-align: left;
-    color: #0C1256;
-">Jetson AGX Orin Series Modules Tuning and Compliance Guide</p>
-      <p style="
-    font-family: Urbanist;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16.8px;
-    text-align: left;
-    color: #0C1256;
-"><span data-field="page-number" data-format="default">1</span></p>
+    <div class="toc_footer" style="">
+        <p class="toc_page_productname"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
     </div>
   </div>
 </body>

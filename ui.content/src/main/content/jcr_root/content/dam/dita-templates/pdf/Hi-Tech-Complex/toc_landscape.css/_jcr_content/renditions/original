@@ -8,47 +8,66 @@
   top: -75px;
   width: 50%;
 }
+.toc_footer {
+  text-align: left;
+  /* background: #E8F1FF; */
+  height: 72px;
+  padding: 0px 73px;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  right: 0px;
+  left: -73px;
+}
+.toc_footer .toc_page_productname {
+  font-family: Adobe Clean;
+  font-size: var(--text-4xs);
+  font-weight: 400;
+  line-height: var(--text-4xs-lh);
+  text-align: left;
+  color: var(--color-accent);
+}
 .toc-body {
   margin-top: 53px;
 }
 .toc-cover-img {
-      width: 476px;
-    height: 627px;
-    object-fit: cover;
-    object-position: top;
+  width: 476px;
+  height: 627px;
+  object-fit: cover;
+  object-position: top;
 }
 .toc-level-1 {
   font-family: Urbanist;
-  font-size: 12px;
+  font-size: var(--text-4xs-fs);
   font-weight: 700;
-  line-height: 14.4px;
+  line-height: var(--text-sm-fs);
   letter-spacing: 0.05em;
   text-align: left;
-  color: #0C1256;
+  color: var(--color-accent);
   margin-top: 22px;
 }
 .toc-level-2 {
   font-family: Urbanist;
-  font-size: 12px;
+  font-size: var(--text-xs);
   font-weight: 400;
-  line-height: 16px;
+  line-height: var(--text-xs-lh);
   letter-spacing: 0.05em;
   text-align: left;
-  color: #0C1256;
+  color: var(--color-accent);
   margin-top: 8px;
   text-indent: 0px;
 }
 .toc_title {
   font-family: Urbanist;
-  font-size: 32px;
+  font-size: var(--text-2xl);
   font-weight: 500;
-  line-height: 34px;
+  line-height: var(--text-xl-lh);
   text-align: left;
-  color: #FFFFFF;
+  color: var(--color-primary-white);
   position: absolute;
   bottom: 2%;
   left: 0px;
-  padding-left: 20px;
-  padding-bottom: 33px;
   margin: 0;
+  margin-left: 20px;
+  padding-bottom: 33px;
 }

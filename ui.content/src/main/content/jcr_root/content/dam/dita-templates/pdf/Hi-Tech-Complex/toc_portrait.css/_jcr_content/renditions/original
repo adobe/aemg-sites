@@ -1,0 +1,79 @@
+/*Created with AEM Guides*/
+.rh-toc-page-wrapper>.topic-body {
+  display: flex;
+  gap: 24px;
+}
+.toc_firstpage_cover-image {
+  position: relative;
+  top: -75px;
+  width: 50%;
+}
+.toc-body {
+  margin-top: 53px;
+}
+.toc-cover-img {
+  width: 312px;
+  height: 411px;
+  object-fit: cover;
+  object-position: top;
+}
+.toc-level-1 {
+  font-family: Urbanist;
+  font-size: var(--text-xs);
+  font-weight: 700;
+  line-height: var(--text-2xs-lh);
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: var(--color-accent);
+  margin-top: 22px;
+}
+.toc-level-1::after {
+  display: none;
+}
+.toc-level-2 {
+  font-family: Urbanist;
+  font-size: var(--text-xs);
+  font-weight: 400;
+  line-height: var(--text-xs-lh);
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: var(--color-accent);
+  margin-top: 8px;
+  text-indent: 0px;
+}
+.toc-level-2::after {
+  color: var(--color-natural-blue);
+}
+.toc_footer {
+  text-align: left;
+  /* background: #E8F1FF; */
+  height: 72px;
+  padding: 0px 73px;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  right: 0px;
+  left: -73px;
+}
+.toc_footer .toc_page_productname {
+  font-family: Adobe Clean;
+  font-size: var(--text-4xs);
+  font-weight: 400;
+  line-height: var(--text-4xs-lh);
+  text-align: left;
+  color: var(--color-accent);
+}
+.toc_title {
+  font-family: Urbanist;
+  font-size: var(--text-2xl);
+  font-weight: 500;
+  line-height: var(--text-xl-lh);
+  text-align: left;
+  color: var(--color-primary-white);
+  position: absolute;
+  bottom: 14%;
+  left: 0px;
+  margin-left: 19px;
+  margin-bottom: 41px;
+  padding-bottom: 41px;
+}

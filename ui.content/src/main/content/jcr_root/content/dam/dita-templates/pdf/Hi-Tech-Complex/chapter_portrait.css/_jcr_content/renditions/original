@@ -1,0 +1,276 @@
+/*Created with AEM Guides*/
+/* content css start from here  */
+.chapter_firstpage_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 40px;
+}
+.chapter_footer_organization {
+  font-family: Adobe Clean;
+  font-size: var(--text-3xs);
+  font-weight: 400;
+  line-height: var(--text-4xs-lh);
+  text-align: left;
+  color: var(--color-accent);
+  margin: 0px;
+}
+.chapter_footer_page-number {
+  font-family: Urbanist;
+  font-size: var(--text-3xl);
+  font-weight: 500;
+  line-height: var(-text-3xl-lh);
+  text-align: left;
+  color: var(--color-accent);
+  margin: 0px;
+}
+.chapter-content {}
+.chapter_header_title {
+  font-family: Urbanist;
+  font-size: var(--text-3xl);
+  font-weight: 500;
+  line-height: var(-text-3xl-lh);
+  text-align: left;
+  color: var(--color-accent);
+  margin: 0px;
+}
+.chapter_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E8F1FF;
+  height: 72px;
+  padding: 0px 73px;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  right: 0px;
+  left: -73px;
+}
+.chapter_footer .chapter_page_productname {
+  font-family: Adobe Clean;
+  font-size: var(--text-4xs);
+  font-weight: 400;
+  line-height: var(--text-4xs-lh);
+  text-align: left;
+  color: var(--color-accent);
+}
+.chapter_footer .toc_page_no {
+  font-family: Urbanist;
+  font-size: var(--text-sm);
+  font-weight: 400;
+  line-height: var(--text-base-lh);
+  text-align: left;
+  color: var(--color-accent);
+}
+.chapter_header_titlealts {
+  font-family: Adobe Clean;
+  font-size: var(--text-sm);
+  font-weight: 400;
+  line-height: var(--text-sm-lh);
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-accent);
+  margin: 0px;
+}
+.chapter_firstpage_cover-image {
+  width: 648px;
+  height: 286px;
+  top: 717px;
+  left: 73px;
+  gap: 0px;
+  opacity: 0px;
+  margin-bottom: 40px;
+}
+.chapter-image-content {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 489px;
+}
+.chapter-leftpage-nums {
+  width: Fixed (56px)px;
+  height: Fixed (56px)px;
+  padding: 18px 25px 18px 25px;
+  opacity: 0px;
+  background: #01EA57;
+  font-family: Urbanist;
+  font-size: var(--text-base);
+  font-weight: 600;
+  line-height: var(--text-sm-lh);
+  text-align: left;
+  color: var(--color-accent);
+  position: absolute;
+  left: -12%;
+  top: 0%;
+  margin: 0px;
+}
+.chapter-leftpage-lang {
+  font-family: Urbanist;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  line-height: var(--text-2xs-lh);
+  letter-spacing: 1px;
+  text-align: right;
+  color: var(--color-accent);
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin-top: 21px;
+}
+.image-num-container .resistor-image {
+  width: 183px;
+  height: 165px;
+  opacity: 0px;
+}
+.chapter-rightpage-lang {
+  font-family: Urbanist;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-align: right;
+  color: #0C1256;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 21px;
+}
+h1.title {
+  font-family: Urbanist;
+  font-size: var(--text-base);
+  font-weight: 500;
+  line-height: var(--text-sm-lh);
+  letter-spacing: 1px;
+  color: var(--color-accent);
+  margin: 0px;
+  padding-inline-start: 0px;
+  margin-top: 40px;
+}
+h2.chapter_sub-titles {
+  font-family: Urbanist;
+  font-size: var(--text-2xl);
+  font-weight: 500;
+  line-height: 28.8px;
+  margin: 0px;
+  color: var(--color-accent);
+  padding-top: 0px;
+  padding-bottom: 16px;
+  border-bottom: 0.5px solid #9D9D9D;
+  margin-bottom: 24px;
+  margin-top: 8px;
+}
+.chapter-rightpage-nums {
+  width: Fixed (56px)px;
+  height: Fixed (56px)px;
+  padding: 18px 25px 18px 25px;
+  opacity: 0px;
+  background: #01EA57;
+  font-family: Urbanist;
+  font-size: var(--text-base);
+  font-weight: 600;
+  line-height: var(--text-sm-lh);
+  text-align: left;
+  color: var(--color-accent);
+  position: absolute;
+  right: -12%;
+  top: 0%;
+  margin: 0px;
+}
+@media (orientation: portrait) {
+  /* content css start from here  */
+  .content-figure-image {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .content-figure-image .title,
+  figcaption.title>.prefix-content::after {
+    font-family: Adobe Clean;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    color: #2C343B;
+    margin-bottom: 8px;
+  }
+  .Images-content-section-container {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+  }
+  .images-main-container {
+    display: flex;
+    gap: 9px;
+    width: 648px;
+  }
+  .image-num-container {
+    background: #F2F2F2;
+    height: 300px;
+    width: 210px;
+    padding: 14px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .image-num-container .number {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #0C1256;
+    font-family: Urbanist;
+    color: #01EA57;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content-section {
+    margin-top: 0px;
+    font-size: var(--text-sm);
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: var(--color-accent);
+    text-align: left;
+    column-count: 2;
+    column-gap: 80px;
+  }
+  .content-section .p {
+    column-count: unset;
+    column-gap: unset;
+  }
+
+  .note-cont {
+    background: #E8F1FF;
+    font-family: Urbanist;
+    font-size: 9px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: left;
+    margin: 27px 0px;
+    padding: 27px 15px;
+  }
+  .note-cont .icon-note img {
+    width: 74%;
+    height: 74%;
+  }
+  .note-cont .icon-note {
+    display: flex;
+    align-items: center;
+    border-top: 0.5px solid #001E3A33;
+    border-bottom: 0.5px solid #001E3A33;
+    padding: 9px -0px;
+  }
+  .note-cont .icon-note .note {
+    border-left: unset;
+    background-color: unset;
+  }
+ .thead {
+        background: aquamarine;
+  }
+}
