@@ -70,6 +70,14 @@
   --color-restriction-light: #EEEEEE;
   --color-restriction-dark: #ddd;
 }
+.note.warning {
+    --color-warning-light: #ffeddf;
+    --color-warning-dark:  #ffb47b;
+  }
+  .note.notice{
+      --color-notice-light : #f6f9fc;
+      --color-notice-dark :  #e4edf6;
+    }
 
 // .hazardstatement.danger {
 //   --color-danger-light : #FFEBE7 ;

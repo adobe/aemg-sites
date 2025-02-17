@@ -14,7 +14,9 @@
 //     color: var(--color-primary);
 //   }
 // }
-
+.topic-body{
+  color: var(--color-accent);
+}
 
 h2{
   font-family: var(--font-fam-primary);
@@ -152,4 +154,11 @@ tbody .entry ul li {
   font-style: italic;
   margin: 0;
   color: var(--color-accent);
+}
+.shortdesc {
+  font-size: var( --text-lg);
+ color: var(--color-accent);
+  line-height: var( --text-lg-lh);
+  font-weight: 100;
+  padding-bottom: 0.8em;
 }

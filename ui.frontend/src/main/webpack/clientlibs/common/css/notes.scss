@@ -1,6 +1,6 @@
 .hazardstatement .prefix-content {
     background-position: 0 0;
-    padding-left: 1.5rem;
+    padding-left: unset;
     // background: transparent url(AlertSmall.svg) 0% 0% no-repeat padding-box;
     font-weight: bold;
     vertical-align: middle;
@@ -12,6 +12,8 @@
     font-size: var(--text-sm);
     border-left-width: 4px ;
     border-left-style: solid ;
+    border-top: unset;
+    border-bottom: unset;
 }
 .hazardstatement.note.danger{
     border-left-color: var(--color-danger-dark);
