@@ -8,6 +8,7 @@
 
 body {
   background-color: var(--color-bg);
+  font-family: var(--font-fam-primary);
 }
 
 .hero-container {
@@ -97,10 +98,7 @@ body {
 .global-config,
 :root {
   /* font family */
-  --font-fam-primary-light: "Inter", sans-serif;
-  --font-fam-primary-regular: "Inter", sans-serif;
-  --font-fam-primary-medium: "Inter", sans-serif;
-  --font-fam-primary-bold: "Inter", sans-serif;
+  --font-fam-primary: "Inter", sans-serif;
   --font-fam-secondry: "Urbanist", serif;
 }
 .color-config,

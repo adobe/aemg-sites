@@ -1,0 +1,33 @@
+.hazardstatement .prefix-content {
+    background-position: 0 0;
+    padding-left: unset;
+    // background: transparent url(AlertSmall.svg) 0% 0% no-repeat padding-box;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.hazardstatement.note{
+    padding: 18px 24px;
+    margin-bottom: 1em;
+    margin-top: 1rem;
+    font-size: var(--text-sm);
+    border-left-width: 4px ;
+    border-left-style: solid ;
+    border-top: unset;
+    border-bottom: unset;
+}
+.hazardstatement.note.danger{
+    border-left-color: var(--color-danger-dark);
+    background-color: var(--color-danger-light);
+}
+.hazardstatement.note.warning{
+    border-left-color: var(--color-warning-dark);
+    background-color: var(--color-warning-light);
+}
+.hazardstatement.note.caution{
+    border-left-color: var(--color-caution-dark);
+    background-color: var( --color-caution-light);
+}
+.hazardstatement.note.notice {
+    border-left-color: var(--color-notice-dark);
+    background-color: var(--color-notice-light);
+}

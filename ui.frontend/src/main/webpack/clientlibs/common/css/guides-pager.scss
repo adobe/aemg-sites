@@ -6,6 +6,23 @@
     margin-top: 40px;
     margin-bottom: 30px;
 }
-.cmp-pager__prev span:first-child{
-    font-family: var( --font-fam-primary);
+.cmp-pager__prev .prev , .cmp-pager__next .next{
+    // font-family: var( --font-fam-primary-bold);
+    font-family: var(--font-fam-primary);
+    font-weight: 700;
+    color: var(--color-accent);
+    font-size: var(--text-2xs);
+line-height: var(--text-sm-lh);
+letter-spacing: 1px;
+}
+.cmp-pager__prev, .cmp-pager__next{
+    display: flex;
+    align-items: center;
+}
+
+.cmp-pager__prev .prev{
+    padding-left: 4px;
+}
+.cmp-pager__next .next{
+    padding-right: 4px;
 }
