@@ -45,3 +45,24 @@
   --text-9xl: 8rem;       /* 128px */
   --text-9xl-lh: 9.625rem; /* 154px */
 }
+<<<<<<< HEAD
+=======
+
+.note.danger {
+  --color-danger-light: #fff0f0;
+  --color-danger-dark: #ffd7d6;
+}
+.note.tip{
+  --color-tip-light: #EEEEEE;
+  --color-tip-dark: #ddd;
+}
+.note.caution {
+  --color-caution-light: #fff9e5;
+  --color-caution-dark: #f5c823;
+}
+.note.restriction{
+  --color-restriction-light: #EEEEEE;
+  --color-restriction-dark: #ddd;
+}
+
+>>>>>>> 160d438df01c5f4033ca08c9c37be49af8f08995

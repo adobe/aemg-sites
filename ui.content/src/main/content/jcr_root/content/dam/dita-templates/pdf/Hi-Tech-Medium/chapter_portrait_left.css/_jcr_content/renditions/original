@@ -43,6 +43,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 27px 60px 21px 73px;
+  margin-top: 40px;
 }
 .chapter_leftpage_footer_text {
   font-size: var(--text-4xs);
@@ -68,7 +69,7 @@ h1.title.chapter {
   font-family: var(--font-fam-primary-bold);
   color: var(--color-accent);
   margin: 0;
-  padding-left: 20px;
+  padding-left: 30px;
   padding-bottom: 15px;
 }
 h1.title::before {
@@ -102,14 +103,10 @@ h2.title {
   gap: 35px;
 }
 .flex_col1 {
-  /* flex-basis: 140px; */
-  max-width: 30%;
-  width: 100%;
+  flex-basis: 30%;
 }
 .flex_col2 {
-  /* flex-basis: 460px; */
-  max-width: 70%;
-  width: 100%;
+  flex-basis: 70%;
 }
 .chapter_title {
   font-size: var(--text-base);
