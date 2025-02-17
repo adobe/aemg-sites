@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Chapter Page Layout</title>
-  <meta name="page-style" content="margin-left:0px;margin-right:0px;margin-top:90px;" />
+  <meta name="page-style" content="margin-left:0px;margin-right:0px;margin-top:90px;margin-bottom:115px;" />
   <meta name="footnote-style" content="" />
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
