@@ -6,7 +6,6 @@
   <link rel="stylesheet" href="layout.css" type="text/css" />
   <link rel="stylesheet" href="frontcover.css" type="text/css" />
   <link rel="stylesheet" href="global.css" type="text/css" />
-  
   <meta name="page-style" content="size:A4 portrait;background-image:url(&#39;../../../aemguidesDALP/hi-tech/images/nvidia-graphics-logo.svg&#39;);background-size:50px 50px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;" />
   <title>Page Layout</title>
   <meta name="footnote-style" content="" />
@@ -21,7 +20,7 @@
       <div class="frontcover_textdata">
         <p><span class="frontcover_mainbooktitle">Jetson AGX Orin Series Modules Tuning and Compliance Guide</span></p>
         <p><span class="frontcover_booktitlealt">Application Note</span></p>
-        <p><span class="frontcover_critdates">DA-11040-001_v1.3 | May 2024</span></p>
+        <p><span class="frontcover_critdates">DA-11040-001_v1.3 | <span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span></span></p>
       </div>
     </div>
   </div>

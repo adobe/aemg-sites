@@ -25,7 +25,10 @@
   margin-top: auto;
 }
 .frontcover_cover-image {
+  width: 257px;
+  height: 200px;
   max-width: unset !important;
+  margin-top: 5px;    
 }
 .frontcover_textdata .frontcover_mainbooktitle-landscape {
   font-size: 30px;
