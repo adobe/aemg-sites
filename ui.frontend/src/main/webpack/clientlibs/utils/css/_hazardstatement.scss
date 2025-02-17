@@ -1,0 +1,12 @@
+.hazardstatement .prefix-content {
+    background-position: 0 0;
+    padding-left: 1.5rem;
+    // background: transparent url(AlertSmall.svg) 0% 0% no-repeat padding-box;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.hazardstatement.note{
+    padding: 18px 24px;
+    margin-bottom: 1em;
+    font-size: var(--text-sm);
+}
