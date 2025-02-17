@@ -17,6 +17,24 @@
 .topic-body{
   color: var(--color-accent);
 }
+ .link {
+  display: block;
+  font-family:  var(--font-fam-primary);
+  font-weight: 400;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  letter-spacing: 0px;
+  text-decoration: auto;
+  color: var(--color-accent);
+  margin-top: 16px;
+}
+
+.codeph {
+  font-size: var( --text-base);
+  background: var(--color-neutral-light);
+  border: 1px solid var(--color-neutral-light);
+  font-family:  var(--font-fam-primary);
+}
 
 h2{
   font-family: var(--font-fam-primary);
@@ -162,3 +180,58 @@ tbody .entry ul li {
   font-weight: 100;
   padding-bottom: 0.8em;
 }
+// character styles start
+.apiname {
+  font-style: italic;
+}
+.boolean {
+  font-style: italic;
+}
+.delim {}
+.equation-block {
+  display: inline-block;
+}
+.filepath {
+  font-style: italic;
+}
+.foreign {
+  background: #f5f5f5;
+  font-family: inherit;
+}
+.indexterm {
+  display: none;
+}
+.keyword {}
+.keywords {}
+.kwd {}
+.mathml {
+  display: inline-block;
+}
+.menucascade .uicontrol+.uicontrol:before {
+  content: "\00a0\203a\00a0";
+}
+.ph {}
+.shortcut {}
+.systemoutput {}
+.term {
+  font-style: italic;
+}
+.tm {}
+.uicontrol {
+  font-weight: bold;
+}
+.tt {
+  font-family: inherit;
+}
+.state {
+  font-style: italic;
+}
+.userinput {
+  font-family: inherit;
+}
+.var {}
+.varname {
+  font-style: italic;
+}
+// character styles end
+
