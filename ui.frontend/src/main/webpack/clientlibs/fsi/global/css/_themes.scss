@@ -1,0 +1,35 @@
+@use "../../../utils/css/palette-generator" as * ;
+@mixin light-theme {
+  --color-accent: ;
+  --color-on-accent: ;
+  --color-primary: #013220;
+  --color-primary-light :  #E2F8F0;
+  --color-primary-faded : #4D7063;
+  --color-on-primary: #FFFFFF;
+  --color-border: #ACACAC;
+  --color-gray-light : #2C343B;
+
+}
+
+@mixin dark-theme {
+
+}
+
+.light {
+  @include light-theme();
+}
+
+.dark {
+  @include dark-theme();
+}
+
+// OS Default.
+:root:not(.light):not(.dark) {
+  @media (prefers-color-scheme: light) {
+    @include light-theme;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    @include dark-theme;
+  }
+}

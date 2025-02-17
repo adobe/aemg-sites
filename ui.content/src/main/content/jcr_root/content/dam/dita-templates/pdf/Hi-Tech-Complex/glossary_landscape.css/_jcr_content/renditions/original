@@ -1,4 +1,5 @@
-/*Created with AEM Guides*//*Created with AEM Guides*/
+/*Created with AEM Guides*/
+/*Created with AEM Guides*/
 #glossary_header {
   margin-bottom: 0px;
   text-align: left;
@@ -70,9 +71,12 @@ glossterm {
 .glo-body {
   display: grid;
   grid-template-columns: auto auto;
-  grid-column-gap: 158px;
+  grid-column-gap: 103px;
   grid-row-gap: 16px;
   margin-top: 30px;
+}
+.book-glo-unit {
+  width: 400px;
 }
 /* topic css  */
 .left-right-main-container {

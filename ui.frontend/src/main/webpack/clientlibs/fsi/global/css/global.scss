@@ -1,0 +1,23 @@
+@use "../../../common/css";
+@use "themes";
+@use "fonts" as *;
+
+:root{
+  @include fonts;
+}
+
+body {
+  background-color: var(--color-bg);
+}
+
+.hero-container {
+  .cover-img {
+    max-width: 940px;
+    max-height: 400px;
+
+    &> img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

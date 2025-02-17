@@ -11,12 +11,11 @@
 <body>
   <div data-region="header" id="index_header">
     <h5 id="index_header_title">Index</h5>
-    <p id="index_header_titlealts">2024 Jetson AGX</p>
   </div>
   <div data-region="content" id="idx_content"></div>
+  <p><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
   <div data-region="footer" id="index_footer">
-    <p id="index_footer_product-name">Jetson AGX Orin Series Modules Tuning and Compliance Guide</p>
-    <a id="index_footer_urls">www.carmanualsite.com/vehicle-overview</a> <a id="index_footer_urls">www.carmanualsite.com/dashboard-controls</a>
+   <p id="index_footer_product-name"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
   </div>
 </body>
 </html>

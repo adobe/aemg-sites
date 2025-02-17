@@ -49,7 +49,7 @@
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 350;
-  color: var(--color-primary);
+  color: var(--color-accent);
   margin-bottom: 16px;
 }
 .idx-link {
@@ -94,8 +94,8 @@ a.book-idx-link.idx-link {
 .book-idx-child.idx-child {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 158px;
-  /* row-gap: 16px; */
+  padding-top: 0px;
+  column-gap: 103px;
 }
 .idx-unit.book-idx-keyword {
   padding: 0px;
