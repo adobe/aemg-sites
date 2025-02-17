@@ -74,6 +74,9 @@ glossterm {
   grid-row-gap: 16px;
   margin-top: 30px;
 }
+.glo-unit {
+    width: unset;
+} 
 /* topic css  */
 .left-right-main-container {
   display: flex;

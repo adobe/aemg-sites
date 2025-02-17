@@ -67,7 +67,7 @@
   position: absolute;
   bottom: 2%;
   left: 0px;
-  padding-left: 20px;
-  padding-bottom: 33px;
   margin: 0;
+  margin-left: 20px;
+  padding-bottom: 33px;
 }

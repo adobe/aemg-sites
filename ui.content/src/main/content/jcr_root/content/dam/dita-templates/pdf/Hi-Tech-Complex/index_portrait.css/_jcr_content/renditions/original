@@ -95,7 +95,7 @@ a.book-idx-link.idx-link {
 .book-idx-child.idx-child {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 40px;
+  padding-top: 0px;
   column-gap: 100px;
 }
 .idx-unit.book-idx-keyword {

@@ -30,7 +30,7 @@
   font-weight: 350;
   color: var(--color-accent);
   margin-bottom: 8px;
-  width: unset
+  width: 400px;
 }
 .lot_content .lot-level-1::after,
 .lot-level-1::after {
@@ -67,11 +67,10 @@
   margin: 0;
   padding: 0;
 }
-
 .lot-body {
   padding-top: 0px;
   margin-top: 60px;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 158px;
+  column-gap: 103px;
 }
