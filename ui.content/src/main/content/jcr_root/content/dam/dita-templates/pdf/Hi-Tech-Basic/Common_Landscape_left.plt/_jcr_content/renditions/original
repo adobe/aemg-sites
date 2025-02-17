@@ -16,6 +16,7 @@
     <p><span class="chapter_header_chapter-number" data-field="chapter-number" data-format="default" style="margin-left: 0px;margin-right: 0px">1</span></p>
     <p class="chapter-header"><span class="chapter_header-language">EN</span></p>
   </div>
+  
   <div data-region="content"></div>
   <div class="footer-common" data-region="footer">
     <p class="chapter-footer"><span class="footer-number" data-field="page-number">1</span></p>
