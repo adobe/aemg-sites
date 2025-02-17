@@ -8,11 +8,11 @@
         cq:name="layout.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-14T12:18:25.266+05:30"
+        jcr:lastModified="{Date}2025-02-14T16:33:53.111+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-14T12:18:25.116+05:30"
+            dam:extracted="{Date}2025-02-14T16:33:51.390+05:30"
             dam:sha1="8527a65ab1ebde2c92e77a8cceb82feec26d6ac6"
             dam:size="{Long}4431"
             dc:format="text/css"

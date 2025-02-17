@@ -16,7 +16,7 @@
 .chapter-text_wrapper p {
   margin-top: -10px;
 }
-.toc_header_page-number {
+.chapter_header_chapter-number {
   font-size: 12px;
   line-height: 14px;
   font-weight: 500;
@@ -81,6 +81,13 @@ h2.chapter_sub-titles {
   line-height: 16px;
   font-weight: 400;
   font-family: var(--font-fam-primary-regular);
+  color: var(--color-accent);
+}
+.chapter-body .col-subtitle {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--font-fam-primary-medium);
   color: var(--color-accent);
 }
 .col-container-1 {
@@ -171,7 +178,7 @@ ol li {
 info p {
   margin-bottom: 16px;
 }
-.info {
+.chapter-body .info {
   font-size: 11px;
   line-height: 14px;
   font-family: var(--font-fam-primary-regular);
@@ -253,16 +260,16 @@ info p {
   margin-top: 8px;
   text-align: center;
 }
-
 [data-page-layout="Common_Landscape"] .col-container-1 {
-    margin-bottom: 28px;
+  margin-bottom: 28px;
+  gap: unset;
 }
 [data-page-layout="Common_Landscape"] .section2_text-image-wrapper {
-    display: flex;
-    justify-content: flex-end;
-    gap: 80px;
-    border-top: unset;
-    padding-top: unset;
+  display: flex;
+  justify-content: flex-end;
+  gap: 80px;
+  border-top: unset;
+  padding-top: unset;
 }
 [data-page-layout="Common_Landscape"] .placement-inline {
   padding: 43px;
@@ -272,27 +279,24 @@ info p {
   height: 134px;
   max-width: unset !important;
 }
-[data-page-layout="Common_Landscape"] .fig_image-wrapper{
+[data-page-layout="Common_Landscape"] .fig_image-wrapper {
   flex-basis: 35%;
 }
-[data-page-layout="Common_Landscape"] .section2_text-wrapper{
+[data-page-layout="Common_Landscape"] .section2_text-wrapper {
   flex-basis: 33%;
 }
-[data-page-layout="Common_Landscape"] .col-container-1{
-    gap: unset !important;
+[data-page-layout="Common_Landscape"] .col-1 {
+  flex-basis: 20%;
 }
-[data-page-layout="Common_Landscape"] .col-1{
-   flex-basis: 20%;
+[data-page-layout="Common_Landscape"] .col-2 {
+  flex-basis: 40%;
+  margin-left: 24px;
+  border-bottom: 0.5px solid #000000;
+  padding-right: 55px;
+  padding-bottom: 10px;
 }
-[data-page-layout="Common_Landscape"] .col-2{
-    flex-basis: 40%;
-    margin-left: 24px;
-    border-bottom: 0.5px solid #000000;
-    padding-right: 55px;
-    padding-bottom: 10px;
-}
-[data-page-layout="Common_Landscape"] .col-3{
-    flex-basis: 40%;
-    border-bottom: 0.5px solid #000000;
-    padding-bottom: 10px;
+[data-page-layout="Common_Landscape"] .col-3 {
+  flex-basis: 40%;
+  border-bottom: 0.5px solid #000000;
+  padding-bottom: 10px;
 }

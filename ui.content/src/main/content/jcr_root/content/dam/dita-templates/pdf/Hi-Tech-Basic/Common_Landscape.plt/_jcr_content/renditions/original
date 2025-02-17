@@ -13,8 +13,8 @@
 </head>
 <body>
   <div class="chapter-text_wrapper" data-region="header">
-    <p class="chapter-header"><span class="chapter_header-language">EN</span></p>
-    <p><span class="toc_header_page-number" data-field="page-number" data-format="default">1</span></p>
+    <p class="chapter-header"><span class="chapter_header-language" style="margin-left: 0px;margin-right: 0px">EN</span></p>
+    <p><span class="chapter_header_chapter-number" data-field="chapter-number" data-format="default">1</span></p>
   </div>
   <div data-region="content"></div>
   <div class="footer-common" data-region="footer">
