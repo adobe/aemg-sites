@@ -16,13 +16,15 @@
 <div data-sly-use.pager="com.adobe.guides.aem.components.core.models.Pager"
      class="cmp-pager">
     <div data-sly-test="${pager.prev}" class="cmp-pager__prev">
-        <span>Previous </span>
+        <i class="fa-solid fa-chevron-left"></i>
+        <span class="prev">Previous </span>
         <a href="${pager.prev.URL}"></a>
         <!-- ${pager.prev.title} -->
     </div>
     <div data-sly-test="${pager.next}" class="cmp-pager__next">
-        <span>Next </span>
+        <span class="next">Next </span>
         <a href="${pager.next.URL}"></a>
+        <i class="fa-solid fa-chevron-right"></i>
 <!-- ${pager.next.title} -->
     </div>
 </div>

@@ -53,3 +53,19 @@
   --text-9xl-lh: 9.625rem; /* 154px */
 }
 
+.hazardstatement.danger {
+  --color-danger-light : #FFEBE7 ;
+  --color-danger-dark :  #EA3829;
+}
+.hazardstatement.warning {
+  --color-warning-light: #ffeddf;
+  --color-warning-dark:  #ffb47b;
+}
+.hazardstatement.caution {
+  --color-caution-light: #FFECCC ;
+  --color-caution-dark : #F68511;
+}
+.hazardstatement.notice{
+  --color-notice-light : #F8F8F8;
+  --color-notice-dark :  #6D6D6D;
+}
