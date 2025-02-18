@@ -8,13 +8,14 @@
         cq:name="TOC_Portrait.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-11T13:55:00.636+05:30"
+        jcr:lastModified="{Date}2025-02-18T16:26:48.396+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-11T13:55:00.598+05:30"
-            dam:sha1="52582c5a7e575abac6348f8e30b2ad45268c44ba"
-            dam:size="{Long}559"
+            dam:extracted="{Date}2025-02-18T16:26:48.286+05:30"
+            dam:sha1="9db909cbf67f53d25c5e4fa00b40781aae019156"
+            dam:size="{Long}1337"
+            dc:format="application/octet-stream"
             dc:title="TOC_Portrait.plt"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
