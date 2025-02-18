@@ -48,6 +48,9 @@ const clientlibArr = [
   //fsi
   {name : 'fsi_topic-body' , module: 'fsi'},
   {name : 'fsi_global' , module: 'fsi'},
+  {name : 'fsi_toc' , module: 'fsi'},
+
+
   // hi-tec
   {name : 'hi-tech_topic-body', module: 'hi-tech'},
   {name : 'hi-tech_global', module: 'hi-tech'},
