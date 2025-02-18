@@ -6,11 +6,12 @@
   <title>Index Page Layout</title>
   <!-- <link rel="stylesheet" href="layout.css" type="text/css" />
   <link rel="stylesheet" type="text/css" href="content.css" /> -->
-  <meta name="page-style" content="size:portrait; margin-left:73px; margin-right:73px; margin-top: 80px;  margin-bottom: 120px;" />
+  <meta name="page-style" content="size:portrait;margin-left:73px;margin-right:73px;margin-top:80px;margin-bottom:100px;" />
   <!-- <link rel="stylesheet" type="text/css" href="index_complex.css" /> -->
   <!-- <link rel="stylesheet" type="text/css" href="common.css" /> -->
   <link rel="stylesheet" type="text/css" href="global.css" />
-  <link rel="stylesheet" type="text/css" href="index_Portrait.css" />
+  <link rel="stylesheet" type="text/css" href="index_portrait.css" />
+  <meta name="footnote-style" content="" />
 </head>
 <body>
   <div data-region="header" id="index_header">

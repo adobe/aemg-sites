@@ -101,7 +101,7 @@ a.book-idx-link.idx-link {
   padding: unset;
 }
 .index_footer {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 .index_footer_product-brand {
   padding-right: 3px;

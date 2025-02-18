@@ -59,7 +59,7 @@ function renderChart(ctx, tableObj) {
               },
             layout : {
               padding: {
-                top : 20,
+                top : 40,
                 bottom: 20,
                 left: 10, 
                 right: 10
