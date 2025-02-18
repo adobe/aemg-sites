@@ -12,7 +12,10 @@
   <tableContinuation type="boolean">true</tableContinuation>
   <useUserToc type="boolean">true</useUserToc>
   <toclevel type="number">4</toclevel>
+  <startChapterFromNewPage type="boolean">false</startChapterFromNewPage>
+  <startChapterFromEvenPage type="boolean">false</startChapterFromEvenPage>
   <startChapterFromOddPage type="boolean">true</startChapterFromOddPage>
+  <startChapterFromCurrentPage type="boolean">false</startChapterFromCurrentPage>
   <startTopicsFromNewPage type="boolean">false</startTopicsFromNewPage>
   <displayChapter type="boolean">true</displayChapter>
   <pdfTrimmark type="boolean">false</pdfTrimmark>
@@ -47,6 +50,13 @@
       <label>Frontcover_landscape</label>
     </bookListsitem>
     <bookListsitem>
+      <name>tocLayout</name>
+      <mergeMode>none</mergeMode>
+      <showInTOC type="boolean">true</showInTOC>
+      <label>TOC</label>
+      <disabled type="boolean">false</disabled>
+    </bookListsitem>
+    <bookListsitem>
       <name>topicLayout</name>
       <mergeMode>none</mergeMode>
       <showInTOC type="boolean">true</showInTOC>
@@ -54,11 +64,11 @@
       <disabled type="boolean">true</disabled>
     </bookListsitem>
     <bookListsitem>
-      <name>tocLayout</name>
+      <name>customLayout</name>
       <mergeMode>none</mergeMode>
       <showInTOC type="boolean">true</showInTOC>
-      <label>TOC</label>
-      <disabled type="boolean">false</disabled>
+      <path>Blank.plt</path>
+      <label>Blank</label>
     </bookListsitem>
     <bookListsitem>
       <name>lofLayout</name>
@@ -106,14 +116,14 @@
   <hyperlinkGlossary type="boolean">true</hyperlinkGlossary>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
   <layout>Common</layout>
-  <coverPageLayout>Frontcover_Portrait</coverPageLayout>
-  <backPageLayout>Backcover_Portrait</backPageLayout>
+  <coverPageLayout>Frontcover_landscape</coverPageLayout>
+  <backPageLayout>Backcover_landscape</backPageLayout>
   <emptyPageLayout>Blank</emptyPageLayout>
-  <tocLayout>TOC_Portrait</tocLayout>
-  <topicLayout>Chapter_Portrait</topicLayout>
-  <gloLayout>Glossary_Portrait</gloLayout>
-  <indexLayout>Index_Portrait</indexLayout>
+  <tocLayout>TOC_landscape</tocLayout>
+  <topicLayout>Chapter_landscape</topicLayout>
+  <gloLayout>Glossary_landscape</gloLayout>
+  <indexLayout>Index_landscape</indexLayout>
   <bibLayout>Citations</bibLayout>
-  <lotLayout>LOT_Portrait</lotLayout>
-  <lofLayout>LOF_Portrait</lofLayout>
+  <lotLayout>LOT_landscape</lotLayout>
+  <lofLayout>LOF_landscape</lofLayout>
 </settings>

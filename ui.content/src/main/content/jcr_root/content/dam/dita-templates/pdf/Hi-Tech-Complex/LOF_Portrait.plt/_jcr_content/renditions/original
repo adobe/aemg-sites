@@ -4,10 +4,12 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>List of Figures Page Layout</title>
-  <meta name="page-style" content="size:portrait;" />
+  <meta name="page-style" content="size:portrait;margin-left:70px;margin-right:70px;margin-bottom:70px;" />
   <link rel="stylesheet" type="text/css" href="lof_portrait.css" />
+  <meta name="footnote-style" content="" />
 </head>
 <body>
+  <p><span><span contenteditable="false" style="height: 0px; padding: 0px; margin: 0px; display: block; z-index: 9999; color: rgb(255, 255, 255); font-size: 0px; line-height: 0px; position: absolute; border-top: 1px dashed rgb(0, 116, 217); user-select: none; left: 0px; right: 0px; top: 0px;"><span style="width:0px;height:0px;padding:0px;margin:0px;display:block;z-index:9999;color:#fff;position:absolute;font-size: 0px;line-height:0px;border-color:transparent;display:block;border-style:solid;right:0px;border-right-color:#0074D9;border-width:0 8px 8px 0;top:0px"> </span><span style="width:0px;height:0px;padding:0px;margin:0px;display:block;z-index:9999;color:#fff;position:absolute;font-size: 0px;line-height:0px;border-color:transparent;display:block;border-style:solid;left:0px;border-left-color:#0074D9;border-width:0 0 8px 8px;top:0px"> </span><span contenteditable="false" style="width:0px;height:0px;padding:0px;margin:0px;display:block;z-index:9999;color:#fff;position:absolute;font-size: 0px;line-height:0px;height:17px;width:17px;right:17px;background:url(https://author-p146239-e1505671.adobeaemcloud.com/libs/fmdita/clientlibs/clientlibs/xmleditor/libs/ckeditor_v5/plugins/magicline/images/icon.png?t=O6I7) center no-repeat #0074D9;cursor:pointer;top:-1px; border-radius: 0px 0px 2px 2px;" title="Insert paragraph here">↵</span></span></span></p>
   <div class="lof_header" data-region="header">
     <p class="lof_header_title">List Of Figure</p>
   </div>

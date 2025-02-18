@@ -50,14 +50,17 @@ body {
 .color-config,
 :root {
   --color-accent: #0C1256;
-  --color-primary: #01EA57;
+  --color-primary: #013220;
   --color-primary-white: #FFFFFF;
-  --color-secondry-white: #F2F2F2;
-  --color-natural-blue: #87A3FB;
-  --color-secondary: #E8F1FF;
-  --color-tertiary: #2C343B;
+  --color-primary-light: #E2F8F0;
+  --color-secondary: #2C343B;
+  --color-tertiary: #FDA14A;
   --color-neutral: #D8D8D8;
-  --color-link: #0F85EC;
+  --color-dark: #002417;
+  --color-black: #222222;
+  --color-blue: #C6DFD9;
+  --color-gray: #AEAEAE;
+  --color-green: #02403D;
 }
 .toc-config,
 :root {
@@ -87,7 +90,7 @@ footer {
   /* 16px */
   --text-sm: 0.875rem;
   /* 14px */
-   --text-2xs-lh: 0.875rem;
+  --text-2xs-lh: 0.875rem;
   /* 14px */
   --text-sm-lh: 1.25rem;
   /* 20px */
