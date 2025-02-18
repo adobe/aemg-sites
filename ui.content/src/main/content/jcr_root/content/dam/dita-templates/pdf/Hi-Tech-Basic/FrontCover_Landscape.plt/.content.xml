@@ -8,11 +8,11 @@
         cq:name="FrontCover_Landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-14T12:18:25.728+05:30"
+        jcr:lastModified="{Date}2025-02-14T16:33:56.060+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-14T12:18:25.518+05:30"
+            dam:extracted="{Date}2025-02-14T16:33:55.260+05:30"
             dam:sha1="0577559f0e74a703378fc42e7db8ca602ad2c9c6"
             dam:size="{Long}1500"
             dc:format="application/octet-stream"

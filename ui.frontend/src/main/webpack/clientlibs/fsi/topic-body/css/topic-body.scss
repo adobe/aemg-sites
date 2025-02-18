@@ -86,9 +86,17 @@
   li {
     margin-bottom: 16px;
   }
-  .info{
+  .info-note-primary-light{
     background-color: var(--color-primary-light);
     padding: 10px 25px;
+    .p{
+      margin-bottom: unset;
+    }
+  }
+  .info-note-primary{
+    background-color: var(--color-primary);
+    padding: 10px 25px;
+    color: var( --color-on-primary);
     .p{
       margin-bottom: unset;
     }

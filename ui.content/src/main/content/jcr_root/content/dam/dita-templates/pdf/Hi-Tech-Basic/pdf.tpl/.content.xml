@@ -8,11 +8,11 @@
         cq:name="pdf.tpl"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-14T12:18:26.113+05:30"
+        jcr:lastModified="{Date}2025-02-14T16:33:56.432+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-14T12:18:26.015+05:30"
+            dam:extracted="{Date}2025-02-14T16:33:56.248+05:30"
             dam:sha1="aa9214389b5638a70965ec93ee50dc2616082357"
             dam:size="{Long}4228"
             dc:format="application/vnd.groove-tool-template"

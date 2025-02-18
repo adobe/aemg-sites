@@ -29,25 +29,82 @@ ol ol ol {
   list-style-type: lower-roman;
 }
 
+//* step style **/
+
+.step {
+margin-top: 0.3rem;
+margin-bottom: 0.5rem;
+}
+.step-unordered {
+margin-top: 0.2rem;
+margin-bottom: 0.4rem;
+}
+.stepresult {
+margin-bottom: 0.5rem;
+}
+.steps {}
+.stepsection {
+display: block;
+margin-left: -0.3rem;
+}
+.stepxmp {}
+.substep {
+margin-top: 0.2rem;
+margin-bottom: 0.4rem;
+}
+.substeps {}
+
+.menucascade .uicontrol+.uicontrol:before {
+    content: "\00a0\203a\00a0";
+}
+.uicontrol {
+font-weight: bold;
+}
+
+//* steps choice styles **/
+.choice {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.choices {}
+.chdesc {}
+.chdeschd {}
+.chhead {}
+.choicetable {}
+.choption {}
+.choptionhd {}
+.chrow {}
+.cmd {}
+.cmd .prefix-content {
+font-weight: bold;
+}
+.cmdname {
+font-weight: bold;
+}
+
+//* defination style **/
+
 .dd {
     margin-bottom: 0.5rem;
     margin-left: 1.4rem;
     font-size: 11pt;
-  }
-  .ddhd {
-    font-weight: bold;
-    margin-left: 1.4rem;
-  }
-  .dl {
-    margin-bottom: 0.5rem;
-  }
-  .dlentry {}
-  .dlhead {}
-  .dt {
-    font-weight: bold;
-    line-height: 1.5rem;
-    margin-bottom: 0.3rem;
-  }
-  .dthd {
-    font-weight: bold;
-  }
+}
+.ddhd {
+font-weight: bold;
+margin-left: 1.4rem;
+}
+.dl {
+font-family: var(--font-fam-primary);
+color: var( --color-primary);
+margin-bottom: 0.5rem;
+}
+.dlentry {}
+.dlhead {}
+.dt {
+font-weight: bold;
+line-height: 1.5rem;
+margin-bottom: 0.3rem;
+}
+.dthd {
+font-weight: bold;
+}

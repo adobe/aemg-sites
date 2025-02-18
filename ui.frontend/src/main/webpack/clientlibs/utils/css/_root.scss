@@ -1,12 +1,5 @@
-.color-config,
-:root {
-  --color-accent: #821616;
-  --color-primary: #001E3A;
-  --color-primary-70: #001e3ab3;
-  --color-neutral: #D8D8D8;
-}
 
-.toc-config,
+// toc-config
 :root {
   --toc-indent: 16px;
   --toc-level-0-indent: calc(var(--toc-indent) * 0);
@@ -17,7 +10,7 @@
   --toc-level-5-indent: calc(var(--toc-indent) * 5);
 }
 
-.typography-config,
+// typography-config
 :root {
   --text-4xs: 0.563rem;   /* 9px */
   --text-4xs-lh: 0.75rem;  /* 12px */
