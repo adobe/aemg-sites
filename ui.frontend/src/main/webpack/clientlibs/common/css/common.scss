@@ -39,3 +39,23 @@
 .aem-Grid.aem-Grid--default--12>.aem-GridColumn.aem-GridColumn--default--12 {
   float: unset;
 }
+
+.cmp-flex{
+  &>.cmp-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+.mr-auto{
+  margin-right: auto;
+}
+
+.topic-header{
+  &>.cmp-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

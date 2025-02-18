@@ -7,28 +7,51 @@
     font-family: var(--font-fam-primary);
   }
 }
-
-.time-to-read{
-  .cmp-text{
-    font-family: var(--font-fam-primary);
-    font-size: var( --text-xs);
-    line-height: var( --text-xs-lh);
-    font-weight: 500;
-    color: var( --color-primary-faded);
+.topic-header{
+  .cmp-container{
+    border-top: 1px solid var( --color-border-light);
+    border-bottom: 1px solid var( --color-border-light);
+    padding: 10px 0px;
   }
-  .cmp-text p::before {
-    content: url('path-to-your-clock-image.png'); 
-    display: inline-block;
-    width: 16px; 
-    height: 16px;
-    margin-right: 25px;
+  .time-to-read{
+    margin-right: auto;
+    .cmp-text{
+      font-family: var(--font-fam-primary);
+      font-size: var( --text-xs);
+      line-height: var( --text-xs-lh);
+      font-weight: 500;
+      color: var( --color-primary-faded);
+    }
+    .cmp-text p::before {
+      content: "\f017";
+      font-family: "Font Awesome 6 Free"; 
+      margin-right: 10px;
+    }
+    // .cmp-text p::before {
+    //   content: "clock";
+    //   margin-right: 25px;
+    // }
+    
   }
-  .cmp-text p::before {
-    content: "clock";
-    margin-right: 25px;
+  .bookmark, .pdf-download, .share{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    margin-left: 15px;
   }
-  
 }
+
+
+// .bookmark::before{
+//   content: "\f02e";
+// }
+
 
 .topic-body {
   &>.cmp-container {
