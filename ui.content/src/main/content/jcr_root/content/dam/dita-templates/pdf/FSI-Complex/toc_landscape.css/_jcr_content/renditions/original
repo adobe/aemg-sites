@@ -8,8 +8,8 @@
 }
 .toc_header_title {
   font-family: var(--font-fam-primary);
-  font-size: 24px;
-  line-height: 32px;
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl-lh);
   font-weight: 400;
   color: var(--color-primary);
   margin: 0;
@@ -19,8 +19,7 @@
   width: 33px;
 }
 .toc-body {
-  /* padding-top: 60px; */
-  /* padding-bottom: 50px; */
+  padding-top: 50px;
   column-count: 2;
   column-gap: 112px;
 }
@@ -28,34 +27,36 @@
   padding-bottom: 41px;
 }
 .toc_footer_text {
-  font-size: 10px;
-  line-height: 12px;
+  font-size: var(--text-3xs);
+  line-height: var(--text-3xs-lh);
   font-weight: 400;
   color: var(--color-secondary);
+  font-family: var(--font-fam-primary);
   margin: 0;
 }
 .toc_footer_product-name {
   font-family: var(--font-fam-primary);
-  font-size: 11px;
-  line-height: 14px;
+  font-size: var(--text-2xs);
+  line-height: var(--text-2xs-lh);
   font-weight: 700;
   color: var(--color-secondary);
 }
 .toc_publish-date {
   font-family: var(--font-fam-primary);
-  font-size: 10px;
-  line-height: 12px;
+  font-size: var(--text-3xs);
+  line-height: var(--text-3xs-lh);
   font-weight: 400;
   color: var(--color-secondary);
 }
 .toc-level-1 {
   font-family: var(--font-fam-primary);
-  font-size: 12px;
-  line-height: 14px;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
   font-weight: 700;
   color: var(--color-primary);
   margin-top: 50px;
   position: relative;
+  text-transform: uppercase;
 }
 .toc-level-1:first-child {
   margin-top: 0;
@@ -65,10 +66,10 @@
 }
 .toc-level-2 {
   font-family: var(--font-fam-primary);
-  font-size: 12px;
-  line-height: 16px;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
   font-weight: 400;
-  color:  var(--color-primary);
+  color: var(--color-primary);
   padding-top: 9px;
   padding-left: var(--toc-level-2-gap);
   padding-left: 30px;

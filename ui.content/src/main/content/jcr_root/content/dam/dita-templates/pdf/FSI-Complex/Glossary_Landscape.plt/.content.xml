@@ -8,13 +8,13 @@
         cq:name="Glossary_Landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-11T11:34:53.840+05:30"
+        jcr:lastModified="{Date}2025-02-18T17:21:54.616+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-11T11:34:53.787+05:30"
-            dam:sha1="b62eac05ef65d48b197e6200603d72f2391c0dc8"
-            dam:size="{Long}1438"
+            dam:extracted="{Date}2025-02-18T17:21:54.522+05:30"
+            dam:sha1="85f40e6af6b902a6fda7a02623d9fdc1ea06f2d9"
+            dam:size="{Long}1461"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

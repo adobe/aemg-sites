@@ -8,13 +8,13 @@
         cq:name="lof_portrait.css"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-11T11:34:50.372+05:30"
+        jcr:lastModified="{Date}2025-02-18T17:21:54.907+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-11T11:34:50.264+05:30"
-            dam:sha1="2be467eed4db6704095b681c4e0bd7d9f423842c"
-            dam:size="{Long}1533"
+            dam:extracted="{Date}2025-02-18T17:21:54.838+05:30"
+            dam:sha1="155e216caec1c9223baf285f4f12de232bbe1caf"
+            dam:size="{Long}1687"
             dc:format="text/css"
             dc:title="lof_portrait.css"
             jcr:mixinTypes="[cq:Taggable]"
