@@ -205,3 +205,7 @@ li {
   column-gap: unset;
   column-count: unset;
 }
+.chapter_footer-space {
+  margin-top: 20px;
+  padding-bottom: 40px;
+}

@@ -3,6 +3,5 @@
     jcr:primaryType="nt:file">
     <jcr:content
         jcr:lastModifiedBy="admin"
-        jcr:mimeType="application/xhtml+xml"
         jcr:primaryType="oak:Resource"/>
 </jcr:root>
