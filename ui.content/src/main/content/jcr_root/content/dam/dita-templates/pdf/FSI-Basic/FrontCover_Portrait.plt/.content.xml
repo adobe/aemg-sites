@@ -8,13 +8,13 @@
         cq:name="FrontCover_Portrait.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-11T11:34:50.619+05:30"
+        jcr:lastModified="{Date}2025-02-18T16:26:50.327+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-11T11:34:50.488+05:30"
-            dam:sha1="50b17dbd5bcf4579d39747fa008435836142764a"
-            dam:size="{Long}1865"
+            dam:extracted="{Date}2025-02-18T16:26:50.216+05:30"
+            dam:sha1="0dd6ff52f68fbee635f92443ba86bcd4802abbcc"
+            dam:size="{Long}1866"
             dc:format="application/octet-stream"
             dc:title="FrontCover_Portrait.plt"
             jcr:mixinTypes="[cq:Taggable]"

@@ -41,8 +41,8 @@
 }
 body {
   font-family: var(--font-fam-primary);
-  font-size: 14px;
-  line-height: 19.12px;
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
   font-weight: 400;
   color: var(--color-primary);
 }
@@ -51,8 +51,8 @@ body {
   justify-content: space-between;
   border-bottom: 0.5px solid var(--color-gray);
   padding-bottom: 8px;
-  /* margin-top: 30px;
-  margin-bottom: 20px; */
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .chapter_header-right {
   flex-direction: row-reverse;
@@ -63,8 +63,8 @@ body {
 }
 .chapter_header_page-number {
   font-family: var(--font-fam-primary);
-  font-size: 12px;
-  line-height: 16px;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
   font-weight: 400;
   color: var(--color-primary);
 }
@@ -103,8 +103,8 @@ body {
 }
 h1.title {
   font-family: var(--font-fam-primary);
-  font-size: 24px;
-  line-height: 32px;
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl-lh);
   font-weight: 400;
   color: var(--color-primary);
   margin-bottom: 8px;
@@ -119,8 +119,8 @@ h2.title {
 }
 .shortdesc {
   font-family: var(--font-fam-primary);
-  font-size: 16px;
-  line-height: 24px;
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
   font-weight: 400;
   color: var(--color-primary);
   margin-bottom: 36px;
@@ -129,15 +129,15 @@ h2.title {
 .link,
 .topic a {
   font-family: var(--font-fam-primary);
-  font-size: 14px;
-  line-height: 20px;
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
   font-weight: 500;
   color: var(--color-primary);
 }
 .thead {
   font-family: var(--font-fam-primary);
-  font-size: 14px;
-  line-height: 20px;
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
   font-weight: 500;
   color: #0C1256;
   background-color: var(--color-primary-light);
@@ -151,25 +151,25 @@ bold-text {
 }
 .tbody {
   font-family: var(--font-fam-primary);
-  font-size: 11px;
-  line-height: 14px;
+  font-size: var(--text-2xs);
+  line-height: var(--text-2xs-lh);
   font-weight: 400;
   color: #454545;
   border: 0.5px solid #ACACAC;
 }
 .tbody .entry {
   font-family: var(--font-fam-primary);
-  font-size: 11px;
-  line-height: 14px;
+  font-size: var(--text-2xs);
+  line-height: var(--text-2xs-lh);
   font-weight: 400;
   color: #454545;
 }
 .tbody b {
   font-family: var(--font-fam-primary);
-  font-size: 11px;
-  line-height: 14px;
+  font-size: var(--text-2xs);
+  line-height: var(--text-2xs-lh);
   font-weight: 700;
-  color: #454545;
+  color: var(--color-primary);
   margin-bottom: 16px;
 }
 .table {
@@ -181,8 +181,8 @@ ul {
 }
 li {
   font-family: var(--font-fam-primary);
-  font-size: 11px;
-  line-height: 14px;
+  font-size: var(--text-2xs);
+  line-height: var(--text-2xs-lh);
   font-weight: 400;
   color: #454545;
   margin-bottom: 16px;
@@ -212,8 +212,8 @@ li {
 }
 .chapter_firstpage_title {
   font-family: var(--font-fam-primary);
-  font-size: 36px;
-  line-height: 48px;
+  font-size: var(--text-4xl);
+  line-height: var(--text-4xl-lh);
   font-weight: 500;
   color: #E8F1FF;
 }
@@ -223,16 +223,16 @@ li {
 }
 .chapter_firstpage_desc {
   font-family: var(--font-fam-primary);
-  font-size: 24px;
-  line-height: 33px;
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl-lh);
   font-weight: 400;
   color: #E8F1FF;
   margin: 0;
 }
 .chapter_firstpage_descalt {
   font-family: var(--font-fam-primary);
-  font-size: 14px;
-  line-height: 19.12px;
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
   font-weight: 400;
   color: #E8F1FF;
   margin: 8px 0 0 0;
@@ -240,9 +240,6 @@ li {
 .chapter_firstpage_content_right {
   background-color: var(--color-blue);
   flex-basis: 350px;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
   padding-top: 82px;
   padding-left: 175px;
   box-sizing: border-box;

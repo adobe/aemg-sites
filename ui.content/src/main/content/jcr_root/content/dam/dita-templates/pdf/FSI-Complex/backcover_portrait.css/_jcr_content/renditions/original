@@ -16,16 +16,16 @@
 }
 .backcover_author-addressdetails {
   font-family: var(--font-fam-primary);
-  font-size: 12px;
-  line-height: 16px;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
   font-weight: 400;
   color: var(--color-primary);
   margin: 0;
 }
 .backcover_author-contactnumbers {
   font-family: var(--font-fam-primary);
-  font-size: 12px;
-  line-height: 16px;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
   font-weight: 400;
   color: var(--color-primary);
   padding-top: 16px;
@@ -33,8 +33,8 @@
 }
 .backcover_author-urls {
   font-family: var(--font-fam-primary);
-  font-size: 12px;
-  line-height: 16px;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
   font-weight: 400;
   color: var(--color-primary);
   padding-top: 16px;
@@ -42,8 +42,8 @@
 }
 .backcover_author-text {
   font-family: var(--font-fam-primary);
-  font-size: 12px;
-  line-height: 16px;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
   font-weight: 400;
   color: var(--color-primary);
   padding-top: 16px;

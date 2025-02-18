@@ -10,12 +10,12 @@
   <notDisplayPageNo>false</notDisplayPageNo>
   <noChapterNumberInTOC type="boolean">true</noChapterNumberInTOC>
   <leaderFormat>dotted</leaderFormat>
-  <tableContinuation type="boolean">true</tableContinuation>
+  <tableContinuation type="boolean">false</tableContinuation>
   <useUserToc type="boolean">true</useUserToc>
   <toclevel type="number">4</toclevel>
-  <startChapterFromNewPage type="boolean">true</startChapterFromNewPage>
+  <startChapterFromNewPage type="boolean">false</startChapterFromNewPage>
   <startChapterFromEvenPage type="boolean">false</startChapterFromEvenPage>
-  <startChapterFromOddPage type="boolean">false</startChapterFromOddPage>
+  <startChapterFromOddPage type="boolean">true</startChapterFromOddPage>
   <startChapterFromCurrentPage type="boolean">false</startChapterFromCurrentPage>
   <startTopicsFromNewPage type="boolean">false</startTopicsFromNewPage>
   <displayChapter type="boolean">true</displayChapter>
@@ -112,8 +112,8 @@
   <layout>Common</layout>
   <coverPageLayout>FrontCover_Portrait</coverPageLayout>
   <backPageLayout>BackCover_Portrait</backPageLayout>
-  <emptyPageLayout>Blank</emptyPageLayout>
-  <tocLayout>TOC_Landscape</tocLayout>
+  <emptyPageLayout></emptyPageLayout>
+  <tocLayout>TOC_Portrait</tocLayout>
   <topicLayout>Chapter_Portrait</topicLayout>
   <gloLayout>Glossary_Portrait</gloLayout>
   <indexLayout>Index_Portrait</indexLayout>

@@ -8,13 +8,13 @@
         cq:name="common_portrait.css"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-11T11:34:54.391+05:30"
+        jcr:lastModified="{Date}2025-02-18T16:26:49.628+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-11T11:34:54.314+05:30"
-            dam:sha1="5e7b47dfe23aa89672dafed2bdb2b75d1f7191eb"
-            dam:size="{Long}3632"
+            dam:extracted="{Date}2025-02-18T16:26:49.554+05:30"
+            dam:sha1="388606c014057812dcabc86680589dadd52b77cd"
+            dam:size="{Long}3664"
             dc:format="text/css"
             dc:title="common_portrait.css"
             jcr:mixinTypes="[cq:Taggable]"

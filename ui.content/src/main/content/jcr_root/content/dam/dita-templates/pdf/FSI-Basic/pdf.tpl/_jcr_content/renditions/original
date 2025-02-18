@@ -7,12 +7,16 @@
   <origTableContinuationText>Continued on page %page-num%</origTableContinuationText>
   <destTableContinuationText>Continued from page %page-num%</destTableContinuationText>
   <modifyHeadings type="boolean">true</modifyHeadings>
-  <notDisplayPageNo type="boolean">false</notDisplayPageNo>
+  <notDisplayPageNo type="boolean">true</notDisplayPageNo>
+  <noChapterNumberInTOC type="boolean">true</noChapterNumberInTOC>
   <leaderFormat>dotted</leaderFormat>
   <tableContinuation type="boolean">false</tableContinuation>
   <useUserToc type="boolean">true</useUserToc>
   <toclevel type="number">4</toclevel>
-  <startChapterFromNewPage type="boolean">true</startChapterFromNewPage>
+  <startChapterFromNewPage type="boolean">false</startChapterFromNewPage>
+  <startChapterFromEvenPage type="boolean">false</startChapterFromEvenPage>
+  <startChapterFromOddPage type="boolean">true</startChapterFromOddPage>
+  <startChapterFromCurrentPage type="boolean">false</startChapterFromCurrentPage>
   <startTopicsFromNewPage type="boolean">false</startTopicsFromNewPage>
   <displayChapter type="boolean">true</displayChapter>
   <pdfTrimmark type="boolean">false</pdfTrimmark>
@@ -40,18 +44,18 @@
   </crossRef>
   <bookLists type="array">
     <bookListsitem>
-      <name>topicLayout</name>
-      <mergeMode>none</mergeMode>
-      <showInTOC type="boolean">true</showInTOC>
-      <label>Chapters &amp; Topics</label>
-      <disabled type="boolean">true</disabled>
-    </bookListsitem>
-    <bookListsitem>
       <name>tocLayout</name>
       <mergeMode>none</mergeMode>
       <showInTOC type="boolean">false</showInTOC>
       <label>TOC</label>
       <disabled type="boolean">false</disabled>
+    </bookListsitem>
+    <bookListsitem>
+      <name>topicLayout</name>
+      <mergeMode>none</mergeMode>
+      <showInTOC type="boolean">true</showInTOC>
+      <label>Chapters &amp; Topics</label>
+      <disabled type="boolean">true</disabled>
     </bookListsitem>
     <bookListsitem>
       <name>lofLayout</name>
@@ -91,9 +95,10 @@
   </bookLists>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
   <layout>Common</layout>
-  <coverPageLayout>FrontCover_Portrait</coverPageLayout>
-  <tocLayout>TOC_Portrait</tocLayout>
-  <topicLayout>Common_Portrait</topicLayout>
+  <coverPageLayout>FrontCover_Landscape</coverPageLayout>
+  <emptyPageLayout>BlankPage_Landscape</emptyPageLayout>
+  <tocLayout>TOC_Landscape</tocLayout>
+  <topicLayout>Common_Landscape</topicLayout>
   <gloLayout></gloLayout>
   <indexLayout></indexLayout>
   <lofLayout></lofLayout>

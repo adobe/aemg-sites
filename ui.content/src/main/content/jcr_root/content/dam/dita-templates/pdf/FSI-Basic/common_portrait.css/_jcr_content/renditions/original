@@ -10,7 +10,7 @@ body {
   justify-content: space-between;
   border-bottom: 0.5px solid var(--color-gray);
   padding-bottom: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .chapter_header_page-number {
   font-family: var(--font-fam-primary);

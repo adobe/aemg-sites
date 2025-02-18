@@ -58,6 +58,7 @@
   color: var(--color-primary);
   margin-top: 48px;
   margin-bottom: 11px;
+  text-transform: uppercase;
 }
 .toc-level-1:first-child {
   margin-top: 0;
@@ -84,4 +85,4 @@
 }
 .toc-level-2::after {
   font-weight: 700;
-} 
+}

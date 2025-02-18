@@ -7,7 +7,7 @@
   padding-top: 60px;
 }
 .lof_header_title {
-  font-family: var(--font-fam-secondary);
+  font-family: var(--font-fam-primary);
   font-size: var(--text-xl);
   line-height: var(--text-xl-lh);
   font-weight: 400;
@@ -24,7 +24,7 @@
 }
 .lof_content .lof-level-1,
 .lof-level-1 {
-  font-family: var(--font-fam-secondary);
+  font-family: var(--font-fam-primary);
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 350;
@@ -40,7 +40,7 @@
   margin-bottom: 0px;
 }
 .lof_footer_product-name {
-  font-family: var(--font-fam-secondary);
+  font-family: var(--font-fam-primary);
   font-weight: 400;
   padding-top: 8px;
   font-size: var(--text-xs);
@@ -49,9 +49,9 @@
   margin: unset;
 }
 .lof_footer_urls {
-  font-family: var(--font-fam-secondary);
-  font-size: 0.625rem;
-  line-height: 0.75rem;
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
   font-weight: 400;
   color: #0F85EC;
 }
