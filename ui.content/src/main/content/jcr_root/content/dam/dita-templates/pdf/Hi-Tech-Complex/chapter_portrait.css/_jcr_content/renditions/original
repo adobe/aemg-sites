@@ -19,7 +19,7 @@
   font-family: Urbanist;
   font-size: var(--text-3xl);
   font-weight: 500;
-  line-height: var(-text-3xl-lh);
+  line-height: var(--text-3xl-lh);
   text-align: left;
   color: var(--color-accent);
   margin: 0px;
@@ -29,7 +29,7 @@
   font-family: Urbanist;
   font-size: var(--text-3xl);
   font-weight: 500;
-  line-height: var(-text-3xl-lh);
+  line-height: var(--text-3xl-lh);
   text-align: left;
   color: var(--color-accent);
   margin: 0px;
@@ -81,14 +81,13 @@
   left: 73px;
   gap: 0px;
   opacity: 0px;
-  margin-bottom: 40px;
 }
 .chapter-image-content {
   display: flex;
   gap: 16px;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 489px;
+  margin-bottom: 483px;
 }
 .chapter-leftpage-nums {
   width: Fixed (56px)px;
@@ -127,12 +126,12 @@
 }
 .chapter-rightpage-lang {
   font-family: Urbanist;
-  font-size: 12px;
+  font-size: var(--text-xs);
   font-weight: 600;
-  line-height: 14px;
+  line-height: var(--text-2xs-lh);
   letter-spacing: 1px;
   text-align: right;
-  color: #0C1256;
+  color: var(--color-accent);
   position: absolute;
   left: 0px;
   top: 0px;
@@ -243,7 +242,6 @@ h2.chapter_sub-titles {
     column-count: unset;
     column-gap: unset;
   }
-
   .note-cont {
     background: #E8F1FF;
     font-family: Urbanist;
@@ -270,7 +268,7 @@ h2.chapter_sub-titles {
     border-left: unset;
     background-color: unset;
   }
- .thead {
-        background: aquamarine;
+  .thead {
+    background: aquamarine;
   }
 }

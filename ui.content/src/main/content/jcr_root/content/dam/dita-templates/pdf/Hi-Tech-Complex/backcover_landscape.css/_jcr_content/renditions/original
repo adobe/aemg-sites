@@ -6,25 +6,18 @@
   bottom: 0px;
   right: 7px;
   gap: 63px;
-  margin-right: 80px;
+  margin-right: 15px;
   margin-bottom: 0px;
   width: 468px;
+}
+.backcover_org-emailaddresses,
+.backcover_org-socials a{
+  display: flex;
 }
 .backcover_organization-details {
   display: flex;
   flex-direction: column;
   gap: 40px;
-}
-.backcover_org-contact-label,
-.backcover_org-address-label,
-.backcover_org-socials-label {
-  font-family: Inter;
-  font-size: var(--text-xs);
-  font-weight: 700;
-  line-height: var(--text-xs-lh);
-  letter-spacing: 1px;
-  text-align: left;
-  color: var(--color-accent);
 }
 .backcover_contact-container,
 .backcover_address-container,
@@ -33,16 +26,20 @@
   flex-direction: column;
   gap: 10px;
 }
+
 .backcover_org-contactnumbers,
-.backcover_org-emailaddresses,
+.backcover_org-emailaddresses a,
 .backcover_org-addressdetails,
-.backcover_org-socials {
+.backcover_org-socials a {
   font-family: Inter;
   font-size: var(--text-4xs);
   font-weight: 400;
   line-height: var(--text-4xs-lh);
   text-align: left;
   color: var(--color-accent);
+  margin: 0;
+  text-decoration: none;
+  align-content: end;
 }
 .main-description {
   font-family: Urbanist;

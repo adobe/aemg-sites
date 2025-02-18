@@ -46,7 +46,6 @@
   flex-direction: column;
   align-items: baseline;
   row-gap: 1px;
-  border-top: 0.5px solid #2C343B;
   justify-content: flex-start;
   padding-bottom: 108px;
 }
@@ -55,9 +54,20 @@
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 400;
-  color: var(--color-tertiary);
+  color: var(--color-accent);
   padding-top: 8px;
   margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E8F1FF;
+  height: 72px;
+  padding: 0px 73px;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  right: 0px;
+  left: -73px;
 }
 .lof_footer_urls {
   font-family: var(--font-fam-secondary);
