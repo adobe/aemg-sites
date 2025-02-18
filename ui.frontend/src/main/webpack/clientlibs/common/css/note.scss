@@ -1,0 +1,109 @@
+.prefix-content {
+    font-weight: bold;
+}
+
+.note {
+    padding: 12px;
+    font-size: 9px;
+    line-height: 12px;
+    font-family: var(--font-fam-primary);
+    font-weight: 400;
+    color: var(--color-primary);
+    border-left: 0px;
+    position: relative;
+    padding-left: 50px;
+    // border-bottom: 1px solid var(--color-neutral);
+    // border-top: 1px solid var(--color-neutral);
+    margin-top: auto;
+    font-style: italic;
+}
+
+.note:not(.hazardstatement)::before {
+    content: "";
+    width: 28px;
+    height: 28px;
+    background-color: #00E676;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.note::after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-image: url('../../../aemguidesDALP/hi-tech/images/note-lines.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.note.tip {
+    background-color: var(--color-tip-light);
+    border-bottom: 1px solid var(--color-tip-dark);
+    border-top: 1px solid var(--color-tip-dark);
+}
+
+.note.caution {
+    background-color: var(--color-caution-light);
+    border-bottom: 1px solid var(--color-caution-dark);
+    border-top: 1px solid var(--color-caution-dark);
+}
+
+.note.danger {
+    background-color: var(--color-danger-light);
+    border-bottom: 1px solid var(--color-danger-dark);
+    border-top: 1px solid var(--color-danger-dark);
+}
+
+.note.restriction {
+    background-color: var(--color-restriction-light);
+    border-bottom: 1px solid var(--color-restriction-dark);
+    border-top: 1px solid var(--color-restriction-dark);
+}
+
+// hazardstatement
+.hazardstatement .prefix-content {
+    background-position: 0 0;
+    padding-left: unset;
+    // background: transparent url(AlertSmall.svg) 0% 0% no-repeat padding-box;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.hazardstatement.note {
+    padding: 18px 24px;
+    margin-bottom: 1em;
+    margin-top: 1rem;
+    font-size: var(--text-sm);
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-top: unset;
+    border-bottom: unset;
+}
+
+.hazardstatement.note.danger {
+    border-left-color: var(--color-danger-dark);
+    background-color: var(--color-danger-light);
+}
+
+.hazardstatement.note.warning {
+    border-left-color: var(--color-warning-dark);
+    background-color: var(--color-warning-light);
+}
+
+.hazardstatement.note.caution {
+    border-left-color: var(--color-caution-dark);
+    background-color: var(--color-caution-light);
+}
+
+.hazardstatement.note.notice {
+    border-left-color: var(--color-notice-dark);
+    background-color: var(--color-notice-light);
+}
