@@ -63,7 +63,7 @@ h2{
   font-size: var(--text-base);
   line-height: var(--text-base-lh);
   font-weight: 700;
-  font-family: var(--font-fam-primary-bold);
+  font-family: var(--font-fam-primary);
   color: var(--color-primary);
   margin: 0 0 ;
   padding: 8px 16px;
@@ -79,7 +79,7 @@ h2{
   line-height: var(--text-sm-lh);
   font-weight: 400;
   color: var(--color-accent);
-  font-family: var(--font-fam-primary-regular);
+  font-family: var(--font-fam-primary);
   margin: 0;
 }
 .table , table  {
@@ -97,7 +97,7 @@ thead .entry {
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   font-weight: 500;
-  font-family: var(--font-fam-primary-medium);
+  font-family: var(--font-fam-primary);
   margin: 0;
 }
 tbody .entry {
@@ -106,7 +106,7 @@ tbody .entry {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 400;
-  font-family: var(--font-fam-primary-regular);
+  font-family: var(--font-fam-primary);
   margin: 0;
   word-wrap: break-word;
 }
@@ -115,7 +115,7 @@ tbody .entry b {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 500;
-  font-family: var(--font-fam-primary-medium);
+  font-family: var(--font-fam-primary);
 }
 tbody .entry ul {
   margin: 0;
@@ -126,14 +126,14 @@ tbody .entry ul li {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 400;
-  font-family: var(--font-fam-primary-regular);
+  font-family: var(--font-fam-primary);
 }
 .chapter_body_heading {
   color: var(--color-accent);
   font-size: var(--text-base);
   line-height: var(--text-base-lh);
   font-weight: 700;
-  font-family: var(--font-fam-primary-bold);
+  font-family: var(--font-fam-primary);
   margin: 0;
   padding-bottom: 8px;
 }
@@ -142,7 +142,7 @@ tbody .entry ul li {
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   font-weight: 400;
-  font-family: var(--font-fam-primary-regular);
+  font-family: var(--font-fam-primary);
   margin: 0;
 }
 .caution_conatiner {
@@ -159,7 +159,7 @@ tbody .entry ul li {
   font-size: var(--text-4xs);
   line-height: var(--text-4xs-lh);
   font-weight: 400;
-  font-family: var(--font-fam-primary-regular);
+  font-family: var(--font-fam-primary);
   font-style: italic;
   margin: 0;
   color: var(--color-accent);
@@ -168,7 +168,7 @@ tbody .entry ul li {
   font-size: var(--text-4xs);
   line-height: var(--text-4xs-lh);
   font-weight: 700;
-  font-family: var(--font-fam-primary-bold);
+  font-family: var(--font-fam-primary);
   font-style: italic;
   margin: 0;
   color: var(--color-accent);
