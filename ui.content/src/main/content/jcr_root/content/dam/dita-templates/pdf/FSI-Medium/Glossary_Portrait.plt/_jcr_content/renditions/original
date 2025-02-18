@@ -4,11 +4,12 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Glossary Page Layout</title>
-  <meta name="page-style" content="size:portrait; margin-left:73px; margin-right:73px; margin-top: 80px;  margin-bottom: 120px;" />
+  <meta name="page-style" content="size:portrait;margin-left:73px;margin-right:73px;margin-top:80px;margin-bottom:100px;" />
   <!-- <link rel="stylesheet" type="text/css" href="glossary_complex.css" /> -->
   <!-- <link rel="stylesheet" type="text/css" href="common.css" /> -->
   <link rel="stylesheet" type="text/css" href="global.css" />
-  <link rel="stylesheet" type="text/css" href="glossary_Portrait.css" />
+  <link rel="stylesheet" type="text/css" href="glossary_portrait.css" />
+  <meta name="footnote-style" content="" />
 </head>
 <body>
   <div class="glossary_header" data-region="header" id="glossary_firstpage_header">

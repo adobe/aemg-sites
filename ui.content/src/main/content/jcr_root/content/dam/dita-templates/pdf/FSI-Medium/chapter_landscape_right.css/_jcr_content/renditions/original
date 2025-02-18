@@ -4,6 +4,7 @@
   border-bottom: 0.5px solid var(--color-gray);
   padding-bottom: 8px;
   margin-top: 40px;
+  margin-bottom: 20px;
 }
 .chapter_rightpage_landsc_header_page-number {
   font-family: var(--font-fam-primary);
@@ -75,6 +76,13 @@ body {
   font-weight: 400;
   color: var(--color-primary);
 }
+.ph {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
+  font-weight: 600;
+  color: var(--color-primary);
+}
 .shortdesc {
   font-family: var(--font-fam-primary);
   font-size: var(--text-base);
@@ -131,10 +139,11 @@ bold-text {
 }
 .table {
   margin-bottom: 40px;
+  padding-top: 10px;
 }
 a,
 .xref {
-  color: #013220;
+  color: var(--color-primary);
   text-decoration: underline;
 }
 ul {
@@ -151,4 +160,8 @@ li {
 }
 .entry {
   padding: 8px 16px;
+}
+.glo-link {
+  display: inline-block;
+  margin-top: 10px;
 }

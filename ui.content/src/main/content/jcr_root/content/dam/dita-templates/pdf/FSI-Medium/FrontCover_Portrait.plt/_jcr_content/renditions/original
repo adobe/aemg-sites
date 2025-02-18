@@ -7,10 +7,11 @@
   <title>Front Page</title>
   <meta name="footnote-style" content="" />
 
+
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
-  <link rel="stylesheet" type="text/css" href="frontcover_Portrait.css" />
+  <link rel="stylesheet" type="text/css" href="frontcover_portrait.css" />
 </head>
 <body>
   <div class="frontcover_content">
