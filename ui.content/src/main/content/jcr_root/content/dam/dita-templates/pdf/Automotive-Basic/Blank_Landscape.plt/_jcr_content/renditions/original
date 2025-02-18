@@ -4,17 +4,13 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" href="layout.css" type="text/css" />
-  <title>Blank Page</title>
-  <meta name="page-style" content="background-image:url(&#39;emptybackground.svg&#39;);background-repeat:no-repeat;background-size:auto;content:&quot;&quot;;size:A4 portrait;" />
+  <meta name="page-style" content="size:A4 landscape;" />
+  <title>Page Layout</title>
   <meta name="footnote-style" content="" />
 </head>
 <body>
-  <div data-region="header">
-    <p></p>
-  </div>
+  <div data-region="header"></div>
   <div data-region="content"></div>
-  <div data-region="footer">
-    <p></p>
-  </div>
+  <div data-region="footer"><!-- <p style="text-align: center;"><span data-field="page-number">1</span></p> --></div>
 </body>
 </html>

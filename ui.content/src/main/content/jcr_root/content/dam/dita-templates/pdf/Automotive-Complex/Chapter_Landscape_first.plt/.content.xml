@@ -8,13 +8,13 @@
         cq:name="Chapter_Landscape_first.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-11T12:54:14.661+05:30"
+        jcr:lastModified="{Date}2025-02-18T16:55:45.047+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-11T12:54:12.468+05:30"
-            dam:sha1="44a100c951807fe3da0f9bb8ad831e3f3167d30e"
-            dam:size="{Long}1821"
+            dam:extracted="{Date}2025-02-18T16:55:44.951+05:30"
+            dam:sha1="d5239a3556244d9d75fdd00720360948eac3f021"
+            dam:size="{Long}1709"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

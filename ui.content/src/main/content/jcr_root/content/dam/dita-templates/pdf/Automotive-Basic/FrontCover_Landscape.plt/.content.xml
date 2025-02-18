@@ -8,11 +8,11 @@
         cq:name="FrontCover_Landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-12T13:17:27.368+05:30"
+        jcr:lastModified="{Date}2025-02-13T12:55:11.480+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-12T13:17:27.328+05:30"
+            dam:extracted="{Date}2025-02-13T12:55:11.355+05:30"
             dam:sha1="343c83089c85742b3508a7fb8843eabd0e986b31"
             dam:size="{Long}1983"
             dc:format="application/octet-stream"

@@ -8,11 +8,11 @@
         cq:name="lof_landscape.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-11T12:54:22.499+05:30"
+        jcr:lastModified="{Date}2025-02-18T16:55:48.327+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-11T12:54:22.408+05:30"
+            dam:extracted="{Date}2025-02-18T16:55:48.232+05:30"
             dam:sha1="29f842666f033f287c38d936d1ac8eb9f6c5d699"
             dam:size="{Long}1450"
             dc:format="text/css"

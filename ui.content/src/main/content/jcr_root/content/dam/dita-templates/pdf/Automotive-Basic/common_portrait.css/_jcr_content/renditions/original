@@ -49,6 +49,7 @@
   align-content: center;
   padding-top: 8px;
   font-family: var(--font-fam-secondary);
+  margin-top: 40px;
 }
 .chapter_footer_page-number {
   font-family: var(--font-fam-secondary);
@@ -182,7 +183,6 @@ li {
   border-color: var(--color-accent);
 }
 /* Notes */
-
 .chapter_info {
   background-color: #D9E6EB;
   padding: 8px 40px 8px 16px;
