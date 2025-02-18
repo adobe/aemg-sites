@@ -13,6 +13,9 @@
   letter-spacing: 1px;
   padding-left: 73px;
 }
+.Common_Landscape_left .chapter_header-language {
+  padding-right: 73px;
+}
 .chapter-text_wrapper p {
   margin-top: -10px;
 }

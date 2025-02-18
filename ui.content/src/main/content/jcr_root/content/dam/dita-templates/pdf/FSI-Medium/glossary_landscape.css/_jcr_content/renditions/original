@@ -86,7 +86,7 @@ glossdef {
   /* column-gap: 85px; */
 }
 .glossary_footer {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   /* padding-top: 8px;
   border-top: 0.5px solid #var(--color-secondary); */
 }

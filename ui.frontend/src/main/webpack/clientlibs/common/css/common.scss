@@ -59,3 +59,37 @@
     justify-content: space-between;
   }
 }
+// breadcrumb
+.breadcrumb ol {
+  display: flex;
+  list-style-type: none;
+  li {
+    font-family: var(--font-fam-primary);
+    font-weight: 400;
+    font-size: var(--text-sm);
+    line-height: var(--text-sm-lh);
+    margin-right: 30px;
+    color: var(--color-accent);
+    &:first-child {
+      font-weight: 500;
+    }
+    &::after{
+      content: "\f054";
+      font-family: "FontAwesome";
+      margin-right: 8px;
+      margin-left: 8px;
+    }
+    &:last-child::after{
+      content: "";  
+    }
+    a{
+    font-family: var(--font-fam-primary);
+    font-weight: 400;
+    font-size: var(--text-sm);
+    line-height: var(--text-sm-lh);
+    margin-right: 30px;
+    color: var(--color-accent);
+    }
+  }
+
+}
