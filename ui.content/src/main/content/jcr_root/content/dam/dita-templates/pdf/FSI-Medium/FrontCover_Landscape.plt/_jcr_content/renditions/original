@@ -14,14 +14,14 @@
 <body>
   <div class="frontcover_landsc_content">
     <div class="frontcover_landsc_metadata">
-      <p class="frontcover_landsc_product-name"><span class="frontcover_landsc_product-brand" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand </span><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+      <p class="frontcover_landsc_product-name" style=""><span class="frontcover_landsc_product-brand" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand </span><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
       <p class="frontcover_landsc_publish-date"><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span></p>
     </div>
     <div class="barchart_landsc_image_bg_color"></div>
     <img class="barchart_landsc_image" src="../../../aemguidesDALP/fsi/images/bar-chart-img.png" />
     <div class="histogram_landsc_image_container"><img class="histogram_landsc_image" src="../../../aemguidesDALP/fsi/images/histogram-img.png" /></div>
     <div class="frontcover_landsc_logo_container"><img class="frontcover_landsc_logo" src="../../../aemguidesDALP/fsi/images/frontcover-logo.png" />
-      <p class="frontcover_landsc_text">HSBC is one of the largest banking and financial services organisations in the world.</p>
+      <p class="frontcover_landsc_text" style="">ABC is one of the largest banking and financial services organisations in the world.</p>
     </div>
   </div>
 </body>

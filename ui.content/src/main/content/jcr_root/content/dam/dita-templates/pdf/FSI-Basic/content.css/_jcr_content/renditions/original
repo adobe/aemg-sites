@@ -45,7 +45,7 @@ h1.chapter {
 h1.chapter:before {
   font-family: PP Editorial New;
   counter-increment: h1\.chapter1;
-  content: counter(h1\.chapter1, decimal)" ";
+  content: counter(h1\.chapter1, decimal)". ";
   text-align: left;
   position: absolute;
   left: calc(-0.5* var(--prefix-size) - var(--prefix-gap));
@@ -58,7 +58,7 @@ h1.chapter:before {
 }
 h2.chapter:before {
   counter-increment: subsection;
-  content: counter(h1\.chapter1, decimal) "." counter(subsection) " ";
+  content: counter(h1\.chapter1, decimal) "." counter(subsection) ". ";
 }
 h1.appendix {}
 /**** Paragraph Styles ****/

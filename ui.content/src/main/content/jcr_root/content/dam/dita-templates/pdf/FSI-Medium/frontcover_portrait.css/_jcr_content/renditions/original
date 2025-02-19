@@ -68,8 +68,8 @@
   box-sizing: border-box;
 }
 .frontcover_logo {
-  width: 132px;
-  height: 102.3px;
+  width: 123px;
+  height: 50px;
 }
 .frontcover_text {
   font-family: var(--font-fam-primary);

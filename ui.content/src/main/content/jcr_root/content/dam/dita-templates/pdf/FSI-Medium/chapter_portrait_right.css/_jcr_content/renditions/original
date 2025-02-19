@@ -1,6 +1,7 @@
 .chapter_rightpage_header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 0.5px solid var(--color-gray);
   padding-bottom: 8px;
   margin-top: 40px;
@@ -13,8 +14,8 @@
   color: var(--color-primary);
 }
 .chapter_rightpage_header_logo {
-  width: 33px;
-  height: 17px;
+  width: 60px;
+  height: 24px;
 }
 .chapter_rightpage_footer {
   padding-bottom: 24px;
