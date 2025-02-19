@@ -29,9 +29,7 @@
         }
     }
     .cmp-nav-item-selected >  .toc-list-item{
-        // .toc-list-item{
             font-weight: 700;
-        // }
     }
     .cmp-guidesnavigation__item-has-children{
         li:not(.cmp-guidesnavigation__item-has-children):not(.cmp-nav-item-selected) a::before{
@@ -42,9 +40,7 @@
             background-color: var(--color-primary-faded);
             border-radius: 50%;
             margin-right: 10px;
-        }
-
-        
+        } 
         .cmp-guidesnavigation__group.show-children li.cmp-nav-item-selected .toc-list-item a::before{
             display: inline-block;
             content: "";
@@ -57,7 +53,5 @@
         .cmp-guidesnavigation__group.show-children li.cmp-guidesnavigation__item-has-children > .toc-list-item a::before{
             display: none;
         }
-    }
-    
-      
+    }   
 }

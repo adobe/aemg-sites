@@ -19,17 +19,30 @@
   &>.cmp-container {
     display: flex;
     flex-wrap: nowrap;
+    border-top: 1px solid var(--color-border-light);
   }
 }
 
 .left-container {
   max-width: 23%;
   position: sticky;
+  padding-right: 16px;
+  width: 100%;
+}
+
+.middle-container{
+  border-left: 1px solid var(--color-border-light);
+  border-right: 1px solid var(--color-border-light);
+  padding: 40px 40px;
+  width: 100%;
 }
 
 .right-container {
   max-width: 23%;
   position: sticky;
+  padding-top: 40px;
+  padding-left: 26px;
+  width: 100%;
 }
 
 .hero-container {
@@ -59,6 +72,15 @@
     justify-content: space-between;
   }
 }
+
+.topic-body{
+  .cmp-container{
+    .table caption{
+      font-weight: 500;
+    }
+  }
+}
+
 // breadcrumb
 .breadcrumb ol {
   display: flex;
