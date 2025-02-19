@@ -10,14 +10,16 @@
   <meta name="footnote-style" content="" />
 </head>
 <body>
-  <div class="glossary_landsc_header" data-region="header" id="glossary_firstpage_header"></div>
+  <div class="glossary_landsc_header" data-region="header" id="glossary_firstpage_header" style=""><br />
+    
+  </div>
   <div class="glossary_landsc_firstpage_content" data-region="content" id="glossary_landsc_firstpage_content">
     <p class="glossary_landsc_title" style="">Glossary</p>
   </div>
   <div data-region="footer">
     <div class="glossary_landsc_footer">
       <p class="glossary_landsc_footer_text"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
-      <p class="glossary_landsc_footer_page_number"><span data-field="page-number" data-format="default">1</span></p>
+      <!-- <p class="glossary_landsc_footer_page_number"><span data-field="page-number" data-format="default">1</span></p> -->
     </div>
   </div>
 </body>

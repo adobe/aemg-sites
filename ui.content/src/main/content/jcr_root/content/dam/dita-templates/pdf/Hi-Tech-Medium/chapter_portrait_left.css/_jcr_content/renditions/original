@@ -100,12 +100,13 @@ h2.title {
 }
 .display_flex {
   display: flex;
-  gap: 35px;
+  /* gap: 35px; */
 }
 .flex_col1 {
   flex-basis: 30%;
 }
 .flex_col2 {
+  padding-left: 35px;
   flex-basis: 70%;
 }
 .chapter_title {
@@ -277,11 +278,18 @@ body {
   width: 24px;
   height: 24px;
 }
+div.caution.p {
+  margin-bottom: 0;
+}
+.caution_conatiner figure {
+  width: 24px;
+  height: 24px;
+}
 figure {
   margin: 0;
 }
-span:has(.caution_img) {
-  display: inline-block;
+span:has(img.caution_img) {
+  display: inline-block !important;
   width: 24px;
   height: 24px;
 }
@@ -292,4 +300,6 @@ span:has(.caution_img) {
   font-weight: 400;
   font-family: var(--font-fam-primary-regular);
   color: var(--color-accent);
+  display: inline-block;
+  margin-top: 10px;
 }

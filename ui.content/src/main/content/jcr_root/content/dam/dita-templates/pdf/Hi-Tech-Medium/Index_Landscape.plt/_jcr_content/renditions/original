@@ -10,14 +10,16 @@
   <link rel="stylesheet" type="text/css" href="index_landscape.css" />
 </head>
 <body>
-  <div class="index_landsc_header" data-region="header" id="index_landsc_firstpage_header"></div>
+  <div class="index_landsc_header" data-region="header" id="index_landsc_firstpage_header" style=""><br />
+    
+  </div>
   <div class="index_landsc_firstpage_content" data-region="content" id="index_firstpage_content">
     <p class="index_landsc_title" style="">Index</p>
   </div>
   <div data-region="footer">
     <div class="index_landsc_footer">
       <p class="index_landsc_footer_text"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
-      <p class="index_landsc_footer_page_number"><span data-field="page-number" data-format="default">1</span></p>
+      <!-- <p class="index_landsc_footer_page_number"><span data-field="page-number" data-format="default">1</span></p> -->
     </div>
   </div>
 </body>
