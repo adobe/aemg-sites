@@ -36,11 +36,14 @@ ol ol ol {
   list-style-type: lower-roman;
 }
 
-//* step style **/
-
+/* step style */
 .step {
   margin-top: 0.3rem;
   margin-bottom: 0.5rem;
+}
+
+.step .prefix-content {
+  color: var(--color-primary);
 }
 
 .step-unordered {
@@ -73,6 +76,7 @@ ol ol ol {
 }
 
 .uicontrol {
+  color: var(--color-primary);
   font-weight: bold;
 }
 
@@ -108,12 +112,28 @@ ol ol ol {
   font-weight: bold;
 }
 
-//* defination style **/
-
+/* defination style */
 .dd {
   margin-bottom: 0.5rem;
   margin-left: 1.4rem;
   font-size: 11pt;
+}
+
+
+.dlhead {
+  margin-bottom: 1rem;
+}
+
+.dthd {
+  font-size: var(--test-base);
+  line-height: var(--text-base-lh);
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.dlentry {
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
 }
 
 .ddhd {
@@ -122,21 +142,12 @@ ol ol ol {
 }
 
 .dl {
-  font-family: var(--font-fam-primary);
   color: var(--color-primary);
   margin-bottom: 0.5rem;
 }
-
-.dlentry {}
-
-.dlhead {}
 
 .dt {
   font-weight: bold;
   line-height: 1.5rem;
   margin-bottom: 0.3rem;
-}
-
-.dthd {
-  font-weight: bold;
 }

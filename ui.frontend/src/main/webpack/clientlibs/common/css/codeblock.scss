@@ -1,18 +1,23 @@
 .codeblock {
-    background: var(--color-neutral-light);
-    border-top: 25px solid var(--color-neutral-dark);
-    border-radius: 5px;
-    padding: 10px 16px;
-    margin-bottom: 0.8rem;
-    font-size: 15px;
-    font-family: Adobe Clean;
-    white-space: normal;
-    word-wrap: break-word;
-    line-height: 30px;
-    color: var(--color-primary);
-    max-width: 59%;
-    height: auto;
-    margin: 0 auto;
-    width: 100%;
-    display: block;
-  }
+  background: var(--color-neutral-light);
+  border-top: 25px solid var(--color-neutral-dark);
+  border-radius: 5px;
+  padding: 10px 16px;
+  margin-bottom: 0.8rem;
+  font-size: 15px;
+  white-space: normal;
+  word-wrap: break-word;
+  line-height: 30px;
+  color: var(--color-primary);
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+}
+
+.codeph {
+  font-size: 15px;
+  background: var(--color-neutral-light);
+  border: 1px solid var(--color-neutral-light);
+}
