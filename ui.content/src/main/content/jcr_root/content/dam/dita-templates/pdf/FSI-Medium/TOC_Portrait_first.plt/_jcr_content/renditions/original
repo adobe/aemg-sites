@@ -7,7 +7,6 @@
   <meta name="page-style" content="size:A4 portrait; margin-bottom: 120px;" />
   <meta name="footnote-style" content="" />
 
-
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
@@ -16,7 +15,7 @@
 <body>
   <div data-region="header">
     <div class="toc_header">
-      <p class="toc_header_title">Content Overview</p>
+      <p class="toc_header_title" style="">Content Overview</p>
       <div class="toc_header_logo"></div>
     </div>
   </div>
