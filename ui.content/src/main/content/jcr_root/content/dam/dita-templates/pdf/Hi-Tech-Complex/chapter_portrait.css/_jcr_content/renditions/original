@@ -86,8 +86,11 @@
   display: flex;
   gap: 16px;
   flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 483px;
+  align-items: unset;
+  margin-bottom: 453px;
+}
+.footer-space {
+  margin-top: 40px;
 }
 .chapter-leftpage-nums {
   width: Fixed (56px)px;
@@ -237,13 +240,14 @@ h2.chapter_sub-titles {
     text-align: left;
     column-count: 2;
     column-gap: 80px;
+    padding-left: unset;
   }
   .content-section .p {
     column-count: unset;
     column-gap: unset;
   }
   .note-cont {
-    background: #E8F1FF;
+    /* background: #E8F1FF; */
     font-family: Urbanist;
     font-size: 9px;
     font-style: italic;
@@ -251,7 +255,7 @@ h2.chapter_sub-titles {
     line-height: 11px;
     text-align: left;
     margin: 27px 0px;
-    padding: 27px 15px;
+    /* padding: 27px 15px; */
   }
   .note-cont .icon-note img {
     width: 74%;

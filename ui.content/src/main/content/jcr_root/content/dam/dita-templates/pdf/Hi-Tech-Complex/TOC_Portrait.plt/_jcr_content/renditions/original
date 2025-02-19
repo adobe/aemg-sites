@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" type="text/css" href="toc_portrait.css" />
-  <meta name="page-style" content="margin-left:70px;margin-right:70px;margin-bottom:70px;" />
+  <meta name="page-style" content="margin-left:70px;margin-right:70px;margin-bottom:110px;" />
   <meta name="footnote-style" content="" />
 </head>
 <body>

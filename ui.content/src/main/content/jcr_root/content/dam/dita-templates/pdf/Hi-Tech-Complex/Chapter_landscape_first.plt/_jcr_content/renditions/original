@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>First Chapter Page Layout</title>
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="content.css" />
+  <link rel="stylesheet" href="chapter_landscape.css" type="text/css" />
+  <meta name="page-style" content="size:landscape;" />
+  <meta name="footnote-style" content="margin-top:1rem;" />
+</head>
+<body data-layout="page">
+  <p></p>
+  <div data-region="header" style=""></div>
+  <div class="chapter-content" data-region="content" style="
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    justify-content: space-between;
+">
+    <div class="chapter-image-content-landscape" style="
+">
+      <p class="chapter_header_title"><span data-field="chapter-title" data-format="default">Chapter Title</span> </p>
+      <p class="chapter_header_titlealts">This chapter describes the steps and lists the registers<br />
+        needed to tune the USB 2.0 high-speed eye diagrambr<br />
+        for the Jetson AGX OrinTM series modules.</p>
+    </div>
+    <img alt="hitech-firstcover" class="chapter_firstpage_cover-image" src="../../../aemguidesDALP/hi-tech/images/firstpage-cover-img.png" /> <!-- <div data-type="chapter-toc" style="">
+      <ol class="chaptoc-body" data-class="level2" data-from-selector="h2" data-selector="h2" data-to-selector="h4" data-type="chaptoc-body" style="">
+        <li><a class="chaptoc-level-2" href="#">Heading 2</a>
+          <ol data-class="level3" data-selector="h3" style="">
+            <li><a class="chaptoc-level-3" href="#">Heading 3</a>
+              <ol data-class="level4" data-selector="h4" style="">
+                <li><a class="chaptoc-level-4" href="#">Heading 4</a></li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </div>
+    <p></p> -->
+  </div>
+  <div class="chapter_firstpage_footer" data-region="footer" style="/* margin-top: 40px; */">
+    <p class="chapter_footer_organization"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+    <p class="chapter_footer_page-number"><span data-field="page-number" data-format="default">1</span></p>
+  </div>
+</body>
+</html>

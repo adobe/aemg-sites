@@ -8,12 +8,12 @@
         cq:name="Chapter_Portrait_left.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-18T21:00:05.409+05:30"
-        jcr:lastModifiedBy="prashant.singh@deptagency.com"
+        jcr:lastModified="{Date}2025-02-19T11:58:17.283+05:30"
+        jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-18T21:00:05.314+05:30"
+            dam:extracted="{Date}2025-02-19T11:58:17.171+05:30"
             dam:sha1="37f2214960963e1b268ff5bde1091233f69c27fc"
             dam:size="{Long}1240"
             dc:format="application/octet-stream"
