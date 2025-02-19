@@ -6,13 +6,14 @@
   <title>First Chapter Page Layout</title>
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
+  <link rel="stylesheet" href="chapter_portrait.css" type="text/css" />
   <meta name="page-style" content="size:portrait;" />
   <meta name="footnote-style" content="margin-top:1rem;" />
 </head>
 <body data-layout="page">
   <p></p>
   <div data-region="header" style=""></div>
-  <div class="chapter-content" data-region="content">
+  <div class="chapter-content" data-region="content" style="display: flex;flex-direction: column;justify-content: space-between;height: 970px;">
     <div class="chapter-image-content" style="
 ">
       <p class="chapter_header_title"><span data-field="chapter-title" data-format="default">Chapter Title</span> </p>
@@ -36,7 +37,7 @@
     <p></p> -->
   </div>
   <div class="chapter_firstpage_footer" data-region="footer" style="/* margin-top: 40px; */">
-    <p class="chapter_footer_organization">Jetson AGX Orin Series Modules Tuning and Compliance Guide</p>
+    <p class="chapter_footer_organization"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
     <p class="chapter_footer_page-number"><span data-field="page-number" data-format="default">1</span></p>
   </div>
 </body>

@@ -13,10 +13,13 @@
   letter-spacing: 1px;
   padding-left: 73px;
 }
+.Common_Landscape_left .chapter_header-language {
+  padding-right: 73px;
+}
 .chapter-text_wrapper p {
   margin-top: -10px;
 }
-.toc_header_page-number {
+.chapter_header_chapter-number {
   font-size: 12px;
   line-height: 14px;
   font-weight: 500;
@@ -81,6 +84,13 @@ h2.chapter_sub-titles {
   line-height: 16px;
   font-weight: 400;
   font-family: var(--font-fam-primary-regular);
+  color: var(--color-accent);
+}
+.chapter-body .col-subtitle {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--font-fam-primary-medium);
   color: var(--color-accent);
 }
 .col-container-1 {
