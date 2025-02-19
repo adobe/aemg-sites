@@ -50,7 +50,7 @@
 .backcover_org-emailaddresses,
 .backcover_org-addressdetails,
 .backcover_org-socials {
-   display: flex;
+  display: flex;
   flex-wrap: wrap;
 }
 .backcover_org-addressdetails {

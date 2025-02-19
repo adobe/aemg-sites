@@ -1,7 +1,7 @@
 /*Created with AEM Guides*/
 .rh-toc-page-wrapper>.topic-body {
   display: flex;
-  column-gap: 80px;
+  column-gap: unset;
 }
 .toc_firstpage_cover-image {
   position: relative;
@@ -10,6 +10,7 @@
 }
 .toc-body {
   margin-top: 53px;
+  padding-left: 80px;
 }
 .toc-cover-img {
   width: 312px !important;
@@ -49,7 +50,6 @@
   letter-spacing: 0.05em;
   text-align: left;
   color: var(--color-accent);
-  
 }
 .toc_footer {
   font-family: var(--font-fam-secondary);
@@ -70,6 +70,7 @@
   width: 100%;
   right: 0px;
   left: -73px;
+  margin-top: 40px;
 }
 .toc_footer .toc_page_productname {
   font-family: Adobe Clean;
