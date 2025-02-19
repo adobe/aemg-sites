@@ -12,9 +12,7 @@
   <link rel="stylesheet" type="text/css" href="toc_landscape.css" />
 </head>
 <body>
-  <div data-region="header"><br />
-    
-  </div>
+  <div data-region="header" style=""></div>
   <div data-region="content"></div>
   <div data-region="footer">
     <div class="toc_landsc_footer">

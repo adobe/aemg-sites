@@ -1,0 +1,51 @@
+.backcover_content {
+  box-sizing: border-box;
+  width: 500px;
+  height: 290px;
+  background-color: var(--color-accent);
+  padding: 40px 110px 90px 40px;
+  display: flex;
+  gap: 16px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.backcover_logo {
+  width: 78px;
+  height: 60px;
+}
+.backcover_author-addressdetails {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-primary);
+  margin: 0;
+}
+.backcover_author-contactnumbers {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-primary);
+  padding-top: 16px;
+  margin: 0;
+}
+.backcover_author-urls {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-primary);
+  padding-top: 16px;
+  margin: 0;
+}
+.backcover_author-text {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-primary);
+  padding-top: 16px;
+  margin: 0;
+}
