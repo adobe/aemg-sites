@@ -293,6 +293,16 @@ span:has(img.caution_img) {
   width: 24px;
   height: 24px;
 }
+.chapter_img_first {
+  display: inline-block !important;
+  width: 134px;
+  height: 97px;
+}
+.chapter_img_second {
+  display: inline-block !important;
+  width: 134px;
+  height: 121px;
+}
 .glo-link {
   font-family: var(--font-fam-primary);
   font-size: var(--text-base);

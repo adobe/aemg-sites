@@ -13,9 +13,9 @@
   <tableContinuation type="boolean">false</tableContinuation>
   <useUserToc type="boolean">true</useUserToc>
   <toclevel type="number">4</toclevel>
-  <startChapterFromNewPage type="boolean">true</startChapterFromNewPage>
+  <startChapterFromNewPage type="boolean">false</startChapterFromNewPage>
   <startChapterFromEvenPage type="boolean">false</startChapterFromEvenPage>
-  <startChapterFromOddPage type="boolean">false</startChapterFromOddPage>
+  <startChapterFromOddPage type="boolean">true</startChapterFromOddPage>
   <startChapterFromCurrentPage type="boolean">false</startChapterFromCurrentPage>
   <startTopicsFromNewPage type="boolean">false</startTopicsFromNewPage>
   <displayChapter type="boolean">true</displayChapter>

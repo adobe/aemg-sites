@@ -285,6 +285,16 @@ div.caution.p {
   width: 24px;
   height: 24px;
 }
+.chapter_img_first {
+  display: inline-block !important;
+  width: 134px;
+  height: 97px;
+}
+.chapter_img_second {
+  display: inline-block !important;
+  width: 134px;
+  height: 121px;
+}
 figure {
   margin: 0;
 }
