@@ -15,6 +15,7 @@
   justify-content: space-between;
   padding: 80px 164px 80px 74px;
   flex-basis: 655px;
+  box-sizing: border-box;
 }
 .chapter_firstpage_landsc_title {
   font-family: var(--font-fam-primary);
@@ -47,11 +48,12 @@
   background-color: var(--color-blue);
   flex-basis: 468px;
   padding-top: 82px;
-  padding-left: 308px;
+  padding-left: 290px;
+  box-sizing: border-box;
 }
 .chapter_firstpage_landsc_logo {
-  width: 87px;
-  height: 45px;
+  width: 123px;
+  height: 50px;
 }
 /* .chapter_firstpage_landsc_cover_img {
   background-image: url('../../../aemguidesDALP/fsi/images/cover-page-img.png');
@@ -62,6 +64,7 @@
 .chapter_leftpage_landsc_header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 0.5px solid var(--color-gray);
   padding-bottom: 8px;
   margin-top: 40px;
@@ -75,8 +78,8 @@
   color: var(--color-primary);
 }
 .chapter_leftpage_landsc_header_logo {
-  width: 33px;
-  height: 17px;
+  width: 60px;
+  height: 24px;
 }
 .chapter_leftpage_landsc_footer {
   margin-bottom: 24px;
@@ -109,7 +112,7 @@ h1.title.chapter {
   font-weight: 600;
   color: var(--color-primary);
   margin-bottom: 8px;
-  padding-left: 8px;
+  padding-left: 25px;
   display: inline-block;
 }
 .shortdesc {

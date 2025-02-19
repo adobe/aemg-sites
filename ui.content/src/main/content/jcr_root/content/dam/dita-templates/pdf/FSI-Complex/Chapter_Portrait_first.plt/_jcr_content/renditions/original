@@ -17,13 +17,13 @@
       <div class="chapter_firstpage_content_left">
         <div class="chapter_firstpage_title" style=""><span data-field="chapter-number" data-format="default">1</span> <span data-field="chapter-title" data-format="default">Chapter Title</span></div>
         <div class="chapter_firstpage_metadata">
-          <p class="chapter_firstpage_desc">HSBC&#39;s approach to sustainability</p>
-          <p class="chapter_firstpage_descalt">HSBC is one of the largest banking and financial services organisations in the world.</p>
+          <p class="chapter_firstpage_desc">ABC&#39;s approach to sustainability</p>
+          <p class="chapter_firstpage_descalt">ABC is one of the largest banking and financial services organisations in the world.</p>
         </div>
       </div>
       <div class="chapter_firstpage_content_right">
         <div class="chapter_firstpage_logo_container">
-          <div class="chapter_firstpage_logo" style=""><img class="chapter_firstpage_landsc_logo" src="../../../aemguidesDALP/fsi/images/logo-img1.png" /></div>
+          <div class="chapter_firstpage_logo" style=""><img class="chapter_firstpage_logo" src="../../../aemguidesDALP/fsi/images/chapter-logo.png" /></div>
         </div>
         <!-- <div class="chapter_firstpage_cover_img"></div> -->
       </div>
