@@ -8,14 +8,14 @@
         cq:name="lof_landscape.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-19T11:58:20.340+05:30"
+        jcr:lastModified="{Date}2025-02-19T21:59:13.161+05:30"
         jcr:lastModifiedBy="prashant.singh@deptagency.com"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-19T11:58:20.226+05:30"
-            dam:sha1="2fc296960ce98c48f46a7d9eeb3b21640e2b7da6"
-            dam:size="{Long}1764"
+            dam:extracted="{Date}2025-02-19T21:59:13.129+05:30"
+            dam:sha1="585365194939bd1593da8afd141c44236b1d70ec"
+            dam:size="{Long}1809"
             dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

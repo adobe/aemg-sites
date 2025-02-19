@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="lot_header" data-region="header">
-    <p class="lot_header_title">List Of Table</p>
+    <p class="lot_header_title">List Of Table<div class="square-dot"></div></p>
   </div>
   <div class="lot_content" data-region="content"></div>
   <div class="lot_footer" data-region="footer">

@@ -97,10 +97,10 @@
     </bookListsitem>
   </bookLists>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
-  <layout>Common_Landscape</layout>
-  <coverPageLayout>FrontCover_Landscape</coverPageLayout>
-  <tocLayout>TOC_Landscape</tocLayout>
-  <topicLayout>Common_Landscape</topicLayout>
+  <layout>Common_Portrait</layout>
+  <coverPageLayout>FrontCover_Portrait</coverPageLayout>
+  <tocLayout>TOC_Portrait</tocLayout>
+  <topicLayout>Common_Portrait</topicLayout>
   <gloLayout></gloLayout>
   <indexLayout></indexLayout>
 </settings>

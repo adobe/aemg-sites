@@ -3,6 +3,7 @@
 #glossary_header {
   margin-bottom: 0px;
   text-align: left;
+ 
 }
 #glossary_header_title {
   font-family: var(--font-fam-secondary);
@@ -11,6 +12,9 @@
   font-weight: 400;
   color: #000000;
   margin-bottom: 0px;
+   display: flex;
+  align-items: baseline;
+  
 }
 #glossary_header_titlealts {
   font-family: var(--font-fam-primay);

@@ -5,15 +5,15 @@
     jcr:uuid="7823ec55-0d83-409c-a056-96fa6619bde6">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-14T16:33:56.290+05:30"
+        jcr:lastModified="{Date}2025-02-19T21:59:13.700+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         fmditaDynamicTitle="{Boolean}false"
         fmditaTitle="\0">
         <metadata
-            dam:extracted="{Date}2025-02-14T16:33:56.211+05:30"
-            dam:sha1="a7fba661f2e6325d9abe79f307e48220ecd4d3e1"
-            dam:size="{Long}9041"
+            dam:extracted="{Date}2025-02-19T21:59:13.665+05:30"
+            dam:sha1="b02a63940c8beb392ead0ce7704dbf82617abe71"
+            dam:size="{Long}8395"
             dc:format="text/css"
             dc:title="\0"
             jcr:mixinTypes="[cq:Taggable]"

@@ -12,7 +12,7 @@
   <div data-region="header" id="glossary_header" style="
     margin: 0;
 ">
-    <h5 id="glossary_header_title">Glossary</h5>
+    <h5 id="glossary_header_title">Glossary<div class="square-dot"></div></h5>
   </div>
   <div data-region="content"></div>
   <div data-region="footer" id="glossary-footer">
