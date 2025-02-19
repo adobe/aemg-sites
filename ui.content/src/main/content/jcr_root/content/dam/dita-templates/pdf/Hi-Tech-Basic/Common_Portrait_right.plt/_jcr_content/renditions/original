@@ -14,15 +14,15 @@
 <body>
   <div data-region="header">
     <div class="chapter-text_wrapper">
-      <p><span class="chapter_header_chapter-number" data-field="chapter-number" data-format="default">1</span></p>
       <p class="chapter-header"><span class="chapter_header-language">EN</span></p>
+      <p><span class="chapter_header_chapter-number" data-field="chapter-number" data-format="default">1</span></p>
     </div>
   </div>
   <div data-region="content"></div>
   <div data-region="footer">
     <div class="footer-common">
-      <p class="chapter-footer"><span class="footer-number" data-field="page-number">1</span></p>
       <p><span class="footer-text" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+      <p class="chapter-footer"><span class="footer-number" data-field="page-number">1</span></p>
     </div>
   </div>
 </body>
