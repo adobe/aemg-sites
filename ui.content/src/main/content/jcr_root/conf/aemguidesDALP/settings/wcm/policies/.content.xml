@@ -309,17 +309,151 @@
                 </policy_1575040440977>
                 <policy_1739193201043
                     jcr:description="Includes the required client libraries."
-                    jcr:lastModified="{Date}2025-02-11T16:56:36.597+05:30"
+                    jcr:lastModified="{Date}2025-02-19T16:48:46.388+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Automative"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="[aemguidesDALP.dependencies,aemguidesDALP.site,aemguidesDALP.components,aemguidesDALP.common,aemguidesDALP.automoitve_toc]"
+                    clientlibs="[aemguidesDALP.dependencies,aemguidesDALP.site,aemguidesDALP.components,aemguidesDALP.fsi_global,aemguidesDALP.fsi_topic-body,clientlib-fontawesome,aemguidesDALP.fsi_toc,aemguidesDALP.guides_mini_toc,aemguidesDALP.fsi_mini-toc]"
                     clientlibsAsync="false"
                     clientlibsJsHead="aemguidesDALP.dependencies">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_1739193201043>
             </page>
+            <sites-components jcr:primaryType="nt:unstructured">
+                <time-to-read jcr:primaryType="nt:unstructured">
+                    <policy_1739873732092
+                        jcr:lastModified="{Date}2025-02-18T15:47:38.310+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="TextPolicy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <rtePlugins jcr:primaryType="nt:unstructured">
+                            <paraformat
+                                jcr:primaryType="nt:unstructured"
+                                features="-">
+                                <formats
+                                    jcr:primaryType="nt:unstructured"
+                                    override="true">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Paragraph"
+                                        tag="p"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Heading 1"
+                                        tag="h1"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Heading 2"
+                                        tag="h2"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Heading 3"
+                                        tag="h3"/>
+                                    <item4
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Heading 4"
+                                        tag="h4"/>
+                                    <item5
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Heading 5"
+                                        tag="h5"/>
+                                    <item6
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Heading 6"
+                                        tag="h6"/>
+                                    <item7
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Quote"
+                                        tag="blockquote"/>
+                                    <item8
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Horizontal Rule (visual line break)"
+                                        tag="hr"/>
+                                    <item9
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Preformatted"
+                                        tag="pre"/>
+                                </formats>
+                            </paraformat>
+                            <misctools
+                                jcr:primaryType="nt:unstructured"
+                                features="-">
+                                <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                    <chars
+                                        jcr:primaryType="nt:unstructured"
+                                        override="true">
+                                        <item0
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;copy;"
+                                            name="copyright"/>
+                                        <item1
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;euro;"
+                                            name="euro"/>
+                                        <item2
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;reg;"
+                                            name="registered"/>
+                                        <item3
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;trade;"
+                                            name="trademark"/>
+                                    </chars>
+                                </specialCharsConfig>
+                            </misctools>
+                            <edit
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                            <findreplace
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                            <undo
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                            <spellcheck
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                            <image
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                            <table
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                            <lists
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <justify
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                            <format
+                                jcr:primaryType="nt:unstructured"
+                                features="bold,italic"/>
+                            <links
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                            <subsuperscript
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                        </rtePlugins>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Common"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="mr-auto"
+                                        cq:styleId="1739873771911"
+                                        cq:styleLabel="margin auto"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1739873732092>
+                </time-to-read>
+            </sites-components>
         </components>
     </aemguidesDALP>
     <wcm jcr:primaryType="nt:unstructured">
@@ -336,7 +470,7 @@
                     <v1 jcr:primaryType="nt:unstructured">
                         <container jcr:primaryType="nt:unstructured">
                             <policy_1739193808878
-                                jcr:lastModified="{Date}2025-02-13T12:21:57.068+05:30"
+                                jcr:lastModified="{Date}2025-02-19T12:49:11.342+05:30"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="container policy"
@@ -377,8 +511,24 @@
                                                 cq:styleId="1739266406174"
                                                 cq:styleLabel="Right Panel"
                                                 jcr:primaryType="nt:unstructured"/>
+                                            <item3
+                                                cq:styleClasses="middle-container"
+                                                cq:styleId="1739949452985"
+                                                cq:styleLabel="Middle Panel "
+                                                jcr:primaryType="nt:unstructured"/>
                                         </cq:styles>
                                     </item1>
+                                    <item2
+                                        cq:styleGroupLabel="Topic Header"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="topic-header"
+                                                cq:styleId="1739861554667"
+                                                cq:styleLabel="topic header"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item2>
                                 </cq:styleGroups>
                             </policy_1739193808878>
                             <policy_1739430397665
