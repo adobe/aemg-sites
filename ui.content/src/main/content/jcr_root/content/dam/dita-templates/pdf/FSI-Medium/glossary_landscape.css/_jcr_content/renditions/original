@@ -85,6 +85,10 @@ glossdef {
   display: flex;
   /* column-gap: 85px; */
 }
+.glo_header_logo {
+  width: 60px;
+  height: 24px;
+}
 .glossary_footer {
   padding-bottom: 20px;
   /* padding-top: 8px;

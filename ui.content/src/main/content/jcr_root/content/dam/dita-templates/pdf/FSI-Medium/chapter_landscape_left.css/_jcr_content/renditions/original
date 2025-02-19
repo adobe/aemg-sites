@@ -1,6 +1,7 @@
 .chapter_leftpage_landsc_header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 0.5px solid var(--color-gray);
   padding-bottom: 8px;
   margin-top: 40px;
@@ -14,8 +15,8 @@
   color: var(--color-primary);
 }
 .chapter_leftpage_landsc_header_logo {
-  width: 33px;
-  height: 17px;
+  width: 60px;
+  height: 24px;
 }
 .chapter_leftpage_landsc_footer {
   margin-bottom: 24px;

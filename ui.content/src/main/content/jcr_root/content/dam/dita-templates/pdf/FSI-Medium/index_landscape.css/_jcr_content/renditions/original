@@ -30,6 +30,10 @@
 .idx-title {
   column-span: all;
 }
+.header_logo {
+  max-height: 24px;
+  max-width: 60px;
+}
 .idx-keyword-group {
   font-weight: bold;
   font-size: 12pt;

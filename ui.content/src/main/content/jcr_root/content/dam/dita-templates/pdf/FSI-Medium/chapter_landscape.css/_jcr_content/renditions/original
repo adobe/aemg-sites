@@ -57,12 +57,12 @@
   background-color: var(--color-blue);
   flex-basis: 468px;
   padding-top: 82px;
-  padding-left: 308px;
+  padding-left: 290px;
   box-sizing: border-box;
 }
 .chapter_firstpage_landsc_logo {
-  width: 87px;
-  height: 45px;
+  width: 123px;
+  height: 50px;
 }
 .chart-container {
   background-color: #F9F9F9;

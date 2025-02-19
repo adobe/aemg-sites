@@ -3,7 +3,7 @@
     padding-left: 73px;
     width: 389px;
   }
- .frontcover_landsc_product-brand {
+  .frontcover_landsc_product-brand {
     font-family: var(--font-fam-primary);
     font-size: var(--text-6xl);
     line-height: var(--text-6xl-lh);
@@ -68,8 +68,8 @@
     box-sizing: border-box;
   }
   .frontcover_landsc_logo {
-    width: 132px;
-    height: 102px;
+    width: 123px;
+    height: 50px;
   }
   .frontcover_landsc_text {
     font-family: var(--font-fam-primary);

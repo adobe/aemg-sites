@@ -6,21 +6,19 @@
   <meta name="page-style" content="size:A4 portrait;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;background-color: var(--color-primary);position: relative;" />
   <title>Back Page</title>
   <meta name="footnote-style" content="" />
-
-
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
   <link rel="stylesheet" type="text/css" href="backcover_portrait.css" />
 </head>
 <body>
-  <div class="backcover_content"><img class="backcover_logo" src="../../../aemguidesDALP/fsi/images/backcover-logo.png" />
+  <div class="backcover_content" style=""><img class="backcover_logo" src="../../../aemguidesDALP/fsi/images/backcover-logo.png" />
     <div class="backcover_author-info">
       <p class="backcover_author-addressdetails">8 Canada Square<br />
         London E14 5HQ<br />
         United Kingdom</p>
       <p class="backcover_author-contactnumbers">Telephone: +44 (0)20 7991 8888</p>
-      <p class="backcover_author-urls">www.hsbc.com</p>
+      <p class="backcover_author-urls" style="">www.abc.com</p>
       <p class="backcover_author-text">Incorporated in England with limited liability<br />
         Registered number 617987</p>
     </div>

@@ -57,12 +57,12 @@
   background-color: var(--color-blue);
   flex-basis: 350px;
   padding-top: 82px;
-  padding-left: 190px;
+  padding-left: 180px;
   box-sizing: border-box;
 }
 .chapter_firstpage_logo {
-  width: 87px;
-  height: 45px;
+  width: 123px;
+  height: 50px;
 }
 .chart-container {
   background-color: #F9F9F9;
