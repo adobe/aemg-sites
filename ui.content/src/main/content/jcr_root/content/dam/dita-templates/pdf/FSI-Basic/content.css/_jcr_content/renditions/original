@@ -58,7 +58,7 @@ h1.chapter:before {
 }
 h2.chapter:before {
   counter-increment: subsection;
-  content: counter(h1\.chapter1, decimal) "." counter(subsection) " ";
+  content: counter(h1\.chapter1, decimal) "." counter(subsection) ". ";
 }
 h1.appendix {}
 /**** Paragraph Styles ****/
