@@ -14,7 +14,7 @@
 <body>
   <div data-region="header">
     <div class="chapter_rightpage_landsc_header" style="">
-      <div style=""><img class="chapter_leftpage_landsc_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img1.png" /></div>
+      <div style=""><img class="chapter_leftpage_landsc_header_logo" src="../../../aemguidesDALP/fsi/images/chapter-logo.png" /></div>
       <span class="chapter_rightpage_landsc_header_page-number" data-field="page-number" data-format="default">1</span>
     </div>
   </div>
@@ -30,7 +30,7 @@
       </div>
       <div class="chapter_footer_text_container">
         <p class="chapter_footer_number">2</p>
-        <p class="chapter_footer_text">Available at <a class="chapter_footer_urls">www.hsbc.com</a></p>
+        <p class="chapter_footer_text">Available at <a class="chapter_footer_urls">www.abc.com</a></p>
       </div>
       <div class="chapter_footer_text_container">
         <p class="chapter_footer_number">3</p>

@@ -95,8 +95,8 @@ a.book-idx-link.idx-link {
   padding: unset;
 }
 .header_logo {
-  max-height: 17px;
-  max-width: 33px;
+  max-height: 24px;
+  max-width: 60px;
 }
 .index_header {
   display: flex;

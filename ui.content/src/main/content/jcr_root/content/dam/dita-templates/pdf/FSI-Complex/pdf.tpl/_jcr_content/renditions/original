@@ -110,14 +110,14 @@
   <hyperlinkGlossary type="boolean">true</hyperlinkGlossary>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
   <layout>Common</layout>
-  <coverPageLayout>FrontCover_Portrait</coverPageLayout>
-  <backPageLayout>BackCover_Portrait</backPageLayout>
+  <coverPageLayout>FrontCover_Landscape</coverPageLayout>
+  <backPageLayout>BackCover_Landscape</backPageLayout>
   <emptyPageLayout></emptyPageLayout>
-  <tocLayout>TOC_Portrait</tocLayout>
-  <topicLayout>Chapter_Portrait</topicLayout>
-  <gloLayout>Glossary_Portrait</gloLayout>
-  <indexLayout>Index_Portrait</indexLayout>
+  <tocLayout>TOC_Landscape</tocLayout>
+  <topicLayout>Chapter_Landscape</topicLayout>
+  <gloLayout>Glossary_Landscape</gloLayout>
+  <indexLayout>Index_Landscape</indexLayout>
   <bibLayout>Citations</bibLayout>
-  <lotLayout>LOT_Portrait</lotLayout>
-  <lofLayout>LOF_Portrait</lofLayout>
+  <lotLayout>LOT_Landscape</lotLayout>
+  <lofLayout>LOF_Landscape</lofLayout>
 </settings>

@@ -16,12 +16,10 @@
   <div data-region="header" id="index_header">
     <div class="index_header">
       <h5 id="index_header_title" style="">Index</h5>
-      <div class="header_logo"><img src="../../../aemguidesDALP/fsi/images/logo-img1.png" /></div>
+      <div class="header_logo"><img src="../../../aemguidesDALP/fsi/images/idx-header-logo.png" /></div>
     </div>
   </div>
-  <div data-region="content" id="idx_content" style=""><br />
-    
-  </div>
+  <div data-region="content" id="idx_content" style=""></div>
   <div class="index_footer" data-region="footer">
     <div>
       <p class="toc_footer_text"><span class="toc_footer_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span><span class="toc_footer_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> Sustainability Report<span class="toc_publish-date"> Q3 2024</span></p>

@@ -14,7 +14,7 @@
 <body>
   <div class="lot_header" data-region="header">
     <p class="lot_header_title" style="">List Of Table</p>
-    <div class="header_logo"><img src="../../../aemguidesDALP/fsi/images/logo-img1.png" /></div>
+    <div class="header_logo"><img src="../../../aemguidesDALP/fsi/images/idx-header-logo.png" /></div>
   </div>
   <div class="lot_content" data-region="content" style=""></div>
   <div class="lot_footer" data-region="footer"><!-- <hr class="lot_footer_hr" /> -->

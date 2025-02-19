@@ -13,11 +13,9 @@
 <body>
   <div class="glossary_header" data-region="header" id="glossary_firstpage_header">
     <p class="glo-title" style="">Glossary</p>
-    <div class="header_logo"><img src="../../../aemguidesDALP/fsi/images/logo-img1.png" style="cursor: nwse-resize;" /></div>
+    <div class="glo_header_logo"><img src="../../../aemguidesDALP/fsi/images/glo-header-logo.png" style="cursor: nwse-resize;" /></div>
   </div>
-  <div class="glossary_firstpage_content" data-region="content" id="glossary_firstpage_content" style=""><br />
-    
-  </div>
+  <div class="glossary_firstpage_content" data-region="content" id="glossary_firstpage_content" style=""></div>
   <div class="glossary_footer" data-region="footer"><!-- <hr class="glossary_footer_hr" /> -->
     <div>
       <p class="toc_footer_text"><span class="toc_footer_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span><span class="toc_footer_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> Sustainability Report<span class="toc_publish-date"> Q3 2024</span></p>

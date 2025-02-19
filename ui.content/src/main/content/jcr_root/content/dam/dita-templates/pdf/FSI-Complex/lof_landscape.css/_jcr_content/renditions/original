@@ -73,6 +73,6 @@
   margin-top: 50px;
 }
 .header_logo {
-  max-height: 17px;
-  max-width: 33px;
+  max-height: 24px;
+  max-width: 60px;
 }

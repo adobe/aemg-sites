@@ -15,8 +15,8 @@
   margin: 0;
 }
 .toc_header_logo {
-  height: 17px;
-  width: 33px;
+  height: 24px;
+  width: 60px;
 }
 .toc-body {
   padding-top: 50px;
