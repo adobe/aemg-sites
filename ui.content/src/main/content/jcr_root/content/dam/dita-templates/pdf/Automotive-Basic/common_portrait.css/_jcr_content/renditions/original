@@ -63,10 +63,9 @@
   font-size: var(--text-xs);
   font-weight: 400;
   line-height: var(--text-xs-lh);
-  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  text-align: end;
+  text-align: start;
 }
 .chapter_leftpage_header {}
 .chapter_leftpage_footer {}
@@ -200,4 +199,13 @@ li {
 }
 .note .prefix-content {
   color: var(--color-primary);
+}
+.chapter_footer_organization-right{
+   text-align: end;
+   font-family: Adobe Clean;
+  font-size: var(--text-xs);
+  font-weight: 400;
+  line-height: var(--text-xs-lh);
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }

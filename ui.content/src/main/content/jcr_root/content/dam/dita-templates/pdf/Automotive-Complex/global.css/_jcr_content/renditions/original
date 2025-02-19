@@ -17,11 +17,9 @@ body {
   --font-fam-secondary: Adobe Clean;
   --base-font-size: 16px;
 }
-
 html {
   font-size: var(--base-font-size);
 }
-
 .color-config,
 :root {
   --color-accent: #821616;
@@ -34,9 +32,8 @@ html {
   --color-tertiary-opa-70: rgba(44, 52, 59, 0.7);
   --frontcover-text-color: #FFFFFF;
   --frontcover-right-bg: #000000;
-  --frontcover-landsc-bg: #006d9c;
-  --frontcover-landsc-bg-blur: #02719F;
-
+  --frontcover-landsc-bg: ##000000;
+  --frontcover-landsc-bg-blur: ##000000;
 }
 .toc-config,
 :root {
@@ -52,14 +49,18 @@ footer {
 .typography-config,
 :root {
   /* converted form 16px base size*/
-  --text-4xs: 0.563rem; /* 9px */
-  --text-4xs-lh: 0.75rem; /* 12px */
-  
-  --text-3xs: 0.625rem; /* 10px */
-  --text-3xs-lh: 0.75rem; /* 12px */
-  
-  --text-2xs: 0.688rem; /* 11px */
-  --text-2xs-lh: 0.875rem; /* 14px */
+  --text-4xs: 0.563rem;
+  /* 9px */
+  --text-4xs-lh: 0.75rem;
+  /* 12px */
+  --text-3xs: 0.625rem;
+  /* 10px */
+  --text-3xs-lh: 0.75rem;
+  /* 12px */
+  --text-2xs: 0.688rem;
+  /* 11px */
+  --text-2xs-lh: 0.875rem;
+  /* 14px */
   --text-xs: 0.75rem;
   /* 12px */
   --text-xs-lh: 1rem;
@@ -179,7 +180,6 @@ footer {
   font-size: var(--text-9xl);
   line-height: var(--text-9xl-lh);
 }
-
 figure {
   break-inside: avoid;
 }

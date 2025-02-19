@@ -11,14 +11,12 @@
   <link rel="stylesheet" type="text/css" href="toc_landscape.css" />
 </head>
 <body>
-  <div class="toc_header_landscape" data-region="header" style=""><br />
-    
+  <div class="toc_header_landscape" data-region="header" style=""> 
     <p class="toc-title" id="toc_firstpage_header_title">Table of Contents</p>
-    <p class="toc-sub_title" id="toc_firstpage_header_titlealts">2024 Mercedes-Benz EQG</p>
+    <p class="toc-sub_title" id="toc_firstpage_header_titlealts">2024 Car Name</p>
   </div>
   <div data-region="content" id="landscape_complex"><!-- <img src="landscape_complex.png" /> < style="width: 469px; height: 589px; cursor: nwse-resize;"  -->
-    <div class="toc-img">
-    </div>
+    <div class="toc-img"></div>
   </div>
   <div data-region="footer">
     <hr style="border: 0.5px solid #2C343B; margin: 0; padding: 0;" />

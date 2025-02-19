@@ -3,11 +3,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
   <meta name="page-style" content="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;size:A4 portrait;" />
   <title>Front Page</title>
   <meta name="footnote-style" content="" />
-
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
@@ -27,7 +25,7 @@
           <p>Redefining</p>
           <p>sophisticated luxury.</p>
         </div>
-        <a class="frontcover_urls" href="https://www.mercedes-benz.com/en/">🌐 mercedes-benz.com/en/</a>
+        <a class="frontcover_urls" href="#">🌐 brandname.com/en/</a>
       </div>
     </div>
   </div>
