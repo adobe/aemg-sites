@@ -7,7 +7,6 @@
   <title>Back Page</title>
   <meta name="footnote-style" content="" />
 
-
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
@@ -24,7 +23,7 @@
     <div class="backcover_organization-details">
       <div class="backcover_contact-container">
         <p class="backcover_org-contact-label">CONTACT</p>
-        <span class="backcover_org-contactnumbers"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/phone-icon.png" /> 000 800 050 01888</span> <span class="backcover_org-emailaddresses"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/email-icon.png" />cs.ind@cac.mercedes-benz.com</span>
+        <span class="backcover_org-contactnumbers"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/phone-icon.png" /> 000 800 050 01888</span> <span class="backcover_org-emailaddresses"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/email-icon.png" />car@brandname.com</span>
       </div>
       <div class="backcover_address-container">
         <p class="backcover_org-address-label">ADDRESS</p>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="5d15f3b4-0acc-4366-814a-e5c04de679b7">
+    <jcr:content
+        cq:name="Common_Portrait_right.plt"
+        cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Basic"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-19T15:52:29.635+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2025-02-19T15:52:29.583+05:30"
+            dam:sha1="ddb5034bc7a0e668ad60adc3192997936657020a"
+            dam:size="{Long}1063"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

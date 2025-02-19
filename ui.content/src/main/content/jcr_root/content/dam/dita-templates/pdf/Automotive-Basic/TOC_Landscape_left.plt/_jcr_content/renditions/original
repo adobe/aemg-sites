@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- <link rel="stylesheet" href="layout.css" type="text/css" /> -->
+  <meta name="page-style" content="size:A4 landscape;" />
+  <title>Page Layout</title>
+  <meta name="footnote-style" content="" />
+  <link rel="stylesheet" type="text/css" href="toc_landscape.css" />
+</head>
+<body>
+  <div data-region="header"><br />
+    
+  </div>
+  <div data-region="content" id="toc_firstpage" style="padding: 25px">
+    <!-- <p class="toc-title">Table of Contents</p>
+    <p class="toc-sub_title">2024 Car Name</p> -->
+  </div>
+  <div data-region="footer" style="padding-bottom: 40px;">
+    <hr style="border-top: 0.5px solid #2C343B; margin: 0; padding: 0;" />
+    <div style="font-size: 0.625rem; line-height: 0.75rem; color: var(--color-tertiary); margin-top : 8px;">Smith, J. A. (2020). The future of automotive technology:<br />
+      Innovations and trends. Tech Publishers.</div>
+  </div>
+</body>
+</html>

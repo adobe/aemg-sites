@@ -9,7 +9,6 @@
   <meta name="footnote-style" content="" />
   <link rel="stylesheet" type="text/css" href="chapter_landscape.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
- 
 </head>
 <body>
   <p></p>
@@ -19,7 +18,7 @@
   </div>
   <div data-region="content">
     <div style="text-align: right;">
-      <p class="chapter_firstpage_header" style=""><img alt="World Map" class="chapter_firstpage_cover-image" src="landscape.png" /></p>
+      <p class="chapter_firstpage_header" style=""><img alt="World Map" class="chapter_firstpage_cover-image" src="../../../aemguidesDALP/automotives/images/landscape.png" /></p>
       <div>
         <p class="chapter_header_title" style=""><span data-field="chapter-title" data-format="default" style="">Chapter Title</span></p>
         <div style="

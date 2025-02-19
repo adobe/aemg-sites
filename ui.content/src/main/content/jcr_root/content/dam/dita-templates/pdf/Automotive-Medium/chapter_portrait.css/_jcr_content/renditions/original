@@ -9,7 +9,7 @@ body {}
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: var(--color-primary);
-  margin-bottom: 57%;
+  margin-bottom: 48%;
 }
 .chapter_header_titlealts {}
 .chapter_header_mainbooktitle {}
@@ -120,6 +120,6 @@ h2 {
   text-align: left;
   color: var(--color-primary);
 }
-.chapter_foote{
-margin-top: 40px;
+.chapter_foote {
+  margin-top: 40px;
 }
