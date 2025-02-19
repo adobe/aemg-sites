@@ -55,6 +55,6 @@
   color: var(--color-accent);
 }
 .frontcover_landsc_logo {
-  width: 69px;
-  height: 51px;
+  width: 151px;
+  height: 42px;
 }

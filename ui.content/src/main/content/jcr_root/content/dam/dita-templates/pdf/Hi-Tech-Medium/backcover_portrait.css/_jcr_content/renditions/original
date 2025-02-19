@@ -3,8 +3,8 @@
   padding-left: 73px;
 } */
 .backcover_logo {
-  width: 144px;
-  height: 106px;
+  width: 288px;
+  height: 81px;
 }
 .backcover_text {
   margin-bottom: 69px;
