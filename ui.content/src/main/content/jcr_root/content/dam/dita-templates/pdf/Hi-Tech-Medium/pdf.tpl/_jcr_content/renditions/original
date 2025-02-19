@@ -13,9 +13,9 @@
   <tableContinuation type="boolean">false</tableContinuation>
   <useUserToc type="boolean">true</useUserToc>
   <toclevel type="number">4</toclevel>
-  <startChapterFromNewPage type="boolean">true</startChapterFromNewPage>
+  <startChapterFromNewPage type="boolean">false</startChapterFromNewPage>
   <startChapterFromEvenPage type="boolean">false</startChapterFromEvenPage>
-  <startChapterFromOddPage type="boolean">false</startChapterFromOddPage>
+  <startChapterFromOddPage type="boolean">true</startChapterFromOddPage>
   <startChapterFromCurrentPage type="boolean">false</startChapterFromCurrentPage>
   <startTopicsFromNewPage type="boolean">false</startTopicsFromNewPage>
   <displayChapter type="boolean">true</displayChapter>
@@ -96,13 +96,13 @@
   <hyperlinkGlossary type="boolean">true</hyperlinkGlossary>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
   <layout>Common</layout>
-  <coverPageLayout>FrontCover_Portrait</coverPageLayout>
-  <backPageLayout>BackCover_Portrait</backPageLayout>
+  <coverPageLayout>FrontCover_Landscape</coverPageLayout>
+  <backPageLayout>BackCover_Landscape</backPageLayout>
   <emptyPageLayout></emptyPageLayout>
-  <tocLayout>TOC_Portrait</tocLayout>
-  <topicLayout>Chapter_Portrait</topicLayout>
-  <gloLayout>Glossary_Portrait</gloLayout>
-  <indexLayout>Index_Portrait</indexLayout>
+  <tocLayout>TOC_Landscape</tocLayout>
+  <topicLayout>Chapter_Landscape</topicLayout>
+  <gloLayout>Glossary_Landscape</gloLayout>
+  <indexLayout>Index_Landscape</indexLayout>
   <bibLayout></bibLayout>
   <lotLayout></lotLayout>
   <lofLayout></lofLayout>
