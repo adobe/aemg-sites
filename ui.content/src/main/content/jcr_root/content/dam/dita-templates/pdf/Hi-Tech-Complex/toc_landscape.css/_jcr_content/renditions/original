@@ -1,7 +1,7 @@
 /*Created with AEM Guides*/
 .rh-toc-page-wrapper>.topic-body {
-  /* display: flex;
-  gap: 80px; */
+  display: flex;
+  gap: unset;
 }
 .toc_firstpage_cover-image {
   position: relative;
@@ -27,6 +27,7 @@
   width: 100%;
   right: 0px;
   left: -73px;
+  margin-top: 40px;
 }
 .toc_footer .toc_page_productname {
   font-family: Adobe Clean;
@@ -38,9 +39,10 @@
 }
 .toc-body {
   margin-top: 53px;
+  padding-left: 80px;
 }
-.toc-cover-img {
-  width: 476px!important;
+.toc-cover-img-landscape {
+  width: 476px;
   height: 627px;
   object-fit: cover;
   object-position: top;
@@ -74,7 +76,7 @@
   text-align: left;
   color: var(--color-accent);
 }
-.toc_title {
+.toc_title-landscpae {
   font-family: Urbanist;
   font-size: var(--text-2xl);
   font-weight: 500;
@@ -82,9 +84,9 @@
   text-align: left;
   color: var(--color-primary-white);
   position: absolute;
-  bottom: 2%;
+  top: 526px;
   left: 0px;
   margin: 0;
   margin-left: 20px;
-  padding-bottom: 33px;
+  margin-bottom: 33px;
 }
