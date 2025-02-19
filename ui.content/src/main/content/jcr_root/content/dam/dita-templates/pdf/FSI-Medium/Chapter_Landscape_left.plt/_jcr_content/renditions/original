@@ -14,7 +14,7 @@
 </head>
 <body>
   <div data-region="header">
-    <div class="chapter_leftpage_landsc_header"><span class="chapter_leftpage_landsc_header_page-number" data-field="page-number" data-format="default">1</span><img class="chapter_leftpage_landsc_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img1.png" /></div>
+    <div class="chapter_leftpage_landsc_header" style=""><span class="chapter_leftpage_landsc_header_page-number" data-field="page-number" data-format="default">1</span><img class="chapter_leftpage_landsc_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img1.png" /></div>
   </div>
   <div data-region="content">
     <script src="medium.js"></script>

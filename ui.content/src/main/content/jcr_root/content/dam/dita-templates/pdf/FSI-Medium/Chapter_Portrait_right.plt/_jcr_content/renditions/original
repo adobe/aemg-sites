@@ -7,7 +7,6 @@
   <meta name="page-style" content="size:A4 portrait;margin-bottom:120px;margin-top:100px;" />
   <meta name="footnote-style" content="" />
 
-
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" type="text/css" href="common.css" />
@@ -16,7 +15,7 @@
 </head>
 <body>
   <div data-region="header">
-    <div class="chapter_rightpage_header"><img class="chapter_rightpage_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img1.png" /> <span class="chapter_rightpage_header_page-number" data-field="page-number" data-format="default">1</span></div>
+    <div class="chapter_rightpage_header" style=""><img class="chapter_rightpage_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img1.png" /> <span class="chapter_rightpage_header_page-number" data-field="page-number" data-format="default">1</span></div>
   </div>
   <div data-region="content">
     <script src="medium.js"></script>

@@ -14,7 +14,7 @@
 <body>
   <div data-region="header">
     <div class="toc_landsc_header">
-      <p class="toc_landsc_header_title">Content Overview</p>
+      <p class="toc_landsc_header_title" style="">Content Overview</p>
       <div class="toc_landsc_header_logo"></div>
     </div>
   </div>
