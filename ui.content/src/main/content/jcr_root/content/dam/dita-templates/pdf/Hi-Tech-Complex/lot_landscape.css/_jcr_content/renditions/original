@@ -3,6 +3,8 @@
   margin-top: 50px;
   text-align: left;
   margin-bottom: 40px;
+    display: flex;
+  align-items: baseline;
 }
 .lot_header_title {
   font-family: var(--font-fam-secondary);
@@ -11,6 +13,7 @@
   font-weight: 400;
   color: #000000;
   margin-bottom: 0px;
+
 }
 .lot_header_titlealts {
   font-family: var(--font-fam-primay);

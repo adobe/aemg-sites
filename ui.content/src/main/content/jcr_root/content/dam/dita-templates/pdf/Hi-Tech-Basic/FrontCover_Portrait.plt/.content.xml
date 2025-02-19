@@ -8,13 +8,13 @@
         cq:name="FrontCover_Portrait.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-14T16:33:55.312+05:30"
+        jcr:lastModified="{Date}2025-02-19T21:59:12.090+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-14T16:33:55.220+05:30"
-            dam:sha1="016757dc4f00a39f634c9b9bc4777a3c84bfc32b"
-            dam:size="{Long}1473"
+            dam:extracted="{Date}2025-02-19T21:59:12.028+05:30"
+            dam:sha1="e6d7b6ec04cf8720b0d6a5b50914bafca5f49ed4"
+            dam:size="{Long}1542"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

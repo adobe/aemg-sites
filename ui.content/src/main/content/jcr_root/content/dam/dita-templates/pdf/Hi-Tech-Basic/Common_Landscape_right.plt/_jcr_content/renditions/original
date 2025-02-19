@@ -12,14 +12,18 @@
   <link rel="stylesheet" type="text/css" href="common_landscape.css" />
 </head>
 <body>
-  <div class="chapter-text_wrapper" data-region="header">
-    <p class="chapter-header"><span class="chapter_header-language">EN</span></p>
-    <p><span class="chapter_header_chapter-number" data-field="chapter-number" data-format="default" style="margin-left: 0px;margin-right: 0px">1</span></p>
+  <div data-region="header">
+    <div class="chapter-text_wrapper">
+      <p class="chapter-header"><span class="chapter_header-language">EN</span></p>
+      <p><span class="chapter_header_chapter-number" data-field="chapter-number" data-format="default">1</span></p>
+    </div>
   </div>
   <div data-region="content"></div>
-  <div class="footer-common" data-region="footer">
-    <p class="chapter-footer"><span class="footer-number" data-field="page-number">1</span></p>
-    <p><span class="footer-text" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+  <div data-region="footer">
+    <div class="footer-common">
+      <p><span class="footer-text" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+      <p class="chapter-footer"><span class="footer-number" data-field="page-number">1</span></p>
+    </div>
   </div>
 </body>
 </html>

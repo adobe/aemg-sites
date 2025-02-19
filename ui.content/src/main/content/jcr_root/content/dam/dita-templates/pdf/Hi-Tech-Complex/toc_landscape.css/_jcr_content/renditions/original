@@ -67,6 +67,7 @@
   color: var(--color-accent);
   margin-top: 8px;
   text-indent: 0px;
+  margin-inline-start: 15px;
 }
 .toc-level-2::after {
   color: var(--color-natural-blue);
@@ -88,5 +89,4 @@
   left: 0px;
   margin: 0;
   margin-left: 20px;
-  margin-bottom: 33px;
 }

@@ -1,9 +1,20 @@
 /*Created with AEM Guides*/
+.square-dot {
+  height: 4px;
+  width: 4px;
+  background-: #01EA57;
+  margin-left: 2px;
+}
 .chapter_firstpage_footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
+}
+.chapter_leftpage_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .chapter_footer_organization {
   font-family: Adobe Clean;

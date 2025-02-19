@@ -10,7 +10,7 @@
 </head>
 <body>
   <div data-region="header" id="index_header">
-    <h5 id="index_header_title">Index</h5>
+    <h5 id="index_header_title">Index<div class="square-dot"></div></h5>
   </div>
   <div data-region="content" id="idx_content"></div>
   <div data-region="footer" id="index_footer" style="

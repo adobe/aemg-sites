@@ -3,6 +3,8 @@
 .lof_header {
   margin-top: 50px;
   text-align: left;
+    display: flex;
+  align-items: baseline;
 }
 .lof-body {
   display: flex;
@@ -17,6 +19,7 @@
   font-weight: 400;
   color: #000000;
   margin-bottom: 0px;
+
 }
 .lof_header_titlealts {
   font-family: var(--font-fam-primay);

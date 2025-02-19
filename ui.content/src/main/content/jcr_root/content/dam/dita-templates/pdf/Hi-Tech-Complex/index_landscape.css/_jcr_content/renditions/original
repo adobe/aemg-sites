@@ -2,6 +2,7 @@
 #index-header {
   margin-bottom: 27px;
   text-align: left;
+ 
 }
 #index_header_title {
   font-family: var(--font-fam-secondary);
@@ -10,6 +11,9 @@
   font-weight: 400;
   color: #000000;
   margin-bottom: 0px;
+   display: flex;
+  align-items: baseline;
+  
 }
 #index_header_titlealts {
   font-family: var(--font-fam-primay);

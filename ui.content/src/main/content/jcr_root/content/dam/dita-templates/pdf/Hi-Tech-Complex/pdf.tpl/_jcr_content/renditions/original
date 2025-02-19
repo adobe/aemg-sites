@@ -118,12 +118,12 @@
   <layout>Common</layout>
   <coverPageLayout>Frontcover_Portrait</coverPageLayout>
   <backPageLayout>Backcover_Portrait</backPageLayout>
-  <emptyPageLayout>Blank</emptyPageLayout>
+  <emptyPageLayout>Blank_Portrait</emptyPageLayout>
   <tocLayout>TOC_Portrait</tocLayout>
   <topicLayout>Chapter_Portrait</topicLayout>
   <gloLayout>Glossary_Portrait</gloLayout>
   <indexLayout>Index_Portrait</indexLayout>
   <bibLayout>Citations</bibLayout>
   <lotLayout>LOT_Portrait</lotLayout>
-  <lofLayout>TOC_Portrait</lofLayout>
+  <lofLayout>LOF_Portrait</lofLayout>
 </settings>

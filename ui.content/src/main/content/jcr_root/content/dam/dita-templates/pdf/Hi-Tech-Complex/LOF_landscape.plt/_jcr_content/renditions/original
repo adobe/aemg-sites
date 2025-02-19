@@ -10,7 +10,9 @@
 </head>
 <body>
   <div class="lof_header" data-region="header">
-    <p class="lof_header_title">List Of Figure</p>
+    <p class="lof_header_title">List Of Figure<div class="square-dot"></div></p>
+    
+    <p></p>
   </div>
   <div class="lof_content" data-region="content"></div>
   <div class="lof_footer" data-region="footer">
