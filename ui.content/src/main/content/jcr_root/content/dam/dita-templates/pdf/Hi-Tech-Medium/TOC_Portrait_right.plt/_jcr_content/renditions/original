@@ -6,7 +6,6 @@
   <meta name="page-style" content="size:A4 portrait;margin-left:0px;margin-right:0px;margin-top:85px;" />
   <title>TOC Page Layout</title>
   <meta name="footnote-style" content="" />
-
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" type="text/css" href="toc_portrait.css" />
@@ -19,8 +18,7 @@
   </div>
   <div data-region="footer">
     <div class="toc_footer">
-      <p class="toc_footer_text"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
-      <p class="toc_footer_page_number"><span data-field="page-number" data-format="default">1</span></p>
+      <p class="toc_footer_text" style=""><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
     </div>
   </div>
 </body>

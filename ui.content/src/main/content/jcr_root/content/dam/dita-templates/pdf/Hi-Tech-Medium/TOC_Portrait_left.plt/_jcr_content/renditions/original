@@ -12,14 +12,13 @@
   <link rel="stylesheet" type="text/css" href="global.css" />
 </head>
 <body>
-  <div class="toc_header" data-region="header"></div>
+  <div class="toc_header" data-region="header" style=""></div>
   <div data-region="content">
     <div class="toc_content"><!-- <p class="toc_content_title">Table of Contents</p> --></div>
   </div>
   <div data-region="footer">
     <div class="toc_footer">
-      <p class="toc_footer_text"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
-      <p class="toc_footer_page_number"><span data-field="page-number" data-format="default">1</span></p>
+      <p class="toc_footer_text" style=""><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
     </div>
   </div>
 </body>

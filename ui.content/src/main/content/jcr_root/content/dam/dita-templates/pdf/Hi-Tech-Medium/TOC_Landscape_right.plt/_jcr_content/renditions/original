@@ -18,8 +18,7 @@
   </div>
   <div data-region="footer">
     <div class="toc_landsc_footer">
-      <p class="toc_landsc_footer_text"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
-      <p class="toc_landsc_footer_page_number"><span data-field="page-number" data-format="default">1</span></p>
+      <p class="toc_landsc_footer_text" style=""><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
     </div>
   </div>
 </body>
