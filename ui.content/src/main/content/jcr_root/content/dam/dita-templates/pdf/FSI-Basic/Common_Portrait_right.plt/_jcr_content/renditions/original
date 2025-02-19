@@ -6,7 +6,6 @@
   <title>Common Page Layout</title>
   <meta name="page-style" content="size:A4 portrait;margin-bottom:130px;margin-top:100px;" />
   <meta name="footnote-style" content="" />
-
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" type="text/css" href="common.css" />
@@ -15,7 +14,7 @@
 </head>
 <body>
   <div data-region="header">
-    <div class="chapter_header" style=""><img class="chapter_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img.png" /> <span class="chapter_header_page-number" data-field="page-number" data-format="default">1</span></div>
+    <div class="chapter_header" style=""><img class="chapter_header_logo" src="../../../aemguidesDALP/fsi/images/simp-firstpage-logo.png" /> <span class="chapter_header_page-number" data-field="page-number" data-format="default">1</span></div>
   </div>
   <div data-region="content"></div>
   <div data-region="footer">
@@ -26,7 +25,7 @@
       </div>
       <div class="chapter_footer_text_container">
         <p class="chapter_footer_number">2</p>
-        <p class="chapter_footer_text">Available at <a class="chapter_footer_urls">www.hsbc.com</a></p>
+        <p class="chapter_footer_text">Available at <a class="chapter_footer_urls">www.abc.com</a></p>
       </div>
       <div class="chapter_footer_text_container">
         <p class="chapter_footer_number">3</p>

@@ -14,8 +14,8 @@
 <body>
   <div data-region="header">
     <div class="toc_landsc_header">
-      <p class="toc_landsc_header_title">Content Overview</p>
-      <img class="toc_landsc_header_logo" src="../../../aemguidesDALP/fsi/images/logo-img.png" />
+      <p class="toc_landsc_header_title" style="">Content Overview</p>
+      <img class="toc_landsc_header_logo" src="../../../aemguidesDALP/fsi/images/simp-firstpage-logo.png" />
     </div>
   </div>
   <div data-region="content"></div>

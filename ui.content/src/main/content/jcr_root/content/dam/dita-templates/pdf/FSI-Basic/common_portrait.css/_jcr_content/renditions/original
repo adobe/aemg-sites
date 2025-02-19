@@ -8,6 +8,7 @@ body {
 .chapter_header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 0.5px solid var(--color-gray);
   padding-bottom: 8px;
   margin-bottom: 30px;
@@ -20,8 +21,8 @@ body {
   color: var(--color-primary);
 }
 .chapter_header_logo {
-  width: 33px;
-  height: 17px;
+  width: 60px;
+  height: 24px;
 }
 .chapter_footer {
   padding-bottom: 24px;
@@ -70,7 +71,7 @@ h2.title {
   color: var(--color-primary);
 }
 h1.title.chapter {
-  padding-left: 18px;
+  padding-left: 25px;
 }
 h1.title::before {
   font-family: var(--font-fam-primary);
