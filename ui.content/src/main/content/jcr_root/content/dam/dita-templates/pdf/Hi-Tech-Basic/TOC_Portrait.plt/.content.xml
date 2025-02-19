@@ -8,13 +8,14 @@
         cq:name="TOC_Portrait.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-14T16:33:56.280+05:30"
-        jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:lastModified="{Date}2025-02-19T21:59:11.446+05:30"
+        jcr:lastModifiedBy="prashant.singh@deptagency.com"
+        jcr:primaryType="dam:AssetContent"
+        dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-14T16:33:56.154+05:30"
-            dam:sha1="64ff2d9319c627e9c1e0e84168e5c29a74dbc877"
-            dam:size="{Long}1192"
+            dam:extracted="{Date}2025-02-19T21:59:11.399+05:30"
+            dam:sha1="afb32d806e6e5bbac78ed209210834876d3583e0"
+            dam:size="{Long}1080"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

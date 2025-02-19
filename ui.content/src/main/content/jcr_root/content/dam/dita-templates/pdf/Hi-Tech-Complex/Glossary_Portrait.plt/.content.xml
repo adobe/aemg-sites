@@ -8,14 +8,14 @@
         cq:name="Glossary_Portrait.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-19T11:58:21.056+05:30"
-        jcr:lastModifiedBy="admin"
+        jcr:lastModified="{Date}2025-02-19T21:59:13.538+05:30"
+        jcr:lastModifiedBy="prashant.singh@deptagency.com"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-19T11:58:20.993+05:30"
-            dam:sha1="315e37495978392458b6c1a1b22da442f0e22693"
-            dam:size="{Long}863"
+            dam:extracted="{Date}2025-02-19T21:59:13.507+05:30"
+            dam:sha1="d8a88f0e4def63cb05d4a9a5aefacd925a7ae763"
+            dam:size="{Long}893"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

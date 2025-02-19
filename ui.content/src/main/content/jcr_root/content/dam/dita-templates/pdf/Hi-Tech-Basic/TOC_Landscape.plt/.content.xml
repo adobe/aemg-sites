@@ -8,13 +8,14 @@
         cq:name="TOC_Landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-14T16:33:53.119+05:30"
-        jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:lastModified="{Date}2025-02-19T21:59:11.193+05:30"
+        jcr:lastModifiedBy="prashant.singh@deptagency.com"
+        jcr:primaryType="dam:AssetContent"
+        dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-14T16:33:51.474+05:30"
-            dam:sha1="aa67b974e3cbd42db5ad3eab65bd34cdba10f3f2"
-            dam:size="{Long}1202"
+            dam:extracted="{Date}2025-02-19T21:59:11.137+05:30"
+            dam:sha1="c855c2f0c25207587e2be5adf5b026d1c57a4459"
+            dam:size="{Long}1091"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
