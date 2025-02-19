@@ -1,0 +1,27 @@
+/*Created with AEM Guides*/
+.xref {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+.related-links .prefix-content {
+  color: var(--color-accent);
+}
+
+.related-links .link {
+  display: block;
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
+  font-weight: 400;
+  text-decoration: auto;
+  color: var(--color-accent);
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+.related-links .linkinfo {
+  margin-block: 10px;
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
+  color: var(--color-accent);
+}
