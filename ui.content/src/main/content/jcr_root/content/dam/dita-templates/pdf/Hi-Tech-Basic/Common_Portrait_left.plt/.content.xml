@@ -8,12 +8,12 @@
         cq:name="Common_Portrait_left.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-19T21:59:12.199+05:30"
+        jcr:lastModified="{Date}2025-02-20T18:20:19.542+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-19T21:59:12.121+05:30"
+            dam:extracted="{Date}2025-02-20T18:20:19.497+05:30"
             dam:sha1="0170242ce7513274b851e0153039b0b4f04bb948"
             dam:size="{Long}1310"
             dc:format="application/octet-stream"

@@ -8,12 +8,12 @@
         cq:name="LOF_Portrait.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-19T21:59:11.749+05:30"
+        jcr:lastModified="{Date}2025-02-20T18:20:19.125+05:30"
         jcr:lastModifiedBy="prashant.singh@deptagency.com"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-19T21:59:11.719+05:30"
+            dam:extracted="{Date}2025-02-20T18:20:19.085+05:30"
             dam:sha1="7e3ba3a096c1f3fe22b44614a5a9286bc301d9c1"
             dam:size="{Long}2261"
             dc:format="application/octet-stream"

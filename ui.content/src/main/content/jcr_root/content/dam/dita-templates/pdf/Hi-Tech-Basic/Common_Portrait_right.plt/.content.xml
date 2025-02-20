@@ -8,13 +8,13 @@
         cq:name="Common_Portrait_right.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-19T21:59:12.642+05:30"
+        jcr:lastModified="{Date}2025-02-20T18:20:20.194+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-19T21:59:12.611+05:30"
-            dam:sha1="8bae14054d608cd5aadebce3846d3a800f462dbf"
+            dam:extracted="{Date}2025-02-20T18:20:20.153+05:30"
+            dam:sha1="fa85b8428b2b831d88e693f50cacce2b60512481"
             dam:size="{Long}1305"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"

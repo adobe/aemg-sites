@@ -13,6 +13,9 @@
   <useUserToc type="boolean">true</useUserToc>
   <toclevel type="number">4</toclevel>
   <startChapterFromNewPage type="boolean">true</startChapterFromNewPage>
+  <startChapterFromEvenPage type="boolean">false</startChapterFromEvenPage>
+  <startChapterFromOddPage type="boolean">false</startChapterFromOddPage>
+  <startChapterFromCurrentPage type="boolean">false</startChapterFromCurrentPage>
   <startTopicsFromNewPage type="boolean">false</startTopicsFromNewPage>
   <displayChapter type="boolean">true</displayChapter>
   <pdfTrimmark type="boolean">false</pdfTrimmark>
@@ -97,10 +100,11 @@
     </bookListsitem>
   </bookLists>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
-  <layout>Common_Portrait</layout>
-  <coverPageLayout>FrontCover_Portrait</coverPageLayout>
-  <tocLayout>TOC_Portrait</tocLayout>
-  <topicLayout>Common_Portrait</topicLayout>
+  <layout>Common_Landscape</layout>
+  <coverPageLayout>FrontCover_Landscape</coverPageLayout>
+  <emptyPageLayout>Blank_Landscape</emptyPageLayout>
+  <tocLayout>TOC_Landscape</tocLayout>
+  <topicLayout>Common_Landscape</topicLayout>
   <gloLayout></gloLayout>
   <indexLayout></indexLayout>
 </settings>
