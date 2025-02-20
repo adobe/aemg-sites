@@ -12,10 +12,10 @@
 .cmp-pager__next .next {
     // font-family: var( --font-fam-primary-bold);
     font-family: var(--font-fam-primary);
-    font-weight: 700;
-    color: var(--color-accent);
-    font-size: var(--text-2xs);
-    line-height: var(--text-sm-lh);
+    font-weight: 500;
+    color: var(--color-primary);
+    font-size: var(--text-base);
+    line-height: var(--text-base-lh);
     letter-spacing: 1px;
 }
 
@@ -28,7 +28,15 @@
 .cmp-pager__prev .prev {
     padding-left: 4px;
 }
-
+.cmp-pager__prev svg , 
+.cmp-pager__next svg {
+    color: var(--color-primary);
+    font-size: var(--text-5xs);
+}
+.cmp-pager__prev a , 
+.cmp-pager__next a {
+    text-decoration: none;
+}
 .cmp-pager__next .next {
     padding-right: 4px;
 }
