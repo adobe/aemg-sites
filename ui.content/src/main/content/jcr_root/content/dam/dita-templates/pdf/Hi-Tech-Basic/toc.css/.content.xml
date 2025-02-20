@@ -8,11 +8,11 @@
         cq:name="toc.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-19T21:59:13.965+05:30"
+        jcr:lastModified="{Date}2025-02-20T18:20:19.707+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-19T21:59:13.925+05:30"
+            dam:extracted="{Date}2025-02-20T18:20:19.668+05:30"
             dam:sha1="4f02db12f0a4fe89f83f20d718d1b77b5179f6da"
             dam:size="{Long}1557"
             dc:format="text/css"

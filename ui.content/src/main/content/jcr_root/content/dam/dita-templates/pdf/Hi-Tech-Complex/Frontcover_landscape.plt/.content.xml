@@ -5,16 +5,17 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="39643eea-cf91-46a7-80b4-5ffda9aab52c">
     <jcr:content
-        cq:name="Frontcover_Landscape.plt"
+        cq:name="Frontcover_landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-19T21:59:13.782+05:30"
-        jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:lastModified="{Date}2025-02-20T18:20:21.601+05:30"
+        jcr:lastModifiedBy="prashant.singh@deptagency.com"
+        jcr:primaryType="dam:AssetContent"
+        dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-19T21:59:13.737+05:30"
-            dam:sha1="63c9abbe224a50acc8199cb3d6449a0c581d775c"
-            dam:size="{Long}1849"
+            dam:extracted="{Date}2025-02-20T18:20:21.564+05:30"
+            dam:sha1="6ef66d665dcac055dee6e1a6ea3a935a05648f8b"
+            dam:size="{Long}1874"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

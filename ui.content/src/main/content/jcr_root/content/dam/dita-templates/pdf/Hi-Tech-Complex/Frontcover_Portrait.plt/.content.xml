@@ -8,13 +8,14 @@
         cq:name="Frontcover_Portrait.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-19T21:59:12.527+05:30"
-        jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:lastModified="{Date}2025-02-20T18:20:19.934+05:30"
+        jcr:lastModifiedBy="prashant.singh@deptagency.com"
+        jcr:primaryType="dam:AssetContent"
+        dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-19T21:59:12.498+05:30"
-            dam:sha1="bad990c78e02825dfb262dc91a2d17a4d8a573e9"
-            dam:size="{Long}1726"
+            dam:extracted="{Date}2025-02-20T18:20:19.901+05:30"
+            dam:sha1="94497f577720a0e98218141c2308fee79a13a9cd"
+            dam:size="{Long}1773"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

@@ -8,14 +8,14 @@
         cq:name="glossary_portrait.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-19T21:59:13.745+05:30"
+        jcr:lastModified="{Date}2025-02-20T18:20:21.561+05:30"
         jcr:lastModifiedBy="prashant.singh@deptagency.com"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-19T21:59:13.719+05:30"
-            dam:sha1="f4775ee32de3a4a5dc7f8e6e3a7925beef84c246"
-            dam:size="{Long}2100"
+            dam:extracted="{Date}2025-02-20T18:20:21.515+05:30"
+            dam:sha1="f74872d9aab594696c393c0c445796b639f9f977"
+            dam:size="{Long}2095"
             dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

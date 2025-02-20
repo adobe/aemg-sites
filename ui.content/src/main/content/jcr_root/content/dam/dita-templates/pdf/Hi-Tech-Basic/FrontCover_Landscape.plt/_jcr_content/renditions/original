@@ -13,12 +13,12 @@
 <body>
   <div class="frontcover">
     <div class="frontcover_header">
-      <div><img class="frontcover_logo-image" src="../../../aemguidesDALP/hi-tech/images/nvidia-graphics-logo.svg" /></div>
+      <div><img class="frontcover_logo-image" src="../../../aemguidesDALP/hi-tech/images/hitech logo.png" /></div>
     </div>
     <div class="frontcover_cover-image-wrapper-landscape">
       <div><img class="frontcover_cover-image" src="../../../aemguidesDALP/hi-tech/images/jetson-cover-image.png" /></div>
       <div class="frontcover_textdata">
-        <p><span class="frontcover_mainbooktitle-landscape">Jetson AGX Orin Series Modules Tuning and Compliance Guide</span></p>
+        <p><span class="frontcover_mainbooktitle-landscape"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></span></p>
         <p><span class="frontcover_booktitlealt">Application Note</span></p>
         <p><span class="frontcover_critdates">DA-11040-001_v1.3 | <span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span></span></p>
       </div>

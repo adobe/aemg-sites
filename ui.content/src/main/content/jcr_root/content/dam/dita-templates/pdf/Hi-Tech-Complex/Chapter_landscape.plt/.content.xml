@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="bd5f1e98-ba2e-46cb-8882-5eb0f2fcf7de">
     <jcr:content
+        cq:name="Chapter_landscape.plt"
+        cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-19T21:59:11.605+05:30"
-        jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:lastModified="{Date}2025-02-20T18:20:18.955+05:30"
+        jcr:lastModifiedBy="prashant.singh@deptagency.com"
+        jcr:primaryType="dam:AssetContent"
+        dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-19T21:59:11.552+05:30"
-            dam:sha1="4476e0e7ce410764a76b50dea51fbd6381199f2d"
+            dam:extracted="{Date}2025-02-20T18:20:18.902+05:30"
+            dam:sha1="12f2a0a8838fca28aa626744b014e0a12b6e8c3d"
             dam:size="{Long}674"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"

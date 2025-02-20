@@ -36,9 +36,11 @@
     </div>
     <p></p> -->
   </div>
-  <div class="chapter_firstpage_footer" data-region="footer" style="/* margin-top: 40px; */">
-    <p class="chapter_footer_organization"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
-    <p class="chapter_footer_page-number"><span data-field="page-number" data-format="default">1</span></p>
+  <div data-region="footer" style="">
+    <div class="chapter_firstpage_footer">
+      <p class="chapter_footer_organization"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+      <p class="chapter_footer_page-number"><span data-field="page-number" data-format="default">1</span></p>
+    </div>
   </div>
 </body>
 </html>
