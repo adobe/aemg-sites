@@ -332,17 +332,25 @@
             <page jcr:primaryType="nt:unstructured">
                 <policy
                     jcr:description="Includes the required client libraries."
-                    jcr:lastModified="{Date}2025-02-20T16:32:18.089+05:30"
-                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Guides footer policy"
+                    jcr:title="Generic Page"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="[aemguidesDALP.dependencies,aemguidesDALP.site,aemguidesDALP.guides-footer]"
-                    clientlibsAsync="false"
+                    clientlibs="[aemguidesDALP.dependencies,aemguidesDALP.site]"
                     clientlibsJsHead="aemguidesDALP.dependencies">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
             </page>
+            <xfpage jcr:primaryType="nt:unstructured">
+                <policy_1740048982699
+                    jcr:lastModified="{Date}2025-02-20T16:33:54.359+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="guides-header policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    clientlibs="[aemguidesDALP.dependencies,aemguidesDALP.site,aemguidesDALP.guides-header]">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1740048982699>
+            </xfpage>
         </components>
     </aemguidesDALP>
     <wcm jcr:primaryType="nt:unstructured">
