@@ -6,15 +6,20 @@
   <title>Right Chapter Page Layout</title>
   <link rel="stylesheet" href="layout.css" type="text/css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
+  <link rel="stylesheet" href="chapter_landscape.css" type="text/css" />
   <meta name="page-style" content="size:landscape;margin-right:70px;margin-bottom:110px;margin-left:70px;" />
   <meta name="footnote-style" content="margin-top:1rem;" />
 </head>
 <body data-layout="page">
   <div data-region="header">
-    <p class="chapter-rightpage-lang">EN</p>
-    <p class="chapter-rightpage-nums-landscape"><span data-field="chapter-number" data-format="default">1</span></p>
+    <div class="chapter_rightpage_header-landscape">
+      <p class="chapter-rightpage-lang-landscape">EN</p>
+      <p class="chapter-rightpage-nums-landscape"><span data-field="chapter-number" data-format="default">1</span></p>
+    </div>
   </div>
-  <div data-region="content"></div>
+  <div data-region="content"><br />
+    
+  </div>
   <div class="footer-space" data-region="footer" style="">
     <div class="chapter_footer">
       <p class="chapter_page_productname"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>

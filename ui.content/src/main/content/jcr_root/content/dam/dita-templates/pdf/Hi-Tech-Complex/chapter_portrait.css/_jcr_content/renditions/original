@@ -100,11 +100,22 @@
 .footer-space {
   margin-top: 40px;
 }
+.chapter_leftpage_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 18px;
+}
+.chapter_rightpage_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 18px;
+}
 .chapter-leftpage-nums {
-  width: Fixed (56px)px;
-  height: Fixed (56px)px;
+  width: 56px;
+  height: 56px;
   padding: 18px 25px 18px 25px;
-  opacity: 0px;
   background: #01EA57;
   font-family: Urbanist;
   font-size: var(--text-base);
@@ -112,10 +123,9 @@
   line-height: var(--text-sm-lh);
   text-align: left;
   color: var(--color-accent);
-  position: absolute;
-  left: -12%;
-  top: 0%;
   margin: 0px;
+  box-sizing: border-box;
+  transform: translate(-70px, 0px);
 }
 .chapter-leftpage-lang {
   font-family: Urbanist;
@@ -125,9 +135,6 @@
   letter-spacing: 1px;
   text-align: right;
   color: var(--color-accent);
-  position: absolute;
-  right: 0px;
-  top: 0px;
   margin-top: 21px;
 }
 .image-num-container .resistor-image {
@@ -143,9 +150,6 @@
   letter-spacing: 1px;
   text-align: right;
   color: var(--color-accent);
-  position: absolute;
-  left: 0px;
-  top: 0px;
   margin-top: 21px;
 }
 h1.title {
@@ -173,10 +177,9 @@ h2.chapter_sub-titles {
   margin-top: 8px;
 }
 .chapter-rightpage-nums {
-  width: Fixed (56px)px;
-  height: Fixed (56px)px;
+  width: 56px;
+  height: 56px;
   padding: 18px 25px 18px 25px;
-  opacity: 0px;
   background: #01EA57;
   font-family: Urbanist;
   font-size: var(--text-base);
@@ -184,10 +187,9 @@ h2.chapter_sub-titles {
   line-height: var(--text-sm-lh);
   text-align: left;
   color: var(--color-accent);
-  position: absolute;
-  right: -12%;
-  top: 0%;
   margin: 0px;
+  box-sizing: border-box;
+  transform: translate(71px, 0px);
 }
 @media (orientation: portrait) {
   /* content css start from here  */
