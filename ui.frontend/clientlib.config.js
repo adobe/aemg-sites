@@ -39,6 +39,11 @@ const libsBaseConfig = {
 
 const clientlibArr = [
 
+  //common
+  {name : 'guides-footer', module: 'common'},
+  {name : 'guides-header', module: 'common'},
+
+
   //automotive
   {name : 'automotive_global', module: 'automotive'},
   {name : 'automotive-footer', module: 'automotive'},
@@ -55,6 +60,7 @@ const clientlibArr = [
   // hi-tec
   {name : 'hi-tech_topic-body', module: 'hi-tech'},
   {name : 'hi-tech_global', module: 'hi-tech'},
+  {name : 'hi-tech_toc', module: 'hi-tech'},
 ]
 
 const libsArr = [];

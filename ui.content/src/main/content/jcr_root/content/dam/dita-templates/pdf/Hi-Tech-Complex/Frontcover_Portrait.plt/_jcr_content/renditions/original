@@ -11,15 +11,17 @@
 </head>
 <body>
   <div data-region="header"></div>
-  <div class="frontcover-content" data-region="content"><img class="frontcover_logo" height="52" src="../../../aemguidesDALP/hi-tech/pdf/complex/images/logo.png" />
+  <div class="frontcover-content" data-region="content"><img class="frontcover_logo" src="../../../aemguidesDALP/hi-tech/pdf/complex/images/hitechbl_logo.png" />
     <div class="footer-title-subtitle">
       <p class="frontcover_mainbooktitle" style=""><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
       <p class="frontcover_booktitlealt" style="">Application Note</p>
     </div>
   </div>
-  <div class="frontcover-footer" data-region="footer" style="">
-    <p class="frontcover_publish-date" style="">DA-11040-001_v1.3 | <span data-field="metadata" data-format="default" data-subtype="//critdates/revised/@golive">2001-08-20</span><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date"></span></p>
-    <p class="frontcover_organization" style="">Nvidia Corporation is an American multinational corporation and technology company headquartered in Santa Clara, California, and incorporated in Delaware.</p>
+  <div data-region="footer" style="">
+    <div class="frontcover-footer">
+      <p class="frontcover_publish-date" style="">DA-11040-001_v1.3 | <span data-field="metadata" data-format="default" data-subtype="//critdates/revised/@golive">2001-08-20</span><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">//critdates/created/@date</span></p>
+      <p class="frontcover_organization" style="">Nvidia Corporation is an American multinational corporation and technology company headquartered in Santa Clara, California, and incorporated in Delaware.</p>
+    </div>
   </div>
 </body>
 </html>

@@ -8,14 +8,14 @@
         cq:name="LOT_Portrait.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-19T21:59:10.949+05:30"
+        jcr:lastModified="{Date}2025-02-20T18:20:18.324+05:30"
         jcr:lastModifiedBy="prashant.singh@deptagency.com"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-19T21:59:10.899+05:30"
-            dam:sha1="949eb326c2af1708a23e5e9184a991e1c5eb65ad"
-            dam:size="{Long}874"
+            dam:extracted="{Date}2025-02-20T18:20:18.276+05:30"
+            dam:sha1="4449bc7e86be7693768b9f6d55fd7d16735e8356"
+            dam:size="{Long}892"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

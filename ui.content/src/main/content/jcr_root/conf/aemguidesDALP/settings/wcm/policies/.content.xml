@@ -454,6 +454,17 @@
                     </policy_1739873732092>
                 </time-to-read>
             </sites-components>
+            <xfpage jcr:primaryType="nt:unstructured">
+                <policy_1740048982699
+                    jcr:lastModified="{Date}2025-02-20T16:33:54.359+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="guides-header policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    clientlibs="[aemguidesDALP.dependencies,aemguidesDALP.site,aemguidesDALP.guides-header]">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1740048982699>
+            </xfpage>
         </components>
     </aemguidesDALP>
     <wcm jcr:primaryType="nt:unstructured">
