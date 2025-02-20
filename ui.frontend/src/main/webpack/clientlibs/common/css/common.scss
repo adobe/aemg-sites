@@ -115,3 +115,40 @@
   }
 
 }
+
+//toc search
+.left-container{
+  .toc-search{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .cmp-form-text{
+      position: relative;
+    }
+    .cmp-form-text::before{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 16px;
+      content: '\f002';
+      font-family: "Font Awesome 6 Free"; 
+      font-weight: 600;
+      color: var(--color-primary);
+    }
+    .cmp-form-text__text{
+      font-family: var(--font-fam-primary);
+      font-size: var(--text-xs);
+      font-weight: 400;
+      border-radius: 100px;
+      border: 0.5px solid  var(--color-border-light);
+      padding: 20px 16px;
+      width: 100%;
+      &::placeholder{
+        color: var(--color-primary);
+      }
+      &:focus{
+        outline-color: var(--color-primary);
+      }
+    }
+  }
+}
+

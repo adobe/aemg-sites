@@ -18,6 +18,9 @@
             .minitoc-level.selected a{
                 font-weight: 500;
             }
+            .minitoc-level:not(.selected) a{
+                opacity: 0.7;
+            }
             .minitoc-level{
                 margin: unset;
                 padding-top: 16px;
