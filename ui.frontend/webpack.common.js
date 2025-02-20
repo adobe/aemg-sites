@@ -35,6 +35,7 @@ module.exports = {
         'hi-tech_global' : SOURCE_ROOT + '/clientlibs/hi-tech/global/main.ts',
 
         //common
+        'guides-footer': SOURCE_ROOT + '/clientlibs/guides-footer/main.ts',
         'guides-header' : SOURCE_ROOT + '/clientlibs/guides-header/main.ts',
 
 
