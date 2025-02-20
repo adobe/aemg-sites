@@ -1,0 +1,117 @@
+@mixin flex-container {
+    display: flex;
+}
+
+@mixin grid-container {
+    display: grid;
+}
+
+.footer {
+    // background-color: #0D0D0D;
+    background-color: var(--color-primary-light);
+    padding: 94px 85px 94px 88px;
+}
+
+.footer_wrapper {
+    @include grid-container;
+    grid-template-columns: 45% 55%;
+
+    .footer_logo-container {
+        width: 40%;
+        .footer_logo {
+            width: 112px;
+            height: 40px;
+            display: inline-block;
+
+            img {
+                width: 100%;
+                height: 40px;
+            }
+        }
+
+        .footer_text {
+            color: var(--color-primary);
+            font-size: 18px;
+            line-height: 24px;
+            padding-top: 32px;
+            font-weight: 400;
+        }
+    }
+
+    .footer_links-container {
+        @include grid-container;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 57px;
+
+        .grid_item {
+            .footer_links-title {
+                // color: var(--color-bg);
+                color: var(--color-primary);
+                font-size: 18px;
+                line-height: 24px;
+                font-weight: 400;
+                padding-bottom: 16px;
+            }
+            .footer_links-list {
+                list-style: none;
+
+                .footer_links-listlink {
+                    color: var(--color-primary);
+                    font-size: 14px;
+                    line-height: 18px;
+                    font-weight: 400;
+                    margin: 0;
+                    padding-bottom: 8px;
+                }
+            }
+        }
+    }
+}
+
+.footer_social-wrapper {
+    @include flex-container;
+    gap: 24px;
+    margin-top: 24px;
+
+    .footer_social {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+
+        img {
+            width: 100%;
+            height: 24px;
+        }
+    }
+}
+
+.footer_copywrite-wrapper {
+    @include flex-container;
+    justify-content: space-between;
+    margin-top: 24px;
+    border-top: 0.5px solid var(--color-border-light);
+    padding-top: 16px;
+
+    .footer_copywrite {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        color: var(--color-border-light);
+    }
+
+    .footer_privacy-wrapper {
+        @include flex-container;
+        gap: 24px;
+
+        .footer_privacy {
+            @extend .footer_copywrite;
+            color: var(--color-primary);
+        }
+    
+        .footer_termcond {
+            @extend .footer_copywrite;
+            color: var(--color-primary);
+        }
+    }
+}
+  
