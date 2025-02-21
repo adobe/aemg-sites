@@ -29,6 +29,7 @@ module.exports = {
         'fsi_global':  SOURCE_ROOT + '/clientlibs/fsi/global/main.ts',
         'fsi_toc' : SOURCE_ROOT + '/clientlibs/fsi/toc/main.ts',
         'fsi_mini-toc' : SOURCE_ROOT + '/clientlibs/fsi/mini-toc/main.ts',
+        'fsi_landing' : SOURCE_ROOT + '/clientlibs/fsi/landing/main.ts',
         'fsi-landing-banner' : SOURCE_ROOT + '/clientlibs/fsi/fsi-landing-banner/main.ts',
         
         // hi-tech
