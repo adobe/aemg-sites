@@ -33,12 +33,19 @@ body {
       overflow: hidden;
     }
 
+    @media screen and (max-width: $screen-md) {
+      &:has(.toc-modal), input ,.topic-header .cmp-container {
+        background: transparent;
+        border-color: transparent !important;
+      }
+    }
+
     .left-container {
       position: unset;
 
       .cmp-guides-navigation {
         position: absolute;
-        top: 60%;
+        top: 35%;
         right: 0;
         bottom: 0;
         left: 0;
@@ -59,12 +66,7 @@ body {
       }
     }
   }
-  @media screen and (max-width: $screen-md) {
-    &:has(.toc-modal), input ,.topic-header .cmp-container {
-      background: transparent;
-      border-color: transparent !important;
-    }
-  }
+
 }
 
 
