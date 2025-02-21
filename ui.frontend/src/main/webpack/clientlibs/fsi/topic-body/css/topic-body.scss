@@ -52,22 +52,35 @@
     }
   }
   .bookmark{
-    .cmp-button::before{
-      content: '\f02e';
-      font-family: "Font Awesome 6 Free"; 
+    .cmp-button {
+
+      &::before{
+        content: '\f02e';
+        font-family: "Font Awesome 6 Free"; 
+        cursor: pointer;
+      }
+
+      &.bookmarked {
+        font-weight: bold;
+        cursor: pointer;
+      }
     }
+    
+    
   }
   .pdf-download{
     .cmp-button::before{
       content: "\f019";
       font-family: "Font Awesome 6 Free"; 
       font-weight: 900;
+      cursor: pointer;
     }
   }
   .share{
     .cmp-button::before{
       content: '\f14d';
       font-family: "Font Awesome 6 Free"; 
+      cursor: pointer;
     }
   }
   .bookmark, .pdf-download, .share{
