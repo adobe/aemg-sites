@@ -55,6 +55,9 @@ const clientlibArr = [
   {name : 'fsi_global' , module: 'fsi'},
   {name : 'fsi_toc' , module: 'fsi'},
   {name : 'fsi_mini-toc' , module: 'fsi'},
+  
+  {name : 'fsi-landing-banner' , module: 'fsi'},
+
 
 
   // hi-tec
