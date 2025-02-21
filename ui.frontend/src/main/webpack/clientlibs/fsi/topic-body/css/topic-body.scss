@@ -137,7 +137,9 @@
     }
     @media screen and (max-width : $screen-sm){
       overflow: auto;
-      scrollbar-width: unset;
+      &::-webkit-scrollbar {
+        display: none;
+      }
     }
   }
   .tbody b {

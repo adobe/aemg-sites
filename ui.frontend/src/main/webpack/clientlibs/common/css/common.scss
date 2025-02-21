@@ -21,6 +21,7 @@ body {
         left: 0;
         background-color: var(--color-bg);
         z-index: 1;
+        display: block;
       }
     }
   }
@@ -60,6 +61,15 @@ body {
   padding-top: 40px;
   width: 100%;
   border-right: 1px solid var(--color-border-light);
+  @media screen and (max-width : $screen-sm){
+    max-width: unset;
+    padding-right: unset;
+    border-right: unset;
+
+    .cmp-guides-navigation{
+      display: none;
+    }
+  }
 }
 
 .middle-container {
