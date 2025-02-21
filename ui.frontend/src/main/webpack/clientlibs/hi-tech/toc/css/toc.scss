@@ -38,7 +38,7 @@
         color: var(--color-primary);
         margin: 30px 0 8px 0;
         text-transform: uppercase;
-        border-left: 0.5px solid var(--color-gray);
+        // border-left: 0.5px solid var(--color-gray);
         position: relative;
 
         .toc-list-item {
@@ -46,6 +46,7 @@
                 text-decoration: none;
             }
         }
+        
     }
 
     .cmp-nav-item-selected>.toc-list-item {
@@ -77,6 +78,34 @@
     //         display: none;
     //     }
     // }
+    .cmp-guidesnavigation__item-level-1{
+        border-left: 0.5px solid var(--color-gray);
+        position: relative;
+        &.cmp-nav-item-selected.cmp-guidesnavigation__item--active::before {
+            position: absolute;
+            content: "";
+            left: -1.2px;
+            // top: 0;
+            // bottom: 0;
+            width: 2px;
+            background-color: var(--color-primary);
+            height: 14px;
+        }
+    }
+    .cmp-guidesnavigation__item-level-2{
+        position: relative;
+        &.cmp-nav-item-selected.cmp-guidesnavigation__item--active::before {
+            position: absolute;
+            content: "";
+            left: -25.2px;
+            // top: 0;
+            // bottom: 0;
+            width: 2px;
+            background-color: var(--color-primary);
+            height: 14px;
+        }
+    }
+
     .cmp-guidesnavigation__item-level-1,
     .cmp-guidesnavigation__item-level-2 {
         font-size: var(--text-xs);
@@ -84,7 +113,8 @@
         font-weight: 400;
         color: var(--color-gray-dark);
         margin: 0;
-        margin-bottom: 8px;
+        padding-bottom: 8px;
+        // padding-top: 8px;
         // border-left: 0.5px solid var(--color-gray);
         padding-left: 8px;
         margin-left: var(--toc-level-2-gap);
@@ -96,7 +126,7 @@
     .cmp-nav-item-selected.cmp-guidesnavigation__item--active::before {
         position: absolute;
         content: "";
-        left: -1.2px;
+        left: -16px;
         // top: 0;
         // bottom: 0;
         width: 2px;
@@ -107,7 +137,9 @@
     .cmp-nav-item-selected.cmp-guidesnavigation__item--active span {
         color: var(--color-primary);
         font-weight: 500;
+        letter-spacing: normal;
     }
-
-
+    &.show-children{
+        padding-top: 8px;
+    }
 }
