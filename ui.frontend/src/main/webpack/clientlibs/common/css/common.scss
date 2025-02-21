@@ -44,7 +44,7 @@ body {
 
   @media screen and (max-width: $screen-md) {
     max-width: 100%;
-    padding-inline: 14px;
+    padding-inline: 24px;
   }
 }
 
@@ -75,6 +75,7 @@ body {
     max-width: unset;
     padding-right: unset;
     border-right: unset;
+    position: relative;
 
     .cmp-guides-navigation{
       display: none;
@@ -86,6 +87,9 @@ body {
   padding: 40px 40px;
   width: 100%;
   position: relative;
+  @media screen and (max-width: $screen-md) {
+    padding: unset;
+  }
 }
 
 .right-container {
