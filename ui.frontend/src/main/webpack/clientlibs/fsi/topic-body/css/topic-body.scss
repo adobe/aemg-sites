@@ -1,3 +1,11 @@
+@use "../../../utils/css/vars" as *;
+
+.middle-container{
+  .breadcrumb ol li a, .breadcrumb ol li.cmp-breadcrumb__item--active{
+    font-size: var(--text-xs);
+  }
+}
+
 #topic-title {
   &>.cmp-title__text {
     font-size: var(--text-2xl);
@@ -6,6 +14,11 @@
     font-weight: 400;
     font-family: var(--font-fam-primary);
     padding: 40px 0px 8px 0px;
+
+    @media screen and (max-width : $screen-sm){
+      font-size: var(--text-xl);
+      padding: 28px 0 12px 0px;
+    }
   }
 }
 
@@ -27,6 +40,9 @@
       line-height: var( --text-xs-lh);
       font-weight: 500;
       color: var( --color-primary-faded);
+      p{
+        display: flex;
+      }
     }
     .cmp-text p::before {
       content: "\f017";
@@ -82,11 +98,10 @@
     color: var(--color-primary);
     font-family: var(--font-fam-primary);
   }
-  .cmp-text .p{
+  .cmp-text .p ,.shortdesc{
     font-size: var(--text-base);
     font-weight: 400;
     line-height: var( --text-lg-lh);
-    // margin-bottom: 16px;
     margin-bottom: 40px;
   }
   .cmp-text .info{
@@ -96,7 +111,7 @@
     border:  0.5px solid var(--color-border);
   }
   .thead {
-    font-size: var(--text-base);
+    font-size: var(--text-xs);
     line-height: var(--text-sm-lh);
     font-weight: 500;
     color: var(--color-primary);
@@ -105,8 +120,8 @@
     text-align: left;
   }
   .tbody {
-    font-size: var( --text-2xs);
-    line-height: var( --text-2xs-lh);
+    font-size: var(--text-2xs);
+    line-height: var(--text-2xs-lh);
     font-weight: 400;
     color: var(--color-gray-light);
     border: 0.5px solid var( --color-border);
@@ -120,26 +135,33 @@
     caption{
       margin-bottom: 8px;
     }
+    @media screen and (max-width : $screen-sm){
+      overflow: auto;
+      scrollbar-width: unset;
+    }
   }
   .tbody b {
     font-weight: 700;
     color: var( --color-primary);
+    font-size: var(--text-2xs);
   }
   .tbody .p{
     margin-bottom: 16px;
   }
   ul {
     margin: 0;
-    padding-inline-start: 20px;
+    // padding-inline-start: 20px;
   }
   li {
     margin-bottom: 16px;
+    font-size: var( --text-2xs);
   }
   .info-note-primary-light{
     background-color: var(--color-primary-light);
     padding: 10px 25px;
     .p{
       margin-bottom: unset;
+      font-size: var(--text-sm);
     }
   }
   .info-note-primary{
@@ -148,6 +170,17 @@
     color: var( --color-on-primary);
     .p{
       margin-bottom: unset;
+    }
+  }
+  @media screen and (max-width : $screen-sm){
+    .thead {
+      font-size: var(--text-sm);
+    }
+    .tbody {
+      font-size: var(--text-xs);
+    }
+    li{
+      font-size: var(--text-xs);
     }
   }
 }

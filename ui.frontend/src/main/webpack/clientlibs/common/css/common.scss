@@ -29,11 +29,10 @@
   padding-right: 16px;
   padding-top: 40px;
   width: 100%;
+  border-right: 1px solid var(--color-border-light);
 }
 
 .middle-container {
-  border-left: 1px solid var(--color-border-light);
-  border-right: 1px solid var(--color-border-light);
   padding: 40px 40px;
   width: 100%;
   position: relative;
@@ -45,6 +44,7 @@
   padding-left: 26px;
   padding-top: 40px;
   width: 100%;
+  border-left: 1px solid var(--color-border-light);
 }
 
 .hero-container {
@@ -136,7 +136,7 @@
 //toc search
 .left-container{
   .toc-search{
-    padding-top: 19px;
+    padding-top: 10px;
     .cmp-form-text{
       position: relative;
     }
@@ -209,11 +209,17 @@
   .cmp-button{
     border: unset;
     background-color: unset;
+    color: var(--color-primary);
   }
   .cmp-button::before{
     content: '\f060';
     font-family: "Font Awesome 6 Free"; 
     font-weight: 600;
+    border-left: 2px solid var(--color-primary);
+    padding-left: 2px;
+  }
+  @media screen and (max-width : $screen-sm){
+    display: none;
   }
 }
 
@@ -228,12 +234,23 @@
   .cmp-button{
     border: unset;
     background-color: unset;
+    color: var(--color-primary);
   }
   .cmp-button::before{
     content: '\f061';
     font-family: "Font Awesome 6 Free"; 
     font-weight: 600;
+    border-right: 2px solid var(--color-primary);
+    padding-right: 2px;
   }
+  @media screen and (max-width : $screen-sm){
+    display: none;
+  }
+}
+
+.button.arrow-opposite .cmp-button::before{
+  transform: rotate(180deg);
+  display: inline-block;
 }
 
 
