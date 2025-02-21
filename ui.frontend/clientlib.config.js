@@ -61,6 +61,7 @@ const clientlibArr = [
   {name : 'hi-tech_topic-body', module: 'hi-tech'},
   {name : 'hi-tech_global', module: 'hi-tech'},
   {name : 'hi-tech_toc', module: 'hi-tech'},
+  {name : 'hi-tech_mini_toc', module: 'hi-tech'},
 ]
 
 const libsArr = [];
