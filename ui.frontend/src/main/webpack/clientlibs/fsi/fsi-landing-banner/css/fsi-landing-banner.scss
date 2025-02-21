@@ -1,0 +1,152 @@
+@use "../../../utils/css/vars" as *;
+
+.fsi-banner-wrapper {
+  position: relative;
+
+  >.cmp-container {
+    height: 491px;
+
+    @media screen and (max-width: $screen-sm) {
+      height: 239px;
+      background-size: 100% 122% !important;
+
+    }
+
+    h1.cmp-title__text {
+      font-size: 48px;
+      line-height: 62px;
+      font-weight: 400;
+      font-family: 'Manrope';
+      color: var(--color-primary);
+      width: 50%;
+      margin-bottom: 8px;
+
+      @media screen and (max-width: $screen-sm) {
+        font-size: 30px;
+        line-height: 40px;
+      }
+
+    }
+
+    .cmp-text {
+      p {
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 400;
+        font-family: 'Manrope';
+        color: var(--color-primary);
+
+        @media screen and (max-width: $screen-sm) {
+          font-size: 20px;
+          line-height: 28px;
+        }
+      }
+    }
+
+    .title {
+      position: absolute;
+      top: 107px;
+      margin-left: 88px;
+
+      @media screen and (max-width: $screen-sm) {
+        margin-left: 24px;
+        top: 40px;
+      }
+    }
+
+    .text {
+      position: absolute;
+      top: 304px;
+      margin-left: 88px;
+      margin-top: -5px;
+
+      @media screen and (max-width: $screen-sm) {
+        margin-left: 24px;
+        top: 170px;
+      }
+    }
+  }
+
+}
+
+.box-container{
+  
+  @media screen and (max-width: $screen-sm) {
+    padding-inline: unset !important;
+  }
+}
+
+.objectives-text-wrapper{
+  padding: 48px 0px 48px 0px;
+
+  @media screen and (max-width: $screen-sm) {
+    padding: 46px 24px 46px 24px;
+  }
+  >.cmp-container{
+    display: flex;
+    gap: 140px;
+
+    @media screen and (max-width: $screen-sm) {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+
+    .objective-text-left{
+      width: 50%;
+      @media screen and (max-width: $screen-sm) {
+        width: 100%;
+      }
+
+      .cmp-text{
+        p{
+          font-size: 24px;
+          line-height: 32px;
+          font-weight: 400;
+          font-family: 'Manrope';
+          color: var(--color-primary);
+
+          @media screen and (max-width: $screen-sm) {
+            font-size: 20px;
+            line-height: 28px;
+          } 
+        }
+      }
+    }
+    .objective-text-right{
+      width: 50%;
+
+      @media screen and (max-width: $screen-sm) {
+        width: 100%;
+      }
+
+      .cmp-text{
+        h3{
+          font-size: 20px;
+          line-height: 28px;
+          font-weight: 700; 
+          font-family: 'Manrope';
+          color: var(--color-primary);
+          margin-bottom: 24px;
+
+          @media screen and (max-width: $screen-sm) {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 12px;
+          }
+        }
+
+        ul{
+          li{
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 400; 
+            font-family: 'Manrope';
+            color: var(--color-primary);
+            margin-bottom: 16px;           
+          }
+        }
+      }
+    }
+  }
+}
