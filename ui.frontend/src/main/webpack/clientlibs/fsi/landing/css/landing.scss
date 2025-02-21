@@ -1,0 +1,157 @@
+// Description and title styles
+.card-upper-discription-cont {
+  .cmp-text {
+    p:first-child {
+      font-family: Manrope;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 40px;
+      letter-spacing: 0px;
+      color: #013220;
+      margin-bottom: 8px;
+    }
+
+    p:last-child {
+      font-family: Manrope;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0px;
+      margin-bottom: 32px;
+    }
+  }
+}
+
+// Card styles
+.list {
+  .cmp-list {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    padding-left: 0;
+
+    .cmp-list__item {
+      .cmp-teaser {
+        .cmp-teaser__link {
+          display: flex;
+          flex-direction: column;
+          text-decoration: none;
+          background: #013220;
+          width: 400px;
+          height: 400px;
+          padding: 40px 44px 40px 40px;
+          box-sizing: border-box;
+          .cmp-teaser__content {
+            flex-grow: 1;
+            order: 1;
+            .cmp-teaser__title {
+              margin-bottom: 16px;
+              font-family: Manrope;
+              font-weight: 400;
+              font-size: 24px;
+              line-height: 32px;
+              letter-spacing: 0px;
+              color: #ffffff;
+              margin-top: 0;
+            }
+
+            .cmp-teaser__description {
+              font-family: Manrope;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 16px;
+              letter-spacing: 0px;
+              color: #ffffff;
+            }
+          }
+
+          .cmp-teaser__action-container {
+            order: 3;
+            padding-top: 4px;
+            padding-right: 24px;
+            padding-bottom: 4px;
+            padding-left: 24px;
+            border-radius: 76px;
+            background: #ffffff;
+            color: #013220;
+            font-family: Manrope;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0px;
+            text-align: center;
+            text-decoration: none;
+            width: 125px;
+            height: 40px;
+          }
+
+          .cmp-teaser__image {
+            order: 0;
+
+            .cmp-image__image {
+              margin-bottom: 48px;
+              width: 40px;
+              height: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Media query for screens with a max width of 768px
+@media screen and (max-width: 768px) {
+  .card-upper-discription-cont {
+    .cmp-text {
+      p:first-child {
+        font-family: Manrope;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0px;
+        color: #013220;
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  .list {
+    .cmp-list {
+      .cmp-list__item {
+        list-style-type: none;
+        .cmp-teaser {
+          .cmp-teaser__image {
+            .cmp-image__image {
+              margin-bottom: 24px;
+              width: 36px;
+              height: 36px;
+            }
+          }
+          .cmp-teaser__link {
+            width: 327px;
+            height: 326px;
+            padding: 33px 24px;
+            .cmp-teaser__content {
+              .cmp-teaser__title {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 28px;
+                margin-bottom: 8px;
+              }
+
+              .cmp-teaser__description {
+                font-family: Manrope;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
