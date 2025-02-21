@@ -46,7 +46,7 @@ function renderSearchResults(container, srchResultCon) {
   container.appendChild(fragment);
 }
 
-function guidesTOCSearch(searchInput="toc-search", resultContainer="toc-search-results") {
+function guidesTOCSearch(searchInput = "toc-search", resultContainer = "toc-search-results") {
   const guidesSearchInput = document.getElementById(searchInput);
   const srchResultCon = document.getElementById(resultContainer);
   tocJson = JSON.parse(document.querySelector('[data-cmp-guides-side-nav-list]')?.dataset.cmpGuidesSideNavList);
@@ -57,7 +57,7 @@ function guidesTOCSearch(searchInput="toc-search", resultContainer="toc-search-r
     if (!tocFlatArr) tocFlatArr = processTocJson();
     const searchResults = searchInToc(e.target.value.trim());
 
-    if(searchResults.length === 0) {
+    if (searchResults.length === 0) {
       srchResultCon.style.display = "none";
     } else {
       srchResultCon.style.display = "unset";
@@ -73,14 +73,14 @@ export default guidesTOCSearch;
 var arrowbtnleft = document.querySelector(".arrow-btn-left");
 var sidepanel = document.querySelector(".left-container");
 
-
-arrowbtnleft.addEventListener("click", function () {
+if (arrowbtnleft) {
+  arrowbtnleft.addEventListener("click", function () {
 
     let spWidth = sidepanel.offsetWidth;
     let spMarginLeft = parseInt(window.getComputedStyle(sidepanel).marginLeft, 10);
     let w = (spMarginLeft >= 0) ? spWidth * -1 : 0;
 
-    if(w < 0) {
+    if (w < 0) {
       sidepanel.classList.add('hide-side-panel');
       arrowbtnleft.classList.add('arrow-opposite');
     } else {
@@ -89,30 +89,41 @@ arrowbtnleft.addEventListener("click", function () {
     }
 
     sidepanel.style.transition = "margin-left 0.4s ease-in-out";
-    sidepanel.style.marginLeft = w + "px";    
-});
+    sidepanel.style.marginLeft = w + "px";
+
+    // sidepanel.classList.add('hide-side-panel');
+  });
+}
+
+
 
 //right arrow 
 
 var arrowbtnright = document.querySelector(".arrow-btn-right");
 var sidepanelRight = document.querySelector(".right-container");
 
-arrowbtnright.addEventListener("click", function () {
-  let spWidth = sidepanelRight.offsetWidth;
-  let spMarginRight = parseInt(window.getComputedStyle(sidepanelRight).marginRight, 10);
-  let w = (spMarginRight >= 0) ? spWidth * -1 : 0;
+if (arrowbtnright) {
+  arrowbtnright.addEventListener("click", function () {
+    let spWidth = sidepanelRight.offsetWidth;
+    let spMarginRight = parseInt(window.getComputedStyle(sidepanelRight).marginRight, 10);
+    let w = (spMarginRight >= 0) ? spWidth * -1 : 0;
 
-  if(w < 0) {
-    sidepanelRight.classList.add('hide-side-panel');
-    arrowbtnright.classList.add('arrow-opposite');
-  } else {
-    sidepanelRight.classList.remove('hide-side-panel');
-    arrowbtnright.classList.remove('arrow-opposite');
-  }
+    if (w < 0) {
+      sidepanelRight.classList.add('hide-side-panel');
+    } else {
+      sidepanelRight.classList.remove('hide-side-panel');
+    }
 
-  sidepanelRight.style.transition = "margin-right 0.4s ease-in-out";
-  sidepanelRight.style.marginRight = w + "px";
-});
+    // let cw = (w < 0) ? -w : spWidth - 22;
+
+    sidepanelRight.style.transition = "margin-right 0.4s ease-in-out";
+    sidepanelRight.style.marginRight = w + "px";
+    // sidepanelRight.classList.add('hide-side-panel');  
+  });
+}
+
+
+
 
 
 var blog = document.querySelector('.topic-body');
@@ -120,7 +131,6 @@ var blogLen = blog.innerText.trim().split(/\s+/).length;
 const wpm = 225;
 const time = Math.ceil(blogLen / wpm);
 document.querySelector('.time-to-read p').textContent = time + ' min read';
-
 
 
 
