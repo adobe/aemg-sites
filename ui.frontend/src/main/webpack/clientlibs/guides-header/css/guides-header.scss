@@ -67,10 +67,17 @@
     align-items: center;
     gap: 18.65px;
 
-    img {
+    .fa-magnifying-glass {
         width: 16px;
         height: 16px;
         cursor: pointer;
+        color: var(--color-primary);
+    }
+    .fa-moon {
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+        color: var(--color-primary);
     }
 
     .language-selector {
