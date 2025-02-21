@@ -5,7 +5,7 @@ import com.adobe.cq.wcm.core.components.models.Component;
 import com.adobe.cq.wcm.core.components.models.ListItem;
 import com.drew.lang.annotations.NotNull;
 
-public interface GuidesPager extends Component {
+    public interface GuidesPager extends Component {
     default ListItem getPrev() {
         throw new UnsupportedOperationException();
     }
