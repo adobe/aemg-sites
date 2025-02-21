@@ -33,18 +33,27 @@ body {
       overflow: hidden;
     }
 
+    @media screen and (max-width: $screen-md) {
+      &:has(.toc-modal), input ,.topic-header .cmp-container {
+        background: transparent;
+        border-color: transparent !important;
+      }
+    }
+
     .left-container {
       position: unset;
 
       .cmp-guides-navigation {
         position: absolute;
-        top: 20%;
+        top: 35%;
         right: 0;
         bottom: 0;
         left: 0;
         background-color: var(--color-bg);
         z-index: 1;
         display: block;
+        padding-left: 24px;
+        border-radius: 22px 22px 0 0;
 
         .guides-navigation {
           height: 100%;
@@ -57,8 +66,8 @@ body {
       }
     }
   }
-}
 
+}
 
 
 .box-container {
