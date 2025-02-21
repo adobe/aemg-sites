@@ -1,3 +1,11 @@
+.sharepopup  {
+  color: var(--color-primary);
+
+  .close {
+    color: var(--color-accent);
+  }
+}
+
 .popup {
   position: absolute;
   left: 50%;
@@ -54,6 +62,7 @@
 header span {
   font-size: 21px;
   font-weight: 600;
+  color: var(--color-primary);
 }
 
 header .close,

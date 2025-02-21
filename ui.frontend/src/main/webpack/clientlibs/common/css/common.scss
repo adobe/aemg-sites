@@ -7,6 +7,7 @@ body {
     @media screen and (max-width: $screen-md) {
       background-color: rgba(0, 0, 0, 0.5);
       height: 100vh;
+      position: fixed;
       overflow: hidden;
     }
 
@@ -22,6 +23,15 @@ body {
         background-color: var(--color-bg);
         z-index: 1;
         display: block;
+
+        .guides-navigation {
+          height: 100%;
+
+          .cmp-guidesnavigation__group {
+            height: 100%;
+            overflow-y: scroll;
+          }
+        }
       }
     }
   }
