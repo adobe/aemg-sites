@@ -2,8 +2,30 @@
 
 body {
 
+  .toc-popup-init {
+    display: none;
+
+    @media screen and (max-width: $screen-md) {
+      display: inline-block;
+    }
+
+    .cmp-button {
+      background: transparent;
+      outline: none;
+      border: none;
+      color: var(--color-primary);
+      display: inline-block;
+      padding-inline: 0px;
+
+      &::before {
+        content: "\f03a";
+        font-family: "FontAwesome";
+      }
+    }
+  }
+
   &.toc-modal {
-    
+
     @media screen and (max-width: $screen-md) {
       background-color: rgba(0, 0, 0, 0.5);
       height: 100vh;
@@ -36,6 +58,8 @@ body {
     }
   }
 }
+
+
 
 .box-container {
   max-width: 88%;
@@ -71,13 +95,14 @@ body {
   padding-top: 40px;
   width: 100%;
   border-right: 1px solid var(--color-border-light);
-  @media screen and (max-width : $screen-sm){
+
+  @media screen and (max-width : $screen-sm) {
     max-width: unset;
     padding-right: unset;
     border-right: unset;
     position: relative;
 
-    .cmp-guides-navigation{
+    .cmp-guides-navigation {
       display: none;
     }
   }
@@ -87,6 +112,7 @@ body {
   padding: 40px 40px;
   width: 100%;
   position: relative;
+
   @media screen and (max-width: $screen-md) {
     padding: unset;
   }
@@ -188,10 +214,11 @@ body {
 }
 
 //toc search
-.left-container{
-  .toc-search{
+.left-container {
+  .toc-search {
     padding-top: 10px;
-    .cmp-form-text{
+
+    .cmp-form-text {
       position: relative;
     }
 
@@ -280,7 +307,8 @@ body {
     border-left: 2px solid var(--color-primary);
     padding-left: 2px;
   }
-  @media screen and (max-width : $screen-sm){
+
+  @media screen and (max-width : $screen-sm) {
     display: none;
   }
 }
@@ -307,12 +335,13 @@ body {
     border-right: 2px solid var(--color-primary);
     padding-right: 2px;
   }
-  @media screen and (max-width : $screen-sm){
+
+  @media screen and (max-width : $screen-sm) {
     display: none;
   }
 }
 
-.button.arrow-opposite .cmp-button::before{
+.button.arrow-opposite .cmp-button::before {
   transform: rotate(180deg);
   display: inline-block;
 }
