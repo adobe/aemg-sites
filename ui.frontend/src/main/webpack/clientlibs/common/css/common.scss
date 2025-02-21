@@ -7,6 +7,7 @@ body {
     @media screen and (max-width: $screen-md) {
       background-color: rgba(0, 0, 0, 0.5);
       height: 100vh;
+      position: fixed;
       overflow: hidden;
     }
 
@@ -21,6 +22,16 @@ body {
         left: 0;
         background-color: var(--color-bg);
         z-index: 1;
+        display: block;
+
+        .guides-navigation {
+          height: 100%;
+
+          .cmp-guidesnavigation__group {
+            height: 100%;
+            overflow-y: scroll;
+          }
+        }
       }
     }
   }
@@ -33,7 +44,7 @@ body {
 
   @media screen and (max-width: $screen-md) {
     max-width: 100%;
-    padding-inline: 14px;
+    padding-inline: 24px;
   }
 }
 
@@ -59,14 +70,26 @@ body {
   padding-right: 16px;
   padding-top: 40px;
   width: 100%;
+  border-right: 1px solid var(--color-border-light);
+  @media screen and (max-width : $screen-sm){
+    max-width: unset;
+    padding-right: unset;
+    border-right: unset;
+    position: relative;
+
+    .cmp-guides-navigation{
+      display: none;
+    }
+  }
 }
 
 .middle-container {
-  border-left: 1px solid var(--color-border-light);
-  border-right: 1px solid var(--color-border-light);
   padding: 40px 40px;
   width: 100%;
   position: relative;
+  @media screen and (max-width: $screen-md) {
+    padding: unset;
+  }
 }
 
 .right-container {
@@ -75,6 +98,7 @@ body {
   padding-left: 26px;
   padding-top: 40px;
   width: 100%;
+  border-left: 1px solid var(--color-border-light);
 }
 
 .hero-container {
@@ -164,11 +188,10 @@ body {
 }
 
 //toc search
-.left-container {
-  .toc-search {
-    padding-top: 19px;
-
-    .cmp-form-text {
+.left-container{
+  .toc-search{
+    padding-top: 10px;
+    .cmp-form-text{
       position: relative;
     }
 
@@ -247,12 +270,18 @@ body {
   .cmp-button {
     border: unset;
     background-color: unset;
+    color: var(--color-primary);
   }
 
   .cmp-button::before {
     content: '\f060';
     font-family: "Font Awesome 6 Free";
     font-weight: 600;
+    border-left: 2px solid var(--color-primary);
+    padding-left: 2px;
+  }
+  @media screen and (max-width : $screen-sm){
+    display: none;
   }
 }
 
@@ -268,13 +297,24 @@ body {
   .cmp-button {
     border: unset;
     background-color: unset;
+    color: var(--color-primary);
   }
 
   .cmp-button::before {
     content: '\f061';
     font-family: "Font Awesome 6 Free";
     font-weight: 600;
+    border-right: 2px solid var(--color-primary);
+    padding-right: 2px;
   }
+  @media screen and (max-width : $screen-sm){
+    display: none;
+  }
+}
+
+.button.arrow-opposite .cmp-button::before{
+  transform: rotate(180deg);
+  display: inline-block;
 }
 
 
