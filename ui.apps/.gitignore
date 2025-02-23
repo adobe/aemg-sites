@@ -1,5 +1,6 @@
 # Ignore everything in the clientlibs folder
 /src/main/content/jcr_root/apps/aemguidesDALP/clientlibs/*
 
-# Except for the clientlib-fontawesome folder
+# Except for the clientlib-fontawesome, chartjs folder
 !/src/main/content/jcr_root/apps/aemguidesDALP/clientlibs/clientlib-fontawesome/
+!/src/main/content/jcr_root/apps/aemguidesDALP/clientlibs/chart/
