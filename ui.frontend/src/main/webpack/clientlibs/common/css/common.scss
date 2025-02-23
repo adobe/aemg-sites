@@ -400,7 +400,7 @@ body {
 }
 
 .hide-side-panel {
-  animation: sidepanel-hide 0.35s forwards;
+  animation: sidepanel-hide 0.28s forwards;
 }
 
 @keyframes sidepanel-show {
@@ -419,4 +419,16 @@ body {
 
 .show-side-panel {
   animation: sidepanel-show 0.1s forwards;
+}
+
+//chart
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.assets-evaluation-polar {
+  max-width: 641px;
+  max-height: 641px;
+  // margin-inline: auto;
 }

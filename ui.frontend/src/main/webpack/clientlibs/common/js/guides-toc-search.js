@@ -128,8 +128,10 @@ if (arrowbtnright) {
 
     if (w < 0) {
       sidepanelRight.classList.add('hide-side-panel');
+      arrowbtnright.classList.add('arrow-opposite');
     } else {
       sidepanelRight.classList.remove('hide-side-panel');
+      arrowbtnright.classList.remove('arrow-opposite');
     }
 
     // let cw = (w < 0) ? -w : spWidth - 22;
