@@ -32,18 +32,22 @@ function processTocJson() {
   return tocArr;
 }
 
-function renderSearchResults(container, srchResultCon) {
+function renderSearchResults(srchResultCon, searchResults) {
   const fragment = document.createDocumentFragment();
-  container.innerHTML = "";
+  srchResultCon.innerHTML = "";
 
-  srchResultCon.forEach(function (obj) {
+  if(!searchResults.length) {
+    srchResultCon.innerHTML = "No Results";
+  }
+
+  searchResults.forEach(function (obj) {
     const link = document.createElement('a');
     link.href = obj.outputPath;
     link.textContent = obj.displayName;
     fragment.appendChild(link);
   });
 
-  container.appendChild(fragment);
+  srchResultCon.appendChild(fragment);
 }
 
 function guidesTOCSearch(searchInput = "toc-search", resultContainer = "toc-search-results") {
@@ -57,14 +61,28 @@ function guidesTOCSearch(searchInput = "toc-search", resultContainer = "toc-sear
     if (!tocFlatArr) tocFlatArr = processTocJson();
     const searchResults = searchInToc(e.target.value.trim());
 
-    if (searchResults.length === 0) {
-      srchResultCon.style.display = "none";
-    } else {
+    if (searchResults.length) {
       srchResultCon.style.display = "unset";
     }
     // console.log(searchResults);
     renderSearchResults(srchResultCon, searchResults);
   }, 300));
+
+  toggleSearchDropDown(guidesSearchInput, srchResultCon);
+}
+
+function toggleSearchDropDown(guidesSearchInput, srchResultCon) {
+  document.querySelector("body").addEventListener("click", function (e) {
+    if (
+      (e.target.closest(".toc-search") || e.target.closest(".toc-search-container"))
+      && (guidesSearchInput.value.length)
+    ) {
+      srchResultCon.style.display = "unset";
+      return;
+    }
+
+    srchResultCon.style.display = "none";
+  });
 }
 
 export default guidesTOCSearch;
