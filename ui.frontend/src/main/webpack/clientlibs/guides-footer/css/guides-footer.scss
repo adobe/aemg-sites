@@ -1,15 +1,15 @@
-:root {
-    --color-accent: ;
-    --color-on-accent: ;
-    --color-primary: #013220;
-    --color-on-primary : #FDA14A;
-    --color-primary-light :  #E2F8F0;
-    --color-primary-faded : #4D7063;
-    --color-border: #ACACAC;
-    --color-border-light : #D8D8D8;
-    --color-gray-light : #2C343B;
-    --color-bg : #FFFFFF;
-}
+// :root {
+//     --color-accent: ;
+//     --color-on-accent: ;
+//     --color-primary: #013220;
+//     --color-on-primary : #FDA14A;
+//     --color-primary-light :  #E2F8F0;
+//     --color-primary-faded : #4D7063;
+//     --color-border: #ACACAC;
+//     --color-border-light : #D8D8D8;
+//     --color-gray-light : #2C343B;
+//     --color-bg : #FFFFFF;
+// }
 
 @mixin flex-container {
     display: flex;
@@ -22,6 +22,7 @@
 .footer {
     // background-color: #0D0D0D;
     background-color: var(--color-primary-light);
+    border-top: 0.5px solid var(--color-border-light);
     padding: 94px 85px 94px 88px;
 }
 
@@ -191,7 +192,7 @@
         line-height: var(--text-sm-lh);
         font-family: primary;
         font-weight: 400;
-        color: var(--color-primar);
+        color: var(--color-primary);
     }
 
     .footer_privacy-wrapper {

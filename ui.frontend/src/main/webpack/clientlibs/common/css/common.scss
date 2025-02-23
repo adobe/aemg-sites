@@ -34,7 +34,10 @@ body {
     }
 
     @media screen and (max-width: $screen-md) {
-      &:has(.toc-modal), input ,.topic-header .cmp-container {
+
+      &:has(.toc-modal),
+      input,
+      .topic-header .cmp-container {
         background: transparent;
         border-color: transparent !important;
       }
@@ -89,9 +92,9 @@ body {
   &>.cmp-container {
     display: flex;
     flex-wrap: nowrap;
-    border-top: 1px solid var(--color-border-light);
+    // border-top: 1px solid var(--color-border-light);
 
-    @media screen and (max-width: $screen-sm) {
+    @media screen and (max-width: $screen-md) {
       display: block;
     }
   }
@@ -99,17 +102,27 @@ body {
 
 .left-container {
   max-width: 23%;
-  position: sticky;
-  padding-right: 16px;
-  padding-top: 40px;
   width: 100%;
   border-right: 1px solid var(--color-border-light);
 
-  @media screen and (max-width : $screen-sm) {
+  &>.cmp-container {
+    position: sticky;
+    padding-right: 16px;
+    padding-top: 40px;
+    // top: 120px;
+    top: 0;
+    padding-bottom: 54px;
+
+    @media screen and (max-width: $screen-md) {
+      padding-right: unset;
+      position: unset;
+      padding-bottom: unset;
+    }
+  }
+
+  @media screen and (max-width : $screen-md) {
     max-width: unset;
-    padding-right: unset;
     border-right: unset;
-    position: relative;
 
     .cmp-guides-navigation {
       display: none;
@@ -129,11 +142,27 @@ body {
 
 .right-container {
   max-width: 23%;
-  position: sticky;
-  padding-left: 26px;
-  padding-top: 40px;
   width: 100%;
   border-left: 1px solid var(--color-border-light);
+  
+  &>.cmp-container {
+    position: sticky;
+    padding-left: 26px;
+    padding-top: 40px;
+    top: 0;
+    padding-bottom: 70px;
+
+    @media screen and (max-width: $screen-md) {
+      padding-left: unset;
+      position: unset;
+      padding-bottom: unset;
+    }
+  }
+
+
+  @media screen and (max-width: $screen-md) {
+    border-left: none;
+  }
 }
 
 .hero-container {
@@ -299,7 +328,7 @@ body {
   justify-content: flex-end;
   padding-top: 11px;
   position: absolute;
-  left: -36px;
+  left: -48px;
   top: -2px;
   z-index: 1;
 
@@ -317,7 +346,7 @@ body {
     padding-left: 2px;
   }
 
-  @media screen and (max-width : $screen-sm) {
+  @media screen and (max-width : $screen-md) {
     display: none;
   }
 }
@@ -345,7 +374,7 @@ body {
     padding-right: 2px;
   }
 
-  @media screen and (max-width : $screen-sm) {
+  @media screen and (max-width : $screen-md) {
     display: none;
   }
 }

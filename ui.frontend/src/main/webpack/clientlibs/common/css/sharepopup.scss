@@ -1,3 +1,5 @@
+@use "../../utils/css/vars" as *;
+
 .sharepopup  {
   color: var(--color-primary);
 
@@ -32,8 +34,13 @@
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
   transform: translate(-50%, -50%) scale(1.2);
   transition: top 0s 0.2s ease-in-out,
-    opacity 0.2s 0s ease-in-out,
-    transform 0.2s 0s ease-in-out;
+  opacity 0.2s 0s ease-in-out,
+  transform 0.2s 0s ease-in-out;
+
+  @media screen and (max-width: $screen-sm) {
+    max-width: 310px;
+    padding: 12px;
+  }
 }
 
 .popup.show {
@@ -59,13 +66,13 @@
   border-bottom: 1px solid #ebedf9;
 }
 
-header span {
+.popup header span {
   font-size: 21px;
   font-weight: 600;
   color: var(--color-primary);
 }
 
-header .close,
+.popup header .close,
 .icons a {
   display: flex;
   align-items: center;
@@ -74,7 +81,7 @@ header .close,
   transition: all 0.3s ease-in-out;
 }
 
-header .close {
+.popup header .close {
   color: #878787;
   font-size: 17px;
   background: #f3f3f3;
@@ -83,7 +90,7 @@ header .close {
   cursor: pointer;
 }
 
-header .close:hover {
+.popup header .close:hover {
   background: #ebedf9;
 }
 
