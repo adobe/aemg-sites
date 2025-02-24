@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', function () {
   // Ensure the chart container exists before appending
   var chartContainer = document.querySelector(".chart-container");
   if (!chartContainer) {
-    console.error("Chart container not found");
+    console.warn("Chart container not found");
     return;
   }
 
