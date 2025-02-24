@@ -84,15 +84,21 @@
             text-decoration: none;
             width: 125px;
             height: 40px;
+            border: none;
           }
 
           .cmp-teaser__image {
             order: 0;
-
-            .cmp-image__image {
-              margin-bottom: 48px;
+            margin-bottom: 48px;
+            width: 40px;
+            height: 40px;
+            .cmp-image {
               width: 40px;
               height: 40px;
+              .cmp-image__image {
+                width: 40px;
+                height: 40px;
+              }
             }
           }
         }
@@ -122,17 +128,25 @@
       .cmp-list__item {
         list-style-type: none;
         .cmp-teaser {
-          .cmp-teaser__image {
-            .cmp-image__image {
-              margin-bottom: 24px;
-              width: 36px;
-              height: 36px;
-            }
-          }
           .cmp-teaser__link {
             width: 327px;
             height: 326px;
             padding: 33px 24px;
+
+            .cmp-teaser__image {
+              margin-bottom: 24px;
+              width: 36px;
+              height: 36px;
+              .cmp-image {
+                width: 36px;
+                height: 36px;
+                .cmp-image__image {
+                  width: 36px;
+                  height: 36px;
+                }
+              }
+            }
+            
             .cmp-teaser__content {
               .cmp-teaser__title {
                 font-weight: 400;
