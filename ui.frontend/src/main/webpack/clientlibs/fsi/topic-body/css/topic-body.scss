@@ -13,7 +13,7 @@
     color: var(--color-primary);
     font-weight: 400;
     font-family: var(--font-fam-primary);
-    padding: 40px 0px 8px 0px;
+    padding: 40px 0px 12px 0px;
 
     @media screen and (max-width : $screen-sm){
       font-size: var(--text-xl);
@@ -110,6 +110,12 @@
     line-height: var(--text-sm-lh);
     color: var(--color-primary);
     font-family: var(--font-fam-primary);
+  }
+  h2{
+    font-weight: 400;
+    font-size: var(--text-lg);
+    line-height: var(--text-lg-lh);
+    margin-bottom: 7px;
   }
   .cmp-text .p ,.shortdesc{
     font-size: var(--text-base);
