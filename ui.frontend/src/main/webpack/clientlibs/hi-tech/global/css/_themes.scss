@@ -1,9 +1,4 @@
 @mixin light-theme {
-  // --color-accent: #821616;
-  // --color-primary: #001E3A;
-  // --color-primary-70: #001e3ab3;
-  // --color-neutral: #D8D8D8;
-  // --color-bg: #FFFFFF;
   --color-accent: #01EA57;
   --color-primary: #0C1256;
   --color-primary-white: #FFFFFF;
@@ -19,19 +14,38 @@
 // codeblock 
     --color-neutral-light: #EEEEEE;
     --color-neutral-dark: #ddd;
- 
+    .theme-btn {
+      &::before {
+        content: "\f185";
+      }
+    }
 }
 
 @mixin dark-theme {
 
+  .theme-btn {
+    &::before {
+      content: "\f186";
+    }
+  }
 }
 
 .light {
   @include light-theme();
+  .theme-btn {
+    &::before {
+      content: "\f185" !important;
+    }
+  }
 }
 
 .dark {
   @include dark-theme();
+  .theme-btn {
+    &::before {
+      content: "\f186" !important;
+    }
+  }
 }
 
 // OS Default.
