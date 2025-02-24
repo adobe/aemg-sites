@@ -191,6 +191,13 @@
   text-align: center;
 }
 
+.field i.url-icon::before{
+  font-size: var(--text-xs);
+  content: "\f0c1";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 600;
+}
+
 .field.active i {
   color: #7d2ae8;
 }
