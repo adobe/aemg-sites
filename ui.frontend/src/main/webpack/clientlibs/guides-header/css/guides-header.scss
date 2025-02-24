@@ -40,6 +40,7 @@
 
 .navigation-menus {
     flex-grow: 1;
+    color: var(--color-primary);
     // display: flex;
     // justify-content: center;
 
@@ -52,6 +53,7 @@
 
         li {
             margin-left: 0px;
+            margin-bottom: unset;
         
             a {
                 text-decoration: none;

@@ -1,15 +1,4 @@
-// :root {
-//     --color-accent: ;
-//     --color-on-accent: ;
-//     --color-primary: #013220;
-//     --color-on-primary : #FDA14A;
-//     --color-primary-light :  #E2F8F0;
-//     --color-primary-faded : #4D7063;
-//     --color-border: #ACACAC;
-//     --color-border-light : #D8D8D8;
-//     --color-gray-light : #2C343B;
-//     --color-bg : #FFFFFF;
-// }
+
 
 @mixin flex-container {
     display: flex;
@@ -24,6 +13,7 @@
     background-color: var(--color-primary-light);
     border-top: 0.5px solid var(--color-border-light);
     padding: 94px 85px 94px 88px;
+    font-family: var(--font-fam-primary);
 }
 
 @media screen and (max-width: 768px) {
@@ -53,7 +43,6 @@
             color: var(--color-primary);
             font-size: var(--text-lg);
             line-height: var(--text-lg-lh);
-            font-family: primary;
             padding-top: 32px;
             font-weight: 400;
         }
@@ -70,7 +59,6 @@
                 color: var(--color-primary);
                 font-size: var(--text-lg);
                 line-height: var(--text-lg-lh);
-                font-family: primary;
                 font-weight: 400;
             }
             .footer_links-list {
@@ -83,7 +71,6 @@
                         color: var(--color-primary);
                         font-size: var(--text-sm);
                         line-height: var(--text-sm-lh);
-                        font-family: primary;
                         font-weight: 400;
                         margin: 0;
                         padding-bottom: 8px;
@@ -190,7 +177,6 @@
     .footer_copywrite {
         font-size: var(--text-sm);
         line-height: var(--text-sm-lh);
-        font-family: primary;
         font-weight: 400;
         color: var(--color-primary);
     }
