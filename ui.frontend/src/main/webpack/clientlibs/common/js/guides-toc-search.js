@@ -42,7 +42,7 @@ function renderSearchResults(srchResultCon, searchResults) {
 
   searchResults.forEach(function (obj) {
     const link = document.createElement('a');
-    link.href = obj.outputPath;
+    link.href = obj.outputPath + '.html';
     link.textContent = obj.displayName;
     fragment.appendChild(link);
   });
