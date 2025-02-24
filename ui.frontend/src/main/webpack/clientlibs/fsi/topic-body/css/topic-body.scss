@@ -145,14 +145,12 @@
   .table {
     margin-bottom: 40px;
     margin-top: 40px;
-    caption{
-      margin-bottom: 8px;
-    }
-    @media screen and (max-width : $screen-sm){
-      overflow: auto;
+    overflow: auto;
       &::-webkit-scrollbar {
         display: none;
       }
+    caption{
+      margin-bottom: 8px;
     }
   }
   .tbody b {
