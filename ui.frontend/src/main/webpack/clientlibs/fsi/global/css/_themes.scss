@@ -1,7 +1,7 @@
 @use "../../../utils/css/palette-generator" as *;
 
 @mixin light-theme {
-  --color-accent: ;
+  --color-accent: #FDA14A;
   --color-on-accent: ;
   --color-primary: #013220;
   --color-on-primary: #FDA14A;
@@ -23,7 +23,7 @@
   --color-bg: #1a1b26;
   --color-primary: #AFB8E1;
   --color-primary-faded: #AFB8E1;
-  --color-accent: #1ABC9C;
+  --color-accent: #FDA14A;
   --color-on-primary: #1a1b26;
   --color-border-light: #D8D8D8;
   --color-gray-light: #AFB8E1;
