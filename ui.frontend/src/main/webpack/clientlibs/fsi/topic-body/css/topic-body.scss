@@ -1,13 +1,13 @@
 @use "../../../utils/css/vars" as *;
 
-.middle-container{
-  .breadcrumb ol li a, .breadcrumb ol li.cmp-breadcrumb__item--active{
+.middle-container {
+  .breadcrumb ol li a, .breadcrumb ol li.cmp-breadcrumb__item--active {
     font-size: var(--text-xs);
   }
 }
 
 #topic-title {
-  &>.cmp-title__text {
+  & > .cmp-title__text {
     font-size: var(--text-2xl);
     line-height: var(--text-2xl-lh);
     color: var(--color-primary);
@@ -15,48 +15,47 @@
     font-family: var(--font-fam-primary);
     padding: 40px 0px 12px 0px;
 
-    @media screen and (max-width : $screen-sm){
+    @media screen and (max-width: $screen-sm) {
       font-size: var(--text-xl);
       padding: 28px 0 12px 0px;
     }
   }
 }
 
-.topic-header{
-  .cmp-container{
+.topic-header {
+  .cmp-container {
     border-top: 1px solid var(--color-border-light);
     border-bottom: 1px solid var(--color-border-light);
     padding: 16px 0px;
-    .cmp-button{
+    .cmp-button {
       background-color: transparent;
       border: unset;
     }
   }
-  .time-to-read{
+  .time-to-read {
     margin-right: auto;
-    .cmp-text{
+    .cmp-text {
       font-family: var(--font-fam-primary);
-      font-size: var( --text-xs);
-      line-height: var( --text-xs-lh);
+      font-size: var(--text-xs);
+      line-height: var(--text-xs-lh);
       font-weight: 500;
-      color: var( --color-primary-faded);
-      p{
+      color: var(--color-primary-faded);
+      p {
         display: flex;
       }
     }
     .cmp-text p::before {
       content: "\f017";
-      font-family: "Font Awesome 6 Free"; 
+      font-family: "Font Awesome 6 Free";
       margin-right: 10px;
       font-size: 21px;
     }
   }
-  .bookmark{
+  .bookmark {
     .cmp-button {
-
-      &::before{
-        content: '\f02e';
-        font-family: "Font Awesome 6 Free"; 
+      &::before {
+        content: "\f02e";
+        font-family: "Font Awesome 6 Free";
         cursor: pointer;
       }
 
@@ -65,28 +64,28 @@
         cursor: pointer;
       }
     }
-    
-    
   }
-  .pdf-download{
-    .cmp-button::before{
+  .pdf-download {
+    .cmp-button::before {
       content: "\f019";
-      font-family: "Font Awesome 6 Free"; 
+      font-family: "Font Awesome 6 Free";
       font-weight: 900;
       cursor: pointer;
     }
   }
-  .share{
-    .cmp-button::before{
-      content: '\f14d';
-      font-family: "Font Awesome 6 Free"; 
+  .share {
+    .cmp-button::before {
+      content: "\f14d";
+      font-family: "Font Awesome 6 Free";
       cursor: pointer;
     }
   }
-  .bookmark, .pdf-download, .share{
+  .bookmark,
+  .pdf-download,
+  .share {
     @extend .circle;
   }
-  .circle{
+  .circle {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -97,37 +96,57 @@
     align-items: center;
     background-color: var(--color-primary);
     margin-left: 15px;
-    .cmp-button{
+    .cmp-button {
       color: var(--color-on-primary);
       font-size: var(--text-base);
     }
   }
 }
-
+.table-heading {
+  font-family: Manrope;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #013220;
+  @media screen and (max-width: $screen-sm){
+    padding: 0px 24px;
+  }
+  a{
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    @media screen and (max-width: $screen-sm){
+      padding: 0px;
+    }
+  }
+}
 .topic-body {
-  &>.cmp-container {
+  & > .cmp-container {
     font-size: var(--text-sm);
     line-height: var(--text-sm-lh);
     color: var(--color-primary);
     font-family: var(--font-fam-primary);
   }
-  h2{
+  h2 {
     font-weight: 400;
     font-size: var(--text-lg);
     line-height: var(--text-lg-lh);
     margin-bottom: 7px;
   }
-  .cmp-text .p ,.shortdesc{
+  .cmp-text .p,
+  .shortdesc {
     font-size: var(--text-base);
     font-weight: 400;
-    line-height: var( --text-lg-lh);
+    line-height: var(--text-lg-lh);
     margin-bottom: 40px;
   }
-  .cmp-text .info{
-    margin : 40px 0px
+  .cmp-text .info {
+    margin: 40px 0px;
   }
-  .colspec, .row{
-    border:  0.5px solid var(--color-border);
+  .colspec,
+  .row {
+    border: 0.5px solid var(--color-border);
   }
   .thead {
     font-size: var(--text-xs);
@@ -135,7 +154,7 @@
     font-weight: 500;
     color: var(--color-primary);
     background-color: var(--color-primary-light);
-    border: 0.5px solid var( --color-border);
+    border: 0.5px solid var(--color-border);
     text-align: left;
   }
   .tbody {
@@ -143,28 +162,46 @@
     line-height: var(--text-2xs-lh);
     font-weight: 400;
     color: var(--color-gray-light);
-    border: 0.5px solid var( --color-border);
+    border: 0.5px solid var(--color-border);
   }
-  .entry {
-    padding: 8px 16px;
+  th.entry {
+    padding: 14px 16px;
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
   }
+
+  td.entry {
+    padding: 26px 16px;
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+  }
+
   .table {
     margin-bottom: 40px;
-    margin-top: 40px;
+
     overflow: auto;
-      &::-webkit-scrollbar {
-        display: none;
-      }
-    caption{
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    caption {
       margin-bottom: 8px;
+    }
+    @media screen and (max-width: $screen-sm){
+      padding: 0px 0px 0px 24px;
     }
   }
   .tbody b {
     font-weight: 700;
-    color: var( --color-primary);
-    font-size: var(--text-2xs);
+    color: var(--color-primary);
+    font-size: var(--text-sm);
   }
-  .tbody .p{
+  .tbody .p {
     margin-bottom: 16px;
   }
   ul {
@@ -173,32 +210,32 @@
   }
   li {
     margin-bottom: 16px;
-    font-size: var( --text-2xs);
+    font-size: var(--text-sm);
   }
-  .info-note-primary-light{
+  .info-note-primary-light {
     background-color: var(--color-primary-light);
     padding: 10px 25px;
-    .p{
+    .p {
       margin-bottom: unset;
       font-size: var(--text-sm);
     }
   }
-  .info-note-primary{
+  .info-note-primary {
     background-color: var(--color-primary);
     padding: 10px 25px;
-    color: var( --color-on-primary);
-    .p{
+    color: var(--color-on-primary);
+    .p {
       margin-bottom: unset;
     }
   }
-  @media screen and (max-width : $screen-sm){
+  @media screen and (max-width: $screen-sm) {
     .thead {
       font-size: var(--text-sm);
     }
     .tbody {
       font-size: var(--text-xs);
     }
-    li{
+    li {
       font-size: var(--text-xs);
     }
   }
