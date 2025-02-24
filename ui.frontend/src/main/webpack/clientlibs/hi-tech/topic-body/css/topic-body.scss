@@ -17,7 +17,7 @@ body{
     font-weight: 500;
     line-height: var(--text-4xl-lh);
     color: var(--color-primary);
-    
+
     @media screen and (max-width : $screen-md){
       font-size: var(--text-3xl);
       line-height: var(--text-3xl-lh);
@@ -329,8 +329,8 @@ align-items: center;
 //   transform: rotate(90deg);
   
 // }
-.cmp-pager__prev svg , 
-.cmp-pager__next svg {
+.cmp-pager__prev .pager-icon , 
+.cmp-pager__next .pager-icon {
     font-size: var(--text-base);
 }
 // footer
