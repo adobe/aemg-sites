@@ -64,7 +64,7 @@
                 transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 
                 &:hover {
-                    color: var(--color-on-primary);
+                    color: var(--color-accent);
                     transform: translateY(-2px);
                 }
             }
@@ -136,7 +136,7 @@
         font-weight: 400;
 
         &:hover {
-            background: #024e33;
+            background: var(--color-accent);
         }
     }
     .hamburger_icon {
