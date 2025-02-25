@@ -6,7 +6,6 @@
   <title>TOC Page Layout</title>
   <meta name="page-style" content="size:A4 portrait; margin-bottom : 140px;" />
   <meta name="footnote-style" content="" />
-
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
@@ -16,7 +15,7 @@
   <div data-region="header">
     <div class="toc_header">
       <p class="toc_header_title" style="">Content Overview</p>
-      <img class="toc_header_logo" src="../../../aemguidesDALP/fsi/images/simp-firstpage-logo.png" />
+      <img class="toc_header_logo" src="../../../aemguidesDALP/fsi/images/common/simp-firstpage-logo.png" />
     </div>
   </div>
   <div data-region="content"></div>

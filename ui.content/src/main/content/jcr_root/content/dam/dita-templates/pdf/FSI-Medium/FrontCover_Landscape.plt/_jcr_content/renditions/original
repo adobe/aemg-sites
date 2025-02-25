@@ -18,9 +18,9 @@
       <p class="frontcover_landsc_publish-date"><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span></p>
     </div>
     <div class="barchart_landsc_image_bg_color"></div>
-    <img class="barchart_landsc_image" src="../../../aemguidesDALP/fsi/images/bar-chart-img.png" />
-    <div class="histogram_landsc_image_container"><img class="histogram_landsc_image" src="../../../aemguidesDALP/fsi/images/histogram-img.png" /></div>
-    <div class="frontcover_landsc_logo_container"><img class="frontcover_landsc_logo" src="../../../aemguidesDALP/fsi/images/frontcover-logo.png" />
+    <img class="barchart_landsc_image" src="../../../aemguidesDALP/fsi/images/common/bar-chart-img.png" />
+    <div class="histogram_landsc_image_container"><img class="histogram_landsc_image" src="../../../aemguidesDALP/fsi/images/common/histogram-img.png" /></div>
+    <div class="frontcover_landsc_logo_container"><img class="frontcover_landsc_logo" src="../../../aemguidesDALP/fsi/images/common/frontcover-logo.png" />
       <p class="frontcover_landsc_text" style="">ABC is one of the largest banking and financial services organisations in the world.</p>
     </div>
   </div>

@@ -15,7 +15,7 @@
   <div data-region="header">
     <div class="toc_header">
       <p class="toc_header_title" style="">Content Overview</p>
-      <img class="toc_header_logo" src="../../../aemguidesDALP/fsi/images/toc-header-logo.png" />
+      <img class="toc_header_logo" src="../../../aemguidesDALP/fsi/images/common/toc-header-logo.png" />
     </div>
   </div>
   <div data-region="content"></div>

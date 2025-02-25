@@ -8,11 +8,11 @@
         cq:name="Common_Landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-18T16:26:51.176+05:30"
+        jcr:lastModified="{Date}2025-02-25T12:43:16.047+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-18T16:26:51.065+05:30"
+            dam:extracted="{Date}2025-02-25T12:43:15.996+05:30"
             dam:sha1="7089fadcd4eb866bed5c01fd9c5f9af2afd07da8"
             dam:size="{Long}1708"
             dc:format="application/octet-stream"

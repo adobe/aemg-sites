@@ -8,13 +8,13 @@
         cq:name="Glossary_Portrait.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-17T19:10:30.014+05:30"
+        jcr:lastModified="{Date}2025-02-25T12:43:28.710+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-17T19:10:29.961+05:30"
-            dam:sha1="5c6212332b278f7b49d9c85240fbcc88301bb926"
-            dam:size="{Long}1517"
+            dam:extracted="{Date}2025-02-25T12:43:28.626+05:30"
+            dam:sha1="448e991295ad06d251e03682ec694a6ba0f36517"
+            dam:size="{Long}1565"
             dc:format="application/xhtml+xml"
             dc:title="Glossary_Portrait.plt"
             jcr:mixinTypes="[cq:Taggable]"

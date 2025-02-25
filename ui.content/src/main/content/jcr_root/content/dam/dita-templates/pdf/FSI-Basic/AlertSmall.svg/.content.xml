@@ -5,13 +5,13 @@
     jcr:uuid="7eedfec7-d7c2-4edd-abcd-fade5fb8ea5f">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-18T16:26:49.805+05:30"
+        jcr:lastModified="{Date}2025-02-25T12:43:15.962+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         fmditaDynamicTitle="{Boolean}false"
         fmditaTitle="\0">
         <metadata
-            dam:extracted="{Date}2025-02-18T16:26:49.216+05:30"
+            dam:extracted="{Date}2025-02-25T12:43:15.471+05:30"
             dam:sha1="f8e1476db28d2c20403be4b81003d39ea41f0290"
             dam:size="{Long}695"
             dc:format="image/svg+xml"

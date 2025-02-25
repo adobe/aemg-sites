@@ -8,12 +8,12 @@
         cq:name="backcover_portrait.css"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-17T19:10:31.439+05:30"
+        jcr:lastModified="{Date}2025-02-25T12:43:29.523+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-17T19:10:31.282+05:30"
-            dam:sha1="7a8df1bf4d809560952d6e0696ff3fd90d6f71a0"
+            dam:extracted="{Date}2025-02-25T12:43:29.475+05:30"
+            dam:sha1="e24b0b8e994d58e3d398326dbe0f61a6f3b3c52d"
             dam:size="{Long}1192"
             dc:format="text/css"
             dc:title="backcover_portrait.css"
