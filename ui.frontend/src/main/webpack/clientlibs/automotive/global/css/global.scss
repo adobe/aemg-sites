@@ -1,9 +1,15 @@
 @use "../../../common/css";
 @use "themes";
+@use "fonts" as *;
+
+:root{
+  @include fonts;
+}
 
 
 body {
   background-color: var(--color-bg);
+  font-family: var(--font-fam-secondary);
 }
 
 .hero-container {
