@@ -5,10 +5,12 @@
 
   > .cmp-container {
     height: 491px;
+    border-top: 1px solid var(--color-primary);
 
     @media screen and (max-width: $screen-md){
       height: 239px;
       background-size: 100% 100%!important;
+      border-top: unset;
     }
 
     h1.cmp-title__text {
