@@ -23,6 +23,8 @@ module.exports = {
         automotive_global: SOURCE_ROOT + '/clientlibs/automotive/global/main.ts',
         automoitve_toc: SOURCE_ROOT + '/clientlibs/automotive/toc/main.ts',
         'automotive_topic-body': SOURCE_ROOT + '/clientlibs/automotive/topic-body/main.ts',
+        'automotive_landing' : SOURCE_ROOT + '/clientlibs/automotive/landing/main.ts',
+
 
         //fsi
         'fsi_topic-body':  SOURCE_ROOT + '/clientlibs/fsi/topic-body/main.ts',
@@ -41,7 +43,6 @@ module.exports = {
         //common
         'guides-footer': SOURCE_ROOT + '/clientlibs/guides-footer/main.ts',
         'guides-header' : SOURCE_ROOT + '/clientlibs/guides-header/main.ts',
-
 
     },
     output: {
