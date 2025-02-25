@@ -1,14 +1,14 @@
 @use "../../../utils/css/vars" as *;
 
 .fsi-banner-wrapper {
-  position: relative;
+ 
 
   > .cmp-container {
     height: 491px;
 
-    @media screen and (max-width: $screen-sm) {
+    @media screen and (max-width: $screen-md){
       height: 239px;
-      background-size: 100% 122% !important;
+      background-size: 100% 100%!important;
     }
 
     h1.cmp-title__text {
@@ -17,12 +17,13 @@
       font-weight: 400;
       font-family: "Manrope";
       color: var(--color-primary);
-      width: 50%;
+      width: 292px;
       margin-bottom: 8px;
 
-      @media screen and (max-width: $screen-sm) {
+      @media screen and (max-width: $screen-md) {
         font-size: 30px;
         line-height: 40px;
+        width: 250px;
       }
     }
 
@@ -34,7 +35,7 @@
         font-family: "Manrope";
         color: var(--color-primary);
 
-        @media screen and (max-width: $screen-sm) {
+        @media screen and (max-width: $screen-md) {
           font-size: 20px;
           line-height: 28px;
         }
@@ -42,32 +43,33 @@
     }
 
     .title {
-      position: absolute;
-      top: 107px;
-      margin-left: 88px;
-
-      @media screen and (max-width: $screen-sm) {
-        margin-left: 24px;
-        top: 40px;
+      padding-top: 107px;
+      padding-left: 88px;
+      @media screen and (max-width: $screen-md) {
+        padding-left: 24px;
+        padding-top: 42px;
       }
     }
 
     .text {
-      position: absolute;
-      top: 304px;
-      margin-left: 88px;
-      margin-top: -5px;
+      font-family: Manrope;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: 0px;
+      color: var(--color-primary);
+      padding-left: 88px;
 
-      @media screen and (max-width: $screen-sm) {
-        margin-left: 24px;
-        top: 170px;
+      @media screen and (max-width: $screen-md) {
+        padding-left: 24px;
+        
       }
     }
   }
 }
 
 .box-container {
-  @media screen and (max-width: $screen-sm) {
+  @media screen and (max-width: $screen-md) {
     padding-inline: unset !important;
   }
 }
@@ -75,21 +77,21 @@
 .objectives-text-wrapper {
   padding: 48px 0px 48px 0px;
 
-  @media screen and (max-width: $screen-sm) {
+  @media screen and (max-width: $screen-md) {
     padding: 46px 24px 46px 24px;
   }
   > .cmp-container {
     display: flex;
     gap: 140px;
 
-    @media screen and (max-width: $screen-sm) {
+    @media screen and (max-width: $screen-md) {
       flex-direction: column;
       gap: 40px;
     }
 
     .objective-text-left {
       width: 50%;
-      @media screen and (max-width: $screen-sm) {
+      @media screen and (max-width: $screen-md) {
         width: 100%;
       }
 
@@ -108,7 +110,7 @@
             letter-spacing: 0%;
             text-decoration: underline;
 
-            @media screen and (max-width: $screen-sm) {
+            @media screen and (max-width: $screen-md) {
               font-size: 20px;
               line-height: 28px;
             }
@@ -119,7 +121,7 @@
     .objective-text-right {
       width: 50%;
 
-      @media screen and (max-width: $screen-sm) {
+      @media screen and (max-width: $screen-md) {
         width: 100%;
       }
 
@@ -132,7 +134,7 @@
           color: var(--color-primary);
           margin-bottom: 24px;
 
-          @media screen and (max-width: $screen-sm) {
+          @media screen and (max-width: $screen-md) {
             font-size: 16px;
             line-height: 24px;
             margin-bottom: 12px;
