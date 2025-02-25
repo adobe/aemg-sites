@@ -50,6 +50,7 @@ const clientlibArr = [
   {name : 'automoitve_toc', module: 'automotive'},
   {name : 'automotive_topic-body', module: 'automotive'},
   {name : 'automative_toc-banner', module: 'automotive'},
+  {name: 'automotive_landing', module: 'automotive'},
 
   //fsi
   {name : 'fsi_topic-body' , module: 'fsi'},

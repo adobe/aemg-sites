@@ -20,6 +20,18 @@ listItems.forEach(item => {
         // Append the new image to the item
         item.appendChild(listTeaserImage);
     }
+    
+    if (!listTeaserImage) {
+        // If no image, create a new img tag
+        listTeaserImage = document.createElement('img');
+        listTeaserImage.classList.add("cmp-teaser__image");
+
+        // Optional: Set the image source here
+        listTeaserImage.src = "/content/dam/aemguidesDALP/sites-assets/fsi/leave.png";
+
+        // Append the new image to the item
+        item.appendChild(listTeaserImage);
+    }
 
     // Set the button's text or attributes
     button.textContent = "Know More";

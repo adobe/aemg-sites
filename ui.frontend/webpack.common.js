@@ -23,7 +23,12 @@ module.exports = {
         'automotive_global': SOURCE_ROOT + '/clientlibs/automotive/global/main.ts',
         'automoitve_toc': SOURCE_ROOT + '/clientlibs/automotive/toc/main.ts',
         'automotive_topic-body': SOURCE_ROOT + '/clientlibs/automotive/topic-body/main.ts',
+<<<<<<< HEAD
         'automative_toc-banner' : SOURCE_ROOT + '/clientlibs/automotive/automotives-toc-banner/main.ts',
+=======
+        'automotive_landing' : SOURCE_ROOT + '/clientlibs/automotive/landing/main.ts',
+
+>>>>>>> 41d03e239606f9e9e767e07a85f855cf0dfd8923
 
         //fsi
         'fsi_topic-body':  SOURCE_ROOT + '/clientlibs/fsi/topic-body/main.ts',
@@ -42,7 +47,6 @@ module.exports = {
         //common
         'guides-footer': SOURCE_ROOT + '/clientlibs/guides-footer/main.ts',
         'guides-header' : SOURCE_ROOT + '/clientlibs/guides-header/main.ts',
-
 
     },
     output: {

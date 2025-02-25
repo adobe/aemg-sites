@@ -9,6 +9,8 @@
       letter-spacing: 0px;
       color: #013220;
       margin-bottom: 8px;
+      margin-top: 64px;
+
     }
 
     p:last-child {
@@ -30,8 +32,10 @@
     gap: 32px;
     flex-wrap: wrap;
     padding-left: 0;
-
+    margin-bottom: 80px;
     .cmp-list__item {
+      margin-left: 0px;
+      margin-bottom: 0px;
       .cmp-teaser {
         .cmp-teaser__link {
           display: flex;
@@ -110,6 +114,7 @@
 // Media query for screens with a max width of 768px
 @media screen and (max-width: 768px) {
   .card-upper-discription-cont {
+    padding: 0px 24px;
     .cmp-text {
       p:first-child {
         font-family: Manrope;
@@ -119,17 +124,21 @@
         letter-spacing: 0px;
         color: #013220;
         margin-bottom: 8px;
+        margin-top: 18px;
       }
     }
   }
 
   .list {
+    padding: 0px 24px;
     .cmp-list {
+      margin-bottom: 64px;
+      justify-content: center;
       .cmp-list__item {
         list-style-type: none;
         .cmp-teaser {
           .cmp-teaser__link {
-            width: 327px;
+            max-width: 327px;
             height: 326px;
             padding: 33px 24px;
 
@@ -168,4 +177,23 @@
       }
     }
   }
+}
+@media screen and (max-width: 1200px){
+  .list {
+    .cmp-list {
+      justify-content: center;
+      .cmp-list__item {
+        .cmp-teaser {
+          .cmp-teaser__link {
+          }}}}}
+}
+@media screen and (max-width: 320px){
+  .list {
+    .cmp-list {
+      .cmp-list__item {
+        .cmp-teaser {
+          .cmp-teaser__link {
+            width: 100%;
+            max-width: 327px;
+          }}}}}
 }
