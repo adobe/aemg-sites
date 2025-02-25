@@ -11,7 +11,7 @@
   <link rel="stylesheet" type="text/css" href="common.css" />
 </head>
 <body>
-  <div data-region="header"></div>
+  <div data-region="header" style=""></div>
   <div class="toc-config" data-region="content" id="toc_firstpage" style="padding: 25px">
     <p class="toc-title">Table of Contents</p>
     <p class="toc-sub_title">2024 Car Name</p>
