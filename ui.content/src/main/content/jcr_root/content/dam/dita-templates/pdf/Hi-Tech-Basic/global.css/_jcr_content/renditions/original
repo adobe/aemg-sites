@@ -46,3 +46,13 @@
   --color-neutral: #D8D8D8;
   --color-link: #0F85EC;
 }
+
+.col-2 {
+  column-count: 2;
+}
+.col-3 {
+  column-count: 3;
+}
+.col-4 {
+  column-count: 4;
+}
