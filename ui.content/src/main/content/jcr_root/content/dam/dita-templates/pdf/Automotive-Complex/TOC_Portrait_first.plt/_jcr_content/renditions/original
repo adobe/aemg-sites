@@ -7,13 +7,12 @@
   <meta name="page-style" content="size:portrait; margin-left:73px; margin-right:73px; margin-top: 80px;  margin-bottom: 140px;" />
   <meta name="footnote-style" content="" />
   <!-- <link rel="stylesheet" type="text/css" href="toc_automotive_complex.css" /> -->
-
   <link rel="stylesheet" type="text/css" href="common.css" />
   <link rel="stylesheet" type="text/css" href="toc_portrait.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
 </head>
 <body>
-  <div data-region="header"> 
+  <div data-region="header" style=""> 
     <p class="toc-title" id="toc_firstpage_header_title">Table of Contents</p>
     <p class="toc-sub_title" id="toc_firstpage_header_titlealts">2024 Car Name</p>
   </div>

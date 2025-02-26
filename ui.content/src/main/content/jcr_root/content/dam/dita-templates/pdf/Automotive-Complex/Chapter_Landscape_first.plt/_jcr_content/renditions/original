@@ -11,14 +11,14 @@
   <link rel="stylesheet" type="text/css" href="global.css" />
 </head>
 <body>
-  <p></p>
+  <p style=""></p>
   <p></p>
   <div data-region="header">
-    <p class="chapter-header"></p>
+    <p class="chapter-header" style=""></p>
   </div>
   <div data-region="content">
     <div style="text-align: right;">
-      <p class="chapter_firstpage_header" style=""><img alt="World Map" class="chapter_firstpage_cover-image" src="../../../aemguidesDALP/automotives/images/landscape.png" /></p>
+      <p class="chapter_firstpage_header" style=""><img alt="World Map" class="chapter_firstpage_cover-image" src="../../../aemguidesDALP/automotives/images/landscape/landscape.png" style="cursor: nwse-resize;" /></p>
       <div>
         <p class="chapter_header_title" style=""><span data-field="chapter-title" data-format="default" style="">Chapter Title</span></p>
         <div style="

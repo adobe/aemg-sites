@@ -12,14 +12,14 @@
   <link rel="stylesheet" type="text/css" href="frontcover_portrait.css" />
 </head>
 <body>
-  <div class="frontcover frontcover-config"><img class="frontcover_cover-img" src="../../../aemguidesDALP/automotives/images/benzimg.png" />
+  <div class="frontcover frontcover-config" style=""><img class="frontcover_cover-img" src="../../../aemguidesDALP/automotives/images/benzimg.png" />
     <div class="frontcover_header">
       <div class="frontcover_header-left"><span class="frontcover_doctype">Owner’s Manual</span> <span class="frontcover_created-date">2024</span></div>
       <div class="frontcover_header-right"><span class="frontcover_version-label">Software Version / </span> <span class="frontcover_version">2024.38</span></div>
     </div>
     <div class="frontcover_metadata"><span class="frontcover_created-date" data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span> <span class="frontcover_product-brand" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span> <span class="frontcover_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></div>
     <div class="frontcover_footer">
-      <div class="frontcover_footer-left"><img class="frontcover_logo-image" src="../../../aemguidesDALP/automotives/images/benzlogo.png" /></div>
+      <div class="frontcover_footer-left" style=""><img class="frontcover_logo-image" src="../../../aemguidesDALP/automotives/images/benzlogo.png" /></div>
       <div class="frontcover_footer-right">
         <div class="frontcover_footer-description">
           <p>Redefining</p>
