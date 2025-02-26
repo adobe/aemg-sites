@@ -24,7 +24,7 @@
   .cmp-container {
       padding-top: 170px ;
       padding-left: 88px;
-      width: 30%;
+      width: 33%;
       background-image: unset;
 
       .cmp-title {
@@ -32,6 +32,7 @@
           line-height: var(--text-5xl-lh);
           font-weight: 400;
           color: var(--color-bg);
+          font-family: var(--font-fam-primary);
           h1 {
               margin: 0;
           }
