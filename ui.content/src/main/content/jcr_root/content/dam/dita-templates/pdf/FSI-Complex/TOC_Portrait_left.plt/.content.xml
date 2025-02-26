@@ -8,13 +8,13 @@
         cq:name="TOC_Portrait_left.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-18T17:21:55.430+05:30"
+        jcr:lastModified="{Date}2025-02-25T15:10:45.129+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-18T17:21:55.383+05:30"
-            dam:sha1="dffc4a05e2d0125350b92bb5b44cc7c837224a98"
-            dam:size="{Long}1312"
+            dam:extracted="{Date}2025-02-25T15:10:45.094+05:30"
+            dam:sha1="f1244b1fe16095dfd89049bb589e8f9c7bd92e53"
+            dam:size="{Long}1333"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

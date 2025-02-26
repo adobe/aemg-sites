@@ -10,9 +10,7 @@
   <link rel="stylesheet" type="text/css" href="global.css" />
 </head>
 <body>
-  <p><br />
-    
-  </p>
+  <p style=""></p>
   <p></p>
   <div data-region="header"> 
     <p class="chapter-header"></p>

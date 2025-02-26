@@ -11,7 +11,7 @@
   <link rel="stylesheet" type="text/css" href="global.css" />
 </head>
 <body>
-  <div data-region="header"></div>
+  <div data-region="header" style=""></div>
   <div data-region="content"></div>
   <div class="chapter_footer chapter_footer_first chapter_footer-space" data-region="footer" style="">
     <p class="chapter_footer_organization">Smith, J. A. (2020). The future of automotive technology:<br />

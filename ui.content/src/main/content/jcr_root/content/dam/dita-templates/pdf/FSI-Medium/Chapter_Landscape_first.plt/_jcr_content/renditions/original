@@ -21,7 +21,7 @@
           <div class="chapter_firstpage_landsc_descalt">ABC is one of the largest banking and financial services organisations in the world.</div>
         </div>
       </div>
-      <div class="chapter_firstpage_landsc_content_right"><img class="chapter_firstpage_landsc_logo" src="../../../aemguidesDALP/fsi/images/chapter-logo.png" />
+      <div class="chapter_firstpage_landsc_content_right"><img class="chapter_firstpage_landsc_logo" src="../../../aemguidesDALP/fsi/images/common/chapter-logo.png" />
         <script src="medium.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
       </div>

@@ -11,9 +11,9 @@
   <link rel="stylesheet" type="text/css" href="frontcover_portrait.css" />
 </head>
 <body>
-  <div class="frontcover frontcover-config">
+  <div class="frontcover frontcover-config" style="">
     <div class="frontcover_header">
-      <div class="frontcover_header-left"><img class="frontcover_logo-image" src="../../../aemguidesDALP/automotives/images/benzlogo.png" /></div>
+      <div class="frontcover_header-left" style=""><img class="frontcover_logo-image" src="../../../aemguidesDALP/automotives/images/common/benzlogo.png" /></div>
       <div class="frontcover_header-right">
         <p><span class="frontcover_doctype">Owner’s Manual</span></p>
         <p><span class="frontcover_created-date">2024</span></p>
@@ -21,7 +21,7 @@
     </div>
     <div class="frontcover_metadata"><span class="frontcover_created-date" data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span> <span> <span class="frontcover_brand" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span> <span class="frontcover_prodname" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> </span></div>
     <p class="frontcover_description">Redefining sophisticated luxury.</p>
-    <img class="frontcover_cover-image" src="../../../aemguidesDALP/automotives/images/benzeqg.png" />
+    <img class="frontcover_cover-image" src="../../../aemguidesDALP/automotives/images/portrait/benzeqg.png" />
     <div class="frontcover_footer"><span class="frontcover_version-label">Software Version / <span class="frontcover_version">2024.38</span></span> <span class="frontcover_language-label">Language ― <span class="frontcover_language">English</span></span> <a class="frontcover_urls" href="#">brandname.com/en/</a></div>
   </div>
 </body>
