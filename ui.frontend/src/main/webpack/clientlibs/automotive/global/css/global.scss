@@ -23,3 +23,131 @@ body {
     }
   }
 }
+
+.guides-header {
+  border-bottom: unset;
+  background: var(--color-bg2);
+}
+
+.fsi-header-wrapper {
+  background: var(--color-bg2);
+  padding-block: 20px;
+}
+
+.header-logo {
+  p {
+      color: var(--color-bg);
+  }
+}
+
+.navigation-menus {
+  color: var(--color-primary);
+  .nav-items ul {
+      li {
+          a {
+              color: var(--color-bg);
+          }
+      }
+  }
+}
+
+.navigation-right-menus {
+  .fa-magnifying-glass {
+      color: var(--color-bg);
+  }
+  .theme-btn {
+      color: var(--color-bg); 
+  }
+
+  .language-selector {
+      select {
+          color: var(--color-bg);
+
+          option {
+              color: black;
+          }
+      }
+  }
+}
+
+.login_wrapper {
+  .login-btn {
+      background: var(--color-bg);
+      color: var(--color-bg2);
+      &:hover {
+          background: var(--color-accent);
+          color: var(--color-bg);
+      }
+  }
+  .hamburger_icon {
+      color: var(--color-bg);
+  }
+}
+
+.guides-footer {
+  background-color: var(--color-bg2);
+}
+
+.footer {
+  max-width: 88%;
+  margin: 0 auto;
+  background-color: var(--color-bg2);
+  padding: 94px 0;
+}
+
+.footer_wrapper {
+  .footer_logo-container {
+      .footer_logo {
+        color: var(--color-bg);
+      }
+
+      .footer_text {
+        color: var(--color-bg);
+      }
+  }
+
+  .footer_links-container {
+      .grid_item {
+          .footer_links-title {
+              color: var(--color-bg);
+          }
+          .footer_links-list {
+              a {
+                  .footer_links-listlink {
+                    color: var(--color-bg);
+                  }
+              }
+          }
+      }
+  }
+}
+
+.footer_social-wrapper {
+  .footer_social {
+    color: var(--color-bg);
+      i {
+        color: var(--color-bg);
+      }
+  }
+}
+
+.footer_copywrite-wrapper {
+  .footer_copywrite {
+    color: var(--color-bg);
+  }
+
+  .footer_privacy-wrapper {
+      .footer_privacy {
+        color: var(--color-bg);
+      }
+  
+      .footer_termcond {
+        color: var(--color-bg);
+      }
+  }
+}
+
+.new {
+  height: unset;
+  margin: unset;
+}

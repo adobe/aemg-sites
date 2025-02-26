@@ -230,3 +230,33 @@
         }
     }
 }
+
+.footer_gototop {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .footer_gototop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+
+        .gototop_arrow {
+            content: "";
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid;
+            border-top: 2px solid;
+            transform: rotate(45deg) skew(360deg, 2deg);
+            color: var(--color-bg);
+        }
+
+        p {
+            font-size: var(--text-lg);
+            line-height: var(--text-lg-lh);
+            font-weight: 400;
+            color: var(--color-bg);
+        }
+    }
+}
