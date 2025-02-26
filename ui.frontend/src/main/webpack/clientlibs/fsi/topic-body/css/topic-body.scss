@@ -1,10 +1,5 @@
 @use "../../../utils/css/vars" as *;
 
-.middle-container {
-  .breadcrumb ol li a, .breadcrumb ol li.cmp-breadcrumb__item--active {
-    font-size: var(--text-xs);
-  }
-}
 
 #topic-title {
   & > .cmp-title__text {
@@ -108,7 +103,7 @@
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0%;
-  color: #013220;
+  color: var(--color-primary);
   @media screen and (max-width: $screen-sm){
     padding: 0px 24px;
   }

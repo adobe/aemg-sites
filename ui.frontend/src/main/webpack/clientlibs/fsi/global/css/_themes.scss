@@ -27,12 +27,33 @@
   --color-on-primary: #1a1b26;
   --color-border-light: #D8D8D8;
   --color-gray-light: #AFB8E1;
-  --color-primary-light : #1a1b26;
+  --color-primary-light: #1a1b26;
+  --color-border: #ACACAC;
+  --color-primary2 :#24283b;
 
   .theme-btn {
     &::before {
       content: "\f186";
     }
+  }
+
+  .dark\:bg-img-monochrome {
+    position: relative;
+    &>.cmp-container {
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        filter: grayscale(100%);
+        backdrop-filter: invert(1);
+      }
+    }
+  }
+  .fsi-banner-wrapper > .cmp-container h1.cmp-title__text,.fsi-banner-wrapper > .cmp-container .text{
+    backdrop-filter: blur(1px);
   }
 }
 

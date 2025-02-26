@@ -213,17 +213,12 @@ body {
   li {
     font-family: var(--font-fam-primary);
     font-weight: 400;
-    font-size: var(--text-sm);
-    line-height: var(--text-sm-lh);
+    font-size: var(--text-xs);
+    line-height: var(--text-xs-lh);
     margin-right: 0px;
     margin-left: 0px;
     color: var(--color-primary);
     opacity: 0.7;
-
-    &:first-child {
-      font-weight: 500;
-      opacity: unset;
-    }
 
     &.cmp-breadcrumb__item--active {
       font-weight: 500;
@@ -244,8 +239,8 @@ body {
     a {
       font-family: var(--font-fam-primary);
       font-weight: 400;
-      font-size: var(--text-sm);
-      line-height: var(--text-sm-lh);
+      font-size: var(--text-xs);
+      line-height: var(--text-xs-lh);
       margin-right: 0px;
       color: var(--color-primary);
       text-decoration: none;
