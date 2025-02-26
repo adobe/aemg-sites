@@ -16,7 +16,7 @@
   <div data-region="header" id="index_header">
     <div class="index_header">
       <h5 id="index_header_title" style="">Index</h5>
-      <div class="header_logo"><img src="../../../aemguidesDALP/fsi/images/idx-header-logo.png" /></div>
+      <div class="header_logo"><img src="../../../aemguidesDALP/fsi/images/common/idx-header-logo.png" /></div>
     </div>
   </div>
   <div data-region="content" id="idx_content" style=""></div>

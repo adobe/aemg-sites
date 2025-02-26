@@ -12,7 +12,7 @@
 <body>
   <div class="glossary_firstpage_header" data-region="header" id="glossary_firstpage_header">
     <p class="glo-title" style="">Glossary</p>
-    <div class="glo_header_logo"><img src="../../../aemguidesDALP/fsi/images/glo-header-logo.png" style="cursor: nwse-resize;" /></div>
+    <div class="glo_header_logo"><img src="../../../aemguidesDALP/fsi/images/common/glo-header-logo.png" style="cursor: nwse-resize;" /></div>
   </div>
   <div class="glossary_firstpage_content" data-region="content" id="glossary_firstpage_content"></div>
   <div class="glossary_footer" data-region="footer"><!-- <hr class="glossary_footer_hr" /> -->

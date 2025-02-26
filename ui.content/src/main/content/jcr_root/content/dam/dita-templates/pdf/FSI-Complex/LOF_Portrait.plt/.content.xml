@@ -12,7 +12,7 @@
         dam:processingRenditions="[cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.tags.json,cqdam.metadata.xml,cqdam.machine.metadata.features.json,cq5dam.thumbnail.48.48.png,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.140.100.png,cqdam.text.txt,cq5dam.thumbnail.319.319.png]"
         dam:processingRequestedDate="{Date}2022-06-06T16:55:17.348Z"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2025-02-18T17:21:55.226+05:30"
+        jcr:lastModified="{Date}2025-02-25T15:10:44.988+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         fmPostProcessedAt="2022-06-06T16:55:16.515Z|a9e6e7f2-8bfe-4ed7-afa7-88f4c3cc4d32|2022-06-06T16:55:16.515Z|13|0"
@@ -44,9 +44,9 @@
                 reason="RenditionFormatUnsupported"/>
         </dam:failedRenditions>
         <metadata
-            dam:extracted="{Date}2025-02-18T17:21:55.177+05:30"
-            dam:sha1="69655793117011a3af349968605989bb13b9088a"
-            dam:size="{Long}1478"
+            dam:extracted="{Date}2025-02-25T15:10:44.950+05:30"
+            dam:sha1="c62e239631cfc951a7eb0bf7033066cc5cb1da46"
+            dam:size="{Long}1468"
             dc:format="application/octet-stream"
             dc:title="LOF_Portrait.plt"
             jcr:mixinTypes="[cq:Taggable]"

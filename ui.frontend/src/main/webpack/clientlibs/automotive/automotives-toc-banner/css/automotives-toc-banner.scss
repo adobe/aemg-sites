@@ -1,0 +1,133 @@
+@use "../../../utils/css/vars" as *;
+@use "../../global/css/themes" as *;
+
+.automotives-toc-banner {
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+
+  >.cmp-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 122px 0px 42px 0px;
+
+    @media screen and (max-width: $screen-sm) {
+      flex-direction: column;
+      gap: 16px;
+      padding: 37px 0px 38px 0px;
+
+    }
+
+
+    .cmp-text {
+      h1 {
+        font-size: 48px;
+        line-height: 62px;
+        font-family: var(--font-fam-primary);
+        font-weight: 400;
+        color: var(--color-primary);
+
+        @media screen and (max-width: $screen-sm) {
+          font-size: 30px;
+          line-height: 40px;
+        }
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 2px;
+        font-family: var(--font-fam-secondary);
+        font-weight: 350;
+        color: var(--color-primary);
+
+
+        b {
+          font-size: 12px;
+          line-height: 14px;
+          letter-spacing: 2px;
+          font-weight: 700;
+          font-family: var(--font-fam-secondary);
+          color: var(--color-primary);
+        }
+      }
+    }
+
+    .cover-img {
+      .cmp-image__image {
+        @media screen and (max-width: $screen-sm) {
+          max-width: 327px;
+          max-height: 217px;
+        }
+      }
+    }
+  }
+}
+
+.download-manual-button {
+    padding-block: 16px;
+    border-top: 1px solid var(--color-neutral);
+    border-bottom: 1px solid var(--color-neutral);
+
+  >.cmp-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .pdf-download {
+      margin-right: auto;
+      button {
+        padding: 11px 16px;
+        background-color: var(--color-accent);
+        border: none;
+        cursor: pointer;
+      }
+
+      .cmp-button__text {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 700;
+        margin-left: 8px;
+        font-family: var(--font-fam-secondary); 
+        color: var(--color-on-accent);
+
+
+        // &::before {
+        //   content: "";
+        //   display: inline-block;
+        //   width: 24px; 
+        //   height: 24px; 
+        //   background-image: url('/content/dam/aemguidesDALP/sites-assets/automotive/download-manual.svg'); 
+        //   // background-size: cover;
+        //   margin-right: 8px; 
+        // }
+      }
+    }
+    .pdf-download {
+      .cmp-button::before {
+        color: var(--color-on-accent);;
+      }
+    }
+    .bookmark {
+      .cmp-button::before {
+        color: var(--color-accent);
+      }
+    }
+    .share {
+      .cmp-button::before {
+        color: var(--color-accent);
+      }
+    }
+  }
+}
+
+#topic-title {
+  .cmp-title__text{
+    font-size: 24px;
+    line-height: 32px;
+    font-family: var(--font-fam-primary);
+    font-weight: 400;
+    color: var(--color-primary);
+  }
+}
+

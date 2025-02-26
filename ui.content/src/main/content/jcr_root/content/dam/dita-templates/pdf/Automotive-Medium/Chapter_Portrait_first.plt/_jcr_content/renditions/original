@@ -10,13 +10,13 @@
   <meta name="footnote-style" content="" />
 </head>
 <body data-layout="page">
-  <p></p>
+  <p style=""></p>
   <div data-region="header">
     <p class="chapter-header"></p>
   </div>
   <div data-region="content" style="">
     <div style="">
-      <p class="chapter_firstpage_header" style=""><img alt="World Map" class="chapter_firstpage_cover-image" src="../../../aemguidesDALP/automotives/pdf/medium/assets/front-cover.png" /></p>
+      <p class="chapter_firstpage_header" style=""><img alt="World Map" class="chapter_firstpage_cover-image" src="../../../aemguidesDALP/automotives/images/portrait/front-cover.png" /></p>
       <div>
         <p class="chapter_header_title" style=""><span data-field="chapter-title" data-format="default" style="">Chapter Title</span><br />
           <br />

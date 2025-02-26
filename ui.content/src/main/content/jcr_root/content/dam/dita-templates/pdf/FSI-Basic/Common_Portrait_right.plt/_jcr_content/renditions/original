@@ -14,7 +14,7 @@
 </head>
 <body>
   <div data-region="header">
-    <div class="chapter_header" style=""><img class="chapter_header_logo" src="../../../aemguidesDALP/fsi/images/simp-firstpage-logo.png" /> <span class="chapter_header_page-number" data-field="page-number" data-format="default">1</span></div>
+    <div class="chapter_header" style=""><img class="chapter_header_logo" src="../../../aemguidesDALP/fsi/images/common/simp-firstpage-logo.png" /> <span class="chapter_header_page-number" data-field="page-number" data-format="default">1</span></div>
   </div>
   <div data-region="content"></div>
   <div data-region="footer">

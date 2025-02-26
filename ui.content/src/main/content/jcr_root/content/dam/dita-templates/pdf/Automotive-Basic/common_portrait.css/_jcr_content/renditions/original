@@ -124,12 +124,12 @@ h1.chapter {
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   font-weight: 600;
-  color: var(--color-accent);
-  /* Using --color-primary for text */
-  background-color: var(--color-neutral);
-  /* Using --color-tertiary for background */
-  border: 0.5px solid var(--color-accent);
-  /* Using --color-secondary for border */
+  color: var(--color-primary);
+  /* Using --color-primary for text --color-accent */
+  background-color: var(--color-tertiary);
+  /* Using --color-tertiary for background --color-neutral */
+  border: 0.5px solid var(--color-secondary);
+  /* Using --color-secondary for border --color-accent */
   text-align: left;
 }
 b,
@@ -144,8 +144,8 @@ bold-text {
   font-weight: 400;
   color: var(--color-secondary);
   /* Using --color-secondary */
-  border: 0.5px solid var(--color-accent);
-  /* Using --color-secondary for border */
+  border: 0.5px solid var(--color-secondary);
+  /* Using --color-secondary for border --color-accent*/
 }
 .tbody .entry {
   font-size: var(--text-xs);

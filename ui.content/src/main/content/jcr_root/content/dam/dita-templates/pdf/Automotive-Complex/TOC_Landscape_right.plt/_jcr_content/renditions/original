@@ -11,11 +11,9 @@
   <link rel="stylesheet" type="text/css" href="toc_landscape.css" />
 </head>
 <body>
-  <div class="toc_header_landscape" data-region="header" style=""><br />
-    
-  </div>
+  <div class="toc_header_landscape" data-region="header" style=""></div>
   <div class="landscape_complex_right" data-region="content" id="landscape_complex-right"><!-- <img src="landscape_complex.png" /> < style="width: 469px; height: 589px; cursor: nwse-resize;"  -->
-    <div class="toc-img"></div>
+    <div class="toc-img" style=""><img src="../../../aemguidesDALP/automotives/images/landscape/toc_landscape.png" /></div>
   </div>
   <div data-region="footer">
     <hr style="border: 0.5px solid #2C343B; margin: 0; padding: 0;" />
