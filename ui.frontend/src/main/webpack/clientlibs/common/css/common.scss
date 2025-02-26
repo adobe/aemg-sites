@@ -284,6 +284,7 @@ body {
       width: 100%;
       background-color: var(--color-bg);
       color: var(--color-primary);
+      line-height: var(--text-xs-lh);
 
       &::placeholder {
         color: var(--color-primary);
