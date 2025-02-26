@@ -8,13 +8,13 @@
         cq:name="TOC_Portrait_right.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-17T19:10:30.327+05:30"
+        jcr:lastModified="{Date}2025-02-25T12:43:29.190+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-17T19:10:30.296+05:30"
-            dam:sha1="21f6a9ae5c4754ff4520bb26a40bbc3ab1106452"
-            dam:size="{Long}1248"
+            dam:extracted="{Date}2025-02-25T12:43:29.142+05:30"
+            dam:sha1="2730848216b967387f1b9a0efacd980a45dc93eb"
+            dam:size="{Long}1186"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

@@ -12,7 +12,7 @@
   <link rel="stylesheet" type="text/css" href="backcover_portrait.css" />
 </head>
 <body>
-  <div class="backcover_content" style=""><img class="backcover_logo" src="../../../aemguidesDALP/fsi/images/backcover-logo.png" />
+  <div class="backcover_content" style=""><img class="backcover_logo" src="../../../aemguidesDALP/fsi/images/common/backcover-logo.png" />
     <div class="backcover_author-info">
       <p class="backcover_author-addressdetails">8 Canada Square<br />
         London E14 5HQ<br />
