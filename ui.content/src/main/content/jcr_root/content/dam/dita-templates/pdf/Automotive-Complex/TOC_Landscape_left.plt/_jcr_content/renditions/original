@@ -11,12 +11,10 @@
   <link rel="stylesheet" type="text/css" href="toc_landscape.css" />
 </head>
 <body>
-  <div class="toc_header_landscape" data-region="header" style=""><br />
-    
-  </div>
-  <div class="landscape_complex_left">
-    <div class="landscape_complex_left" data-region="content" id="landscape_complex_left"><!-- <img src="landscape_complex.png" /> < style="width: 469px; height: 589px; cursor: nwse-resize;"  -->
-      <div class="toc-img"></div>
+  <div class="toc_header_landscape" data-region="header" style=""></div>
+  <div class="landscape_complex_left" style="">
+    <div class="landscape_complex_left" data-region="content" id="landscape_complex_left" style=""><!-- <img src="landscape_complex.png" /> < style="width: 469px; height: 589px; cursor: nwse-resize;"  -->
+      <div class="toc-img" style=""> <img src="../../../aemguidesDALP/automotives/images/landscape/toc_landscape.png" /> </div>
     </div>
   </div>
   <div data-region="footer">
@@ -24,5 +22,6 @@
     <div style="font-size: 0.625rem; line-height: 0.75rem; color: var(--color-tertiary); margin-top : 8px;">Smith, J. A. (2020). The future of automotive technology:<br />
       Innovations and trends. Tech Publishers.</div>
   </div>
+  
 </body>
 </html>

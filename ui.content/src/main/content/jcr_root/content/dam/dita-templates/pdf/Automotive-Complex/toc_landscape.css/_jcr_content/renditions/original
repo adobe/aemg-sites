@@ -15,8 +15,8 @@
 .toc-img_right {
   height: 590px;
   width: 470px;
-  background-image: url('../../../aemguidesDALP/automotives/images/toc_landscape.png');
-  background-size: 100% 100%;
+  /* background-image: url('../../../aemguidesDALP/automotives/images/toc_landscape.png'); */
+  /* background-size: 100% 100%; */
 }
 #toc_firstpage_header_title {
   font-size: var(--text-lg);
@@ -28,7 +28,7 @@
 #toc_firstpage_header_titlealts {
   font-size: var(--text-xs);
   font-weight: 400;
-  color: var(--color-tertiary );
+  color: var(--color-tertiary);
   line-height: var(--text-xs-lh);
   margin-bottom: 35px;
   padding-bottom: 35px;

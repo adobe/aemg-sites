@@ -92,9 +92,6 @@ body .section:first-of-type h2 {
   text-decoration-skip-ink: none;
   color: var(--color-secondary);
 }
-body .section:first-of-type h2 {
-  margin-top: 0;
-}
 .chapter-body .p {
   font-family: Adobe Clean;
   font-size: var(--text-xs);
@@ -133,12 +130,12 @@ h1.chapter {
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   font-weight: 600;
-  color: var(--color-accent);
-  /* Using --color-primary for text */
+  color: var(--color-primary);
+  /* Using --color-primary for text --color-accent*/
   background-color: var(--color-neutral);
-  /* Using --color-tertiary for background */
-  border: 0.5px solid var(--color-accent);
-  /* Using --color-secondary for border */
+  /* Using --color-tertiary for background*/
+  border: 0.5px solid var(--color-primary);
+  /* Using --color-secondary for border --color-accent */
   text-align: left;
 }
 b,
@@ -153,7 +150,7 @@ bold-text {
   font-weight: 400;
   color: var(--color-secondary);
   /* Using --color-secondary */
-  border: 0.5px solid var(--color-accent);
+  border: 0.5px solid var(--color-secondary);
   /* Using --color-secondary for border */
 }
 .tbody .entry {
@@ -196,8 +193,8 @@ li {
   padding: 8px 40px 8px 16px;
   color: #2C343B;
   font-family: var(--font-fam-secondary);
-  font-size: var(--text-xs);
-  line-height: var(--text-xs-lh);
+  font-size: 0.625rem;
+  line-height: 0.875rem;
   margin-bottom: 40px;
   margin-top: 50px;
 }
@@ -208,14 +205,4 @@ li {
 }
 .note .prefix-content {
   color: var(--color-primary);
-}
-.chapter_info {
-  background-color: #D9E6EB;
-  padding: 8px 40px 8px 16px;
-  color: #2C343B;
-  font-family: var(--font-fam-secondary);
-  font-size: 0.625rem;
-  line-height: 0.875rem;
-  margin-bottom: 40px;
-  margin-top: 50px;
 }

@@ -46,8 +46,8 @@
       <name>customLayout</name>
       <mergeMode>none</mergeMode>
       <showInTOC type="boolean">true</showInTOC>
-      <path>Frontcover_Landscape.plt</path>
-      <label>Frontcover_Landscape</label>
+      <path>FrontCover_Portrait.plt</path>
+      <label>FrontCover_Portrait</label>
     </bookListsitem>
     <bookListsitem>
       <name>customLayout</name>
@@ -109,22 +109,22 @@
       <name>customLayout</name>
       <mergeMode>none</mergeMode>
       <showInTOC type="boolean">true</showInTOC>
-      <path>Backcover_landscape.plt</path>
-      <label>Backcover_landscape</label>
+      <path>BackCover_Portrait.plt</path>
+      <label>BackCover_Portrait</label>
     </bookListsitem>
   </bookLists>
   <hyperlinkGlossary type="boolean">true</hyperlinkGlossary>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
   <layout></layout>
-  <coverPageLayout>Frontcover_Landscape</coverPageLayout>
-  <backPageLayout>Backcover_landscape</backPageLayout>
-  <emptyPageLayout>Blank_Landscape</emptyPageLayout>
-  <tocLayout>TOC_landscape</tocLayout>
-  <topicLayout>Chapter_Landscape</topicLayout>
-  <gloLayout>Glossary_landscape</gloLayout>
-  <indexLayout>Index_Landscape</indexLayout>
+  <coverPageLayout>FrontCover_Portrait</coverPageLayout>
+  <backPageLayout>BackCover_Portrait</backPageLayout>
+  <emptyPageLayout>Blank_Portrait</emptyPageLayout>
+  <tocLayout>TOC_Portrait</tocLayout>
+  <topicLayout>Chapter_Portrait</topicLayout>
+  <gloLayout>Glossary_Portrait</gloLayout>
+  <indexLayout>Index_Portrait</indexLayout>
   <bibLayout>Citations</bibLayout>
   <lotLayout></lotLayout>
   <lofLayout></lofLayout>
-  <backTopicsLayout>Backcover_landscape</backTopicsLayout>
+  <backTopicsLayout>BackCover_Portrait</backTopicsLayout>
 </settings>

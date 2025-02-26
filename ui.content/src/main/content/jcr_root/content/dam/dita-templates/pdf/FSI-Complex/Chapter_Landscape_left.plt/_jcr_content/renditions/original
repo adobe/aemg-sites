@@ -14,7 +14,7 @@
 <body>
   <div data-region="header">
     <div class="chapter_leftpage_landsc_header" style=""><span class="chapter_leftpage_landsc_header_page-number" data-field="page-number" data-format="default">1</span>
-      <div><img class="chapter_leftpage_landsc_header_logo" src="../../../aemguidesDALP/fsi/images/chapter-logo.png" /></div>
+      <div><img class="chapter_leftpage_landsc_header_logo" src="../../../aemguidesDALP/fsi/images/common/chapter-logo.png" /></div>
     </div>
   </div>
   <div data-region="content">

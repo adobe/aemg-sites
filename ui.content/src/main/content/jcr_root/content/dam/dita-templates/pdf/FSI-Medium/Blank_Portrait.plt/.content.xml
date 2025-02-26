@@ -8,13 +8,14 @@
         cq:name="Blank_Portrait.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-18T11:43:00.670+05:30"
+        jcr:lastModified="{Date}2025-02-25T12:43:29.981+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-18T11:43:00.571+05:30"
-            dam:sha1="52582c5a7e575abac6348f8e30b2ad45268c44ba"
-            dam:size="{Long}559"
+            dam:extracted="{Date}2025-02-25T12:43:29.934+05:30"
+            dam:sha1="ccf0db150a5a1856233c2411b11a574d2185bfe7"
+            dam:size="{Long}580"
+            dc:format="application/octet-stream"
             dc:title="Blank_Portrait.plt"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
