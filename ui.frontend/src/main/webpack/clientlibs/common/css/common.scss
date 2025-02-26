@@ -197,6 +197,9 @@ body {
   .cmp-container {
     .table caption {
       font-weight: 500;
+      @media screen and (max-width : $screen-md) {
+        text-align: left;
+      }
     }
   }
 }
@@ -281,6 +284,7 @@ body {
       width: 100%;
       background-color: var(--color-bg);
       color: var(--color-primary);
+      line-height: var(--text-xs-lh);
 
       &::placeholder {
         color: var(--color-primary);
