@@ -197,6 +197,9 @@ body {
   .cmp-container {
     .table caption {
       font-weight: 500;
+      @media screen and (max-width : $screen-md) {
+        text-align: left;
+      }
     }
   }
 }
