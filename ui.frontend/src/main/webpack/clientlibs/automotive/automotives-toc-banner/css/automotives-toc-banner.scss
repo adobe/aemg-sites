@@ -14,7 +14,7 @@
     @media screen and (max-width: $screen-md) {
       flex-direction: column;
       gap: 16px;
-      padding: 37px 0px 38px 0px;
+      padding: 37px 0px 28px 0px;
 
     }
     .text{
@@ -68,7 +68,7 @@
       .cmp-image__image {
         width: 100%;
         @media screen and (max-width: $screen-md) {
-          max-width: 327px;
+          // max-width: 327px;
           max-height: 217px;
         }
       }
@@ -146,13 +146,19 @@
     font-weight: 400;
     color: var(--color-primary);
     margin-bottom: 16px;
+
+    @media screen and (max-width: $screen-md) {
+      font-size: var(--text-3xl);
+      line-height: var(--text-3xl-lh);
+    }
+
   }
 }
-.topic-container{
-  >.cmp-container{
-    gap: 32px;
-  }
-}
+// .topic-container{
+//   >.cmp-container{
+//     gap: 32px;
+//   }
+// }
 .topic-body{
   >.cmp-container{
     .chapter_sub-titles{
@@ -209,6 +215,76 @@
       font-weight: 400;
       margin-bottom: 16px;
 
+    }
+  }
+}
+
+.breadcrumb{
+  ol{
+    margin-top: 30px;
+    li{
+      a{
+        font-family: var(--font-fam-secondary);
+        font-size: var(--text-sm);
+        line-height: var(--text-sm-lh);
+        font-weight: 400;
+      }
+    }
+  }
+}
+.breadcrumb ol li.cmp-breadcrumb__item--active{
+      font-family: var(--font-fam-secondary);
+      color: var(--color-accent);
+      font-size: var(--text-sm);
+      line-height: var(--text-sm-lh);
+      font-weight: 400;
+
+}
+
+.left-container .toc-search .cmp-form-text__text{
+    border-radius: 35px;
+    font-family: var(--font-fam-secondary);
+    font-weight: 400;
+    font-size: var(--text-sm);
+    line-height: var(--text-sm-lh);
+    color: var(--color-light-grey);
+
+}
+.left-container #toc-search-results {
+    border-radius: 35px;
+    font-family: var(--font-fam-secondary);
+    font-weight: 400;
+    font-size: var(--text-sm);
+    line-height: var(--text-sm-lh);
+    color: var(--color-light-grey);
+}
+.left-container .toc-search .cmp-form-text::before{
+  color: var(--color-accent);
+}
+
+.text{
+  .related-links{
+    .linkpool {
+      margin-top: 8px;
+      a{
+        color: var(--color-accent);
+      }
+    }
+  }
+}
+.topic-container > .cmp-container{
+  padding-bottom: 218px;
+
+  @media screen and (max-width: $screen-md) {
+    padding-bottom: 130px;
+  }
+}
+
+.left-container {
+  &>.cmp-container {
+    @media screen and (max-width: $screen-md) {
+      padding-top: unset;
+      padding-bottom: 28px;
     }
   }
 }
