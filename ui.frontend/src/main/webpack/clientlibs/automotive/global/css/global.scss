@@ -152,6 +152,19 @@ body {
   }
 }
 
+
+@media screen and (max-width: 768px) {
+  .footer_gototop {
+      .gototop_arrow {
+          color: var(--color-bg);
+      }
+
+      p {
+          color: var(--color-bg);
+      }
+  }
+}
+
 .new {
   height: unset;
   margin: unset;

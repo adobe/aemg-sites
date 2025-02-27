@@ -251,14 +251,14 @@
             border-left: 2px solid;
             border-top: 2px solid;
             transform: rotate(45deg) skew(360deg, 2deg);
-            color: var(--color-bg);
+            color: var(--color-primary);
         }
 
         p {
             font-size: var(--text-lg);
             line-height: var(--text-lg-lh);
             font-weight: 400;
-            color: var(--color-bg);
+            color: var(--color-primary);
         }
     }
 }
