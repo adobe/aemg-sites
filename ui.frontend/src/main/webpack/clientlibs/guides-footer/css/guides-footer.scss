@@ -11,11 +11,15 @@
 .footer {
     // background-color: #0D0D0D;
     background-color: var(--color-primary-light);
-    border-top: 0.5px solid var(--color-border-light);
     padding: 94px 0;
     font-family: var(--font-fam-primary);
     max-width: 88%;
     margin: 0 auto;
+}
+
+.guides-footer {
+    background-color: var(--color-primary-light);
+    border-top: 0.5px solid var(--color-border-light);
 }
 
 @media screen and (max-width: 768px) {

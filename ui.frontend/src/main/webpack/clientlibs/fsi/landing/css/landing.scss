@@ -1,13 +1,13 @@
 // Description and title styles
 .card-upper-discription-cont {
   .cmp-text {
+    color: var(--color-primary);
     p:first-child {
       font-family: Manrope;
       font-weight: 400;
       font-size: 30px;
       line-height: 40px;
       letter-spacing: 0px;
-      color: var(--color-primary);
       margin-bottom: 8px;
       margin-top: 64px;
 
@@ -119,8 +119,18 @@
   }
 }
 
+.light .list .cmp-list .cmp-list__item .cmp-teaser .cmp-teaser__link{
+  background: var(--color-primary) !important;
+}
+
 .dark .list .cmp-list .cmp-list__item .cmp-teaser .cmp-teaser__link{
   background: var(--color-primary2);
+}
+
+@media (prefers-color-scheme: dark) {
+  .list .cmp-list .cmp-list__item .cmp-teaser .cmp-teaser__link{
+    background: var(--color-primary2);
+  }
 }
 
 // Media query for screens with a max width of 768px
