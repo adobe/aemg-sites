@@ -6,19 +6,48 @@
   --color-primary-70: #001e3ab3;
   --color-neutral: #D8D8D8;
   --color-bg: #FFFFFF;
+  --color-border-light: #D8D8D8;
   --color-on-accent: #FFFFFF;
+  --color-border-light: #D8D8D8;
+  --color-light-grey: #2C343B;
+
+  --color-bg2: #0D0D0D;
+  
+  .theme-btn {
+    &::before {
+      content: "\f185";
+    }
+  }
 }
 
 @mixin dark-theme {
 
+
+  .theme-btn {
+    &::before {
+      content: "\f186";
+    }
+  }
 }
 
 .light {
   @include light-theme();
+
+  .theme-btn {
+    &::before {
+      content: "\f185" !important;
+    }
+  }
 }
 
 .dark {
   @include dark-theme();
+
+  .theme-btn {
+    &::before {
+      content: "\f186" !important;
+    }
+  }
 }
 
 // OS Default.
