@@ -102,6 +102,7 @@ body {
 
       .footer_text {
         color: var(--color-bg);
+        font-family: var(--font-fam-secondary);
       }
   }
 
@@ -109,11 +110,14 @@ body {
       .grid_item {
           .footer_links-title {
               color: var(--color-bg);
+              font-family: var(--font-fam-secondary);
+
           }
           .footer_links-list {
               a {
                   .footer_links-listlink {
                     color: var(--color-bg);
+                    font-family: var(--font-fam-secondary);
                   }
               }
           }
@@ -133,15 +137,18 @@ body {
 .footer_copywrite-wrapper {
   .footer_copywrite {
     color: var(--color-bg);
+    font-family: var(--font-fam-secondary);
   }
 
   .footer_privacy-wrapper {
       .footer_privacy {
         color: var(--color-bg);
+        font-family: var(--font-fam-secondary);
       }
   
       .footer_termcond {
         color: var(--color-bg);
+        font-family: var(--font-fam-secondary);
       }
   }
 }
