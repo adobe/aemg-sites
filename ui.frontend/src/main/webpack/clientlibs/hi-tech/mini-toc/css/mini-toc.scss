@@ -6,10 +6,12 @@
         font-family: var(--font-fam-primary);
     }
     .cmp-mini-toc{
-        padding-top: 19px;
+        padding-top: 25px;
         .minitoc-title{
             font-weight: 700;
             line-height: var(--text-sm-lh);
+            letter-spacing: 1px;
+            font-size: var(--text-xs);
         }
         .minitoc-list{
             margin: unset;
