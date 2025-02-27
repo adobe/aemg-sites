@@ -89,8 +89,6 @@ body {
 }
 
 .footer {
-  max-width: 88%;
-  margin: 0 auto;
   background-color: var(--color-bg2);
 }
 
@@ -135,6 +133,7 @@ body {
 }
 
 .footer_copywrite-wrapper {
+  border-top: 1px solid var(--color-border-light);
   .footer_copywrite {
     color: var(--color-bg);
     font-family: var(--font-fam-secondary);
@@ -149,6 +148,19 @@ body {
       .footer_termcond {
         color: var(--color-bg);
         font-family: var(--font-fam-secondary);
+      }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .footer_gototop {
+      .gototop_arrow {
+          color: var(--color-bg);
+      }
+
+      p {
+          color: var(--color-bg);
       }
   }
 }

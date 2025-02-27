@@ -14,6 +14,8 @@
     border-top: 0.5px solid var(--color-border-light);
     padding: 94px 0;
     font-family: var(--font-fam-primary);
+    max-width: 88%;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -27,7 +29,7 @@
     grid-template-columns: 45% 55%;
 
     .footer_logo-container {
-        width: 40%;
+        width: 60%;
         .footer_logo {
             display: flex;
             gap: 11px;
@@ -249,14 +251,14 @@
             border-left: 2px solid;
             border-top: 2px solid;
             transform: rotate(45deg) skew(360deg, 2deg);
-            color: var(--color-bg);
+            color: var(--color-primary);
         }
 
         p {
             font-size: var(--text-lg);
             line-height: var(--text-lg-lh);
             font-weight: 400;
-            color: var(--color-bg);
+            color: var(--color-primary);
         }
     }
 }
