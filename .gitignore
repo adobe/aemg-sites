@@ -116,6 +116,9 @@ ui.content/src/main/content/jcr_root/content/dam/*
 # Pages ignored.
 ui.content/src/main/content/jcr_root/content/aemguidesDALP
 
+# Templates ignored.
+ui.content/src/main/content/jcr_root/conf/aemguidesDALP
+
 # static html
 ui.frontend/src/main/webpack/static/index.html
 
