@@ -38,23 +38,24 @@
   }
 }
 
-// .dark {
-//   @include dark-theme();
+.dark {
+  // @include dark-theme();
+  @include light-theme();
 
-//   .theme-btn {
-//     &::before {
-//       content: "\f186" !important;
-//     }
-//   }
-// }
+  .theme-btn {
+    &::before {
+      content: "\f186" !important;
+    }
+  }
+}
 
 // OS Default.
-// :root:not(.light):not(.dark) {
-//   @media (prefers-color-scheme: light) {
-//     @include light-theme;
-//   }
+:root:not(.light):not(.dark) {
+  @media (prefers-color-scheme: light) {
+    @include light-theme;
+  }
 
-//   @media (prefers-color-scheme: dark) {
-//     @include dark-theme;
-//   }
-// }
+  @media (prefers-color-scheme: dark) {
+    @include dark-theme;
+  }
+}
