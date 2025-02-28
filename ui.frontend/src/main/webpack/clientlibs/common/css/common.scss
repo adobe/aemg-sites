@@ -20,6 +20,7 @@ body {
       &::before {
         content: "\f03a";
         font-family: "FontAwesome";
+        padding-right: 6px;
       }
     }
   }
@@ -354,6 +355,7 @@ body {
     font-weight: 600;
     border-left: 2px solid var(--color-primary);
     padding-left: 2px;
+    cursor: pointer;
   }
 
   @media screen and (max-width : $screen-md) {
@@ -382,6 +384,7 @@ body {
     font-weight: 600;
     border-right: 2px solid var(--color-primary);
     padding-right: 2px;
+    cursor: pointer;
   }
 
   @media screen and (max-width : $screen-md) {
