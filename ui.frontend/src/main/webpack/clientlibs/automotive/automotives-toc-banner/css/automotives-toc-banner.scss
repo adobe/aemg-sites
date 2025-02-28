@@ -281,3 +281,13 @@
   }
 }
 
+.cmp-pager__next .next{
+  font-family: var(--font-fam-secondary);
+}
+.cmp-pager__prev .prev{
+  font-family: var(--font-fam-secondary);
+}
+.text .related-links .linkpool a{
+  margin-right: 8px;
+}
+
