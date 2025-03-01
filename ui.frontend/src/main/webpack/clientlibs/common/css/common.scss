@@ -112,7 +112,7 @@ body {
     padding-top: 40px;
     // top: 120px;
     top: 0;
-    padding-bottom: 54px;
+    padding-bottom: 124px;
 
     @media screen and (max-width: $screen-md) {
       padding-right: unset;
@@ -151,7 +151,7 @@ body {
     padding-left: 26px;
     padding-top: 40px;
     top: 0;
-    padding-bottom: 70px;
+    padding-bottom: 124px;
 
     @media screen and (max-width: $screen-md) {
       padding-left: unset;
@@ -443,7 +443,7 @@ body {
 
 .assets-evaluation-polar {
   max-width: 641px;
-  max-height: 641px;
+  // max-height: 641px;
   // margin-inline: auto;
 }
 
@@ -496,4 +496,8 @@ body {
     font-family: "Font Awesome 6 Free";
     cursor: pointer;
   }
+}
+
+.margin-top{
+  margin-top: 124px;
 }
