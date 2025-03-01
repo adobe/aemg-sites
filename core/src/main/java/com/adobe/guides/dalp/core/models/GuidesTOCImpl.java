@@ -144,6 +144,10 @@ public class GuidesTOCImpl extends AbstractComponentImpl implements GuidesTOC {
         list.add("dc:contributor");
         list.add("dc:creator");
         list.add("dc:description");
+        list.add("dc:contributor");
+        list.add("dc:rights");
+        list.add("dc:format");
+        
         if(childNode.getName().equals("jcr:content"))
         {
             if(childNode.getParent().getProperty("jcr:primaryType").getString().equals("cq:Page"))
