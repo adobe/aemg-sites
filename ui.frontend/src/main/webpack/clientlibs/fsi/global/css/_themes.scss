@@ -15,6 +15,7 @@
   .theme-btn {
     &::before {
       content: "\f185";
+      content: url("/content/dam/aemguidesDALP/fsi/images/moon (7).png");
     }
   }
 
@@ -72,7 +73,8 @@
 
   .theme-btn {
     &::before {
-      content: "\f185" !important;
+      content: "\f185";
+      content: url("/content/dam/aemguidesDALP/fsi/images/moon (7).png");
     }
   }
 
@@ -87,21 +89,22 @@
 
   .theme-btn {
     &::before {
-      content: "\f186" !important;
+      content: "\f186";
+
     }
   }
   .dark\:bg-img-monochrome > .cmp-container::before{
     display: block !important;
-   }
+  }
 }
 
 // OS Default.
-:root:not(.light):not(.dark) {
-  @media (prefers-color-scheme: light) {
-    @include light-theme;
-  }
+// :root:not(.light):not(.dark) {
+//   @media (prefers-color-scheme: light) {
+//     @include light-theme;
+//   }
 
-  @media (prefers-color-scheme: dark) {
-    @include dark-theme;
-  }
-}
+//   @media (prefers-color-scheme: dark) {
+//     @include dark-theme;
+//   }
+// }
