@@ -291,3 +291,36 @@
   margin-right: 8px;
 }
 
+
+
+/* Horizontal Blinking Text Reveal Animations */
+@keyframes reveal-text {
+  0% {
+    width: 0%;
+    opacity: 0;
+    color: var(--color-accent);
+  }
+  50% {
+    width: 50%;
+    opacity: 1;
+    color: var(--color-accent);
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+    color: var(--color-accent);
+  }
+}
+
+.loading {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  opacity: 0;
+  animation: reveal-text 3s forwards;
+}
+
+
+
+
