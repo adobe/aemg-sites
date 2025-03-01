@@ -8,13 +8,13 @@
         cq:name="global.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-13T12:55:09.236+05:30"
+        jcr:lastModified="{Date}2025-02-25T13:09:01.336+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-13T12:55:09.156+05:30"
-            dam:sha1="86153dd37039e200e08cc7cd09f615c0b8b79952"
-            dam:size="{Long}3512"
+            dam:extracted="{Date}2025-02-25T13:09:01.289+05:30"
+            dam:sha1="10c4acf3250be5f63b9e4c0985e42ff3c214ee01"
+            dam:size="{Long}4042"
             dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

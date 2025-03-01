@@ -3,12 +3,12 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="e4258f03-2259-46e3-980c-907562187789">
+    jcr:uuid="dc2b7fed-2fe7-492d-b8f4-2dbebd09837f">
     <jcr:content
         cq:name="Chapter_Landscape_first.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-18T20:07:35.381+05:30"
+        jcr:lastModified="{Date}2025-02-25T15:20:56.584+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"/>
 </jcr:root>

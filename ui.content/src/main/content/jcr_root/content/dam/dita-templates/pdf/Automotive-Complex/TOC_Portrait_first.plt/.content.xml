@@ -8,13 +8,13 @@
         cq:name="TOC_Portrait_first.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-18T16:55:48.256+05:30"
+        jcr:lastModified="{Date}2025-02-25T13:09:15.771+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-18T16:55:48.169+05:30"
-            dam:sha1="ac23cb882c1de915007378d00f6eb4c714d52987"
-            dam:size="{Long}1423"
+            dam:extracted="{Date}2025-02-25T13:09:15.700+05:30"
+            dam:sha1="5ead2b1e4094b14120a32b7fcd15b5eb5a2cd96b"
+            dam:size="{Long}1412"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

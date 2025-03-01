@@ -8,11 +8,11 @@
         cq:name="Glossary_landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-18T19:57:53.452+05:30"
+        jcr:lastModified="{Date}2025-02-25T13:09:28.889+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-18T19:57:53.366+05:30"
+            dam:extracted="{Date}2025-02-25T13:09:28.812+05:30"
             dam:sha1="b26132772146353984eee3697e4ecef27d84cae9"
             dam:size="{Long}1082"
             dc:format="application/octet-stream"

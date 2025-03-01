@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="b2fcb4f1-1464-4a06-ba34-e5bd96ee1c53">
     <jcr:content
+        cq:name="TOC_Landscape_first.plt"
+        cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-19T16:03:11.589+05:30"
+        jcr:lastModified="{Date}2025-02-25T13:09:02.431+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-19T16:03:11.479+05:30"
-            dam:sha1="c6979fb9c64759958b6d5829aa45775fc6da45e2"
-            dam:size="{Long}1072"
+            dam:extracted="{Date}2025-02-25T13:09:02.258+05:30"
+            dam:sha1="8c481460ae4abd311161c2928cff884ea7894769"
+            dam:size="{Long}1097"
+            dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>
