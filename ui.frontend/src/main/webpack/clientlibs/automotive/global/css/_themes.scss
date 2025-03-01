@@ -21,8 +21,6 @@
 }
 
 @mixin dark-theme {
-
-
   .theme-btn {
     &::before {
       content: "\f186";
@@ -41,7 +39,8 @@
 }
 
 .dark {
-  @include dark-theme();
+  // @include dark-theme();
+  @include light-theme();
 
   .theme-btn {
     &::before {
