@@ -125,6 +125,16 @@ public class GuidesTOCImpl extends AbstractComponentImpl implements GuidesTOC {
     }
 
     @Override
+    public List<String> getTopicListJson() {
+        List<String> list = new ArrayList<>();
+        Gson gson = new Gson();
+        String json = gson.toJson(this.topiclist);
+        list.add(json);
+
+        return list;
+    }
+
+    @Override
     public String getCurrentPageTocIndex() {
         return currentPageIndexInToc;
     }

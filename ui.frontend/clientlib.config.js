@@ -44,6 +44,8 @@ const clientlibArr = [
   {name : 'guides-header', module: 'common'},
   {name : 'global-search' , module: 'common'},
 
+  {name : 'content-feedback', module: 'feedback'},
+  
 
   //automotive
   {name : 'automotive_global', module: 'automotive'},
@@ -52,6 +54,7 @@ const clientlibArr = [
   {name : 'automotive_topic-body', module: 'automotive'},
   {name : 'automative_toc-banner', module: 'automotive'},
   {name: 'automotive_landing', module: 'automotive'},
+  {name: 'automotive_filter', module: 'automotive'},
 
   //fsi
   {name : 'fsi_topic-body' , module: 'fsi'},
