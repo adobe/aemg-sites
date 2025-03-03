@@ -1,3 +1,4 @@
+@use "../../../utils/css/vars" as *;
 // Description and title styles
 .card-upper-discription-cont {
   .cmp-text {
@@ -10,7 +11,6 @@
       letter-spacing: 0px;
       margin-bottom: 8px;
       margin-top: 64px;
-
     }
 
     p:last-child {
@@ -23,117 +23,6 @@
     }
   }
 }
-
-// Card styles
-.list {
-  .cmp-list {
-    list-style-type: none;
-    display: flex;
-    gap: 32px;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 80px;
-    .cmp-list__item {
-      margin-left: 0px;
-      margin-bottom: 0px;
-      .cmp-teaser {
-        .cmp-teaser__link {
-          display: flex;
-          flex-direction: column;
-          text-decoration: none;
-          background: var(--color-primary);
-          width: 400px;
-          height: 400px;
-          padding: 40px 44px 40px 40px;
-          box-sizing: border-box;
-          .cmp-teaser__content {
-            flex-grow: 1;
-            order: 1;
-            .cmp-teaser__title {
-              margin-bottom: 16px;
-              font-family: Manrope;
-              font-weight: 400;
-              font-size: 24px;
-              line-height: 32px;
-              letter-spacing: 0px;
-              color: #ffffff;
-              margin-top: 0;
-              display: -webkit-box;
-              -webkit-line-clamp: 2;
-              -webkit-box-orient: vertical;
-              overflow: hidden;
-            }
-
-            .cmp-teaser__description {
-              font-family: Manrope;
-              font-weight: 400;
-              font-size: 12px;
-              line-height: 16px;
-              letter-spacing: 0px;
-              color: #ffffff;
-              display: -webkit-box;
-              -webkit-line-clamp: 5;
-              -webkit-box-orient: vertical;
-              overflow: hidden;
-            }
-          }
-
-          .cmp-teaser__action-container {
-            order: 3;
-            padding-top: 4px;
-            padding-right: 24px;
-            padding-bottom: 4px;
-            padding-left: 24px;
-            border-radius: 76px;
-            background: #ffffff;
-            color: #013220;
-            font-family: Manrope;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 20px;
-            letter-spacing: 0px;
-            text-align: center;
-            text-decoration: none;
-            width: 125px;
-            height: 40px;
-            border: none;
-          }
-
-          .cmp-teaser__image {
-            order: 0;
-            margin-bottom: 48px;
-            width: 40px;
-            height: 40px;
-            .cmp-image {
-              width: 40px;
-              height: 40px;
-              .cmp-image__image {
-                width: 40px;
-                height: 40px;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-.light .list .cmp-list .cmp-list__item .cmp-teaser .cmp-teaser__link{
-  background: var(--color-primary) !important;
-}
-
-.dark .list .cmp-list .cmp-list__item .cmp-teaser .cmp-teaser__link{
-  background: var(--color-primary2);
-}
-
-@media (prefers-color-scheme: dark) {
-  .list .cmp-list .cmp-list__item .cmp-teaser .cmp-teaser__link{
-    background: var(--color-primary2);
-  }
-}
-
-// Media query for screens with a max width of 768px
 @media screen and (max-width: 768px) {
   .card-upper-discription-cont {
     padding: 0px 24px;
@@ -150,72 +39,91 @@
       }
     }
   }
+}
+.leveloneprops.\.toc-list-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-bottom: 5pc;
 
-  .list {
-    padding: 0px 24px;
-    .cmp-list {
-      margin-bottom: 64px;
-      justify-content: center;
-      .cmp-list__item {
-        list-style-type: none;
-        .cmp-teaser {
-          .cmp-teaser__link {
-            max-width: 327px;
-            height: 360px;
-            padding: 33px 24px;
-
-            .cmp-teaser__image {
-              margin-bottom: 24px;
-              width: 36px;
-              height: 36px;
-              .cmp-image {
-                width: 36px;
-                height: 36px;
-                .cmp-image__image {
-                  width: 36px;
-                  height: 36px;
-                }
-              }
-            }
-            
-            .cmp-teaser__content {
-              .cmp-teaser__title {
-                font-weight: 400;
-                font-size: 20px;
-                line-height: 28px;
-                margin-bottom: 8px;
-              }
-
-              .cmp-teaser__description {
-                font-family: Manrope;
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 20px;
-                letter-spacing: 0%;
-              }
-            }
-          }
-        }
+  .guide-item {
+    a {
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      background: var(--color-primary);
+      max-width: 400px;
+      width: 100%;
+      height: 400px;
+      padding: 40px 44px 40px 40px;
+      box-sizing: border-box;
+      img {
+        margin-bottom: 48px;
+        width: 40px;
+        height: 40px;
+      }
+      h3 {
+        margin-bottom: 16px;
+        font-family: Manrope;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        margin-top: 0;
+        overflow: hidden;
+      }
+      p {
+        font-family: Manrope;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        overflow: hidden;
+      }
+      button {
+        padding-top: 4px;
+        padding-right: 24px;
+        padding-bottom: 4px;
+        padding-left: 24px;
+        border-radius: 76px;
+        background: #ffffff;
+        color: #013220;
+        font-family: Manrope;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        text-decoration: none;
+        width: 125px;
+        height: 40px;
+        border: none;
+        margin-top: 48px;
       }
     }
   }
 }
-@media screen and (max-width: 1200px){
-  .list {
-    .cmp-list {
-      justify-content: center;
-      .cmp-list__item {
-        .cmp-teaser {
-          .cmp-teaser__link {
-          }}}}}
+
+@media screen and (max-width: $screen-xl) {
+  .leveloneprops.\.toc-list-meta {
+    justify-content: center;
+  }
 }
-@media screen and (max-width: 320px){
-  .list {
-    .cmp-list {
-      .cmp-list__item {
-        .cmp-teaser {
-          .cmp-teaser__link {
-            width: 100%;
-            max-width: 327px;
-          }}}}}
+
+@media screen and (max-width: $screen-md) {
+  .cmp.cmp-guides-navigation.\.toc-list-meta {
+    margin: 64px 0px 94px 0px;
+    row-gap: 64px;
+    justify-content: center;
+    .guide-item {
+      a {
+        img {
+          height: 251px;
+          max-width: 327px;
+        }
+      }
+    }
+  }
 }
