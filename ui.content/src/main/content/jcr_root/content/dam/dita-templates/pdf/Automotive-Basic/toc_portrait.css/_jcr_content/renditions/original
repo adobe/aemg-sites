@@ -192,6 +192,7 @@
 .toc-level-3::after {
   color: var(--color-accent);
   content: "mycontent";
+  /* margin-inline-start: 30px; */
   /* margin-left: 10%;   */
 }
 #toc_firstpage .toc-level-2::first-line {
@@ -219,4 +220,9 @@
   text-indent: 0px;
   word-break: break-word;
   box-sizing: border-box;
+}
+/* .toc-level-1, */
+.toc-level-2 {
+  text-indent: 0px;
+  margin-inline-start: 30px;
 }

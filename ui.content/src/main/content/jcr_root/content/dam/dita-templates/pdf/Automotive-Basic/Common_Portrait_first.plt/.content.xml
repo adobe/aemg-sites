@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
@@ -8,13 +8,14 @@
         cq:name="Common_Portrait_first.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-19T15:52:12.222+05:30"
+        jcr:lastModified="{Date}2025-02-25T13:09:00.733+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-19T15:52:11.624+05:30"
-            dam:sha1="ddb5034bc7a0e668ad60adc3192997936657020a"
-            dam:size="{Long}1063"
+            dam:extracted="{Date}2025-02-25T13:09:00.654+05:30"
+            dam:sha1="d3246e73e359ae83beac919fb92ca86b4350c2d5"
+            dam:size="{Long}1106"
+            dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>

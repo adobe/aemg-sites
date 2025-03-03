@@ -8,13 +8,13 @@
         cq:name="Chapter_Portrait_right.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-18T19:57:53.936+05:30"
+        jcr:lastModified="{Date}2025-02-25T13:09:29.472+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-18T19:57:53.833+05:30"
-            dam:sha1="5000c986e558ddf8d457adb2a024f18b2232ae2a"
-            dam:size="{Long}1181"
+            dam:extracted="{Date}2025-02-25T13:09:29.397+05:30"
+            dam:sha1="50226b2d08526bb1479daff5a0d2e1fad206ca20"
+            dam:size="{Long}1207"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

@@ -13,7 +13,7 @@
 <body>
   <div class="lot_header" data-region="header">
     <p class="lot_header_title">List Of Table</p>
-    <p class="lot_header_titlealts">2024 Mercedes-Benz EQG</p>
+    <p class="lot_header_titlealts"><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span> <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span> <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
   </div>
   <div class="lot_content" data-region="content"></div>
   <div class="lot_footer" data-region="footer">

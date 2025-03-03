@@ -15,7 +15,7 @@
       <div class="frontcover_header-left" style=""><img class="frontcover_logo-image" src="../../../aemguidesDALP/automotives/images/common/benzlogo.png" /></div>
     </div>
     <p class="hr"></p>
-    <div class="frontcover_metadata"><span class="frontcover_created-date" data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span> <span class="frontcover_product-brand">Mercedes-Benz</span> <span class="frontcover_product-name">EQG </span></div>
+    <div class="frontcover_metadata"><span class="frontcover_created-date" data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span> <span class="frontcover_product-brand"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span></span> <span class="frontcover_product-name"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> </span></div>
     <div class="frontcover_footer">
       <div><span class="frontcover_doctype">Owner&#39;s Manual </span><span class="frontcover_created-date">2024</span></div>
       <a class="frontcover_urls" href="#">🌐 mercedes-benz.com/en/</a>

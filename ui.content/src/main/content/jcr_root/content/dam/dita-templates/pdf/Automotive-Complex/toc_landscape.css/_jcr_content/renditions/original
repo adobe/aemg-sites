@@ -1,6 +1,6 @@
 #landscape_complex div.topic-body {
   display: flex;
-  column-gap: 30px;
+  column-gap: unset;
 }
 .toc_header_landscape {
   transform: translateX(51%);
@@ -9,6 +9,7 @@
 }
 .toc-body {
   padding-top: 30px;
+  padding-left: 30px;
 }
 .toc-img,
 .toc-img_left,
@@ -177,6 +178,8 @@
 }
 .toc-level-2 {
   margin-top: 15px;
+  text-indent: -28px;
+  margin-inline-start: 80px;
 }
 .toc_footer_hr {
   border: 0.5px solid #2C343B;
@@ -191,4 +194,14 @@
   color: var(--color-tertiary);
   padding-top: 8px;
   margin: unset;
+}
+.toc-level-1 {
+  text-indent: -24px;
+  margin-inline-start: 47px;
+}
+.toc-level-1::before {
+  margin-right: 15px;
+}
+.toc-level-2::before {
+  margin-right: 10px;
 }
