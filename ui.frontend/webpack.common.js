@@ -19,12 +19,14 @@ const resolve = {
 module.exports = {
     resolve: resolve,
     entry: {
+        //automotive
         site: SOURCE_ROOT + '/site/main.ts',
         'automotive_global': SOURCE_ROOT + '/clientlibs/automotive/global/main.ts',
         'automoitve_toc': SOURCE_ROOT + '/clientlibs/automotive/toc/main.ts',
         'automotive_topic-body': SOURCE_ROOT + '/clientlibs/automotive/topic-body/main.ts',
         'automative_toc-banner' : SOURCE_ROOT + '/clientlibs/automotive/automotives-toc-banner/main.ts',
         'automotive_landing' : SOURCE_ROOT + '/clientlibs/automotive/landing/main.ts',
+        'automotive_filter' : SOURCE_ROOT + '/clientlibs/automotive/filter/main.ts',
 
 
         //fsi
