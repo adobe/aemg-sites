@@ -1,0 +1,60 @@
+
+@use "../../utils/css/vars" as *;
+
+.feedback-container {
+    background-color: #E8F1FF;
+    padding: 20px 8px;
+    margin-top: 40px;
+
+    @media screen and (max-width: $screen-md){
+        width: 327px;
+        margin-top: unset;
+    }
+
+    .feedback-question {
+        font-size: var(--text-lg);
+        line-height: var(--text-lg-lh);
+        color: var(--color-primary);
+        font-family: var(--font-fam-secondary); 
+        font-weight: 400;
+        margin-bottom: 4px;
+
+        @media screen and (max-width: $screen-md){
+            font-size: var(--text-base);
+            line-height: var(--text-base-lh);
+        }
+    }
+
+    .feedback-text {
+        font-size: var(--text-sm);
+        line-height: var(--text-sm-lh);
+        margin-bottom: 24px;
+        font-family: var(--font-fam-secondary); 
+        font-weight: 400;
+        color: var(--color-primary);
+    }
+
+    .feedback-buttons {
+        display: flex;
+        gap: 8px;
+
+        .feedback-button {
+            background-color: var(--color-accent);
+            color: var(--color-bg);
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            // font-size: 20px;
+            transition: background-color 0.3s ease-in-out;
+
+            &:hover {
+                background-color: var(--color-primary);
+            }
+        }
+    }
+}

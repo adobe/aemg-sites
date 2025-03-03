@@ -43,6 +43,8 @@ const clientlibArr = [
   {name : 'guides-footer', module: 'common'},
   {name : 'guides-header', module: 'common'},
 
+  {name : 'content-feedback', module: 'feedback'},
+  
 
   //automotive
   {name : 'automotive_global', module: 'automotive'},
