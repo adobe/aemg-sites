@@ -1,44 +1,48 @@
-// Select all the list items
-const listItems = document.querySelectorAll(".bfsi-list-cont .cmp-list .cmp-list__item .cmp-teaser__link");
+// Get the encoded JSON string from the data-cmp-props-list attribute
+let encodedData = document.querySelector('.leveloneprops div').getAttribute('data-cmp-props-list');
 
-// Loop through each item and append a button
-listItems.forEach(item => {
-    // Create a new button element
-    const button = document.createElement("button");
+// Decode the HTML entities to get valid JSON
+let decodedData = encodedData.replace(/&quot;/g, '"');
 
-    let listTeaserImage = item.querySelector('img');
+// Parse the JSON string into a JavaScript object
+let jsonData = JSON.parse(decodedData);
 
-    // Check if there is no image tag in the item
-    if (!listTeaserImage) {
-        // If no image, create a new img tag
-        listTeaserImage = document.createElement('img');
-        listTeaserImage.classList.add("cmp-teaser__image");
+// Log the decoded and parsed data
+console.log(jsonData);
 
-        // Optional: Set the image source here
-        listTeaserImage.src = "/content/dam/aemguidesDALP/sites-assets/fsi/leave.png";
+// Step 2: Populate the navigation with the fetched data
+function populateNavigation(data) {
+  // Select the element where we want to populate the JSON data
+  const container = document.querySelector(".leveloneprops");
+  
+  container.innerHTML = "";
 
-        // Append the new image to the item
-        item.appendChild(listTeaserImage);
-    }
+  // Loop through the data and create HTML elements
+  data.forEach((item) => {
+    container.classList.add('.toc-list-meta')
+    const title = item["jcr:title"];
+    const description = item["dc:description"];
+    const image = item["tp_icon"];
+    const button = item["tp_button"] || "Know More";
     
-    if (!listTeaserImage) {
-        // If no image, create a new img tag
-        listTeaserImage = document.createElement('img');
-        listTeaserImage.classList.add("cmp-teaser__image");
 
-        // Optional: Set the image source here
-        listTeaserImage.src = "/content/dam/aemguidesDALP/sites-assets/fsi/leave.png";
+    // Create the structure for each item
+    const guideItem = document.createElement("div");
+    guideItem.classList.add("guide-item");
 
-        // Append the new image to the item
-        item.appendChild(listTeaserImage);
-    }
+    guideItem.innerHTML = `
+      <a href="${item.pagePath}">
+      <img src="${image}" alt="${title}">
+      <h3>${title}</h3>
+      <p>${description}</p>
+      <button>${button}</button>
+      </a>
+    `;
 
-    // Set the button's text or attributes
-    button.textContent = "Know More";
+    // Append each item to the container
+    container.appendChild(guideItem);
+  });
+}
 
-    // Add a class to style the button
-    button.classList.add("cmp-teaser__action-container");
-
-    // Append the button to the list item
-    item.appendChild(button);
-});
+// Call the function to populate the data
+populateNavigation(jsonData);
