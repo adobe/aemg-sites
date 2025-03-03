@@ -50,7 +50,15 @@
     }
   }
 }
-
+.bg-img-monochrome {
+  .cmp-image {
+    .cmp-image__image {
+      backdrop-filter: invert(1);
+      content: "";
+      filter: grayscale(100%);
+    }
+  }
+}
 .banner-description {
   .cmp-text {
     p {

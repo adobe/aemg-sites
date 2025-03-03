@@ -14,7 +14,7 @@
     margin: 0;
 ">
     <h5 id="glossary_header_title">Glossary</h5>
-    <p id="glossary_header_titlealts">2024 Mercedes-Benz EQG</p>
+    <p id="glossary_header_titlealts"><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span> <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span></p>
   </div>
   <div data-region="content"></div>
   <div data-region="footer" id="glossary-footer">

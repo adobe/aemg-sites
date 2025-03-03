@@ -31,7 +31,7 @@ body {
 
 .fsi-header-wrapper {
   background: var(--color-bg2);
-  padding-block: 20px;
+  padding: 20px 0 20px 0;
 }
 
 .header-logo {
@@ -154,6 +154,9 @@ body {
 
 
 @media screen and (max-width: 768px) {
+  .fsi-header-wrapper {
+    padding: 25px 0 22px 0;
+  }
   .footer_gototop {
       .gototop_arrow {
           color: var(--color-bg);

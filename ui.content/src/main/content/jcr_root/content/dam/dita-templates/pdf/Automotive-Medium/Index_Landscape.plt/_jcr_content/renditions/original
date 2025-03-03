@@ -12,7 +12,7 @@
 <body>
   <div data-region="header" id="index_header">
     <h5 id="index_header_title">Index</h5>
-    <p id="index_header_titlealts">2024 Mercedes-Benz EQG</p>
+    <p id="index_header_titlealts"><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span> <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span></p>
   </div>
   <div data-region="content" id="idx_content"></div>
   <div data-region="footer" id="index_footer" style="">
