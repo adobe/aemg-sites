@@ -8,8 +8,7 @@
 
   >.cmp-container {
     display: flex;
-    // justify-content: space-between;
-    padding: 122px 0px 42px 0px;
+    padding: 122px 0px 0px 0px;
 
     @media screen and (max-width: $screen-md) {
       flex-direction: column;
@@ -273,12 +272,16 @@
 }
 
 .left-container {
+  border-right: unset;
   &>.cmp-container {
     @media screen and (max-width: $screen-md) {
       padding-top: unset;
       padding-bottom: 28px;
     }
   }
+}
+.right-container{
+  border-left: unset;
 }
 
 .cmp-pager__next .next{

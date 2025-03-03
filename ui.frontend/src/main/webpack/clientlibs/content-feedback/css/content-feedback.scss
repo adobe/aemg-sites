@@ -1,44 +1,46 @@
 
 @use "../../utils/css/vars" as *;
-@use "../../automotive/global/css/themes" as *;
-
-$primary-bg: #e6f4f1;
-$primary-text: #1a3b3a;
-$secondary-text: #4a6564;
-$button-bg: #093d2b;
-$button-hover: #0b4e39;
-$icon-color: #f4a261;
 
 .feedback-container {
-    background-color: $primary-bg;
-    padding: 15px 8px;
+    background-color: #E8F1FF;
+    padding: 20px 8px;
     margin-top: 40px;
-    // width: 300px;
-    text-align: center;
+
+    @media screen and (max-width: $screen-md){
+        width: 327px;
+        margin-top: unset;
+    }
 
     .feedback-question {
-
-        font-size: var(--text-sm);
-        line-height: var(--text-sm-lh);
-        font-family: var();
+        font-size: var(--text-lg);
+        line-height: var(--text-lg-lh);
+        color: var(--color-primary);
+        font-family: var(--font-fam-secondary); 
         font-weight: 400;
-        color: var();
+        margin-bottom: 4px;
+
+        @media screen and (max-width: $screen-md){
+            font-size: var(--text-base);
+            line-height: var(--text-base-lh);
+        }
     }
 
     .feedback-text {
-        font-size: 14px;
-        color: $secondary-text;
-        margin-bottom: 15px;
+        font-size: var(--text-sm);
+        line-height: var(--text-sm-lh);
+        margin-bottom: 24px;
+        font-family: var(--font-fam-secondary); 
+        font-weight: 400;
+        color: var(--color-primary);
     }
 
     .feedback-buttons {
         display: flex;
-        // justify-content: center;
         gap: 8px;
 
         .feedback-button {
-            background-color: $button-bg;
-            color: $icon-color;
+            background-color: var(--color-accent);
+            color: var(--color-bg);
             border: none;
             border-radius: 50%;
             width: 40px;
@@ -47,11 +49,11 @@ $icon-color: #f4a261;
             align-items: center;
             justify-content: center;
             cursor: pointer;
-            font-size: 20px;
+            // font-size: 20px;
             transition: background-color 0.3s ease-in-out;
 
             &:hover {
-                background-color: $button-hover;
+                background-color: var(--color-primary);
             }
         }
     }
