@@ -22,18 +22,17 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/coral/foundation/container">
                                 <items jcr:primaryType="nt:unstructured">
-                                    <hidebutton
+                                    <title
                                         jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
-                                        fieldDescription="The search can still be submitted by pressing enter in the search field."
-                                        name="./hideButton"
-                                        text="Hide the Search Button"
-                                        value="true"/>
-                                    <resultpage
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldDescription="title"
+                                        fieldLabel="Title"
+                                        name="./title"/>
+                                    <propscsv
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
-                                        fieldDescription="Search result page path ."
-                                        fieldLabel="Search Result Page"
+                                        fieldDescription="Enter Page Properties in a CSV format"
+                                        fieldLabel="Props CSV"
                                         name="./propscsv"/>
                                 </items>
                             </column>
