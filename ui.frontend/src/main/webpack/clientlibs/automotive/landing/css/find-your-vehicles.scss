@@ -40,7 +40,7 @@
 
 .vehicles_list{
     margin-top: 40px;
-    ul {
+    .cmp-div {
         @include flex-container;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -48,7 +48,7 @@
         row-gap: 48px;
         list-style: none;
     
-        li {
+        .guide-item {
             margin: 0;
             padding: 48.5px 25px 48.5px 13px;
             border: 0.5px solid #D8D8D8;
