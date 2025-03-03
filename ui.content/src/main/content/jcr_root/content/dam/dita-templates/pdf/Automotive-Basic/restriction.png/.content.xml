@@ -5,13 +5,13 @@
     jcr:uuid="162c14eb-02f8-43fc-ad45-b6dd4af5e024">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-19T13:52:45.502+05:30"
+        jcr:lastModified="{Date}2025-02-25T13:09:01.527+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
             dam:Comments="Software: www.inkscape.org&#xa;"
-            dam:extracted="{Date}2025-02-19T13:52:45.397+05:30"
+            dam:extracted="{Date}2025-02-25T13:09:01.163+05:30"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"

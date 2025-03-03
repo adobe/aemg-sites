@@ -8,11 +8,11 @@
         cq:name="fonts.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Automative-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-18T19:57:52.712+05:30"
+        jcr:lastModified="{Date}2025-02-25T13:09:27.386+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-18T19:57:52.627+05:30"
+            dam:extracted="{Date}2025-02-25T13:09:27.180+05:30"
             dam:sha1="67a74d1224642440d9e659ebcf8bedd102528391"
             dam:size="{Long}419"
             dc:format="text/css"

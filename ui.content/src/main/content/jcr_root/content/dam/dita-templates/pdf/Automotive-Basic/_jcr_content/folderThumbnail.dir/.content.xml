@@ -2,7 +2,7 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="nt:file">
     <jcr:content
-        dam:folderThumbnailPaths="[/content/dam/dita-templates/pdf/Automotive-Basic/AlertSmall.svg,/content/dam/dita-templates/pdf/Automotive-Basic/preview.jpeg]"
+        dam:folderThumbnailPaths="[/content/dam/dita-templates/pdf/Automotive-Basic/AlertSmall.svg,/content/dam/dita-templates/pdf/Automotive-Basic/preview.jpeg,/content/dam/dita-templates/pdf/Automotive-Basic/restriction.png]"
         jcr:primaryType="nt:unstructured"
         bgcolor="{Long}-1"
         height="{Long}240"

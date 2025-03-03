@@ -8,11 +8,11 @@
         cq:name="lot_portrait.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-18T16:55:48.929+05:30"
+        jcr:lastModified="{Date}2025-02-25T13:09:16.297+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-18T16:55:48.818+05:30"
+            dam:extracted="{Date}2025-02-25T13:09:16.214+05:30"
             dam:sha1="5c65236c326930fa7231e52f83756826d5ab4c76"
             dam:size="{Long}1513"
             dc:format="text/css"

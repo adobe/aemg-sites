@@ -207,3 +207,12 @@
 .toc-level-6 {
   text-indent: 0px;
 }
+/* .toc-level-1, */
+/* .toc-level-2 {
+  text-indent: -40px;
+  margin-inline-start: 75px;
+} */
+.toc-level-2 {
+  text-indent: 0px;
+  margin-inline-start: 30px;
+}

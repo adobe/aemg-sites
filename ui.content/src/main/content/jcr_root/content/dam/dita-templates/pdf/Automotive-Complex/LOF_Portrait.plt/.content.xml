@@ -8,11 +8,11 @@
         cq:name="LOF_Portrait.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-18T16:55:44.130+05:30"
+        jcr:lastModified="{Date}2025-02-25T13:09:13.131+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-18T16:55:43.944+05:30"
+            dam:extracted="{Date}2025-02-25T13:09:13.030+05:30"
             dam:sha1="9e90d073898d4fa74b207f1223bbfcc9131696c3"
             dam:size="{Long}1396"
             dc:format="application/octet-stream"

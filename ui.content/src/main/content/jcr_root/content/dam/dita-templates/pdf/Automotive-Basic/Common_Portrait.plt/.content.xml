@@ -8,13 +8,13 @@
         cq:name="Common_Portrait.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-13T12:55:12.700+05:30"
+        jcr:lastModified="{Date}2025-02-25T13:09:02.447+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-13T12:55:12.521+05:30"
-            dam:sha1="cc1c3f640000fd00a508b0f6d0c12497b7cf6f7a"
-            dam:size="{Long}1068"
+            dam:extracted="{Date}2025-02-25T13:09:02.289+05:30"
+            dam:sha1="a0126c9ef6feae372c8861872c1c2c87eeff110d"
+            dam:size="{Long}1084"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

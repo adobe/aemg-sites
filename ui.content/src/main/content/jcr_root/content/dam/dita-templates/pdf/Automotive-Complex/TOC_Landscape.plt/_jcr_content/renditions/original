@@ -15,7 +15,7 @@
   <div class="toc_header_landscape" data-region="header" style=""><br />
     
     <p class="toc-title" id="toc_firstpage_header_title">Table of Contents</p>
-    <p class="toc-sub_title" id="toc_firstpage_header_titlealts">2024 Mercedes-Benz EQG</p>
+    <p class="toc-sub_title" id="toc_firstpage_header_titlealts"><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span> <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span> <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
   </div>
   <div data-region="content" id="landscape_complex">
     <div class="toc-img"></div>
