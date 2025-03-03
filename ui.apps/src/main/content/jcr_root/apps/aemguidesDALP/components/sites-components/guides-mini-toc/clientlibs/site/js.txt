@@ -16,4 +16,4 @@
 
 #base=js
 
-minitoc.js
+//minitoc.js

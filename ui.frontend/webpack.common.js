@@ -47,6 +47,8 @@ module.exports = {
         'guides-footer': SOURCE_ROOT + '/clientlibs/guides-footer/main.ts',
         'guides-header' : SOURCE_ROOT + '/clientlibs/guides-header/main.ts',
 
+        'content-feedback': SOURCE_ROOT + '/clientlibs/content-feedback/main.ts'
+
     },
     output: {
         filename: (chunkData) => {
