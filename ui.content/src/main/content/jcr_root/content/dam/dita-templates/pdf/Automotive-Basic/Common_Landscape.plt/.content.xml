@@ -8,13 +8,13 @@
         cq:name="Common_Landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-13T12:55:14.676+05:30"
+        jcr:lastModified="{Date}2025-02-25T13:09:00.472+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-13T12:55:14.528+05:30"
-            dam:sha1="f0ccff36df7bafc499b42fc36680733e63f7f50d"
-            dam:size="{Long}944"
+            dam:extracted="{Date}2025-02-25T13:09:00.324+05:30"
+            dam:sha1="aaad008bbb7f06ae2b6a139e94c9cc7dd686168a"
+            dam:size="{Long}962"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

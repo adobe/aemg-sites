@@ -7,7 +7,6 @@
   <meta name="page-style" content="size:portrait; margin-left:73px; margin-right:73px; margin-top: 80px;  margin-bottom: 140px;" />
   <!-- <link rel="stylesheet" type="text/css" href="lof_complex.css" /> -->
 
-
   <link rel="stylesheet" type="text/css" href="common.css" />
   <link rel="stylesheet" type="text/css" href="lof_portrait.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
@@ -16,7 +15,7 @@
 <body>
   <div class="lof_header" data-region="header">
     <p class="lof_header_title">List Of Figure</p>
-    <p class="lof_header_titlealts">2024 Mercedes-Benz EQG</p>
+    <p class="lof_header_titlealts"><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span> <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span> <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
   </div>
   <div class="lof_content" data-region="content"></div>
   <div class="lof_footer" data-region="footer">

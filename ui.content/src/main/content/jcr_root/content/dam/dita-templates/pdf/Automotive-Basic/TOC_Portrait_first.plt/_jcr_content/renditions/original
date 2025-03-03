@@ -15,7 +15,7 @@
   </div>
   <div data-region="content" id="toc_firstpage">
     <p class="toc-title">Table of Contents</p>
-    <p class="toc-sub_title">2024 Car Name</p>
+    <p class="toc-sub_title"><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span> <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span> <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> </p>
   </div>
   <div data-region="footer" style="opacity: 0.7">
     <hr style="border: 0.5px solid #2C343B; margin: 0; padding: 0;" />
