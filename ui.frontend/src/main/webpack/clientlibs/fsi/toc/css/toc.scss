@@ -20,6 +20,9 @@
     li:last-child{
         margin-bottom: unset;
     }
+    .item-child-toggle {
+        cursor: pointer;
+    }
     .cmp-guidesnavigation__item-level {
        &-1,&-2, &-3, &-4, &-5 {
           padding-left: var(--toc-indent);
