@@ -73,6 +73,7 @@ public class LevelOnePagePropsImpl extends AbstractComponentImpl implements Leve
                         String propValue = childNode.getNode("jcr:content").hasProperty(prop) ? childNode.getNode("jcr:content").getProperty(prop).getString() : "";
                         propMap.put(prop, propValue);
                     }
+                    propMap.put("pagePath", childNode.getPath());
                     propsList.add(propMap);
                 }
             }
