@@ -30,7 +30,7 @@ function populateNavigation(data) {
     const guideItem = document.createElement("div");
     guideItem.classList.add("guide-item");
 
-    const link = item.pagePath + ".html";
+    const link = item.pagePath.endsWith(".html") ? item.pagePath : item.pagePath + ".html";
 
     guideItem.innerHTML = `
       <a href="${link}">
