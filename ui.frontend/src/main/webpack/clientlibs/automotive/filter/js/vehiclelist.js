@@ -13,14 +13,10 @@ console.log(jsonData);
 // Step 2: Populate the navigation with the fetched data
 function populateNavigation(data) {
   // Select the element where we want to populate the JSON data
-  const container = document.querySelector(".leveloneprops");
-
-  // Clear existing content if any
-  container.innerHTML = "";
+  const container = document.querySelector(".leveloneprops .cmp-div");
 
   // Loop through the data and create HTML elements
   data.forEach((item) => {
-    container.classList.add('.toc-list-meta')
     const title = item["jcr:title"];
     const description = item["dc:description"];
     const image = item["tp_coverimage"];
@@ -30,10 +26,12 @@ function populateNavigation(data) {
     guideItem.classList.add("guide-item");
 
     guideItem.innerHTML = `
-      <a href="${item.pagePath}">
-      <img src="${image}" alt="${title}">
-      <h3>${title}</h3>
-      <p>${description}</p>
+      <a class="cmp-teaser__title" href="${item.pagePath}">
+      <div class="cmp-teaser__image">
+        <img src="${image}" alt="${title}">
+      </div>
+      <h3 class="cmp-teaser__title">${title}</h3>
+      ${description ? '<p>'+ description +'</p>' : ''} 
       </a>
     `;
 
