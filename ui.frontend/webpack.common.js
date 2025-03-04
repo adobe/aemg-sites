@@ -33,7 +33,7 @@ module.exports = {
         'fsi_topic-body':  SOURCE_ROOT + '/clientlibs/fsi/topic-body/main.ts',
         'fsi_global':  SOURCE_ROOT + '/clientlibs/fsi/global/main.ts',
         'fsi_toc' : SOURCE_ROOT + '/clientlibs/fsi/toc/main.ts',
-        'fsi_mini-toc' : SOURCE_ROOT + '/clientlibs/fsi/mini-toc/main.ts',
+        // 'fsi_mini-toc' : SOURCE_ROOT + '/clientlibs/fsi/mini-toc/main.ts',
         'fsi_landing' : SOURCE_ROOT + '/clientlibs/fsi/landing/main.ts',
         'fsi-landing-banner' : SOURCE_ROOT + '/clientlibs/fsi/fsi-landing-banner/main.ts',
         
@@ -41,7 +41,7 @@ module.exports = {
         'hi-tech_topic-body' : SOURCE_ROOT + '/clientlibs/hi-tech/topic-body/main.ts',
         'hi-tech_global' : SOURCE_ROOT + '/clientlibs/hi-tech/global/main.ts',
         'hi-tech_toc' :  SOURCE_ROOT + '/clientlibs/hi-tech/toc/main.ts',
-        'hi-tech_mini_toc' :  SOURCE_ROOT + '/clientlibs/hi-tech/mini-toc/main.ts',
+        // 'hi-tech_mini_toc' :  SOURCE_ROOT + '/clientlibs/hi-tech/mini-toc/main.ts',
         'landing-banner' :  SOURCE_ROOT + '/clientlibs/hi-tech/landing-banner/main.ts',
         'hi-tech-landing-list' :  SOURCE_ROOT + '/clientlibs/hi-tech/hitech-landing-list/main.ts',
 
