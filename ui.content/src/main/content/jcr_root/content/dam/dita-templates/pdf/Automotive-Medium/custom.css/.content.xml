@@ -3,18 +3,18 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="8fd02694-76ab-4cc9-adc8-7c30980a1b0d">
+    jcr:uuid="b096c288-1748-43a9-aba4-ec338369a7c7">
     <jcr:content
-        cq:name="codeblock.css"
-        cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Basic"
+        cq:name="custom.css"
+        cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-25T13:09:01.844+05:30"
+        jcr:lastModified="{Date}2025-03-04T13:10:09.127+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-25T13:09:01.755+05:30"
-            dam:sha1="ae8d7b962e4805eba928fdd3ac00f05fb4b49bff"
-            dam:size="{Long}455"
+            dam:extracted="{Date}2025-03-04T13:10:09.078+05:30"
+            dam:sha1="62dd7c4507d77527121b26725d51b237c24c5c97"
+            dam:size="{Long}27"
             dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

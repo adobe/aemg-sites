@@ -46,8 +46,8 @@
       <name>customLayout</name>
       <mergeMode>none</mergeMode>
       <showInTOC type="boolean">true</showInTOC>
-      <path>FrontCover_Portrait.plt</path>
-      <label>FrontCover_Portrait</label>
+      <path>FrontCover_Landscape.plt</path>
+      <label>FrontCover_Landscape</label>
     </bookListsitem>
     <bookListsitem>
       <name>customLayout</name>
@@ -62,6 +62,13 @@
       <showInTOC type="boolean">true</showInTOC>
       <label>TOC</label>
       <disabled type="boolean">false</disabled>
+    </bookListsitem>
+    <bookListsitem>
+      <name>customLayout</name>
+      <mergeMode>none</mergeMode>
+      <showInTOC type="boolean">true</showInTOC>
+      <path>Blank_Landscape.plt</path>
+      <label>Blank_Landscape</label>
     </bookListsitem>
     <bookListsitem>
       <name>topicLayout</name>
@@ -113,6 +120,13 @@
       <disabled type="boolean">false</disabled>
     </bookListsitem>
     <bookListsitem>
+      <name>customLayout</name>
+      <mergeMode>none</mergeMode>
+      <showInTOC type="boolean">true</showInTOC>
+      <path>Blank_Landscape.plt</path>
+      <label>Blank_Landscape</label>
+    </bookListsitem>
+    <bookListsitem>
       <name>bibLayout</name>
       <mergeMode>none</mergeMode>
       <showInTOC type="boolean">false</showInTOC>
@@ -123,8 +137,8 @@
       <name>customLayout</name>
       <mergeMode>none</mergeMode>
       <showInTOC type="boolean">true</showInTOC>
-      <path>BackCover_Portrait.plt</path>
-      <label>BackCover_Portrait</label>
+      <path>BackCover_Landscape.plt</path>
+      <label>BackCover_Landscape</label>
     </bookListsitem>
   </bookLists>
   <hyperlinkGlossary type="boolean">true</hyperlinkGlossary>
