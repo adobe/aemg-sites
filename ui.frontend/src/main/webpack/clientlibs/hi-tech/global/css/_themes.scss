@@ -12,12 +12,14 @@
   --color-gray-dark : #5F5F60;
   --color-secondary-blue: #76A2EB;
   --color-bg : #FFFFFF;
+  --color-border-light: #D8D8D8;
 // codeblock 
     --color-neutral-light: #EEEEEE;
     --color-neutral-dark: #ddd;
     .theme-btn {
       &::before {
         content: "\f185";
+        content: url("/content/dam/aemguidesDALP/fsi/images/moon (7).png");
       }
     }
 }
@@ -36,6 +38,7 @@
   --color-gray-dark: #F2F2F2;
   --color-secondary-blue: #76A2EB;
   --color-bg: #121212; // Dark background color
+  --color-border-light: #D8D8D8;
 
   // codeblock 
   --color-neutral-light: #2A2A2A; // Darker light neutral for codeblocks
@@ -63,7 +66,8 @@
   @include light-theme();
   .theme-btn {
     &::before {
-      content: "\f185" !important;
+      content: "\f185";
+      content: url("/content/dam/aemguidesDALP/fsi/images/moon (7).png");
     }
   }
 }
@@ -78,12 +82,12 @@
 }
 
 // OS Default.
-:root:not(.light):not(.dark) {
-  @media (prefers-color-scheme: light) {
-    @include light-theme;
-  }
+// :root:not(.light):not(.dark) {
+//   @media (prefers-color-scheme: light) {
+//     @include light-theme;
+//   }
 
-  @media (prefers-color-scheme: dark) {
-    @include dark-theme;
-  }
-}
+//   @media (prefers-color-scheme: dark) {
+//     @include dark-theme;
+//   }
+// }
