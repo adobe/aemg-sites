@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
   <link rel="stylesheet" type="text/css" href="chapter_landscape_right.css" />
+  <link rel="stylesheet" type="text/css" href="custom.css" />
 </head>
 <body data-layout="page" class="chapter_right_landsc_body">
   <div data-region="header">
