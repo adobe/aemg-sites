@@ -10,6 +10,7 @@
   <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
   <link rel="stylesheet" type="text/css" href="common.css" />
+   <link rel="stylesheet" type="text/css" href="custom.css" />
 </head>
 <body>
   <div class="chapter-text_wrapper" data-region="header">
@@ -19,7 +20,7 @@
   <div data-region="content"></div>
   <div class="footer-common" data-region="footer">
     <p class="chapter-footer"><span class="footer-number" data-field="page-number">1</span></p>
-    <p><span data-field="metadata" class="footer-text" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+    <p><span class="footer-text" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
   </div>
 </body>
 </html>
