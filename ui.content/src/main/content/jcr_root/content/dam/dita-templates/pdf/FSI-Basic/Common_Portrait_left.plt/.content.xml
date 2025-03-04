@@ -8,11 +8,11 @@
         cq:name="Common_Portrait_left.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-25T12:43:15.066+05:30"
+        jcr:lastModified="{Date}2025-02-24T12:29:06.056+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-25T12:43:15.002+05:30"
+            dam:extracted="{Date}2025-02-24T12:29:05.931+05:30"
             dam:sha1="7a1bb871b64d3cded6d11a562384be750ad99cd4"
             dam:size="{Long}1835"
             dc:format="application/octet-stream"
