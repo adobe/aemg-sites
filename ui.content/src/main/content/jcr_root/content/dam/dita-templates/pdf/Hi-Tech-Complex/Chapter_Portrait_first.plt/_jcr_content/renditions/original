@@ -7,11 +7,14 @@
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" href="chapter_portrait.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="custom.css" />
   <meta name="page-style" content="size:portrait;margin-bottom:70px;" />
   <meta name="footnote-style" content="margin-top:1rem;" />
 </head>
 <body data-layout="page">
-  <p></p>
+  <p><br />
+    
+  </p>
   <div data-region="header" style=""></div>
   <div class="chapter-content" data-region="content" style="display: flex;flex-direction: column;justify-content: space-between;height: 970px;">
     <div class="chapter-image-content" style="

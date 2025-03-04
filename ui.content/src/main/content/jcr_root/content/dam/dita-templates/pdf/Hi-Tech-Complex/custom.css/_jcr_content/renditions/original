@@ -1,0 +1,512 @@
+.cite,
+cite,
+term,
+.term {
+  color: var(--color-primary);
+  font-style: italic;
+  font-size: var(--text-base);
+}
+q,
+.q {
+  font-style: italic;
+  font-size: var(--text-xl);
+  border-left: 5px solid var(--color-accent);
+  margin: 20px 0;
+  padding-left: 20px;
+  color: var(--color-primary);
+  background-color: var(--color-neutral-light);
+  line-height: 1.6;
+  font-family: var(--font-fam-primary);
+  position: relative;
+}
+q::before,
+.q::before {
+  content: "“";
+  font-size: 3em;
+  color: var(--color-accent);
+  position: absolute;
+  top: -21px;
+  left: -10px;
+}
+q::after,
+.q::after {
+  content: "”";
+  font-size: 3em;
+  color: var(--color-accent);
+  position: absolute;
+  bottom: -51px;
+  right: unset;
+}
+/* Style for the entire definition list */
+.dl {
+  width: 60%;
+  margin-block: 2rem;
+  padding: 1rem 0;
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
+  /* border-radius: 8px; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+/* Header style */
+.dlhead {
+  font-family: var(--font-fam-primary);
+  color: #fff;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
+  color: var(--color-primary);
+}
+.dthd {}
+/* Entry block styles */
+.dlentry {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  transition: all 0.3s ease;
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
+  border-left: 3px solid var(--color-primary);
+  background-color: var(--color-neutral-light);
+  color: var(--color-primary);
+  break-inside: avoid;
+}
+/* Styling for the <dt> (definition term) */
+.dt {
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+.dt::after {
+  content: " :";
+}
+/* Styling for the <dd> (definition description) */
+.dd {
+  line-height: 1.5;
+  margin-left: 1rem;
+  font-family: var(--font-fam-secondary, var(--font-fam-primary));
+  color: var(--color-secondary);
+}
+/* Container for steps */
+ol.steps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  max-width: 600px;
+  /* Limit the width */
+  margin: 30px auto;
+  /* Center it */
+  font-family: 'Helvetica N	eue', sans-serif;
+  counter-reset: step-counter;
+  /* Initialize the counter */
+}
+/* Each step */
+li.step {
+  position: relative;
+  padding-left: 50px;
+  /* Space for the vertical line and step icon */
+  margin-bottom: 40px;
+  /* Vertical spacing between steps */
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+/* Vertical line connecting steps */
+ol.steps::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 25px;
+  /* Position the line in the center */
+  width: 2px;
+  height: 100%;
+  background-color: #e0e0e0;
+  z-index: 1;
+}
+/* Circle steps with numbers */
+li.step::before {
+  content: counter(step-counter);
+  counter-increment: step-counter;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;
+  /* Default color for steps */
+  color: var(--color-primary);
+  /* White text */
+  font-weight: bold;
+  font-size: 16px;
+  /* Number size */
+  border-radius: 50%;
+  border: 3px solid #fff;
+  text-align: center;
+  line-height: 30px;
+  z-index: 2;
+}
+/* Active step */
+li.step.active::before {
+  background-color: #3498db;
+  /* Blue for active step */
+  border-color: #3498db;
+  /* Border color for active */
+}
+/* Completed step */
+li.step.completed::before {
+  background-color: #2ecc71;
+  /* Green for completed step */
+  border-color: #2ecc71;
+  /* Border color for completed */
+}
+/* Info box for additional information */
+div.itemgroup.info {
+  background-color: #f3f3f3;
+  padding: 10px;
+  border-left: 3px solid var(--color-primary);
+  font-size: 14px;
+  margin-top: 10px;
+}
+span.prefix-content {
+  font-weight: bold;
+}
+/* Choices for the third step */
+ul.choices {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: square;
+}
+li.choice {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+/* Styling for cascading menu */
+.ph.menucascade {
+  padding: 5px;
+  border-radius: 3px;
+  margin-left: 5px;
+  font-weight: 600;
+}
+/* Display inline content */
+.display-inline {
+  display: inline-block;
+  margin-right: 5px;
+}
+/* Styling for the span elements */
+.ph.uicontrol {
+  font-weight: normal;
+  color: var(--color-primary);
+}
+.fig,
+fig {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f4f4f4;
+  /* Subtle background */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* Light shadow for elegance */
+  padding: 20px;
+  max-width: 500px;
+  margin: 30px auto;
+  /* Centering with some margin */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Smooth transition */
+}
+/* Styling for the figcaption */
+.fig figcaption,
+figcaption {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  margin-top: 15px;
+  font-family: 'Arial', sans-serif;
+}
+/* Image styling */
+.image,
+image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  /* Ensures the image scales beautifully */
+}
+.note.danger {
+  --color-danger-light: #fff0f0;
+  --color-danger-dark: #ffd7d6;
+  background-color: var(--color-danger-light);
+  border-bottom: 1px solid var(--color-danger-dark);
+  border-top: 1px solid var(--color-danger-dark);
+}
+.note.tip {
+  --color-tip-light: #EEEEEE;
+  --color-tip-dark: #ddd;
+  background-color: var(--color-tip-light);
+  border-bottom: 1px solid var(--color-tip-dark);
+  border-top: 1px solid var(--color-tip-dark);
+}
+.note.caution {
+  --color-caution-light: #fff9e5;
+  --color-caution-dark: #f5c823;
+  background-color: var(--color-caution-light);
+  border-bottom: 1px solid var(--color-caution-dark);
+  border-top: 1px solid var(--color-caution-dark);
+}
+.note.restriction {
+  --color-restriction-light: #EEEEEE;
+  --color-restriction-dark: #ddd;
+  background-color: var(--color-restriction-light);
+  border-bottom: 1px solid var(--color-restriction-dark);
+  border-top: 1px solid var(--color-restriction-dark);
+}
+.note.warning {
+  --color-warning-light: #ffeddf;
+  --color-warning-dark: #ffb47b;
+}
+.note.notice {
+  --color-notice-light: #f6f9fc;
+  --color-notice-dark: #e4edf6;
+}
+.note.tip:not(.hazardstatement)::after {
+  background-image: url('tip.png');
+}
+.note.caution ::before {
+  color: black;
+  background-color: navajowhite;
+}
+.note.caution:not(.hazardstatement)::after {
+  background-image: url('caution.png');
+}
+.note.danger ::before {
+  color: white;
+  background-color: red;
+}
+.note.danger:not(.hazardstatement)::after {
+  background-image: url('danger.png');
+}
+.note.restriction:not(.hazardstatement)::after {
+  background-image: url('restriction.png');
+}
+.prefix-content {
+  font-weight: bold;
+}
+.note {
+  padding: 12px;
+  font-size: 9px;
+  line-height: 12px;
+  font-weight: 400;
+  color: var(--color-primary);
+  border-left: 0px;
+  position: relative;
+  padding-left: 50px;
+  margin-top: auto;
+  margin-bottom: 1em;
+  font-style: italic;
+}
+.note:not(.hazardstatement)::before {
+  content: "";
+  width: 28px;
+  height: 28px;
+  background-color: #C6DFD9;
+  border-radius: 50%;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/*hazard  */
+.hazardstatement {
+  position: relative;
+  width: 647px;
+  margin: 50px 0px 50px 0px !important;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 30px;
+  flex-direction: row-reverse;
+  border: 1px solid #D8D8D8 !important;
+  background: #FFFFFF !important;
+}
+.hazardstatement .prefix-content {
+  /* background-color: #821616;
+  color: #FFFFFF; */
+  /* width: 630px; */
+  width: 97.3%;
+  height: unset;
+  border-radius: 4px 4px 0px 0px;
+  padding: 10px;
+  top: -33px;
+  position: absolute;
+  background-image: none;
+  left: 0px;
+}
+.hazardstatement.danger .prefix-content {
+  background-color: #821616;
+  color: #FFFFFF;
+}
+.hazardstatement.warning .prefix-content {
+  background-color: #FFB47B;
+  color: #0D0D0D;
+}
+.hazardstatement.notice .prefix-content {
+  background-color: var(--color-neutral-dark);
+  color: #0D0D0D;
+}
+.hazardstatement.caution .prefix-content {
+  background-color: #F4C723;
+  color: #0D0D0D;
+}
+.note.hazardstatement ul li {
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-secondary);
+  margin-bottom: 16px;
+  list-style: disc;
+}
+.hazardstatement .placement-inline {
+  display: inline;
+  background: #FFE2E2;
+  padding: 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  position: relative;
+}
+.hazardstatement .placement-inline img {
+  left: 32%;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  position: absolute;
+  top: 24%;
+  border-radius: unset;
+}
+/* .hazardsymbol {
+  background-image: url('../../../aemguidesDALP/automotives/images/common/danger-icon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+.hazardsymbol.image {
+  border-radius: unset;
+}
+/* Styling for unordered lists */
+ul {
+  list-style-type: none;
+}
+ul li {
+  background: #E7E7E7;
+  border-radius: 5px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+/* ul li:hover {
+            background-color: #D3D3D3;
+        } */
+ul li:not(.hazardstatement)::before {
+  content: '•';
+  position: absolute;
+  left: -20px;
+  font-size: 1.5em;
+  color: #34BFA3;
+  /* Green color for the bullets */
+}
+.hazardstatement li::before,
+.note.hazardstatement ul li::before {
+  content: none;
+}
+/* ol */
+.ol_container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 0 8px rgba(2, 2, 2, 0.1);
+  width: 400px;
+  margin: 30px;
+  padding: 30px;
+}
+ol {
+  list-style: none;
+  padding: 0;
+  counter-reset: list-counter;
+  undefined: undefined;
+}
+ol li {
+  margin-bottom: 20px;
+  counter-increment: list-counter;
+  position: relative;
+  padding-left: 50px;
+  undefined: undefined;
+}
+ol li::before {
+  color: green;
+  border-color: green;
+  content: counter(list-counter);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #34BFA3;
+  undefined: undefined;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+ol li b {
+  display: block;
+  margin-bottom: 5px;
+}
+.codeblock {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  transition: all 0.3s ease;
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
+  border-left: 3px solid var(--color-primary);
+  background-color: var(--color-neutral-light);
+  color: var(--color-primary);
+  break-inside: avoid;
+}
+.footnote-ref {
+  font-size: 0.8em;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.footnote-ref:hover {
+  color: #0056b3;
+}
+.footnote {
+  font-size: 0.9em;
+  margin-top: 1em;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-left: 4px solid #007bff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin-left: 20px;
+}
+.footnote-text {
+  margin: 0;
+  font-style: italic;
+}
+.footnote-number {
+  font-weight: bold;
+  color: #007bff;
+}
+.xrefinfo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.xref {
+  color: #0074D9;
+  text-decoration: underline;
+}
