@@ -8,11 +8,11 @@
         cq:name="Chapter_Landscape_right.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-25T12:43:29.190+05:30"
+        jcr:lastModified="{Date}2025-02-24T12:29:20.748+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-25T12:43:29.142+05:30"
+            dam:extracted="{Date}2025-02-24T12:29:20.636+05:30"
             dam:sha1="2e844d293b90cdd6be2abadb8650b08a9df8f659"
             dam:size="{Long}2239"
             dc:format="application/octet-stream"
