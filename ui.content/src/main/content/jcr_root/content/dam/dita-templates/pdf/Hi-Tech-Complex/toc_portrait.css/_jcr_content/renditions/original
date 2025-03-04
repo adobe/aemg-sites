@@ -29,9 +29,14 @@
   color: var(--color-accent);
   margin-top: 22px;
 }
+a.topicref.pdf-toc-level-1.toc-level-1 {
+  display: flex;
+  gap: 15px;
+}
 .toc-level-1::after {
   display: none;
 }
+
 .toc-level-2 {
   font-family: Urbanist;
   font-size: var(--text-xs);
@@ -41,8 +46,8 @@
   text-align: left;
   color: var(--color-accent);
   margin-top: 8px;
-  text-indent: 0px;
-  margin-inline-start: 15px;
+  text-indent: -35px;
+  margin-inline-start: 61px;
 }
 .toc-level-2::after {
   color: var(--color-natural-blue);
