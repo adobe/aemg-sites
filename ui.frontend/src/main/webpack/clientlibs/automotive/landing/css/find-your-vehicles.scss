@@ -42,7 +42,7 @@
     .cmp-div {
         @include flex-container;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: start;
         column-gap: 32px;
         row-gap: 48px;
         list-style: none;

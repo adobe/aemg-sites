@@ -31,7 +31,7 @@ function populateNavigation(data) {
     guideItem.dataset.tp_carmodel = item.tp_carmodel;
 
     guideItem.innerHTML = `
-      <a class="cmp-teaser__title" href="${item.pagePath}">
+      <a class="cmp-teaser__title" href="${item.pagePath + ".html"}">
       <div class="cmp-teaser__image">
         <img src="${image}" alt="${title}">
       </div>
