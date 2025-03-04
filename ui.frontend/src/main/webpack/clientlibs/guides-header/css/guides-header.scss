@@ -267,4 +267,12 @@
     } 
 }
 
+.dark .fsi-header-wrapper .search-container .cmp-search-bar__input{
+    background-color: transparent;
+}
+
+.dark .fsi-header-wrapper .search-container  .cmp-search-bar__clear-icon{
+    filter: invert(50%) sepia(100%) saturate(200%) hue-rotate(180deg);
+}
+
 
