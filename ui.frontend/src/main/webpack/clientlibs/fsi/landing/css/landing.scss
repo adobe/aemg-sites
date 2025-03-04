@@ -52,8 +52,7 @@
       flex-direction: column;
       text-decoration: none;
       background: var(--color-primary);
-      max-width: 400px;
-      width: 100%;
+      width: 400px;
       height: 400px;
       padding: 40px 44px 40px 40px;
       box-sizing: border-box;
@@ -71,7 +70,6 @@
         letter-spacing: 0px;
         color: #ffffff;
         margin-top: 0;
-        overflow: hidden;
       }
       p {
         font-family: Manrope;
@@ -80,7 +78,7 @@
         line-height: 16px;
         letter-spacing: 0px;
         color: #ffffff;
-        overflow: hidden;
+        flex-grow: 1;
       }
       button {
         padding-top: 4px;
@@ -106,24 +104,46 @@
   }
 }
 
-@media screen and (max-width: $screen-xl) {
-  .leveloneprops.\.toc-list-meta {
-    justify-content: center;
-  }
-}
-
 @media screen and (max-width: $screen-md) {
-  .cmp.cmp-guides-navigation.\.toc-list-meta {
-    margin: 64px 0px 94px 0px;
-    row-gap: 64px;
+  .leveloneprops.\.toc-list-meta {
+    margin: 0px 24px 64px 24px;
+    row-gap: 32px;
     justify-content: center;
+
     .guide-item {
+      max-width: 327px;
+      width: 100%;
       a {
+        max-width: 327px;
+        height: 326px;
+        padding: 33px 24px;
+        width: 100%;
+        h3 {
+          font-size: 20px;
+          line-height: 28px;
+          overflow: hidden;
+          height: 63px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 20px;
+          flex-grow: unset;
+          overflow: hidden;
+          height: 57px;
+        }
         img {
-          height: 251px;
-          max-width: 327px;
+          margin-bottom: 24px;
+          width: 28px;
+          height: 36px;
+        }
+        button {
+          margin-top: 24px;
         }
       }
     }
   }
 }
+
+// Media query for screens with a max width of 768px
+
+
