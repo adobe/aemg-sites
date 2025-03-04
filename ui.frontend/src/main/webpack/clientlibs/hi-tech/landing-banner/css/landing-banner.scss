@@ -51,6 +51,12 @@
   }
 }
 .bg-img-monochrome {
+    img {
+      filter: invert(1);
+    }
+  
+}
+.bg-img-monochrome {
   .cmp-image {
     .cmp-image__image {
       backdrop-filter: invert(1);
