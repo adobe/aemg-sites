@@ -8,6 +8,13 @@
                 border: unset;
                 .cmp-search-bar__input{
                     border: 2px solid var(--color-primary);
+                    font-family:  var(--font-fam-primary);
+                    color: var(--color-primary);
+                    caret-color: var(--color-primary);
+                    &::placeholder{
+                        font-family:  var(--font-fam-primary);
+                        color: var(--color-primary);
+                    }
                 }
                 .cmp-search-bar__icon,.cmp-search-bar__clear-icon{
                     top: 1rem;
@@ -105,4 +112,16 @@
     @media screen and (max-width: 768px) {
         padding: 2rem;
     }
+}
+
+.dark #cmp-search-page-result .searchbar  .cmp-search-bar .cmp-search-bar__field .cmp-search-bar__input,
+.dark #cmp-search-page-result .searchresult .search__field--results .cmp-sort__heading select
+{
+    background-color: transparent;
+}
+
+.dark #cmp-search-page-result .searchbar  .cmp-search-bar .cmp-search-bar__field .cmp-search-bar__clear-icon,
+.dark #cmp-search-page-result .searchbar  .cmp-search-bar .cmp-search-bar__field .cmp-search-bar__icon
+{
+    filter: invert(50%) sepia(100%) saturate(200%) hue-rotate(180deg);
 }
