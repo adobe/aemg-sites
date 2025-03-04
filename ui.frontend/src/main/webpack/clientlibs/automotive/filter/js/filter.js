@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", function () {
-  const filterElements = document.querySelectorAll("[data-filter-key");
-  const elements = document.querySelectorAll(".leveloneprops div ul li");
+  const filterElements = document.querySelectorAll("[data-filter-key]");
+  const elements = document.querySelectorAll(".leveloneprops div .guide-item");
 
   filterElements.forEach(li => {
     li.addEventListener("click", () => {
