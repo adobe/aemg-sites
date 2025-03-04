@@ -3,11 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <link rel="stylesheet" href="layout.css" type="text/css" />
-  <link rel="stylesheet" href="chapter_landscape;.css" type="text/css" />
+
   <meta name="page-style" content="size:landscape;margin-bottom:120px;" />
   <title>Page Layout</title>
   <meta name="footnote-style" content="" />
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="chapter_landscape;.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+  <link rel="stylesheet" type="text/css" href="custom.css" />
 </head>
 <body data-layout="page">
   <div data-region="header" style=""></div>

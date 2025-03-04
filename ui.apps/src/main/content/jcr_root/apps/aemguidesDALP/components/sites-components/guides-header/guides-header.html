@@ -2,9 +2,9 @@
 
         <div class="fsi-header-wrapper">
 
-            <div class="header-logo">
-                <img src="/content/dam/aemguidesDALP/sites-assets/fsi/FSI-Logo.png" alt="logo">
-                <p>Logo</p>
+            <div class="header-logo banner-img">
+                <img src="${properties.fileReference}" alt="logo">
+                <!-- <p>Logo</p> -->
             </div>
 
             <div class="navigation-menus">
@@ -23,7 +23,13 @@
             <div class="navigation-right-menus">
                 <!-- <img src="images/fsi-search-icon.svg" alt="search-icon">
                 <img src="images/theme-icon.svg" alt="theme-change-icon"> -->    
-                <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                <button class="global-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <div class="search-container display-none">
+                    <div data-sly-resource="${'searchbar' @ resourceType='aemguidesDALP/components/sites-components/searchbar'}"></div>
+                </div>
+
                 <button class="theme-btn"></button>
 
                 <div class="language-selector">
@@ -37,7 +43,7 @@
             </div>
             
             <div class="login_wrapper">
-                <button class="login-btn">Login</button>
+                <!-- <button class="login-btn">Login</button> -->
                 <a class="hamburger_icon"><i class="fa fa-bars"></i></a>
             </div>
 

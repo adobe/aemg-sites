@@ -18,5 +18,7 @@ public interface GuidesTOC extends Component {
 
     List<Map<String,String>> getTopicList();
 
+    List<String> getTopicListJson();
+
     String getCurrentPageTocIndex();
 }

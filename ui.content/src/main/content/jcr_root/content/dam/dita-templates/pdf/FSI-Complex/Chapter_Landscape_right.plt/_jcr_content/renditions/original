@@ -10,11 +10,12 @@
   <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
   <link rel="stylesheet" type="text/css" href="chapter_landscape.css" />
+    <link rel="stylesheet" type="text/css" href="custom.css" />
 </head>
 <body>
   <div data-region="header">
     <div class="chapter_rightpage_landsc_header" style="">
-      <div style=""><img class="chapter_leftpage_landsc_header_logo" src="../../../aemguidesDALP/fsi/images/common/chapter-logo.png" /></div>
+      <div style=""><img class="chapter_leftpage_landsc_header_logo" src="../../../aemguidesDALP/fsi/images/chapter-logo.png" /></div>
       <span class="chapter_rightpage_landsc_header_page-number" data-field="page-number" data-format="default">1</span>
     </div>
   </div>

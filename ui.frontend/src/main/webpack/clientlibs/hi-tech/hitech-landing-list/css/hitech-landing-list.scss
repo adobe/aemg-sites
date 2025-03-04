@@ -1,8 +1,8 @@
 @use "../../../utils/css/vars" as *;
-.cmp.cmp-guides-navigation {
-  display: none;
-}
-.cmp.cmp-guides-navigation.\.toc-list-meta {
+// .cmp.cmp-guides-navigation {
+//   display: none;
+// }
+.leveloneprops.\.toc-list-meta {
   display: flex;
   flex-wrap: wrap;
   column-gap: 32px;
@@ -36,8 +36,6 @@
         font-size: 16px;
         line-height: 30px;
         letter-spacing: 0px;
-        text-decoration: underline;
-        text-decoration-style: solid;
         color: var(--color-primary);
       }
     }
@@ -45,7 +43,7 @@
 }
 
 @media screen and (max-width: $screen-xl) {
-  .cmp.cmp-guides-navigation.\.toc-list-meta {
+  .leveloneprops.\.toc-list-meta {
     justify-content: center;
   }
 }

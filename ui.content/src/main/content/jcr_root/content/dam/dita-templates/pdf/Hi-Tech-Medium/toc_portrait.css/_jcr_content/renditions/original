@@ -29,7 +29,9 @@
   margin: 0;
   padding-bottom: 8px;
   border-left: 0.5px solid var(--color-gray);
-  padding-left: 8px;
+  padding-left: 56px;
+  text-indent: -31px;
+  margin-inline-start: 2px;
   margin-left: var(--toc-level-2-gap);
 }
 .toc-level-2::after {
@@ -70,14 +72,14 @@
   color: var(--color-accent);
   margin: 0;
 }
-.toc-level-1,
+/* .toc-level-1,
 .toc-level-2,
 .toc-level-3,
 .toc-level-4,
 .toc-level-5,
 .toc-level-6 {
   text-indent: 0px;
-}
+} */
 /* body {
   counter-reset: toc1 h1\.chapter1 0;
 }
