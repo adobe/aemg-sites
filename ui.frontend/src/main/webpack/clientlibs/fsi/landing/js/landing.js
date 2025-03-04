@@ -30,8 +30,10 @@ function populateNavigation(data) {
     const guideItem = document.createElement("div");
     guideItem.classList.add("guide-item");
 
+    const link = item.pagePath.endsWith(".html") ? item.pagePath : item.pagePath + ".html";
+
     guideItem.innerHTML = `
-      <a href="${item.pagePath}">
+      <a href="${link}">
       <img src="${image}" alt="${title}">
       <h3>${title}</h3>
       <p>${description}</p>

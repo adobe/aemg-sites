@@ -158,7 +158,8 @@
 
 .topic-body{
   >.cmp-container{
-    .chapter_sub-titles{
+    .chapter_sub-titles + .title,
+    .chapter_sub-titles .title {
       font-size: var(--text-lg);
       line-height: var(--text-lg-lh);
       color: var(--color-primary);

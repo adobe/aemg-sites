@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="layout.css" type="text/css" />
   <link rel="stylesheet" href="chapter_portrait.css" type="text/css" />
   <link rel="stylesheet" type="text/css" href="chapter_portrait.css" />
+    <link rel="stylesheet" type="text/css" href="custom.css" />
   <title>Chapter Page Layout</title>
 </head>
 <body data-layout="page">

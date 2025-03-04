@@ -7,8 +7,10 @@
   <meta name="page-style" content="size:A4 landscape; margin-left:73px; margin-right:73px; margin-top: 40px;  margin-bottom: 140px;" />
   <title>Page Layout</title>
   <meta name="footnote-style" content="" />
+
   <link rel="stylesheet" type="text/css" href="chapter_landscape.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
+  <link rel="stylesheet" type="text/css" href="custom.css" />
 </head>
 <body>
   <p style=""></p>

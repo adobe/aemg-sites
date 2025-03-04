@@ -10,11 +10,14 @@
   <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" type="text/css" href="common.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
+   <link rel="stylesheet" type="text/css" href="custom.css" />
 </head>
 <body>
   <div data-region="header">
     <div class="chapter_header">
-      <div class="chapter_header_logo"></div>
+      <div class="chapter_header_logo"><br />
+        
+      </div>
       <span class="chapter_header_page-number" data-field="page-number" data-format="default">1</span>
     </div>
   </div>
