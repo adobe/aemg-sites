@@ -5,12 +5,18 @@ window.addEventListener("DOMContentLoaded", function () {
 
     if (e.target.closest("body:not(.toc-modal) .toc-popup-init")) {
       document.querySelector("body").classList.add("toc-modal");
+      document.querySelector(".toc-search").style.display = "block"; 
       return;
     }
 
     if (!e.target.closest(".cmp-guides-navigation")) {
       document.querySelector("body").classList.remove("toc-modal");
+      document.querySelector(".toc-search").style.display = "none"; 
     }
+  });
+
+  document.querySelector(".toc-search input").addEventListener('click', function (e) {
+    e.stopPropagation(); 
   });
 
 });
