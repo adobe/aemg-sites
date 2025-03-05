@@ -6,6 +6,7 @@ window.addEventListener("DOMContentLoaded", function () {
     if (e.target.closest("body:not(.toc-modal) .toc-popup-init")) {
       document.querySelector("body").classList.add("toc-modal");
       document.querySelector(".toc-search").style.display = "block"; 
+      document.querySelector(".toc-search").classList.add("toc-search-position");
       return;
     }
 
