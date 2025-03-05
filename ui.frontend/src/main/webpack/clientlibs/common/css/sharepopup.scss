@@ -8,6 +8,12 @@
   }
 }
 
+.dark {
+  .sharepopup {
+    --color-primary: black;
+  }
+}
+
 .popup {
   position: absolute;
   left: 50%;
