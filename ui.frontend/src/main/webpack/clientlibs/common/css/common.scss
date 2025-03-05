@@ -248,6 +248,11 @@ body {
     }
   }
 
+  @media screen and (max-width: $screen-md) {
+    margin-top: 16px;
+    margin-bottom: 7px;
+  }
+
 }
 
 //toc search
@@ -297,6 +302,10 @@ body {
       &:focus {
         outline-color: var(--color-primary);
       }
+    }
+
+    @media screen and (max-width: $screen-md) {
+      display: none;
     }
   }
 
