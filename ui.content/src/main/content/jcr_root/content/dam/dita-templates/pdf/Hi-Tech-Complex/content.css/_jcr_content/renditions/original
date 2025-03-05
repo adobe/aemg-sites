@@ -15,6 +15,7 @@ body {
 .toc-level-2::before {
   counter-increment: toc2;
   content: counter(toc1) "." counter(toc2) " " !important;
+  margin-right: 20px;
 }
 /**** Heading Styles ****/
 h1 {

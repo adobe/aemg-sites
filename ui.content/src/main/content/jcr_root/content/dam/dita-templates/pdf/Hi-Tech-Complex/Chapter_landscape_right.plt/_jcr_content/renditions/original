@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="layout.css" type="text/css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" type="text/css" href="chapter_landscape.css" />
-    <link rel="stylesheet" type="text/css" href="custom.css" />
   <meta name="page-style" content="size:landscape;margin-right:70px;margin-bottom:110px;margin-left:70px;" />
   <meta name="footnote-style" content="margin-top:1rem;" />
 </head>

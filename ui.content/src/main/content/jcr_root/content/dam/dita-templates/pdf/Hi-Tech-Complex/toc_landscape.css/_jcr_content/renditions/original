@@ -47,6 +47,9 @@
   object-fit: cover;
   object-position: top;
 }
+.toc-level-2::before {
+  margin-right: 18px;
+}
 .toc-level-1 {
   font-family: Urbanist;
   font-size: var(--text-4xs-fs);

@@ -4,8 +4,8 @@
   gap: 56px;
 }
 .frontcover_logo-landscape {
-  width: 144px;
-  height: 26px;
+  width: 151px;
+  height: 42px;
   margin-left: 0px;
 }
 .footer-title-subtitle-landscape {
