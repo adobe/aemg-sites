@@ -10,13 +10,13 @@
   <meta name="footnote-style" content="" />
 </head>
 <body>
-  <div data-region="header"><img src="../../../aemguidesDALP/hi-tech/pdf/complex/images/hitechbl_logo.png" style="width: 288px;height: 81px;margin-top: 69px;" /></div>
+  <div data-region="header"><img src="../../../aemguidesDALP/hi-tech/images/common/backcover_logo.png" style="width: 288px; height: 81px; margin-top: 69px;" /></div>
   <div class="backcover-details" data-regio="content">
     <p class="main-description"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
     <div class="backcover_organization-details">
       <div class="backcover_contact-container">
         <p class="backcover_org-contact-label">CONTACT</p>
-        <span class="backcover_org-contactnumbers"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/phone-icon.png" /> 000 800 050 01888</span> <span class="backcover_org-emailaddresses"><img class="email-icon img-icon" height="23" src="../../../aemguidesDALP/automotives/images/email-icon.png" width="32" /><a href="https://myaccount.google.com/email">info@nvidia.com</a></span>
+        <span class="backcover_org-contactnumbers"><img class="phone-icon img-icon" src="../../../aemguidesDALP/hi-tech/images/common/phone-img.png" style="cursor: nwse-resize;" /> 000 800 050 01888</span> <span class="backcover_org-emailaddresses"><img class="email-icon img-icon" src="../../../aemguidesDALP/hi-tech/images/common/email-img.png" /><a href="https://myaccount.google.com/email">info@nvidia.com</a></span>
       </div>
       <div class="backcover_address-container">
         <p class="backcover_org-address-label">ADDRESS</p>
@@ -25,7 +25,7 @@
       </div>
       <div class="backcover_socials-container">
         <p class="backcover_org-socials-label">SOCIAL MEDIA</p>
-        <span class="backcover_org-socials"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/insta-icon.png" /> <a href="https://www.instagram.com/accounts/login/?hl=en">Instagram link</a></span>
+        <span class="backcover_org-socials"><img class="phone-icon img-icon" src="../../../aemguidesDALP/hi-tech/images/common/insta-img.png" /> <a href="https://www.instagram.com/accounts/login/?hl=en">Instagram link</a></span>
       </div>
     </div>
   </div>

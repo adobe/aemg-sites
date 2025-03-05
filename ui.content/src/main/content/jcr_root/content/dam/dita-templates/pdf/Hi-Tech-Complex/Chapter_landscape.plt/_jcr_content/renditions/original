@@ -4,9 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" href="layout.css" type="text/css" />
-  
   <link rel="stylesheet" type="text/css" href="chapter_landscape.css" />
-    <link rel="stylesheet" type="text/css" href="custom.css" />
   <meta name="page-style" content="size:landscape;" />
   <title>Page Layout</title>
   <meta name="footnote-style" content="" />
