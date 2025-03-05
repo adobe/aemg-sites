@@ -20,7 +20,7 @@
                 line-height: var(--text-xl-lh);
                 font-weight: 400;
                 color: var(--color-primary);
-                font-family: var(--font-fam-primary);
+                font-family: var(--font-fam-secondary);
             }
 
             ul {
@@ -32,9 +32,10 @@
                     font-size: var(--text-sm);
                     line-height: var(--text-sm-lh);
                     font-weight: 400;
-                    font-family: var(--font-fam-primary);
+                    font-family: var(--font-fam-secondary);
                     color: var(--color-light-grey);
                     margin-bottom: 11px;
+                    cursor: pointer;
                 }
 
                 li.active-filter {
