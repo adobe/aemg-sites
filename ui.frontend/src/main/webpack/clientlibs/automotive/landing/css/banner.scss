@@ -96,4 +96,9 @@
       width: 45%;
     }
   }
+} 
+
+.dark .hero_text .cmp-container .cmp-title h1,
+.dark .hero_text .cmp-container .cmp-text p  {
+  color: var(--color-primary);
 }
