@@ -9,7 +9,7 @@ window.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
-    if (!e.target.closest(".cmp-guides-navigation")) {
+    if (!e.target.closest(".cmp-guides-navigation") && getComputedStyle(document.querySelector('.toc-popup-init')).display === "inline-block") {
       document.querySelector("body").classList.remove("toc-modal");
       document.querySelector(".toc-search").style.display = "none"; 
     }
