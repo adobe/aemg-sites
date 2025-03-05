@@ -19,11 +19,13 @@ function callafunction() {
 
     // Loop through each string in the array and create an <li> element
     stringValues.forEach(item => {
-      const li = document.createElement('li');
-      li.dataset.filterKey = stringKey;
-      li.dataset.value = item;
-      li.textContent = item;
-      fragment.appendChild(li);
+      if (stringKey) {
+        const li = document.createElement('li');
+        li.dataset.filterKey = stringKey;
+        li.dataset.value = item;
+        li.textContent = item;
+        fragment.appendChild(li);
+      }
     });
 
     // Append the fragment containing the <li> elements to the <ul>
