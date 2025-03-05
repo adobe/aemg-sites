@@ -18,7 +18,7 @@
   .theme-btn {
     &::before {
       content: "\f185";
-      content: url("/content/dam/aemguidesDALP/fsi/images/moon.png");
+      content: url("/content/dam/aemguidesDALP/fsi/images/moon-light.png");
     }
   }
 }
@@ -28,7 +28,7 @@
     --color-primary: #FFFFFF; 
     --color-primary-70: #1E3A5FB3;
     --color-secondary: #ffffff;
-    --color-neutral: #4A4A4A; 
+    --color-neutral: #110000; 
     --color-bg: #0D0D0D; 
     --color-border-light: #333333; 
     --color-on-accent: #FFFFFF; 
@@ -49,7 +49,7 @@
   .theme-btn {
     &::before {
       content: "\f185";
-      content: url("/content/dam/aemguidesDALP/fsi/images/moon.png");
+      content: url("/content/dam/aemguidesDALP/fsi/images/moon-light.png");
     }
   }
 }

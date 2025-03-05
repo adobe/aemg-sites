@@ -312,6 +312,7 @@ image {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
+  align-items: center;
   gap: 30px;
   flex-direction: row-reverse;
   border: 1px solid var(--color-grey, #D8D8D8) !important;
@@ -326,10 +327,11 @@ image {
   height: unset;
   border-radius: 4px 4px 0px 0px;
   padding: 10px;
-  top: -33px;
+  top: -32px;
   position: absolute;
   background-image: none;
   left: 0px;
+  font-size: 14px;
 }
 .hazardstatement.danger .prefix-content {
   background-color: var(--color-accent, #821616);
@@ -356,8 +358,10 @@ image {
   font-weight: 400;
   color: var(--color-secondary);
   margin-bottom: 16px;
-  list-style: disc;
+  list-style: none;
   background: none;
+  margin-bottom: 0px;
+  padding: 0px;
 }
 .hazardstatement .placement-inline {
   display: inline;

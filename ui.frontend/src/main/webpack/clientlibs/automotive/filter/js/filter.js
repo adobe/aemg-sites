@@ -33,7 +33,7 @@ window.addEventListener("DOMContentLoaded", function () {
         });
 
         filters.forEach(ele => {
-          if(ele != li) {
+          if(ele && ele != li) {
             ele.classList.remove("active-filter");
           }
         });
@@ -42,8 +42,12 @@ window.addEventListener("DOMContentLoaded", function () {
         allFilter.classList.remove("active-filter");
       }
 
+      const curactiveProductCat = document.querySelector(".vehicleproductcategory .active-filter");
+      const curactiveVehType = document.querySelector(".vehicletype .active-filter");
+      const curactiveModel = document.querySelector(".vehiclemodel  .active-filter");
+
       elements.forEach(item => {
-        noOfResults += validator([activeProductCat, activeVehType, activeModel], item) ;
+        noOfResults += validator([curactiveProductCat, curactiveVehType, curactiveModel], item) ;
       });
 
       if(noOfResults == 0) {

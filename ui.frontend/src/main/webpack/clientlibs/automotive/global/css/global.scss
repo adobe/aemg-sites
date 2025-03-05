@@ -34,6 +34,10 @@ body {
 }
 
 .header-logo {
+  img {
+    height: 40px;
+    width: 100%;
+  }
   p {
       color: var(--color-secondary);
   }
@@ -95,6 +99,10 @@ body {
   .footer_logo-container {
       .footer_logo {
         color: var(--color-secondary);
+        img {
+          height: 40px;
+          width: 100%;
+        }
       }
 
       .footer_text {
@@ -155,6 +163,12 @@ body {
 @media screen and (max-width: 768px) {
   .fsi-header-wrapper {
     padding: 25px 0 22px 0;
+    max-width: 88%;
+  }
+  .header-logo {
+    img {
+      height: 29px;
+    }
   }
   .footer_gototop {
       .gototop_arrow {
@@ -180,4 +194,19 @@ body {
 
 .fsi-header-wrapper .search-container .cmp-search-bar__input {
   border: 1px solid var(--color-primary);
+.dark .guides-footer{
+  border-top: 0.5px solid var(--color-primary);
+}
+
+.dark .guides-header{
+  border-bottom: 0.5px solid var(--color-primary);
+}
+
+.dark .footer_copywrite-wrapper {
+  border-top: 0.5px solid var(--color-primary);
+}
+
+.dark .login_wrapper .login-btn {
+  background: var(--color-primary);
+  color: var(--color-bg2);
 }
