@@ -5,13 +5,13 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" href="layout.css" type="text/css" />
   <link rel="stylesheet" href="frontcover_landscape.css" type="text/css" />
-  <meta name="page-style" content="size:landscape;background-image:url(&#39;../../../aemguidesDALP/hi-tech/pdf/complex/images/Vector.png&#39;);background-color:#01EA57;background-size:1122px 100%;margin-left:73px;margin-right:73px;margin-top:158px;" />
+  <meta name="page-style" content="size:landscape;background-image:url(&#39;../../../aemguidesDALP/hi-tech/images/common/Vector.png&#39;);background-color:#01EA57;background-size:1122px 100%;margin-left:73px;margin-right:73px;margin-top:158px;" />
   <title>Page Layout</title>
   <meta name="footnote-style" content="" />
 </head>
 <body>
   <div data-region="header"></div>
-  <div class="frontcover-content-landscape" data-region="content" style=""><img class="frontcover_logo-landscape" src="../../../aemguidesDALP/hi-tech/pdf/complex/images/hitechbl_logo.png" />
+  <div class="frontcover-content-landscape" data-region="content" style=""><img class="frontcover_logo-landscape" src="../../../aemguidesDALP/hi-tech/images/common/backcover_logo.png" />
     <div class="footer-title-subtitle-landscape" style="">
       <p class="frontcover_mainbooktitle-landscape" style=""><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
       <p class="frontcover_booktitlealt-landscape" style="">Application Note</p>

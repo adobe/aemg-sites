@@ -61,6 +61,27 @@ body {
   --color-blue: #C6DFD9;
   --color-gray: #AEAEAE;
   --color-green: #02403D;
+  --color-neutral-light: #EEEEEE;
+  --color-dark-grey: #2C3E50;
+  --color-bg-light: #E0E0E0;
+  --color-lighter-bg: #ccc;
+  --color-white-light: #F3F3F3;
+  --color-grey-lighter: #F4F4F4;
+  --color-black-grey: #333;
+  --color-danger-light: #FFF0F0;
+  --color-danger-dark: #FFD7D6;
+  --color-tip-light: #EEEEEE;
+  --color-tip-dark: #ddd;
+  --color-caution-light: #FFF9E5;
+  --color-caution-dark: #F5C823;
+  --color-restriction-light: #EEEEEE;
+  --color-restriction-dark: #ddd;
+  --color-warning-light: #FFEDDF;
+  --color-warning-dark: #FFB47B;
+  --color-notice-light: #F6F9FC;
+  --color-notice-dark: #E4EDF6;
+  --color-danger-darker: #FF0000;
+  --color-footnote-light: #F8F9FA;
 }
 .toc-config,
 :root {
