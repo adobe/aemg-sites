@@ -157,9 +157,10 @@
 }
 
 .topic-body{
+  margin-top: 25px;
+
   >.cmp-container{
-    .chapter_sub-titles + .title,
-    .chapter_sub-titles .title {
+    .cmp-text h2 {
       font-size: var(--text-lg);
       line-height: var(--text-lg-lh);
       color: var(--color-primary);

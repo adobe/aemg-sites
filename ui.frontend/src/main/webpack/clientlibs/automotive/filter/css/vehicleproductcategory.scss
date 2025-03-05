@@ -15,11 +15,12 @@
           font-size: var(--text-sm);
           line-height: var(--text-sm-lh);
           font-weight: 400;
-          font-family: var(--font-fam-primary);
+          font-family: var(--font-fam-secondary);
           color: var(--color-primary);
           flex-basis: auto;
           min-width: 136px;
           text-align: center;
+          cursor: pointer;
       }
       li.active-filter {
           background-color: var(--color-accent);
