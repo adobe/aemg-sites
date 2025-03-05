@@ -2,7 +2,7 @@
 @use "../../utils/css/vars" as *;
 
 .feedback-container {
-    background-color: #E8F1FF;
+    background-color: var(--color-content-bg);
     padding: 20px 8px;
     margin-top: 40px;
 
