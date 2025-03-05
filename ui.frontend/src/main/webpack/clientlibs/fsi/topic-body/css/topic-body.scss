@@ -1,10 +1,5 @@
 @use "../../../utils/css/vars" as *;
 
-.middle-container {
-  .breadcrumb ol li a, .breadcrumb ol li.cmp-breadcrumb__item--active {
-    font-size: var(--text-xs);
-  }
-}
 
 #topic-title {
   & > .cmp-title__text {
@@ -108,15 +103,15 @@
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0%;
-  color: #013220;
-  @media screen and (max-width: $screen-sm){
+  color: var(--color-primary);
+  @media screen and (max-width: $screen-md){
     padding: 0px 24px;
   }
   a{
     font-weight: 700;
     letter-spacing: 0%;
     text-decoration: underline;
-    @media screen and (max-width: $screen-sm){
+    @media screen and (max-width: $screen-md){
       padding: 0px;
     }
   }
@@ -191,8 +186,9 @@
     }
     caption {
       margin-bottom: 8px;
+      margin-top: 8px;
     }
-    @media screen and (max-width: $screen-sm){
+    @media screen and (max-width: $screen-md){
       padding: 0px 0px 0px 24px;
     }
   }

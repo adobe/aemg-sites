@@ -6,9 +6,11 @@
   <meta name="page-style" content="size:A4 landscape;margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px;" />
   <title>Page Layout</title>
   <meta name="footnote-style" content="" />
+
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
   <link rel="stylesheet" type="text/css" href="chapter_landscape.css" />
+  <link rel="stylesheet" type="text/css" href="custom.css" />
 </head>
 <body>
   <div class="chapter_firstpage_landsc_header" data-region="header"></div>

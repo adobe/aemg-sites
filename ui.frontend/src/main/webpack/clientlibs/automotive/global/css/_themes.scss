@@ -4,29 +4,73 @@
   --color-accent: #821616;
   --color-primary: #001E3A;
   --color-primary-70: #001e3ab3;
+  --color-secondary: #ffffff;
   --color-neutral: #D8D8D8;
   --color-bg: #FFFFFF;
+  --color-border-light: #D8D8D8;
+  --color-on-accent: #FFFFFF;
+  --color-border-light: #D8D8D8;
+  --color-light-grey: #2C343B;
+  --color-content-bg: #E8F1FF;
+
+  --color-bg2: #0D0D0D;
+  
+  .theme-btn {
+    &::before {
+      content: "\f185";
+      content: url("/content/dam/aemguidesDALP/fsi/images/moon.png");
+    }
+  }
 }
 
 @mixin dark-theme {
+    --color-accent: #821616;  
+    --color-primary: #FFFFFF; 
+    --color-primary-70: #1E3A5FB3;
+    --color-secondary: #ffffff;
+    --color-neutral: #4A4A4A; 
+    --color-bg: #0D0D0D; 
+    --color-border-light: #333333; 
+    --color-on-accent: #FFFFFF; 
+    --color-light-grey: #B0B0B0; 
+    --color-bg2: #0D0D0D;
+    --color-content-bg: #821616;
 
+    .theme-btn {
+    &::before {
+      content: "\f186";
+    }
+  }
 }
 
 .light {
   @include light-theme();
+
+  .theme-btn {
+    &::before {
+      content: "\f185";
+      content: url("/content/dam/aemguidesDALP/fsi/images/moon.png");
+    }
+  }
 }
 
 .dark {
   @include dark-theme();
+
+  .theme-btn {
+    &::before {
+      content: "\f186" !important;
+    }
+  }
 }
 
 // OS Default.
-:root:not(.light):not(.dark) {
-  @media (prefers-color-scheme: light) {
-    @include light-theme;
-  }
+// :root:not(.light):not(.dark) {
+//   @media (prefers-color-scheme: light) {
+//     @include light-theme;
+//   }
 
-  @media (prefers-color-scheme: dark) {
-    @include dark-theme;
-  }
-}
+//   @media (prefers-color-scheme: dark) {
+//     @include dark-theme;
+//   }
+// }

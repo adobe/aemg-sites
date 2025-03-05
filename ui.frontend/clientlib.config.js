@@ -42,20 +42,25 @@ const clientlibArr = [
   //common
   {name : 'guides-footer', module: 'common'},
   {name : 'guides-header', module: 'common'},
+  {name : 'global-search' , module: 'common'},
 
+  {name : 'content-feedback', module: 'feedback'},
+  
 
   //automotive
   {name : 'automotive_global', module: 'automotive'},
   {name : 'automotive-footer', module: 'automotive'},
   {name : 'automoitve_toc', module: 'automotive'},
   {name : 'automotive_topic-body', module: 'automotive'},
+  {name : 'automative_toc-banner', module: 'automotive'},
   {name: 'automotive_landing', module: 'automotive'},
+  {name: 'automotive_filter', module: 'automotive'},
 
   //fsi
   {name : 'fsi_topic-body' , module: 'fsi'},
   {name : 'fsi_global' , module: 'fsi'},
   {name : 'fsi_toc' , module: 'fsi'},
-  {name : 'fsi_mini-toc' , module: 'fsi'},
+  // {name : 'fsi_mini-toc' , module: 'fsi'},
   {name : 'fsi_landing' , module: 'fsi'},
   
   {name : 'fsi-landing-banner' , module: 'fsi'},
@@ -66,7 +71,9 @@ const clientlibArr = [
   {name : 'hi-tech_topic-body', module: 'hi-tech'},
   {name : 'hi-tech_global', module: 'hi-tech'},
   {name : 'hi-tech_toc', module: 'hi-tech'},
-  {name : 'hi-tech_mini_toc', module: 'hi-tech'},
+  // {name : 'hi-tech_mini_toc', module: 'hi-tech'},
+  {name : 'landing-banner', module: 'hi-tech'},
+  {name : 'hi-tech-landing-list', module: 'hi-tech'},
 ]
 
 const libsArr = [];

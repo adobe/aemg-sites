@@ -14,7 +14,7 @@
   <div data-region="header">
     <div class="toc_header">
       <p class="toc_header_title" style="">Content Overview</p>
-      <div class="toc_header_logo" style=""><img class="toc_header_logo" height="90" src="../../../aemguidesDALP/fsi/images/toc-header-logo.png" width="174" /></div>
+      <div class="toc_header_logo" style=""><img class="toc_header_logo" height="90" src="../../../aemguidesDALP/fsi/images/common/toc-header-logo.png" width="174" /></div>
     </div>
   </div>
   <div data-region="content"><!-- <script type="text/javascript" src="draft.js"></script> -->
