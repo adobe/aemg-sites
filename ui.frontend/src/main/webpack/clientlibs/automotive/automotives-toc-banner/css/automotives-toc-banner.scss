@@ -87,9 +87,9 @@
 
     .pdf-download {
       margin-right: auto;
-      display: flex;
+      // display: flex;
       align-items: center;
-      gap: 20px;
+      // gap: 20px;
       button {
         padding: 11px 16px;
         background-color: var(--color-accent);
@@ -100,6 +100,9 @@
       .pdf-note {
         font-size: 12px;
         color: red;
+        position: absolute;
+        left: 38%;
+        top: 21%;
       }
 
       .cmp-button__text {
