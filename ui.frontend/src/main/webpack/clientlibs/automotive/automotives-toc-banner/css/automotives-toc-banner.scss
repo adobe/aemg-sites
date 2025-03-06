@@ -95,21 +95,7 @@
         background-color: var(--color-accent);
         border: none;
         cursor: pointer;
-        position: relative;
       }
-
-      // .pdf-note {
-      //   font-size: 12px;
-      //   color: red;
-      //   position: absolute;
-      //   left: 38%;
-      //   top: 32.5%;
-
-      //   @media screen and (max-width: $screen-md) {
-      //       left: 0;
-      //       top: 60.5%;
-      //   } 
-      // }
 
       .cmp-button__text {
         font-size: var(--text-sm);
