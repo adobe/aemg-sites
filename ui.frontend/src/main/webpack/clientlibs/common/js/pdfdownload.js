@@ -59,5 +59,6 @@ function showNoteMessage(container) {
 
   setTimeout(() => {
     container.removeChild(noteMessage);
+    downloadManualButton.classList.remove('padding-bottom');
   }, 30000);
 }
