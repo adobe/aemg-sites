@@ -70,7 +70,7 @@ class GuidesNavigation {
         chevron.classList.add('item-child-toggle')
         chevron.setAttribute("children-rendered", "false")
         if(isActive) {
-            anchor.setAttribute("href", item.outputPath + ".html")
+            anchor.setAttribute("href", item.outputPath.endsWith(".html") ? item.outputPath : item.outputPath + ".html");
         } else {
             anchor.style.cursor = "default";
         }
