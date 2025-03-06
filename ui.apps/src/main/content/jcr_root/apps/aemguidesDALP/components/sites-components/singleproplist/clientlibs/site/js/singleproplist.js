@@ -19,7 +19,7 @@ function callafunction() {
 
     // Loop through each string in the array and create an <li> element
     stringValues.forEach(item => {
-      if (stringKey) {
+      if (item) {
         const li = document.createElement('li');
         li.dataset.filterKey = stringKey;
         li.dataset.value = item;
