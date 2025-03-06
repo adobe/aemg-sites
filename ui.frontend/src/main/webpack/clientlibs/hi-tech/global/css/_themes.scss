@@ -17,12 +17,12 @@
 // codeblock 
     --color-neutral-light: #EEEEEE;
     --color-neutral-dark: #ddd;
-    .theme-btn {
-      &::before {
-        content: "\f185";
-        content: url("/content/dam/aemguidesDALP/fsi/images/moon.png");
-      }
-    }
+    // .theme-btn {
+    //   &::before {
+    //     content: "\f185";
+    //     content: url("/content/dam/aemguidesDALP/fsi/images/moon.png");
+    //   }
+    // }
 }
 
 @mixin dark-theme {
@@ -57,30 +57,30 @@
 
   
 
-  .theme-btn {
-    &::before {
-      content: "\f186"; // Keep the icon as it is
-    }
-  }
+  // .theme-btn {
+  //   &::before {
+  //     content: "\f186"; // Keep the icon as it is
+  //   }
+  // }
 }
 
 .light {
   @include light-theme();
-  .theme-btn {
-    &::before {
-      content: "\f185";
-      content: url("/content/dam/aemguidesDALP/fsi/images/moon.png");
-    }
-  }
+  // .theme-btn {
+  //   &::before {
+  //     content: "\f185";
+  //     content: url("/content/dam/aemguidesDALP/fsi/images/moon.png");
+  //   }
+  // }
 }
 
 .dark {
   @include dark-theme();
-  .theme-btn {
-    &::before {
-      content: "\f186" !important;
-    }
-  }
+  // .theme-btn {
+  //   &::before {
+  //     content: "\f186" !important;
+  //   }
+  // }
 }
 
 // OS Default.
@@ -93,3 +93,43 @@
 //     @include dark-theme;
 //   }
 // }
+
+.theme-btns{
+  .checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+  .checkbox-label {
+    background-color: var( --color-primary);
+    width: 50px;
+    height: 24px;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .checkbox-label .ball {
+    background-color: var(--color-bg);
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+  }
+  .fa-moon {
+    color: var(--color-accent);
+  }
+
+  .fa-sun {
+    color: var(--color-accent);
+  }
+
+  .checkbox:checked + .checkbox-label .ball {
+    transform: translateX(25px);
+  }
+}
