@@ -56,7 +56,7 @@ body {
 @media screen and (max-width: $screen-md) {
 
   .right-container{
-    padding-bottom: 64px;
+    // padding-bottom: 64px;
     &> .cmp-container{
       padding-top: unset;
     }
