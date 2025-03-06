@@ -540,3 +540,35 @@ body {
   height: 100vh;
   overflow-y: hidden;
 }
+
+/* Horizontal Blinking Text Reveal Animations */
+
+.loading {
+  display: inline-block;
+  overflow: hidden;
+  max-width: fit-content;
+  white-space: nowrap;
+  width: 0;
+  height: 56px;
+  max-width: 60%;
+  opacity: 0;
+  animation: reveal-text 3s forwards;
+}
+
+@keyframes reveal-text {
+  0% {
+    width: 0%;
+    opacity: 0;
+    color: var(--color-accent);
+  }
+  50% {
+    width: 50%;
+    opacity: 1;
+    color: var(--color-accent);
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+    color: var(--color-accent);
+  }
+}

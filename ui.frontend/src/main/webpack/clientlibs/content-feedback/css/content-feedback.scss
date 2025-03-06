@@ -55,6 +55,30 @@
             &:hover {
                 background-color: var(--color-primary);
             }
+
+            &:disabled {
+                cursor: not-allowed;
+                opacity: 0.5;
+            }
+
+            &.selected {
+                background-color: #4caf50;
+                // background-color: var(--color-primary);
+                border: 3px solid white;
+                transform: scale(1.1); 
+            }
         }
+    }
+    .feedback-message {
+        font-size: var(--text-sm);
+        line-height: var(--text-sm-lh);
+        color: var(--color-primary);
+        font-family: var(--font-fam-secondary); 
+        font-weight: bold;
+        text-align: center;
+        margin-top: 15px;
+        opacity: 0;
+        transform: translateY(10px);
+        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
     }
 }
