@@ -35,7 +35,9 @@ body {
     }
   }
 }
-
+.dark .feedback-container{
+  background-color: var(--color-primary2);
+}
 .dark .feedback-container .feedback-buttons .feedback-button{
   color: var(--color-border-light);
   &:hover {  
@@ -46,15 +48,26 @@ body {
 
 .pdf-download{
   .pdf-note {
-    top: 3.2%;
+    top: 30px;
     left: 46%;
   }
 }
 
 @media screen and (max-width: $screen-md) {
+
+  .right-container{
+    padding-bottom: 64px;
+    &> .cmp-container{
+      padding-top: unset;
+    }
+  }
+  .guides-pager{
+    margin-bottom: 64px;  
+  }
+
   .pdf-download{
     .pdf-note {
-      top: 2.5%;
+      top: 65px;
       right: 1%;
       left: unset;
     }
