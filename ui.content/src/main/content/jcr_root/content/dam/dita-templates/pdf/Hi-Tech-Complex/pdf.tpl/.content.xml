@@ -10,8 +10,8 @@
         dam:processingRenditions="[cq5dam.thumbnail.48.48.png,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.features.json,cq5dam.thumbnail.140.100.png,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.tags.json,cqdam.text.txt,cqdam.metadata.xml]"
         dam:processingRequestedDate="{Date}2022-06-06T16:55:24.576Z"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2025-02-20T18:20:19.834+05:30"
-        jcr:lastModifiedBy="sahil.mulla@deptagency.com"
+        jcr:lastModified="{Date}2025-03-05T11:55:16.908+05:30"
+        jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlLastCreatedVersion="1.0"
         dxmlSkipVersionCreation="{Boolean}true"
@@ -44,9 +44,9 @@
                 reason="RenditionFormatUnsupported"/>
         </dam:failedRenditions>
         <metadata
-            dam:extracted="{Date}2025-02-20T18:20:19.795+05:30"
-            dam:sha1="601cf9ea96531df85ac7e5ded0081d7e78f7d89b"
-            dam:size="{Long}5094"
+            dam:extracted="{Date}2025-03-05T11:55:16.878+05:30"
+            dam:sha1="da53c81ea39ea783215e6dcb53869dd0ca8c51cc"
+            dam:size="{Long}5296"
             dc:format="application/vnd.groove-tool-template"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

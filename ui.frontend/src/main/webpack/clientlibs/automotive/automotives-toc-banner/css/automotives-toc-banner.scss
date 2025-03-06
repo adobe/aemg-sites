@@ -87,19 +87,28 @@
 
     .pdf-download {
       margin-right: auto;
-      display: flex;
+      // display: flex;
       align-items: center;
-      gap: 20px;
+      // gap: 20px;
       button {
         padding: 11px 16px;
         background-color: var(--color-accent);
         border: none;
         cursor: pointer;
+        position: relative;
       }
 
       .pdf-note {
         font-size: 12px;
         color: red;
+        position: absolute;
+        left: 38%;
+        top: 32.5%;
+
+        @media screen and (max-width: $screen-md) {
+            left: 0;
+            top: 60.5%;
+        } 
       }
 
       .cmp-button__text {
@@ -343,5 +352,11 @@
   }
 }
 
+
+@media screen and (max-width: $screen-md) {
+  .download-manual-button.padding-bottom {
+    padding-bottom: 40px;
+  }
+} 
 
 

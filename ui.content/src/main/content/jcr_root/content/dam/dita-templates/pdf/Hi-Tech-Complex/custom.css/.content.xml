@@ -3,20 +3,19 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="e7c43199-99cf-4ad7-9132-28fb7fe86d4e">
+    jcr:uuid="07e5488d-c522-422e-b8e6-5e004f4359a2">
     <jcr:content
-        cq:name="LOF_Portrait.plt"
+        cq:name="custom.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-05T11:55:16.238+05:30"
-        jcr:lastModifiedBy="prashant.singh@deptagency.com"
-        jcr:primaryType="dam:AssetContent"
-        dxmlSkipVersionCreation="{Boolean}true">
+        jcr:lastModified="{Date}2025-03-05T12:39:51.769+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-03-05T11:55:16.207+05:30"
-            dam:sha1="7e3ba3a096c1f3fe22b44614a5a9286bc301d9c1"
-            dam:size="{Long}2261"
-            dc:format="application/octet-stream"
+            dam:extracted="{Date}2025-03-05T12:39:51.720+05:30"
+            dam:sha1="62dd7c4507d77527121b26725d51b237c24c5c97"
+            dam:size="{Long}27"
+            dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>
