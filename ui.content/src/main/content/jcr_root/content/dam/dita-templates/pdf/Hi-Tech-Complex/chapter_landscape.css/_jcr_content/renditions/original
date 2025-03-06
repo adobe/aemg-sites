@@ -212,15 +212,14 @@ fig .content-figure-image-landscape {
   max-width: unset;
   display: unset;
 }
-
 .content-figure-image-landscape .title,
-figcaption.title>.prefix-content::after {
+  figcaption.title>.prefix-content::after {
   font-family: Adobe Clean;
   font-size: var(--text-3xs);
   font-weight: 400;
   line-height: var(--text-4xs-lh);
   text-align: left;
-  color: var(--color-tertiary);
+  color: var(--color-secondary);
   margin-bottom: 8px;
 }
 .images-main-container-landscape {
@@ -272,7 +271,6 @@ figcaption.title>.prefix-content::after {
 }
 .note-cont {
   display: flex;
-  /* background: #E8F1FF; */
   font-family: Urbanist;
   font-size: var(--text-4xs);
   font-style: italic;
@@ -282,17 +280,15 @@ figcaption.title>.prefix-content::after {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   margin: 27px 0px;
-  /* padding: 27px 15px; */
 }
 .note-cont img {
   width: 24px;
   height: 24px;
 }
-.note-cont .note {
-  border-left: unset;
-  background-color: unset;
-  margin: unset;
-  padding: unset;
+.note-cont .placement-inline {
+  display: inline;
+  width: 17%;
+  height: 100%;
 }
 .p {
   column-count: initial;
@@ -310,7 +306,7 @@ figcaption.title>.prefix-content::after {
   margin-right: 8px;
 }
 .thead {
-  background: aquamarine;
+  background: #E8F1FF;
 }
 /* for column sepration  */
 .col-2 {
