@@ -101,7 +101,6 @@ body {
         color: var(--color-secondary);
         img {
           height: 40px;
-          width: 100%;
         }
       }
 
@@ -186,6 +185,15 @@ body {
   margin: unset;
 }
 
+.fsi-header-wrapper .search-container {
+  background-color: var(--color-bg);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border: 1px solid var(--color-primary);
+}
+
+.fsi-header-wrapper .search-container .cmp-search-bar__input {
+  border: 1px solid var(--color-primary);
+}
 .dark .guides-footer{
   border-top: 0.5px solid var(--color-primary);
 }
