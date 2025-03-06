@@ -46,12 +46,18 @@ function checkPDFExistence(url) {
 }
 function showNoteMessage(container) {
 
+  const downloadManualButton = document.querySelector(".download-manual-button");
   const noteMessage = document.createElement('div');
 
   noteMessage.classList.add('pdf-note');
+  downloadManualButton.classList.add('padding-bottom');
   noteMessage.textContent = "Sorry, the PDF file is not available.";
 
   if (!container.querySelector('.pdf-note')) {
     container.appendChild(noteMessage);
   }
+
+  setTimeout(() => {
+    container.removeChild(noteMessage);
+  }, 30000);
 }
