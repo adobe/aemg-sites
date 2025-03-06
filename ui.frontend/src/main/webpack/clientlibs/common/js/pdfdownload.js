@@ -2,21 +2,23 @@ const pdfAbsPath = "/content/dam/fmdita-outputs/pdfs/";
 
 window.addEventListener("DOMContentLoaded", function () {
 
-  const downloadBtn = document.querySelector(".pdf-download .cmp-button");
+  const downloadBtn = document.querySelector(".pdf-download");
   const ctaContainer = document.querySelector(".pdf-download");
 
-  downloadBtn.addEventListener("click", function () {
-    const pdfUrl = getPDFUrl();
+  const pdfUrl = getPDFUrl();
     // Check if the PDF file exists before opening it
-    checkPDFExistence(pdfUrl).then(exists => {
-      if (exists) {
-        window.open(pdfUrl, "_blank");
-      } else {
-        showNoteMessage(ctaContainer);
-      }
-    }).catch(error => {
-      console.error("Error checking PDF existence:", error);
-    });
+  checkPDFExistence(pdfUrl, downloadBtn);
+
+  downloadBtn.addEventListener("click", function () {
+    // checkPDFExistence(pdfUrl).then(exists => {
+    //   if (exists) {
+    //     window.open(pdfUrl, "_blank");
+    //   } else {
+    //     showNoteMessage(ctaContainer);
+    //   }
+    // }).catch(error => {
+    //   console.error("Error checking PDF existence:", error);
+    // });
   });
 });
 
@@ -29,13 +31,14 @@ function getPDFUrl() {
   return pdfAbsPath + topicTitle.split(" ").join("_") + ".pdf";
 }
 
-function checkPDFExistence(url) {
+function checkPDFExistence(url, downloadBtn) {
   return new Promise((resolve, reject) => {
     fetch(url, { method: 'HEAD' })
       .then(response => {
         if (response.ok) {
           resolve(true); // PDF exists
         } else {
+          downloadBtn.style.display = "none";
           resolve(false); // PDF does not exist
         }
       })
@@ -44,21 +47,21 @@ function checkPDFExistence(url) {
       });
   });
 }
-function showNoteMessage(container) {
+// function showNoteMessage(container) {
 
-  const downloadManualButton = document.querySelector(".download-manual-button");
-  const noteMessage = document.createElement('div');
+//   const downloadManualButton = document.querySelector(".download-manual-button");
+//   const noteMessage = document.createElement('div');
 
-  noteMessage.classList.add('pdf-note');
-  downloadManualButton.classList.add('padding-bottom');
-  noteMessage.textContent = "Sorry, the PDF file is not available.";
+//   noteMessage.classList.add('pdf-note');
+//   downloadManualButton.classList.add('padding-bottom');
+//   noteMessage.textContent = "Sorry, the PDF file is not available.";
 
-  if (!container.querySelector('.pdf-note')) {
-    container.appendChild(noteMessage);
-  }
+//   if (!container.querySelector('.pdf-note')) {
+//     container.appendChild(noteMessage);
+//   }
 
-  setTimeout(() => {
-    container.removeChild(noteMessage);
-    downloadManualButton.classList.remove('padding-bottom');
-  }, 30000);
-}
+//   setTimeout(() => {
+//     container.removeChild(noteMessage);
+//     downloadManualButton.classList.remove('padding-bottom');
+//   }, 30000);
+// }
