@@ -1,6 +1,7 @@
 @use "../../../common/css";
 @use "themes";
 @use "fonts" as *;
+@use "../../../utils/css/vars" as *;
 
 :root{
   @include fonts;
@@ -42,3 +43,24 @@ body {
   }
 
 } 
+
+.pdf-download{
+  .pdf-note {
+    top: 3.2%;
+    left: 46%;
+  }
+}
+
+@media screen and (max-width: $screen-md) {
+  .pdf-download{
+    .pdf-note {
+      top: 2.5%;
+      right: 1%;
+      left: unset;
+    }
+  }
+  
+  .download-manual-button.padding-bottom .cmp-container{
+    padding-bottom: 40px;
+  } 
+}
