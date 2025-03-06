@@ -82,7 +82,7 @@
     position: absolute;
   }
   .checkbox-label {
-    background-color: var( --color-primary);
+    background-color: var(--color-secondary);
     width: 50px;
     height: 24px;
     border-radius: 50px;
@@ -94,9 +94,9 @@
     align-items: center;
   }
   .checkbox-label .ball {
-    background-color: var(--color-bg);
-    width: 17px;
-    height: 17px;
+    background-color: var(--color-bg2);
+    width: 18px;
+    height: 18px;
     position: absolute;
     left: 3px;
     top: 3px;
