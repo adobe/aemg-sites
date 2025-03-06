@@ -19,6 +19,7 @@ window.addEventListener("DOMContentLoaded", function () {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
       // Dark
       body.classList.add("dark");
+      document.querySelector('.checkbox').checked = true;
     } else {
       // Light
       body.classList.add("light");
@@ -32,6 +33,7 @@ window.addEventListener("DOMContentLoaded", function () {
     }else{
       body.classList.add("dark");
       body.classList.remove('light');
+      document.querySelector('.checkbox').checked = true;
     }
   }
   
