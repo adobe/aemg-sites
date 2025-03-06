@@ -43,8 +43,8 @@ const clientlibArr = [
   {name : 'guides-footer', module: 'common'},
   {name : 'guides-header', module: 'common'},
   {name : 'global-search' , module: 'common'},
-
   {name : 'content-feedback', module: 'feedback'},
+  {name : 'accessibility', module: 'common'},
   
 
   //automotive
@@ -74,7 +74,7 @@ const clientlibArr = [
   // {name : 'hi-tech_mini_toc', module: 'hi-tech'},
   {name : 'landing-banner', module: 'hi-tech'},
   {name : 'hi-tech-landing-list', module: 'hi-tech'},
-]
+];
 
 const libsArr = [];
 generateClibs(libsArr, libsBaseConfig, ...clientlibArr)

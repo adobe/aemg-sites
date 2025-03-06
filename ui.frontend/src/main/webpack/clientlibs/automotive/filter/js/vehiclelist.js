@@ -1,5 +1,3 @@
-import { filterVehicles } from "./filter";
-
 // Get the encoded JSON string from the data-cmp-props-list attribute
 let encodedData = document.querySelector('.leveloneprops div').getAttribute('data-cmp-props-list');
 
@@ -16,7 +14,7 @@ console.log(jsonData);
 function populateNavigation(data) {
   // Select the element where we want to populate the JSON data
   const container = document.querySelector(".leveloneprops .cmp-div");
-  debugger;
+
   // Loop through the data and create HTML elements
   data.forEach((item) => {
     const title = item["jcr:title"];
@@ -33,7 +31,7 @@ function populateNavigation(data) {
     guideItem.innerHTML = `
       <a class="cmp-teaser__title" href="${item.pagePath + ".html"}">
       <div class="cmp-teaser__image">
-        <img src="${image}" alt="${title}">
+        ${image ? '<img src="'+ image +'" alt="' + title + '"/>' : ''}
       </div>
       <h3 class="cmp-teaser__title">${title}</h3>
       ${description ? '<p>'+ description +'</p>' : ''} 
@@ -43,7 +41,6 @@ function populateNavigation(data) {
     // Append each item to the container
     container.appendChild(guideItem);
   });
-  filterVehicles();
 }
 
 // Call the function to populate the data
