@@ -200,12 +200,19 @@ h2.chapter_sub-titles {
   gap: unset;
   flex-direction: row;
 }
-.content-figure-image-landscape {
+.fig,
+fig .content-figure-image-landscape {
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 40px;
   margin-top: 0px;
+  background-color: unset;
+  box-shadow: unset;
+  padding: 0;
+  max-width: unset;
+  display: unset;
 }
+
 .content-figure-image-landscape .title,
 figcaption.title>.prefix-content::after {
   font-family: Adobe Clean;
@@ -237,7 +244,7 @@ figcaption.title>.prefix-content::after {
   border-radius: 50%;
   background: #0C1256;
   font-family: Urbanist;
-  color: var(--color-primary);
+  color: var(--color-tertiary);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -284,6 +291,8 @@ figcaption.title>.prefix-content::after {
 .note-cont .note {
   border-left: unset;
   background-color: unset;
+  margin: unset;
+  padding: unset;
 }
 .p {
   column-count: initial;
@@ -302,4 +311,19 @@ figcaption.title>.prefix-content::after {
 }
 .thead {
   background: aquamarine;
+}
+/* for column sepration  */
+.col-2 {
+  column-count: 2;
+  gap: 40px;
+}
+.col-3 {
+  column-count: 3;
+  gap: unset;
+}
+.col-4 {
+  column-count: 4;
+}
+.col-5 {
+  column-count: 5;
 }

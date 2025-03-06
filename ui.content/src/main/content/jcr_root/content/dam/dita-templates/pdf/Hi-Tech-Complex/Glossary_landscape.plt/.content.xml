@@ -8,12 +8,12 @@
         cq:name="Glossary_landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-20T18:20:18.884+05:30"
+        jcr:lastModified="{Date}2025-03-05T11:55:16.067+05:30"
         jcr:lastModifiedBy="prashant.singh@deptagency.com"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-20T18:20:18.831+05:30"
+            dam:extracted="{Date}2025-03-05T11:55:16.019+05:30"
             dam:sha1="e838e9979fe843b7e4998068c3dd0a05e5d5e33c"
             dam:size="{Long}1127"
             dc:format="application/octet-stream"

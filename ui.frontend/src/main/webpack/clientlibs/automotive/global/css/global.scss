@@ -34,6 +34,10 @@ body {
 }
 
 .header-logo {
+  img {
+    height: 40px;
+    width: 100%;
+  }
   p {
       color: var(--color-secondary);
   }
@@ -95,6 +99,9 @@ body {
   .footer_logo-container {
       .footer_logo {
         color: var(--color-secondary);
+        img {
+          height: 40px;
+        }
       }
 
       .footer_text {
@@ -155,6 +162,12 @@ body {
 @media screen and (max-width: 768px) {
   .fsi-header-wrapper {
     padding: 25px 0 22px 0;
+    max-width: 88%;
+  }
+  .header-logo {
+    img {
+      height: 29px;
+    }
   }
   .footer_gototop {
       .gototop_arrow {
@@ -170,4 +183,30 @@ body {
 .new {
   height: unset;
   margin: unset;
+}
+
+.fsi-header-wrapper .search-container {
+  background-color: var(--color-bg);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border: 1px solid var(--color-primary);
+}
+
+.fsi-header-wrapper .search-container .cmp-search-bar__input {
+  border: 1px solid var(--color-primary);
+}
+.dark .guides-footer{
+  border-top: 0.5px solid var(--color-primary);
+}
+
+.dark .guides-header{
+  border-bottom: 0.5px solid var(--color-primary);
+}
+
+.dark .footer_copywrite-wrapper {
+  border-top: 0.5px solid var(--color-primary);
+}
+
+.dark .login_wrapper .login-btn {
+  background: var(--color-primary);
+  color: var(--color-bg2);
 }

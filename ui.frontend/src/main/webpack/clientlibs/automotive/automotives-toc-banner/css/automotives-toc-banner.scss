@@ -334,6 +334,14 @@
   animation: reveal-text 3s forwards;
 }
 
+.sharePopup-container{
+  >.cmp-container{
+    position: relative;
+  }
+  .popup.show{
+    top: 325px;
+  }
+}
 
 
 

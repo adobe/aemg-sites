@@ -8,14 +8,14 @@
         cq:name="TOC_landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-20T18:20:21.227+05:30"
-        jcr:lastModifiedBy="prashant.singh@deptagency.com"
+        jcr:lastModified="{Date}2025-03-05T11:55:17.674+05:30"
+        jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-20T18:20:21.163+05:30"
-            dam:sha1="b1dbcb408a88eb6b45cac5618e638ce4b5d2e31b"
-            dam:size="{Long}1437"
+            dam:extracted="{Date}2025-03-05T11:55:17.647+05:30"
+            dam:sha1="9fc5840a484ee9ebaf1a816957e780c08274198e"
+            dam:size="{Long}1432"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

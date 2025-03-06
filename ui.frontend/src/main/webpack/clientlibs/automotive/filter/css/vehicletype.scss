@@ -59,6 +59,25 @@
     .vehicles_list_wrapper {
         .cmp-container {
             flex-direction: column;
+            margin-top: 41px;
+        }
+    }
+
+    .vehicle_search_btn {
+        border: 0.5px solid var(--color-neutral);
+        border-radius: 100px;
+        height: 56px;
+        width: 56px;
+        cursor: pointer;
+
+        button {
+            padding: 16px;
+            &::before {
+                content: url("/content/dam/aemguidesDALP/sites-assets/automotive/filter-icon.png");
+                display: inline-block;
+                height: 24px;
+                width: 24px;
+            }
         }
     }
 
@@ -92,4 +111,12 @@
     .vehicles_list {
         width: 100%;
     }
+
+    .dark .vehicle_search_btn {
+        border: 0.5px solid var(--color-primary);
+    }
+}
+
+.dark .vehicles_type .cmp-container .vehiclemodel .cmp_title, .vehicles_type .cmp-container .vehicletype .cmp_title {
+    color: var(--color-primary);
 }
