@@ -6,20 +6,20 @@ window.addEventListener("DOMContentLoaded", function () {
   const ctaContainer = document.querySelector(".pdf-download");
 
   const pdfUrl = getPDFUrl();
-    // Check if the PDF file exists before opening it
-  checkPDFExistence(pdfUrl, downloadBtn);
 
-  downloadBtn.addEventListener("click", function () {
-    // checkPDFExistence(pdfUrl).then(exists => {
-    //   if (exists) {
-    //     window.open(pdfUrl, "_blank");
-    //   } else {
-    //     showNoteMessage(ctaContainer);
-    //   }
-    // }).catch(error => {
-    //   console.error("Error checking PDF existence:", error);
-    // });
-  });
+  // Check if the PDF file exists before opening it
+  try {
+    checkPDFExistence(pdfUrl).then(isExists => {
+      if (isExists) {
+        window.open(pdfUrl, "_blank");
+      } else {
+        downloadBtn.style.display = "none";
+      }
+    });
+  } catch (error) {
+    console.warn("pdf download error", error);
+  }
+
 });
 
 function getPDFUrl() {
@@ -31,14 +31,14 @@ function getPDFUrl() {
   return pdfAbsPath + topicTitle.split(" ").join("_") + ".pdf";
 }
 
-function checkPDFExistence(url, downloadBtn) {
+function checkPDFExistence(url) {
   return new Promise((resolve, reject) => {
     fetch(url, { method: 'HEAD' })
       .then(response => {
         if (response.ok) {
+          window.open(url, "_blank");
           resolve(true); // PDF exists
         } else {
-          downloadBtn.style.display = "none";
           resolve(false); // PDF does not exist
         }
       })
