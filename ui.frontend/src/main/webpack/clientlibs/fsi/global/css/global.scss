@@ -21,3 +21,24 @@ body {
     }
   }
 }
+
+.feedback-container{
+  background-color: var(--color-primary-light);
+  .feedback-buttons{
+    .feedback-button{
+      background-color: var(--color-primary);
+      color: var(--color-accent);
+      &:hover {  
+        color: var(--color-border-light);
+      }
+    }
+  }
+}
+
+.dark .feedback-container .feedback-buttons .feedback-button{
+  color: var(--color-border-light);
+  &:hover {  
+    color: var(--color-accent);
+  }
+
+} 

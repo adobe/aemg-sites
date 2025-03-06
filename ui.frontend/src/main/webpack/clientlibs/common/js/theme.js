@@ -1,6 +1,7 @@
 window.addEventListener("DOMContentLoaded", function () {
   const body = document.querySelector("body");
-  const themeBtn = document.querySelector(".theme-btn");
+  // const themeBtn = document.querySelector(".theme-btn");
+  const themeBtn = document.querySelector("#checkbox");
   // themeBtn.addEventListener("click", function () {
 
   //   if (window.matchMedia) {
@@ -34,7 +35,7 @@ window.addEventListener("DOMContentLoaded", function () {
     }
   }
   
-  themeBtn.addEventListener("click", function () {
+  themeBtn.addEventListener("change", function () {
     if(body.classList.contains('dark')){
       body.classList.remove('dark');
       body.classList.add('light');
