@@ -163,6 +163,7 @@ body {
 
   @media screen and (max-width: $screen-md) {
     border-left: none;
+    max-width: unset; 
   }
 }
 
