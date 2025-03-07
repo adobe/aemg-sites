@@ -169,10 +169,10 @@ function miniTOCHighLight(tocLinks) {
 
           targetElement.classList.add('loading');
 
-          const offset = 1000;
+          const offsetPosition = 1000;
 
           window.scrollTo({
-              top: targetElement.offsetTop - offset,
+              top: targetElement.offsetTop - offsetPosition,
               behavior: 'smooth'
           });
 
