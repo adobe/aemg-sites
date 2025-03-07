@@ -8,12 +8,12 @@
         cq:name="automative-medium-index.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Automative-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-12T12:52:44.062+05:30"
+        jcr:lastModified="{Date}2025-02-25T13:09:26.439+05:30"
         jcr:lastModifiedBy="krishna.mulik@deptagency.com"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-12T12:52:43.896+05:30"
+            dam:extracted="{Date}2025-02-25T13:09:26.313+05:30"
             dam:sha1="bccd990aaefa41bea48381b8a099ffc3400999a2"
             dam:size="{Long}2066"
             dc:format="text/css"

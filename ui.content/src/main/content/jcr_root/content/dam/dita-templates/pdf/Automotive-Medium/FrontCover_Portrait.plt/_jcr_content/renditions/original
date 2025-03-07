@@ -3,31 +3,29 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
   <meta name="page-style" content="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;size:A4 portrait;" />
   <title>Front Page</title>
   <meta name="footnote-style" content="" />
-
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
   <link rel="stylesheet" type="text/css" href="frontcover_portrait.css" />
 </head>
 <body>
-  <div class="frontcover frontcover-config"><img class="frontcover_cover-img" src="../../../aemguidesDALP/automotives/images/benzimg.png" />
+  <div class="frontcover frontcover-config" style=""><img class="frontcover_cover-img" src="../../../aemguidesDALP/automotives/images/benzimg.png" />
     <div class="frontcover_header">
       <div class="frontcover_header-left"><span class="frontcover_doctype">Owner’s Manual</span> <span class="frontcover_created-date">2024</span></div>
       <div class="frontcover_header-right"><span class="frontcover_version-label">Software Version / </span> <span class="frontcover_version">2024.38</span></div>
     </div>
     <div class="frontcover_metadata"><span class="frontcover_created-date" data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span> <span class="frontcover_product-brand" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span> <span class="frontcover_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></div>
     <div class="frontcover_footer">
-      <div class="frontcover_footer-left"><img class="frontcover_logo-image" src="../../../aemguidesDALP/automotives/images/benzlogo.png" /></div>
+      <div class="frontcover_footer-left" style=""><img class="frontcover_logo-image" src="../../../aemguidesDALP/automotives/images/benzlogo.png" /></div>
       <div class="frontcover_footer-right">
         <div class="frontcover_footer-description">
           <p>Redefining</p>
           <p>sophisticated luxury.</p>
         </div>
-        <a class="frontcover_urls" href="https://www.mercedes-benz.com/en/">🌐 mercedes-benz.com/en/</a>
+        <a class="frontcover_urls" href="#">🌐 brandname.com/en/</a>
       </div>
     </div>
   </div>

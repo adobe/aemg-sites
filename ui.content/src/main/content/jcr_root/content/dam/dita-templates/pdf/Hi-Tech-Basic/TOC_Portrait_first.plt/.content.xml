@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a299d6ba-b8c0-4d0a-a032-752ed1bdb8b1">
+    <jcr:content
+        cq:name="TOC_Portrait_first.plt"
+        cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Basic"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-20T18:20:19.505+05:30"
+        jcr:lastModifiedBy="prashant.singh@deptagency.com"
+        jcr:primaryType="dam:AssetContent"
+        dxmlSkipVersionCreation="{Boolean}true">
+        <metadata
+            dam:extracted="{Date}2025-02-20T18:20:19.463+05:30"
+            dam:sha1="afb32d806e6e5bbac78ed209210834876d3583e0"
+            dam:size="{Long}1080"
+            dc:format="application/octet-stream"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

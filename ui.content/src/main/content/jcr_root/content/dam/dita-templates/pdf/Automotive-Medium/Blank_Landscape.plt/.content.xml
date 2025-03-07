@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="7e0a3fc9-3308-48ed-b230-a8a1e16db0c9">
+    <jcr:content
+        cq:name="Blank_Landscape.plt"
+        cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-25T13:09:26.092+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2025-02-25T13:09:26.006+05:30"
+            dam:sha1="7334962a9918b7d27cb3c59cbe0d3e5affeb5dac"
+            dam:size="{Long}606"
+            dc:format="application/octet-stream"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

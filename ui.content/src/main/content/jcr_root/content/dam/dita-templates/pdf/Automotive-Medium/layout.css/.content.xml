@@ -8,13 +8,13 @@
         cq:name="layout.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Automative-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-12T12:52:45.013+05:30"
+        jcr:lastModified="{Date}2025-02-25T13:09:28.368+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-12T12:52:44.923+05:30"
-            dam:sha1="cb7ac3363b7c4a127b0133b84b14ebdf9d1bf62b"
-            dam:size="{Long}5547"
+            dam:extracted="{Date}2025-02-25T13:09:28.288+05:30"
+            dam:sha1="24de4757d63722a6cdc6b4891323d100d59f6613"
+            dam:size="{Long}5847"
             dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

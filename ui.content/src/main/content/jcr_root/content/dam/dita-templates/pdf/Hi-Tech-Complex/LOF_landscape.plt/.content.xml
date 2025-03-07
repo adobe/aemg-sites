@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="0cbd7f35-33c9-489a-b0f0-e37aad18cf3d">
+    <jcr:content
+        cq:name="LOF_landscape.plt"
+        cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-03-05T11:55:15.932+05:30"
+        jcr:lastModifiedBy="prashant.singh@deptagency.com"
+        jcr:primaryType="dam:AssetContent"
+        dxmlSkipVersionCreation="{Boolean}true">
+        <metadata
+            dam:extracted="{Date}2025-03-05T11:55:15.879+05:30"
+            dam:sha1="7a0addc9c6a2a2d2b146d5aff9216dc9f190abee"
+            dam:size="{Long}895"
+            dc:format="application/octet-stream"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -9,7 +9,7 @@ body {}
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: var(--color-primary);
-  margin-bottom: 60%;
+  margin-bottom: 48%;
 }
 .chapter_header_titlealts {}
 .chapter_header_mainbooktitle {}
@@ -204,4 +204,8 @@ li {
 .landscape_content {
   column-gap: unset;
   column-count: unset;
+}
+.chapter_footer-space {
+  margin-top: 20px;
+  padding-bottom: 40px;
 }

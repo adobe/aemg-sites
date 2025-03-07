@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "technicalContent/dtd/topic.dtd">
+<topic id="_2f4057b8-2ab1-43ee-9d1a-4c89d3dec1e6">
+  <title></title>
+  <body>
+    <section outputclass="col-container-1">
+      <div outputclass="col-1">
+        <p><?tcx-placeholder-text content="Type title about topic here"?><text></text> </p>
+      </div>
+      <div outputclass="col-2">
+        <p outputclass="desc_circle">A</p>
+        <p><?tcx-placeholder-text content="Type column-2 description about topic here"?></p>
+        <ol>
+          <li></li>
+          <li></li>
+        </ol>
+      </div>
+      <div outputclass="col-3">
+        <p outputclass="desc_circle">B</p>
+        <p><?tcx-placeholder-text content="Type column-2 description about topic here"?></p>
+        <ol>
+          <li></li>
+          <li></li>
+        </ol>
+      </div>
+    </section>
+    <section outputclass="section2_text-image-wrapper">
+      <div outputclass="section2_text-wrapper">
+        <p outputclass="para-text"></p>
+        <p outputclass="info"> </p>
+        <p outputclass="note-text">
+          <note></note>
+        </p>
+      </div>
+      <div outputclass="fig_image-wrapper">
+        <fig id="fig_2">
+          <title></title>
+          <image href="" id="image_2">
+          <alt></alt>
+          </image>
+        </fig>
+      </div>
+    </section>
+  </body>
+</topic>

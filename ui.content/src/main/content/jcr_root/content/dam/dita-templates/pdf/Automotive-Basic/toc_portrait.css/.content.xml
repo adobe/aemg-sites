@@ -8,11 +8,11 @@
         cq:name="toc_portrait.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-12T13:17:27.033+05:30"
+        jcr:lastModified="{Date}2025-02-25T13:09:01.853+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-12T13:17:26.998+05:30"
+            dam:extracted="{Date}2025-02-25T13:09:01.766+05:30"
             dam:sha1="ffcfe8b369d8bdd7a2497c35129d1110aa00eb25"
             dam:size="{Long}6351"
             dc:format="text/css"

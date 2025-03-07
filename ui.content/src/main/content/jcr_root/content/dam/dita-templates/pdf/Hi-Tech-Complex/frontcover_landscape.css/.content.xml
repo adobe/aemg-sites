@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="41fee6d0-4ee6-476f-896e-932fd9d050d2">
+    <jcr:content
+        cq:name="frontcover_landscape.css"
+        cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-03-05T11:55:16.101+05:30"
+        jcr:lastModifiedBy="prashant.singh@deptagency.com"
+        jcr:primaryType="dam:AssetContent"
+        dxmlSkipVersionCreation="{Boolean}true">
+        <metadata
+            dam:extracted="{Date}2025-03-05T11:55:16.057+05:30"
+            dam:sha1="0d0a24186939dfcb457723cabc6ed5e3e4c65a4b"
+            dam:size="{Long}1446"
+            dc:format="text/css"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

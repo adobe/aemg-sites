@@ -1,0 +1,24 @@
+.related-links {
+
+  .prefix-content {
+    color: var(--color-accent);
+  }
+
+  .link {
+    display: block;
+    font-weight: 400;
+    font-size: var(--text-sm);
+    line-height: var(--text-sm-lh);
+    text-decoration: auto;
+    color: var(--color-accent);
+    margin-top: 8px;
+    text-decoration: none;
+  }
+
+  .linkinfo {
+    margin-block: 10px;
+    color: var(--color-accent);
+    font-size: var(--text-sm);
+    line-height: var(--text-sm-lh); 
+  }
+}

@@ -3,20 +3,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <link rel="stylesheet" href="layout.css" type="text/css" />
-  <meta name="page-style" content="size:landscape;" />
+
+  <meta name="page-style" content="size:landscape;margin-bottom:120px;" />
   <title>Page Layout</title>
   <meta name="footnote-style" content="" />
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="chapter_landscape;.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+  <link rel="stylesheet" type="text/css" href="custom.css" />
 </head>
 <body data-layout="page">
-  <div data-region="header"><br />
-    
-  </div>
+  <div data-region="header" style=""></div>
   <div data-region="content" style="">
     <div class="landscape-firstpage-section" style="">
-      <p class="chapter_firstpage_header" style="
-    width: 50%;
-"><img alt="World Map" class="chapter_firstpage_cover-image" src="../../../aemguidesDALP/automotives/pdf/medium/assets/landscapeimage.png" style="height: 547px; width: 475px;" /></p>
+      <p class="chapter_firstpage_header" style="width: 50%;"><img alt="World Map" class="chapter_firstpage_cover-image" src="../../../aemguidesDALP/automotives/images/landscape/landscapeimage.png" style="height: 547px; width: 475px;" /></p>
       <div class="title-and-no-landscape" style="">
         <p class="chapter_header_title-landscape" style=""><span data-field="chapter-title" data-format="default">Chapter Title</span></p>
         <div>

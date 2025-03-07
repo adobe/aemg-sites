@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d12f9512-df65-476f-9663-376b19043ae0">
+    <jcr:content
+        cq:name="Common_Portrait.plt"
+        cq:parentPath="/content/dam/dita-templates/pdf/FSI-Basic"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-24T12:29:05.030+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2025-02-24T12:29:03.906+05:30"
+            dam:sha1="211d4dff2f8c34b5b65c33a6a23b7d7a5fea4688"
+            dam:size="{Long}1742"
+            dc:format="application/octet-stream"
+            dc:title="Common_Portrait.plt"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            docstate="Draft"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

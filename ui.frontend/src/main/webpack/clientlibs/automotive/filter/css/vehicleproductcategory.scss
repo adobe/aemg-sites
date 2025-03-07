@@ -1,0 +1,54 @@
+.vehicleproductcategory {
+  padding-bottom: 24px;
+  margin-top: 40px;
+  border-bottom: 0.5px solid var(--color-border-light);
+  ul{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      list-style: none;
+      li {
+          padding: 19px 24px;
+          border: 1px solid var(--color-border-light);
+          border-radius: 64px;
+          margin: 0;
+          font-size: var(--text-sm);
+          line-height: var(--text-sm-lh);
+          font-weight: 400;
+          font-family: var(--font-fam-secondary);
+          color: var(--color-primary);
+          flex-basis: auto;
+          min-width: 136px;
+          text-align: center;
+          cursor: pointer;
+      }
+      li.active-filter {
+          background-color: var(--color-accent);
+          color: var(--color-on-accent);
+          padding: 19px 45px;
+          min-width: 104px;
+      }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .vehicleproductcategory {
+      margin-bottom: 24px;
+      ul{
+          flex-wrap: unset;
+          overflow: auto;
+      }
+      li {
+          flex: 0 0 auto;
+          min-width: 120px;
+      }
+  }
+}
+
+.dark .vehicleproductcategory {
+    border-bottom: 0.5px solid var(--color-primary);
+}
+
+.dark .vehicleproductcategory ul li {
+    border: 1px solid var(--color-primary);
+}

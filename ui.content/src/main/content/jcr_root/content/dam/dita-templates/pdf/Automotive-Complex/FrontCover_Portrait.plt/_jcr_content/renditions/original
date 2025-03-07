@@ -3,19 +3,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="page-style" content="size:A4;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;background-color:;background-blend:lighten;background-image:url(&#39;../../../aemguidesDALP/automotives/images/benzimg.png&#39;);background-size:100% 537px;background-repeat:no-repeat;background-position:center bottom;" />
+  <meta name="page-style" content="size:A4;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;background-color:;background-blend:lighten;background-image:url(&#39;../../../aemguidesDALP/automotives/images/portrait/benzimg.png&#39;);background-size:100% 537px;background-repeat:no-repeat;background-position:center bottom;" />
   <title>Front Cover Page</title>
-    <meta name="footnote-style" content="" />
+  <meta name="footnote-style" content="" />
   <link rel="stylesheet" type="text/css" href="frontcover_portrait.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
 </head>
 <body>
   <div class="frontcover">
     <div class="frontcover_header">
-      <div class="frontcover_header-left"><img class="frontcover_logo-image" src="../../../aemguidesDALP/automotives/images/benzlogo.png" /></div>
+      <div class="frontcover_header-left" style=""><img class="frontcover_logo-image" src="../../../aemguidesDALP/automotives/images/common/benzlogo.png" /></div>
     </div>
     <p class="hr"></p>
-    <div class="frontcover_metadata"><span class="frontcover_created-date" data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span> <span class="frontcover_product-brand">Mercedes-Benz</span> <span class="frontcover_product-name">EQG </span></div>
+    <div class="frontcover_metadata"><span class="frontcover_created-date" data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span> <span class="frontcover_product-brand"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span></span> <span class="frontcover_product-name"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> </span></div>
     <div class="frontcover_footer">
       <div><span class="frontcover_doctype">Owner&#39;s Manual </span><span class="frontcover_created-date">2024</span></div>
       <a class="frontcover_urls" href="#">🌐 mercedes-benz.com/en/</a>

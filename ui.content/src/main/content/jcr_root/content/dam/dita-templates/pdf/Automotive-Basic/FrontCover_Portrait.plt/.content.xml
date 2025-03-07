@@ -8,13 +8,13 @@
         cq:name="FrontCover_Portrait.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-12T13:17:27.233+05:30"
+        jcr:lastModified="{Date}2025-02-25T13:09:00.955+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-12T13:17:27.200+05:30"
-            dam:sha1="c1dcf627ff9f975fbe9fc499f81352d30f821180"
-            dam:size="{Long}2074"
+            dam:extracted="{Date}2025-02-25T13:09:00.860+05:30"
+            dam:sha1="b0b9c224c059283265785eef773a85f303fa2e6c"
+            dam:size="{Long}2036"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

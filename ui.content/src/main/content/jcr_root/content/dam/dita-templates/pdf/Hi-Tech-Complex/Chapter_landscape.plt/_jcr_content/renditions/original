@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="layout.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="chapter_landscape.css" />
+  <meta name="page-style" content="size:landscape;" />
+  <title>Page Layout</title>
+  <meta name="footnote-style" content="" />
+</head>
+<body>
+  <div data-region="header"><br />
+    
+  </div>
+  <div data-region="content"></div>
+  <div data-region="footer">
+    <p style="text-align: center;"><span data-field="page-number">1</span></p>
+  </div>
+</body>
+</html>

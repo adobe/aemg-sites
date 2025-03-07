@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="page-style" content="size:A4 landscape;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;background-color: var(--color-primary);position:relative;" />
+  <title>Back Page</title>
+  <meta name="footnote-style" content="" />
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="content.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+  <link rel="stylesheet" type="text/css" href="backcover_landscape.css" />
+</head>
+<body>
+  <div class="backcover_landsc_content" style=""><img class="backcover_landsc_logo" src="../../../aemguidesDALP/fsi/images/common/backcover-logo.png" />
+    <div class="backcover_landsc_author-info">
+      <p class="backcover_landsc_author-addressdetails">8 Canada Square<br />
+        London E14 5HQ<br />
+        United Kingdom</p>
+      <p class="backcover_landsc_author-contactnumbers">Telephone: +44 (0)20 7991 8888</p>
+      <p class="backcover_landsc_author-urls">www.abc.com</p>
+      <p class="backcover_landsc_author-text">Incorporated in England with limited liability<br />
+        Registered number 617987</p>
+    </div>
+  </div>
+</body>
+</html>

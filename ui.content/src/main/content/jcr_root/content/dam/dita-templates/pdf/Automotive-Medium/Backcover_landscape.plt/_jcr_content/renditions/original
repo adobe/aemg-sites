@@ -20,17 +20,17 @@
     </div>
     <div class="backcover-landsc_desciption">Unparalleled in offroad capabilities, the G-Class boasts advanced features for tackling steep ascents, deep waters, and challenging inclines.</div>
     <div class="backcover-landsc_organization-details">
-      <div class="backcover-landsc_contact-container">
+      <div class="backcover-landsc_contact-container" style="">
         <p class="backcover-landsc_org-contact-label">CONTACT</p>
-        <span class="backcover-landsc_org-contactnumbers"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/phone-icon.png" /> 000 800 050 01888</span> <span class="backcover-landsc_org-emailaddresses"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/email-icon.png" />cs.ind@cac.mercedes-benz.com</span>
+        <span class="backcover-landsc_org-contactnumbers"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/common/phone-icon.png" /> 000 800 050 01888</span> <span class="backcover-landsc_org-emailaddresses"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/common/email-icon.png" />car@brandname.com</span>
       </div>
       <div class="backcover-landsc_address-container">
         <p class="backcover-landsc_org-address-label">ADDRESS</p>
         <span class="backcover-landsc_org-addressdetails">2788 San Tomas Express Way, Santa Clara, CA 95051.</span>
       </div>
-      <div class="backcover-landsc_socials-container">
+      <div class="backcover-landsc_socials-container" style="">
         <p class="backcover-landsc_org-socials-label">SOCIAL MEDIA</p>
-        <span class="backcover-landsc_org-socials"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/insta-icon.png" /><a href="https://www.instagram.com/">Instagram link</a></span>
+        <span class="backcover-landsc_org-socials"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/common/insta-icon.png" /><a href="https://www.instagram.com/">Instagram link</a></span>
       </div>
     </div>
     <div class="backcover-landsc_footer">

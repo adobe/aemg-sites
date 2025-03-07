@@ -9,7 +9,7 @@ body {}
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: var(--color-primary);
-  margin-bottom: 57%;
+  margin-bottom: 48%;
 }
 .chapter_header_titlealts {}
 .chapter_header_mainbooktitle {}
@@ -67,14 +67,16 @@ body {}
 .chapter_rightpage_header {}
 .chapter_rightpage_footer {}
 .b {
-  font-family: var(--font-fam-primary);
-  font-size: var(--text-base);
-  font-weight: 600;
-  line-height: var(--text-base-lh);
-  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: var(--color-primary);
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xl);
+  font-weight: 400;
+  line-height: var(--text-xl-lh);
+  text-align: left;
+  display: inline-block;
+  padding-top: 4px;
 }
 .p {
   font-family: var(--font-fam-secondary);
@@ -92,8 +94,6 @@ h1.title {
   font-weight: 400;
   line-height: var(--text-xl-lh);
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   border-top: 0.5px solid #2C343B;
   display: inline-block;
   padding-top: 4px;
@@ -118,7 +118,8 @@ h2 {
   font-weight: 400;
   line-height: var(--text-xl-lh);
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: var(--color-primary);
+}
+.chapter_foote {
+  margin-top: 40px;
 }

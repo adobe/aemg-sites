@@ -49,6 +49,7 @@
   align-content: center;
   padding-top: 8px;
   font-family: var(--font-fam-secondary);
+  margin-top: 40px;
 }
 .chapter_footer_page-number {
   font-family: var(--font-fam-secondary);
@@ -62,10 +63,9 @@
   font-size: var(--text-xs);
   font-weight: 400;
   line-height: var(--text-xs-lh);
-  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  text-align: end;
+  text-align: start;
 }
 .chapter_leftpage_header {}
 .chapter_leftpage_footer {}
@@ -124,12 +124,12 @@ h1.chapter {
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   font-weight: 600;
-  color: var(--color-accent);
-  /* Using --color-primary for text */
-  background-color: var(--color-neutral);
-  /* Using --color-tertiary for background */
-  border: 0.5px solid var(--color-accent);
-  /* Using --color-secondary for border */
+  color: var(--color-primary);
+  /* Using --color-primary for text --color-accent */
+  background-color: var(--color-tertiary);
+  /* Using --color-tertiary for background --color-neutral */
+  border: 0.5px solid var(--color-secondary);
+  /* Using --color-secondary for border --color-accent */
   text-align: left;
 }
 b,
@@ -144,8 +144,8 @@ bold-text {
   font-weight: 400;
   color: var(--color-secondary);
   /* Using --color-secondary */
-  border: 0.5px solid var(--color-accent);
-  /* Using --color-secondary for border */
+  border: 0.5px solid var(--color-secondary);
+  /* Using --color-secondary for border --color-accent*/
 }
 .tbody .entry {
   font-size: var(--text-xs);
@@ -182,7 +182,6 @@ li {
   border-color: var(--color-accent);
 }
 /* Notes */
-
 .chapter_info {
   background-color: #D9E6EB;
   padding: 8px 40px 8px 16px;
@@ -193,11 +192,20 @@ li {
   margin-bottom: 40px;
   margin-top: 50px;
 }
-.note {
+/* .note {
   border-left: 4px solid var(--color-primary);
   background-color: var(--color-neutral);
   color: var(--color-secondary);
 }
 .note .prefix-content {
   color: var(--color-primary);
+} */
+.chapter_footer_organization-right {
+  text-align: end;
+  font-family: Adobe Clean;
+  font-size: var(--text-xs);
+  font-weight: 400;
+  line-height: var(--text-xs-lh);
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }

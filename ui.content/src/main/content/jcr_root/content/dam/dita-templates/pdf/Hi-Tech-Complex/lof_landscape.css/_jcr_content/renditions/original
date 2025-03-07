@@ -1,0 +1,86 @@
+/*Created with AEM Guides*/
+/*Created with AEM Guides*/
+.lof_header {
+  margin-top: 50px;
+  text-align: left;
+  display: flex;
+  align-items: baseline;
+}
+.lof-body {
+  display: flex;
+  padding-top: 40px;
+  flex-wrap: wrap;
+  column-gap: 103px;
+}
+.lof_header_title {
+  font-family: var(--font-fam-secondary);
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 0px;
+}
+.lof_header_titlealts {
+  font-family: var(--font-fam-primay);
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: 400;
+  color: #7F8794;
+  margin-bottom: 40px;
+  margin-top: 8px;
+}
+.lof_content .lof-level-1,
+.lof-level-1 {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 350;
+  color: var(--color-accent);
+  margin-bottom: 16px;
+  width: 400px;
+}
+.lof_content .lof-level-1::after,
+.lof-level-1::after {
+  color: var(--color-accent);
+}
+.lof_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  row-gap: 1px;
+  justify-content: flex-start;
+  padding-bottom: 108px;
+}
+.lof_footer_product-name {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-4xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-accent);
+  padding-top: 8px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E8F1FF;
+  height: 72px;
+  padding: 0px 73px;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  right: 0px;
+  left: -73px;
+}
+.lof_footer_urls {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-link);
+  text-decoration: none;
+}
+.lof_footer_hr {
+  border: 0.5px solid var(--color-tertiary);
+  margin: 0;
+  padding: 0;
+}

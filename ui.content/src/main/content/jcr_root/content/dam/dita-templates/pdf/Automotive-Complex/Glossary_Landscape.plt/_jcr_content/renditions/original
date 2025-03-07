@@ -13,7 +13,7 @@
 <body>
   <div class="glossary_firstpage_header" data-region="header" id="glossary_firstpage_header">
     <p class="glo-title">Glossary</p>
-    <p class="glossary_header_titlealts">2024 Mercedes-Benz EQG</p>
+    <p class="glossary_header_titlealts"><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span> <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span> <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
   </div>
   <div class="glossary_firstpage_content" data-region="content" id="glossary_firstpage_content"></div>
   <div class="glossary_footer" data-region="footer">

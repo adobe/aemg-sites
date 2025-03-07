@@ -1,0 +1,60 @@
+/*Created with AEM Guides*/
+.backcover-details-landscape {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0px;
+  right: 7px;
+  gap: 63px;
+  margin-right: 15px;
+  margin-bottom: 0px;
+  width: 468px;
+}
+.backcover_org-emailaddresses,
+.backcover_org-socials a{
+  display: flex;
+}
+.backcover_organization-details {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.backcover_contact-container,
+.backcover_address-container,
+.backcover_socials-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.backcover_org-contactnumbers,
+.backcover_org-emailaddresses a,
+.backcover_org-addressdetails,
+.backcover_org-socials a {
+  font-family: Inter;
+  font-size: var(--text-4xs);
+  font-weight: 400;
+  line-height: var(--text-4xs-lh);
+  text-align: left;
+  color: var(--color-accent);
+  margin: 0;
+  text-decoration: none;
+  align-content: end;
+}
+.main-description {
+  font-family: Urbanist;
+  font-size: var(--text-2xl);
+  font-weight: 500;
+  line-height: var(--text-2xl-lh);
+  text-align: left;
+  color: var(--color-accent);
+}
+.img-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+}
+.email-icon-land {
+  height: 10.68px;
+  width: 16px;
+}

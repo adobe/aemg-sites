@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="876f149d-81ab-4b41-ae95-1cf6d76b0c04">
+    jcr:uuid="5f6d8042-3edf-4737-b8bc-b3a67326c014">
     <jcr:content
         cq:name="Chapter_Landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-12T13:17:05.554+05:30"
+        jcr:lastModified="{Date}2025-02-25T13:09:29.826+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-12T13:17:05.473+05:30"
-            dam:sha1="52582c5a7e575abac6348f8e30b2ad45268c44ba"
-            dam:size="{Long}559"
+            dam:extracted="{Date}2025-02-25T13:09:29.633+05:30"
+            dam:sha1="e76c7e074edd868ffafe4c9441a5ba23e884aff4"
+            dam:size="{Long}697"
+            dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>

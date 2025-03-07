@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="page-style" content="size:A4 portrait;margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px;" />
+  <title>Page Layout</title>
+  <meta name="footnote-style" content="" />
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+  <link rel="stylesheet" type="text/css" href="frontcover_portrait.css" />
+</head>
+<body>
+  <div class="frontpage_header" data-region="header" style=""></div>
+  <div class="frontpage_content" data-region="content">
+    <div class="frontpage_img_container" style=""><img class="frontpage_img" src="../../../aemguidesDALP/fsi/images/common/cover-page-img.png" style="cursor: nesw-resize;" /></div>
+    <div class="frontpage_content_container">
+      <div class="frontpage_metadata">
+        <div class="frontpage_title"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span> <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></div>
+        <p class="frontpage_created_year"><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span></p>
+      </div>
+      <div class="frontpage_footer_content"><img class="frontpage_footer_logo" src="../../../aemguidesDALP/fsi/images/common/simp-frontcover-logo.png" />
+        <div class="frontpage_footer_breakline"></div>
+        <span class="frontpage_footer_product_name">Opening up a world of opportunity</span>
+      </div>
+    </div>
+  </div>
+  <div class="frontpage_footer" data-region="footer"><!-- <p style="text-align: center;"><span data-field="page-number">1</span></p> --></div>
+</body>
+</html>

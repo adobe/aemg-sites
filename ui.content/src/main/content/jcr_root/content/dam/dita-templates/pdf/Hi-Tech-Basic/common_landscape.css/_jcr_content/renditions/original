@@ -1,0 +1,305 @@
+/*Created with AEM Guides*/
+.chapter-text_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chapter-text_wrapper .chapter_header-language {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+  font-family: var(--font-fam-primary-medium);
+  color: var(--color-accent);
+  letter-spacing: 1px;
+  padding-left: 73px;
+}
+.Common_Landscape_left .chapter_header-language{
+  padding-right: 73px;
+}
+.chapter-text_wrapper p {
+  margin-top: -10px;
+}
+.chapter_header_chapter-number {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+  font-family: var(--font-fam-primary-medium);
+  color: var(--color-accent);
+  letter-spacing: 1px;
+  padding: 21px 25px;
+  display: inline-block;
+  background: var(--color-primary);
+  text-align: center;
+}
+.chapter-text {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+  color: var(--color-accent);
+  letter-spacing: 1px;
+}
+.footer-common {
+  padding: 24px 60px 24px 73px;
+  background-color: var(--color-secondary);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -15px;
+}
+.footer-common p {
+  margin: 0px;
+}
+.footer-text {
+  font-size: 9px;
+  line-height: 12px;
+  font-family: var(--font-fam-primary-regular);
+  font-weight: 400;
+  color: var(--color-accent);
+}
+.footer-number {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--font-fam-primary-medium);
+  font-weight: 500;
+  color: var(--color-accent);
+}
+.chapter-footer {
+  margin: 0px;
+}
+h1.chapter {
+  font-size: 24px;
+  line-height: 32px;
+  font-family: var(--font-fam-secondry);
+  font-weight: 500;
+  color: var(--color-accent);
+}
+h2.chapter_sub-titles {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-accent);
+  font-weight: 500;
+  font-family: var(--font-fam-primary-medium);
+}
+.chapter-body .p {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: var(--font-fam-primary-regular);
+  color: var(--color-accent);
+}
+.chapter-body .col-subtitle {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--font-fam-primary-medium);
+  color: var(--color-accent);
+}
+.col-container-1 {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 144px;
+}
+.col-1 {
+  padding: 25px 20px 25px 14px;
+}
+.col-1,
+.col-1 .p {
+  background-color: var(--color-accent);
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--font-fam-primary-medium);
+  color: var(--color-primary-white);
+  flex-basis: 33.33%;
+}
+.col-2 {
+  flex-basis: 33.33%;
+}
+.col-3 {
+  flex-basis: 33.33%;
+}
+.desc_circle .p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.hi-tech_topic-template {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: var(--font-fam-primary-medium);
+  font-weight: 500;
+  color: var(--color-accent);
+  margin: 0px;
+  padding-bottom: 13px;
+}
+.hi-tech_topic-template .text {
+  color: var(--color-primary);
+}
+ol {
+  padding-inline-start: 15px;
+}
+ol li {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: var(--font-fam-primary-regular);
+  color: var(--color-accent);
+  margin-bottom: 16px;
+}
+.desc_circle.p {
+  width: 40px;
+  height: 40px;
+  margin: 0px;
+  margin-bottom: 24px;
+  text-align: center;
+  border-radius: 50%;
+  background: var(--color-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--font-fam-primary-bold);
+  font-weight: 700;
+  color: var(--color-primary);
+}
+.section2_text-image-wrapper {
+  display: flex;
+  gap: 24px;
+  border-top: 0.5px solid #000000;
+  padding-top: 24px;
+}
+.section2_text-wrapper {
+  flex-basis: 42%;
+}
+.section2_text-wrapper .para-text {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: var(--font-fam-primary-regular);
+  font-weight: 400;
+  color: var(--color-accent);
+  margin-bottom: 16px;
+}
+info p {
+  margin-bottom: 16px;
+}
+.chapter-body .info {
+  font-size: 11px;
+  line-height: 14px;
+  font-family: var(--font-fam-primary-regular);
+  font-weight: 400;
+  color: var(--color-primary-white);
+  background: var(--color-natural-blue);
+  padding: 12px 16px;
+}
+.prefix-content {
+  font-weight: bold;
+}
+.note-text {
+  font-size: 9px;
+  line-height: 12px;
+  font-weight: 400;
+  font-style: italic;
+}
+.note {
+  background-color: var(--color-primary-white);
+  padding: 12px;
+  font-size: 9px;
+  line-height: 12px;
+  font-family: var(--font-fam-primary-regular);
+  font-weight: 400;
+  color: #1a2a4a;
+  border-left: 0px;
+  position: relative;
+  padding-left: 50px;
+  border-bottom: 1px solid var(--color-neutral);
+  border-top: 1px solid var(--color-neutral);
+  margin-top: auto;
+}
+.note::before {
+  content: "";
+  width: 28px;
+  height: 28px;
+  background-color: #00e676;
+  border-radius: 50%;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.note::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-image: url('../../../aemguidesDALP/hi-tech/images/note-lines.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fig {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0px;
+}
+.fig .prefix-content {
+  display: none !important;
+}
+.fig_image-wrapper {
+  flex-basis: 58%;
+}
+.fig_image-wrapper .placement-inline {
+  background-color: var(--color-secondry-white);
+  padding: 60px 39px 60.5px 38px;
+}
+.fig_image-wrapper .title {
+  font-size: 9px;
+  line-height: 12px;
+  font-weight: 400;
+  font-family: var(--font-fam-primary-regular);
+  color: var(--color-tertiary);
+  margin-bottom: 0px;
+  margin-top: 8px;
+  text-align: center;
+}
+[data-page-layout="Common_Landscape"] .col-container-1 {
+  margin-bottom: 28px;
+  gap: unset;
+}
+[data-page-layout="Common_Landscape"] .section2_text-image-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  gap: 80px;
+  border-top: unset;
+  padding-top: unset;
+}
+[data-page-layout="Common_Landscape"] .placement-inline {
+  padding: 43px;
+}
+[data-page-layout="Common_Landscape"] .image {
+  width: 237px;
+  height: 134px;
+  max-width: unset !important;
+}
+[data-page-layout="Common_Landscape"] .fig_image-wrapper {
+  flex-basis: 35%;
+}
+[data-page-layout="Common_Landscape"] .section2_text-wrapper {
+  flex-basis: 33%;
+}
+[data-page-layout="Common_Landscape"] .col-1 {
+  flex-basis: 20%;
+}
+[data-page-layout="Common_Landscape"] .col-2 {
+  flex-basis: 40%;
+  margin-left: 24px;
+  border-bottom: 0.5px solid #000000;
+  padding-right: 55px;
+  padding-bottom: 10px;
+}
+[data-page-layout="Common_Landscape"] .col-3 {
+  flex-basis: 40%;
+  border-bottom: 0.5px solid #000000;
+  padding-bottom: 10px;
+}

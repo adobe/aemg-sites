@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" href="layout.css" type="text/css" />
-  <meta name="page-style" content="size:A4 landscape;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;background-image:url(&#39;../../../aemguidesDALP/automotives/images/benzimg.png&#39;);background-repeat:no-repeat;background-position:left bottom;background-size:;" />
+  <meta name="page-style" content="size:A4 landscape;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;background-image:url(&#39;../../../aemguidesDALP/automotives/images/portrait/benzimg.png&#39;);background-repeat:no-repeat;background-position:center ;background-size: cover;" />
   <title>Page Layout</title>
   <link rel="stylesheet" href="frontcover_landscape.css" type="text/css" />
   <link rel="stylesheet" href="global.css" type="text/css" />
@@ -14,7 +14,7 @@
   <div class="frontcover-landsc">
     <div class="frontcover-landsc_left">
       <div class="frontcover-landsc_logo-background">
-        <div class="frontcover-landsc_logo-container" style=""><img alt="frontlogo" class="frontcover-landsc_logo-image" src="../../../aemguidesDALP/automotives/images/benzlogo_white.png" /></div>
+        <div class="frontcover-landsc_logo-container" style=""><img alt="frontlogo" class="frontcover-landsc_logo-image" src="../../../aemguidesDALP/automotives/images/landscape/benzlogo_white.png" /></div>
       </div>
       <div class="frontcover-landsc_left_footer" style=""><span class="frontcover-landsc_version-label"> Software Version / <span class="frontcover-landsc_version">2024.38</span> </span> <span class="frontcover-landsc_language-label"> Language ― <span class="frontcover-landsc_language">English</span> </span></div>
     </div>
@@ -26,7 +26,7 @@
         <div class="frontcover-landsc_prodname" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</div>
       </div>
       <div class="frontcover-landsc_right-description">
-        <p class="frontcover-landsc_description">Redefining sophisticated luxury.</p>
+        <p class="frontcover-landsc_description" style="">Redefining sophisticated luxury.</p>
       </div>
       <div class="frontcover-landsc_right_footer"><a class="frontcover-landsc_urls" href="https://www.mercedes-benz.com/en/">mercedes-benz.com/en/</a></div>
     </div>

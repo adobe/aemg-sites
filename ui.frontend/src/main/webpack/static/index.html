@@ -9,114 +9,347 @@
     <script type="text/javascript" src="/etc.clientlibs/aemguidesDALP/clientlibs/clientlib-dependencies.js"></script>
     <link rel="stylesheet" href="/etc.clientlibs/aemguidesDALP/clientlibs/clientlib-dependencies.css" type="text/css">
 </head>
-<body class="page basicpage">
-<div class="root container responsivegrid">
-    <div class="cmp-container">
-        <header class="experiencefragment">
-            <div class="cmp-experiencefragment">
-                <div class="cmp-container">
-                    <div class="navigation">
-                        <nav class="cmp-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-                            <ul class="cmp-navigation__group">
-                                <li class="cmp-navigation__item cmp-navigation__item--level-0 cmp-navigation__item--active">
-                                    <a href="/content/aemguidesDALP/us/en.html" title="AEM Guides DALP" aria-current="page" class="cmp-navigation__item-link">AEM Guides DALP</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="languagenavigation">
-                        <nav class="cmp-languagenavigation">
-                            <ul class="cmp-languagenavigation__group">
-                                <li class="cmp-languagenavigation__item cmp-languagenavigation__item--langcode-en cmp-languagenavigation__item--level-0">
-                                    <span class="cmp-languagenavigation__item-title" lang="en">United States</span>
-                                    <ul class="cmp-languagenavigation__group">
-                                        <li class="cmp-languagenavigation__item cmp-languagenavigation__item--langcode-en cmp-languagenavigation__item--level-1">
-                                            <a class="cmp-languagenavigation__item-link" href="/content/aemguidesDALP/us/en.html" hreflang="en" lang="en" rel="alternate" title="English">English</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="search">
-                        <section class="cmp-search" role="search" data-cmp-is="search" data-cmp-min-length="3" data-cmp-results-size="10">
-                            <form class="cmp-search__form" data-cmp-hook-search="form" method="get" action="/content/aemguidesDALP/us/en.searchresults.json/_jcr_content/root/search" autocomplete="off">
-                                <div class="cmp-search__field">
-                                    <i class="cmp-search__icon" data-cmp-hook-search="icon"></i>
-                                    <span class="cmp-search__loading-indicator" data-cmp-hook-search="loadingIndicator"></span>
-                                    <input class="cmp-search__input" data-cmp-hook-search="input" type="text" name="fulltext" placeholder="Search" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-invalid="false"/>
-                                    <button class="cmp-search__clear" data-cmp-hook-search="clear">
-                                        <i class="cmp-search__clear-icon"></i>
-                                    </button>
-                                </div>
-                            </form>
-                            <div class="cmp-search__results" data-cmp-hook-search="results" role="listbox" aria-multiselectable="false"></div>
-                            <script data-cmp-hook-search="itemTemplate" type="x-template">
-                                <a class="cmp-search__item" data-cmp-hook-search="item">
-                                    <span class="cmp-search__item-title" data-cmp-hook-search="itemTitle"></span>
-                                </a>
-                            </script>
-                        </section></div>
-                </div>
-            </div>
-        </header>
-        <main class="container responsivegrid">
-            <div class="cmp-container">
-                <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-                    <div class="title aem-GridColumn aem-GridColumn--default--12">
-                        <div class="cmp-title">
-                            <h1 class="cmp-title__text">Welcome to AEM Guides DALP!</h1>
-                        </div>
-                    </div>
-                    <div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
-                        <div class="cmp-container">
-                            <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-                                <div class="text aem-GridColumn aem-GridColumn--default--12">
-                                    <div class="cmp-text">
-                                        <p>This is the main welcome page of your web site. A few notes about this site:</p>
-                                        <ul>
-                                            <li>It is built entirely with the Core Components - see the <a href="https://www.adobe.com/go/aem_cmp_library">Component Library</a> to view the components in all their shapes and forms.</li>
-                                            <li>Only the Hello World component has been built custom to illustrate how further components can be built (which also shows how JavaScript is best initialized for components, so that it also works well with the Page Editor).</li>
-                                            <li>The page header and footer are assembled as Experience Fragments, which <a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/experience-fragment.html#localized-site-structure">can also be localized if needed</a>.<br />
-                                            </li>
-                                            <li>The Style System is used to insert a sematic &lt;header&gt; and &lt;footer&gt; element to the corresponding Experience Fragment components, as well as a &lt;main&gt; element to the container of the page content. This allows to apply some CSS specifically to these sections of the page.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="helloworld aem-GridColumn aem-GridColumn--default--12"><div class="cmp-helloworld" data-cmp-is="helloworld">
-                                    <h2 class="cmp-helloworld__title">Hello World Component</h2>
-                                    <div class="cmp-helloworld__item">
-                                        <p class="cmp-helloworld__item-label">Model message:</p>
-                                        <pre class="cmp-helloworld__item-output" data-cmp-hook-helloworld="model">Hello World!
-Resource type is: aemguidesDALP/components/helloworld
-Current page is:  /content/aemguidesDALP/us/en
-This is instance: 78f60b4a-a52a-4021-82d5-fb17f5fb95cf
-</pre>
-                                    </div>
-                                </div></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <footer class="experiencefragment">
-            <div class="cmp-experiencefragment">
-                <div class="cmp-container">
-                    <div class="separator">
-                        <div class="cmp-separator">
-                            <hr class="cmp-separator__horizontal-rule"/>
-                        </div></div>
-                    <div class="text">
-                        <div class="cmp-text">
-                            <p>Copyright 2019, AEM Guides DALP. All rights reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+<body class="page basicpage light">
+    <div class="root container responsivegrid">
+
+    
+        <div id="container-b26ca3475c" class="cmp-container">
+            
+    
+    
+    <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+        
+        <div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+    
+        
+        
+        
+        <div id="container-43045bf55e" class="cmp-container ">
+            
+            <div class="breadcrumb">
+    <nav id="breadcrumb-3a08c090ad" class="cmp-breadcrumb" aria-label="Breadcrumb" role="navigation">
+        <ol class="cmp-breadcrumb__list" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+            
+            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                <a class="cmp-breadcrumb__item-link" itemprop="item" href="/content/aemguidesDALP/us/en.html">
+                    <span itemprop="name">AEM Guides DALP</span>
+                </a>
+                <meta itemprop="position" content="1">
+            </li>
+        
+            
+            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                <a class="cmp-breadcrumb__item-link" itemprop="item" href="/content/aemguidesDALP/us/en.html">
+                    <span itemprop="name">AEM Guides DALP</span>
+                </a>
+                <meta itemprop="position" content="2">
+            </li>
+        
+            
+            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                <a class="cmp-breadcrumb__item-link" itemprop="item" href="/content/aemguidesDALP/us/en/hi_tech_landing.html">
+                    <span itemprop="name">hi_tech_landing</span>
+                </a>
+                <meta itemprop="position" content="3">
+            </li>
+        
+            
+            <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" aria-current="page" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                
+                    <span itemprop="name">Analysis pane columns</span>
+                
+                <meta itemprop="position" content="4">
+            </li>
+        </ol>
+    </nav>
+    
+        
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/breadcrumb/v3/breadcrumb","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_1976742763/breadcrumb","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_1976742763/breadcrumb","selectors":null,"servlet":"Script /libs/core/wcm/components/breadcrumb/v3/breadcrumb/breadcrumb.html","totalTime":12,"selfTime":12}-->
     </div>
-</div>
+    <div class="pdf-download button">
+    <button type="button" id="pdf-download-69c1a4b6cf" class="cmp-button">
+        
+        
+    
+        <span class="cmp-button__text">Download Owner’s Manual</span>
+    </button>
+    <!--cq{"decorated":true,"type":"aemguidesDALP/components/sites-components/pdf-download","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_1976742763/pdf_download_832858728","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_1976742763/pdf_download_832858728","selectors":null,"servlet":"Script /libs/core/wcm/components/button/v2/button/button.html","totalTime":2,"selfTime":2}-->
+    </div>
+    
+            <div class="new newpar section">
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/container/v1/container/new","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_1976742763/*","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_1976742763/*","selectors":null,"servlet":"Script /libs/wcm/foundation/components/parsys/newpar/newpar.html","totalTime":4,"selfTime":4}-->
+    </div>
+    
+        </div>
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/container/v1/container","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_1976742763","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_1976742763","selectors":null,"servlet":"Script /libs/core/wcm/components/container/v1/container/container.html","totalTime":32,"selfTime":14}-->
+    </div>
+    <div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+    
+        
+        <div id="container-e9f0161104" class="cmp-container">
+            
+    
+    
+    <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+        
+        
+        <div class="new newpar section aem-Grid-newComponent">
+    
+    <!--cq{"decorated":true,"type":"wcm/foundation/components/responsivegrid/new","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container/*","selectors":null,"servlet":"Script /libs/wcm/foundation/components/parsys/newpar/newpar.html","totalTime":1,"selfTime":1}-->
+    <cq data-path="/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container/*" data-config="{&quot;path&quot;:&quot;/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container/*&quot;,&quot;slingPath&quot;:&quot;/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container/*.html&quot;,&quot;type&quot;:&quot;wcm/foundation/components/responsivegrid/new&quot;,&quot;isResponsiveGrid&quot;:false,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/new|newpar&quot;,&quot;editConfig&quot;:{&quot;actions&quot;:[&quot;CQ.wcm.EditBase.INSERT&quot;],&quot;disableTargeting&quot;:true}}"></cq>
+    </div>
+    
+    </div>
+    <!--cq{"decorated":true,"type":"wcm/foundation/components/responsivegrid","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container/no_resource_0","selectors":null,"servlet":"Script /libs/wcm/foundation/components/responsivegrid/responsivegrid.html","totalTime":12,"selfTime":11}-->
+    
+        </div>
+    
+        
+    <!--cq{"decorated":true,"type":"aemguidesDALP/components/container","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container","selectors":null,"servlet":"Script /libs/core/wcm/components/container/v1/container/container.html","totalTime":15,"selfTime":3}-->
+    <cq data-path="/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container" data-config="{&quot;path&quot;:&quot;/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container&quot;,&quot;slingPath&quot;:&quot;/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container.html&quot;,&quot;dialog&quot;:&quot;/libs/core/wcm/components/container/v1/container/cq:dialog&quot;,&quot;dialogLoadingMode&quot;:&quot;auto&quot;,&quot;dialogLayout&quot;:&quot;auto&quot;,&quot;dialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/container/v1/container/_cq_dialog.html/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container&quot;,&quot;designDialog&quot;:&quot;/libs/core/wcm/components/container/v1/container/cq:design_dialog&quot;,&quot;designDialogLayout&quot;:&quot;fullscreen&quot;,&quot;designDialogLoadingMode&quot;:&quot;auto&quot;,&quot;designDialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/container/v1/container/_cq_design_dialog.policydesign.editabletemplate.html/conf/aemguidesDALP/settings/wcm/policies/aemguidesDALP/components/container/policy_1574694950110?dialog=%2Flibs%2Fcore%2Fwcm%2Fcomponents%2Fcontainer%2Fv1%2Fcontainer%2Fcq%3Adesign_dialog&amp;referrer=%2Fcontent%2FaemguidesDALP%2Fus%2Fen%2Fhi_tech_landing%2Fanalysis-pane-columns&amp;policyContentPath=%2Fcontent%2FaemguidesDALP%2Fus%2Fen%2Fhi_tech_landing%2Fanalysis-pane-columns%2Fjcr%3Acontent%2Froot%2Fcontainer&amp;policyContentResourceType=aemguidesDALP%2Fcomponents%2Fcontainer&amp;policyDirectoryPath=%2Fconf%2FaemguidesDALP%2Fsettings%2Fwcm%2Fpolicies%2FaemguidesDALP%2Fcomponents%2Fcontainer%2F&amp;policyMappingPath=%2Fconf%2FaemguidesDALP%2Fsettings%2Fwcm%2Ftemplates%2Fhitech-topic%2Fpolicies%2Fjcr%3Acontent%2Froot%2Fcontainer&amp;policyMappingResourceType=wcm%2Fcore%2Fcomponents%2Fpolicies%2Fmapping&amp;policyName=policy_1574694950110&amp;policyRelativePath=aemguidesDALP%2Fcomponents%2Fcontainer%2Fpolicy_1574694950110&amp;resourceType=wcm%2Fcore%2Fcomponents%2Fpolicy%2Fpolicy&quot;,&quot;designDialogClassic&quot;:&quot;/libs/core/wcm/components/container/v1/container/cq:design_dialog&quot;,&quot;hasPolicyMapping&quot;:true,&quot;type&quot;:&quot;aemguidesDALP/components/container&quot;,&quot;isResponsiveGrid&quot;:true,&quot;policyPath&quot;:&quot;root/container&quot;,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid&quot;,&quot;isContainer&quot;:true,&quot;editConfig&quot;:{&quot;listeners&quot;:{&quot;afterchildinsert&quot;:&quot;function(editable){Granite.author.responsive.EditableActions.REFRESH.execute(editable)}&quot;},&quot;structure&quot;:true},&quot;ipeConfig&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Page Root&quot;,&quot;jcr:lastModifiedBy&quot;:&quot;admin&quot;,&quot;layoutDisabled&quot;:&quot;false&quot;,&quot;components&quot;:[&quot;group:AEM Guides DALP - Content&quot;,&quot;/apps/aemguidesDALP/components/form/container&quot;,&quot;group:AEM Guides DALP - Structure&quot;,&quot;group:Core Content&quot;,&quot;group:Core Structure&quot;,&quot;/apps/guides-components/components/guidessidenavigation&quot;],&quot;jcr:description&quot;:&quot;Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor).&quot;,&quot;jcr:lastModified&quot;:&quot;java.util.GregorianCalendar[time=1739255708549,areFieldsSet=true,areAllFieldsSet=true,lenient=false,zone=sun.util.calendar.ZoneInfo[id=\&quot;GMT+05:30\&quot;,offset=19800000,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2025,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=11,DAY_OF_YEAR=42,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=0,HOUR_OF_DAY=12,MINUTE=5,SECOND=8,MILLISECOND=549,ZONE_OFFSET=19800000,DST_OFFSET=0]&quot;,&quot;sling:resourceType&quot;:&quot;wcm/core/components/policy/policy&quot;,&quot;jcr:content&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;},&quot;cq:authoring&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;assetToComponentMapping&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;mapping_1575024218483&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;resourceType&quot;:&quot;aemguidesDALP/components/image&quot;,&quot;assetMimetype&quot;:&quot;image/*&quot;,&quot;droptarget&quot;:&quot;image&quot;,&quot;assetGroup&quot;:&quot;media&quot;},&quot;mapping_1575030843388&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;resourceType&quot;:&quot;aemguidesDALP/components/experiencefragment&quot;,&quot;assetMimetype&quot;:&quot;text/html&quot;,&quot;droptarget&quot;:&quot;experiencefragment&quot;,&quot;assetGroup&quot;:&quot;content&quot;},&quot;mapping_1575030853128&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;resourceType&quot;:&quot;aemguidesDALP/components/contentfragment&quot;,&quot;assetMimetype&quot;:[&quot;text/html&quot;,&quot;application/vnd.adobe.contentfragment&quot;],&quot;droptarget&quot;:&quot;contentfragment&quot;,&quot;assetGroup&quot;:&quot;media&quot;}}}}}"></cq>
+    </div>
+    <div class="container responsivegrid box-container topic-container aem-GridColumn aem-GridColumn--default--12">
+    
+        
+        
+        
+        <div id="container-555951e4d2" class="cmp-container ">
+            
+            <div class="container responsivegrid left-container">
+    
+        
+        
+        
+        <div id="container-a88323bb1c" class="cmp-container ">
+            
+            <div class="toc-search text">
+    <div class="cmp-form-text" data-cmp-is="formText">
+        
+        
+        
+        <input class="cmp-form-text__text" data-cmp-hook-form-text="input" aria-label=" " type="text" id="toc-search" placeholder="search through the toc" name="toc-search" spellcheck="true" aria-describedby="toc-search-helpMessage">
+    </div><!--cq{"decorated":true,"type":"aemguidesDALP/components/sites-components/toc-search","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_689917996/container/toc_search","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_689917996/container/toc_search","selectors":null,"servlet":"Script /libs/core/wcm/components/form/text/v2/text/text.html","totalTime":2,"selfTime":2}-->
+    </div>
+    
+            <div class="new newpar section">
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/container/v1/container/new","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_689917996/container/*","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_689917996/container/*","selectors":null,"servlet":"Script /libs/wcm/foundation/components/parsys/newpar/newpar.html","totalTime":6,"selfTime":6}-->
+    </div>
+    
+        </div>
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/container/v1/container","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_689917996/container","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_689917996/container","selectors":null,"servlet":"Script /libs/core/wcm/components/container/v1/container/container.html","totalTime":22,"selfTime":14}-->
+    </div>
+    <div class="container responsivegrid">
+    
+        
+        
+        
+        <div id="container-c271ecce7c" class="cmp-container ">
+            
+            <div class="breadcrumb">
+    <nav id="breadcrumb-ac466547e5" class="cmp-breadcrumb" aria-label="Breadcrumb" role="navigation">
+        <ol class="cmp-breadcrumb__list" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+            
+            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                <a class="cmp-breadcrumb__item-link" itemprop="item" href="/content/aemguidesDALP/us/en.html">
+                    <span itemprop="name">AEM Guides DALP</span>
+                </a>
+                <meta itemprop="position" content="1">
+            </li>
+        
+            
+            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                <a class="cmp-breadcrumb__item-link" itemprop="item" href="/content/aemguidesDALP/us/en.html">
+                    <span itemprop="name">AEM Guides DALP</span>
+                </a>
+                <meta itemprop="position" content="2">
+            </li>
+        
+            
+            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                <a class="cmp-breadcrumb__item-link" itemprop="item" href="/content/aemguidesDALP/us/en/hi_tech_landing.html">
+                    <span itemprop="name">hi_tech_landing</span>
+                </a>
+                <meta itemprop="position" content="3">
+            </li>
+        
+            
+            <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" aria-current="page" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                
+                    <span itemprop="name">Analysis pane columns</span>
+                
+                <meta itemprop="position" content="4">
+            </li>
+        </ol>
+    </nav>
+    
+        
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/breadcrumb/v3/breadcrumb","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_689917996/container1/breadcrumb","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_689917996/container1/breadcrumb","selectors":null,"servlet":"Script /libs/core/wcm/components/breadcrumb/v3/breadcrumb/breadcrumb.html","totalTime":14,"selfTime":14}-->
+    </div>
+    <div class="container responsivegrid">
+    
+        
+        
+        
+        <div id="container-1677a21b0f" class="cmp-container ">
+            
+            
+            <div class="new newpar section">
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/container/v1/container/new","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_689917996/container1/container/*","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_689917996/container1/container/*","selectors":null,"servlet":"Script /libs/wcm/foundation/components/parsys/newpar/newpar.html","totalTime":6,"selfTime":6}-->
+    </div>
+    
+        </div>
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/container/v1/container","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_689917996/container1/container","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_689917996/container1/container","selectors":null,"servlet":"Script /libs/core/wcm/components/container/v1/container/container.html","totalTime":23,"selfTime":17}-->
+    </div>
+    <div class="title">
+    <div id="topic-title" class="cmp-title">
+        <h2 class="cmp-title__text">Analysis pane columns</h2>
+    </div>
+    
+        
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/title/v3/title","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_689917996/container1/title","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_689917996/container1/title","selectors":null,"servlet":"Script /libs/core/wcm/components/title/v3/title/title.html","totalTime":3,"selfTime":3}-->
+    </div>
+    <div class="container responsivegrid topic-body">
+
+    
+    
+    
+        <div id="container-31d56ecdb3" class="cmp-container ">
+            
+            <div class="text">
+    <div id="text-5f02c8c307" class="cmp-text">
+        <div class="flex_col1 section" data-attr-outputclass="flex_col1"><div class="chapter_title p" data-attr-outputclass="chapter_title">Host Mode Testing Registers</div><div class="chapter_title_alt p" data-attr-outputclass="chapter_title_alt">Table 1 lists the USB 2.0 registers that must be toggled to force Test J, Test K, Test SE0 NAK, and Test Packet on the respective USB ports.</div></div>
+    </div>
+    
+        
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/text/v2/text","path":"/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container/text-1","selectors":null,"servlet":"Script /libs/core/wcm/components/text/v2/text/text.html","totalTime":1,"selfTime":1}-->
+    <cq data-path="/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container/text-1" data-config="{&quot;path&quot;:&quot;/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container/text-1&quot;,&quot;slingPath&quot;:&quot;/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container/text-1.html&quot;,&quot;dialog&quot;:&quot;/libs/core/wcm/components/text/v2/text/cq:dialog&quot;,&quot;dialogLoadingMode&quot;:&quot;auto&quot;,&quot;dialogLayout&quot;:&quot;auto&quot;,&quot;dialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/text/v2/text/_cq_dialog.html/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container/text-1&quot;,&quot;designDialog&quot;:&quot;/libs/core/wcm/components/text/v2/text/cq:design_dialog&quot;,&quot;designDialogLayout&quot;:&quot;fullscreen&quot;,&quot;designDialogLoadingMode&quot;:&quot;auto&quot;,&quot;designDialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/text/v2/text/_cq_design_dialog.policydesign.editabletemplate.html/conf/aemguidesDALP/settings/wcm/policies/core/wcm/components/text/v2/text/policy_1199326416681100?dialog=%2Flibs%2Fcore%2Fwcm%2Fcomponents%2Ftext%2Fv2%2Ftext%2Fcq%3Adesign_dialog&amp;referrer=%2Fcontent%2FaemguidesDALP%2Fus%2Fen%2Fhi_tech_landing%2Ftest&amp;policyContentPath=%2Fcontent%2FaemguidesDALP%2Fus%2Fen%2Fhi_tech_landing%2Ftest%2Fjcr%3Acontent%2Froot%2Fcontainer_689917996%2Fcontainer1%2Finjected-container%2Ftext-1&amp;policyContentResourceType=core%2Fwcm%2Fcomponents%2Ftext%2Fv2%2Ftext&amp;policyDirectoryPath=%2Fconf%2FaemguidesDALP%2Fsettings%2Fwcm%2Fpolicies%2Fcore%2Fwcm%2Fcomponents%2Ftext%2Fv2%2Ftext%2F&amp;policyMappingPath=%2Fconf%2FaemguidesDALP%2Fsettings%2Fwcm%2Ftemplates%2Fhitech-topic%2Fpolicies%2Fjcr%3Acontent%2Froot%2Fcontainer_689917996%2Fcontainer1%2Finjected-container%2Fcore%2Fwcm%2Fcomponents%2Ftext%2Fv2%2Ftext&amp;policyMappingResourceType=wcm%2Fcore%2Fcomponents%2Fpolicies%2Fmapping&amp;policyName=policy_1199326416681100&amp;policyRelativePath=core%2Fwcm%2Fcomponents%2Ftext%2Fv2%2Ftext%2Fpolicy_1199326416681100&amp;resourceType=wcm%2Fcore%2Fcomponents%2Fpolicy%2Fpolicy&quot;,&quot;designDialogClassic&quot;:&quot;/libs/core/wcm/components/text/v2/text/cq:design_dialog&quot;,&quot;type&quot;:&quot;core/wcm/components/text/v2/text&quot;,&quot;isResponsiveGrid&quot;:false,&quot;policyPath&quot;:&quot;root/container_689917996/container1/injected-container/core/wcm/components/text/v2/text&quot;,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/container|responsivegrid/container|responsivegrid/text&quot;,&quot;editConfig&quot;:{&quot;inplaceEditingConfig&quot;:{&quot;active&quot;:true,&quot;editorType&quot;:&quot;text&quot;,&quot;configPath&quot;:&quot;/libs/core/wcm/components/text/v2/text/cq:editConfig/cq:inplaceEditing/inplaceEditingConfig&quot;}},&quot;ipeConfig&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;rtePlugins&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;tracklinks&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;features&quot;:&quot;*&quot;},&quot;table&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;features&quot;:&quot;-&quot;,&quot;hiddenHeaderConfig&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;hiddenHeaderClassName&quot;:&quot;cq-wcm-foundation-aria-visuallyhidden&quot;}},&quot;paraformat&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;formats&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;default_p&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Paragraph&quot;,&quot;tag&quot;:&quot;p&quot;},&quot;default_h1&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Heading 1&quot;,&quot;tag&quot;:&quot;h1&quot;},&quot;default_h2&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Heading 2&quot;,&quot;tag&quot;:&quot;h2&quot;},&quot;default_h3&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Heading 3&quot;,&quot;tag&quot;:&quot;h3&quot;},&quot;default_h4&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Heading 4&quot;,&quot;tag&quot;:&quot;h4&quot;},&quot;default_h5&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Heading 5&quot;,&quot;tag&quot;:&quot;h5&quot;},&quot;default_h6&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Heading 6&quot;,&quot;tag&quot;:&quot;h6&quot;},&quot;default_blockquote&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Quote&quot;,&quot;tag&quot;:&quot;blockquote&quot;},&quot;default_hr&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Horizontal Rule (visual line break)&quot;,&quot;tag&quot;:&quot;hr&quot;},&quot;default_pre&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Preformatted&quot;,&quot;tag&quot;:&quot;pre&quot;}}},&quot;misctools&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;specialCharsConfig&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;chars&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;default_copyright&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;entity&quot;:&quot;&amp;copy;&quot;,&quot;name&quot;:&quot;copyright&quot;},&quot;default_euro&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;entity&quot;:&quot;&amp;euro;&quot;,&quot;name&quot;:&quot;euro&quot;},&quot;default_registered&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;entity&quot;:&quot;&amp;reg;&quot;,&quot;name&quot;:&quot;registered&quot;},&quot;default_trademark&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;entity&quot;:&quot;&amp;trade;&quot;,&quot;name&quot;:&quot;trademark&quot;}}}},&quot;links&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;features&quot;:&quot;modifylink,unlink&quot;},&quot;justify&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;features&quot;:&quot;-&quot;},&quot;format&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;features&quot;:&quot;bold,italic&quot;}},&quot;uiSettings&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;cui&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;inline&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;toolbar&quot;:[&quot;#format&quot;,&quot;#justify&quot;,&quot;#lists&quot;,&quot;links#modifylink&quot;,&quot;links#unlink&quot;,&quot;#paraformat&quot;,&quot;fullscreen#start&quot;,&quot;control#close&quot;,&quot;control#save&quot;],&quot;popovers&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;format&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;ref&quot;:&quot;format&quot;,&quot;items&quot;:[&quot;format#bold&quot;,&quot;format#italic&quot;,&quot;format#underline&quot;]},&quot;justify&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;ref&quot;:&quot;justify&quot;,&quot;items&quot;:[&quot;justify#justifyleft&quot;,&quot;justify#justifycenter&quot;,&quot;justify#justifyright&quot;,&quot;justify#justifyjustify&quot;]},&quot;lists&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;ref&quot;:&quot;lists&quot;,&quot;items&quot;:[&quot;lists#unordered&quot;,&quot;lists#ordered&quot;,&quot;lists#outdent&quot;,&quot;lists#indent&quot;]},&quot;paraformat&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;ref&quot;:&quot;paraformat&quot;,&quot;items&quot;:&quot;paraformat:getFormats:paraformat-pulldown&quot;}}}}}}}"></cq>
+    </div>
+    <div class="text">
+    <div id="text-386b8e735e" class="cmp-text">
+        <div class="flex_col2 section" data-attr-outputclass="flex_col2"><div class="figure_container div" data-attr-outputclass="figure_container"><div class="figure_content_wrapper div" data-attr-outputclass="figure_content_wrapper"><div class="fig_content div" data-attr-outputclass="fig_content"><div class="desc_circle p" data-attr-outputclass="desc_circle">1</div><figure id="fig_2" class="fig"><span class="placement-inline align-"><img src="/content/dam/aemguidesDALP/hi-tech/images/chapter-img-first.png" id="image_10" class="image" data-attr-placement="inline"></span></figure></div><div class="figure_info p" data-attr-outputclass="figure_info">During the characterization stage of a USB device, ensuring compliance with the relevant specifications often involves fine-tuning various hardware parameters</div></div><div class="figure_content_wrapper div" data-attr-outputclass="figure_content_wrapper"><div class="fig_content div" data-attr-outputclass="fig_content"><div class="desc_circle p" data-attr-outputclass="desc_circle">2</div><figure id="fig_6" class="fig"><span class="placement-inline align-"><img src="/content/dam/aemguidesDALP/hi-tech/images/chapter-img-second.png" id="image_12" class="image" data-attr-placement="inline"></span></figure></div><div class="figure_info p" data-attr-outputclass="figure_info">One such parameter is the HS_CURR_LEVEL (High-Speed Current Level), which can be adjusted by directly modifying the corresponding USB register specified in Table 2 of the relevant documentation.</div></div></div><div class="table"><table class="tgroup"><colgroup><col class="colspec tcx-empty-element" data-attr-rowheader="headers"><col class="colspec tcx-empty-element" data-attr-rowheader="headers"></colgroup><thead class="thead"><tr class="row"><th class="entry" data-attr-colname="col1">Description</th><th class="entry" data-attr-colname="col2">Register Name and Setting</th></tr></thead><tbody class="tbody"><tr class="row"><td class="entry" data-attr-colname="col1">Normal Operations</td><td class="entry" data-attr-colname="col2">X_USB2_PHY0.CLK_PORTPMSCHS_x[31:28] = 0000</td></tr><tr class="row"><td class="entry" data-attr-colname="col1">Test J</td><td class="entry" data-attr-colname="col2">X_USB2_PHY0.CLK_PORTPMSCHS_x[31:28] = 0001</td></tr><tr class="row"><td class="entry" data-attr-colname="col1">Test K</td><td class="entry" data-attr-colname="col2">X_USB2_PHY0.CLK_PORTPMSCHS_x[31:28] = 0010</td></tr><tr class="row"><td class="entry" data-attr-colname="col1">Test SE0 NAK</td><td class="entry" data-attr-colname="col2">X_USB2_PHY0.CLK_PORTPMSCHS_x[31:28] = 0011</td></tr></tbody></table></div><div class="div" data-attr-outputclass=""><div class="chapter_body_heading p" data-attr-outputclass="chapter_body_heading">HS_CURR_LEVEL Offset Adjustment Procedure</div><div class="chapter_body_description p" data-attr-outputclass="chapter_body_description">If the default values are not suitable to the customer design, adjust the HS_CURR_LEVEL register to pass the USB HS eye diagram.</div><div class="chapter_body_description p" data-attr-outputclass="chapter_body_description"> Follow this procedure: 1. Adjust the HS_CURR_LEVEL register as described in the "Tuning Procedure and Registers" section to pass the USB HS eye diagram.</div></div><div class="caution_conatiner div" data-attr-outputclass="caution_conatiner"><figure id="fig_8" class="fig"><span class="placement-inline align-"><img src="/content/dam/aemguidesDALP/hi-tech/images/caution-img.png" id="image_14" class="image" data-attr-placement="inline"></span></figure><div class="caution p" data-attr-outputclass="caution"><b class="ph b display-inline">Caution: </b>Do not apply a global overwrite HS_CURR_LEVEL value for all silicon. Software should read the fuse USB drive strength and add an offset to it.</div></div></div>
+    </div>
+    
+        
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/text/v2/text","path":"/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container/text-2","selectors":null,"servlet":"Script /libs/core/wcm/components/text/v2/text/text.html","totalTime":3,"selfTime":3}-->
+    <cq data-path="/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container/text-2" data-config="{&quot;path&quot;:&quot;/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container/text-2&quot;,&quot;slingPath&quot;:&quot;/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container/text-2.html&quot;,&quot;dialog&quot;:&quot;/libs/core/wcm/components/text/v2/text/cq:dialog&quot;,&quot;dialogLoadingMode&quot;:&quot;auto&quot;,&quot;dialogLayout&quot;:&quot;auto&quot;,&quot;dialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/text/v2/text/_cq_dialog.html/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container/text-2&quot;,&quot;designDialog&quot;:&quot;/libs/core/wcm/components/text/v2/text/cq:design_dialog&quot;,&quot;designDialogLayout&quot;:&quot;fullscreen&quot;,&quot;designDialogLoadingMode&quot;:&quot;auto&quot;,&quot;designDialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/text/v2/text/_cq_design_dialog.policydesign.editabletemplate.html/conf/aemguidesDALP/settings/wcm/policies/core/wcm/components/text/v2/text/policy_1199326424547300?dialog=%2Flibs%2Fcore%2Fwcm%2Fcomponents%2Ftext%2Fv2%2Ftext%2Fcq%3Adesign_dialog&amp;referrer=%2Fcontent%2FaemguidesDALP%2Fus%2Fen%2Fhi_tech_landing%2Ftest&amp;policyContentPath=%2Fcontent%2FaemguidesDALP%2Fus%2Fen%2Fhi_tech_landing%2Ftest%2Fjcr%3Acontent%2Froot%2Fcontainer_689917996%2Fcontainer1%2Finjected-container%2Ftext-2&amp;policyContentResourceType=core%2Fwcm%2Fcomponents%2Ftext%2Fv2%2Ftext&amp;policyDirectoryPath=%2Fconf%2FaemguidesDALP%2Fsettings%2Fwcm%2Fpolicies%2Fcore%2Fwcm%2Fcomponents%2Ftext%2Fv2%2Ftext%2F&amp;policyMappingPath=%2Fconf%2FaemguidesDALP%2Fsettings%2Fwcm%2Ftemplates%2Fhitech-topic%2Fpolicies%2Fjcr%3Acontent%2Froot%2Fcontainer_689917996%2Fcontainer1%2Finjected-container%2Fcore%2Fwcm%2Fcomponents%2Ftext%2Fv2%2Ftext&amp;policyMappingResourceType=wcm%2Fcore%2Fcomponents%2Fpolicies%2Fmapping&amp;policyName=policy_1199326424547300&amp;policyRelativePath=core%2Fwcm%2Fcomponents%2Ftext%2Fv2%2Ftext%2Fpolicy_1199326424547300&amp;resourceType=wcm%2Fcore%2Fcomponents%2Fpolicy%2Fpolicy&quot;,&quot;designDialogClassic&quot;:&quot;/libs/core/wcm/components/text/v2/text/cq:design_dialog&quot;,&quot;type&quot;:&quot;core/wcm/components/text/v2/text&quot;,&quot;isResponsiveGrid&quot;:false,&quot;policyPath&quot;:&quot;root/container_689917996/container1/injected-container/core/wcm/components/text/v2/text&quot;,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/container|responsivegrid/container|responsivegrid/text&quot;,&quot;editConfig&quot;:{&quot;inplaceEditingConfig&quot;:{&quot;active&quot;:true,&quot;editorType&quot;:&quot;text&quot;,&quot;configPath&quot;:&quot;/libs/core/wcm/components/text/v2/text/cq:editConfig/cq:inplaceEditing/inplaceEditingConfig&quot;}},&quot;ipeConfig&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;rtePlugins&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;tracklinks&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;features&quot;:&quot;*&quot;},&quot;table&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;features&quot;:&quot;-&quot;,&quot;hiddenHeaderConfig&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;hiddenHeaderClassName&quot;:&quot;cq-wcm-foundation-aria-visuallyhidden&quot;}},&quot;paraformat&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;formats&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;default_p&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Paragraph&quot;,&quot;tag&quot;:&quot;p&quot;},&quot;default_h1&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Heading 1&quot;,&quot;tag&quot;:&quot;h1&quot;},&quot;default_h2&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Heading 2&quot;,&quot;tag&quot;:&quot;h2&quot;},&quot;default_h3&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Heading 3&quot;,&quot;tag&quot;:&quot;h3&quot;},&quot;default_h4&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Heading 4&quot;,&quot;tag&quot;:&quot;h4&quot;},&quot;default_h5&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Heading 5&quot;,&quot;tag&quot;:&quot;h5&quot;},&quot;default_h6&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Heading 6&quot;,&quot;tag&quot;:&quot;h6&quot;},&quot;default_blockquote&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Quote&quot;,&quot;tag&quot;:&quot;blockquote&quot;},&quot;default_hr&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Horizontal Rule (visual line break)&quot;,&quot;tag&quot;:&quot;hr&quot;},&quot;default_pre&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Preformatted&quot;,&quot;tag&quot;:&quot;pre&quot;}}},&quot;misctools&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;specialCharsConfig&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;chars&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;default_copyright&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;entity&quot;:&quot;&amp;copy;&quot;,&quot;name&quot;:&quot;copyright&quot;},&quot;default_euro&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;entity&quot;:&quot;&amp;euro;&quot;,&quot;name&quot;:&quot;euro&quot;},&quot;default_registered&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;entity&quot;:&quot;&amp;reg;&quot;,&quot;name&quot;:&quot;registered&quot;},&quot;default_trademark&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;entity&quot;:&quot;&amp;trade;&quot;,&quot;name&quot;:&quot;trademark&quot;}}}},&quot;links&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;features&quot;:&quot;modifylink,unlink&quot;},&quot;justify&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;features&quot;:&quot;-&quot;},&quot;format&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;features&quot;:&quot;bold,italic&quot;}},&quot;uiSettings&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;cui&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;inline&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;toolbar&quot;:[&quot;#format&quot;,&quot;#justify&quot;,&quot;#lists&quot;,&quot;links#modifylink&quot;,&quot;links#unlink&quot;,&quot;#paraformat&quot;,&quot;fullscreen#start&quot;,&quot;control#close&quot;,&quot;control#save&quot;],&quot;popovers&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;format&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;ref&quot;:&quot;format&quot;,&quot;items&quot;:[&quot;format#bold&quot;,&quot;format#italic&quot;,&quot;format#underline&quot;]},&quot;justify&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;ref&quot;:&quot;justify&quot;,&quot;items&quot;:[&quot;justify#justifyleft&quot;,&quot;justify#justifycenter&quot;,&quot;justify#justifyright&quot;,&quot;justify#justifyjustify&quot;]},&quot;lists&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;ref&quot;:&quot;lists&quot;,&quot;items&quot;:[&quot;lists#unordered&quot;,&quot;lists#ordered&quot;,&quot;lists#outdent&quot;,&quot;lists#indent&quot;]},&quot;paraformat&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;ref&quot;:&quot;paraformat&quot;,&quot;items&quot;:&quot;paraformat:getFormats:paraformat-pulldown&quot;}}}}}}}"></cq>
+    </div>
+    
+            <div class="new newpar section">
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/container/v1/container/new","path":"/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container/*","selectors":null,"servlet":"Script /libs/wcm/foundation/components/parsys/newpar/newpar.html","totalTime":1,"selfTime":1}-->
+    <cq data-path="/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container/*" data-config="{&quot;path&quot;:&quot;/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container/*&quot;,&quot;slingPath&quot;:&quot;/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container/*.html&quot;,&quot;type&quot;:&quot;core/wcm/components/container/v1/container/new&quot;,&quot;isResponsiveGrid&quot;:false,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/container|responsivegrid/container|responsivegrid/new|newpar&quot;,&quot;editConfig&quot;:{&quot;actions&quot;:[&quot;CQ.wcm.EditBase.INSERT&quot;],&quot;disableTargeting&quot;:true}}"></cq>
+    </div>
+    
+        </div>
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/container/v1/container","path":"/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container","selectors":null,"servlet":"Script /libs/core/wcm/components/container/v1/container/container.html","totalTime":20,"selfTime":15}-->
+    <cq data-path="/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container" data-config="{&quot;path&quot;:&quot;/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container&quot;,&quot;slingPath&quot;:&quot;/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container.html&quot;,&quot;dialog&quot;:&quot;/libs/core/wcm/components/container/v1/container/cq:dialog&quot;,&quot;dialogLoadingMode&quot;:&quot;auto&quot;,&quot;dialogLayout&quot;:&quot;auto&quot;,&quot;dialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/container/v1/container/_cq_dialog.html/content/aemguidesDALP/us/en/hi_tech_landing/test/jcr:content/root/container_689917996/container1/injected-container&quot;,&quot;designDialog&quot;:&quot;/libs/core/wcm/components/container/v1/container/cq:design_dialog&quot;,&quot;designDialogLayout&quot;:&quot;fullscreen&quot;,&quot;designDialogLoadingMode&quot;:&quot;auto&quot;,&quot;designDialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/container/v1/container/_cq_design_dialog.policydesign.editabletemplate.html/conf/aemguidesDALP/settings/wcm/policies/core/wcm/components/container/v1/container/policy_1739430397665?dialog=%2Flibs%2Fcore%2Fwcm%2Fcomponents%2Fcontainer%2Fv1%2Fcontainer%2Fcq%3Adesign_dialog&amp;referrer=%2Fcontent%2FaemguidesDALP%2Fus%2Fen%2Fhi_tech_landing%2Ftest&amp;policyContentPath=%2Fcontent%2FaemguidesDALP%2Fus%2Fen%2Fhi_tech_landing%2Ftest%2Fjcr%3Acontent%2Froot%2Fcontainer_689917996%2Fcontainer1%2Finjected-container&amp;policyContentResourceType=core%2Fwcm%2Fcomponents%2Fcontainer%2Fv1%2Fcontainer&amp;policyDirectoryPath=%2Fconf%2FaemguidesDALP%2Fsettings%2Fwcm%2Fpolicies%2Fcore%2Fwcm%2Fcomponents%2Fcontainer%2Fv1%2Fcontainer%2F&amp;policyMappingPath=%2Fconf%2FaemguidesDALP%2Fsettings%2Fwcm%2Ftemplates%2Fhitech-topic%2Fpolicies%2Fjcr%3Acontent%2Froot%2Fcontainer_689917996%2Fcontainer1%2Finjected-container&amp;policyMappingResourceType=wcm%2Fcore%2Fcomponents%2Fpolicies%2Fmapping&amp;policyName=policy_1739430397665&amp;policyRelativePath=core%2Fwcm%2Fcomponents%2Fcontainer%2Fv1%2Fcontainer%2Fpolicy_1739430397665&amp;resourceType=wcm%2Fcore%2Fcomponents%2Fpolicy%2Fpolicy&quot;,&quot;designDialogClassic&quot;:&quot;/libs/core/wcm/components/container/v1/container/cq:design_dialog&quot;,&quot;hasPolicyMapping&quot;:true,&quot;type&quot;:&quot;core/wcm/components/container/v1/container&quot;,&quot;isResponsiveGrid&quot;:true,&quot;policyPath&quot;:&quot;root/container_689917996/container1/injected-container&quot;,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/container|responsivegrid/container|responsivegrid&quot;,&quot;isContainer&quot;:true,&quot;editConfig&quot;:{&quot;listeners&quot;:{&quot;afterchildinsert&quot;:&quot;function(editable){Granite.author.responsive.EditableActions.REFRESH.execute(editable)}&quot;},&quot;structure&quot;:true},&quot;ipeConfig&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;topic-body&quot;,&quot;cq:styleDefaultClasses&quot;:&quot;topic-body&quot;,&quot;jcr:lastModifiedBy&quot;:&quot;admin&quot;,&quot;layoutDisabled&quot;:&quot;false&quot;,&quot;jcr:lastModified&quot;:&quot;java.util.GregorianCalendar[time=1739445816363,areFieldsSet=true,areAllFieldsSet=true,lenient=false,zone=sun.util.calendar.ZoneInfo[id=\&quot;GMT+05:30\&quot;,offset=19800000,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2025,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=13,DAY_OF_YEAR=44,DAY_OF_WEEK=5,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=4,HOUR_OF_DAY=16,MINUTE=53,SECOND=36,MILLISECOND=363,ZONE_OFFSET=19800000,DST_OFFSET=0]&quot;,&quot;sling:resourceType&quot;:&quot;wcm/core/components/policy/policy&quot;,&quot;jcr:content&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;}}}"></cq>
+    </div>
+    <div class="guides-pager">
+        <div class="cmp-pager">
+            <div class="cmp-pager__prev">
+                <span>Previous: </span>
+                <a href="/content/aemguidesDALP/us/en/hi_tech_landing/eligible-assets-evaluation-and-selection-proces-0.html">Eligible Assets Evaluation and Selection Process</a>
+            </div>
+            <div class="cmp-pager__next">
+                <span>Next: </span>
+                <a href="/content/aemguidesDALP/us/en/hi_tech_landing/eligible-categories.html">Eligible Categories</a>
+            </div>
+        </div>
+        </div>
+    
+            <div class="new newpar section">
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/container/v1/container/new","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_689917996/container1/*","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_689917996/container1/*","selectors":null,"servlet":"Script /libs/wcm/foundation/components/parsys/newpar/newpar.html","totalTime":12,"selfTime":12}-->
+    </div>
+    
+        </div>
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/container/v1/container","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_689917996/container1","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_689917996/container1","selectors":null,"servlet":"Script /libs/core/wcm/components/container/v1/container/container.html","totalTime":191,"selfTime":33}-->
+    </div>
+    <div class="container responsivegrid right-container">
+    
+        
+        
+        
+        <div id="container-a3c74d8732" class="cmp-container ">
+            
+            <div class="container responsivegrid">
+    
+        
+        
+        
+        <div id="container-69c780adb7" class="cmp-container ">
+            
+            <div class="bookmark image">
+    
+    
+        <div class="cq-placeholder cmp-image cq-dd-image" data-emptytext="Bookmark"></div>
+    
+    <!--cq{"decorated":true,"type":"aemguidesDALP/components/sites-components/bookmark","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_689917996/container_708278119/container/bookmark","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_689917996/container_708278119/container/bookmark","selectors":null,"servlet":"Script /libs/core/wcm/components/image/v3/image/image.html","totalTime":6,"selfTime":6}-->
+    </div>
+    <div class="share image">
+    
+    
+        <div class="cq-placeholder cmp-image cq-dd-image" data-emptytext="Share"></div>
+    
+    <!--cq{"decorated":true,"type":"aemguidesDALP/components/sites-components/share","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_689917996/container_708278119/container/share","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_689917996/container_708278119/container/share","selectors":null,"servlet":"Script /libs/core/wcm/components/image/v3/image/image.html","totalTime":0,"selfTime":0}-->
+    </div>
+    
+            <div class="new newpar section">
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/container/v1/container/new","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_689917996/container_708278119/container/*","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_689917996/container_708278119/container/*","selectors":null,"servlet":"Script /libs/wcm/foundation/components/parsys/newpar/newpar.html","totalTime":10,"selfTime":10}-->
+    </div>
+    
+        </div>
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/container/v1/container","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_689917996/container_708278119/container","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_689917996/container_708278119/container","selectors":null,"servlet":"Script /libs/core/wcm/components/container/v1/container/container.html","totalTime":28,"selfTime":12}-->
+    </div>
+    
+            <div class="new newpar section">
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/container/v1/container/new","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_689917996/container_708278119/*","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_689917996/container_708278119/*","selectors":null,"servlet":"Script /libs/wcm/foundation/components/parsys/newpar/newpar.html","totalTime":4,"selfTime":4}-->
+    </div>
+    
+        </div>
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/container/v1/container","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_689917996/container_708278119","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_689917996/container_708278119","selectors":null,"servlet":"Script /libs/core/wcm/components/container/v1/container/container.html","totalTime":54,"selfTime":22}-->
+    </div>
+    
+            <div class="new newpar section">
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/container/v1/container/new","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_689917996/*","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_689917996/*","selectors":null,"servlet":"Script /libs/wcm/foundation/components/parsys/newpar/newpar.html","totalTime":8,"selfTime":8}-->
+    </div>
+    
+        </div>
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/container/v1/container","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/container_689917996","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/container_689917996","selectors":null,"servlet":"Script /libs/core/wcm/components/container/v1/container/container.html","totalTime":292,"selfTime":17}-->
+    </div>
+    
+        <div class="new newpar section aem-Grid-newComponent">
+    
+    <!--cq{"decorated":true,"type":"wcm/foundation/components/responsivegrid/new","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/*","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/*","selectors":null,"servlet":"Script /libs/wcm/foundation/components/parsys/newpar/newpar.html","totalTime":1,"selfTime":1}-->
+    </div>
+    
+    </div>
+    <!--cq{"decorated":true,"type":"wcm/foundation/components/responsivegrid","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root/no_resource_0","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root/no_resource_0","selectors":null,"servlet":"Script /libs/wcm/foundation/components/responsivegrid/responsivegrid.html","totalTime":373,"selfTime":33}-->
+    
+        </div>
+    
+        
+    <!--cq{"decorated":true,"type":"aemguidesDALP/components/container","path":"/content/aemguidesDALP/us/en/hi_tech_landing/analysis-pane-columns/jcr:content/root","structurePath":"/conf/aemguidesDALP/settings/wcm/templates/hitech-topic/structure/jcr:content/root","selectors":null,"servlet":"Script /libs/core/wcm/components/container/v1/container/container.html","totalTime":373,"selfTime":0}-->
+    </div>
 <script type="text/javascript" src="/etc.clientlibs/aemguidesDALP/clientlibs/clientlib-site.js"></script>
 <script type="text/javascript" src="/etc.clientlibs/aemguidesDALP/clientlibs/clientlib-base.js"></script>
 </body>

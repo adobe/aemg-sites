@@ -5,35 +5,22 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" href="layout.css" type="text/css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
+   <link rel="stylesheet" type="text/css" href="global.css" />
+  <link rel="stylesheet" type="text/css" href="custom.css" />
   <title>First Chapter Page</title>
-  <meta name="page-style" content="size:A4 portrait;" />
+  <meta name="page-style" content="size:A4 portrait;margin-bottom:130px;" />
   <meta name="footnote-style" content="" />
 </head>
 <body data-layout="page">
-  <p><br />
+  <p style=""><br />
     
   </p>
   <div data-region="header">
     <p class="chapter-header"></p>
   </div>
-  <!-- <div data-region="content">
-    <div data-type="chapter-toc" style="margin-top: 8pt;margin-bottom: 24pt">
-      <ol class="chaptoc-body" data-class="level2" data-from-selector="h2" data-selector="h2" data-to-selector="h4" data-type="chaptoc-body" style="">
-        <li><a class="chaptoc-level-2" href="#">Heading 2</a>
-          <ol data-class="level3" data-selector="h3" style="">
-            <li><a class="chaptoc-level-3" href="#">Heading 3</a>
-              <ol data-class="level4" data-selector="h4" style="">
-                <li><a class="chaptoc-level-4" href="#">Heading 4</a></li>
-              </ol>
-            </li>
-          </ol>
-        </li>
-      </ol>
-    </div>
-  </div> -->
   <div data-region="content" style="">
     <div style="">
-      <p class="chapter_firstpage_header" style=""><img alt="World Map" class="chapter_firstpage_cover-image" src="../../../aemguidesDALP/automotives/pdf/medium/assets/front-cover.png" /></p>
+      <p class="chapter_firstpage_header" style=""><img alt="World Map" class="chapter_firstpage_cover-image" src="../../../aemguidesDALP/automotives/images/portrait/front-cover.png" /></p>
       <div>
         <p class="chapter_header_title" style=""><span data-field="chapter-title" data-format="default" style="">Chapter Title</span><br />
           <br />

@@ -15,7 +15,7 @@
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 const path = require('path');
-
+const { generateClibs } = require('./clientlib-generatior');
 const BUILD_DIR = path.join(__dirname, 'dist');
 const CLIENTLIB_DIR = path.join(
   __dirname,
@@ -37,57 +37,51 @@ const libsBaseConfig = {
   jsProcessor: ['default:none', 'min:none']
 };
 
-// Config for `aem-clientlib-generator`
-module.exports = {
-  context: BUILD_DIR,
-  clientLibRoot: CLIENTLIB_DIR,
-  libs: [
-    {
-      ...libsBaseConfig,
-      name: 'clientlib-dependencies',
-      categories: ['aemguidesDALP.dependencies'],
-      assets: {
-        // Copy entrypoint scripts and stylesheets into the respective ClientLib
-        // directories
-        js: {
-          cwd: 'clientlib-dependencies',
-          files: ['**/*.js'],
-          flatten: false
-        },
-        css: {
-          cwd: 'clientlib-dependencies',
-          files: ['**/*.css'],
-          flatten: false
-        }
-      }
-    },
-    {
-      ...libsBaseConfig,
-      name: 'clientlib-site',
-      categories: ['aemguidesDALP.site'],
-      dependencies: ['aemguidesDALP.dependencies'],
-      assets: {
-        // Copy entrypoint scripts and stylesheets into the respective ClientLib
-        // directories
-        js: {
-          cwd: 'clientlib-site',
-          files: ['**/*.js'],
-          flatten: false
-        },
-        css: {
-          cwd: 'clientlib-site',
-          files: ['**/*.css'],
-          flatten: false
-        },
+const clientlibArr = [
 
-        // Copy all other files into the `resources` ClientLib directory
-        resources: {
-          cwd: 'clientlib-site',
-          files: ['**/*.*'],
-          flatten: false,
-          ignore: ['**/*.js', '**/*.css']
-        }
-      }
-    }
-  ]
-};
+  //common
+  {name : 'guides-footer', module: 'common'},
+  {name : 'guides-header', module: 'common'},
+  {name : 'global-search' , module: 'common'},
+  {name : 'content-feedback', module: 'feedback'},
+  {name : 'accessibility', module: 'common'},
+  
+
+  //automotive
+  {name : 'automotive_global', module: 'automotive'},
+  {name : 'automotive-footer', module: 'automotive'},
+  {name : 'automoitve_toc', module: 'automotive'},
+  {name : 'automotive_topic-body', module: 'automotive'},
+  {name : 'automative_toc-banner', module: 'automotive'},
+  {name: 'automotive_landing', module: 'automotive'},
+  {name: 'automotive_filter', module: 'automotive'},
+
+  //fsi
+  {name : 'fsi_topic-body' , module: 'fsi'},
+  {name : 'fsi_global' , module: 'fsi'},
+  {name : 'fsi_toc' , module: 'fsi'},
+  // {name : 'fsi_mini-toc' , module: 'fsi'},
+  {name : 'fsi_landing' , module: 'fsi'},
+  
+  {name : 'fsi-landing-banner' , module: 'fsi'},
+
+
+
+  // hi-tec
+  {name : 'hi-tech_topic-body', module: 'hi-tech'},
+  {name : 'hi-tech_global', module: 'hi-tech'},
+  {name : 'hi-tech_toc', module: 'hi-tech'},
+  // {name : 'hi-tech_mini_toc', module: 'hi-tech'},
+  {name : 'landing-banner', module: 'hi-tech'},
+  {name : 'hi-tech-landing-list', module: 'hi-tech'},
+];
+
+const libsArr = [];
+generateClibs(libsArr, libsBaseConfig, ...clientlibArr)
+
+ // Config for `aem-clientlib-generator`
+ module.exports = {
+   context: BUILD_DIR,
+   clientLibRoot: CLIENTLIB_DIR,
+   libs: libsArr
+ };

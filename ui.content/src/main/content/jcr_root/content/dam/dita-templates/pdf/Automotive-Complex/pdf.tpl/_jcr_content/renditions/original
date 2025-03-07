@@ -9,12 +9,12 @@
   <modifyHeadings type="boolean">true</modifyHeadings>
   <notDisplayPageNo>false</notDisplayPageNo>
   <leaderFormat>dotted</leaderFormat>
-  <tableContinuation type="boolean">true</tableContinuation>
+  <tableContinuation type="boolean">false</tableContinuation>
   <useUserToc type="boolean">true</useUserToc>
   <toclevel type="number">4</toclevel>
-  <startChapterFromNewPage type="boolean">true</startChapterFromNewPage>
+  <startChapterFromNewPage type="boolean">false</startChapterFromNewPage>
   <startChapterFromEvenPage type="boolean">false</startChapterFromEvenPage>
-  <startChapterFromOddPage type="boolean">false</startChapterFromOddPage>
+  <startChapterFromOddPage type="boolean">true</startChapterFromOddPage>
   <startChapterFromCurrentPage type="boolean">false</startChapterFromCurrentPage>
   <startTopicsFromNewPage type="boolean">false</startTopicsFromNewPage>
   <displayChapter type="boolean">true</displayChapter>
@@ -46,8 +46,15 @@
       <name>customLayout</name>
       <mergeMode>none</mergeMode>
       <showInTOC type="boolean">true</showInTOC>
-      <path>FrontCover_Portrait.plt</path>
-      <label>FrontCover_Portrait</label>
+      <path>FrontCover_Landscape.plt</path>
+      <label>FrontCover_Landscape</label>
+    </bookListsitem>
+    <bookListsitem>
+      <name>customLayout</name>
+      <mergeMode>none</mergeMode>
+      <showInTOC type="boolean">true</showInTOC>
+      <path>Blank_Landscape.plt</path>
+      <label>Blank_Landscape</label>
     </bookListsitem>
     <bookListsitem>
       <name>tocLayout</name>
@@ -57,6 +64,13 @@
       <disabled type="boolean">false</disabled>
     </bookListsitem>
     <bookListsitem>
+      <name>customLayout</name>
+      <mergeMode>none</mergeMode>
+      <showInTOC type="boolean">true</showInTOC>
+      <path>Blank_Landscape.plt</path>
+      <label>Blank_Landscape</label>
+    </bookListsitem>
+    <bookListsitem>
       <name>topicLayout</name>
       <mergeMode>none</mergeMode>
       <showInTOC type="boolean">true</showInTOC>
@@ -64,11 +78,25 @@
       <disabled type="boolean">true</disabled>
     </bookListsitem>
     <bookListsitem>
+      <name>customLayout</name>
+      <mergeMode>none</mergeMode>
+      <showInTOC type="boolean">true</showInTOC>
+      <path>Blank_Landscape.plt</path>
+      <label>Blank_Landscape</label>
+    </bookListsitem>
+    <bookListsitem>
       <name>lofLayout</name>
       <mergeMode>none</mergeMode>
       <showInTOC type="boolean">true</showInTOC>
       <label>List of Figures</label>
       <disabled type="boolean">false</disabled>
+    </bookListsitem>
+    <bookListsitem>
+      <name>customLayout</name>
+      <mergeMode>none</mergeMode>
+      <showInTOC type="boolean">true</showInTOC>
+      <path>Blank_Landscape.plt</path>
+      <label>Blank_Landscape</label>
     </bookListsitem>
     <bookListsitem>
       <name>lotLayout</name>
@@ -92,6 +120,13 @@
       <disabled type="boolean">false</disabled>
     </bookListsitem>
     <bookListsitem>
+      <name>customLayout</name>
+      <mergeMode>none</mergeMode>
+      <showInTOC type="boolean">true</showInTOC>
+      <path>Blank_Landscape.plt</path>
+      <label>Blank_Landscape</label>
+    </bookListsitem>
+    <bookListsitem>
       <name>bibLayout</name>
       <mergeMode>none</mergeMode>
       <showInTOC type="boolean">false</showInTOC>
@@ -102,23 +137,23 @@
       <name>customLayout</name>
       <mergeMode>none</mergeMode>
       <showInTOC type="boolean">true</showInTOC>
-      <path>BackCover_Portrait.plt</path>
-      <label>BackCover_Portrait</label>
+      <path>BackCover_Landscape.plt</path>
+      <label>BackCover_Landscape</label>
     </bookListsitem>
   </bookLists>
   <hyperlinkGlossary type="boolean">true</hyperlinkGlossary>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
   <layout>Common</layout>
-  <coverPageLayout>FrontCover_Portrait</coverPageLayout>
-  <backPageLayout>BackCover_Portrait</backPageLayout>
-  <emptyPageLayout>Blank</emptyPageLayout>
-  <tocLayout>TOC_Portrait</tocLayout>
-  <topicLayout>Chapter_Portrait</topicLayout>
-  <gloLayout>Glossary_Portrait</gloLayout>
-  <indexLayout>Index_Portrait</indexLayout>
+  <coverPageLayout>FrontCover_Landscape</coverPageLayout>
+  <backPageLayout>BackCover_Landscape</backPageLayout>
+  <emptyPageLayout>Blank_Landscape</emptyPageLayout>
+  <tocLayout>TOC_Landscape</tocLayout>
+  <topicLayout>Chapter_Landscape</topicLayout>
+  <gloLayout>Glossary_Landscape</gloLayout>
+  <indexLayout>Index_Landscape</indexLayout>
   <bibLayout>Citations</bibLayout>
-  <lotLayout>LOT_Portrait</lotLayout>
-  <lofLayout>LOF_Portrait</lofLayout>
-  <frontTopicsLayout>FrontCover_Portrait</frontTopicsLayout>
-  <backTopicsLayout>BackCover_Portrait</backTopicsLayout>
+  <lotLayout>LOT_Landscape</lotLayout>
+  <lofLayout>LOF_Landscape</lofLayout>
+  <frontTopicsLayout>FrontCover_Landscape</frontTopicsLayout>
+  <backTopicsLayout>BackCover_Landscape</backTopicsLayout>
 </settings>

@@ -172,6 +172,8 @@
 }
 .toc-level-2 {
   margin-top: unset;
+  text-indent: -28px;
+  margin-inline-start: 80px;
 }
 .toc_footer_hr {
   border: 0.5px solid #2C343B;
@@ -186,4 +188,14 @@
   color: var(--color-tertiary);
   padding-top: 8px;
   margin: unset;
+}
+.toc-level-1 {
+  text-indent: -24px;
+  margin-inline-start: 47px;
+}
+.toc-level-1::before {
+  margin-right: 15px;
+}
+.toc-level-2::before {
+  margin-right: 10px;
 }

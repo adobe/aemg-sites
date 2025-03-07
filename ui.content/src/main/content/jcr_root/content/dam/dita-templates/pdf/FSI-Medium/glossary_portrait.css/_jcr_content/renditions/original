@@ -1,0 +1,111 @@
+/* Glossary Header Styles */
+/* .glossary_header {
+  margin-bottom: 27px;
+  text-align: left;
+} */
+#glossary_header_title,
+.glo-title {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xl);
+  line-height: var(--text-xl-lh);
+  font-weight: 400;
+  color: var(--color-primary);
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+#glossary_header_titlealts,
+.glossary_header_titlealts {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-primary);
+  margin-bottom: 40px;
+}
+/* Glossary Term and Definition Styles */
+.glo-term,
+glossterm {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 700;
+  color: var(--color-primary);
+}
+.glo-definition,
+glossdef {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-3xs);
+  line-height: var(--text-3xs-lh);
+  font-weight: 350;
+  color: var(--color-primary);
+}
+/* Glossary Footer Styles */
+/* .glossary_footer {
+  margin-bottom: 40px;
+} */
+.glossary_footer_product-brand {
+  padding-top: 8px;
+  margin: unset;
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-2xs);
+  line-height: var(--text-2xs-lh);
+  font-weight: 700;
+  color: var(--color-secondary);
+  padding-right: 3px;
+}
+.glossary_footer_product-name {
+  padding-top: 8px;
+  margin: unset;
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-2xs);
+  line-height: var(--text-2xs-lh);
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+.glossary_footer_urls {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-2xs);
+  line-height: var(--text-2xs-lh);
+  font-weight: 400;
+  color: var(--color-secondary);
+}
+.glo-body {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 84px;
+  grid-row-gap: 16px;
+  margin-top: 30px;
+}
+.rh-glossary-page-wrapper {
+  display: flex;
+  /* column-gap: 85px; */
+}
+.glossary_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid var(--color-gray);
+  padding-bottom: 4px;
+  margin-top: 50px;
+}
+.glo_header_logo {
+  width: 60px;
+  height: 24px;
+}
+.glossary_footer {
+  padding-bottom: 20px;
+}
+.glossary_footer_text {
+  font-size: var(--text-3xs);
+  line-height: var(--text-3xs-lh);
+  font-weight: 400;
+  color: var(--color-secondary);
+  margin: 0;
+}
+.glossary_publish-date {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-3xs);
+  line-height: var(--text-3xs-lh);
+  font-weight: 400;
+  color: var(--color-secondary);
+}

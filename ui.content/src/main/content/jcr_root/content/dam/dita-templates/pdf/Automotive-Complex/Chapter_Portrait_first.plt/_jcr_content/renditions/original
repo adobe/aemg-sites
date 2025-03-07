@@ -5,22 +5,23 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="page-style" content="size:A4 portrait;" />
   <meta name="footnote-style" content="" />
-
-
-  <link rel="stylesheet" type="text/css" href="layout.css" />
-  <link rel="stylesheet" type="text/css" href="content.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="layout.css" /> -->
+  <!-- <link rel="stylesheet" type="text/css" href="content.css" /> -->
   <link rel="stylesheet" type="text/css" href="chapter_portrait.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
+  <link rel="stylesheet" type="text/css" href="custom.css" />
 </head>
 <body data-layout="page">
-  <p></p>
+  <p style=""><br />
+    
+  </p>
   <p></p>
   <div data-region="header">
     <p class="chapter-header"></p>
   </div>
   <div data-region="content" style="">
     <div style="text-align: right;">
-      <p class="chapter_firstpage_header" style=""><img alt="World Map" class="chapter_firstpage_cover-image" src="chapter_img.png" /></p>
+      <p class="chapter_firstpage_header" style=""><img alt="World Map" class="chapter_firstpage_cover-image" src="../../../aemguidesDALP/automotives/images/portrait/benzimg.png" style="cursor: nesw-resize;" /></p>
       <div>
         <p class="chapter_header_title" style=""><span data-field="chapter-title" data-format="default" style="">Chapter Title</span></p>
         <div style="

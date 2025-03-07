@@ -98,7 +98,8 @@ h1.title {
   display: inline-block;
   padding-top: 38px;
 }
-h2.chapter, .title {
+h2.chapter,
+.title {
   color: var(--color-secondary);
 }
 .shortdesc {
@@ -205,4 +206,8 @@ li {
 }
 .content-img_landscape {
   display: block;
+}
+.chapter_footer-space {
+  margin-top: 20px;
+  padding-bottom: 40px;
 }

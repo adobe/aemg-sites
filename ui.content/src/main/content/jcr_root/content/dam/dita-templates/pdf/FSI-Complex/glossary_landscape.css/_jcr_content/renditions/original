@@ -1,0 +1,94 @@
+/* Glossary Header Styles */
+/* .glossary_firstpage_header {
+  margin-top: 50px;
+  text-align: left;
+} */
+#glossary_header_title,
+.glo-title {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xl);
+  line-height: var(--text-xl-lh);
+  font-weight: 400;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+}
+#glossary_header_titlealts,
+.glossary_header_titlealts {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-primary);
+  margin-bottom: 40px;
+}
+/* Glossary Term and Definition Styles */
+.glo-term,
+glossterm {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 4px;
+}
+.glo-definition,
+glossdef {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-3xs);
+  line-height: var(--text-3xs-lh);
+  font-weight: 350;
+  color: var(--color-primary);
+  margin: unset;
+}
+/* Glossary Footer Styles */
+/* .glossary_footer {
+  margin-bottom: 40px;
+} */
+.glossary_footer_product-name {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-3xs);
+  line-height: var(--text-3xs-lh);
+  font-weight: 400;
+  color: var(--color-secondary);
+  padding-top: 8px;
+  margin: unset;
+}
+.glossary_footer_urls {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-3xs);
+  line-height: var(--text-3xs-lh);
+  font-weight: 400;
+  color: var(--color-secondary);
+}
+.glossary_footer_hr {
+  border: 0.5px solid var(--color-secondary);
+  margin: 0;
+  padding: 0;
+}
+.glo-body {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 84px;
+  grid-row-gap: 16px;
+  margin-top: 20px;
+}
+.rh-glossary-page-wrapper {
+  display: flex;
+  /* column-gap: 85px; */
+}
+.glossary_firstpage_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid var(--color-gray);
+  padding-bottom: 4px;
+  margin-top: 40px;
+}
+.header_logo {
+  max-height: 17px;
+  max-width: 33px;
+}
+.glo_header_logo {
+  width: 60px;
+  height: 24px;
+}
