@@ -8,13 +8,13 @@
         cq:name="Index_Portrait.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-25T12:43:29.318+05:30"
+        jcr:lastModified="{Date}2025-03-07T15:43:24.685+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-25T12:43:29.284+05:30"
-            dam:sha1="12cf926c717f33185cad681aefbbfd55b78bd717"
-            dam:size="{Long}1590"
+            dam:extracted="{Date}2025-03-07T15:43:24.590+05:30"
+            dam:sha1="376fad519a31bf58f9a82a58b0349ccbd0cc063a"
+            dam:size="{Long}1570"
             dc:format="application/xhtml+xml"
             dc:title="Index_Portrait.plt"
             jcr:mixinTypes="[cq:Taggable]"
