@@ -13,6 +13,7 @@
   --color-secondary-blue: #76A2EB;
   --color-bg : #FFFFFF;
   --color-border-light: #D8D8D8;
+  --color-content-bg:#E8F1FF; 
 // codeblock 
     --color-neutral-light: #EEEEEE;
     --color-neutral-dark: #ddd;
@@ -39,6 +40,7 @@
   --color-secondary-blue: #76A2EB;
   --color-bg: #121212; // Dark background color
   --color-border-light: #D8D8D8;
+  --color-content-bg: #8C8C8C;
 
   // codeblock 
   --color-neutral-light: #2A2A2A; // Darker light neutral for codeblocks
@@ -111,8 +113,8 @@
   }
   .checkbox-label .ball {
     background-color: var(--color-bg);
-    width: 17px;
-    height: 17px;
+    width: 18px;
+    height: 18px;
     position: absolute;
     left: 3px;
     top: 3px;

@@ -87,19 +87,14 @@
 
     .pdf-download {
       margin-right: auto;
-      display: flex;
+      // display: flex;
       align-items: center;
-      gap: 20px;
+      // gap: 20px;
       button {
         padding: 11px 16px;
         background-color: var(--color-accent);
         border: none;
         cursor: pointer;
-      }
-
-      .pdf-note {
-        font-size: 12px;
-        color: red;
       }
 
       .cmp-button__text {
@@ -277,7 +272,7 @@
   padding-bottom: 218px;
 
   @media screen and (max-width: $screen-md) {
-    padding-bottom: 130px;
+    padding-bottom: unset;
   }
 }
 
@@ -304,36 +299,6 @@
   margin-right: 8px;
 }
 
-
-
-/* Horizontal Blinking Text Reveal Animations */
-@keyframes reveal-text {
-  0% {
-    width: 0%;
-    opacity: 0;
-    color: var(--color-accent);
-  }
-  50% {
-    width: 50%;
-    opacity: 1;
-    color: var(--color-accent);
-  }
-  100% {
-    width: 100%;
-    opacity: 1;
-    color: var(--color-accent);
-  }
-}
-
-.loading {
-  display: inline-block;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 0;
-  opacity: 0;
-  animation: reveal-text 3s forwards;
-}
-
 .sharePopup-container{
   >.cmp-container{
     position: relative;
@@ -343,5 +308,11 @@
   }
 }
 
+
+@media screen and (max-width: $screen-md) {
+  .download-manual-button.padding-bottom {
+    padding-bottom: 40px;
+  }
+} 
 
 

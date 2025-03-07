@@ -1,13 +1,19 @@
 
 @use "../../utils/css/vars" as *;
 
+@media screen and (max-width: $screen-md){
+    .content-feedback{
+        padding-bottom: 64px;
+    }
+}
+
 .feedback-container {
     background-color: var(--color-content-bg);
-    padding: 20px 8px;
+    padding: 20px 15px;
     margin-top: 40px;
 
     @media screen and (max-width: $screen-md){
-        width: 327px;
+        // width: 327px;
         margin-top: unset;
     }
 
@@ -55,6 +61,45 @@
             &:hover {
                 background-color: var(--color-primary);
             }
+
+            &:disabled {
+                cursor: not-allowed;
+                opacity: 0.5;
+            }
+
+            &.selected {
+                background-color: #4caf50;
+                // background-color: var(--color-primary);
+                border: 3px solid white;
+                transform: scale(1.1); 
+                opacity: unset;
+            }
         }
+    }
+    .feedback-message {
+        font-size: var(--text-sm);
+        line-height: var(--text-sm-lh);
+        color: var(--color-primary);
+        font-family: var(--font-fam-secondary); 
+        font-weight: bold;
+        text-align: center;
+        margin-top: 15px;
+        opacity: 0;
+        transform: translateY(10px);
+        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    }
+}
+
+.screen-md-hide{
+    display: block;
+    @media screen and (max-width: $screen-md){
+        display: none;
+    }
+}
+
+.screen-md-show{
+    display: none;
+    @media screen and (max-width: $screen-md){
+        display: block;
     }
 }

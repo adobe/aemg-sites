@@ -50,7 +50,8 @@ module.exports = {
         'guides-header' : SOURCE_ROOT + '/clientlibs/guides-header/main.ts',
         'global-search' : SOURCE_ROOT + '/clientlibs/global-search/main.ts',
 
-        'content-feedback': SOURCE_ROOT + '/clientlibs/content-feedback/main.ts'
+        'content-feedback': SOURCE_ROOT + '/clientlibs/content-feedback/main.ts',
+        'accessibility': SOURCE_ROOT + '/clientlibs/accessibility/main.ts'
 
     },
     output: {
