@@ -65,7 +65,7 @@ body {}
 .b {
   font-family: var(--font-fam-primary);
   font-size: var(--text-base);
-  font-weight: 600;
+  font-weight: 500;
   line-height: var(--text-base-lh);
   text-align: left;
   text-underline-position: from-font;
@@ -100,7 +100,13 @@ h1.title {
 }
 h2.chapter,
 .title {
-  color: var(--color-secondary);
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xl);
+  line-height: var(--text-2xl-lh);
+  font-weight: 400;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+  padding-left: 0px;
 }
 .shortdesc {
   color: var(--color-tertiary);
@@ -157,7 +163,7 @@ bold-text {
   line-height: var(--text-sm-lh);
   font-weight: 600;
   color: var(--color-accent);
-  background-color: var(--color-neutral);
+  background-color: var(--color-white);
   border: 0.5px solid var(--color-accent);
   text-align: left;
 }
