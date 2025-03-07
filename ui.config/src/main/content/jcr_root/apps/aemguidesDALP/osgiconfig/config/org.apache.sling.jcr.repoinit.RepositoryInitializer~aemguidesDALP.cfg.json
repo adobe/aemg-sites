@@ -3,6 +3,6 @@
         "create path (sling:OrderedFolder) /content/dam/aemguidesDALP",
         "create path (nt:unstructured) /content/dam/aemguidesDALP/jcr:content",
         "set properties on /content/dam/aemguidesDALP/jcr:content\n  set cq:conf{String} to /conf/aemguidesDALP\n  set jcr:title{String} to \"AEM Guides DALP\"\nend",
-		"create service user guides-user\r\nset ACL on /content,/oak:index\r\nallow jcr:all for guides-user\r\nend"
+		"create service user guides-user\r\nset ACL on /content,/oak:index\r\nallow jcr:all,jcr:read,jcr:write,jcr:modifyProperties for guides-user\r\nend"
     ]
 }
