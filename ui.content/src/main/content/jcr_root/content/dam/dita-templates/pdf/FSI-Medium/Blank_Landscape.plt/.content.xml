@@ -8,13 +8,13 @@
         cq:name="Blank_Landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-25T12:43:29.158+05:30"
+        jcr:lastModified="{Date}2025-03-07T15:43:13.129+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-25T12:43:29.094+05:30"
-            dam:sha1="dfcfcad3037f9badccc13f46bf4189a889e880b4"
-            dam:size="{Long}616"
+            dam:extracted="{Date}2025-03-07T15:43:12.877+05:30"
+            dam:sha1="4ed9bd2af98cc3b022216212e940034f3229abfe"
+            dam:size="{Long}599"
             dc:format="application/octet-stream"
             dc:title="Blank_Landscape.plt"
             jcr:mixinTypes="[cq:Taggable]"
