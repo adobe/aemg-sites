@@ -8,13 +8,13 @@
         cq:name="Chapter_Portrait_first.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-24T12:29:20.431+05:30"
+        jcr:lastModified="{Date}2025-03-07T15:43:16.570+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-24T12:29:20.336+05:30"
-            dam:sha1="efa227a5d7963e17cbab0c3be81295c1c97a0b21"
-            dam:size="{Long}1847"
+            dam:extracted="{Date}2025-03-07T15:43:16.483+05:30"
+            dam:sha1="994585b8388d7aba3f820c87334f392f7cd7aba8"
+            dam:size="{Long}1879"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
