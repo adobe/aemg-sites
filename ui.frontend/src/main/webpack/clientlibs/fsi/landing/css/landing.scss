@@ -52,9 +52,10 @@
       text-decoration: none;
       background: var(--color-primary);
       width: 400px;
-      height: 26pc;
+      max-height: 26pc;
       padding: 40px 44px 40px 40px;
       box-sizing: border-box;
+      height: 100%;
       img {
         margin-bottom: 48px;
         width: 40px;
@@ -88,6 +89,7 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
+        margin-bottom: 40px;
       }
       button {
         padding-top: 4px;
@@ -107,7 +109,8 @@
         width: 125px;
         height: 40px;
         border: none;
-        margin-top: 48px;
+        // margin-top: 48px;
+        margin-top: auto;
       }
     }
   }
@@ -124,21 +127,23 @@
       width: 100%;
       a {
         max-width: 327px;
-        height: 373px;
+        max-height: 373px;
         padding: 33px 24px;
         width: 100%;
+        height: 100%;
         h3 {
           font-size: 20px;
           line-height: 28px;
           // overflow: hidden;
-          height: 63px;
+          // height: 55px;
         }
         p {
           font-size: 14px;
           line-height: 20px;
           // flex-grow: unset;
           overflow: hidden;
-          height: 57px;
+          // height: 100px;
+          margin-bottom: 30px;
         }
         img {
           margin-bottom: 24px;
