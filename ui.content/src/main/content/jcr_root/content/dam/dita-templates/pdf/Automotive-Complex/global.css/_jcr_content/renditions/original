@@ -41,7 +41,7 @@ html {
   --color-white-light: #f3f3f3;
   --color-grey-lighter: #f4f4f4;
   --color-black-grey: #333;
-  --color-danger-light: #fff0f0;
+  --color-danger-light: #FFE2E2;
   --color-danger-dark: #ffd7d6;
   --color-tip-light: #EEEEEE;
   --color-tip-dark: #ddd;
@@ -56,8 +56,10 @@ html {
   --color-danger-darker: #FF0000;
   --color-footnote-light: #f8f9fa;
   --color-grey: #D8D8D8;
-   --color-neutral-dark: #ddd;
   --color-neutral-dark: #ddd;
+  --color-neutral-dark: #ddd;
+  --color-lighter-grey: #667889;
+  --color-white: #FFFFFF;
 }
 .toc-config,
 :root {
