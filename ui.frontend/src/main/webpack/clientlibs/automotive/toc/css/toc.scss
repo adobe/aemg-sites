@@ -73,7 +73,6 @@
           color: var(--color-primary-70);
         }
       }
-
     }
 
     ul {
@@ -94,4 +93,8 @@
 
 .dark .cmp-guides-navigation .guides-navigation ul.cmp-guidesnavigation__group .cmp-guidesnavigation__item-level-0 {
   border-bottom: 1px solid var(--color-border-light);
+}
+
+.dark .cmp-guides-navigation .guides-navigation ul.cmp-guidesnavigation__group .toc-list-item a {
+  color: var(--color-on-accent);
 }
