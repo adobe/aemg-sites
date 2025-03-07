@@ -1,10 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    const likeButton = document.querySelector(".like-button");
-    const dislikeButton = document.querySelector(".dislike-button");
-    const feedbackContainer = document.querySelector(".feedback-container");
+    // Get all like buttons, dislike buttons, and feedback containers
+    const likeButtons = document.querySelectorAll(".like-button");
+    const dislikeButtons = document.querySelectorAll(".dislike-button");
+    const feedbackContainers = document.querySelectorAll(".feedback-container");
 
-    function handleFeedback(type) {
+    // Function to handle feedback logic for each button and container
+    function handleFeedback(likeButton, dislikeButton, feedbackContainer, type) {
         // Highlight selected button
         if (type === "like") {
             likeButton.classList.add("selected");
@@ -28,7 +30,13 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 100);
     }
 
-    likeButton.addEventListener("click", () => handleFeedback("like"));
-    dislikeButton.addEventListener("click", () => handleFeedback("dislike"));
+    // Attach event listeners to each set of buttons and feedback containers
+    likeButtons.forEach((likeButton, index) => {
+        const dislikeButton = dislikeButtons[index];
+        const feedbackContainer = feedbackContainers[index];
+
+        likeButton.addEventListener("click", () => handleFeedback(likeButton, dislikeButton, feedbackContainer, "like"));
+        dislikeButton.addEventListener("click", () => handleFeedback(likeButton, dislikeButton, feedbackContainer, "dislike"));
+    });
     
 });

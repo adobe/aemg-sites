@@ -272,7 +272,7 @@
   padding-bottom: 218px;
 
   @media screen and (max-width: $screen-md) {
-    padding-bottom: 130px;
+    padding-bottom: unset;
   }
 }
 
