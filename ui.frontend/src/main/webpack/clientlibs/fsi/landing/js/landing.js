@@ -34,10 +34,10 @@ function populateNavigation(data) {
 
     guideItem.innerHTML = `
       <a href="${link}">
-      <img src="${image}" alt="${title}">
-      <h3>${title}</h3>
-      <p>${description}</p>
-      <button>${button}</button>
+        ${image ? `<img src="${image}" alt="${title}">` : ''}
+        ${title ? `<h3>${title}</h3>` : ''}
+        ${description ? `<p>${description}</p>` : ''}
+        ${button ? `<button>${button}</button>` : ''}
       </a>
     `;
 

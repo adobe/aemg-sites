@@ -4,3 +4,4 @@
 # Except for the clientlib-fontawesome, chartjs folder
 !/src/main/content/jcr_root/apps/aemguidesDALP/clientlibs/clientlib-fontawesome/
 !/src/main/content/jcr_root/apps/aemguidesDALP/clientlibs/chart/
+!/src/main/content/jcr_root/apps/aemguidesDALP/clientlibs/clientlib-qrcode/
