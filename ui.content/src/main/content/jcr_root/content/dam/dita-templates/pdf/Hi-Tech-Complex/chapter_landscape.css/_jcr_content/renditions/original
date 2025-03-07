@@ -213,9 +213,9 @@ fig .content-figure-image-landscape {
   display: unset;
 }
 .content-figure-image-landscape .title,
-  figcaption.title>.prefix-content::after {
+figcaption.title>.prefix-content::after {
   font-family: Adobe Clean;
-  font-size: var(--text-3xs);
+  font-size: var(--text-base);
   font-weight: 400;
   line-height: var(--text-4xs-lh);
   text-align: left;
