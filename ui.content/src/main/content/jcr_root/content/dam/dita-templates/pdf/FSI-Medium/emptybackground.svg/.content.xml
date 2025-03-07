@@ -8,13 +8,13 @@
         cq:name="emptybackground.svg"
         cq:parentPath="/content/dam/dita-templates/pdf/Prime"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-25T12:43:31.287+05:30"
+        jcr:lastModified="{Date}2025-03-07T15:43:24.720+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-25T12:43:31.062+05:30"
-            dam:sha1="18807befcfbdb40ecdbb0c4a955c555583b0559d"
-            dam:size="{Long}220"
+            dam:extracted="{Date}2025-03-07T15:43:24.427+05:30"
+            dam:sha1="7c355df01cbc50b05f44101e0fadd25603c9a8da"
+            dam:size="{Long}215"
             dc:format="image/svg+xml"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

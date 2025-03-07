@@ -103,13 +103,13 @@
   <hyperlinkGlossary type="boolean">true</hyperlinkGlossary>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
   <layout></layout>
-  <coverPageLayout>FrontCover_Landscape</coverPageLayout>
-  <backPageLayout>BackCover_Landscape</backPageLayout>
-  <emptyPageLayout>Blank_Landscape</emptyPageLayout>
-  <tocLayout>TOC_Landscape</tocLayout>
-  <topicLayout>Chapter_Landscape</topicLayout>
-  <gloLayout>Glossary_Landscape</gloLayout>
-  <indexLayout>Index_Landscape</indexLayout>
+  <coverPageLayout>FrontCover_Portrait</coverPageLayout>
+  <backPageLayout>BackCover_Portrait</backPageLayout>
+  <emptyPageLayout>Blank_Portrait</emptyPageLayout>
+  <tocLayout>TOC_Portrait</tocLayout>
+  <topicLayout>Chapter_Portrait</topicLayout>
+  <gloLayout>Glossary_Portrait</gloLayout>
+  <indexLayout>Index_Portrait</indexLayout>
   <bibLayout></bibLayout>
   <lotLayout></lotLayout>
   <lofLayout></lofLayout>

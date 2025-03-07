@@ -8,13 +8,13 @@
         cq:name="Common_left.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-24T12:29:00.438+05:30"
+        jcr:lastModified="{Date}2025-03-07T15:43:15.937+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-24T12:29:00.062+05:30"
-            dam:sha1="bcab6fe27fa7969083ac0c4e54b4a98b072c8cbf"
-            dam:size="{Long}1808"
+            dam:extracted="{Date}2025-03-07T15:43:15.797+05:30"
+            dam:sha1="b893cb01e7836195e3e583f19cc72ba5131464ae"
+            dam:size="{Long}1771"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
