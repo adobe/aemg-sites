@@ -8,13 +8,13 @@
         cq:name="custom.css"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-04T13:10:33.634+05:30"
+        jcr:lastModified="{Date}2025-03-07T15:43:15.963+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-03-04T13:10:33.597+05:30"
-            dam:sha1="62dd7c4507d77527121b26725d51b237c24c5c97"
-            dam:size="{Long}27"
+            dam:extracted="{Date}2025-03-07T15:43:15.846+05:30"
+            dam:sha1="67813c6ad371ab84f9858146a8e2b21b4f99eb02"
+            dam:size="{Long}11098"
             dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

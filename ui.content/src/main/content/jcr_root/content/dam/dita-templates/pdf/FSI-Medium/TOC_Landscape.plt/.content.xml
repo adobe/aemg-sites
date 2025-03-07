@@ -8,13 +8,13 @@
         cq:name="TOC_Landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-25T12:43:29.415+05:30"
+        jcr:lastModified="{Date}2025-03-07T15:43:24.876+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-25T12:43:29.380+05:30"
-            dam:sha1="7c40438e5259d1182e71f4fe346133a9160e1890"
-            dam:size="{Long}1349"
+            dam:extracted="{Date}2025-03-07T15:43:24.741+05:30"
+            dam:sha1="5be1b23ec16ee2bf9e643c25e995ea07f472558f"
+            dam:size="{Long}1322"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
