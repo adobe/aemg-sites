@@ -148,7 +148,7 @@
   <backPageLayout>BackCover_Landscape</backPageLayout>
   <emptyPageLayout>Blank_Landscape</emptyPageLayout>
   <tocLayout>TOC_Landscape</tocLayout>
-  <topicLayout>Chapter_Landscape</topicLayout>
+  <topicLayout>Chapter_Portrait</topicLayout>
   <gloLayout>Glossary_Landscape</gloLayout>
   <indexLayout>Index_Landscape</indexLayout>
   <bibLayout>Citations</bibLayout>
