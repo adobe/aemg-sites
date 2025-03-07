@@ -14,3 +14,49 @@
     color: var(--color-primary);
   }
 }
+
+table {
+  margin: 30px 0;
+
+  caption.title {
+    padding-bottom: 20px;
+    font-weight: 700;
+  }
+
+  thead {
+    background-color: var(--color-content-bg3);
+    text-align: left;
+
+    tr {
+      border: 1px solid var(--color-bg2);
+
+      th {
+        padding: 12px;
+        border: 1px solid var(--color-bg2);
+        color: var(--color-bg);
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      border: 1px solid var(--color-bg2);
+
+      td {
+        padding: 15px;
+        border: 1px solid var(--color-bg2);
+      }
+    }
+  }
+}
+
+.dark thead tr,
+.dark thead tr th,
+.dark tbody tr,
+.dark tbody tr td {
+  border: 1px solid var(--color-on-accent)
+}
+
+.dark thead tr th{
+  color: var(--color-on-accent);
+}

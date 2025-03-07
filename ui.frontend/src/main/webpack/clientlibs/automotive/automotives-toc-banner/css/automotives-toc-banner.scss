@@ -123,6 +123,12 @@
     }
   }
 }
+
+.dark .download-manual-button {
+  border-top: 1px solid var(--color-border-light);
+  border-bottom: 1px solid var(--color-border-light);
+}
+
 .text{
   p{
     font-size: var(--text-xs);
@@ -314,5 +320,6 @@
     padding-bottom: 40px;
   }
 } 
+
 
 

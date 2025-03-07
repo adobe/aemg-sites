@@ -65,14 +65,15 @@ q::after,
   transition: all 0.3s ease;
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
-  border-left: 3px solid var(--color-primary);
-  background-color: var(--color-neutral-light);
-  color: var(--color-primary);
+  border-left: 3px solid var(--color-accent);
+  background-color: #E8F1FF;
+  color: var(--color-accent);
   break-inside: avoid;
+  width: 100%;
 }
 .dt {
   font-weight: bold;
-  color: var(--color-dark-grey, #2c3e50);
+  color: var(--color-accent, #2c3e50);
   margin-bottom: 0.5rem;
 }
 .dt::after {
@@ -82,7 +83,8 @@ q::after,
   line-height: 1.5;
   margin-left: 1rem;
   font-family: var(--font-fam-secondary, var(--font-fam-primary));
-  color: var(--color-secondary);
+  color: var(--color-accent);
+  font-size: 14px;
 }
 ol.steps {
   list-style: none;
@@ -211,18 +213,18 @@ image {
   height: auto;
   border-radius: 8px;
 }
-  .fig {
-        text-align: justify;
-  }
-  .fig .title,
-.fig figcaption .prefix-content::after {
+.fig {
+  text-align: justify;
+}
+.fig .title,
+.figcaption.title>.prefix-content::after {
   font-family: Adobe Clean;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 12px;
-    text-align: left;
-    color: color(--color-secondary);
-    margin-bottom: 8px;
+  font-size: var(--text-base);
+  font-weight: 400;
+  line-height: var(--text-4xs-lh);
+  text-align: left;
+  color: var(--color-secondary);
+  margin-bottom: 8px;
 }
 ul {
   list-style-type: none;
@@ -230,15 +232,19 @@ ul {
   margin-top: 50px;
 }
 ul li {
-  background: var(--color-bg-light, #E7E7E7);
+  background: #F2F2F2;
   border-radius: 5px;
   padding: 10px;
   transition: background-color 0.3s ease;
+  font-size: var(--text-sm);
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--color-accent);
 }
 ul li:not(.hazardstatement)::before {
   content: '•';
-  position: absolute;
-  left: -20px;
+  position: relative;
+  left: -28px;
   font-size: 1.5em;
   color: var(--color-accent, #821616);
 }
@@ -247,13 +253,13 @@ ul li:not(.hazardstatement)::before {
   content: none;
 }
 .ol_container {
-  background-color: var(--frontcover-text-color, #FFFFFF);
+  /* background-color: var(--frontcover-text-color, #FFFFFF); */
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0 0 8px rgba(2, 2, 2, 0.1);
+  /* box-shadow: 0 0 8px rgba(2, 2, 2, 0.1); */
   width: 400px;
-  margin: 30px;
-  padding: 30px;
+  margin: 0px;
+  padding: 0px;
 }
 ol {
   list-style: none;
@@ -265,6 +271,10 @@ ol li {
   counter-increment: list-counter;
   position: relative;
   padding-left: 50px;
+  font-size: var(--text-sm);
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--color-accent);
 }
 ol li::before {
   color: var(--color-accent, green);
@@ -288,15 +298,35 @@ ol li b {
   display: block;
   margin-bottom: 5px;
 }
-.codeblock {
+.codeblock.js {
   margin-bottom: 1rem;
   padding: 1rem;
   transition: all 0.3s ease;
-  font-size: var(--text-sm);
-  line-height: var(--text-sm-lh);
-  border: 2px solid var(--color-primary);
+  border: 1px solid var(--color-primary);
   background-color: var(--color-neutral-light);
-  color: var(--color-primary);
+  color: var(--color-secondary);
+  break-inside: avoid;
+  font-size: 16px;
+  line-height: 24px;
+}
+.codeblock.css {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  transition: all 0.3s ease;
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-neutral-light);
+  color: var(--color-accent);
+  break-inside: avoid;
+  font-size: var(--text-base);
+  line-height: 24px;
+}
+.codeblock.html {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  transition: all 0.3s ease;
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-neutral-light);
+  color: var(--color-dark);
   break-inside: avoid;
   font-size: 16px;
   line-height: 24px;
@@ -334,8 +364,10 @@ ol li b {
   margin-bottom: 20px;
 }
 .xref {
-  color: var(--color-link, #0f85ec);
-  text-decoration: underline;
+  color: #1E88E5;
+  undefined: undefined;
+  text-decoration: none;
+  font-weight: bold;
 }
 /* new css  */
 /* single line statement css*/
@@ -343,7 +375,7 @@ ol li b {
 .note.caution,
 .tip {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   gap: 8px;
   padding: 8px 0px;
@@ -352,10 +384,20 @@ ol li b {
   border-left: unset;
   background-color: unset;
   margin: 45px 20px;
+  font-size: var(--text-sm);
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--color-accent);
+}
+.restriction .prefix-content,
+.note.caution .prefix-content,
+.tip .prefix-content,
+.note.danger .prefix-content {
+  font-size: 16px;
 }
 .note.danger {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   gap: 8px;
   padding: 8px 0px;
@@ -364,21 +406,28 @@ ol li b {
   border-left: unset;
   background-color: unset;
   margin: 20px;
+  font-size: var(--text-sm);
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--color-accent);
 }
 .note.danger .prefix-content,
 .restriction .prefix-content,
 .note.caution .prefix-content,
 .tip .prefix-content {
   font-weight: bold;
-  display: flex;
+  display: inline-flex;
   gap: 8px;
-  align-items: center;
   justify-content: flex-start;
+  position: relative;
+  top: 0px;
+  margin-right: 8px;
+  align-items: flex-start;
 }
 .restriction .prefix-content::before {
   content: "";
-  background-image: url(../../../aemguidesDALP/hi-tech/images/common/danger.png);
-  background-size: 10px 10px;
+  background-image: url(../../../aemguidesDALP/hi-tech/images/common/restriction.png);
+  background-size: 15px 15px;
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -390,7 +439,7 @@ ol li b {
 .note.caution .prefix-content::before {
   content: "";
   background-image: url(../../../aemguidesDALP/hi-tech/images/common/caution.png);
-  background-size: 10px 10px;
+  background-size: 15px 15px;
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -402,7 +451,7 @@ ol li b {
 .tip .prefix-content::before {
   content: "";
   background-image: url(../../../aemguidesDALP/hi-tech/images/common/tip.png);
-  background-size: 10px 10px;
+  background-size: 15px 15px;
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -418,18 +467,22 @@ ol li b {
   background-color: #FFFFFF;
   border: none;
   margin: 20px;
+  width: 95.7%;
 }
-.restriction.note.hazardstatement{
-      display: block;
-    border: none;
-    background: none;
+.restriction.note.hazardstatement {
+  display: block;
+  border: none;
+  background: none;
 }
 .danger.note.hazardstatement,
 .caution.note.hazardstatement {
   display: inline-table;
   border: unset;
+    width: 95.7%;
 }
-.hazardstatement .prefix-content {
+.hazardstatement .prefix-content,
+.danger.note.hazardstatement .prefix-content,
+.caution.note.hazardstatement .prefix-content {
   background: none;
   display: flex;
   align-items: center;
@@ -442,7 +495,7 @@ ol li b {
 .danger .prefix-content::before {
   content: "";
   background-image: url(../../../aemguidesDALP/hi-tech/images/common/danger.png);
-  background-size: 10px 10px;
+  background-size: 15px 15px;
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -453,8 +506,8 @@ ol li b {
 }
 .warning .prefix-content::before {
   content: "";
-  background-image: url(../../../aemguidesDALP/hi-tech/images/common/danger.png);
-  background-size: 10px 10px;
+  background-image: url(../../../aemguidesDALP/hi-tech/images/common/restriction.png);
+  background-size: 15px 15px;
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -466,7 +519,7 @@ ol li b {
 .caution .prefix-content::before {
   content: "";
   background-image: url(../../../aemguidesDALP/hi-tech/images/common/caution-img.png);
-  background-size: 10px 10px;
+  background-size: 15px 15px;
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -477,8 +530,8 @@ ol li b {
 }
 .notice .prefix-content::before {
   content: "";
-  background-image: url(../../../aemguidesDALP/hi-tech/images/common/danger.png);
-  background-size: 10px 10px;
+  background-image: url(../../../aemguidesDALP/hi-tech/images/common/notice.png);
+  background-size: 15px 15px;
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -486,6 +539,9 @@ ol li b {
   background-color: #B8E7CA;
   border-radius: 60px;
   background-position: center;
+}
+.hazardstatement {
+  font-size: 16px;
 }
 .hazardstatement .messagepanel {
   list-style-type: disc;
@@ -496,10 +552,82 @@ ol li b {
   background: white;
   padding: 0px;
   font-family: Inter;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 9px;
-  line-height: 12px;
   letter-spacing: 0px;
-  color: #0C1256;
+  font-size: var(--text-sm);
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--color-accent);
+}
+/* extra dita element css  */
+/* Style for <overline> */
+.overline {
+  text-decoration: overline;
+  color: #D32F2F;
+  /* Dark red color */
+  font-weight: bold;
+  text-decoration: overline;
+}
+/* Style for <line-through> */
+.line-through {
+  text-decoration: line-through;
+  color: #757575;
+  /* Gray color for strike-through text */
+  font-style: italic;
+}
+/* Style for <xref> links */
+.xref:hover {
+  text-decoration: underline;
+}
+/* Style for <u> (underline) */
+.u {
+  text-decoration: underline;
+  color: #388E3C;
+  /* Green color for underline */
+  font-weight: bold;
+}
+/* Style for <i> (italic) */
+.i {
+  font-style: italic;
+  color: #0288D1;
+  /* Blue color for italic text */
+  font-size: 1.1em;
+}
+/* Style for <b> (bold) */
+.b {
+  font-weight: bold;
+  color: var(--color-accent);
+  /* Orange color for bold text */
+}
+/* Style for <tt> (monospace) */
+.tt {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #ECEFF1;
+  /* Light gray background */
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+/* Style for <sup> (superscript) */
+.sup {
+  font-size: 0.8em;
+  vertical-align: super;
+  color: #F44336;
+  /* Red color for superscript */
+}
+/* Style for <sub> (subscript) */
+.sub {
+  font-size: 0.8em;
+  vertical-align: sub;
+  color: #2196F3;
+  /* Blue color for subscript */
+}
+/* General paragraph styles */
+.p {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+/* Optional hover effect for links */
+a:hover {
+  color: #D32F2F;
+  /* Change color on hover */
 }

@@ -1,7 +1,9 @@
 .cite,
 cite,
 term,
-.term {
+.term,
+i,
+.i {
   color: var(--color-primary);
   font-style: italic;
   font-size: var(--text-base);
@@ -9,10 +11,10 @@ term,
 q,
 .q {
   font-style: italic;
-  font-size: var(--text-xl);
+  font-size: var(--text-base);
   border-left: 5px solid var(--color-accent);
   margin: 20px 0;
-  padding-left: 20px;
+  padding-left: 35px;
   color: var(--color-primary);
   background-color: var(--color-neutral-light);
   line-height: 1.6;
@@ -23,20 +25,21 @@ q,
 q::before,
 .q::before {
   content: "“";
-  font-size: 3em;
+  font-size: 2em;
   color: var(--color-accent);
   position: absolute;
-  top: -21px;
-  left: -10px;
+  top: -9px;
+  left: 7px;
 }
 q::after,
 .q::after {
   content: "”";
-  font-size: 3em;
+  font-size: 2em;
   color: var(--color-accent);
   position: absolute;
-  bottom: -51px;
+  bottom: -21px;
   right: unset;
+  margin-left: 5px;
 }
 /* Style for the entire definition list */
 .dl {
@@ -228,7 +231,7 @@ image {
   border-radius: 8px;
   /* Ensures the image scales beautifully */
 }
-.note.danger {
+/* .note.danger {
   background-color: var(--color-danger-light, #fff0f0);
   border-bottom: 1px solid var(--color-danger-dark, #ffd7d6);
   border-top: 1px solid var(--color-danger-dark, #ffd7d6);
@@ -247,7 +250,7 @@ image {
   background-color: var(--color-restriction-light, #EEEEEE);
   border-bottom: 1px solid var(--color-restriction-dark, #ddd);
   border-top: 1px solid var(--color-restriction-dark, #ddd);
-}
+} */
 /* .note.warning {
   --color-warning-light: #ffeddf;
   --color-warning-dark: #ffb47b;
@@ -256,7 +259,7 @@ image {
   --color-notice-light: #f6f9fc;
   --color-notice-dark: #e4edf6;
 } */
-.note.tip:not(.hazardstatement)::after {
+/* .note.tip:not(.hazardstatement)::after {
   background-image: url('../../../aemguidesDALP/automotives/images/common/tip.png');
 }
 .note.caution ::before {
@@ -278,12 +281,12 @@ image {
 }
 .prefix-content {
   font-weight: bold;
-}
-.note {
+} */
+/* .note {
   padding: 12px;
-  font-size: 9px;
+  font-size: 16px;
   line-height: 12px;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--color-primary);
   border-left: 0px;
   position: relative;
@@ -302,11 +305,11 @@ image {
   left: 10px;
   top: 50%;
   transform: translateY(-50%);
-}
+} */
 /*hazard  */
-.hazardstatement.note {
+/* .hazardstatement.note {
   position: relative;
-  /* width: 647px; */
+  width: 647px;
   width: 75%;
   margin: 50px 0px 50px 0px !important;
   display: flex;
@@ -315,15 +318,15 @@ image {
   align-items: center;
   gap: 30px;
   flex-direction: row-reverse;
-  border: 1px solid var(--color-grey, #D8D8D8) !important;
+  border: unset;
   background: var(--frontcover-text-color, #FFFFFF) !important;
-}
-.hazardstatement .prefix-content {
-  /* background-color: #821616;
-    color: #FFFFFF; */
-  /* width: 630px; */
+} */
+/* .hazardstatement .prefix-content {
+  background-color: #821616;
+    color: #FFFFFF;
+  width: 630px;
   display: block;
-  width: 97.3%;
+  width: 97%;
   height: unset;
   border-radius: 4px 4px 0px 0px;
   padding: 10px;
@@ -331,9 +334,9 @@ image {
   position: absolute;
   background-image: none;
   left: 0px;
-  font-size: 14px;
-}
-.hazardstatement.danger .prefix-content {
+  font-size: var(--text-base);
+} */
+/* .hazardstatement.danger .prefix-content {
   background-color: var(--color-accent, #821616);
   color: var(--frontcover-text-color, #FFFFFF);
   ;
@@ -351,8 +354,8 @@ image {
   background-color: var(--color-caution-dark, #f5c823);
   color: var(--color-secondary, #0D0D0D);
   ;
-}
-.note.hazardstatement ul li {
+} */
+/* .note.hazardstatement ul li {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 400;
@@ -380,24 +383,27 @@ image {
   position: absolute;
   top: 24%;
   border-radius: unset;
-}
+} */
 /* .hazardsymbol {
     background-image: url('../../../aemguidesDALP/automotives/images/common/danger-icon.png');
     background-repeat: no-repeat;
     background-position: center;
   } */
-.hazardsymbol.image {
+/* .hazardsymbol.image {
   border-radius: unset;
-}
+} */
 /* Styling for unordered lists */
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-inline-start: 40px;
 }
 ul li {
   background: var(--color-grey-lighter, #E7E7E7);
   border-radius: 5px;
   padding: 10px;
   transition: background-color 0.3s ease;
+  position: relative;
 }
 /* ul li:hover {
               background-color: #D3D3D3;
@@ -415,16 +421,16 @@ ul li:not(.hazardstatement)::before {
   content: none;
 }
 /* ol */
-.ol_container {
+/* .ol_container {
   background-color: var(--frontcover-text-color, #FFFFFF);
   padding: 30px;
   border-radius: 8px;
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 8px rgba(2, 2, 2, 0.1);
   width: 400px;
   margin: 30px;
   padding: 30px;
-}
+} */
 ol {
   list-style: none;
   padding: 0;
@@ -434,26 +440,33 @@ ol li {
   margin-bottom: 20px;
   counter-increment: list-counter;
   position: relative;
-  padding-left: 50px;
-  ;
+  padding-left: 40px;
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
+  font-weight: 400;
+  font-weight: 400;
+  font-family: var(--font-fam-secondary);
+  color: var(--color-primary);
 }
 ol li::before {
-  color: var(--color-accent, green);
+  color: var(--frontcover-text-color, #FFFFFF);
+  background: var(--color-accent, green);
   border-color: var(--color-accent, green);
   content: counter(list-counter);
   position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
   border: 2px solid var(--color-accent, green);
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 9px;
+  line-height: 14px;
 }
 ol li b {
   display: block;
@@ -488,7 +501,7 @@ ol li b {
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   max-width: 600px;
-  margin-left: 20px;
+  margin-left: unset;
 }
 .footnote-text {
   margin: 0;
@@ -523,4 +536,285 @@ ol li b {
 ul,
 ol {
   list-style-type: none !important;
+}
+/*  ***** */
+b,
+.b {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-base);
+  font-weight: 500;
+  line-height: var(--text-base-lh);
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-primary);
+}
+example,
+.example {
+  display: block;
+  background-color: var(--color-tip-light);
+  border: 2px solid var(--color-link);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+example title {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: var(--color-link);
+  margin-bottom: 10px;
+}
+example codeblock {
+  display: block;
+  background-color: var(--color-primary);
+  color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1em;
+  white-space: pre-wrap;
+}
+/* .hazardstatement.danger{
+  background-color: #FFFFFF;
+  border: none;
+  margin: 20px;
+}
+.danger .prefix-content::before {
+  content: "";
+  background-image: url(../../../aemguidesDALP/automotives/images/common/danger.png);
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  display: block;
+  background-color: #B8E7CA;
+  border-radius: 60px;
+  background-position: center;
+}
+.danger.note.hazardstatement {
+  display: inline-table;
+  border: unset;
+} */
+.restriction,
+.note.caution,
+.tip {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 8px 0px;
+  border-top: 0.5px solid #D8D8D8;
+  border-bottom: 0.5px solid #D8D8D8;
+  border-left: unset;
+  background-color: unset;
+  margin: 45px 20px;
+}
+.note.danger {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 8px 0px;
+  border-top: 0.5px solid #D8D8D8;
+  border-bottom: 0.5px solid #D8D8D8;
+  border-left: unset;
+  background-color: unset;
+  margin: 20px;
+}
+.note.danger .prefix-content,
+.restriction .prefix-content,
+.note.caution .prefix-content,
+.tip .prefix-content {
+  font-weight: bold;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.restriction .prefix-content::before {
+  content: "";
+  background-image: url(../../../aemguidesDALP/automotives/images/common/danger.png);
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  display: block;
+  background-color: var(--color-danger-light);
+  border-radius: 60px;
+  background-position: center;
+}
+.note.caution .prefix-content::before {
+  content: "";
+  background-image: url(../../../aemguidesDALP/automotives/images/common/caution.png);
+  background-size: 13px 13px;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-color: var(--color-danger-light);
+  border-radius: 10px;
+  background-position: center;
+}
+.tip .prefix-content::before {
+  content: "";
+  background-image: url(../../../aemguidesDALP/automotives/images/common/tip.png);
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  display: block;
+  background-color: var(--color-danger-light);
+  border-radius: 60px;
+  background-position: center;
+}
+/* long message hazardement statement css */
+.hazardstatement.warning,
+.hazardstatement.danger,
+.hazardstatement.notice {
+  background-color: #FFFFFF;
+  border: none;
+  margin: 20px;
+}
+.restriction.note.hazardstatement {
+  display: block;
+  border: none;
+  background: none;
+}
+.danger.note.hazardstatement,
+.caution.note.hazardstatement {
+  display: block;
+  border: unset;
+}
+.hazardstatement .prefix-content {
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 8px 0px 8px 0px;
+  border-top: 0.5px solid #D8D8D8;
+  border-bottom: 0.5px solid #D8D8D8;
+}
+.danger .prefix-content::before {
+  content: "";
+  background-image: url(../../../aemguidesDALP/automotives/images/common/danger.png);
+  background-size: 13px 13px;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-color: var(--color-danger-light);
+  border-radius: 10px;
+  background-position: center;
+}
+.warning .prefix-content::before {
+  content: "";
+  background-image: url(../../../aemguidesDALP/automotives/images/common/danger.png);
+  background-size: 13px 13px;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-color: var(--color-danger-light);
+  border-radius: 10px;
+  background-position: center;
+}
+.caution .prefix-content::before {
+  content: "";
+  background-image: url(../../../aemguidesDALP/automotives/images/common/caution-img.png);
+  background-size: 13px 13px;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-color: var(--color-danger-light);
+  border-radius: 10px;
+  background-position: center;
+}
+.notice .prefix-content::before {
+  content: "";
+  background-image: url(../../../aemguidesDALP/automotives/images/common/danger.png);
+  background-size: 13px 13px;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-color: var(--color-danger-light);
+  border-radius: 10px;
+  background-position: center;
+}
+.hazardstatement .messagepanel {
+  list-style-type: disc;
+  margin-top: 16px;
+  padding-inline-start: 38px;
+}
+.hazardstatement .ul .li {
+  background: white;
+  padding: 0px;
+  font-family: var(--font-fam-secondary);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 9px;
+  line-height: 12px;
+  letter-spacing: 0px;
+  color: var(--color-lighter-grey);
+  list-style: disc;
+  margin-bottom: unset;
+}
+.hazardstatement .ul .li.tcx-empty-element {
+  list-style: none;
+}
+ol.steps::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 25px;
+    width: 2px;
+    height: 100%;
+    background-color: var(--color-bg-light, #e0e0e0);
+    z-index: 1;
+}
+ol.steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    max-width: 600px;
+    margin: 30px auto;
+    font-family: 'Helvetica N eue', sans-serif;
+    counter-reset: step-counter;
+}
+li.step{
+  font-size: var(--text-lg);
+    line-height: var(--text-lg-lh);
+    font-weight: 400;
+    font-family: var(--font-fam-secondary);
+    color: var(--color-primary);
+}
+li.step::before {
+    content: counter(step-counter);
+    counter-increment: step-counter;
+    position: absolute;
+    left: 8px;
+    top: 16px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-lighter-bg, #ccc);
+    color: var(--color-primary);
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    text-align: center;
+    line-height: 24px;
+    z-index: 2;
+}
+.step div.itemgroup.info{
+  background-color: unset;
+    padding: 0px;
+    border-left: unset;
+    font-size: 14px;
+    margin-top: 0px;
 }
