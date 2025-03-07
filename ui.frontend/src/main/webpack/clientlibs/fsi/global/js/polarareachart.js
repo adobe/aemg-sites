@@ -29,7 +29,7 @@ window.addEventListener('DOMContentLoaded', function () {
 function renderChart(ctx, tableObj) {
   // Create the chart
   var myChart = new Chart(ctx, {
-    type: 'polarArea',
+    type: 'doughnut',
     data: {
       labels: tableObj.col1,
       datasets: [{
@@ -49,6 +49,8 @@ function renderChart(ctx, tableObj) {
       plugins: {
         legend: {
           display: true,
+          position: "left",
+          align: "start",
           labels: {
             font: {
               size: 14,
