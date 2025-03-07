@@ -255,8 +255,74 @@ body {
   }
 }
 
+.cmp-guidesnavigation__group {
+  .cmp-guidesnavigation__item--inactive.cmp-guidesnavigation__item.cmp-guidesnavigation__item-level-0.cmp-guidesnavigation__item-has-children {
+    .cmp-guidesnavigation__group.show-children {
+      .cmp-guidesnavigation__item--inactive.cmp-guidesnavigation__item.cmp-guidesnavigation__item-level-1.cmp-guidesnavigation__item-no-children>.toc-list-item {
+        .item-child-toggle.hide-children {
+          align-self: flex-start;
+          margin-top: 2px;
+        }
+      }
+    }
+  }
+}
+
+.cmp-guidesnavigation__group {
+  .cmp-guidesnavigation__item--inactive.cmp-guidesnavigation__item.cmp-guidesnavigation__item-level-0.cmp-guidesnavigation__item-has-children {
+    .cmp-guidesnavigation__group.show-children {
+      .cmp-guidesnavigation__item--inactive.cmp-guidesnavigation__item.cmp-guidesnavigation__item-level-1.cmp-guidesnavigation__item-no-children>.toc-list-item {
+        .item-child-toggle.show-children {
+          align-self: flex-start;
+          margin-top: 2px;
+        }
+      }
+    }
+  }
+}
+
+.cmp-guidesnavigation__group {
+  .cmp-guidesnavigation__item--active.cmp-guidesnavigation__item.cmp-guidesnavigation__item-level-0.cmp-guidesnavigation__item-has-children {
+    .cmp-guidesnavigation__group.show-children {
+      .cmp-guidesnavigation__item--inactive.cmp-guidesnavigation__item.cmp-guidesnavigation__item-level-1.cmp-guidesnavigation__item-no-children>.toc-list-item {
+        .item-child-toggle.hide-children {
+          align-self: flex-start;
+          margin-top: 2px;
+        }
+      }
+    }
+  }
+}
+
+.cmp-guidesnavigation__group {
+  .cmp-guidesnavigation__item--active.cmp-guidesnavigation__item.cmp-guidesnavigation__item-level-0.cmp-guidesnavigation__item-has-children {
+    .cmp-guidesnavigation__group.show-children {
+      .cmp-guidesnavigation__item--inactive.cmp-guidesnavigation__item.cmp-guidesnavigation__item-level-1.cmp-guidesnavigation__item-no-children>.toc-list-item {
+        .item-child-toggle.show-children {
+          align-self: flex-start;
+          margin-top: 2px;
+        }
+      }
+    }
+  }
+}
+
 .cmp-guidesnavigation__item.cmp-guidesnavigation__item-no-children {
   a {
     padding-left: unset;
+  }
+}
+
+.dark .feedback-container .feedback-buttons .feedback-button {
+  background-color: var(--color-on-accent);
+}
+
+.dark .feedback-container .feedback-buttons .feedback-button:hover {
+  background-color: var(--color-content-bg2);
+}
+
+@media (min-width: 768px) {
+  .dark .minitoc-level.selected::before {
+      background: var(--color-accent);
   }
 }
