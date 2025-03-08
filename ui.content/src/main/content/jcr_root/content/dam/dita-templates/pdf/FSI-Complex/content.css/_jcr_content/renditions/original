@@ -278,10 +278,10 @@ video {
   background: #FFEBE7 0% 0% no-repeat padding-box;
   border: 1px solid #EA3829;
 }
-.hazardstatement.warning {
+/* .hazardstatement.warning {
   background-color: #ffeddf;
   border: 1px solid #ffb47b;
-}
+} */
 /**** Character Styles ****/
 .apiname {
   font-style: italic;
