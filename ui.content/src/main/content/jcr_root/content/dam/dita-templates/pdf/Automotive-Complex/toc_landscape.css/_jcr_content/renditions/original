@@ -25,6 +25,7 @@
   color: var(--color-primary);
   line-height: var(--text-lg-lh);
   margin-bottom: 8px;
+  font-family: var(--font-fam-primary);
 }
 #toc_firstpage_header_titlealts {
   font-size: var(--text-xs);
@@ -33,6 +34,7 @@
   line-height: var(--text-xs-lh);
   margin-bottom: 35px;
   padding-bottom: 35px;
+  font-family: var(--font-fam-secondary);
 }
 #toc_firstpage_header_mainbooktitle {
   font-size: var(--text-xs);
@@ -148,6 +150,8 @@
   /* border-top: 1px solid var(--color-tertiary); */
   padding-top: 15px;
   margin-bottom: 8px;
+  font-family: var(--font-fam-secondary);
+  text-transform: uppercase;
 }
 #landscape_complex .toc-level-2 {
   color: var(--color-tertiary);
@@ -157,6 +161,7 @@
   text-align: left;
   text-decoration-skip-ink: none;
   margin-bottom: 8px;
+  font-family: var(--font-fam-secondary);
 }
 #landscape_complex .toc-level-3 {
   color: var(--color-tertiary);
@@ -166,12 +171,14 @@
   text-align: left;
   text-decoration-skip-ink: none;
   margin-bottom: 8px;
+  font-family: var(--font-fam-secondary);
 }
 #landscape_complex .pdf-toc-level-1:after {
   content: " ";
 }
 #landscape_complex .pdf-toc-level-2:after {
   color: var(--color-accent);
+  font-weight: 500;
 }
 #landscape_complex .toc-level-1:first-child {
   border-top: unset;
