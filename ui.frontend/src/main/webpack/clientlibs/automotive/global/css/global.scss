@@ -362,3 +362,7 @@ body {
       background: var(--color-accent);
   }
 }
+
+.sharePopup-container .popup.show {
+  z-index: 1;
+}
