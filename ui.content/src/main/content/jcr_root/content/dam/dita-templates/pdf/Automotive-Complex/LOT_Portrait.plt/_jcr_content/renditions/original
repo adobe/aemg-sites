@@ -20,7 +20,7 @@
   <div class="lot_footer" data-region="footer">
     <hr class="lot_footer_hr" />
     <div>
-      <div class="lot_footer_product-name">Smith, J. A. (2020). The future of automotive technology: Innovations and trends. Tech Publishers.</div>
+      <div class="lot_footer_product-name"><sup class="footnote-number ph sup" data-attr-outputclass="footnote-number">1</sup> Smith, J. A. (2020). The future of automotive technology: Innovations and trends. Tech Publishers.</div>
       <a class="lof_footer_urls">www.carmanualsite.com/vehicle-overview</a><br />
       <a class="lot_footer_urls"> www.carmanualsite.com/dashboard-controls</a>
     </div>
