@@ -1,6 +1,0 @@
-// Configuration created by Apache Sling JCR Installer
-{
-  "user.mapping":[
-    "aemguidesDALP.core:subServiceName=guides-user"
-  ]
-}

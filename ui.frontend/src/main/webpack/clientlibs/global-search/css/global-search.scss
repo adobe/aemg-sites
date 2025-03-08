@@ -28,10 +28,11 @@
     }
     
     .searchresult  {
-        display: flex;
+        // display: flex;
         flex-direction: row-reverse;
         margin-top: 1rem;
         .search__field--results{
+            display: none;
             .cmp-sort__heading{
                 display: flex;
                 flex-direction: row;
@@ -104,6 +105,9 @@
                   }
                 }
             }
+        }
+        .search__results--footer{
+            display: none;
         }
         @media screen and (max-width: 768px) {
             flex-direction: column; 
