@@ -23,7 +23,8 @@
 	<sly data-sly-test="${search.sortEnabled}" data-sly-call="${sortTemplate.sort @ search=search}"></sly>
 </section>
 
-<section data-cmp-results-size="${search.resultsSize}"
+<section data-cmp-rootPath="${properties.searchRoot}" 
+data-cmp-results-size="${search.resultsSize}"
 	data-cmp-relative-path="${search.relativePath}"
 	class="search__field--view" id="js-display-diff-view">
 	<div class = "search-result-header">
