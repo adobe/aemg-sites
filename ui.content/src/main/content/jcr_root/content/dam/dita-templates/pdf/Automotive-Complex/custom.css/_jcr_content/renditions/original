@@ -18,7 +18,7 @@ q,
   color: var(--color-primary);
   background-color: var(--color-neutral-light);
   line-height: 1.6;
-  font-family: var(--font-fam-primary);
+  font-family: var(--font-fam-secondary);
   position: relative;
   width: 95%;
 }
@@ -54,27 +54,27 @@ q::after,
 /* Header style */
 .dlhead {
   font-family: var(--font-fam-secondary);
- margin-bottom: 1rem;
-    padding: 1rem;
-    transition: all 0.3sease;
-    font-size: var(--text-sm);
-    line-height: var(--text-sm-lh);
-    border-left: 3px solid var(--color-accent);
-    background-color: var(--color-neutral-light);
-    color: var(--color-primary);
-    break-inside: avoid;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  transition: all 0.3sease;
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
+  border-left: 3px solid var(--color-accent);
+  background-color: var(--color-neutral-light);
+  color: var(--color-primary);
+  break-inside: avoid;
 }
 .dthd {
-   font-family: var(--font-fam-secondary);
+  font-family: var(--font-fam-secondary);
   font-weight: bold;
-    color: var(--color-dark-grey, #2c3e50);
-    margin-bottom: 0.5rem;
+  color: var(--color-dark-grey, #2c3e50);
+  margin-bottom: 0.5rem;
 }
-.ddhd{
+.ddhd {
   line-height: 1.5;
-    margin-left: 1rem;
-     font-family: var(--font-fam-secondary);
-    color: var(--color-secondary);
+  margin-left: 1rem;
+  font-family: var(--font-fam-secondary);
+  color: var(--color-secondary);
 }
 /* Entry block styles */
 .dlentry {
@@ -154,8 +154,9 @@ li.step::before {
   transform: translateY(-50%);
   width: 30px;
   height: 30px;
-  background-color: var(--color-lighter-bg, #ccc);
-  color: var(--color-primary);
+  background: var(--color-accent, green);
+  border-color: var(--color-accent, green);
+  color: var(--color-white) ;
   font-weight: bold;
   font-size: 16px;
   border-radius: 50%;
@@ -490,7 +491,7 @@ ol li b {
   display: block;
   margin-bottom: 5px;
 }
-.codeblock {
+/* .codeblock {
   margin-bottom: 1rem;
   padding: 1rem;
   transition: all 0.3s ease;
@@ -500,7 +501,7 @@ ol li b {
   background-color: var(--color-neutral-light);
   color: var(--color-primary);
   break-inside: avoid;
-}
+} */
 .footnote-ref {
   font-size: 0.8em;
   color: var(--color-accent, #007bff);
@@ -510,7 +511,7 @@ ol li b {
 .footnote-ref:hover {
   color: var(--color-accent, #0056b3);
 }
-.footnote {
+/* .footnote {
   font-size: 0.9em;
   margin-top: 1em;
   background-color: var(--color-footnote-light, #f8f9fa);
@@ -520,7 +521,7 @@ ol li b {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   max-width: 600px;
   margin-left: unset;
-}
+} */
 .footnote-text {
   margin: 0;
   font-style: italic;
@@ -626,7 +627,7 @@ example codeblock {
   border-bottom: 0.5px solid #D8D8D8;
   border-left: unset;
   background-color: unset;
-  margin: 45px 20px;
+  margin: 45px 0px;
 }
 .note.danger {
   display: flex;
@@ -638,7 +639,7 @@ example codeblock {
   border-bottom: 0.5px solid #D8D8D8;
   border-left: unset;
   background-color: unset;
-  margin: 20px;
+  margin: 20px 0px;
 }
 .note.danger .prefix-content,
 .restriction .prefix-content,
@@ -692,7 +693,7 @@ example codeblock {
 .hazardstatement.notice {
   background-color: #FFFFFF;
   border: none;
-  margin: 20px;
+  margin: 20px 0px;
 }
 .restriction.note.hazardstatement {
   display: block;
@@ -729,7 +730,7 @@ example codeblock {
 .note.danger.hazardstatement .prefix-content::before {
   border-radius: 10px;
 }
-.notice.hazardstatement  .prefix-content::before{
+.notice.hazardstatement .prefix-content::before {
   border-radius: 10px;
 }
 .warning.hazardstatement .prefix-content::before {
@@ -779,7 +780,7 @@ example codeblock {
   font-family: var(--font-fam-secondary);
   font-weight: 400;
   font-style: normal;
-  font-size: 9px;
+  font-size: 12px;
   line-height: 12px;
   letter-spacing: 0px;
   color: var(--color-lighter-grey);
