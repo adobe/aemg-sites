@@ -1,0 +1,9 @@
+.big-cursor-active {
+  cursor: url(/content/dam/aemguidesDALP/common/bugcursor.svg), auto !important;
+
+  a, button {
+    cursor: url(https://upload.wikimedia.org/wikipedia/commons/3/39/Pointing_hand_cursor_vector.svg), pointer !important;
+  }
+
+  // cursor: url(https://cdn.userway.org/widgetapp/images/arrow_w.svg), auto !important;
+}
