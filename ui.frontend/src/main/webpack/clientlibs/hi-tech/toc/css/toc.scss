@@ -32,6 +32,9 @@
         margin-bottom: unset;
         padding-bottom: unset;
     }
+    .item-child-toggle {
+        cursor: pointer;
+    }
 
     .cmp-guidesnavigation__item-level {
 
@@ -116,7 +119,12 @@
         left: -20px;
         width: 2px;
         background-color: var(--color-primary);
-        height: 14px;
+        height: 16px;
+    }
+    .cmp-nav-item-selected.cmp-guidesnavigation__item-level-0.cmp-guidesnavigation__item-no-children::before{
+        // left: 10px;
+        // top: 0px;
+        display: none;
     }
 
     .cmp-nav-item-selected.cmp-guidesnavigation__item--active span {
