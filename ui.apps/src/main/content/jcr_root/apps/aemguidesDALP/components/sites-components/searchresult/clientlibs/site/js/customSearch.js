@@ -5,14 +5,12 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
 async function fetchSearchData() {
-  debugger;
-
   const API_ENDPOINT = "/content/aemguidesDALP/us/api/search-api.json";
   const ROOT_PATH = document.querySelector("[data-cmp-rootpath]").dataset.cmpRootpath;
   const KEYWORD = getKeywordFromUrl();
 
   // Construct the full URL using the variables
-  const url = `http://localhost:4504${API_ENDPOINT}?pagePath=${ROOT_PATH}&keyword=${KEYWORD}`;
+  const url = `${API_ENDPOINT}?pagePath=${ROOT_PATH}&keyword=${KEYWORD}`;
 
   try {
     const response = await fetch(url, {
