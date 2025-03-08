@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", function () {
-  const toggleButton = document.getElementById("letter-spacing-btn");
+  const toggleButton = document.getElementById("line-height-btn");
 
   function toggleLineHeight() {
     document.body.classList.toggle("accessibility-line-height");    
