@@ -1,3 +1,6 @@
+body {
+  font-family: var(--font-fam-secondary);
+}
 .cite,
 cite,
 term,
@@ -18,7 +21,7 @@ q,
   color: var(--color-primary);
   background-color: var(--color-neutral-light);
   line-height: 1.6;
-  font-family: var(--font-fam-primary);
+  font-family: var(--font-fam-secondary);
   position: relative;
   width: 95%;
 }
@@ -43,7 +46,7 @@ q::after,
 }
 /* Style for the entire definition list */
 .dl {
-  width: 60%;
+  width: unset;
   margin-block: 2rem;
   padding: 1rem 0;
   font-size: var(--text-sm);
@@ -53,15 +56,29 @@ q::after,
 }
 /* Header style */
 .dlhead {
-  font-family: var(--font-fam-primary);
-  color: var(--frontcover-text-color);
+  font-family: var(--font-fam-secondary);
   margin-bottom: 1rem;
-  font-weight: 400;
-  font-size: var(--text-base);
-  line-height: var(--text-base-lh);
+  padding: 1rem;
+  transition: all 0.3sease;
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
+  border-left: 3px solid var(--color-accent);
+  background-color: var(--color-neutral-light);
   color: var(--color-primary);
+  break-inside: avoid;
 }
-.dthd {}
+.dthd {
+  font-family: var(--font-fam-secondary);
+  font-weight: bold;
+  color: var(--color-dark-grey, #2c3e50);
+  margin-bottom: 0.5rem;
+}
+.ddhd {
+  line-height: 1.5;
+  margin-left: 1rem;
+  font-family: var(--font-fam-secondary);
+  color: var(--color-secondary);
+}
 /* Entry block styles */
 .dlentry {
   margin-bottom: 1rem;
@@ -69,7 +86,7 @@ q::after,
   transition: all 0.3s ease;
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
-  border-left: 3px solid var(--color-primary);
+  border-left: 3px solid var(--color-accent);
   background-color: var(--color-neutral-light);
   color: var(--color-primary);
   break-inside: avoid;
@@ -92,17 +109,17 @@ q::after,
 }
 /* Container for steps */
 ol.steps {
+  /* Limit the width */
+  /* Center it */
+  /* Initialize the counter */
   list-style: none;
   padding: 0;
   margin: 0;
   position: relative;
   max-width: 600px;
-  /* Limit the width */
   margin: 30px auto;
-  /* Center it */
-  font-family: 'Helvetica N	eue', sans-serif;
+  font-family: 'Helvetica N eue', sans-serif;
   counter-reset: step-counter;
-  /* Initialize the counter */
 }
 /* Each step */
 li.step {
@@ -111,16 +128,20 @@ li.step {
   /* Space for the vertical line and step icon */
   margin-bottom: 40px;
   /* Vertical spacing between steps */
-  font-size: 18px;
   transition: transform 0.3s ease;
+  font-size: var(--text-lg);
+  line-height: var(--text-lg-lh);
+  font-weight: 400;
+  font-family: var(--font-fam-secondary);
+  color: var(--color-primary);
 }
 /* Vertical line connecting steps */
 ol.steps::before {
+  /* Position the line in the center */
   content: '';
   position: absolute;
   top: 0;
   left: 25px;
-  /* Position the line in the center */
   width: 2px;
   height: 100%;
   background-color: var(--color-bg-light, #e0e0e0);
@@ -131,20 +152,24 @@ li.step::before {
   content: counter(step-counter);
   counter-increment: step-counter;
   position: absolute;
-  left: 10px;
-  top: 50%;
+  left: 8px;
+  top: 16px;
   transform: translateY(-50%);
   width: 30px;
   height: 30px;
-  background-color: var(--color-lighter-bg, #ccc);
-  color: var(--color-primary);
+  background: var(--color-accent, green);
+  border-color: var(--color-accent, green);
+  color: var(--color-white);
   font-weight: bold;
   font-size: 16px;
   border-radius: 50%;
   border: 3px solid #fff;
   text-align: center;
-  line-height: 30px;
+  line-height: 24px;
   z-index: 2;
+  display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Active step */
 li.step.active::before {
@@ -399,7 +424,7 @@ ul {
   padding-inline-start: 40px;
 }
 ul li {
-  background: var(--color-grey-lighter, #E7E7E7);
+  background: unset;
   border-radius: 5px;
   padding: 10px;
   transition: background-color 0.3s ease;
@@ -472,7 +497,7 @@ ol li b {
   display: block;
   margin-bottom: 5px;
 }
-.codeblock {
+/* .codeblock {
   margin-bottom: 1rem;
   padding: 1rem;
   transition: all 0.3s ease;
@@ -482,7 +507,7 @@ ol li b {
   background-color: var(--color-neutral-light);
   color: var(--color-primary);
   break-inside: avoid;
-}
+} */
 .footnote-ref {
   font-size: 0.8em;
   color: var(--color-accent, #007bff);
@@ -492,7 +517,7 @@ ol li b {
 .footnote-ref:hover {
   color: var(--color-accent, #0056b3);
 }
-.footnote {
+/* .footnote {
   font-size: 0.9em;
   margin-top: 1em;
   background-color: var(--color-footnote-light, #f8f9fa);
@@ -502,7 +527,7 @@ ol li b {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   max-width: 600px;
   margin-left: unset;
-}
+} */
 .footnote-text {
   margin: 0;
   font-style: italic;
@@ -608,7 +633,9 @@ example codeblock {
   border-bottom: 0.5px solid #D8D8D8;
   border-left: unset;
   background-color: unset;
-  margin: 45px 20px;
+  margin: 45px 0px;
+  font-size: 12px;
+  font-family: var(--font-fam-secondary);
 }
 .note.danger {
   display: flex;
@@ -620,7 +647,9 @@ example codeblock {
   border-bottom: 0.5px solid #D8D8D8;
   border-left: unset;
   background-color: unset;
-  margin: 20px;
+  margin: 20px 0px;
+  font-size: 12px;
+  font-family: var(--font-fam-secondary);
 }
 .note.danger .prefix-content,
 .restriction .prefix-content,
@@ -631,11 +660,13 @@ example codeblock {
   gap: 8px;
   align-items: center;
   justify-content: flex-start;
+  font-size: 16px;
+  font-family: var(--font-fam-primary);
 }
-.restriction .prefix-content::before {
+.note.restriction .prefix-content::before {
   content: "";
   background-image: url(../../../aemguidesDALP/automotives/images/common/danger.png);
-  background-size: 10px 10px;
+  background-size: 17px 17px;
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -647,19 +678,19 @@ example codeblock {
 .note.caution .prefix-content::before {
   content: "";
   background-image: url(../../../aemguidesDALP/automotives/images/common/caution.png);
-  background-size: 13px 13px;
+  background-size: 17px 17px;
   background-repeat: no-repeat;
   width: 32px;
   height: 32px;
   display: block;
   background-color: var(--color-danger-light);
-  border-radius: 10px;
+  border-radius: 60px;
   background-position: center;
 }
-.tip .prefix-content::before {
+.note.tip .prefix-content::before {
   content: "";
   background-image: url(../../../aemguidesDALP/automotives/images/common/tip.png);
-  background-size: 10px 10px;
+  background-size: 13px 13px;
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -674,7 +705,7 @@ example codeblock {
 .hazardstatement.notice {
   background-color: #FFFFFF;
   border: none;
-  margin: 20px;
+  margin: 20px 0px;
 }
 .restriction.note.hazardstatement {
   display: block;
@@ -696,10 +727,28 @@ example codeblock {
   border-top: 0.5px solid #D8D8D8;
   border-bottom: 0.5px solid #D8D8D8;
 }
-.danger .prefix-content::before {
+.note.danger .prefix-content::before {
   content: "";
   background-image: url(../../../aemguidesDALP/automotives/images/common/danger.png);
-  background-size: 13px 13px;
+  background-size: 17px 17px;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-color: var(--color-danger-light);
+  border-radius: 60px;
+  background-position: center;
+}
+.note.danger.hazardstatement .prefix-content::before {
+  border-radius: 10px;
+}
+.notice.hazardstatement .prefix-content::before {
+  border-radius: 10px;
+}
+.warning.hazardstatement .prefix-content::before {
+  content: "";
+  background-image: url(../../../aemguidesDALP/automotives/images/common/restriction.png);
+  background-size: 17px 17px;
   background-repeat: no-repeat;
   width: 32px;
   height: 32px;
@@ -708,22 +757,10 @@ example codeblock {
   border-radius: 10px;
   background-position: center;
 }
-.warning .prefix-content::before {
+.caution.hazardstatement .prefix-content::before {
   content: "";
-  background-image: url(../../../aemguidesDALP/automotives/images/common/danger.png);
-  background-size: 13px 13px;
-  background-repeat: no-repeat;
-  width: 32px;
-  height: 32px;
-  display: block;
-  background-color: var(--color-danger-light);
-  border-radius: 10px;
-  background-position: center;
-}
-.caution .prefix-content::before {
-  content: "";
-  background-image: url(../../../aemguidesDALP/automotives/images/common/caution-img.png);
-  background-size: 13px 13px;
+  background-image: url(../../../aemguidesDALP/automotives/images/common/caution.png);
+  background-size: 17px 17px;
   background-repeat: no-repeat;
   width: 32px;
   height: 32px;
@@ -734,15 +771,15 @@ example codeblock {
 }
 .notice .prefix-content::before {
   content: "";
-  background-image: url(../../../aemguidesDALP/automotives/images/common/danger.png);
-  background-size: 13px 13px;
+  background-image: url(../../../aemguidesDALP/automotives/images/common/notice.png);
   background-repeat: no-repeat;
   width: 32px;
   height: 32px;
   display: block;
   background-color: var(--color-danger-light);
-  border-radius: 10px;
+  border-radius: 60%;
   background-position: center;
+  background-size: 17px 17px;
 }
 .hazardstatement .messagepanel {
   list-style-type: disc;
@@ -755,66 +792,20 @@ example codeblock {
   font-family: var(--font-fam-secondary);
   font-weight: 400;
   font-style: normal;
-  font-size: 9px;
+  font-size: 12px;
   line-height: 12px;
   letter-spacing: 0px;
-  color: var(--color-lighter-grey);
+  color: var(--color-tertiary);
   list-style: disc;
   margin-bottom: unset;
 }
 .hazardstatement .ul .li.tcx-empty-element {
   list-style: none;
 }
-ol.steps::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 25px;
-    width: 2px;
-    height: 100%;
-    background-color: var(--color-bg-light, #e0e0e0);
-    z-index: 1;
-}
-ol.steps {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    max-width: 600px;
-    margin: 30px auto;
-    font-family: 'Helvetica N eue', sans-serif;
-    counter-reset: step-counter;
-}
-li.step{
-  font-size: var(--text-lg);
-    line-height: var(--text-lg-lh);
-    font-weight: 400;
-    font-family: var(--font-fam-secondary);
-    color: var(--color-primary);
-}
-li.step::before {
-    content: counter(step-counter);
-    counter-increment: step-counter;
-    position: absolute;
-    left: 8px;
-    top: 16px;
-    transform: translateY(-50%);
-    width: 30px;
-    height: 30px;
-    background-color: var(--color-lighter-bg, #ccc);
-    color: var(--color-primary);
-    font-weight: bold;
-    font-size: 16px;
-    border-radius: 50%;
-    border: 3px solid #fff;
-    text-align: center;
-    line-height: 24px;
-    z-index: 2;
-}
-.step div.itemgroup.info{
+.step div.itemgroup.info {
   background-color: unset;
-    padding: 0px;
-    border-left: unset;
-    font-size: 14px;
-    margin-top: 0px;
+  padding: 0px;
+  border-left: unset;
+  font-size: 14px;
+  margin-top: 0px;
 }
