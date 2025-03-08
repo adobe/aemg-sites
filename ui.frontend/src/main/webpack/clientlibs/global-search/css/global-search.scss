@@ -109,6 +109,11 @@
         .search__results--footer{
             display: none;
         }
+        #js-searchResults-endData{
+            p{
+                color: var(--color-primary);
+            }
+        }
         @media screen and (max-width: 768px) {
             flex-direction: column; 
         }
