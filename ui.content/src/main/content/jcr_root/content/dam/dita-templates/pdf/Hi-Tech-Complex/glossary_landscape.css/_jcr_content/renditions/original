@@ -64,7 +64,7 @@
   font-size: 0.75rem;
   line-height: 1rem;
   font-weight: 700;
-  color: #000000;
+    color:  var(--color-accent);
 }
 .glo-definition {
   font-family: var(--font-fam-secondary);
@@ -72,6 +72,7 @@
   font-weight: 350;
   line-height: 14px;
   text-align: left;
+    color:  var(--color-accent);
 }
 glossterm {
   font-family: var(--font-fam-secondary);
