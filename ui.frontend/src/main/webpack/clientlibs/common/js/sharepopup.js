@@ -47,10 +47,12 @@ const viewBtn = document.querySelector(".share"),
 
 viewBtn.onclick = () => {
   popup.classList.toggle("show");
+  document.querySelector('.overlay-modal').classList.add('popup-overlay-active');
 }
 
 close.onclick = () => {
   viewBtn.click();
+  document.querySelector('.overlay-modal').classList.remove('popup-overlay-active');
 }
 
 copy.onclick = () => {
@@ -65,3 +67,10 @@ copy.onclick = () => {
     }, 3000);
   }
 }
+
+document.body.addEventListener('click', function(event) {
+  if (!popup.contains(event.target) && !viewBtn.contains(event.target)) {
+    popup.classList.remove("show");
+    document.querySelector('.overlay-modal').classList.remove('popup-overlay-active');
+  }
+});
