@@ -16,5 +16,6 @@
 
 #base=js
 
-searchresult.js
-sortstyle.js
+//searchresult.js
+//sortstyle.js
+customSearch.js
