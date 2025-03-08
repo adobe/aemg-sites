@@ -70,7 +70,7 @@ public class SearchBasedUtilServiceImpl implements SearchBasedUtilService {
                             String value= property.getValue().getString();
                             map.put(property.getName(), value);
                         }
-                        map.put("path",node.getPath());
+                        map.put("path", node.getParent().getPath());
                     }
                     lst.add(map);
                 }

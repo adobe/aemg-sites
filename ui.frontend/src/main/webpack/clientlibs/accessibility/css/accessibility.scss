@@ -542,16 +542,6 @@
   }
 }
 
-/* Default cursor style */
-:root {
-  cursor: url("/content/dam/aemguidesDALP/common/bigcursor.png"), auto;
-}
-
-/* Custom cursor style */
-.big-cursor-active {
-  cursor: url("/content/dam/aemguidesDALP/common/bigcursor.png"), auto;
-}
-
 .magnifier {
   position: absolute;
   background-color: rgba(0,0,0,.8);
