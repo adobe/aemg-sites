@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   //Onclick functionality for
-  document.querySelectorAll(".menu-option-container").forEach((singleBtn) => {
+ /*  document.querySelectorAll(".menu-option-container").forEach((singleBtn) => {
     singleBtn.addEventListener("click", () => {
       // console.log(singleBtn, "singlebutton");
       if (
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // console.log("no");
       }
     });
-  });
+  }); */
 
   // PDF Generation
   document.getElementById("generate-pdf-btn").addEventListener("click", () => {
