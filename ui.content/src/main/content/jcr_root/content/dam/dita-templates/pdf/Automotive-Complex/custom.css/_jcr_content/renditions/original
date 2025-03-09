@@ -168,8 +168,8 @@ li.step::before {
   line-height: 24px;
   z-index: 2;
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 /* Active step */
 li.step.active::before {
@@ -429,6 +429,8 @@ ul li {
   padding: 10px;
   transition: background-color 0.3s ease;
   position: relative;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
 }
 /* ul li:hover {
               background-color: #D3D3D3;
@@ -798,6 +800,7 @@ example codeblock {
   color: var(--color-tertiary);
   list-style: disc;
   margin-bottom: unset;
+  padding-bottom: 10px;
 }
 .hazardstatement .ul .li.tcx-empty-element {
   list-style: none;
@@ -808,4 +811,177 @@ example codeblock {
   border-left: unset;
   font-size: 14px;
   margin-top: 0px;
+}
+/*new elements  */
+.overline {
+  text-decoration: overline !important;
+  color: #D32F2F;
+  /* Dark red color */
+  font-weight: bold;
+}
+/* Style for <line-through> */
+.line-through {
+  text-decoration: line-through;
+  color: #757575;
+  /* Gray color for strike-through text */
+  font-style: italic;
+}
+/* Style for <xref> links */
+.xref:hover {
+  text-decoration: underline;
+}
+/* Style for <u> (underline) */
+.u {
+  text-decoration: underline;
+  color: #388E3C;
+  /* Green color for underline */
+  font-weight: bold;
+}
+/* Style for <i> (italic) */
+.i {
+  font-style: italic;
+  color: #0288D1;
+  /* Blue color for italic text */
+  font-size: 1.1em;
+}
+/* Style for <b> (bold) */
+.b {
+  font-weight: bold;
+  color: var(--color-accent);
+  /* Orange color for bold text */
+}
+/* Style for <tt> (monospace) */
+.tt {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #ECEFF1;
+  /* Light gray background */
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+/* Style for <sup> (superscript) */
+.sup {
+  font-size: 0.8em;
+  vertical-align: super;
+  color: #F44336;
+  /* Red color for superscript */
+}
+/* Style for <sub> (subscript) */
+.sub {
+  font-size: 0.8em;
+  vertical-align: sub;
+  color: #2196F3;
+  /* Blue color for subscript */
+}
+/* General paragraph styles */
+/* Optional hover effect for links */
+a:hover {
+  color: #D32F2F;
+  /* Change color on hover */
+}
+/* simple dita element */
+.xrefinfo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.xref {
+  color: #0074D9;
+  text-decoration: underline;
+}
+/* ****  */
+b,
+.b {
+  font-weight: bold;
+  color: var(--color-accent, #0056b3);
+  text-transform: uppercase;
+  font-size: var(--text-base, 1rem);
+  letter-spacing: 2px;
+  /* padding: 5px 10px; */
+  /* border: 2px solid #ff6347; 
+      border-radius: 5px; */
+  /* background-color: rgba(255, 99, 71, 0.2); 
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+example,
+.example {
+  display: block;
+  background-color: var(--color-tip-light);
+  border: 2px solid var(--color-link);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.example .title {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: var(--color-link);
+  margin-bottom: 10px;
+  border-top: unset;
+}
+.example .codeblock {
+  display: block;
+  background-color: var(--color-neutral);
+  color: var(--color-primary);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1em;
+  white-space: pre-wrap;
+  border-left: unset;
+}
+.lines {
+  font-size: var(--text-lg);
+  line-height: 1.6;
+  /* purple color */
+  color: #4B0082;
+  padding: 15px;
+  max-width: 600px;
+  text-align: center;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+  break-inside: avoid;
+}
+.pre {
+  font-size: var(--text-lg);
+  line-height: 1.5;
+  color: var(--color-primary);
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid var(--color-link);
+  box-shadow: 0px 4px 12px rgba(70, 130, 180, 0.2);
+  margin: 20px;
+  max-width: 600px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+     break-inside: avoid;
+}
+.pre .code {
+  background-color: #e6e6e6;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+tm {
+  font-weight: bold;
+  color: #0056b3;
+  background-color: #e0f7fa;
+  padding: 2px 4px;
+  border-radius: 4px;
+  text-decoration: underline;
+  box-shadow: 0px 2px 6px rgba(0, 86, 179, 0.3);
+}
+tm[tmtype="tm"] {
+  font-style: italic;
+  color: #ff5722;
+  background-color: #ffe0b2;
+}
+tm[tmtype="reg"] {
+  color: #4caf50;
+  background-color: #e8f5e9;
+}
+tm[tmclass="ibm"] {
+  font-weight: bold;
+  color: #000000;
+  background-color: #f1f1f1;
+  border: 1px solid #cccccc;
 }
