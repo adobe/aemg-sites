@@ -98,7 +98,7 @@ function miniTOCHighLight(tocLinks) {
             const targetElement = document.getElementById(targetId);
             
             targetElement.scrollIntoView();
-            window.scrollBy(0, -100);
+            window.scrollBy(0, -120);
 
             targetElement.classList.add('loading');
 

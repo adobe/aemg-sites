@@ -163,9 +163,9 @@ bold-text {
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   font-weight: 600;
-  color: var(--color-accent);
-  background-color: var(--color-danger-light);
-  border: 0.5px solid var(--color-accent);
+  color: var(--color-primary);
+  background-color: var(--color-light-blue-bg);
+  border: 0.5px solid var(--color-tertiary);
   text-align: left;
 }
 .tbody {
@@ -206,7 +206,7 @@ li {
 .entry {
   padding: 8px 16px;
   border-color: var(--color-accent);
-    border-left-width: 1px;
+  border-left-width: 1px;
   border-top-width: 1px;
   border-right-width: 1px;
   border-bottom-width: 1px;
