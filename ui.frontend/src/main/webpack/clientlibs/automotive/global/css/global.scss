@@ -1,6 +1,7 @@
 @use "../../../common/css";
 @use "themes";
 @use "fonts" as *;
+@use "../../../utils/css/vars" as *;
 
 :root{
   @include fonts;
@@ -159,7 +160,7 @@ body {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $screen-md) {
   .fsi-header-wrapper {
     padding: 25px 0 22px 0;
     max-width: 88%;
