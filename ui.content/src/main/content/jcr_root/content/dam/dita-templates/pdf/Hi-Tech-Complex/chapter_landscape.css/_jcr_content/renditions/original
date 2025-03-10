@@ -238,15 +238,19 @@ figcaption.title>.prefix-content::after {
   box-sizing: border-box;
 }
 .image-num-container-landscape .number-landscape {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #0C1256;
-  font-family: Urbanist;
-  color: var(--color-tertiary);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+      width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #0C1256;
+    color: var(--color-tertiary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
 }
 .image-num-container-landscape .resistor-image-landscape {
   width: 183px;
