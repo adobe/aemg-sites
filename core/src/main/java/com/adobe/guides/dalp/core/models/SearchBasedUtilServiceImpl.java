@@ -35,7 +35,7 @@ public class SearchBasedUtilServiceImpl implements SearchBasedUtilService {
             int limit=10;
             QueryManager queryManager=session.getWorkspace().getQueryManager();
             StringBuilder stringBuilder=new StringBuilder();
-            stringBuilder.append("SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE(["+path+"]) and CONTAINS(s.*, '"+keyword+"')");
+            stringBuilder.append("SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE(["+path+"]) AND s.* LIKE '%"+keyword+"%'");
 
             Query query= queryManager.createQuery(stringBuilder.toString(),Query.JCR_SQL2);
 //            if(limit>0)
@@ -70,7 +70,15 @@ public class SearchBasedUtilServiceImpl implements SearchBasedUtilService {
                             String value= property.getValue().getString();
                             map.put(property.getName(), value);
                         }
-                        map.put("path", node.getParent().getPath());
+                        if(node.getPath().contains("jcr:content")){
+                            Node node1= resourceResolver.getResource(node.getPath().split("/jcr:content")[0]).adaptTo(Node.class);
+                            String title= node1.getNode("jcr:content").hasProperty("jcr:title")?node1.getNode("jcr:content").getProperty("jcr:title").getString():"";
+                            map.put("jcr:title",title);
+                            map.put("path", node.getPath().split("/jcr:content")[0]);
+                        }
+                        else {
+                            map.put("path", node.getPath());
+                        }
                     }
                     lst.add(map);
                 }
