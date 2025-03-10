@@ -62,22 +62,28 @@ q::after,
   transition: all 0.3sease;
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
-  border-left: 3px solid var(--color-accent);
-  background-color: var(--color-neutral-light);
+  /* border-left: 3px solid var(--color-accent); */
+  background-color: var(--color-light-blue-bg);
   color: var(--color-primary);
   break-inside: avoid;
 }
 .dthd {
   font-family: var(--font-fam-secondary);
-  font-weight: bold;
-  color: var(--color-dark-grey, #2c3e50);
+  font-weight: 400;
+  color: var(--color-primary, #2c3e50);
   margin-bottom: 0.5rem;
+  font-size: var(--text-2xl);
+    line-height: var(--text-2xl-lh);
 }
 .ddhd {
-  line-height: 1.5;
   margin-left: 1rem;
-  font-family: var(--font-fam-secondary);
-  color: var(--color-secondary);
+     font-family: var(--font-fam-secondary);
+    color: var(--color-tertiary);
+    font-size: var(--text-base);
+    line-height:  var(--text-base-lh);
+}
+.dthd::after {
+  content: " :";
 }
 /* Entry block styles */
 .dlentry {
@@ -86,26 +92,30 @@ q::after,
   transition: all 0.3s ease;
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
-  border-left: 3px solid var(--color-accent);
-  background-color: var(--color-neutral-light);
+  /* border-left: 3px solid var(--color-accent); */
+  background-color: var(--color-light-blue-bg);
   color: var(--color-primary);
   break-inside: avoid;
 }
 /* Styling for the <dt> (definition term) */
 .dt {
-  font-weight: bold;
-  color: var(--color-dark-grey, #2c3e50);
+  font-family: var(--font-fam-secondary);
+  font-weight: 400;
+  color: var(--color-primary, #2c3e50);
   margin-bottom: 0.5rem;
+  font-size: var(--text-2xl);
+    line-height: var(--text-2xl-lh);
 }
 .dt::after {
   content: " :";
 }
 /* Styling for the <dd> (definition description) */
 .dd {
-  line-height: 1.5;
   margin-left: 1rem;
-  font-family: var(--font-fam-secondary, var(--font-fam-primary));
-  color: var(--color-secondary);
+     font-family: var(--font-fam-secondary);
+    color: var(--color-tertiary);
+    font-size: var(--text-base);
+    line-height:  var(--text-base-lh);
 }
 /* Container for steps */
 ol.steps {
@@ -426,11 +436,10 @@ ul {
 ul li {
   background: unset;
   border-radius: 5px;
-  padding: 10px;
   transition: background-color 0.3s ease;
   position: relative;
   margin-bottom: 0px;
-  padding-bottom: 10px;
+  padding: 10px 10px 8px 0px;
 }
 /* ul li:hover {
               background-color: #D3D3D3;
@@ -462,6 +471,7 @@ ol {
   list-style: none;
   padding: 0;
   counter-reset: list-counter;
+  margin: 20px 0px 32px 0px;
 }
 ol li {
   margin-bottom: 20px;
@@ -543,7 +553,7 @@ ol li b {
   margin-bottom: 20px;
 }
 .xref {
-  color: var(--color-link, #0f85ec);
+  color: #0074D9;
   text-decoration: underline;
 }
 .note::after {
@@ -568,13 +578,16 @@ ol {
 b,
 .b {
   font-family: var(--font-fam-primary);
-  font-size: var(--text-base);
-  font-weight: 500;
   line-height: var(--text-base-lh);
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: var(--color-primary);
+  font-weight: bold;
+  color: var(--color-accent, #0056b3);
+  text-transform: uppercase;
+  font-size: var(--text-base, 1rem);
+  letter-spacing: 2px;
+  undefined: undefined;
 }
 example,
 .example {
@@ -852,8 +865,8 @@ example codeblock {
 }
 /* Style for <tt> (monospace) */
 .tt {
-  font-family: 'Courier New', Courier, monospace;
-  background-color: #ECEFF1;
+font-family: var(--font-fam-primary);
+  background-color: var(--color-light-blue-bg);
   /* Light gray background */
   padding: 0.2em 0.4em;
   border-radius: 4px;
@@ -879,39 +892,7 @@ a:hover {
   /* Change color on hover */
 }
 /* simple dita element */
-.xrefinfo {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.xref {
-  color: #0074D9;
-  text-decoration: underline;
-}
 /* ****  */
-b,
-.b {
-  font-weight: bold;
-  color: var(--color-accent, #0056b3);
-  text-transform: uppercase;
-  font-size: var(--text-base, 1rem);
-  letter-spacing: 2px;
-  /* padding: 5px 10px; */
-  /* border: 2px solid #ff6347; 
-      border-radius: 5px; */
-  /* background-color: rgba(255, 99, 71, 0.2); 
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
-}
-example,
-.example {
-  display: block;
-  background-color: var(--color-tip-light);
-  border: 2px solid var(--color-link);
-  border-radius: 8px;
-  padding: 20px;
-  margin: 20px auto;
-  width: 80%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
 .example .title {
   font-size: 1.6em;
   font-weight: bold;
@@ -933,13 +914,14 @@ example,
   font-size: var(--text-lg);
   line-height: 1.6;
   /* purple color */
-  color: #4B0082;
+  color: var(--color-primary);
   padding: 15px;
   max-width: 600px;
   text-align: center;
   letter-spacing: 1px;
   word-wrap: break-word;
   break-inside: avoid;
+  font-family: var(--font-fam-secondary);
 }
 .pre {
   font-size: var(--text-lg);
@@ -954,7 +936,7 @@ example,
   max-width: 600px;
   word-wrap: break-word;
   white-space: pre-wrap;
-     break-inside: avoid;
+  break-inside: avoid;
 }
 .pre .code {
   background-color: #e6e6e6;
