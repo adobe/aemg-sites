@@ -3,6 +3,8 @@
 #glossary_header {
   margin-bottom: 0px;
   text-align: left;
+  display: flex;
+  align-items: baseline;
 }
 #glossary_header_title {
   font-family: var(--font-fam-secondary);
@@ -64,7 +66,7 @@
   font-size: 0.75rem;
   line-height: 1rem;
   font-weight: 700;
-    color:  var(--color-accent);
+  color: var(--color-accent);
 }
 .glo-definition {
   font-family: var(--font-fam-secondary);
@@ -72,7 +74,7 @@
   font-weight: 350;
   line-height: 14px;
   text-align: left;
-    color:  var(--color-accent);
+  color: var(--color-accent);
 }
 glossterm {
   font-family: var(--font-fam-secondary);
