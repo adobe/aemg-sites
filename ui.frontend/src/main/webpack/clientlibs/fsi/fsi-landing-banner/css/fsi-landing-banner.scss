@@ -14,8 +14,8 @@
     }
 
     h1.cmp-title__text {
-      font-size: 48px;
-      line-height: 62px;
+      font-size: var(--text-5xl);
+      line-height: var(--text-5xl-lh);
       font-weight: 400;
       font-family: "Manrope";
       color: var(--color-primary);
@@ -23,23 +23,23 @@
       margin-bottom: 8px;
 
       @media screen and (max-width: $screen-md) {
-        font-size: 30px;
-        line-height: 40px;
+        font-size: var(--text-3xl);
+        line-height: var(--text-3xl-lh);
         width: 250px;
       }
     }
 
     .cmp-text {
       p {
-        font-size: 24px;
-        line-height: 32px;
+        font-size: var(--text-2x);
+        line-height: var(--text-2xl-lh);
         font-weight: 400;
         font-family: "Manrope";
         color: var(--color-primary);
 
         @media screen and (max-width: $screen-md) {
-          font-size: 20px;
-          line-height: 28px;
+          font-size: var(--text-xl);
+          line-height: var(--text-xl-lh);
         }
       }
     }
@@ -56,8 +56,8 @@
     .text {
       font-family: Manrope;
       font-weight: 400;
-      font-size: 24px;
-      line-height: 32px;
+      font-size: var(--text-2xl);
+      line-height: var(--text-2xl-lh);
       letter-spacing: 0px;
       color: var(--color-primary);
       padding-left: 88px;
@@ -99,22 +99,22 @@
 
       .cmp-text {
         p {
-          font-size: 24px;
-          line-height: 32px;
+          font-size: var(--text-2xl);
+          line-height: var(--text-2xl-lh);
           font-weight: 400;
           font-family: "Manrope";
           color: var(--color-primary);
           & > a {
             font-family: Manrope;
             font-weight: 700;
-            font-size: 18px;
-            line-height: 24px;
+            font-size: var(--text-lg);
+            line-height: var(--text-lg-lh);
             letter-spacing: 0%;
             text-decoration: underline;
 
             @media screen and (max-width: $screen-md) {
-              font-size: 20px;
-              line-height: 28px;
+              font-size: var(--text-xl);
+              line-height: var(--text-xl-lh);
             }
           }
         }
@@ -129,24 +129,24 @@
 
       .cmp-text {
         h3 {
-          font-size: 20px;
-          line-height: 28px;
+          font-size: var(--text-xl);
+          line-height: var(--text-xl-lh);
           font-weight: 700;
           font-family: "Manrope";
           color: var(--color-primary);
           margin-bottom: 24px;
 
           @media screen and (max-width: $screen-md) {
-            font-size: 16px;
-            line-height: 24px;
+            font-size: var(--text-base);
+            line-height: var(--text-base-lh);
             margin-bottom: 12px;
           }
         }
 
         ul {
           li {
-            font-size: 14px;
-            line-height: 20px;
+            font-size: var(--text-sm);
+            line-height: var(--text-sm-lh);
             font-weight: 400;
             font-family: "Manrope";
             color: var(--color-primary);
