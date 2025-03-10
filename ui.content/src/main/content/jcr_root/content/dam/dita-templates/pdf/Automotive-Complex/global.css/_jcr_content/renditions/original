@@ -60,6 +60,7 @@ html {
   --color-neutral-dark: #ddd;
   --color-lighter-grey: #667889;
   --color-white: #FFFFFF;
+  --color-light-blue-bg: #E8F1FF;
 }
 .toc-config,
 :root {

@@ -160,8 +160,8 @@ h2.chapter,
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   font-weight: 600;
-  color: var(--color-accent);
-  background-color: var(--color-danger-light);
+  color: var(--color-primary);
+  background-color: var(--color-light-blue-bg);
   border: 0.5px solid var(--color-tertiary);
   text-align: left;
 }
@@ -211,7 +211,7 @@ li {
   border-top-width: 1px;
   border-right-width: 1px;
   border-bottom-width: 1px;
-  border-color: var(--color-accent);
+  border-color: var(--color-tertiary);
 }
 .content-img_landscape {
   display: none;
