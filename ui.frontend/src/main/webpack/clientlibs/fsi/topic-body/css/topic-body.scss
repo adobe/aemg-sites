@@ -100,8 +100,8 @@
 .table-heading {
   font-family: Manrope;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: var(--text-lg);
+  line-height: var(--text-lg-lh);
   letter-spacing: 0%;
   color: var(--color-primary);
   @media screen and (max-width: $screen-md){
@@ -163,8 +163,8 @@
     padding: 14px 16px;
     font-family: Manrope;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: var(--text-sm);
+    line-height: var(--text-sm-lh);
     letter-spacing: 0%;
   }
 
@@ -172,8 +172,8 @@
     padding: 26px 16px;
     font-family: Manrope;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: var(--text-sm);
+    line-height: var(--text-sm-lh);
     letter-spacing: 0%;
   }
 

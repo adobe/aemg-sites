@@ -25,23 +25,23 @@ q,
 q::before,
 .q::before {
   content: "“";
-  font-size: 3em;
+  font-size: 2em;
   color: var(--color-accent);
   position: absolute;
-  top: -12px;
-  left: 4px;
+  top: 1px;
+  left: 8px;
 }
 q::after,
 .q::after {
   content: "”";
-  font-size: 3em;
+  font-size: 2em;
   color: var(--color-accent);
   position: absolute;
-  bottom: -41px;
-  right: unset;
+  bottom: -20px;
+  right: 87%;
 }
 .dl {
-  width: 60%;
+  width: unset;
   margin-block: 2rem;
   padding: 1rem 0;
   font-size: var(--text-sm);
@@ -69,73 +69,79 @@ q::after,
   background-color: #E8F1FF;
   color: var(--color-accent);
   break-inside: avoid;
-  width: 100%;
 }
 .dt {
   font-weight: bold;
   color: var(--color-accent, #2c3e50);
   margin-bottom: 0.5rem;
+  font-family: 'Inter';
+  font-size: 18px;
 }
 .dt::after {
   content: " :";
 }
-.dd {
+dd {
   line-height: 1.5;
   margin-left: 1rem;
-  font-family: var(--font-fam-secondary, var(--font-fam-primary));
+  font-family: 'Inter';
   color: var(--color-accent);
-  font-size: 14px;
+  font-size: 16px;
 }
 ol.steps {
+  undefined: undefined;
+  undefined: undefined;
+  undefined: undefined;
+  undefined: undefined;
   list-style: none;
   padding: 0;
   margin: 0;
   position: relative;
   max-width: 600px;
-  /* Limit the width */
   margin: 30px auto;
-  /* Center it */
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica N eue', sans-serif;
   counter-reset: step-counter;
-  /* Initialize the counter */
 }
 li.step {
+  undefined: undefined;
+  undefined: undefined;
   position: relative;
   padding-left: 50px;
-  /* Space for the vertical line and step icon */
   margin-bottom: 40px;
-  /* Vertical spacing between steps */
-  font-size: 18px;
+  undefined: undefined;
   transition: transform 0.3s ease;
+  font-size: var(--text-lg);
+  line-height: var(--text-lg-lh);
+  font-weight: 400;
+  font-family: var(--font-fam-secondary);
+  color: var(--color-primary);
 }
 ol.steps::before {
   content: '';
   position: absolute;
   top: 0;
   left: 25px;
-  /* Position the line in the center */
   width: 2px;
   height: 100%;
-  background-color: var(--color-bg-light, #e0e0e0);
+  background-color: #76A2EB;
   z-index: 1;
 }
 li.step::before {
   content: counter(step-counter);
   counter-increment: step-counter;
   position: absolute;
-  left: 10px;
-  top: 50%;
+  left: 8px;
+  top: 16px;
   transform: translateY(-50%);
   width: 30px;
   height: 30px;
-  background-color: var(--color-lighter-bg, #ccc);
+  background-color: white;
   color: var(--color-primary);
   font-weight: bold;
   font-size: 16px;
   border-radius: 50%;
-  border: 3px solid #fff;
+  border: 3px solid var(--color-accent);
   text-align: center;
-  line-height: 30px;
+  line-height: 24px;
   z-index: 2;
 }
 li.step.active::before {
@@ -143,17 +149,20 @@ li.step.active::before {
   border-color: var(--color-primary);
 }
 li.step.completed::before {
+  undefined: undefined;
+  undefined: undefined;
   background-color: var(--color-accent);
-  /* Green for completed step */
   border-color: var(--color-accent);
-  /* Border color for completed */
+  undefined: undefined;
 }
 div.itemgroup.info {
-  background-color: var(--color-white-light, #f3f3f3);
+  background-color: #E8F1FF;
   padding: 10px;
-  border-left: 3px solid var(--color-primary);
+  border-left: 2px solid var(--color-accent);
   font-size: 14px;
   margin-top: 10px;
+  font-family: 'Inter';
+  color: var(--color-accent);
 }
 span.prefix-content {
   font-weight: bold;
@@ -232,14 +241,15 @@ ul {
   margin-top: 50px;
 }
 ul li {
-  background: #F2F2F2;
+  background: white;
   border-radius: 5px;
   padding: 10px;
-  transition: background-color 0.3s ease;
+  transition: none;
   font-size: var(--text-sm);
   font-weight: 400;
   line-height: 18px;
   color: var(--color-accent);
+  font-family: 'Inter';
 }
 ul li:not(.hazardstatement)::before {
   content: '•';
@@ -265,6 +275,7 @@ ol {
   list-style: none;
   padding: 0;
   counter-reset: list-counter;
+  margin: 20px 0px; 
 }
 ol li {
   margin-bottom: 20px;
@@ -275,6 +286,7 @@ ol li {
   font-weight: 400;
   line-height: 18px;
   color: var(--color-accent);
+  font-family: Inter;
 }
 ol li::before {
   color: var(--color-accent, green);
@@ -298,38 +310,43 @@ ol li b {
   display: block;
   margin-bottom: 5px;
 }
-.codeblock.js {
-  margin-bottom: 1rem;
-  padding: 1rem;
-  transition: all 0.3s ease;
-  border: 1px solid var(--color-primary);
-  background-color: var(--color-neutral-light);
-  color: var(--color-secondary);
-  break-inside: avoid;
-  font-size: 16px;
-  line-height: 24px;
+/* codeblock css  */
+.codeblock.js .ph,
+.codeblock.css .ph,
+.codeblock.html .ph {
+  color: black;
+  font-family: inter;
+  font-size: 14px;
+  line-height: 20px;
 }
-.codeblock.css {
-  margin-bottom: 1rem;
-  padding: 1rem;
-  transition: all 0.3s ease;
-  border: 1px solid var(--color-primary);
-  background-color: var(--color-neutral-light);
-  color: var(--color-accent);
-  break-inside: avoid;
-  font-size: var(--text-base);
-  line-height: 24px;
+.codeblock.js .codeph,
+.codeblock.css .codeph,
+.codeblock.html .codeph {
+  color: black;
+  font-family: inter;
+  font-size: 14px;
+  line-height: 20px;
+  background: white;
+  border: none;
 }
+.codeblock.js .codeph {
+  color: brown;
+}
+.codeblock.css .codeph {
+  color: blue;
+}
+.codeblock.html .codeph {
+  color: red;
+}
+.codeblock.js,
+.codeblock.css,
 .codeblock.html {
   margin-bottom: 1rem;
   padding: 1rem;
   transition: all 0.3s ease;
-  border: 1px solid var(--color-primary);
-  background-color: var(--color-neutral-light);
-  color: var(--color-dark);
+  border: 1px solid var(--color-accent);
+  background-color: white;
   break-inside: avoid;
-  font-size: 16px;
-  line-height: 24px;
 }
 .footnote-ref {
   font-size: 0.8em;
@@ -363,6 +380,12 @@ ol li b {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.p {
+  margin-top: 15px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
 .xref {
   color: #1E88E5;
   undefined: undefined;
@@ -371,6 +394,7 @@ ol li b {
 }
 /* new css  */
 /* single line statement css*/
+.note.danger,
 .restriction,
 .note.caution,
 .tip {
@@ -388,28 +412,13 @@ ol li b {
   font-weight: 400;
   line-height: 18px;
   color: var(--color-accent);
+  font-family: 'Inter';
 }
 .restriction .prefix-content,
 .note.caution .prefix-content,
 .tip .prefix-content,
 .note.danger .prefix-content {
   font-size: 16px;
-}
-.note.danger {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 8px;
-  padding: 8px 0px;
-  border-top: 0.5px solid #D8D8D8;
-  border-bottom: 0.5px solid #D8D8D8;
-  border-left: unset;
-  background-color: unset;
-  margin: 20px;
-  font-size: var(--text-sm);
-  font-weight: 400;
-  line-height: 18px;
-  color: var(--color-accent);
 }
 .note.danger .prefix-content,
 .restriction .prefix-content,
@@ -423,6 +432,8 @@ ol li b {
   top: 0px;
   margin-right: 8px;
   align-items: flex-start;
+  font-size: 16px;
+  font-family: 'Inter';
 }
 .restriction .prefix-content::before {
   content: "";
@@ -473,12 +484,13 @@ ol li b {
   display: block;
   border: none;
   background: none;
+      width: 95.7%;
 }
 .danger.note.hazardstatement,
 .caution.note.hazardstatement {
   display: inline-table;
   border: unset;
-    width: 95.7%;
+  width: 95.7%;
 }
 .hazardstatement .prefix-content,
 .danger.note.hazardstatement .prefix-content,
@@ -491,6 +503,9 @@ ol li b {
   padding: 8px 0px 8px 0px;
   border-top: 0.5px solid #D8D8D8;
   border-bottom: 0.5px solid #D8D8D8;
+  font-size: 16px;
+  font-family: 'Inter';
+  line-height: 18px;
 }
 .danger .prefix-content::before {
   content: "";
@@ -561,11 +576,10 @@ ol li b {
 /* extra dita element css  */
 /* Style for <overline> */
 .overline {
-  text-decoration: overline;
+  border-top: 0.5px solid #000000;
   color: #D32F2F;
   /* Dark red color */
   font-weight: bold;
-  text-decoration: overline;
 }
 /* Style for <line-through> */
 .line-through {
@@ -621,13 +635,39 @@ ol li b {
   /* Blue color for subscript */
 }
 /* General paragraph styles */
-.p {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin-bottom: 15px;
-}
 /* Optional hover effect for links */
 a:hover {
   color: #D32F2F;
   /* Change color on hover */
+}
+/* steps  css  */
+/* Each step */
+/* Vertical line connecting steps */
+/* Circle steps with numbers */
+/* Active step */
+/* Completed step */
+/* Completed step */
+
+/* css for table */
+table .title {
+  color: var(--color-accent)
+}
+.entry {
+   border: 0.5px solid #76A2EB;
+}
+th {
+  font-family: Inter;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+color: var(--color-accent)
+}
+td {
+  font-family: Inter;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0px;
+color: var(--color-accent)
 }
