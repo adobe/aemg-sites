@@ -88,13 +88,14 @@
 
 .hitech-landing-note {
   .cmp-teaser {
-    border-top: 0.5px solid #001e3a;
+    border-top: 0.5px solid var(--color-primary);
+    border-bottom: 0.5px solid var(--color-primary);
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: center;
     gap: 8px;
-    padding: 16px 0px 0px 0px;
+    padding: 16px 0px;
 
     .cmp-teaser__image {
       .cmp-image__image {
@@ -114,6 +115,7 @@
           color: var(--color-primary);
           b {
             text-decoration: underline;
+            font-weight: 500;
           }
         }
       }
