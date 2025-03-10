@@ -1,4 +1,4 @@
 const saturationSlider = document.getElementById('saturation-slider');
 saturationSlider.addEventListener('input', function() {
-    document.body.style.filter = `saturate(${this.value}%)`;
+    document.documentElement.style.filter = `saturate(${this.value}%)`;
 });

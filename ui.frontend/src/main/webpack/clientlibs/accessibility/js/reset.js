@@ -8,8 +8,11 @@ window.addEventListener("DOMContentLoaded", function () {
       "accessibility-line-height",
       "big-cursor-active");
 
-    document.body.style.filter = "initial";
+    document.documentElement.style.filter = "initial";
+    document.querySelector("#saturation-slider").value = 100;
     document.documentElement.style.fontSize = "initial";
+    let defaultFontSize = document.querySelector('.default-fs')
+    defaultFontSize.textContent = "16";
     magnifier.click();
     
   });
