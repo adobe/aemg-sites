@@ -87,3 +87,11 @@ a.book-idx-link.idx-link {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.idx-body{
+      column-gap: 85px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.idx-keyword-group{
+  display: none;
+}

@@ -13,7 +13,8 @@ body {
 .global-config,
 :root {
   /* font family */
-  --font-fam-primary: PP Editorial New;
+  --font-fam-primary: Adobe Clean;
+  /* --font-fam-primary: PP Editorial New; */
   --font-fam-secondary: Adobe Clean;
   --base-font-size: 16px;
 }
@@ -61,6 +62,7 @@ html {
   --color-lighter-grey: #667889;
   --color-white: #FFFFFF;
   --color-light-blue-bg: #E8F1FF;
+  --color-border: #697991;
 }
 .toc-config,
 :root {
