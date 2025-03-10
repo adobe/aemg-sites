@@ -5,7 +5,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
 async function fetchSearchData() {
-  const API_ENDPOINT = "/content/aemguidesDALP/us/api/search-api.json";
+  const API_ENDPOINT = "/content/aemguidesDALP/api/search-api.model.json";
   const ROOT_PATH = document.querySelector("[data-cmp-rootpath]").dataset.cmpRootpath;
   const KEYWORD = getKeywordFromUrl();
 
