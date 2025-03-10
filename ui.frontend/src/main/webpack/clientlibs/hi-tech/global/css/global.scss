@@ -1,6 +1,7 @@
 @use "../../../common/css";
 @use "themes";
 @use "fonts" as *;
+@use "../../../utils/css/vars" as *;
 
 :root {
   @include fonts;
@@ -188,5 +189,20 @@ body {
 
   .footer_copywrite-wrapper .footer_copywrite {
     color: var(--color-primary);
+  }
+}
+
+@media screen and (max-width: $screen-md) {
+  .footer_gototop {
+    .gototop_arrow, p {
+      color: var(--color-primary-white);
+    }
+  }
+  .dark{
+    .footer_gototop {
+      .gototop_arrow , p {
+        color: var(--color-primary);
+      }
+    }
   }
 }

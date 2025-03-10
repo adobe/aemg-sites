@@ -114,6 +114,10 @@ class GuidesNavigation {
             children = [];
         }
         const ul = document.createElement("ul");
+        if(!children.length) {
+            ul.style.padding = "0";
+            ul.style.margin = "0";
+        }
         ul.classList.add("cmp-guidesnavigation__group")
         for(let i=0;i<children.length;i++) {
             const expandChildren = idx > -1 ? i.toString() === this.tokens[idx] : false
