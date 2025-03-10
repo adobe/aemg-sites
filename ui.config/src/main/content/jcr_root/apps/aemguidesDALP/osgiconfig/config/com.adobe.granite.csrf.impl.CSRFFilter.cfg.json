@@ -13,6 +13,8 @@
     "/content/graphql/endpoint",
     "/content/graphql/endpoint",
     "/content/graphql/endpoint",
-    "/content/aemguidesDALP/us/api/search-api"
+    "/content/aemguidesDALP/us/api/search-api",
+    "/content/aemguidesDALP/api/search-api",
+    "/content/api/search-api"
   ]
 }
