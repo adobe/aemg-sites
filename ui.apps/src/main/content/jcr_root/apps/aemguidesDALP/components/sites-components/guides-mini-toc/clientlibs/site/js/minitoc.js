@@ -56,7 +56,7 @@ class MiniTOC {
             listItem.classList.add(`minitoc-level-${headingLevel}`);
             var link = document.createElement("a");
             link.textContent = heading.textContent;
-            if (!heading.textContent) {
+            if (!heading.textContent || heading.classList.contains("feedback-question")) {
                 continue;
             }
             if (!heading.id) {
