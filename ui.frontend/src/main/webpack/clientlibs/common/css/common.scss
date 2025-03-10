@@ -227,6 +227,7 @@ body {
     margin-left: 0px;
     color: var(--color-primary);
     opacity: 0.7;
+    text-transform: capitalize;
 
     &.cmp-breadcrumb__item--active {
       font-weight: 500;

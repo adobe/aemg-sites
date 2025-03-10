@@ -1,7 +1,7 @@
 .related-links {
 
   .prefix-content {
-    color: var(--color-accent);
+    color: var(--color-primary);
   }
 
   .link {
@@ -10,14 +10,18 @@
     font-size: var(--text-sm);
     line-height: var(--text-sm-lh);
     text-decoration: auto;
-    color: var(--color-accent);
+    color: var(--color-primary);
     margin-top: 8px;
-    text-decoration: none;
+    text-decoration: underline;
+
+    &:hover{
+      color: var(--color-accent);
+    }
   }
 
   .linkinfo {
     margin-block: 10px;
-    color: var(--color-accent);
+    color: var(--color-primary);
     font-size: var(--text-sm);
     line-height: var(--text-sm-lh); 
   }
