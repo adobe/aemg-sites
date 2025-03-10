@@ -108,7 +108,7 @@ h1.title {
 }
 h2.chapter,
 .title {
-  font-family: var(--font-fam-primary);
+  font-family: var(--font-fam-secondary);
   font-size: var(--text-xl);
   line-height: var(--text-2xl-lh);
   font-weight: 400;
@@ -190,6 +190,9 @@ bold-text {
   color: var(--color-tertiary);
   margin-bottom: 16px;
 }
+table .title {
+   font-family: var(--font-fam-secondary);
+}
 .table {
   margin-bottom: 40px;
   font-family: var(--font-fam-secondary);
@@ -212,6 +215,8 @@ li {
   border-right-width: 1px;
   border-bottom-width: 1px;
   border-color: var(--color-tertiary);
+  font-weight: 600;
+    text-align: left;
 }
 .content-img_landscape {
   display: none;
