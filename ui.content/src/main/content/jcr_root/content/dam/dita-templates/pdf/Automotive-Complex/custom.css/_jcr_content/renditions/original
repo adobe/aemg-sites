@@ -156,23 +156,23 @@ ol.steps::before {
 /* Circle steps with numbers */
 li.step::before {
   content: counter(step-counter);
-    counter-increment: step-counter;
-    position: absolute;
-    left: 11px;
-    top: 16px;
-    width: 30px;
-    height: 30px;
-    background: var(--color-accent, green);
-    color: var(--color-white);
-    border-radius: 50%;
-    border: none;
-    text-align: center;
-    z-index: 2;
-    font-family: Inter;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 19.2px;
-    letter-spacing: 0px;
+  counter-increment: step-counter;
+  position: absolute;
+  left: 11px;
+  top: 16px;
+  width: 30px;
+  height: 30px;
+  background: var(--color-accent, green);
+  color: var(--color-white);
+  border-radius: 50%;
+  border: none;
+  text-align: center;
+  z-index: 2;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19.2px;
+  letter-spacing: 0px;
 }
 /* Active step */
 li.step.active::before {
@@ -272,7 +272,6 @@ ul li:not(.hazardstatement)::before {
 .note.hazardstatement ul li::before {
   content: none;
 }
-
 ol {
   list-style: none;
   padding: 0;
@@ -298,7 +297,7 @@ ol li::before {
   content: counter(list-counter);
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 30%;
   transform: translateY(-50%);
   width: 24px;
   height: 24px;
@@ -448,7 +447,7 @@ b,
 .note.tip .prefix-content::before {
   content: "";
   background-image: url(../../../aemguidesDALP/automotives/images/common/tip.png);
-  background-size: 13px 13px;
+  background-size: 17px 17px;
   background-repeat: no-repeat;
   /* width: 24px;
   height: 24px; */
@@ -456,6 +455,10 @@ b,
   /* background-color: var(--color-danger-light); */
   /* border-radius: 60px; */
   background-position: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-light-blue-bg);
+  border-radius: 10px;
 }
 /* .note.note .prefix-content::before {
   content: "";
@@ -481,10 +484,12 @@ b,
 .danger.note.hazardstatement,
 .caution.note.hazardstatement,
 .warning.note.hazardstatement,
-.notice.note.hazardstatement
-{
+.notice.note.hazardstatement {
   display: block;
   border: unset;
+  border-top: 0.5px solid #D8D8D8;
+  border-bottom: 0.5px solid #D8D8D8;
+  padding: 13px 0px;
 }
 .hazardstatement .prefix-content {
   background: none;
@@ -492,9 +497,9 @@ b,
   align-items: center;
   justify-content: flex-start;
   gap: 8px;
-  padding: 8px 0px 8px 0px;
-  border-top: 0.5px solid #D8D8D8;
-  border-bottom: 0.5px solid #D8D8D8;
+  padding: unset;
+  border-top: unset;
+  border-bottom: unset;
 }
 .note.danger .prefix-content::before {
   content: "";
@@ -553,7 +558,7 @@ b,
 .hazardstatement .messagepanel {
   list-style-type: disc;
   margin-top: 16px;
-  padding-inline-start: 38px;
+  margin-inline-start: 40px;
 }
 .hazardstatement .ul .li {
   background: white;
@@ -630,16 +635,18 @@ b,
 .sup {
   font-size: inherit;
   vertical-align: super;
-  color: var(--color-accent);
+  color: inherit;
   font-family: var(--font-fam-secondary);
+  font-weight: 600;
   /* Red color for superscript */
 }
 /* Style for <sub> (subscript) */
 .sub {
   font-size: inherit;
   vertical-align: sub;
-  color: var(--color-accent);
+  color: inherit;
   font-family: var(--font-fam-secondary);
+  font-weight: 600;
   /* Blue color for subscript */
 }
 /* simple dita element */
@@ -746,18 +753,11 @@ tm[tmclass="ibm"] {
 .caution.note.hazardstatement .prefix-content::before,
 .note.restriction .prefix-content::before,
 .note.danger .prefix-content::before,
-.note.caution .prefix-content::before
-{
+.note.caution .prefix-content::before {
   width: 40px;
   height: 40px;
   border-radius: 10px;
   background-color: var(--color-danger-light);
-}
-.note.tip .prefix-content::before {
-  width: 40px;
-  height: 40px;
-  background-color: var(--color-light-blue-bg);
-  border-radius: 10px;
 }
 .lof_footer_urls,
 #index_footer_urls,
@@ -771,16 +771,16 @@ tm[tmclass="ibm"] {
   line-height: var(--text-lg);
   /* text-align: left; */
 }
-.fn{
+.fn {
   color: var(--color-accent);
-    font-weight: 600;
+  font-weight: 600;
 }
-.note .prefix-content::before{
+.note .prefix-content::before {
   content: "";
-    background-image: url(../../../aemguidesDALP/automotives/images/common/note.png);
+  background-image: url(../../../aemguidesDALP/automotives/images/common/note.png);
   background-repeat: no-repeat;
-    display: block;
-    background-position: center;
+  display: block;
+  background-position: center;
   width: 40px;
   height: 40px;
   background-color: var(--color-light-blue-bg);
@@ -788,26 +788,25 @@ tm[tmclass="ibm"] {
   background-size: 17px 17px;
 }
 .note.note .prefix-content {
-    font-weight: bold;
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 16px;
-    font-family: var(--font-fam-primary);
-  
+  font-weight: bold;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 16px;
+  font-family: var(--font-fam-primary);
 }
-.note{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 8px;
-    padding: 8px 0px;
-    border-top: 0.5px solid #D8D8D8;
-    border-bottom: 0.5px solid #D8D8D8;
-    border-left: unset;
-    background-color: unset;
-    margin: 45px 0px;
-    font-size: 12px;
-    font-family: var(--font-fam-secondary);
+.note {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 8px 0px;
+  border-top: 0.5px solid #D8D8D8;
+  border-bottom: 0.5px solid #D8D8D8;
+  border-left: unset;
+  background-color: unset;
+  margin: 45px 0px;
+  font-size: 12px;
+  font-family: var(--font-fam-secondary);
 }
