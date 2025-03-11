@@ -12,7 +12,8 @@
   <div data-region="header" id="glossary_header" style="
     margin: 0;
 ">
-    <h5 id="glossary_header_title">Glossary<div class="square-dot"></div></h5>
+    <h5 id="glossary_header_title">Glossary</h5>
+    <div class="square-dot"></div>
   </div>
   <div data-region="content"></div>
   <div data-region="footer" id="glossary-footer">
@@ -28,7 +29,7 @@
     width: 100%;
     right: 0px;
     left: -73px;
-"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+"><cite><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></cite></p>
   </div>
 </body>
 </html>
