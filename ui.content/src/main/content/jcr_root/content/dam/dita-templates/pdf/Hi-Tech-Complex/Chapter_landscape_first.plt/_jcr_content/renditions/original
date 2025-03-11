@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="chapter_landscape.css" type="text/css" />
   <meta name="page-style" content="size:landscape;margin-bottom:70px;" />
   <meta name="footnote-style" content="margin-top:1rem;" />
+  <link rel="stylesheet" href="highlightjs.css" />
 </head>
 <body data-layout="page">
   <p></p>
@@ -19,6 +20,8 @@
     height: 650px;
     justify-content: space-between;
 ">
+    <script src="highlight.js"></script>
+    <script src="runhighlightjs.js"></script>
     <div class="chapter-image-content-landscape" style="
 ">
       <p class="chapter_header_title"><span data-field="chapter-title" data-format="default">Chapter Title</span> </p>
