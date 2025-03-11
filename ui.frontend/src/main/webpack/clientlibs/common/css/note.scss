@@ -1,6 +1,7 @@
 .restriction,
 .note.caution,
-.tip {
+.tip,
+.note.danger {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -14,24 +15,12 @@
   font-size: 12px;
   font-family: var(--font-fam-secondary);
 }
+
 .note.danger {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 8px;
-  padding: 8px 0px;
-  border-top: 0.5px solid #D8D8D8;
-  border-bottom: 0.5px solid #D8D8D8;
-  border-left: unset;
-  background-color: unset;
   margin: 20px 0px;
-  font-size: 12px;
-  font-family: var(--font-fam-secondary);
 }
-.note.danger .prefix-content,
-.restriction .prefix-content,
-.note.caution .prefix-content,
-.tip .prefix-content {
+
+.prefix-content {
   font-weight: bold;
   display: flex;
   gap: 8px;
@@ -40,41 +29,31 @@
   font-size: 16px;
   font-family: var(--font-fam-primary);
 }
+
+.prefix-content::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  display: block;
+  background-color: var(--color-danger-light);
+  border-radius: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .note.restriction .prefix-content::before {
-  content: "";
-  background-image: url(../../../aemguidesDALP/automotives/images/common/danger.png);
+  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/danger.png");
   background-size: 17px 17px;
-  background-repeat: no-repeat;
-  width: 24px;
-  height: 24px;
-  display: block;
-  background-color: var(--color-danger-light);
-  border-radius: 60px;
-  background-position: center;
 }
+
 .note.caution .prefix-content::before {
-  content: "";
-  background-image: url(../../../aemguidesDALP/automotives/images/common/caution.png);
+  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/caution.png");
   background-size: 17px 17px;
-  background-repeat: no-repeat;
-  width: 32px;
-  height: 32px;
-  display: block;
-  background-color: var(--color-danger-light);
-  border-radius: 60px;
-  background-position: center;
 }
+
 .note.tip .prefix-content::before {
-  content: "";
-  background-image: url(../../../aemguidesDALP/automotives/images/common/tip.png);
+  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/tip.png");
   background-size: 13px 13px;
-  background-repeat: no-repeat;
-  width: 24px;
-  height: 24px;
-  display: block;
-  background-color: var(--color-danger-light);
-  border-radius: 60px;
-  background-position: center;
 }
 
 .hazardstatement.warning,
@@ -84,16 +63,19 @@
   border: none;
   margin: 20px 0px;
 }
+
 .restriction.note.hazardstatement {
   display: block;
   border: none;
   background: none;
 }
+
 .danger.note.hazardstatement,
 .caution.note.hazardstatement {
   display: block;
   border: unset;
 }
+
 .hazardstatement .prefix-content {
   background: none;
   display: flex;
@@ -104,103 +86,47 @@
   border-top: 0.5px solid #D8D8D8;
   border-bottom: 0.5px solid #D8D8D8;
 }
-.note.danger .prefix-content::before {
-  content: "";
-  background-image: url(../../../aemguidesDALP/automotives/images/common/danger.png);
+
+.note.danger .prefix-content::before,
+.hazardstatement.note.danger .prefix-content::before {
+  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/danger.png");
   background-size: 17px 17px;
-  background-repeat: no-repeat;
-  width: 32px;
-  height: 32px;
-  display: block;
-  background-color: var(--color-danger-light);
-  border-radius: 60px;
-  background-position: center;
 }
-.note.danger.hazardstatement .prefix-content::before {
-  border-radius: 10px;
-}
+
 .notice.hazardstatement .prefix-content::before {
+  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/notice.png");
+  background-size: 17px 17px;
+  background-repeat: no-repeat;
   border-radius: 10px;
 }
+
 .warning.hazardstatement .prefix-content::before {
-  content: "";
-  background-image: url(../../../aemguidesDALP/automotives/images/common/restriction.png);
+  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/restriction.png");
   background-size: 17px 17px;
   background-repeat: no-repeat;
-  width: 32px;
-  height: 32px;
-  display: block;
-  background-color: var(--color-danger-light);
-  border-radius: 10px;
-  background-position: center;
 }
+
 .caution.hazardstatement .prefix-content::before {
-  content: "";
-  background-image: url(../../../aemguidesDALP/automotives/images/common/caution.png);
+  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/caution.png");
   background-size: 17px 17px;
-  background-repeat: no-repeat;
-  width: 32px;
-  height: 32px;
-  display: block;
-  background-color: var(--color-danger-light);
-  border-radius: 10px;
-  background-position: center;
 }
+
 .notice .prefix-content::before {
-  content: "";
-  background-image: url(../../../aemguidesDALP/automotives/images/common/notice.png);
-  background-repeat: no-repeat;
-  width: 32px;
-  height: 32px;
-  display: block;
-  background-color: var(--color-danger-light);
-  border-radius: 60%;
-  background-position: center;
+  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/notice.png");
   background-size: 17px 17px;
+  width: 40px;
+  height: 40px;
+  border-radius: 60%;
 }
+
+
 .hazardstatement .messagepanel {
   list-style-type: disc;
   margin-top: 16px;
   padding-inline-start: 38px;
-}
-.hazardstatement .ul .li {
-  background: white;
-  padding: 0px;
-  font-family: var(--font-fam-secondary);
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 12px;
-  letter-spacing: 0px;
-  color: var(--color-tertiary);
-  list-style: disc;
-  margin-bottom: unset;
-  padding-bottom: 10px;
-}
-.hazardstatement .ul .li.tcx-empty-element {
-  list-style: none;
-}
 
-//common
-.hazardstatement .prefix-content::before {
-  width: 40px;
-  height: 40px;
-}
-.hazardstatement.note.warning .prefix-content::before,
-.hazardstatement.note.danger .prefix-content::before,
-.hazardstatement.note.notice .prefix-content::before,
-.caution.note.hazardstatement .prefix-content::before {
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  background-color: var(--color-danger-light);
-}
-.note.caution .prefix-content::before,
-.note.tip .prefix-content::before,
-.note.restriction .prefix-content::before,
-.note.danger .prefix-content::before {
-  width: 40px;
-  height: 40px;
-  background-color: var(--color-light-blue-bg);
-  border-radius: 10px;
+  .li {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+  }
 }
