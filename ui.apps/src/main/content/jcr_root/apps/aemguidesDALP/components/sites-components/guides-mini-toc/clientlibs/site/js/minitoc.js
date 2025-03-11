@@ -74,8 +74,8 @@ class MiniTOC {
             const minitocContainerSection = document.getElementsByClassName('minitoc-container')[0];
             minitocContainerSection.classList.add('force-hide');
         }
-
-        activeSetter(this.headings);
+        
+        activeSetter([...this.headings].filter(element => !element.classList.contains("feedback-question")));
    }
 
   }
@@ -147,6 +147,7 @@ function activeSetter (sections) {
                 activeLink.parentElement.classList.add('selected');
             }
         }
+        console.log(currentSection);
     });
 }
     
