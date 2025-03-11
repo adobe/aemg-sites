@@ -162,7 +162,7 @@
 #toc_firstpage .pdf-toc-level-4:after {
   color: var(--color-accent);
   padding-right: 20px;
-  font-weight: 500;
+  font-weight: 700;
 }
 #toc_firstpage div.topic-body {
   display: block;
