@@ -700,8 +700,8 @@ b,
   border-radius: 10px;
   border: 0.5px solid var(--color-border);
   /* box-shadow: 0px 4px 12px rgba(70, 130, 180, 0.2); */
-  margin: 20px;
-  max-width: 600px;
+  margin: 20px 0px;
+  max-width: unset;
   word-wrap: break-word;
   white-space: pre-wrap;
   break-inside: avoid;

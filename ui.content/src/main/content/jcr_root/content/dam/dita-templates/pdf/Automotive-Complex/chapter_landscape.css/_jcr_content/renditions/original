@@ -71,6 +71,8 @@ body {}
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: var(--color-primary);
+  text-transform: unset;
+    letter-spacing: 0px;
 }
 .p {
   font-family: var(--font-fam-secondary);
