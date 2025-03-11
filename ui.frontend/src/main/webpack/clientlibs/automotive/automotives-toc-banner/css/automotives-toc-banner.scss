@@ -108,7 +108,7 @@
     }
     .pdf-download {
       .cmp-button::before {
-        color: var(--color-on-accent);;
+        color: var(--color-on-accent);
       }
     }
     .bookmark {
@@ -124,10 +124,19 @@
   }
 }
 
-.dark .download-manual-button {
-  border-top: 1px solid var(--color-border-light);
-  border-bottom: 1px solid var(--color-border-light);
+.dark{
+  .download-manual-button {
+    border-top: 1px solid var(--color-border-light);
+    border-bottom: 1px solid var(--color-border-light);
+    .pdf-download .cmp-button__text{
+      color: var(--color-accent-dark);
+    }
+    .pdf-download .cmp-button::before{
+      color: var(--color-accent-dark);
+    }
+  }
 }
+
 
 .text{
   p{
@@ -242,6 +251,8 @@
       text-transform: capitalize;
 
 }
+.dark .breadcrumb ol li.cmp-breadcrumb__item--active{
+}
 
 .left-container .toc-search .cmp-form-text__text{
     border-radius: 35px;
@@ -269,7 +280,7 @@
     .linkpool {
       margin-top: 8px;
       a{
-        color: var(--color-accent);
+        // color: var(--color-accent);
       }
     }
   }
