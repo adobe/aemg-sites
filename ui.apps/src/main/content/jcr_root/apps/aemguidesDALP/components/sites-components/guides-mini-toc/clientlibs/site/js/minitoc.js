@@ -147,7 +147,7 @@ function activeSetter (sections) {
                 activeLink.parentElement.classList.add('selected');
             }
         }
-        console.log(currentSection);
+        
     });
 }
     
