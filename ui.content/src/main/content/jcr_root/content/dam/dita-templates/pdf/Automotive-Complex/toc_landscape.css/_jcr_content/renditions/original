@@ -187,6 +187,7 @@
   margin-top: 15px;
   text-indent: -28px;
   margin-inline-start: 80px;
+  width: 75%;
 }
 .toc_footer_hr {
   border: 0.5px solid #2C343B;
@@ -211,4 +212,7 @@
 }
 .toc-level-2::before {
   margin-right: 10px;
+}
+.entry{
+  border-color: var(--color-tertiary);
 }
