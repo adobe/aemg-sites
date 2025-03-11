@@ -7,8 +7,9 @@
   justify-content: flex-start;
   gap: 8px;
   padding: 8px 0px;
-  border-top: 0.5px solid #D8D8D8;
-  border-bottom: 0.5px solid #D8D8D8;
+  border-width: 2px;
+  // border-top: 0.5px solid #D8D8D8;
+  // border-bottom: 0.5px solid #D8D8D8;
   border-left: unset;
   background-color: unset;
   margin: 45px 0px;
@@ -19,30 +20,35 @@
 .note.danger {
   margin: 20px 0px;
 }
-
-.prefix-content {
-  font-weight: bold;
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  justify-content: flex-start;
-  font-size: 16px;
-  font-family: var(--font-fam-primary);
+.note{
+  .prefix-content {
+    font-weight: bold;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    font-family: var(--font-fam-primary);
+    border-top: 2px solid var(--color-note-dark);
+    border-bottom: 2px solid var(--color-note-dark);
+    padding: 8px 0;
+  }
 }
+
 
 .prefix-content::before {
   content: "";
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   display: block;
-  background-color: var(--color-danger-light);
-  border-radius: 60px;
+  background-color: var(--color-note-light);
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: 50%;
 }
 
 .note.restriction .prefix-content::before {
-  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/danger.png");
+  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/restriction.png");
   background-size: 17px 17px;
 }
 
@@ -53,13 +59,13 @@
 
 .note.tip .prefix-content::before {
   background-image: url("/content/dam/aemguidesDALP/automotives/images/common/tip.png");
-  background-size: 13px 13px;
+  background-size: 17px 17px;
 }
 
 .hazardstatement.warning,
 .hazardstatement.danger,
 .hazardstatement.notice {
-  background-color: #FFFFFF;
+  // background-color: #FFFFFF;
   border: none;
   margin: 20px 0px;
 }
@@ -83,8 +89,14 @@
   justify-content: flex-start;
   gap: 8px;
   padding: 8px 0px 8px 0px;
-  border-top: 0.5px solid #D8D8D8;
-  border-bottom: 0.5px solid #D8D8D8;
+  border-width: 2px;
+
+  &::before{
+    width: 40px;
+    height: 40px;
+  }
+  // border-top: 0.5px solid #D8D8D8;
+  // border-bottom: 0.5px solid #D8D8D8;
 }
 
 .note.danger .prefix-content::before,
@@ -96,14 +108,14 @@
 .notice.hazardstatement .prefix-content::before {
   background-image: url("/content/dam/aemguidesDALP/automotives/images/common/notice.png");
   background-size: 17px 17px;
-  background-repeat: no-repeat;
-  border-radius: 10px;
+  // background-repeat: no-repeat;
+  // border-radius: 10px;
 }
 
 .warning.hazardstatement .prefix-content::before {
-  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/restriction.png");
+  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/warning.png");
   background-size: 17px 17px;
-  background-repeat: no-repeat;
+  // background-repeat: no-repeat;
 }
 
 .caution.hazardstatement .prefix-content::before {
@@ -116,7 +128,7 @@
   background-size: 17px 17px;
   width: 40px;
   height: 40px;
-  border-radius: 60%;
+  // border-radius: 60%;
 }
 
 
@@ -128,5 +140,14 @@
   .li {
     margin-bottom: 0;
     padding-bottom: 10px;
+  }
+}
+
+.note:not(.hazardstatement){
+  border-top: 2px solid var(--color-note-dark);
+  border-bottom: 2px solid var(--color-note-dark);
+
+  .prefix-content {
+    border: unset;
   }
 }
