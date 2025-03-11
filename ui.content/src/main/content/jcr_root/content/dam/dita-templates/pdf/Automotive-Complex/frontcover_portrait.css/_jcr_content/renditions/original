@@ -84,6 +84,7 @@
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   letter-spacing: 0.125rem;
+  text-transform: uppercase;
 }
 .frontcover_version {
   color: var(--frontcover-text-color);

@@ -178,7 +178,7 @@
 }
 #landscape_complex .pdf-toc-level-2:after {
   color: var(--color-accent);
-  font-weight: 500;
+  font-weight: 700;
 }
 #landscape_complex .toc-level-1:first-child {
   border-top: unset;
