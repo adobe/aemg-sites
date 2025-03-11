@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="chapter_portrait.css" type="text/css" />
   <meta name="page-style" content="size:portrait;margin-bottom:110px;margin-left:70px;margin-right:70px;margin-top:73px;" />
   <meta name="footnote-style" content="margin-top:1rem;" />
+  <link rel="stylesheet" href="highlightjs.css" type="text/css"/>
 </head>
 <body>
   <div data-region="header">
@@ -17,7 +18,10 @@
       <p class="chapter-rightpage-nums"><span data-field="chapter-number" data-format="default">1</span></p>
     </div>
   </div>
-  <div data-region="content"></div>
+  <div data-region="content">
+    <script src="highlight.js"></script>
+    <script src="runhighlightjs.js"></script>
+  </div>
   <div class="footer-space" data-region="footer">
     <div class="chapter_footer" style="">
       <p class="chapter_page_productname"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
