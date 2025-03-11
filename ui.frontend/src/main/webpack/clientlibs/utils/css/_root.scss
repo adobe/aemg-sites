@@ -65,27 +65,45 @@
 .note.danger {
   --color-danger-light: #fff0f0;
   --color-danger-dark: #d9534fbd;
+  --color-note-light: var(--color-danger-light);
+  --color-note-dark: var(--color-danger-dark);
 }
-.note.tip{
-  --color-tip-light: #EEEEEE;
+
+.note.tip {
+  --color-tip-light: #D8D8D8;
   --color-tip-dark: #ddd;
+  --color-note-light: var(--color-tip-light);
+  --color-note-dark: var(--color-tip-dark);
 }
+
 .note.caution {
-  --color-caution-light: #fff9e5;
-  --color-caution-dark: #f5c823;
+  --color-caution-light: #ffc301ba;
+  --color-caution-dark: #FFC301;
+  --color-note-light: var(--color-caution-light);
+  --color-note-dark: var(--color-caution-dark);
 }
-.note.restriction{
-  --color-restriction-light: #EEEEEE;
+
+.note.restriction {
+  --color-restriction-light: #D8D8D8;;
   --color-restriction-dark: #ddd;
+  --color-note-light: var(--color-restriction-light);
+  --color-note-dark: var(--color-restriction-dark);
 }
+
 .note.warning {
-    --color-warning-light: #ffeddf;
-    --color-warning-dark:  #F39C12;
-  }
-  .note.notice{
-      --color-notice-light : #f6f9fc;
-      --color-notice-dark :  #e4edf6;
-    }
+  --color-warning-light: #ffeddf;
+  --color-warning-dark: #F39C12;
+  --color-note-light: var(--color-warning-light);
+  --color-note-dark: var(--color-warning-dark);
+}
+
+.note.notice {
+  --color-notice-light: #B2E7F5;
+  --color-notice-dark: #5BC0DE;
+  --color-note-light: var(--color-notice-light);
+  --color-note-dark: var(--color-notice-dark);
+}
+
 
 // .hazardstatement.danger {
 //   --color-danger-light : #FFEBE7 ;
