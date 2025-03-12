@@ -8,13 +8,13 @@
         cq:name="glossary_landscape.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-12T18:06:02.292+05:30"
+        jcr:lastModified="{Date}2025-03-04T13:37:31.613+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-12T18:06:02.253+05:30"
-            dam:sha1="62dd7c4507d77527121b26725d51b237c24c5c97"
-            dam:size="{Long}27"
+            dam:extracted="{Date}2025-03-04T13:37:31.531+05:30"
+            dam:sha1="5c3a8dbc99093435e2d2a8e45a7dffbc5aab9cef"
+            dam:size="{Long}1519"
             dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

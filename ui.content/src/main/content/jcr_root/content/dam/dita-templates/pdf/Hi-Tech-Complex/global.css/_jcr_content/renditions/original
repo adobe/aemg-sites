@@ -36,7 +36,7 @@ html {
   font-size: var(--base-font-size);
 }
 body {
-  font-family: var(--font-fam-secondary);
+  font-family: var(--font-fam-primary-light);
 }
 .global-config,
 :root {
@@ -82,6 +82,8 @@ body {
   --color-notice-dark: #E4EDF6;
   --color-danger-darker: #FF0000;
   --color-footnote-light: #F8F9FA;
+  --color-bg-light-secondary: #E8F1FF;
+  --color-xref-primary: #0074D9;
 }
 .toc-config,
 :root {

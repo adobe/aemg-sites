@@ -8,14 +8,14 @@
         cq:name="FrontCover_Landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-20T18:20:20.619+05:30"
-        jcr:lastModifiedBy="prashant.singh@deptagency.com"
+        jcr:lastModified="{Date}2025-03-04T13:37:20.568+05:30"
+        jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-20T18:20:20.586+05:30"
-            dam:sha1="f8f2d1681eab0ab220e3905621eb592871f3a5a4"
-            dam:size="{Long}1603"
+            dam:extracted="{Date}2025-03-04T13:37:20.475+05:30"
+            dam:sha1="766e6fc93431a98d58915726542852842ff3e463"
+            dam:size="{Long}1617"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

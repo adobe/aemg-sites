@@ -17,7 +17,7 @@
         <p class="frontcover_landsc_mainbooktitle"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
         <p class="frontcover_landsc_titlealt">Application Note</p>
       </div>
-      <img class="frontcover_landsc_cover_img" src="../../../aemguidesDALP/hi-tech/images/frontcover-img.png" style="cursor: nesw-resize;" />
+      <img class="frontcover_landsc_cover_img" src="../../../aemguidesDALP/hi-tech/images/landscape/hi-tech-cover-image1-landscape.png" style="cursor: nesw-resize;" />
     </div>
   </div>
   <div data-region="footer">
@@ -27,7 +27,7 @@
         <div class="break_line"></div>
         <p class="frontcover_landsc_publish_date"><span data-field="date" data-format="MMMM YYYY">February 2025</span></p>
       </div>
-      <img class="frontcover_landsc_logo" src="../../../aemguidesDALP/hi-tech/images/backcover_logo.png" />
+      <img class="frontcover_landsc_logo" src="../../../aemguidesDALP/hi-tech/images/common/backcover_logo.png" />
     </div>
   </div>
 </body>

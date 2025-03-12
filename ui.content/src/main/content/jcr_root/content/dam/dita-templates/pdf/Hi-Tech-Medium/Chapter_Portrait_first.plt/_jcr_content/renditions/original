@@ -8,9 +8,9 @@
   <meta name="footnote-style" content="" />
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
+  <link rel="stylesheet" type="text/css" href="custom.css" />
   <link rel="stylesheet" type="text/css" href="chapter_portrait_first.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
-  <link rel="stylesheet" type="text/css" href="custom.css" />
 </head>
 <body data-layout="page">
   <div class="chapter_firstpage_header" data-region="header"></div>
@@ -20,7 +20,7 @@
         <p class="chapter_firstpage_title"><span data-field="chapter-title" data-format="default">Chapter Title</span></p>
         <p class="chapter_firstpage_description">This chapter describes the steps and lists the registers needed to tune the USB 2.0 high-speed eye diagram for the Jetson AGX OrinTM series modules.</p>
       </div>
-      <div class="chapter_firstpage_img_container"><img class="chapter_firstpage_cover-img" src="../../../aemguidesDALP/hi-tech/images/firstpage-cover-img.png" /> </div>
+      <div class="chapter_firstpage_img_container"><img class="chapter_firstpage_cover-img" src="../../../aemguidesDALP/hi-tech/images/portrait/hitech-cover-img1-portrait.png" /> </div>
     </div>
   </div>
   <div data-region="footer">

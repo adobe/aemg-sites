@@ -12,7 +12,7 @@
         dam:processingRequestedDate="{Date}2025-02-20T06:20:43.540Z"
         dam:runDMProcess="{Boolean}false"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2025-02-20T18:20:18.040+05:30"
+        jcr:lastModified="{Date}2025-03-04T13:37:17.184+05:30"
         jcr:lastModifiedBy="prashant.singh@deptagency.com"
         jcr:primaryType="dam:AssetContent"
         dxmlLastCreatedVersion="1.0"
@@ -54,7 +54,7 @@
                 reason="RenditionFormatUnsupported"/>
         </dam:failedRenditions>
         <metadata
-            dam:extracted="{Date}2025-02-20T18:20:17.952+05:30"
+            dam:extracted="{Date}2025-03-04T13:37:17.078+05:30"
             dam:sha1="7f299e04e874444c83e5cae5610619f71cacdf3f"
             dam:size="{Long}718"
             dc:format="application/octet-stream"
