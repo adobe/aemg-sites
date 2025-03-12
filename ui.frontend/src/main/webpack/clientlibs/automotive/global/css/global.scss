@@ -367,3 +367,7 @@ body {
 // .sharePopup-container .popup.show {
 //   z-index: 1;
 // }
+
+li.step::before{
+  color: var(--color-secondary);
+}

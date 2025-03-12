@@ -227,8 +227,8 @@ li.step::before {
   content: counter(step-counter);
   counter-increment: step-counter;
   position: absolute;
-  left: 8px;
-  top: 16px;
+  left: 11px;
+  top: 15px;
   transform: translateY(-50%);
   width: 30px;
   height: 30px;
