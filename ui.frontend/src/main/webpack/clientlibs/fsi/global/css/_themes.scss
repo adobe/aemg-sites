@@ -41,7 +41,8 @@
   --color-border: #ACACAC;
   --color-primary2 :#292e42;
   --color-on-accent:#FDA14A;
-  --color-related-link:var( --color-primary-faded);
+  --color-link:#FDA14A;
+  --color-related-link:var(--color-accent);
 
   // .theme-btn {
   //   &::before {
