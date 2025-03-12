@@ -8,13 +8,13 @@
         cq:name="common_landscape.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-20T18:20:20.280+05:30"
+        jcr:lastModified="{Date}2025-03-04T13:37:14.545+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-20T18:20:20.249+05:30"
-            dam:sha1="cf4e1f2409afc451677544536fdd86694f7085c8"
-            dam:size="{Long}6596"
+            dam:extracted="{Date}2025-03-04T13:37:14.450+05:30"
+            dam:sha1="723b4c7b4fa4bbb7d8d1b92e813d8a68fb16bbbf"
+            dam:size="{Long}6604"
             dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

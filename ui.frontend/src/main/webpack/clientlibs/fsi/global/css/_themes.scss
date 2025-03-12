@@ -2,7 +2,6 @@
 
 @mixin light-theme {
   --color-accent: #FDA14A;
-  --color-on-accent: ;
   --color-primary: #013220;
   --color-on-primary: #FDA14A;
   --color-primary-light: #E2F8F0;
@@ -11,6 +10,7 @@
   --color-border-light: #D8D8D8;
   --color-gray-light: #2C343B;
   --color-bg: #FFFFFF;
+  --color-related-link:var( --color-primary-faded);
 
   // .theme-btn {
   //   &::before {
@@ -40,6 +40,9 @@
   --color-primary-light: #1a1b26;
   --color-border: #ACACAC;
   --color-primary2 :#292e42;
+  --color-on-accent:#FDA14A;
+  --color-link:#FDA14A;
+  --color-related-link:var(--color-accent);
 
   // .theme-btn {
   //   &::before {
