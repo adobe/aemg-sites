@@ -332,5 +332,16 @@
   }
 } 
 
+.left-container .toc-search .cmp-form-text__text{
+  &::placeholder{
+    opacity: 60%;
+  }
+}
+
+.dark .left-container .toc-search .cmp-form-text__text{
+  color: var(--color-on-accent);
+}
+
+
 
 

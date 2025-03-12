@@ -39,12 +39,15 @@ body {
   background-color: var(--color-primary2);
 }
 .dark .feedback-container .feedback-buttons .feedback-button{
-  color: var(--color-border-light);
+  background-color: var(--color-bg-2);
+  color: var(--color-primary-2);
   &:hover {  
-    color: var(--color-accent);
+    background-color: var(--color-accent);
   }
-
 } 
+.dark .feedback-container .feedback-buttons .feedback-button.selected{
+  background-color: var(--color-accent);
+}
 
 .pdf-download{
   .pdf-note {
@@ -76,4 +79,16 @@ body {
   .download-manual-button.padding-bottom .cmp-container{
     padding-bottom: 40px;
   } 
+}
+
+.related-links .link{
+  &:hover{
+    color: var(--color-primary);
+  }
+}
+
+.dark .related-links .link{
+  &:hover{
+    color: var(--color-bg-2);
+  }
 }
