@@ -90,7 +90,16 @@ function displayDataOnPage(resultData) {
       // getLoadMoreBtn.style.display = "none";
   }
 
+  var uniqueUrls = new Set();
+
   for (var i = 0; i < data.length; i++) {
+
+    if(uniqueUrls.has(data[i].path)) {
+      continue;
+    }
+    
+    uniqueUrls.add(data[i].path);
+
     let breadcrumb = data[i].path.slice(1).replaceAll('/', ' > ')
     var fifthIndex = breadcrumb.indexOf(' > ', breadcrumb.indexOf(' > ', breadcrumb.indexOf(' > ', breadcrumb.indexOf(' > ') + 1) + 1) + 1) + 3; // Finding the index of the fifth '>'
     breadcrumb = breadcrumb.slice(fifthIndex);
@@ -98,6 +107,9 @@ function displayDataOnPage(resultData) {
     LIST_GROUP += ("<li class='cmp-searchresult-item'><h3 class='cmp-searchresult-title'><a class='cmp-searchresult-link' target='_blank' href=" + checkNull(data[i].url || (data[i].path + ".html")) + ">" + checkNull(data[i]['jcr:title']) + "</a></h3><span class='cmp-searchresult-tags'>" + checkNull(data[i].tags) + "<span class='cmp-searchresult-date'>" + checkNull(data[i].formattedLastModifiedDate) + "</span> <p class='cmp-searchresult-description'>" + checkNull(data[i].excerpt) + "</p><p class='cmp-searchresult-breadcrumb'>" + checkNull(breadcrumb) + "</p></li>")
       || "";
   }
+  
+  showCountVal = uniqueUrls.size;
+
   searchFieldListGroup.innerHTML = LIST_GROUP;
   let startFrom = Math.min(1, showCountVal);
   // if(hasMore) {
