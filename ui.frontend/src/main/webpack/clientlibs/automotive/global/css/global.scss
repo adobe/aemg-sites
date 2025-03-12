@@ -371,3 +371,7 @@ body {
 li.step::before{
   color: var(--color-secondary);
 }
+
+.dark .progress-bar-container>.cmp-container{
+  background-color: var(--color-accent-dark);
+}
