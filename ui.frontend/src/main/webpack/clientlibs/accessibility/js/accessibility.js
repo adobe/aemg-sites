@@ -61,6 +61,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Event listener for clicking the close button
   closeBtn.addEventListener("click", () => {
+
+    if(e.target == accessibilityIcon || e.target == closeBtn) {
+      document.querySelector(".overlay-main").classList.toggle("overlay");
+      return;
+    }
+
     accessibilityMenu.classList.add("hidden");
     document.querySelector(".overlay-main").classList.remove("overlay");
   });
@@ -1041,6 +1047,19 @@ footer p {
       }
     });
   });
+
+  document.body.addEventListener("click", function(e) {
+
+    if(e.target == accessibilityIcon) {
+      // accessibilityMenu.classList.toggle("hidden");
+      return;
+    }
+
+    if(!e.target.closest(".accessibility") || e.target == closeBtn) {
+      accessibilityMenu.classList.add("hidden");
+    }
+  });
+  
 });
 
 let increaseFontSize = document.querySelector('.increase-fs')
@@ -1065,10 +1084,4 @@ decreaseFontSize.addEventListener('click',()=>{
   document.documentElement.style.fontSize = `${newFontSize}px`;
   const accessibilityElem = document.querySelector('.accessibility-menu');
   accessibilityElem.style.fontSize = 'initial';
-});
-
-document.body.addEventListener("click", function(e) {
-  if(!e.target.closest(".accessibility")) {
-    accessibilityMenu.classList.toggle("hidden");
-  }
 });
