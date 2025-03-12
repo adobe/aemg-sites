@@ -60,3 +60,9 @@ table {
 .dark thead tr th{
   color: var(--color-on-accent);
 }
+
+.dark .topic-body{
+  a.xref{
+    color:  var(--color-link);
+  }
+}

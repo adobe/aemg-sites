@@ -1065,4 +1065,10 @@ decreaseFontSize.addEventListener('click',()=>{
   document.documentElement.style.fontSize = `${newFontSize}px`;
   const accessibilityElem = document.querySelector('.accessibility-menu');
   accessibilityElem.style.fontSize = 'initial';
-})
+});
+
+document.body.addEventListener("click", function(e) {
+  if(!e.target.closest(".accessibility")) {
+    accessibilityMenu.classList.toggle("hidden");
+  }
+});
