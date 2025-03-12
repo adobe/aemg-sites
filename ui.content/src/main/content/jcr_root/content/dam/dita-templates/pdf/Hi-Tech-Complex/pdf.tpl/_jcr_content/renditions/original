@@ -123,14 +123,14 @@
   <hyperlinkGlossary type="boolean">true</hyperlinkGlossary>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
   <layout>Common</layout>
-  <coverPageLayout>Frontcover_landscape</coverPageLayout>
-  <backPageLayout>Backcover_landscape</backPageLayout>
-  <emptyPageLayout>Blank_landscape</emptyPageLayout>
-  <tocLayout>TOC_landscape</tocLayout>
-  <topicLayout>Chapter_landscape</topicLayout>
-  <gloLayout>Glossary_landscape</gloLayout>
-  <indexLayout>Index_landscape</indexLayout>
+  <coverPageLayout>Frontcover_Portrait</coverPageLayout>
+  <backPageLayout>Backcover_Portrait</backPageLayout>
+  <emptyPageLayout>Blank_Portrait</emptyPageLayout>
+  <tocLayout>TOC_Portrait</tocLayout>
+  <topicLayout>Chapter_Portrait</topicLayout>
+  <gloLayout>Glossary_Portrait</gloLayout>
+  <indexLayout>Index_Portrait</indexLayout>
   <bibLayout></bibLayout>
-  <lotLayout>LOT_landscape</lotLayout>
-  <lofLayout>LOF_landscape</lofLayout>
+  <lotLayout>LOT_Portrait</lotLayout>
+  <lofLayout>LOF_Portrait</lofLayout>
 </settings>
