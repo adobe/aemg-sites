@@ -53,4 +53,7 @@
 
 .dark .vehicleproductcategory ul li {
     border: 1px solid var(--color-primary);
+    &.active-filter{
+        color: var(--color-accent-dark);
+    }
 }
