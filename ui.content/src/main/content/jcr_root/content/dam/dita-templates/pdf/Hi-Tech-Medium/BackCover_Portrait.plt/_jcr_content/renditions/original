@@ -6,13 +6,12 @@
   <title>Back Cover Layout</title>
   <meta name="page-style" content="size:portrait;position:relative;margin-left:0px;margin-right:0px;" />
   <meta name="footnote-style" content="" />
-
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="backcover_portrait.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
 </head>
 <body>
-  <div class="backcover_header"><img class="backcover_logo" src="../../../aemguidesDALP/hi-tech/images/backcover_logo.png" /></div>
+  <div class="backcover_header"><img class="backcover_logo" src="../../../aemguidesDALP/hi-tech/images/common/backcover_logo.png" /></div>
   <div class="backcover_content">
     <div class="backcover_text">
       <p class="backcover_description"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
@@ -20,10 +19,10 @@
     <div class="backcover_organization_details">
       <div class="backcover_contact_container">
         <p class="backcover_contact_label">Contact</p>
-        <div class="backcover_phoneno_container"><img class="backcover_phone_img" src="../../../aemguidesDALP/hi-tech/images/phone-img.png" />
+        <div class="backcover_phoneno_container"><img class="backcover_phone_img" height="0" src="../../../aemguidesDALP/hi-tech/images/common/phone-img.png" width="0" />
           <p class="backcover_phone_number">000 800 050 01888</p>
         </div>
-        <div class="backcover_email_container"><img class="backcover_email_img" src="../../../aemguidesDALP/hi-tech/images/email-img.png" />
+        <div class="backcover_email_container"><img class="backcover_email_img" src="../../../aemguidesDALP/hi-tech/images/common/email-img.png" />
           <p class="backcover_email">info@nvidia.com</p>
         </div>
       </div>
@@ -34,7 +33,7 @@
       </div>
       <div class="backcover_socials_container">
         <p class="backcover_socials_label">Social media</p>
-        <div class="backcover_socials_link_container"><img class="backcover_insta_img" src="../../../aemguidesDALP/hi-tech/images/insta-img.png" />
+        <div class="backcover_socials_link_container"><img class="backcover_insta_img" src="../../../aemguidesDALP/hi-tech/images/common/insta-img.png" />
           <p class="backcover_social">info@nvidia.com</p>
         </div>
       </div>

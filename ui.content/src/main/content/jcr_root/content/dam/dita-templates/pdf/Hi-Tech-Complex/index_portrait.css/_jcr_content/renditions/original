@@ -1,8 +1,8 @@
-#index-header {
+#index_header {
   margin-bottom: 27px;
   text-align: left;
   display: flex;
-    align-items: baseline;
+  align-items: baseline;
 }
 #index_header_title {
   font-family: var(--font-fam-secondary);
