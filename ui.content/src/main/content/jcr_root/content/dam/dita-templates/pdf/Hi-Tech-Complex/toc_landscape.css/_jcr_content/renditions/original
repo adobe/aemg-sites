@@ -60,7 +60,8 @@
   color: var(--color-accent);
   margin-top: 22px;
 }
-a.topicref.pdf-toc-level-1.toc-level-1 {
+a.topicref.pdf-toc-level-1.toc-level-1,
+.a.pdf-toc-level-1.toc-level-1.toc-level-1-pageno {
   display: flex;
   gap: 15px;
 }

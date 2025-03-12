@@ -8,13 +8,13 @@
         cq:name="frontcover_portrait.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-11T17:14:47.219+05:30"
+        jcr:lastModified="{Date}2025-03-04T13:37:26.692+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-11T17:14:47.195+05:30"
-            dam:sha1="62dd7c4507d77527121b26725d51b237c24c5c97"
-            dam:size="{Long}27"
+            dam:extracted="{Date}2025-03-04T13:37:26.631+05:30"
+            dam:sha1="2846055433de6f73f1dca89b72f2733f023453f8"
+            dam:size="{Long}1339"
             dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
