@@ -50,17 +50,17 @@
 }
 
 .note.restriction .prefix-content::before {
-  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/restriction.png");
+  background-image: url("/content/dam/aemguidesDALP/common/restriction.png");
   background-size: 17px 17px;
 }
 
 .note.caution .prefix-content::before {
-  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/caution.png");
+  background-image: url("/content/dam/aemguidesDALP/common/caution.png");
   background-size: 17px 17px;
 }
 
 .note.tip .prefix-content::before {
-  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/tip.png");
+  background-image: url("/content/dam/aemguidesDALP/common/tip.png");
   background-size: 17px 17px;
 }
 
@@ -103,30 +103,30 @@
 
 .note.danger .prefix-content::before,
 .hazardstatement.note.danger .prefix-content::before {
-  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/danger.png");
+  background-image: url("/content/dam/aemguidesDALP/common/danger.png");
   background-size: 17px 17px;
 }
 
 .notice.hazardstatement .prefix-content::before {
-  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/notice.png");
+  background-image: url("/content/dam/aemguidesDALP/common/notice.png");
   background-size: 17px 17px;
   // background-repeat: no-repeat;
   // border-radius: 10px;
 }
 
 .warning.hazardstatement .prefix-content::before {
-  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/warning.png");
+  background-image: url("/content/dam/aemguidesDALP/common/warning.png");
   background-size: 17px 17px;
   // background-repeat: no-repeat;
 }
 
 .caution.hazardstatement .prefix-content::before {
-  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/caution.png");
+  background-image: url("/content/dam/aemguidesDALP/common/caution.png");
   background-size: 17px 17px;
 }
 
 .notice .prefix-content::before {
-  background-image: url("/content/dam/aemguidesDALP/automotives/images/common/notice.png");
+  background-image: url("/content/dam/aemguidesDALP/common/notice.png");
   background-size: 17px 17px;
   width: 40px;
   height: 40px;
