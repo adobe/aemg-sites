@@ -236,3 +236,8 @@
     }
   }
 }
+.dark .topic-body{
+  a.xref{
+    color:  var(--color-link);
+  }
+}
