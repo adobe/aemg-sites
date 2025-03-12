@@ -8,12 +8,12 @@
         cq:name="frontcover_landscape.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-05T11:55:16.101+05:30"
+        jcr:lastModified="{Date}2025-03-12T13:07:30.981+05:30"
         jcr:lastModifiedBy="prashant.singh@deptagency.com"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-03-05T11:55:16.057+05:30"
+            dam:extracted="{Date}2025-03-12T13:07:30.856+05:30"
             dam:sha1="0d0a24186939dfcb457723cabc6ed5e3e4c65a4b"
             dam:size="{Long}1446"
             dc:format="text/css"

@@ -8,12 +8,12 @@
         cq:name="Backcover_Portrait.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-05T11:55:16.115+05:30"
+        jcr:lastModified="{Date}2025-03-12T13:07:30.981+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-03-05T11:55:16.076+05:30"
+            dam:extracted="{Date}2025-03-12T13:07:30.865+05:30"
             dam:sha1="7b113d09224aa45e9d83654e65e4a46f06beb926"
             dam:size="{Long}2081"
             dc:format="application/octet-stream"
