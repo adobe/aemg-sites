@@ -43,6 +43,8 @@
   --color-on-accent:#FDA14A;
   --color-link:#FDA14A;
   --color-related-link:var(--color-accent);
+  --color-bg-2:#FFFFFF;
+  --color-primary-2:#013220;
 
   // .theme-btn {
   //   &::before {
@@ -99,6 +101,9 @@
   // }
   .dark\:bg-img-monochrome > .cmp-container::before{
     display: block !important;
+  }
+  .theme-btns .fa-moon {
+    color: var(--color-bg);
   }
 }
 

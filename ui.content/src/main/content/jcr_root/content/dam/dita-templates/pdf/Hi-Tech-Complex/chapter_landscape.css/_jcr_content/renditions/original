@@ -171,8 +171,8 @@
   color: var(--color-accent);
   margin-top: 21px;
 }
-h1.title {
-   font-family: var(--font-fam-secondry);;
+h1.title, h2.title,h3.title {
+  font-family: var(--font-fam-secondry);
   font-size: var(--text-base);
   font-weight: 500;
   line-height: var(--text-sm-lh);

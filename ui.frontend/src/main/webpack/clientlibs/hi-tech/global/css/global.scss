@@ -206,3 +206,17 @@ body {
     }
   }
 }
+
+.related-links .link{
+  &:hover{
+    color: var(--color-primary);
+  }
+}
+
+.dark{
+  .related-links .link{
+    &:hover{
+      color: var(--color-primary);
+    }
+  }
+}
