@@ -7,13 +7,14 @@ term,
 .term,
 i,
 .i {
-  color: var(--color-tertiary);
+  color: inherit;
   font-style: italic;
-  font-size: var(--text-xs);
-  line-height: var(--text-xs-lh);
+  font-size: inherit;
+  line-height: inherit;
   font-weight: 600;
   font-family: var(--font-fam-secondary);
-  letter-spacing: 0.5px;
+  letter-spacing: unset;
+  margin: unset;
 }
 q,
 .q {
@@ -215,7 +216,7 @@ li.choice {
 }
 /* Display inline content */
 .display-inline {
-  display: inline-block;
+  /* display: inline-block; */
   margin-right: unset;
 }
 /* Styling for the span elements */
@@ -298,7 +299,7 @@ ol li::before {
   content: counter(list-counter);
   position: absolute;
   left: 0;
-  top: 30%;
+  top: 14px;
   transform: translateY(-50%);
   width: 24px;
   height: 24px;
@@ -373,10 +374,10 @@ b,
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   font-weight: bold;
-  color: var(--color-accent, #0056b3);
+  color: var(--color-primary, #013220);
   text-transform: uppercase;
   font-size: var(--text-base, 1rem);
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   undefined: undefined;
 }
 .restriction,
@@ -472,7 +473,8 @@ b,
 /* long message hazardement statement css */
 .hazardstatement.warning,
 .hazardstatement.danger,
-.hazardstatement.notice {
+.hazardstatement.notice,
+.hazardstatement.caution {
   background-color: #FFFFFF;
   border: none;
   margin: 20px 0px;
@@ -693,10 +695,10 @@ b,
   padding: 15px;
   max-width: 600px;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   word-wrap: break-word;
   break-inside: avoid;
-  font-family: var(--font-fam-secondary);
+  font-family: serif;
 }
 .pre {
   font-size: var(--text-xs);
