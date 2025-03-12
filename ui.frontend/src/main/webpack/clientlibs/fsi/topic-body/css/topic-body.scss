@@ -134,7 +134,9 @@
     font-size: var(--text-base);
     font-weight: 400;
     line-height: var(--text-lg-lh);
-    margin-bottom: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 3px;
+    border-bottom: 1px solid var(--color-primary);
   }
   .cmp-text .info {
     margin: 40px 0px;
@@ -234,5 +236,10 @@
     li {
       font-size: var(--text-xs);
     }
+  }
+}
+.dark .topic-body{
+  a.xref{
+    color:  var(--color-link);
   }
 }

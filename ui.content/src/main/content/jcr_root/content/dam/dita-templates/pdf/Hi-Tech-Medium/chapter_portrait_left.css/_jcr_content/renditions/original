@@ -241,7 +241,7 @@ tbody .entry ul li {
   border-bottom: 0.5px solid var(--color-neutral);
   margin-top: 40px;
 }
-.caution {
+/* .caution {
   font-size: var(--text-4xs);
   line-height: var(--text-4xs-lh);
   font-weight: 400;
@@ -249,7 +249,7 @@ tbody .entry ul li {
   font-style: italic;
   margin: 0;
   color: var(--color-accent);
-}
+} */
 .caution b {
   font-size: var(--text-4xs);
   line-height: var(--text-4xs-lh);
@@ -292,16 +292,6 @@ span:has(img.caution_img) {
   display: inline-block !important;
   width: 24px;
   height: 24px;
-}
-.chapter_img_first {
-  display: inline-block !important;
-  width: 134px;
-  height: 97px;
-}
-.chapter_img_second {
-  display: inline-block !important;
-  width: 134px;
-  height: 121px;
 }
 .glo-link {
   font-family: var(--font-fam-primary);

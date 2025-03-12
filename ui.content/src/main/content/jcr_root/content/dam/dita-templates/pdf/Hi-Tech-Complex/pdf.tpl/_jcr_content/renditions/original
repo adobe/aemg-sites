@@ -9,7 +9,7 @@
   <modifyHeadings type="boolean">true</modifyHeadings>
   <notDisplayPageNo>false</notDisplayPageNo>
   <leaderFormat>dotted</leaderFormat>
-  <tableContinuation type="boolean">true</tableContinuation>
+  <tableContinuation type="boolean">false</tableContinuation>
   <useUserToc type="boolean">true</useUserToc>
   <toclevel type="number">4</toclevel>
   <startChapterFromNewPage type="boolean">false</startChapterFromNewPage>

@@ -34,6 +34,7 @@
 @media screen and (max-width: 768px) {
   .vehicleproductcategory {
       margin-bottom: 24px;
+      margin-top: 16px;
       ul{
           flex-wrap: unset;
           overflow: auto;
@@ -52,4 +53,7 @@
 
 .dark .vehicleproductcategory ul li {
     border: 1px solid var(--color-primary);
+    &.active-filter{
+        color: var(--color-accent-dark);
+    }
 }

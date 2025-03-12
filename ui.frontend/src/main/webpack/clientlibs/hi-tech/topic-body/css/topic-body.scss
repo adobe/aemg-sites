@@ -216,6 +216,8 @@ tbody .entry ul li {
   line-height: var(--text-sm-lh);
   font-weight: 400;
   padding-bottom: 0.8em;
+  border-bottom: 1px solid var(--color-primary);
+  margin-bottom: 30px;
 }
 
 // character styles start
@@ -479,4 +481,10 @@ margin-bottom: 20px;
 .chapter_body_heading{
 font-weight: 500;
 }
+}
+
+.dark .topic-body{
+  a.xref{
+    color:  var(--color-link);
+  }
 }

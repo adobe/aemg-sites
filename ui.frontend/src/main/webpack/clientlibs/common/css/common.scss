@@ -448,6 +448,7 @@ body {
 }
 
 .hide-side-panel {
+  display: none;
   animation: sidepanel-hide 0.28s forwards;
 }
 
@@ -580,4 +581,9 @@ body {
     opacity: 1;
     color: var(--color-accent);
   }
+}
+
+//pre display none
+.pre {
+  display: none;
 }

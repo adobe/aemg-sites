@@ -121,7 +121,7 @@
         background-color: var(--color-primary);
         height: 16px;
     }
-    .cmp-nav-item-selected.cmp-guidesnavigation__item-level-0.cmp-guidesnavigation__item-no-children::before{
+    .cmp-nav-item-selected.cmp-guidesnavigation__item-level-0::before{
         // left: 10px;
         // top: 0px;
         display: none;

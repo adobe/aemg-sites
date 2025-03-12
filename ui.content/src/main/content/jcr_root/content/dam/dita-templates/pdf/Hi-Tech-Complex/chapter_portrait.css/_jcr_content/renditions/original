@@ -163,7 +163,6 @@ h1.title {
   padding-inline-start: 0px;
   margin-top: 40px;
 }
-
 h2.chapter_sub-titles {
   font-family: Urbanist;
   font-size: var(--text-2xl);
@@ -208,7 +207,7 @@ fig .content-figure-image {
   /* content css start from here  */
   .content-figure-image .title,
   figcaption.title>.prefix-content::after {
-    font-family: Adobe Clean;
+    font-family: var(--font-fam-primary-regular);
     font-size: var(--text-base);
     font-weight: 400;
     line-height: 12px;

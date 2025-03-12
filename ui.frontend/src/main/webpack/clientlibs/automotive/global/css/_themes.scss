@@ -15,6 +15,7 @@
   --color-bg2: #0D0D0D;
   --color-content-bg2: #F2B28C;
   --color-content-bg3: #D84040;
+  --color-related-link:#4D6275;
   
   // .theme-btn {
   //   &::before {
@@ -25,7 +26,7 @@
 }
 
 @mixin dark-theme {
-    --color-accent: #821616;  
+    --color-accent: #FFFFFF;  
     --color-primary: #FFFFFF; 
     --color-primary-70: #1E3A5FB3;
     --color-secondary: #ffffff;
@@ -35,10 +36,14 @@
     --color-on-accent: #FFFFFF; 
     --color-light-grey: #B0B0B0; 
     --color-bg2: #0D0D0D;
-    --color-content-bg: #821616;
+    --color-content-bg: #191B1F;
     --color-content-bg2: #F2B28C;
     --color-content-bg3: #D84040;
-
+    --color-link:#FDA14A;
+    --color-related-link:#FFD700;
+    --color-accent-dark: #821616;
+    --color-bg-2:var(--color-primary);
+    --color-primary-2: var(--color-bg);
   //   .theme-btn {
   //   &::before {
   //     content: "\f186";
@@ -60,6 +65,9 @@
 .dark {
   @include dark-theme();
 
+  .theme-btns .fa-moon{
+    color: var(--color-accent-dark);
+  }
   // .theme-btn {
   //   &::before {
   //     content: "\f186" !important;

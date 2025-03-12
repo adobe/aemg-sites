@@ -172,7 +172,7 @@
   margin-top: 21px;
 }
 h1.title {
-  font-family: Urbanist;
+   font-family: var(--font-fam-secondry);;
   font-size: var(--text-base);
   font-weight: 500;
   line-height: var(--text-sm-lh);
@@ -181,7 +181,6 @@ h1.title {
   margin: 0px;
   margin-top: 40px;
 }
-
 h2.chapter_sub-titles {
   font-family: Urbanist;
   font-size: var(--text-2xl);
@@ -215,7 +214,7 @@ fig .content-figure-image-landscape {
 }
 .content-figure-image-landscape .title,
 figcaption.title>.prefix-content::after {
-  font-family: Adobe Clean;
+  font-family: var(--font-fam-primary-regular);
   font-size: var(--text-base);
   font-weight: 400;
   line-height: var(--text-4xs-lh);
@@ -298,12 +297,6 @@ figcaption.title>.prefix-content::after {
 .p {
   column-count: initial;
   column-gap: initial;
-  font-family: Inter;
-  font-size: var(--text-sm);
-  font-weight: 400;
-  line-height: 18px;
-  text-align: left;
-  color: var(--color-accent);
 }
 .img-icon {
   height: 16px;

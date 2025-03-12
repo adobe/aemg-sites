@@ -8,14 +8,14 @@
         cq:name="common.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-20T18:20:19.394+05:30"
-        jcr:lastModifiedBy="prashant.singh@deptagency.com"
+        jcr:lastModified="{Date}2025-03-04T13:37:18.421+05:30"
+        jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-20T18:20:19.367+05:30"
-            dam:sha1="10b7616a51edbb208d03cd997991bc2897e2d260"
-            dam:size="{Long}5808"
+            dam:extracted="{Date}2025-03-04T13:37:18.366+05:30"
+            dam:sha1="625d3f473c2862a3bd462d84034c5d01b29e084f"
+            dam:size="{Long}5814"
             dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
