@@ -2,8 +2,6 @@ window.addEventListener("DOMContentLoaded", function () {
   fetchSearchData();
 });
 
-
-
 async function fetchSearchData() {
   const API_ENDPOINT = "/content/aemguidesDALP/api/search-api.model.json";
   const ROOT_PATH = document.querySelector("[data-cmp-rootpath]").dataset.cmpRootpath;
