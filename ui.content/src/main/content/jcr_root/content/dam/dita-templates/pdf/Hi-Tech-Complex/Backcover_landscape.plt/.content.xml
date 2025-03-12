@@ -8,12 +8,12 @@
         cq:name="Backcover_landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-05T11:55:16.829+05:30"
+        jcr:lastModified="{Date}2025-03-12T13:07:33.632+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-03-05T11:55:16.782+05:30"
+            dam:extracted="{Date}2025-03-12T13:07:33.541+05:30"
             dam:sha1="ebca0da03fe117a8032eb9c5619fafb2c6d4a89c"
             dam:size="{Long}2098"
             dc:format="application/octet-stream"
