@@ -7,10 +7,10 @@ term,
 .term,
 i,
 .i {
-  color: var(--color-tertiary);
+  color: var(--color-primary);
   font-style: italic;
-  font-size: var(--text-xs);
-  line-height: var(--text-xs-lh);
+  font-size: inherit;
+  line-height: inherit;
   font-weight: 600;
   font-family: var(--font-fam-primary);
   letter-spacing: 0.5px;
@@ -21,7 +21,7 @@ q,
   font-size: var(--text-base);
   /* border-left: 5px solid var(--color-accent); */
   margin: 20px 0;
-  padding-left: 35px;
+  padding: 10px 0px 10px 35px;
   color: var(--color-tertiary);
   background-color: var(--color-primary);
   line-height: var(--text-base-lh);
@@ -35,7 +35,7 @@ q::before,
   font-size: 2em;
   color: var(--color-tertiary);
   position: absolute;
-  top: 0px;
+  top: unset;
   left: 7px;
   font-family: auto;
 }
@@ -79,13 +79,13 @@ q::after,
   font-weight: 400;
   color: var(--color-primary, #2c3e50);
   margin-bottom: 0.5rem;
- font-size: var(--text-xl);
+  font-size: var(--text-xl);
   line-height: var(--text-xl-lh);
 }
 .ddhd {
   margin-left: 1rem;
   font-family: var(--font-fam-primary);
-  color: var(--color-tertiary);
+  color: var(--color-primary);
   font-size: var(--text-base);
   line-height: var(--text-base-lh);
 }
@@ -120,7 +120,7 @@ q::after,
 .dd {
   margin-left: 1rem;
   font-family: var(--font-fam-primary);
-  color: var(--color-tertiary);
+  color: var(--color-primary);
   font-size: var(--text-base);
   line-height: var(--text-base-lh);
 }
@@ -170,12 +170,12 @@ li.step::before {
   counter-increment: step-counter;
   position: absolute;
   left: 8px;
-  top: 16px;
+  top: 14px;
   transform: translateY(-50%);
   width: 30px;
   height: 30px;
- background: var(--color-primary, green);
-color: var(--color-tertiary);
+  background: var(--color-primary, green);
+  color: var(--color-tertiary);
   font-weight: bold;
   font-size: 16px;
   border-radius: 50%;
@@ -226,8 +226,8 @@ li.choice {
 }
 /* Display inline content */
 .display-inline {
-  display: inline-block;
-  margin-right: 5px;
+  display: unset;
+  margin-right: 0px;
 }
 /* Styling for the span elements */
 .ph.uicontrol {
@@ -259,7 +259,6 @@ image {
   max-width: 100%;
   height: auto;
 }
-
 /* Styling for unordered lists */
 ul {
   list-style-type: none;
@@ -315,7 +314,7 @@ ol li::before {
   content: counter(list-counter);
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 14px;
   transform: translateY(-50%);
   width: 24px;
   height: 24px;
@@ -332,7 +331,6 @@ ol li b {
   display: block;
   margin-bottom: 5px;
 }
-
 .footnote-ref {
   font-size: 0.8em;
   color: var(--color-accent, #007bff);
@@ -356,7 +354,7 @@ ol li b {
 }
 .xref,
 .glo-link {
-  color: var(--color-tertiary) !important;
+  color: var(--color-primary) !important;
   text-decoration: underline !important;
   font-family: var(--font-fam-primary);
   font-size: var(--text-xs);
@@ -391,13 +389,12 @@ b,
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   font-weight: bold;
-  color: var(--color-tertiary, #0056b3);
+  color: inherit;
   text-transform: uppercase;
   font-size: var(--text-base, 1rem);
   letter-spacing: 0px;
   undefined: undefined;
 }
-
 .restriction,
 .note.caution,
 .tip {
@@ -443,7 +440,7 @@ b,
 }
 .note.restriction .prefix-content::before {
   content: "";
-  background-image: url(../../../aemguidesDALP/automotives/images/common/danger.png);
+  background-image: url(../../../aemguidesDALP/fsi/images/common/danger.png);
   background-size: 17px 17px;
   background-repeat: no-repeat;
   width: 24px;
@@ -455,7 +452,7 @@ b,
 }
 .note.caution .prefix-content::before {
   content: "";
-  background-image: url(../../../aemguidesDALP/automotives/images/common/caution.png);
+  background-image: url(../../../aemguidesDALP/fsi/images/common/caution.png);
   background-size: 17px 17px;
   background-repeat: no-repeat;
   width: 32px;
@@ -467,7 +464,7 @@ b,
 }
 .note.tip .prefix-content::before {
   content: "";
-  background-image: url(../../../aemguidesDALP/automotives/images/common/tip.png);
+  background-image: url(../../../aemguidesDALP/fsi/images/common/tip.png);
   background-size: 13px 13px;
   background-repeat: no-repeat;
   width: 24px;
@@ -480,7 +477,8 @@ b,
 /* long message hazardement statement css */
 .hazardstatement.warning,
 .hazardstatement.danger,
-.hazardstatement.notice {
+.hazardstatement.notice,
+.hazardstatement.caution {
   background-color: #FFFFFF;
   border: none;
   margin: 20px 0px;
@@ -499,7 +497,7 @@ b,
   border-top: 0.5px solid #D8D8D8;
   border-bottom: 0.5px solid #D8D8D8;
   padding: 13px 0px;
-} 
+}
 .hazardstatement .prefix-content {
   background: none;
   display: flex;
@@ -512,7 +510,7 @@ b,
 }
 .note.danger .prefix-content::before {
   content: "";
-  background-image: url(../../../aemguidesDALP/automotives/images/common/danger.png);
+  background-image: url(../../../aemguidesDALP/fsi/images/common/danger.png);
   background-size: 17px 17px;
   background-repeat: no-repeat;
   width: 32px;
@@ -530,7 +528,7 @@ b,
 }
 .warning.hazardstatement .prefix-content::before {
   content: "";
-  background-image: url(../../../aemguidesDALP/automotives/images/common/restriction.png);
+  background-image: url(../../../aemguidesDALP/fsi/images/common/restriction.png);
   background-size: 17px 17px;
   background-repeat: no-repeat;
   width: 32px;
@@ -542,7 +540,7 @@ b,
 }
 .caution.hazardstatement .prefix-content::before {
   content: "";
-  background-image: url(../../../aemguidesDALP/automotives/images/common/caution.png);
+  background-image: url(../../../aemguidesDALP/fsi/images/common/caution.png);
   background-size: 17px 17px;
   background-repeat: no-repeat;
   width: 32px;
@@ -554,7 +552,7 @@ b,
 }
 .notice .prefix-content::before {
   content: "";
-  background-image: url(../../../aemguidesDALP/automotives/images/common/notice.png);
+  background-image: url(../../../aemguidesDALP/fsi/images/common/notice.png);
   background-repeat: no-repeat;
   width: 32px;
   height: 32px;
@@ -567,7 +565,7 @@ b,
 .hazardstatement .messagepanel {
   list-style-type: disc;
   margin-top: 16px;
-  padding-inline-start: 38px;
+  margin-inline-start: 40px;
 }
 .hazardstatement .ul .li {
   background: white;
@@ -596,15 +594,15 @@ b,
 /*new elements  */
 .overline {
   text-decoration: overline !important;
-      color: var(--color-tertiary);
+  color: var(--color-primary);
   /* Dark red color */
   font-weight: bold;
-  border-top: 1px solid var(--color-tertiary);
+  border-top: 1px solid var(--color-primary);
 }
 /* Style for <line-through> */
 .line-through {
   text-decoration: line-through;
-  color: var(--color-neutral);
+  color: var(--color-primary);
   /* Gray color for strike-through text */
   font-style: italic;
 }
@@ -615,21 +613,22 @@ b,
 /* Style for <u> (underline) */
 .u {
   text-decoration: underline;
-  color: var(--color-tertiary, #0056b3);
+  color: var(--color-primary, #0056b3);
   /* Green color for underline */
   font-weight: bold;
 }
 /* Style for <i> (italic) */
 .i {
   font-style: italic;
-  color: #0288D1;
+  color: inherit;
   /* Blue color for italic text */
-  font-size: 1.1em;
+  font-size: inherit;
 }
 /* Style for <b> (bold) */
 .b {
   font-weight: bold;
-  color: var(--color-tertiary, #0056b3);
+  color: inherit;
+  font-size: inherit;
   /* Orange color for bold text */
 }
 /* Style for <tt> (monospace) */
@@ -642,7 +641,7 @@ b,
 }
 /* Style for <sup> (superscript) */
 .sup {
- font-size: inherit;
+  font-size: inherit;
   vertical-align: super;
   color: inherit;
   font-family: var(--font-fam-primary);
@@ -653,9 +652,8 @@ b,
   font-size: inherit;
   vertical-align: super;
   color: inherit;
- font-family: var(--font-fam-primary);
+  font-family: var(--font-fam-primary);
   font-weight: 600;
- 
   /* Blue color for subscript */
 }
 /* General paragraph styles */
@@ -723,8 +721,8 @@ a:hover {
   border-radius: 10px;
   border: 0.5px solid var(--color-border);
   /* box-shadow: 0px 4px 12px rgba(70, 130, 180, 0.2); */
-  margin: 20px;
-  max-width: 600px;
+  margin: 20px 0px;
+  max-width: unset;
   word-wrap: break-word;
   white-space: pre-wrap;
   break-inside: avoid;
