@@ -100,11 +100,11 @@
     </bookListsitem>
   </bookLists>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
-  <layout>Common_Landscape</layout>
-  <coverPageLayout>FrontCover_Landscape</coverPageLayout>
-  <emptyPageLayout>Blank_Landscape</emptyPageLayout>
-  <tocLayout>TOC_Landscape</tocLayout>
-  <topicLayout>Common_Landscape</topicLayout>
+  <layout>Common_Portrait</layout>
+  <coverPageLayout>FrontCover_Portrait</coverPageLayout>
+  <emptyPageLayout>Blank_Portrait</emptyPageLayout>
+  <tocLayout>TOC_Portrait</tocLayout>
+  <topicLayout>Common_Portrait</topicLayout>
   <gloLayout></gloLayout>
   <indexLayout></indexLayout>
 </settings>
