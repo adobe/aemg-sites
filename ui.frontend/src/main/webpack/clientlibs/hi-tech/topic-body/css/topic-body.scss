@@ -480,3 +480,9 @@ margin-bottom: 20px;
 font-weight: 500;
 }
 }
+
+.dark .topic-body{
+  a.xref{
+    color:  var(--color-link);
+  }
+}
