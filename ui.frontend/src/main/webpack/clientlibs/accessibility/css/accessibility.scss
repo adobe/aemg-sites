@@ -65,6 +65,9 @@ div.accessibility {
     border: 2px solid white;
     width: 30px;
     height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &:active {
       box-shadow: inset 2px 2px 25px rgba(0, 0, 0, 0.5);
@@ -79,7 +82,10 @@ div.accessibility {
     color: white;
     width: 30px;
     height: 30px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     &:active {
       box-shadow: inset 2px 2px 25px rgba(0, 0, 0, 0.5);
     }
@@ -117,6 +123,9 @@ div.accessibility {
     border: 1px solid grey;
     border-radius: 2px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   }
   
@@ -398,8 +407,8 @@ div.accessibility {
   }
   
   .overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 100;
+    // background-color: rgba(0, 0, 0, 0.7);
+    // z-index: 100;
   }
   
   #close-page-info-btn {
@@ -466,17 +475,17 @@ div.accessibility {
   /*-------------------------------------------------------*/
   
   .overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-    position: fixed; /* Sit on top of the page content */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
+    // background-color: rgba(0, 0, 0, 0.7);
+    // position: fixed; /* Sit on top of the page content */
+    // width: 100%; /* Full width (cover the whole page) */
+    // height: 100%; /* Full height (cover the whole page) */
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    // background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    // z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    // cursor: pointer; /* Add a pointer on hover */
   }
   
   .hidden {
