@@ -29,7 +29,7 @@ body {
 }
 .toc-level-4::before {
   counter-increment: toc4;
-  content: counter(toc1) "." counter(toc2) "."  counter(toc3) "." counter(toc4) " " !important;
+  content: counter(toc1) "." counter(toc2) "." counter(toc3) "." counter(toc4) " " !important;
   margin-right: 20px;
 }
 /**** Heading Styles ****/
