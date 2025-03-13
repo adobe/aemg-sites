@@ -30,11 +30,30 @@
   padding-bottom: 8px;
   border-left: 0.5px solid var(--color-gray);
   padding-left: 56px;
-  text-indent: -31px;
-  margin-inline-start: 2px;
-  margin-left: var(--toc-level-2-gap);
+      text-indent: -43px;
+    margin-inline-start: 16px;
+}
+
+.toc-level-3 {
+    font-size: var(--text-xs);
+    line-height: var(--text-xs-lh);
+    font-weight: 400;
+    color: var(--color-accent);
+    margin: 0;
+    padding-bottom: 8px;
+    border-left: 0.5px solid var(--color-gray);
+    padding-left: 105px;
+    text-indent: -51px;
+    margin-inline-start: 16px;
+
 }
 .toc-level-2::after {
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 700;
+  color: var(--color-accent);
+}
+.toc-level-3::after {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 700;
