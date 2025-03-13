@@ -107,17 +107,17 @@
       }
     }
     .pdf-download {
-      .cmp-button::before {
+      button::before {
         color: var(--color-on-accent);
       }
     }
     .bookmark {
-      .cmp-button::before {
+      button::before {
         color: var(--color-accent);
       }
     }
     .share {
-      .cmp-button::before {
+      button::before {
         color: var(--color-accent);
       }
     }
@@ -131,9 +131,18 @@
     .pdf-download .cmp-button__text{
       color: var(--color-accent-dark);
     }
-    .pdf-download .cmp-button::before{
-      color: var(--color-accent-dark);
+    .pdf-download{
+      .cmp-button::before{
+        color: var(--color-accent-dark);
+      }
     }
+    @media screen and (max-width: $screen-md) {
+      .pdf-download,.bookmark,.share{
+        .cmp-button::before{
+          color: var(--color-accent-dark);
+        }
+      }
+    }  
   }
 }
 
@@ -337,19 +346,13 @@
   .download-manual-button.padding-bottom {
     padding-bottom: 40px;
   }
-  .download-manual-button .cmp-container{
+  .download-manual-button > .cmp-container{
     .pdf-download{
       margin-right: unset;
       .cmp-button{
         order: 1;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
         .cmp-button__text{
           display: none;
-        }
-        &::before{
-          margin-left: -4px;
         }
       }
     } 
@@ -363,6 +366,28 @@
       order: 4;
       margin-left: auto;
     }
+    .pdf-download,.bookmark,.share{
+      button {
+        width: 40px;
+        height: 40px;
+        padding: 11px 16px;
+        box-sizing: border-box;
+        border-radius: 50%;
+        background-color: var(--color-accent);
+        border: none;
+        cursor: pointer;
+        color: var(--color-on-accent);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &::before {
+          color: var(--color-on-accent);
+        }
+      }
+    }
+  }
+  .download-manual-button > .cmp-container .share {
+    margin-left: 8px;
   }
 } 
 
