@@ -47,13 +47,6 @@ body{
   margin-top: 16px;
 }
 
-.codeph {
-  font-size: var(--text-base);
-  background: var(--color-neutral-light);
-  border: 1px solid var(--color-neutral-light);
-  font-family: var(--font-fam-primary);
-}
-
 h2 {
   font-family: var(--font-fam-primary);
 }
@@ -114,7 +107,7 @@ table {
 }
 
 .entry {
-  border: 0.5px solid var(--color-secondary-blue);
+  border: 1px solid var(--color-secondary-blue);
 }
 
 thead .entry {
@@ -185,8 +178,8 @@ tbody .entry ul li {
   gap: 8px;
   padding-bottom: 8px;
   padding-top: 8px;
-  border-top: 0.5px solid var(--color-neutral);
-  border-bottom: 0.5px solid var(--color-neutral);
+  border-top: 1px solid var(--color-neutral);
+  border-bottom: 1px solid var(--color-neutral);
   margin-top: 40px;
 }
 
@@ -365,8 +358,8 @@ align-items: center;
   background: var(--color-accent);
   color: var(--color-primary);
 }
-.footer_copywrite-wrapper{
-  border-top: 0.5px solid var(--color-primary-white);
+.light .footer_copywrite-wrapper{
+  border-top: 1px solid var(--color-primary-white);
 }
 // time to read and share container
 .time-share-Container{
@@ -382,18 +375,21 @@ align-items: center;
       border: unset;
     }
   }
+  .pdf-download {
+    display: none;
+  }
   .time-to-read{
     margin-right: auto;
   }
   .time-to-read .cmp-text{
-color: var(--color-primary);
+    color: var(--color-primary);
     font-family: var(--font-fam-primary);
     font-size: var(--text-xs);
     font-weight: 500;
     line-height: var(--text-xs-lh);
   }
- .bookmark , .share{
-  align-items: center;
+ .bookmark , .share, .pdf-download {
+    align-items: center;
     background-color: var(--color-primary);
     border: 2px solid var(--color-primary);
     border-radius: 50%;
@@ -404,17 +400,20 @@ color: var(--color-primary);
     overflow: hidden;
     width: 40px;
  }
- .bookmark .cmp-button , .share .cmp-button{
+ .bookmark .cmp-button , .share, .pdf-download, .cmp-button{
   color: var(--color-accent);
   font-size: var(--text-sm);
  }
+ .pdf-download {
+  display: none;
+}
 }
 @media screen and (max-width : $screen-md) {
-  .pdf-download.button{
-    display: none;
-  }
   .breadcrumb-container > .cmp-container{
     padding: 18px 24px;
+    .pdf-download.button{
+      display: none;
+    }
   }
   .title , h2{
     font-size: var(--text-3xl);
@@ -474,6 +473,13 @@ color: var(--color-primary);
 .time-share-Container .cmp-container {
   border-top: 1px solid var(--color-neutral);
   margin-bottom: 16px;
+  .pdf-download {
+    display: block;
+    .cmp-button{
+      margin-top: 9px;
+      margin-left: 5px ;
+    }
+  }
 }
 .toc-popup-init{
 margin-bottom: 20px;

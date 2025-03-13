@@ -208,6 +208,11 @@ li.step {
   margin-left: 0;
   .info{
     margin: 8px 0 63px !important;
+    font-size: var(--text-sm);
+    line-height: var(--text-sm-lh);
+  }
+  span{
+    font-weight: 500;
   }
 }
 /* Vertical line connecting steps */

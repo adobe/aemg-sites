@@ -118,8 +118,8 @@
 }
 .topic-body {
   & > .cmp-container {
-    font-size: var(--text-sm);
-    line-height: var(--text-sm-lh);
+    font-size: var(--text-base);
+    line-height: var(--text-base-lh);
     color: var(--color-primary);
     font-family: var(--font-fam-primary);
   }
@@ -134,10 +134,12 @@
     padding-bottom: 10px;
     border-bottom: 1px solid var(--color-primary);
     margin-bottom: 30px;
+    font-size: var(--text-lg);
+    line-height: var(--text-lg-lh);
   }
 
-  .cmp-text .p,
-  .shortdesc {
+  .cmp-text .p
+  {
     font-size: var(--text-base);
     font-weight: 400;
     line-height: var(--text-lg-lh);
@@ -150,7 +152,7 @@
   }
   .colspec,
   .row {
-    border: 0.5px solid var(--color-border);
+    border: 1px solid var(--color-border);
   }
   .thead {
     font-size: var(--text-xs);
@@ -158,7 +160,7 @@
     font-weight: 500;
     color: var(--color-primary);
     background-color: var(--color-primary-light);
-    border: 0.5px solid var(--color-border);
+    border: 1px solid var(--color-border);
     text-align: left;
   }
   .tbody {
@@ -166,7 +168,7 @@
     line-height: var(--text-2xs-lh);
     font-weight: 400;
     color: var(--color-gray-light);
-    border: 0.5px solid var(--color-border);
+    border: 1px solid var(--color-border);
   }
   th.entry {
     padding: 14px 16px;

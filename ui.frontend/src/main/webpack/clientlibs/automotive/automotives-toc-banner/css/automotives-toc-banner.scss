@@ -137,16 +137,20 @@
   }
 }
 
+.release-date.text p{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 
 .text{
   p{
     font-size: var(--text-xs);
     line-height: var(--text-xs-lh);
-    letter-spacing: 2px;
+    // letter-spacing: 2px;
     font-family: var(--font-fam-secondary);
     font-weight: 400;
     color: var(--color-primary);
-    text-transform: uppercase;
+    // text-transform: uppercase;
     margin-bottom: 8px;
 
     b{
@@ -332,6 +336,33 @@
 @media screen and (max-width: $screen-md) {
   .download-manual-button.padding-bottom {
     padding-bottom: 40px;
+  }
+  .download-manual-button .cmp-container{
+    .pdf-download{
+      margin-right: unset;
+      .cmp-button{
+        order: 1;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        .cmp-button__text{
+          display: none;
+        }
+        &::before{
+          margin-left: -4px;
+        }
+      }
+    } 
+    .bookmark {
+      order: 2;
+    }
+    .share{
+      order: 3;
+    }
+    .time-to-read{
+      order: 4;
+      margin-left: auto;
+    }
   }
 } 
 

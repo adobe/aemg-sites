@@ -66,3 +66,14 @@ table {
     color:  var(--color-link);
   }
 }
+
+.topic-body .table{
+  overflow: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.time-to-read .cmp-text p{
+  margin-bottom: unset;
+}
