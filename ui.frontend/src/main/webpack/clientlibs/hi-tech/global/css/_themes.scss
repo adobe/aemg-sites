@@ -25,7 +25,7 @@
     //   }
     // }
 
-  --color-related-link:var(--color-secondary-blue);
+  --color-related-link:var(--color-gray-dark );
 }
 
 @mixin dark-theme {
@@ -48,9 +48,12 @@
   // codeblock 
   --color-neutral-light: #2A2A2A; // Darker light neutral for codeblocks
   --color-neutral-dark: #3A3A3A; // Darker dark neutral for codeblocks
-  --color-related-link:var(--color-secondary-blue);
-  --color-on-accent:var(--color-accent);
-  --color-link:#FDA14A;
+  --color-related-link:var(--color-accent);
+  --color-on-accent:var(--color-primary);
+  --color-link: var(--color-accent);
+
+  --color-bg-2:var(--color-primary);
+  --color-primary-2: var(--color-bg);
 
   .footer, .guides-footer{
     background-color: var(--color-bg);

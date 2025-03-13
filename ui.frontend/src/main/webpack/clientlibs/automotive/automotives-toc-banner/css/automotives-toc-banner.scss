@@ -200,6 +200,9 @@
         font-family: var(--font-fam-secondary);
         font-weight: 400;
         margin-top: 16px;
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--color-primary);
       }
     }
   }
@@ -331,6 +334,17 @@
     padding-bottom: 40px;
   }
 } 
+
+.left-container .toc-search .cmp-form-text__text{
+  &::placeholder{
+    opacity: 60%;
+  }
+}
+
+.dark .left-container .toc-search .cmp-form-text__text{
+  color: var(--color-on-accent);
+}
+
 
 
 

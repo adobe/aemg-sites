@@ -129,13 +129,22 @@
     line-height: var(--text-lg-lh);
     margin-bottom: 7px;
   }
+
+  .shortdesc {
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--color-primary);
+    margin-bottom: 30px;
+  }
+
   .cmp-text .p,
   .shortdesc {
     font-size: var(--text-base);
     font-weight: 400;
     line-height: var(--text-lg-lh);
-    margin-bottom: 40px;
+    margin-bottom: 3px;
   }
+
+  
   .cmp-text .info {
     margin: 40px 0px;
   }
