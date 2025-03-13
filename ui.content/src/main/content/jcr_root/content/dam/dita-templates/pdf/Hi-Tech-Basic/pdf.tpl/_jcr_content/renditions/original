@@ -16,7 +16,7 @@
   <startChapterFromEvenPage type="boolean">false</startChapterFromEvenPage>
   <startChapterFromOddPage type="boolean">false</startChapterFromOddPage>
   <startChapterFromCurrentPage type="boolean">false</startChapterFromCurrentPage>
-  <startTopicsFromNewPage type="boolean">false</startTopicsFromNewPage>
+  <startTopicsFromNewPage type="boolean">true</startTopicsFromNewPage>
   <displayChapter type="boolean">true</displayChapter>
   <pdfTrimmark type="boolean">false</pdfTrimmark>
   <pdfBleedmark type="boolean">false</pdfBleedmark>
