@@ -350,13 +350,21 @@ body {
   }
 }
 
-.dark .feedback-container .feedback-buttons .feedback-button {
-  background-color: var(--color-on-accent);
+.content-feedback  .feedback-container .feedback-buttons .feedback-button{
+  &.selected{
+    background-color: var(--color-primary);
+  }
 }
 
-.dark .feedback-container .feedback-buttons .feedback-button:hover {
-  background-color: var(--color-content-bg2);
+.dark .content-feedback{
+  .feedback-container .feedback-buttons .feedback-button{
+    background-color: var(--color-on-accent);
+    &:hover, &.selected{
+      background-color: var(--color-content-bg2);
+    }
+  }
 }
+
 
 @media (min-width: 768px) {
   .dark .minitoc-level.selected::before {
