@@ -130,15 +130,15 @@
   <hyperlinkGlossary type="boolean">true</hyperlinkGlossary>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
   <layout></layout>
-  <coverPageLayout>FrontCover_Portrait</coverPageLayout>
-  <backPageLayout>BackCover_Portrait</backPageLayout>
-  <emptyPageLayout>Blank_Portrait</emptyPageLayout>
+  <coverPageLayout>Frontcover_Landscape</coverPageLayout>
+  <backPageLayout>Backcover_landscape</backPageLayout>
+  <emptyPageLayout>Blank_Landscape</emptyPageLayout>
   <tocLayout>TOC_landscape</tocLayout>
-  <topicLayout>Chapter_Portrait</topicLayout>
-  <gloLayout>Glossary_Portrait</gloLayout>
-  <indexLayout>Index_Portrait</indexLayout>
+  <topicLayout>Chapter_Landscape</topicLayout>
+  <gloLayout>Glossary_landscape</gloLayout>
+  <indexLayout>Index_Landscape</indexLayout>
   <bibLayout>Citations</bibLayout>
   <lotLayout></lotLayout>
   <lofLayout></lofLayout>
-  <backTopicsLayout>BackCover_Portrait</backTopicsLayout>
+  <backTopicsLayout>Backcover_landscape</backTopicsLayout>
 </settings>
