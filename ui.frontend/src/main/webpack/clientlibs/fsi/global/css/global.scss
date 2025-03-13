@@ -29,9 +29,9 @@ body {
     .feedback-button{
       background-color: var(--color-primary);
       color: var(--color-accent);
-      &:hover {  
-        color: var(--color-border-light);
-      }
+      // &:hover {  
+      //   color: var(--color-border-light);
+      // }
     }
   }
 }

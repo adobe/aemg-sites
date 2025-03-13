@@ -6,3 +6,4 @@ require("./sharepopup");
 require("./timetoread");
 require("./tocpopup");
 require("./readingprogressbar");
+require("./runhighlightjs");

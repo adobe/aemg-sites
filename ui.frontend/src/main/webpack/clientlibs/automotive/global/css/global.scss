@@ -196,15 +196,15 @@ body {
   border: 1px solid var(--color-primary);
 }
 .dark .guides-footer{
-  border-top: 0.5px solid var(--color-primary);
+  border-top: 1px solid var(--color-primary);
 }
 
 .dark .guides-header{
-  border-bottom: 0.5px solid var(--color-primary);
+  border-bottom: 1px solid var(--color-primary);
 }
 
 .dark .footer_copywrite-wrapper {
-  border-top: 0.5px solid var(--color-primary);
+  border-top: 1px solid var(--color-primary);
 }
 
 .dark .login_wrapper .login-btn {
@@ -350,13 +350,21 @@ body {
   }
 }
 
-.dark .feedback-container .feedback-buttons .feedback-button {
-  background-color: var(--color-on-accent);
+.content-feedback  .feedback-container .feedback-buttons .feedback-button{
+  &.selected{
+    background-color: var(--color-primary);
+  }
 }
 
-.dark .feedback-container .feedback-buttons .feedback-button:hover {
-  background-color: var(--color-content-bg2);
+.dark .content-feedback{
+  .feedback-container .feedback-buttons .feedback-button{
+    background-color: var(--color-on-accent);
+    &:hover, &.selected{
+      background-color: var(--color-content-bg2);
+    }
+  }
 }
+
 
 @media (min-width: 768px) {
   .dark .minitoc-level.selected::before {
