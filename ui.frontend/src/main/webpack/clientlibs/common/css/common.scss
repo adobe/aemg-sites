@@ -214,11 +214,10 @@ body {
 
 // breadcrumb
 .breadcrumb ol {
-  display: flex;
   list-style-type: none;
-  flex-wrap: wrap;
 
   li {
+    display: inline;
     font-family: var(--font-fam-primary);
     font-weight: 400;
     font-size: var(--text-xs);
@@ -589,4 +588,57 @@ body {
 }
 code{
   display: none;
+}
+
+//italic
+.cite,
+cite,
+term,
+.term,
+i,
+.i {
+  color: inherit;
+  font-style: italic;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: 600;
+  letter-spacing: unset;
+  margin: unset;
+}
+
+//quote
+q,
+.q {
+  display: inline-block;
+  font-style: italic;
+  font-size: var(--text-base);
+  margin: 20px 0;
+  padding-left: 35px;
+  color: var(--color-primary);
+  line-height: var(--text-base-lh);
+  position: relative;
+  width: 95%;
+  padding: 10px 0px 10px 35px;
+}
+q::before,
+.q::before {
+  content: "“";
+  font-size: 2em;
+  color: var(--color-accent);
+  position: absolute;
+  top: unset;
+  left: 12px;
+  font-family: auto;
+}
+q::after,
+.q::after {
+  content: "”";
+  font-size: 2em;
+  color: var(--color-accent);
+  position: absolute;
+  top: unset;
+  bottom: unset;
+  right: unset;
+  margin-left: 5px;
+  font-family: auto;
 }

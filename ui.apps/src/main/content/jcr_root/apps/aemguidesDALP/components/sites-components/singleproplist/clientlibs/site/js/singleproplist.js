@@ -27,6 +27,14 @@ function callafunction() {
         fragment.appendChild(li);
       }
     });
+    
+    if(stringValues == "" || stringValues.length <= 0) {
+      const parentEle = ulElement[i].closest(".singleproplist");
+      if(parentEle) {
+        parentEle.style.display = "none";
+        continue;
+      }
+    }
 
     // Append the fragment containing the <li> elements to the <ul>
     ulElement[i].appendChild(fragment);
