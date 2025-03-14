@@ -8,15 +8,17 @@
   <meta name="footnote-style" content="" />
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="custom.css" />
+  <link rel="stylesheet" type="text/css" href="highlightjs.css" />
   <link rel="stylesheet" type="text/css" href="chapter_landscape_first.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
 </head>
 <body data-layout="page">
-  <p><br />
-    
+  <p>
   </p>
   <div class="chapter_firstpage_landsc_header" data-region="header" style=""></div>
   <div data-region="content">
+    <script src="highlight.js"></script>
+    <script src="runhighlightjs.js"></script>
     <div class="chapter_firstpage_landsc_content">
       <div class="chapter_firstpage_landsc_metadata">
         <p class="chapter_firstpage_landsc_title"><span data-field="chapter-title" data-format="default">Chapter Title</span></p>

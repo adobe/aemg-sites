@@ -24,7 +24,7 @@
   </div>
   <div data-region="footer">
     <div class="toc_footer" style="">
-      <p class="toc_page_productname"><cite><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></cite></p>
+      <p class="toc_page_productname"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
     </div>
   </div>
 </body>

@@ -20,7 +20,7 @@
   <div data-region="content"></div>
   <div class="footer-space" data-region="footer" style="">
     <div class="chapter_footer">
-      <p class="chapter_page_productname"><cite><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></cite></p>
+      <p class="chapter_page_productname"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
       <p class="toc_page_no"><span data-field="page-number" data-format="default">1</span></p>
     </div>
   </div>
