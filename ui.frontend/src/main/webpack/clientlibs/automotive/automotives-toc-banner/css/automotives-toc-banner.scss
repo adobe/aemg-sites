@@ -107,17 +107,17 @@
       }
     }
     .pdf-download {
-      .cmp-button::before {
+      button::before {
         color: var(--color-on-accent);
       }
     }
     .bookmark {
-      .cmp-button::before {
+      button::before {
         color: var(--color-accent);
       }
     }
     .share {
-      .cmp-button::before {
+      button::before {
         color: var(--color-accent);
       }
     }
@@ -131,22 +131,35 @@
     .pdf-download .cmp-button__text{
       color: var(--color-accent-dark);
     }
-    .pdf-download .cmp-button::before{
-      color: var(--color-accent-dark);
+    .pdf-download{
+      .cmp-button::before{
+        color: var(--color-accent-dark);
+      }
     }
+    @media screen and (max-width: $screen-md) {
+      .pdf-download,.bookmark,.share{
+        .cmp-button::before{
+          color: var(--color-accent-dark);
+        }
+      }
+    }  
   }
 }
 
+.release-date.text p{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 
 .text{
   p{
     font-size: var(--text-xs);
     line-height: var(--text-xs-lh);
-    letter-spacing: 2px;
+    // letter-spacing: 2px;
     font-family: var(--font-fam-secondary);
     font-weight: 400;
     color: var(--color-primary);
-    text-transform: uppercase;
+    // text-transform: uppercase;
     margin-bottom: 8px;
 
     b{
@@ -332,6 +345,49 @@
 @media screen and (max-width: $screen-md) {
   .download-manual-button.padding-bottom {
     padding-bottom: 40px;
+  }
+  .download-manual-button > .cmp-container{
+    .pdf-download{
+      margin-right: unset;
+      .cmp-button{
+        order: 1;
+        .cmp-button__text{
+          display: none;
+        }
+      }
+    } 
+    .bookmark {
+      order: 2;
+    }
+    .share{
+      order: 3;
+    }
+    .time-to-read{
+      order: 4;
+      margin-left: auto;
+    }
+    .pdf-download,.bookmark,.share{
+      button {
+        width: 40px;
+        height: 40px;
+        padding: 11px 16px;
+        box-sizing: border-box;
+        border-radius: 50%;
+        background-color: var(--color-accent);
+        border: none;
+        cursor: pointer;
+        color: var(--color-on-accent);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &::before {
+          color: var(--color-on-accent);
+        }
+      }
+    }
+  }
+  .download-manual-button > .cmp-container .share {
+    margin-left: 8px;
   }
 } 
 

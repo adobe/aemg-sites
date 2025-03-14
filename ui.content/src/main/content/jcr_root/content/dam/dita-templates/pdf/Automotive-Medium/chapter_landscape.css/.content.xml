@@ -8,12 +8,12 @@
         cq:name="chapter_landscape.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-25T13:09:30.006+05:30"
+        jcr:lastModified="{Date}2025-03-13T18:29:47.305+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-25T13:09:29.847+05:30"
+            dam:extracted="{Date}2025-03-13T18:29:47.229+05:30"
             dam:sha1="710e320b139d1508b3ce0c17fabd93e07a50582b"
             dam:size="{Long}1838"
             dc:format="text/css"

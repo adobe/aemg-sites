@@ -16,7 +16,7 @@
   </div>
   <div class="lot_content" data-region="content"></div>
   <div class="lot_footer" data-region="footer">
-    <p class="lot_footer_product-name"><cite><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></cite></p>
+    <p class="lot_footer_product-name"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
   </div>
 </body>
 </html>

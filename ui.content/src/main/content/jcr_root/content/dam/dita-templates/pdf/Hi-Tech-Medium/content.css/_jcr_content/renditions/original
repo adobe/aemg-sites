@@ -1,10 +1,31 @@
 body {
   font-family: sans-serif;
-  counter-reset: h1\.chapter1 0 h2\.chapter1 0;
+  counter-reset: toc1 h1\.chapter1 0 h2\.chapter1 0;
   /* counter-reset: table; */
   /* counter-reset: table\.title 0; */
   /* counter-reset: table\.title 0; */
 }
+.toc-level-1 {
+  counter-reset: toc2;
+}
+.toc-level-2 {
+  counter-reset: toc3;
+}
+.toc-level-1::before {
+  counter-increment: toc1;
+  content: " " counter(toc1) ". " !important;
+}
+.toc-level-2::before {
+  counter-increment: toc2;
+  content: counter(toc1) "." counter(toc2) " " !important;
+  margin-right: 22px;
+}
+.toc-level-3::before {
+  counter-increment: toc3;
+  content: counter(toc1) "." counter(toc2) "." counter(toc3) " " !important;
+  margin-right: 20px;
+}
+
 /**** Heading Styles ****/
 h1 {
   font-size: 24pt;

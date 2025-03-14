@@ -8,14 +8,14 @@
         cq:name="Backcover_landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-25T13:09:25.878+05:30"
+        jcr:lastModified="{Date}2025-03-13T18:29:43.790+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-25T13:09:25.797+05:30"
-            dam:sha1="9368b3175b57b562e6e945973341b284283947de"
-            dam:size="{Long}3131"
+            dam:extracted="{Date}2025-03-13T18:29:43.633+05:30"
+            dam:sha1="ef3da0e63c5d75785babbc8088a3216566d29691"
+            dam:size="{Long}3170"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

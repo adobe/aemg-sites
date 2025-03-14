@@ -16,7 +16,7 @@
   <startChapterFromEvenPage type="boolean">false</startChapterFromEvenPage>
   <startChapterFromOddPage type="boolean">false</startChapterFromOddPage>
   <startChapterFromCurrentPage type="boolean">false</startChapterFromCurrentPage>
-  <startTopicsFromNewPage type="boolean">false</startTopicsFromNewPage>
+  <startTopicsFromNewPage type="boolean">true</startTopicsFromNewPage>
   <displayChapter type="boolean">true</displayChapter>
   <pdfTrimmark type="boolean">false</pdfTrimmark>
   <pdfBleedmark type="boolean">false</pdfBleedmark>
@@ -100,11 +100,11 @@
     </bookListsitem>
   </bookLists>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
-  <layout>Common_Portrait</layout>
-  <coverPageLayout>FrontCover_Portrait</coverPageLayout>
-  <emptyPageLayout>Blank_Portrait</emptyPageLayout>
-  <tocLayout>TOC_Portrait</tocLayout>
-  <topicLayout>Common_Portrait</topicLayout>
+  <layout>Common_Landscape</layout>
+  <coverPageLayout>FrontCover_Landscape</coverPageLayout>
+  <emptyPageLayout>Blank_Landscape</emptyPageLayout>
+  <tocLayout>TOC_Landscape</tocLayout>
+  <topicLayout>Common_Landscape</topicLayout>
   <gloLayout></gloLayout>
   <indexLayout></indexLayout>
 </settings>

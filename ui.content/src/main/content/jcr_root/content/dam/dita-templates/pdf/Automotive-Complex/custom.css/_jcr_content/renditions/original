@@ -7,13 +7,14 @@ term,
 .term,
 i,
 .i {
-  color: var(--color-tertiary);
+  color: inherit;
   font-style: italic;
- font-size: inherit;
-  line-height: var(--text-xs-lh);
+  font-size: inherit;
+  line-height: inherit;
   font-weight: 600;
   font-family: var(--font-fam-secondary);
-  letter-spacing: 0.5px;
+  letter-spacing: unset;
+  margin: unset;
 }
 q,
 .q {
@@ -373,10 +374,10 @@ b,
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   font-weight: bold;
-  color: var(--color-accent, #0056b3);
+  color: var(--color-primary, #013220);
   text-transform: uppercase;
   font-size: var(--text-base, 1rem);
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   undefined: undefined;
 }
 .restriction,
@@ -473,7 +474,7 @@ b,
 .hazardstatement.warning,
 .hazardstatement.danger,
 .hazardstatement.notice,
-.hazardstatement.caution{
+.hazardstatement.caution {
   background-color: #FFFFFF;
   border: none;
   margin: 20px 0px;
@@ -676,6 +677,7 @@ b,
   text-decoration-skip-ink: none;
   color: var(--color-tertiary);
   border: unset;
+  margin: 0px;
 }
 .example {
   display: block;

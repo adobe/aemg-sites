@@ -8,13 +8,13 @@
         cq:name="FrontCover_Portrait.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-25T13:09:28.732+05:30"
+        jcr:lastModified="{Date}2025-03-13T18:29:45.857+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-02-25T13:09:28.652+05:30"
-            dam:sha1="79fecb88c602877e645da3c2100ffd19c9174d25"
-            dam:size="{Long}2132"
+            dam:extracted="{Date}2025-03-13T18:29:45.746+05:30"
+            dam:sha1="d89de9154e2297292bce5ba8fe1e51543476e381"
+            dam:size="{Long}2150"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

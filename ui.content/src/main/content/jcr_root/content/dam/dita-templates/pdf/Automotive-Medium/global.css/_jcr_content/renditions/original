@@ -30,6 +30,38 @@ html {
   --color-link: #0F85EC;
   --color-tertiary-opa-50: rgba(235, 95, 95, 0.6);
   --color-tertiary-opa-70: rgba(44, 52, 59, 0.7);
+   --frontcover-text-color: #FFFFFF;
+  --frontcover-right-bg: #000000;
+  --frontcover-landsc-bg: #000000;
+  --frontcover-landsc-bg-blur: #000000;
+  --color-neutral-light: #EEEEEE;
+  --color-dark-grey: #2c3e50;
+  --color-bg-light: #e0e0e0;
+  --color-lighter-bg: #ccc;
+  --color-white-light: #f3f3f3;
+  --color-grey-lighter: #f4f4f4;
+  --color-black-grey: #333;
+  --color-danger-light: #FFE2E2;
+  --color-danger-dark: #ffd7d6;
+  --color-tip-light: #EEEEEE;
+  --color-tip-dark: #ddd;
+  --color-caution-light: #fff9e5;
+  --color-caution-dark: #f5c823;
+  --color-restriction-light: #EEEEEE;
+  --color-restriction-dark: #ddd;
+  --color-warning-light: #ffeddf;
+  --color-warning-dark: #ffb47b;
+  --color-notice-light: #f6f9fc;
+  --color-notice-dark: #e4edf6;
+  --color-danger-darker: #FF0000;
+  --color-footnote-light: #f8f9fa;
+  --color-grey: #D8D8D8;
+  --color-neutral-dark: #ddd;
+  --color-neutral-dark: #ddd;
+  --color-lighter-grey: #667889;
+  --color-white: #FFFFFF;
+  --color-light-blue-bg: #E8F1FF;
+  --color-border: #697991;
 }
 .toc-config,
 :root {
@@ -164,7 +196,6 @@ footer {
   font-size: var(--text-9xl);
   line-height: var(--text-9xl-lh);
 }
-
 figure {
   break-inside: avoid;
 }

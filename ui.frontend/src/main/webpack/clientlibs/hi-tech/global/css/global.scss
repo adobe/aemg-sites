@@ -220,3 +220,21 @@ body {
     }
   }
 }
+
+.content-feedback  .feedback-container .feedback-buttons .feedback-button {
+  background-color: var(--color-primary);
+  color: var(--color-natural-blue);
+  &.selected{
+    background-color: var(--color-natural-blue);
+    color: var(--color-primary);
+  }
+}
+
+.dark .content-feedback  .feedback-container .feedback-buttons .feedback-button {
+  background-color: var(--color-natural-blue);
+  color: var(--color-primary-dark);
+  &.selected{
+    background-color: var(--color-accent);
+    color: var(--color-primary-dark);
+  }
+}

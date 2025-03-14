@@ -5,6 +5,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 function callafunction() {
   const ulElement = document.querySelectorAll(".singleproplist-ul");
+  let isPropsExist = false;
 
   for (let i = 0; i < ulElement.length; i++) {
     // Retrieve the data-cmp-uniqueprops attribute and parse it as JSON
@@ -25,10 +26,31 @@ function callafunction() {
         li.dataset.value = item;
         li.textContent = item;
         fragment.appendChild(li);
+        if(stringKey == "tp_vehicletype" || stringKey == "tp_carmodel") {
+          isPropsExist = true;
+        }
       }
     });
+    
+    if(stringValues == "" || stringValues.length <= 0) {
+      const parentEle = ulElement[i].closest(".singleproplist");
+      if(parentEle) {
+        parentEle.style.display = "none";
+        continue;
+      }
+    }
 
     // Append the fragment containing the <li> elements to the <ul>
     ulElement[i].appendChild(fragment);
   }
-}
+  
+  const filterContainer = document.querySelector(".vehicles_type");
+  if(!isPropsExist && filterContainer) {
+    filterContainer.style.display = "none";
+  }
+
+  const mobFilterBtn = document.querySelector(".vehicle_search_btn");
+  if(!isPropsExist && mobFilterBtn) {
+    mobFilterBtn.style.display = "none";
+  }
+ }
