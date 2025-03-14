@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" href="layout.css" type="text/css" />
-  <meta name="page-style" content="size:A4 landscape;" />
+  <meta name="page-style" content="size:A4 landscape;background-image:url(&#39;emptybackground.svg&#39;);background-repeat:no-repeat;background-position:center center;" />
   <title>Page Layout</title>
   <meta name="footnote-style" content="" />
 </head>

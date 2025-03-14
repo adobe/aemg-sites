@@ -11,7 +11,7 @@ i,
   font-style: italic;
   font-size: inherit;
   line-height: inherit;
-  font-weight: 600;
+  font-weight: inherit;
   font-family: var(--font-fam-secondary);
   letter-spacing: unset;
   margin: unset;
@@ -369,16 +369,15 @@ ol {
 b,
 .b {
   font-family: var(--font-fam-primary);
+  font-size: var(--text-base);
+  font-weight: 500;
   line-height: var(--text-base-lh);
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  font-weight: bold;
-  color: var(--color-primary, #013220);
-  text-transform: uppercase;
-  font-size: var(--text-base, 1rem);
+  color: var(--color-primary);
+  text-transform: unset;
   letter-spacing: 0px;
-  undefined: undefined;
 }
 .restriction,
 .note.caution,
@@ -616,16 +615,16 @@ b,
 /* Style for <i> (italic) */
 .i {
   font-style: italic;
-  color: #0288D1;
+  color: inherit;
   /* Blue color for italic text */
-  font-size: 1.1em;
+  font-size: inherit;
 }
 /* Style for <b> (bold) */
-.b {
+/* .b {
   font-weight: bold;
   color: var(--color-accent);
-  /* Orange color for bold text */
-}
+  Orange color for bold text
+} */
 /* Style for <tt> (monospace) */
 .tt {
   font-family: var(--font-fam-secondary);
@@ -677,6 +676,7 @@ b,
   text-decoration-skip-ink: none;
   color: var(--color-tertiary);
   border: unset;
+  margin: 0px;
 }
 .example {
   display: block;
@@ -685,7 +685,8 @@ b,
   border-radius: 0px;
   padding: 20px;
   margin: 20px auto;
-  width: 80%;
+  width: unset;
+  break-inside: avoid;
 }
 .lines {
   font-size: var(--text-xs);
@@ -844,6 +845,7 @@ tm[tmclass="ibm"] {
 }
 table .title {
   font-family: var(--font-fam-secondary);
+  margin: 20px 0px;
 }
 .table {
   margin-bottom: 40px;
@@ -851,11 +853,28 @@ table .title {
 }
 .entry {
   padding: 8px 16px;
-  border-left-width: 1px;
+  /* border-left-width: 1px;
   border-top-width: 1px;
   border-right-width: 1px;
-  border-bottom-width: 1px;
+  border-bottom-width: 1px; */
   border-color: var(--color-tertiary);
   font-weight: 600;
   text-align: left;
+  border: 0.5px solid var(--color-tertiary);
+}
+table {
+  border-collapse: collapse;
+  text-indent: initial;
+  border-spacing: 0px;
+}
+.title {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xl);
+  font-weight: 400;
+  line-height: var(--text-xl-lh);
+  text-align: left;
+  color: var(--color-primary);
+}
+.idx-keyword-group{
+  display: none;
 }

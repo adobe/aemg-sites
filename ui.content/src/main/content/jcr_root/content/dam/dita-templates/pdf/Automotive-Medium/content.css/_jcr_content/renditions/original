@@ -1,6 +1,27 @@
 body {
   font-family: sans-serif;
-  counter-reset: h1\.chapter1 0;
+  counter-reset: toc1 h1\.chapter1 0;
+}
+.toc-level-1 {
+  counter-reset: toc2;
+}
+.toc-level-2 {
+  counter-reset: toc3;
+}
+
+.toc-level-1::before {
+  counter-increment: toc1;
+  content: " " counter(toc1) ". " !important;
+}
+.toc-level-2::before {
+  counter-increment: toc2;
+  content: counter(toc1) "." counter(toc2) " " !important;
+  margin-right: 20px;
+}
+.toc-level-3::before {
+  counter-increment: toc3;
+  content: counter(toc1) "." counter(toc2) "." counter(toc3) " " !important;
+  margin-right: 20px;
 }
 /**** Heading Styles ****/
 h1 {
@@ -56,9 +77,10 @@ h2.chapter:before {
   counter-increment: subsection;
   content: counter(h1\.chapter1, decimal) "." counter(subsection) " ";
 }
+
 h1.appendix {}
 /**** Paragraph Styles ****/
-p {
+/* p {
   font-size: 11pt;
 }
 .draft-comment {
@@ -71,9 +93,9 @@ p {
   line-height: 1.4em;
   font-weight: 100;
   padding-bottom: 0.8em;
-}
+} */
 /**** Link Styles ****/
-a {
+/* a {
   text-decoration: underline;
 }
 .link {
@@ -92,9 +114,9 @@ a {
 .xref {
   color: #0074D9;
   text-decoration: none;
-}
-/**** List Styles ****/
-ul,
+} */
+/* /**** List Styles ****/
+/* ul,
 ol {
   margin-top: 0.5em;
   padding-bottom: 0em;
@@ -121,9 +143,10 @@ ol ol {
 }
 ol ol ol {
   list-style-type: lower-roman;
-}
+} */
+*/
 /**** Table Styles ****/
-table {
+/* table {
   width: 100%;
   font-size: 11pt;
   border-collapse: collapse;
@@ -161,9 +184,9 @@ table .title {
   border-top-width: 1px;
   border-right-width: 1px;
   border-bottom-width: 1px;
-}
+} */
 /**** Simple Table Styles ****/
-.simpletable {}
+/* .simpletable {}
 .sthead {
   text-align: left;
   background: #fafafa;
@@ -186,9 +209,9 @@ table .title {
   border-top-width: 1px;
   border-right-width: 1px;
   border-bottom-width: 1px;
-}
+} */
 /**** Figure & Image Styles ****/
-.fig {}
+/* .fig {}
 .fig .title {
   font-size: 14pt;
   font-weight: bold;
@@ -205,9 +228,9 @@ table .title {
 video {
   max-height: 100%;
   max-width: 100%;
-}
+} */
 /**** Note Styles ****/
-.note {
+/* .note {
   border-left: 4px solid #ddd;
   background-color: #EEEEEE;
   padding-top: 0.3rem;
@@ -280,9 +303,9 @@ video {
 .hazardstatement.warning {
   background-color: #ffeddf;
   border: 1px solid #ffb47b;
-}
+} */
 /**** Character Styles ****/
-.apiname {
+/* .apiname {
   font-style: italic;
 }
 .boolean {
@@ -333,25 +356,25 @@ video {
 .var {}
 .varname {
   font-style: italic;
-}
+} */
 /**** Footnote Styles ****/
-.fn {
+/* .fn {
   float: footnote;
   font-weight: normal;
   text-align: left;
-}
-.fn::footnote-call {
-  /*content: counter(footnote, decimal);*/
+} */
+/* .fn::footnote-call {
+  content: counter(footnote, decimal);
 }
 .fn::footnote-marker {
-  /*content: counter(footnote, decimal);*/
+  content: counter(footnote, decimal);
 }
 .fn[id]::footnote-call {
   display: none;
 }
-.xref-fn {}
+.xref-fn {} */
 /**** Quote Styles ****/
-blockquote {
+/* blockquote {
   background: #fff;
   padding: 1rem;
   font-style: italic;
@@ -367,9 +390,9 @@ blockquote::after {
 .cite {
   font-style: italic;
 }
-.q {}
+.q {} */
 /**** Codeblock Styles ****/
-.codeblock {
+/* .codeblock {
   background: #f5f5f5;
   border: 1px solid #eee;
   border-radius: 5px;
@@ -384,9 +407,9 @@ blockquote::after {
   font-size: 11pt;
   background: #f5f5f5;
   border: 1px solid #eee;
-}
+} */
 /**** Definition List Styles ****/
-.dd {
+/* .dd {
   margin-bottom: 0.5rem;
   margin-left: 1.4rem;
   font-size: 11pt;
@@ -407,9 +430,9 @@ blockquote::after {
 }
 .dthd {
   font-weight: bold;
-}
+} */
 /**** Task Styles ****/
-.choice {
+/* .choice {
   margin-top: 0.3rem;
   margin-bottom: 0.3rem;
 }
@@ -482,7 +505,7 @@ li>.tutorialinfo {}
 .tutorialinfo>ul>li:last-child {}
 .prefix-content {
   display: inline;
-}
+} */
 /**** Others ****/
 /*
 .abstract {}

@@ -175,6 +175,10 @@
   justify-content: space-between; */
   /* align-items: flex-end; */
   /* text-indent: -7px; */
+  margin-inline-start: 30px;
+  text-indent: -1px;
+  word-break: break-word;
+  width: unset;
 }
 #toc_firstpage .toc-level-3 {
   font-family: var(--font-fam-secondary);
@@ -187,6 +191,9 @@
   text-decoration-skip-ink: none;
   margin-bottom: 2px;
   padding-bottom: 2px;
+  margin-inline-start: 25px;
+    text-indent: -1px;
+    width: unset;
 }
 #toc_firstpage .pdf-toc-level-1::after {
   color: var(--color-accent);
@@ -197,7 +204,7 @@
 #toc_firstpage .pdf-toc-level-3:after,
 #toc_firstpage .pdf-toc-level-4:after {
   color: var(--color-accent);
-  padding-right: 20px;
+  /* padding-right: 20px; */
   /* text-indent: 20px; */
   /* padding-left: 10px; */
   /* margin-inline-start: 10px;

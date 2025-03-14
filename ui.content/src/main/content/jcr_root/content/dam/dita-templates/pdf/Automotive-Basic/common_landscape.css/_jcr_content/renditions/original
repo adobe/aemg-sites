@@ -10,7 +10,7 @@ body .section:first-of-type h2 {
 /*Created with AEM Guides*/
 .chapter_firstpage_header {}
 .chapter_header_title {
-  font-family: PP Editorial New;
+  font-family:  var(--font-fam-primary);
   font-size: var(--text-xl);
   font-weight: 400;
   line-height: var(--text-xl-lh);
@@ -29,7 +29,7 @@ body .section:first-of-type h2 {
   position: relative;
   bottom: -60px;
   text-align: right;
-  font-family: PP Editorial New;
+  font-family:  var(--font-fam-primary);
   font-size: var(--text-xl);
   font-weight: 400;
   line-height: var(--text-xl-lh);
@@ -83,7 +83,7 @@ body .section:first-of-type h2 {
 /* inbuilt class styling  */
 .chapter_sub-titles,
 .p.chapter_sub-titles {
-  font-family: PP Editorial New;
+  font-family:  var(--font-fam-primary);
   font-size: var(--text-base);
   font-weight: 400;
   line-height: var(--text-base-lh);
@@ -103,7 +103,7 @@ body .section:first-of-type h2 {
   color: var(--color-tertiary);
 }
 h1.chapter {
-  font-family: PP Editorial New;
+  font-family:  var(--font-fam-primary);
   font-size: var(--text-2xl);
   font-weight: 400;
   line-height: var(--text-2xl-lh);
@@ -117,7 +117,7 @@ h1.chapter {
 }
 .chapter-body .title_chapter-number {
   color: var(--color-neutral);
-  font-family: PP Editorial New;
+  font-family: var(--font-fam-primary);
   font-size: var(--text-2xl);
   font-weight: 400;
   line-height: var(--text-2xl-lh);
@@ -126,52 +126,52 @@ h1.chapter {
   text-decoration-skip-ink: none;
 }
 /* Table Styling */
-.thead {
+/* .thead {
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   font-weight: 600;
   color: var(--color-primary);
-  /* Using --color-primary for text --color-accent*/
+  Using --color-primary for text --color-accent
   background-color: var(--color-neutral);
-  /* Using --color-tertiary for background*/
+  Using --color-tertiary for background
   border: 0.5px solid var(--color-primary);
-  /* Using --color-secondary for border --color-accent */
+  Using --color-secondary for border --color-accent
   text-align: left;
-}
+} */
 b,
 bold-text {
   font-weight: 600;
   color: var(--color-primary);
   /* Using --color-primary */
 }
-.tbody {
+/* .tbody {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 400;
   color: var(--color-secondary);
-  /* Using --color-secondary */
+  Using --color-secondary
   border: 0.5px solid var(--color-secondary);
-  /* Using --color-secondary for border */
-}
-.tbody .entry {
+  Using --color-secondary for border
+} */
+/* .tbody .entry {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 400;
   color: var(--color-secondary);
-  /* Using --color-secondary */
-}
-.tbody b {
+  Using --color-secondary
+} */
+/* .tbody b {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
   font-weight: 600;
   color: var(--color-secondary);
-  /* Using --color-secondary */
+  Using --color-secondary
   margin-bottom: 16px;
-}
-.table {
+} */
+/* .table {
   margin-bottom: 40px;
-}
-ul {
+} */
+/* ul {
   margin: 0;
   padding-inline-start: 20px;
 }
@@ -180,13 +180,13 @@ li {
   line-height: var(--text-xs-lh);
   font-weight: 400;
   color: var(--color-secondary);
-  /* Using --color-secondary */
+  Using --color-secondary
   margin-bottom: 16px;
 }
 .entry {
   padding: 8px 16px;
   border-color: var(--color-accent);
-}
+} */
 /* Notes */
 .chapter_info {
   background-color: #D9E6EB;
@@ -198,11 +198,11 @@ li {
   margin-bottom: 40px;
   margin-top: 50px;
 }
-.note {
+/* .note {
   border-left: 4px solid var(--color-primary);
   background-color: var(--color-neutral);
   color: var(--color-secondary);
 }
 .note .prefix-content {
   color: var(--color-primary);
-}
+} */

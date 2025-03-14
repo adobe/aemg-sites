@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  counter-reset:toc1 h1\.chapter1 0;
+  counter-reset: toc1 h1\.chapter1 0;
   /* counter-reset: table; */
   /* counter-reset: table\.title 0; */
   /* counter-reset: table\.title 0; */
@@ -28,11 +28,11 @@ body {
   content: counter(toc1) "." counter(toc2) "." counter(toc3) " " !important;
   margin-right: 20px;
 }
-.toc-level-4::before {
+/* .toc-level-4::before {
   counter-increment: toc4;
-  content: counter(toc1) "." counter(toc2) "."  counter(toc3) "." counter(toc4) " " !important;
+  content: counter(toc1) "." counter(toc2) "." counter(toc3) "." counter(toc4) " " !important;
   margin-right: 20px;
-}
+} */
 /**** Heading Styles ****/
 h1 {
   font-size: 24pt;
@@ -418,7 +418,6 @@ blockquote::after {
   background: #f5f5f5;
   border: 1px solid #eee;
 }
-
 /**** Definition List Styles ****/
 /* .dd {
   margin-bottom: 0.5rem;

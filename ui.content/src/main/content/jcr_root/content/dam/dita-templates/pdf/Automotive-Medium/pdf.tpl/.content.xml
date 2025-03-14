@@ -8,14 +8,14 @@
         cq:name="pdf.tpl"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-02-25T13:09:28.684+05:30"
+        jcr:lastModified="{Date}2025-03-13T18:29:45.825+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2025-02-25T13:09:28.605+05:30"
-            dam:sha1="a8c4c7aefd13616dabb1c9e432ec340705e2b9ff"
-            dam:size="{Long}5261"
+            dam:extracted="{Date}2025-03-13T18:29:45.708+05:30"
+            dam:sha1="1b6ab9af170abf032f256109da4b4bef350bf479"
+            dam:size="{Long}5724"
             dc:format="application/vnd.groove-tool-template"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
