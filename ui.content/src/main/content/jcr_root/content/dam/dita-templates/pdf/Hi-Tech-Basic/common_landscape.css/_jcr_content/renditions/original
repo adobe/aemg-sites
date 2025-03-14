@@ -72,7 +72,21 @@ h1.chapter {
   font-weight: 500;
   color: var(--color-accent);
 }
+h2.chapter {
+  font-size: 24px;
+  line-height: 32px;
+  font-family: var(--font-fam-secondry);
+  font-weight: 500;
+  color: var(--color-accent);
+}
 h2.chapter_sub-titles {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-accent);
+  font-weight: 500;
+  font-family: var(--font-fam-primary-medium);
+}
+h3.chapter_sub-titles {
   font-size: 14px;
   line-height: 20px;
   color: var(--color-accent);
@@ -239,12 +253,7 @@ info p {
   transform: translateY(-50%);
 } */
 .fig {
-  display: flex;
-  flex-direction: column-reverse;
   margin: 0px;
-}
-.fig .prefix-content {
-  display: none !important;
 }
 .fig_image-wrapper {
   flex-basis: 58%;

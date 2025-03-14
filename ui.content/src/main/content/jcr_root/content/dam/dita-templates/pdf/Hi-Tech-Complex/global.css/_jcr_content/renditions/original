@@ -84,6 +84,7 @@ body {
   --color-footnote-light: #F8F9FA;
   --color-bg-light-secondary: #E8F1FF;
   --color-xref-primary: #0074D9;
+  --color-lightgreen-bg:  #B8E7CA;
 }
 .toc-config,
 :root {

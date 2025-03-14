@@ -18,7 +18,7 @@
   </div>
   <div class="lof_content" data-region="content"></div>
   <div class="lof_footer" data-region="footer">
-    <p class="lof_footer_product-name"><cite><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></cite></p>
+    <p class="lof_footer_product-name"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
   </div>
 </body>
 </html>

@@ -1,14 +1,4 @@
 /* Created with AEM Guides */
-div.p {
-  font-family: var(--font-fam-primary-regular);
-  line-height: 20px;
-  font-size: var(--text-sm);
-  font-weight: 400;
-  text-align: left;
-  color: var(--color-accent);
-  letter-spacing: 0px;
-  margin: 15px 0px;
-}
 .p {
   font-family: var(--font-fam-primary-regular);
   line-height: 20px;
@@ -30,25 +20,25 @@ term,
   color: var(--color-accent);
 }
 pre {
-      font-size: var(--text-xs);
-    line-height: var(--text-xs-lh);
-    font-weight: 400;
-    color: var(--color-primary-white);
-    padding: 16px;
-    border-radius: 10px;
-    border: 0.5px solid var(--color-border);
-    box-shadow: 0px 4px 12px rgba(70, 130, 180, 0.2);
-    margin: 20px 20px 20px 0px;
-    word-wrap: break-word;
-    white-space: pre-wrap;
-    break-inside: avoid;
-    font-family: monospace;
-    background: var(--color-natural-blue);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-accent);
+  padding: 16px;
+  border-radius: 10px;
+  border: 0.5px solid var(--color-border);
+  box-shadow: 0px 4px 12px rgba(70, 130, 180, 0.2);
+  margin: 20px 20px 20px 0px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  break-inside: avoid;
+  font-family: monospace;
+  background: var(--color-secondary);
 }
 q,
 .q {
-  color: var(--color-tertiary);
-  background-color: #90EE90;
+  color: var(--color-primary);
+  background-color: #B8E7CA;
   font-family: auto;
   border-left: none;
   padding: 16px 60px;
@@ -63,7 +53,7 @@ q,
 q::before,
 .q::before {
   content: "“";
-  font-size: 60px;
+  font-size: 46px;
   color: var(--color-accent);
   position: absolute;
   top: unset;
@@ -72,10 +62,10 @@ q::before,
 q::after,
 .q::after {
   content: "”";
-  font-size: 60px;
+  font-size: 46px;
   color: var(--color-accent);
   position: absolute;
-  bottom: -0.1em;
+  bottom: 10px;
   right: unset;
 }
 .dl {
@@ -94,7 +84,7 @@ q::after,
   font-weight: 400;
   font-size: var(--text-base);
   line-height: var(--text-base-lh);
-  color: var(--color-tertiary);
+  color: var(--color-primary);
 }
 .dthd {}
 .dlentry {
@@ -104,7 +94,7 @@ q::after,
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   border-left: none;
-  background-color: #90EE90;
+  background-color: #B8E7CA;
   color: #000000;
   break-inside: avoid;
   box-sizing: border-box;
@@ -115,7 +105,7 @@ q::after,
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0px;
-  color: var(--color-tertiary);
+  color: var(--color-accent);
   margin-bottom: 16px;
 }
 .dt::after {
@@ -127,7 +117,7 @@ q::after,
   font-size: var(--text-base);
   line-height: 24px;
   letter-spacing: 0px;
-  color: var(--color-tertiary);
+  color: var(--color-accent);
   margin-left: 0px;
 }
 ol.steps {
@@ -149,7 +139,7 @@ li.step {
   line-height: var(--text-lg-lh);
   font-weight: 400;
   font-family: var(--font-fam-secondary);
-  color: var(--color-tertiary);
+  color: var(--color-primary);
   list-style: none;
 }
 ol.steps::before {
@@ -184,8 +174,8 @@ li.step::before {
   align-content: center;
 }
 li.step.active::before {
-  background-color: var(--color-tertiary);
-  border-color: var(--color-tertiary);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 li.step.completed::before {
   undefined: undefined;
@@ -211,6 +201,7 @@ div.itemgroup.info {
   line-height: var(--text-sm-lh);
   letter-spacing: 0px;
   width: 300px;
+  padding-left: 0px;
 }
 span.prefix-content {
   font-weight: bold;
@@ -230,9 +221,12 @@ li.choice {
   margin-left: 5px;
   font-weight: 600;
 }
+.display-inline {
+  color: var(--color-accent);
+}
 .ph.uicontrol {
   font-weight: normal;
-  color: var(--color-tertiary);
+  color: var(--color-primary);
 }
 .fig,
 fig {
@@ -240,17 +234,6 @@ fig {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: var(--color-grey-lighter, #f4f4f4);
-  /* Subtle background */
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  /* Light shadow for elegance */
-  padding: 20px;
-  max-width: 500px;
-  margin: 30px auto;
-  /* Centering with some margin */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  /* Smooth transition */
 }
 .fig figcaption,
 figcaption {
@@ -348,88 +331,6 @@ ol li b {
   display: block;
   margin-bottom: 5px;
 }
-/* codeblock css  */
-.codeblock.js .ph {
-  color: var(--color-accent);
-  font-family: inter;
-  font-weight: 400;
-  font-size: var(--text-base);
-  line-height: 24px;
-  letter-spacing: 0%;
-}
-.codeblock.css .ph {
-  color: #01EA57;
-  font-family: inter;
-  font-weight: 400;
-  font-size: var(--text-base);
-  line-height: 24px;
-  letter-spacing: 0%;
-}
-.codeblock.html .ph {
-  color: var(--color-accent);
-  font-family: inter;
-  font-weight: 400;
-  font-size: var(--text-base);
-  line-height: 24px;
-  letter-spacing: 0%;
-}
-.codeblock.js .codeph {
-  color: #39684B;
-  background-color: #B8E7CA;
-  font-family: inter;
-  font-weight: 400;
-  font-size: var(--text-base);
-  line-height: 24px;
-  letter-spacing: 0px;
-  border: none;
-}
-.codeblock.css .codeph {
-  color: #FFFFFF;
-  background-color: var(--color-accent);
-  font-family: var(--font-fam-primary-regular);
-  font-weight: 400;
-  font-size: var(--text-base);
-  line-height: 24px;
-  letter-spacing: 0px;
-  border: none;
-}
-.codeblock.html .codeph {
-  color: #676875;
-  background-color: #F2F2F2;
-  font-family: var(--font-fam-primary-regular);
-  font-weight: 400;
-  font-size: var(--text-base);
-  line-height: 24px;
-  letter-spacing: 0px;
-  border: none;
-}
-.codeblock.js {
-  margin-top: 20px;
-  margin-bottom: 1rem;
-  padding: 20px;
-  transition: all 0.3s ease;
-  border: none;
-  background-color: #B8E7CA;
-  break-inside: avoid;
-}
-.codeblock.css {
-  margin-top: 20px;
-  margin-bottom: 1rem;
-  padding: 20px;
-  transition: all 0.3s ease;
-  border: none;
-  background-color: var(--color-accent);
-  break-inside: avoid;
-}
-.codeblock.html {
-  margin-top: 20px;
-  margin-bottom: 1rem;
-  padding: 20px;
-  transition: all 0.3s ease;
-  border: none;
-  background-color: #F2F2F2;
-  break-inside: avoid;
-}
 .footnote-ref {
   font-size: 0.8em;
   color: var(--color-accent, #007bff);
@@ -470,7 +371,7 @@ ol li b {
   width: 40px;
   height: 40px;
   display: block;
-  background-color: #FDA14A;
+  background-color: #01EA57;
   border-radius: 60px;
   background-position: center;
 }
@@ -506,7 +407,7 @@ ol li b {
   width: 40px;
   height: 40px;
   display: block;
-  background-color: #FDA14A;
+  background-color: #01EA57;
   border-radius: 60px;
   background-position: center;
 }
@@ -650,7 +551,7 @@ ol li b {
 .hazardstatement .messagepanel {
   list-style-type: disc;
   margin-top: 16px;
-  padding-inline-start: 38px;
+  padding-inline-start: 62px;
 }
 .hazardstatement .ul .li {
   background: white;
@@ -667,7 +568,7 @@ ol li b {
 .overline {
   border-top: 0.5px solid var(--color-accent);
   font-weight: bold;
-  color: var(--color-black-grey);
+  color: var(--color-accent);
   font-family: var(--font-fam-primary-regular);
   line-height: 20px;
   font-size: var(--text-sm);
@@ -682,7 +583,7 @@ ol li b {
   font-weight: 400;
   text-align: left;
   letter-spacing: 0px;
-  color: var(--color-tertiary);
+  color: var(--color-accent);
   text-decoration: line-through;
 }
 .xref {
@@ -703,7 +604,7 @@ ol li b {
 }
 /* Style for <u> (underline) */
 .u {
-  color: var(--color-tertiary);
+  color: var(--color-black-grey);
   font-family: var(--font-fam-primary-regular);
   line-height: 20px;
   font-size: var(--text-sm);
@@ -791,6 +692,9 @@ td {
   color: var(--color-accent);
 }
 /* example  */
+.example h1.title::before {
+  content: unset;
+}
 .example .title {
   font-family: var(--font-fam-primary-regular);
   font-size: 24px;
@@ -803,6 +707,9 @@ td {
   margin-top: 0px;
   margin-bottom: 16px;
   break-inside: avoid;
+}
+.example h1.title.chapter {
+  padding-left: 3px;
 }
 .example .codeblock {
   background-color: var(--color-light-blue-bg);
@@ -818,7 +725,7 @@ td {
   line-height: 20px;
 }
 .example {
-  background: var(--color-bg-light-secondary);
+  background: var(--color-secondary);
   padding: 24px;
   break-inside: avoid;
 }

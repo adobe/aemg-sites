@@ -12,7 +12,9 @@
   <link rel="stylesheet" href="highlightjs.css" />
 </head>
 <body data-layout="page">
-  <p></p>
+  <p><br />
+    
+  </p>
   <div data-region="header" style=""></div>
   <div class="chapter-content" data-region="content" style="
     display: flex;
@@ -33,7 +35,7 @@
   </div>
   <div data-region="footer" style="">
     <div class="chapter_firstpage_footer">
-      <p class="chapter_footer_organization"><cite><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></cite></p>
+      <p class="chapter_footer_organization"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
       <p class="chapter_footer_page-number"><span data-field="page-number" data-format="default">1</span></p>
     </div>
   </div>

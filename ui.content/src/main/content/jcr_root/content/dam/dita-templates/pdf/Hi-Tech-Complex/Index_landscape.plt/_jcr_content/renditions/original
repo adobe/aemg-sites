@@ -14,7 +14,6 @@
     <div class="square-dot"></div>
   </div>
   <div data-region="content" id="idx_content"></div>
-  <p><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
   <div data-region="footer" id="index_footer">
     <p id="index_footer_product-name" style="
     display: flex;
@@ -28,7 +27,7 @@
     width: 100%;
     right: 0px;
     left: -73px;
-"><cite><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></cite></p>
+"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
   </div>
 </body>
 </html>

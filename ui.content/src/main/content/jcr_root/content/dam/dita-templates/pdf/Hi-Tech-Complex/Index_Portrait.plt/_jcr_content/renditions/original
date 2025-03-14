@@ -17,7 +17,7 @@
   <div data-region="footer" id="index_footer" style="
 ">
     <p id="index_footer_product-name" style="
-"><cite><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></cite></p>
+"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
   </div>
 </body>
 </html>
