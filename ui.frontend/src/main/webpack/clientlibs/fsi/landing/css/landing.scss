@@ -92,9 +92,9 @@
         margin-bottom: 40px;
       }
       button {
-        padding-top: 4px;
+        padding-top: 10px;
         padding-right: 24px;
-        padding-bottom: 4px;
+        padding-bottom: 10px;
         padding-left: 24px;
         border-radius: 76px;
         background: #ffffff;
@@ -106,8 +106,7 @@
         letter-spacing: 0px;
         text-align: center;
         text-decoration: none;
-        width: 125px;
-        height: 40px;
+        width: fit-content;
         border: none;
         // margin-top: 48px;
         margin-top: auto;
