@@ -126,49 +126,6 @@ h2.title {
   font-family: var(--font-fam-primary-regular);
   margin: 0;
 }
-.figure_container {
-  display: flex;
-  gap: 24px;
-}
-.figure_content_wrapper {
-  width: 218px;
-}
-.fig_content {
-  width: 218px;
-  height: 210px;
-  background-color: var(--color-secondry-white);
-  padding: 16px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
-  position: relative;
-}
-.desc_circle {
-  font-size: var(--text-base);
-  line-height: var(--text-base-lh);
-  font-weight: 700;
-  font-family: var(--font-fam-primary-bold);
-  color: var(--color-primary);
-  margin: 0 0;
-  padding: 8px 16px;
-  border-radius: 20px;
-  background-color: var(--color-accent);
-  display: inline-block;
-  position: absolute;
-  left: 16px;
-  top: 16px;
-}
-.figure_info {
-  font-size: var(--text-sm);
-  line-height: var(--text-sm-lh);
-  font-weight: 400;
-  color: var(--color-accent);
-  font-family: var(--font-fam-primary-regular);
-  margin: 0;
-}
 .table {
   padding-top: 36px;
   padding-bottom: 40px;

@@ -12,9 +12,9 @@
   <tableContinuation type="boolean">false</tableContinuation>
   <useUserToc type="boolean">true</useUserToc>
   <toclevel type="number">4</toclevel>
-  <startChapterFromNewPage type="boolean">true</startChapterFromNewPage>
+  <startChapterFromNewPage type="boolean">false</startChapterFromNewPage>
   <startChapterFromEvenPage type="boolean">false</startChapterFromEvenPage>
-  <startChapterFromOddPage type="boolean">false</startChapterFromOddPage>
+  <startChapterFromOddPage type="boolean">true</startChapterFromOddPage>
   <startChapterFromCurrentPage type="boolean">false</startChapterFromCurrentPage>
   <startTopicsFromNewPage type="boolean">true</startTopicsFromNewPage>
   <displayChapter type="boolean">true</displayChapter>
@@ -100,11 +100,11 @@
     </bookListsitem>
   </bookLists>
   <pdfpagespersheet type="boolean">false</pdfpagespersheet>
-  <layout>Common_Landscape</layout>
-  <coverPageLayout>FrontCover_Landscape</coverPageLayout>
-  <emptyPageLayout>Blank_Landscape</emptyPageLayout>
-  <tocLayout>TOC_Landscape</tocLayout>
-  <topicLayout>Common_Landscape</topicLayout>
+  <layout>Common_Portrait</layout>
+  <coverPageLayout>FrontCover_Portrait</coverPageLayout>
+  <emptyPageLayout>Blank_Portrait</emptyPageLayout>
+  <tocLayout>TOC_Portrait</tocLayout>
+  <topicLayout>Common_Portrait</topicLayout>
   <gloLayout></gloLayout>
   <indexLayout></indexLayout>
 </settings>

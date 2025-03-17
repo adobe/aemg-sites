@@ -37,7 +37,6 @@ pre {
   padding: 16px;
   border-radius: 10px;
   border: 0.5px solid var(--color-border);
-  box-shadow: 0px 4px 12px rgba(70, 130, 180, 0.2);
   margin: 20px 20px 20px 0px;
   word-wrap: break-word;
   white-space: pre-wrap;
@@ -55,8 +54,8 @@ q,
   position: relative;
   display: inline-block;
   font-weight: 400;
-  font-size: var(--text-2xl);
-  line-height: var(--text-2xl-lh);
+     font-size: 24px;
+    line-height: 32px;
   letter-spacing: 0px;
   margin: 20px 0px;
 }
@@ -85,7 +84,6 @@ q::after,
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   /* border-radius: 8px; */
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 .dlhead {
   font-family: var(--font-fam-primary);
@@ -245,16 +243,10 @@ fig {
   align-items: center;
   text-align: center;
   background-color: var(--color-grey-lighter, #f4f4f4);
-  /* Subtle background */
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  /* Light shadow for elegance */
-  padding: 20px;
   max-width: 500px;
+  padding: 20px 10px 0px 10px;
   margin: 30px auto;
-  /* Centering with some margin */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  /* Smooth transition */
 }
 .fig figcaption,
 figcaption {
@@ -280,7 +272,7 @@ image {
   font-weight: 400;
   line-height: var(--text-4xs-lh);
   text-align: left;
-  color: var(--color-secondary);
+  color: var(--color-accent);
   margin-bottom: 8px;
 }
 ul {
@@ -316,7 +308,6 @@ ul li {
   /* background-color: var(--frontcover-text-color, #FFFFFF); */
   padding: 30px;
   border-radius: 8px;
-  /* box-shadow: 0 0 8px rgba(2, 2, 2, 0.1); */
   width: 400px;
   margin: 0px;
   padding: 0px;
@@ -759,7 +750,6 @@ td {
   border: 2px solid #ddd;
   border-radius: 8px;
   background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   font-size: var(--text-base);
   line-height: 20px;
   font-family: var(--font-fam-secondry);
