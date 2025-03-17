@@ -173,21 +173,19 @@
 }
 #toc_firstpage .toc-level-3,
 #toc_firstpage .toc-level-4 {
- font-family: var(--font-fam-secondary);
-    color: var(--color-tertiary);
-    font-size: var(--text-xs);
-    font-weight: 400;
-    line-height: var(--text-xs-lh);
-    text-align: left;
-    text-decoration-skip-ink: none;
-    margin-bottom: 2px;
-    /* text-indent: unset; */
-    padding-left: 60px;
-    padding-bottom: 8px;
+  font-family: var(--font-fam-secondary);
+  color: var(--color-tertiary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  line-height: var(--text-xs-lh);
+  text-align: left;
+  text-decoration-skip-ink: none;
+  margin-bottom: 2px;
+  padding-bottom: 8px;
 }
 #toc_firstpage .toc-level-3 {
-text-indent: -54px;
-padding-left: 111px;
+   text-indent: -40px;
+    padding-inline-start: 60px;
 }
 #toc_firstpage .toc-level-4 {
   text-indent: unset;

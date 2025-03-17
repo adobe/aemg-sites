@@ -269,6 +269,7 @@ ul li:not(.hazardstatement)::before {
   left: -20px;
   font-size: 1.5em;
   color: var(--color-accent, #821616);
+  top: 4px;
 }
 .hazardstatement li::before,
 .note.hazardstatement ul li::before {
@@ -875,6 +876,6 @@ table {
   text-align: left;
   color: var(--color-primary);
 }
-.idx-keyword-group{
+.idx-keyword-group {
   display: none;
 }
