@@ -229,6 +229,9 @@ li.choice {
   color: var(--color-primary);
 }
 /* figure css start */
+fig.fig {
+  break-inside: avoid;
+}
 .fig .title {
   font-family: Adobe Clean;
   font-size: var(--text-base);
