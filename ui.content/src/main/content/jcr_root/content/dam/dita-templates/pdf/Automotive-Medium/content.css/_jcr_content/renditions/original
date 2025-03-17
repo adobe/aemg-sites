@@ -1,14 +1,13 @@
 body {
   font-family: sans-serif;
-  counter-reset: toc1 h1\.chapter1 0;
+  counter-reset: h2\.chapter1 h1\.chapter1 0;
 }
-.toc-level-1 {
+/* .toc-level-1 {
   counter-reset: toc2;
 }
 .toc-level-2 {
   counter-reset: toc3;
 }
-
 .toc-level-1::before {
   counter-increment: toc1;
   content: " " counter(toc1) ". " !important;
@@ -22,7 +21,7 @@ body {
   counter-increment: toc3;
   content: counter(toc1) "." counter(toc2) "." counter(toc3) " " !important;
   margin-right: 20px;
-}
+} */
 /**** Heading Styles ****/
 h1 {
   font-size: 24pt;
@@ -43,6 +42,9 @@ h5 {
 h6 {
   font-size: 12pt;
 }
+h2.chapter {
+   counter-reset: h3\.chapter1;
+}
 h1.chapter {
   --autonumber: autonumber;
   --prefix-size: 33px;
@@ -50,8 +52,8 @@ h1.chapter {
   --prefix-gap: 0px;
   --vertical-spacing: 0px;
   --list-indent: 0px;
-  counter-reset: h2\.chapter1 0;
-  counter-reset: subsection;
+  counter-reset: h2\.chapter1;
+  /* counter-reset: subsection; */
   position: relative;
   column-span: all;
   margin-bottom: 24pt;
@@ -74,10 +76,13 @@ h1.chapter:before {
   color: #979797;
 }
 h2.chapter:before {
-  counter-increment: subsection;
-  content: counter(h1\.chapter1, decimal) "." counter(subsection) " ";
+  counter-increment: h2\.chapter1;
+  content: counter(h1\.chapter1, decimal) "." counter(h2\.chapter1) " ";
 }
-
+h3.chapter:before {
+  counter-increment: h3\.chapter1;
+  content: counter(h1\.chapter1, decimal) ". " counter(h2\.chapter1, decimal) ". " counter(h3\.chapter1) " ";
+}
 h1.appendix {}
 /**** Paragraph Styles ****/
 /* p {

@@ -8,6 +8,7 @@
 
 .vehicles_type {
     margin-right: auto;
+    width: 25%;
 
     .cmp-container {
         display: unset;
@@ -51,7 +52,7 @@
 }
 
 .vehicles_list {
-    width: 75%;
+    width: 100%;
 }
 
 
@@ -106,10 +107,6 @@
         top: 35%;
         padding: 50px 24px 68px 24px;
         z-index: 10;
-    }
-
-    .vehicles_list {
-        width: 100%;
     }
 
     .dark .vehicle_search_btn {
