@@ -8,11 +8,11 @@
         cq:name="glossary_portrait.css"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-07T15:43:24.876+05:30"
+        jcr:lastModified="{Date}2025-03-17T19:33:18.986+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-03-07T15:43:24.755+05:30"
+            dam:extracted="{Date}2025-03-17T19:33:18.908+05:30"
             dam:sha1="e5ff01dc7397096c8be79f782d66099582a6089b"
             dam:size="{Long}2551"
             dc:format="text/css"

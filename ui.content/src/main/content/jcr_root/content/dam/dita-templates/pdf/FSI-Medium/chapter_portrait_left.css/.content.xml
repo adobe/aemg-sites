@@ -8,11 +8,11 @@
         cq:name="chapter_portrait_left.css"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-07T15:43:22.227+05:30"
+        jcr:lastModified="{Date}2025-03-17T19:33:17.346+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-03-07T15:43:21.685+05:30"
+            dam:extracted="{Date}2025-03-17T19:33:17.206+05:30"
             dam:sha1="d8526ad3010bf5e47e5dac1bab1aaa029171d07f"
             dam:size="{Long}3917"
             dc:format="text/css"
