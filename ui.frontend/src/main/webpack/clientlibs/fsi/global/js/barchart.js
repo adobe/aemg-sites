@@ -4,7 +4,6 @@ window.addEventListener('DOMContentLoaded', function () {
   
     var canvas = document.createElement("canvas");
     canvas.classList.add("eligible-categories-bar");
-    parent.appendChild(canvas);
   
     var ctx = canvas.getContext('2d');
   
@@ -24,6 +23,12 @@ window.addEventListener('DOMContentLoaded', function () {
       selectionProcessData.push(parseInt(cells[2].innerText)); // Selection Process
     });
   
+    if(!labels.length) {
+      return;
+    }
+ 
+    parent.appendChild(canvas);
+    
     const asisColor = "#87A3FB";
   
     // Create the chart
