@@ -1,5 +1,9 @@
 @use "../../../utils/css/vars" as *;
 
+// breadcrumb
+.breadcrumb ol {
+  margin-bottom: 16px;
+}
 
 #topic-title {
   & > .cmp-title__text {
