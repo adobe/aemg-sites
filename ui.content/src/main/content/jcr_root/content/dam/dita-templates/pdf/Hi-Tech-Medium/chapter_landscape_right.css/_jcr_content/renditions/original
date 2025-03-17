@@ -72,6 +72,11 @@ h1.title.chapter {
   padding-left: 30px;
   padding-bottom: 15px;
 }
+h2.title.chapter, 
+h3.title.chapter {
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl-lh);
+}
 h1.title::before {
   font-family: var(--font-fam-primary);
   font-size: var(--text-2xl);
