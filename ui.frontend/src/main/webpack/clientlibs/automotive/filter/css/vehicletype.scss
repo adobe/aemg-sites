@@ -51,7 +51,7 @@
 }
 
 .vehicles_list {
-    width: 75%;
+    min-width: 75%;
 }
 
 
@@ -110,6 +110,7 @@
 
     .vehicles_list {
         width: 100%;
+        min-width: unset;
     }
 
     .dark .vehicle_search_btn {
