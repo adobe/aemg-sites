@@ -56,7 +56,19 @@
   font-weight: 400;
   color: var(--color-secondary);
 }
-.toc-level-1 {
+.pdf-toc-level-2.toc-level-2{
+  padding-inline-start: 30px;
+      margin: 0px
+} 
+.pdf-toc-level-3.toc-level-3{
+  padding-inline-start: 60px;
+      margin: 0px
+}
+.pdf-toc-level-4.toc-level-4{
+  padding-inline-start: 90px;
+      margin: 0px
+} 
+.toc-level-1{
   font-family: var(--font-fam-primary);
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
@@ -74,7 +86,7 @@
 .toc-level-1::after {
   display: none;
 }
-.toc-level-2 {
+.toc-level-2, .toc-level-3,.toc-level-4  {
   font-family: var(--font-fam-primary);
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);

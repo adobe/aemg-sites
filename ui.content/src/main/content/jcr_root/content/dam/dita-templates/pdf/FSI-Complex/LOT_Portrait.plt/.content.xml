@@ -12,7 +12,7 @@
         dam:processingRenditions="[cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.140.100.png,cq5dam.web.1280.1280.jpeg,cqdam.text.txt,cqdam.machine.metadata.features.json,cqdam.metadata.xml,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.tags.json]"
         dam:processingRequestedDate="{Date}2022-06-06T16:55:17.764Z"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2025-03-07T15:43:16.088+05:30"
+        jcr:lastModified="{Date}2025-03-04T15:22:14.965+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         fmPostProcessedAt="2022-06-06T16:55:16.916Z|d9e7b1d7-8e1c-4f5e-88a9-b47ed23116b6|2022-06-06T16:55:16.911Z|13|0"
@@ -44,9 +44,9 @@
                 reason="RenditionFormatUnsupported"/>
         </dam:failedRenditions>
         <metadata
-            dam:extracted="{Date}2025-03-07T15:43:15.994+05:30"
-            dam:sha1="8600242fd5c3f81b2a1f4a8087f1529df0069e49"
-            dam:size="{Long}1513"
+            dam:extracted="{Date}2025-03-04T15:22:14.829+05:30"
+            dam:sha1="f92b53a0246dc51c836525a92cbc7a29c5ab8a34"
+            dam:size="{Long}1538"
             dc:format="application/octet-stream"
             dc:title="LOT_Portrait.plt"
             jcr:mixinTypes="[cq:Taggable]"
