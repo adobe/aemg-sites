@@ -198,6 +198,9 @@ body {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
+    .cmp-button{
+      cursor: pointer;
+    }
   }
 }
 
@@ -381,6 +384,7 @@ body {
     border: unset;
     background-color: unset;
     color: var(--color-primary);
+    cursor: pointer;
   }
 
   .cmp-button::before {
@@ -410,6 +414,7 @@ body {
     border: unset;
     background-color: unset;
     color: var(--color-primary);
+    cursor: pointer;
   }
 
   .cmp-button::before {
