@@ -8,13 +8,13 @@
         cq:name="Common_Portrait_left.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-07T15:43:18.484+05:30"
+        jcr:lastModified="{Date}2025-03-17T11:32:08.236+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-03-07T15:43:18.277+05:30"
-            dam:sha1="e0461d5aff03ef051037f8f5257ddb1a267408d9"
-            dam:size="{Long}1863"
+            dam:extracted="{Date}2025-03-17T11:32:08.106+05:30"
+            dam:sha1="b540638b40d2af7f7fe91fa5ecfdf8d30dee7ed8"
+            dam:size="{Long}1869"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

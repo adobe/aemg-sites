@@ -8,13 +8,13 @@
         cq:name="Chapter_Landscape_first.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-07T15:43:12.877+05:30"
+        jcr:lastModified="{Date}2025-03-17T19:33:15.988+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-03-07T15:43:12.664+05:30"
-            dam:sha1="a9022463c4037f771ef7c98ce4b33d1af46778a0"
-            dam:size="{Long}1966"
+            dam:extracted="{Date}2025-03-17T19:33:15.877+05:30"
+            dam:sha1="35b76983e74250f55433afa215b7453054616443"
+            dam:size="{Long}1972"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

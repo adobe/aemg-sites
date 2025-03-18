@@ -8,13 +8,13 @@
         cq:name="TOC_Landscape_left.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Complex"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-07T15:43:14.834+05:30"
+        jcr:lastModified="{Date}2025-03-04T15:22:20.249+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-03-07T15:43:14.726+05:30"
-            dam:sha1="cd074b41a1b84a8e09ecaf706a1662c9e3329977"
-            dam:size="{Long}1271"
+            dam:extracted="{Date}2025-03-04T15:22:20.160+05:30"
+            dam:sha1="f7e8a44772f2ca65977191aa74517d9cb413c557"
+            dam:size="{Long}1294"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

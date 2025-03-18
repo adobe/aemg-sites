@@ -28,6 +28,7 @@ q,
   font-family: var(--font-fam-primary);
   position: relative;
   width: 95%;
+  display: inline-block !important;
 }
 q::before,
 .q::before {
@@ -226,7 +227,7 @@ li.choice {
 }
 /* Display inline content */
 .display-inline {
-  display: unset;
+  /* display: unset; */
   margin-right: 0px;
 }
 /* Styling for the span elements */
@@ -672,7 +673,7 @@ a:hover {
   color: var(--color-secondary);
   margin-bottom: 0px;
   border-top: unset;
-  border-left: 2px solid var(--color-accent);
+  border-left: 2px solid var(--color-tertiary);
   padding: 10px;
 }
 .example h1.chapter:before {
@@ -688,6 +689,7 @@ a:hover {
   text-decoration-skip-ink: none;
   color: var(--color-tertiary);
   border: unset;
+  margin: 0px;
 }
 .example {
   display: block;
@@ -790,4 +792,7 @@ tm[tmclass="ibm"] {
   font-weight: 400;
   line-height: var(--text-lg);
   /* text-align: left; */
+}
+.idx-keyword-group{
+  display: none;
 }

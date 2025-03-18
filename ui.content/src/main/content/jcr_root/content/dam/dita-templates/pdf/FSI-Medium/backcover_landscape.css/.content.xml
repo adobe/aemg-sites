@@ -8,11 +8,11 @@
         cq:name="backcover_landscape.css"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-07T15:43:24.239+05:30"
+        jcr:lastModified="{Date}2025-03-17T19:33:16.084+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-03-07T15:43:24.185+05:30"
+            dam:extracted="{Date}2025-03-17T19:33:15.971+05:30"
             dam:sha1="93fd4f588dd5c859a40c12341ee6fb7af03779e5"
             dam:size="{Long}1184"
             dc:format="text/css"
