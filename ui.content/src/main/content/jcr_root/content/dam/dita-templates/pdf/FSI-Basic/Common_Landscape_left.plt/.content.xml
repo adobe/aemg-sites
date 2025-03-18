@@ -8,13 +8,13 @@
         cq:name="Common_Landscape_left.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/FSI-Basic"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-07T15:43:14.908+05:30"
+        jcr:lastModified="{Date}2025-03-17T11:32:08.451+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-03-07T15:43:14.808+05:30"
-            dam:sha1="9db9db1d9dc027724bfb1dde85d28c6d36ffdb8f"
-            dam:size="{Long}1866"
+            dam:extracted="{Date}2025-03-17T11:32:08.384+05:30"
+            dam:sha1="d597774f108887cd4369fad9f8efe4b26f0149d3"
+            dam:size="{Long}1893"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
