@@ -672,14 +672,14 @@ td {
 .example h1.title::before {
   content: unset;
 }
-.example .title {
+.example h1.title.chapter {
   font-family: var(--font-fam-primary-regular);
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
-  color: var(--color-secondary);
+  color: var(--color-accent);
   border-top: unset;
-  border-left: 2px solid var(--color-secondary);
+  border-left: 2px solid var(--color-accent);
   padding: 0px 10px;
   margin-top: 0px;
   margin-bottom: 16px;
