@@ -303,21 +303,21 @@ video {
   font-style: italic;
 }
 /**** Footnote Styles ****/
-.fn {
+/* .fn {
   float: footnote;
   font-weight: normal;
   text-align: left;
-}
-.fn::footnote-call {
+} */
+/* .fn::footnote-call { */
   /*content: counter(footnote, decimal);*/
-}
-.fn::footnote-marker {
+/* } */
+/* .fn::footnote-marker { */
   /*content: counter(footnote, decimal);*/
-}
-.fn[id]::footnote-call {
+/* } */
+/* .fn[id]::footnote-call {
   display: none;
-}
-.xref-fn {}
+} */
+/* .xref-fn {} */
 /**** Quote Styles ****/
 blockquote {
   background: #fff;
