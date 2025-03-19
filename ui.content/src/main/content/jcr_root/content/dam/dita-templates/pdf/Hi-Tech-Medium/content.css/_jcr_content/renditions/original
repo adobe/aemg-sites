@@ -49,8 +49,7 @@ h1.chapter {
   --prefix-gap: 0px;
   --vertical-spacing: 0px;
   --list-indent: 0px;
-  counter-reset: lot-count fig-count subsection h2\.chapter1;
-  ;
+  counter-reset: lot-count fig-count subsection h2\.chapter1 0;
   undefined: undefined;
   position: relative;
   column-span: all;
@@ -59,7 +58,7 @@ h1.chapter {
   margin-top: calc(var(--vertical-spacing) / 2);
 }
 h2.chapter {
-  counter-reset: h3\.chapter1;
+  counter-reset: h3\.chapter1 0;
 }
 h2.chapter:before {
   counter-increment: h2\.chapter1;

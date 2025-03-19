@@ -10,7 +10,9 @@
   <link rel="stylesheet" type="text/css" href="global.css" />
 </head>
 <body>
-  <div class="index_header" data-region="header" id="index_firstpage_header" style=""></div>
+  <div class="index_header" data-region="header" id="index_firstpage_header" style=""><br />
+    
+  </div>
   <div class="index_firstpage_content" data-region="content" id="index_firstpage_content">
     <p class="index_title" style="">Index</p>
   </div>
