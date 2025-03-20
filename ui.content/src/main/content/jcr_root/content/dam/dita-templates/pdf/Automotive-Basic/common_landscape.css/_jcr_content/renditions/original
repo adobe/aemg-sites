@@ -10,7 +10,7 @@ body .section:first-of-type h2 {
 /*Created with AEM Guides*/
 .chapter_firstpage_header {}
 .chapter_header_title {
-  font-family:  var(--font-fam-primary);
+  font-family: var(--font-fam-primary);
   font-size: var(--text-xl);
   font-weight: 400;
   line-height: var(--text-xl-lh);
@@ -29,7 +29,7 @@ body .section:first-of-type h2 {
   position: relative;
   bottom: -60px;
   text-align: right;
-  font-family:  var(--font-fam-primary);
+  font-family: var(--font-fam-primary);
   font-size: var(--text-xl);
   font-weight: 400;
   line-height: var(--text-xl-lh);
@@ -83,7 +83,7 @@ body .section:first-of-type h2 {
 /* inbuilt class styling  */
 .chapter_sub-titles,
 .p.chapter_sub-titles {
-  font-family:  var(--font-fam-primary);
+  font-family: var(--font-fam-primary);
   font-size: var(--text-base);
   font-weight: 400;
   line-height: var(--text-base-lh);
@@ -103,7 +103,7 @@ body .section:first-of-type h2 {
   color: var(--color-tertiary);
 }
 h1.chapter {
-  font-family:  var(--font-fam-primary);
+  font-family: var(--font-fam-primary);
   font-size: var(--text-2xl);
   font-weight: 400;
   line-height: var(--text-2xl-lh);
@@ -111,7 +111,7 @@ h1.chapter {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: var(--color-primary);
-  border-top: 1px solid var(--color-primary);
+  border-top: 1px solid var(--color-accent);
   display: inline-block;
   padding-top: 4px;
 }

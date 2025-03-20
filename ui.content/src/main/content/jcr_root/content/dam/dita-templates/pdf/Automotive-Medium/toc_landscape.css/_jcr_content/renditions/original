@@ -132,9 +132,10 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   margin-bottom: 3px;
+  margin-top: 0px;
 }
 #toc_firstpage .toc-sub_title {
-  font-family: var(--font-fam-primay);
+  font-family: var(--font-fam-primary);
   color: var(--color-tertiary);
   font-size: var(--text-xs);
   font-weight: 400;
@@ -203,6 +204,7 @@
 #toc_firstpage .toc-body {
   column-count: 2;
   column-gap: 136px;
+  padding-left: 30px;
 }
 .toc-level-1 {
   text-indent: -30px;
@@ -217,4 +219,8 @@
 .toc-level-2 {
   text-indent: -28px;
   margin-inline-start: 35px;
+}
+.toc-level-3::before,
+.toc-level-4::before {
+  margin-right: 5px;
 }

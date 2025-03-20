@@ -25,6 +25,12 @@ a.topicref.pdf-toc-level-1.toc-level-1 {
 .toc-level-1::after {
   display: none;
 }
+.toc-level-2::before {
+    margin-right: 1px;
+    display: inline-block;
+    width: 25px;
+    height: auto;
+}
 .toc-level-2 {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
@@ -33,11 +39,15 @@ a.topicref.pdf-toc-level-1.toc-level-1 {
   margin: 0;
   padding-bottom: 8px;
   border-left: 0.5px solid var(--color-gray);
-  padding-left: 8px;
-  margin-left: var(--toc-level-2-gap);
-  text-indent: -44px;
-  margin-inline-start: 16px;
-  padding-left: 55px;
+  padding-left: 75px;
+  text-indent: -27px;
+  margin-inline-start: 8px;
+}
+.toc-level-3::before {
+    margin-right: 1px;
+    display: inline-block;
+    width: 25px;
+    height: auto;
 }
 .toc-level-3 {
   font-size: var(--text-xs);
@@ -47,15 +57,23 @@ a.topicref.pdf-toc-level-1.toc-level-1 {
   margin: 0;
   padding-bottom: 8px;
   border-left: 0.5px solid var(--color-gray);
-  padding-left: 105px;
-  text-indent: -55px;
-  margin-inline-start: 16px;
+padding-left: 128px;
+    text-indent: -27px;
+  margin-inline-start: 8px;
 }
 .toc-level-2:last-child {
   padding-bottom: 0;
 }
-.pdf-toc-level-2.toc-level-2::before {
-  margin-right: 22px;
+
+.toc_landsc_content {
+  display: flex;
+  align-items: baseline;
+}
+.square-dot {
+  height: 4px;
+  width: 4px;
+  background-color: #01EA57;
+  margin-left: 2px;
 }
 .toc_landsc_content_title {
   font-size: var(--text-xl);
@@ -63,7 +81,7 @@ a.topicref.pdf-toc-level-1.toc-level-1 {
   font-weight: 500;
   color: var(--color-accent);
   padding-bottom: 40px;
-  margin: 85px 73px 0 73px;
+  margin: 85px 2px 0 73px;
 }
 .toc_landsc_footer {
   background-color: var(--color-secondary);
