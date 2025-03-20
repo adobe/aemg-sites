@@ -450,7 +450,7 @@ b,
 .note.tip .prefix-content::before {
   content: "";
   background-image: url(../../../aemguidesDALP/automotives/images/common/tip.png);
-  background-size: 17px 17px;
+  background-size: 20px 20px;
   background-repeat: no-repeat;
   /* width: 24px;
   height: 24px; */
@@ -782,6 +782,7 @@ tm[tmclass="ibm"] {
 .fn {
   color: var(--color-accent);
   font-weight: 600;
+  border-top: none;
 }
 .note .prefix-content::before {
   content: "";
@@ -793,7 +794,7 @@ tm[tmclass="ibm"] {
   height: 40px;
   background-color: var(--color-light-blue-bg);
   border-radius: 10px;
-  background-size: 17px 17px;
+  background-size: 20px 20px;
 }
 .note.note .prefix-content {
   font-weight: bold;
@@ -888,8 +889,26 @@ table {
   outline: none !important;
   text-decoration: underline !important;
 } */
-span.fn-callout.fn.display-inline {
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
+/* span.fn-callout.fn.display-inline {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+} */
+fn[callout] {
+  border-top: none !important;
+}
+.fn[callout] {
+  border-top: none !important;
+}
+.display-inline.fn.fn-callout {
+  border-top: none !important;
+}
+.fn.fn-callout::after {
+  content: " ";
+}
+.fn.fn-callout::before {
+  content: " ";
+}
+fn {
+  border-top: none !important;
 }
