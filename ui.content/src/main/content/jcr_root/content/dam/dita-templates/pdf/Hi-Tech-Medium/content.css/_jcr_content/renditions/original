@@ -179,10 +179,10 @@ table .title {
   border-top-style: solid;
   border-right-style: solid;
   border-bottom-style: solid;
-  border-left-color: #eeeeee;
-  border-top-color: #eeeeee;
-  border-right-color: #eeeeee;
-  border-bottom-color: #eeeeee;
+  border-left-color: var(--color-secondary-blue);
+  border-top-color: var(--color-secondary-blue);
+  border-right-color: var(--color-secondary-blue);
+  border-bottom-color: var(--color-secondary-blue);
   border-left-width: 1px;
   border-top-width: 1px;
   border-right-width: 1px;
