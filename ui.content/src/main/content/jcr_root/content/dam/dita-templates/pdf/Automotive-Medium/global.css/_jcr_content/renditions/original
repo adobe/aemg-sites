@@ -13,7 +13,9 @@ body {
 .global-config,
 :root {
   /* font family */
-  --font-fam-primary: PP Editorial New;
+  /* --font-fam-primary: PP Editorial New;
+  */
+  --font-fam-primary:  Adobe Clean;
   --font-fam-secondary: Adobe Clean;
   --base-font-size: 16px;
 }
@@ -30,7 +32,7 @@ html {
   --color-link: #0F85EC;
   --color-tertiary-opa-50: rgba(235, 95, 95, 0.6);
   --color-tertiary-opa-70: rgba(44, 52, 59, 0.7);
-   --frontcover-text-color: #FFFFFF;
+  --frontcover-text-color: #FFFFFF;
   --frontcover-right-bg: #000000;
   --frontcover-landsc-bg: #000000;
   --frontcover-landsc-bg-blur: #000000;
