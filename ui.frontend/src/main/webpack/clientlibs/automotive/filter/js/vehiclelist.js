@@ -27,9 +27,14 @@ function populateNavigation(data) {
     guideItem.dataset.tp_vehicletype = item.tp_vehicletype;
     guideItem.dataset.tp_category = item.tp_category;
     guideItem.dataset.tp_carmodel = item.tp_carmodel;
+    
+    const vehicletypeLabel = item.tp_vehicletype.toLowerCase() === 'fully electric' ? 
+    '<span class="vehicle-type-label">Electric</span>' : 
+    '';  
 
     guideItem.innerHTML = `
       <a class="cmp-teaser__title" href="${item.pagePath + ".html"}">
+      ${vehicletypeLabel}
       <div class="cmp-teaser__image">
         ${image ? '<img src="'+ image +'" alt="' + title + '"/>' : ''}
       </div>
