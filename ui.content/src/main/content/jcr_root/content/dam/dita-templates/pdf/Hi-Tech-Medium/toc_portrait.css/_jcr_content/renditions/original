@@ -1,6 +1,16 @@
 .toc_header {
   display: none;
 }
+.toc_content {
+  display: flex;
+  align-items: baseline;
+}
+.square-dot {
+  height: 4px;
+  width: 4px;
+  background-color: #01EA57;
+  margin-left: 2px;
+}
 .toc-body {
   column-count: 2;
   column-gap: 80px;
@@ -21,6 +31,12 @@
 .toc-level-1::after {
   display: none;
 }
+.toc-level-2::before {
+    margin-right: 1px;
+    display: inline-block;
+    width: 25px;
+    height: auto;
+}
 .toc-level-2 {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
@@ -29,9 +45,15 @@
   margin: 0;
   padding-bottom: 8px;
   border-left: 0.5px solid var(--color-gray);
-  padding-left: 56px;
-  text-indent: -43px;
-  margin-inline-start: 16px;
+  padding-left: 73px;
+  text-indent: -26px;
+  margin-inline-start: 8px;
+}
+.toc-level-3::before {
+    margin-right: 1px;
+    display: inline-block;
+    width: 25px;
+    height: auto;
 }
 .toc-level-3 {
   font-size: var(--text-xs);
@@ -41,9 +63,9 @@
   margin: 0;
   padding-bottom: 8px;
   border-left: 0.5px solid var(--color-gray);
-  padding-left: 105px;
-  text-indent: -54px;
-  margin-inline-start: 16px;
+  padding-left: 126px;
+  text-indent: -27px;
+  margin-inline-start: 8px;
 }
 .toc-level-2::after {
   font-size: var(--text-xs);
@@ -51,9 +73,7 @@
   font-weight: 700;
   color: var(--color-accent);
 }
-.toc-level-3::before {
- margin-right: 20px;
-}
+
 .toc-level-3::after {
   font-size: var(--text-xs);
   line-height: var(--text-xs-lh);
@@ -69,7 +89,7 @@
   font-weight: 500;
   color: var(--color-accent);
   padding-bottom: 40px;
-  margin: 85px 73px 0 73px;
+  margin: 85px 2px 0 73px;
 }
 .toc_footer {
   background-color: var(--color-secondary);
