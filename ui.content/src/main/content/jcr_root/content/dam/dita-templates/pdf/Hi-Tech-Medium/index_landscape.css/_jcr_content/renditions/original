@@ -6,6 +6,15 @@
   color: var(--color-accent);
   margin: 0;
 }
+.index_landsc_title:after {
+  content: "";
+  display: inline-block;
+  height: 4px;
+  width: 4px;
+  background-color: #01EA57;
+  margin-left: 2px;
+   transform: translate(0px, 15px);
+}
 .index_landsc_footer {
   background-color: var(--color-secondary);
   display: flex;

@@ -49,8 +49,7 @@ h1.chapter {
   --prefix-gap: 0px;
   --vertical-spacing: 0px;
   --list-indent: 0px;
-  counter-reset: lot-count fig-count subsection h2\.chapter1;
-  ;
+  counter-reset: lot-count fig-count subsection h2\.chapter1 0;
   undefined: undefined;
   position: relative;
   column-span: all;
@@ -59,7 +58,7 @@ h1.chapter {
   margin-top: calc(var(--vertical-spacing) / 2);
 }
 h2.chapter {
-  counter-reset: h3\.chapter1;
+  counter-reset: h3\.chapter1 0;
 }
 h2.chapter:before {
   counter-increment: h2\.chapter1;
@@ -304,21 +303,21 @@ video {
   font-style: italic;
 }
 /**** Footnote Styles ****/
-.fn {
+/* .fn {
   float: footnote;
   font-weight: normal;
   text-align: left;
-}
-.fn::footnote-call {
+} */
+/* .fn::footnote-call { */
   /*content: counter(footnote, decimal);*/
-}
-.fn::footnote-marker {
+/* } */
+/* .fn::footnote-marker { */
   /*content: counter(footnote, decimal);*/
-}
-.fn[id]::footnote-call {
+/* } */
+/* .fn[id]::footnote-call {
   display: none;
-}
-.xref-fn {}
+} */
+/* .xref-fn {} */
 /**** Quote Styles ****/
 blockquote {
   background: #fff;

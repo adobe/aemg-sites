@@ -5,7 +5,6 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="page-style" content="size:A4 portrait;margin-left:0px;margin-right:0px;margin-top:0px;" />
   <title>TOC Page Layout</title>
-
   <meta name="footnote-style" content="" />
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
@@ -16,6 +15,7 @@
   <div data-region="content">
     <div class="toc_content">
       <p class="toc_content_title">Table of Contents</p>
+      <div class="square-dot"></div>
     </div>
   </div>
   <div data-region="footer">

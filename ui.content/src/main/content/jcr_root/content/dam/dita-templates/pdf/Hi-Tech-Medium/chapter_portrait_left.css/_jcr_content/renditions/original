@@ -216,11 +216,11 @@ tbody .entry ul li {
   margin: 0;
   color: var(--color-accent);
 }
-h2.chapter_sub-titles {
+h2.chapter_sub-titles,h3.chapter_sub-titles {
   color: var(--color-accent);
   font-size: var(--text-base);
   line-height: var(--text-base-lh);
-  font-weight: 700;
+  font-weight: 500;
   font-family: var(--font-fam-primary-bold);
 }
 body {
