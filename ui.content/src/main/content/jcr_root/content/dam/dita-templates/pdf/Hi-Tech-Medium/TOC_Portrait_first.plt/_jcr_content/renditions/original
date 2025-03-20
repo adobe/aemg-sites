@@ -16,6 +16,7 @@
   <div data-region="content">
     <div class="toc_content">
       <p class="toc_content_title">Table of Contents</p>
+      <div class="square-dot"></div>
     </div>
   </div>
   <div data-region="footer">

@@ -126,7 +126,6 @@ h2.title {
   color: var(--color-accent);
   margin: 0;
 }
-
 .table {
   padding-top: 36px;
   padding-bottom: 40px;
@@ -218,7 +217,7 @@ h2.chapter_sub-titles {
   color: var(--color-accent);
   font-size: var(--text-base);
   line-height: var(--text-base-lh);
-  font-weight: 700;
+  font-weight: 500;
   font-family: var(--font-fam-primary-bold);
 }
 body {
