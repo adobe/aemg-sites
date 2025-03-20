@@ -285,7 +285,7 @@ body {
       color: var(--color-primary);
       cursor: pointer;
     }
-    .cmp-form-text:has(input:focus){
+    .cmp-form-text.input-active {
       &::before{
         display: none;
       }

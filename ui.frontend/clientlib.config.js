@@ -45,6 +45,7 @@ const clientlibArr = [
   {name : 'global-search' , module: 'common'},
   {name : 'content-feedback', module: 'feedback'},
   {name : 'accessibility', module: 'common'},
+  {name : 'related-articles', module: 'common'},
   
 
   //automotive

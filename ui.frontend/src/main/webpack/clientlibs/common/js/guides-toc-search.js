@@ -92,7 +92,13 @@ document.addEventListener('DOMContentLoaded', function() {
   const listItems = document.querySelectorAll('.cmp-guidesnavigation__group li');
   
   inputField.addEventListener('input', function() {
-    const searchValue = inputField.value.toLowerCase(); 
+    const searchValue = inputField.value.toLowerCase().trim();
+    const searchInputParent = inputField.parentElement;
+    if(searchValue) {
+     searchInputParent.classList.add("input-active");
+    } else {
+      searchInputParent.classList.remove("input-active");
+    }
       
     listItems.forEach(function(item) {
         const itemText = item.textContent.toLowerCase();

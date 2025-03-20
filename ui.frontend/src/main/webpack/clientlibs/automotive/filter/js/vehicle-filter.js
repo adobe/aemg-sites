@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", function () {
     let vehicleFilterBtn = document.querySelector(".vehicle_search_btn");
-    let vehiclesType = document.querySelector(".vehicles_type");
+    let vehiclesType = document.querySelector(".vehicles_type .cmp-container");
 
     vehicleFilterBtn.addEventListener('click', function (e) {
         e.stopPropagation();
