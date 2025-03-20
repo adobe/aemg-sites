@@ -197,7 +197,9 @@ body {
 }
 
 .screen-md-mb-64 {
-  margin-bottom: 64px;
+  @media screen and (max-width: $screen-md) {  
+    margin-bottom: 64px;
+  }
 }
 
 .topic-header {
