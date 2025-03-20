@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const relatedLinksContainers = document.querySelectorAll('.related-links');
     
     // Find the target container where links will be appended
-    const targetContainer = document.querySelector('.cmp-related-articles__list');
+    const targetContainer = document.querySelectorAll('.cmp-related-articles__list');
 
     // If target container doesn't exist, exit
     if (!targetContainer) {
@@ -53,5 +53,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Append the fragment to the target container (single DOM operation)
-    targetContainer.appendChild(fragment);
+    for(let i = 0; i<targetContainer.length; i++) {
+        const fragClone = fragment.cloneNode(true);
+        targetContainer[i].appendChild(fragClone);
+    }
 });
