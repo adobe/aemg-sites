@@ -161,7 +161,7 @@ li.step::before {
   counter-increment: step-counter;
   position: absolute;
   left: 11px;
-  top: 16px;
+  top: 0px;
   width: 30px;
   height: 30px;
   background: var(--color-accent, green);
@@ -248,6 +248,7 @@ figcaption {
 image {
   max-width: 100%;
   height: auto;
+  margin: 15px 0px;
 }
 /* Styling for unordered lists */
 ul {
@@ -300,12 +301,12 @@ ol li::before {
   content: counter(list-counter);
   position: absolute;
   left: 0;
-  top: 14px;
-  transform: translateY(-50%);
+  top: 0px;
+  transform: unset;
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  border: 2px solid var(--color-accent, green);
+  border: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -370,9 +371,9 @@ ol {
 b,
 .b {
   font-family: var(--font-fam-primary);
-  font-size: var(--text-base);
+  font-size: inherit;
   font-weight: 500;
-  line-height: var(--text-base-lh);
+  line-height: inherit;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -449,7 +450,7 @@ b,
 .note.tip .prefix-content::before {
   content: "";
   background-image: url(../../../aemguidesDALP/automotives/images/common/tip.png);
-  background-size: 17px 17px;
+  background-size: 20px 20px;
   background-repeat: no-repeat;
   /* width: 24px;
   height: 24px; */
@@ -767,7 +768,9 @@ tm[tmclass="ibm"] {
 .lof_footer_urls,
 #index_footer_urls,
 .lot_footer_urls,
-.glossary_footer_urls {
+#lot_footer_urls,
+.glossary_footer_urls,
+#glossary_footer_urls {
   color: var(--color-accent) !important;
   text-decoration: underline !important;
   font-family: var(--font-fam-secondary);
@@ -779,6 +782,7 @@ tm[tmclass="ibm"] {
 .fn {
   color: var(--color-accent);
   font-weight: 600;
+  border-top: none;
 }
 .note .prefix-content::before {
   content: "";
@@ -790,7 +794,7 @@ tm[tmclass="ibm"] {
   height: 40px;
   background-color: var(--color-light-blue-bg);
   border-radius: 10px;
-  background-size: 17px 17px;
+  background-size: 20px 20px;
 }
 .note.note .prefix-content {
   font-weight: bold;
@@ -870,12 +874,41 @@ table {
 }
 .title {
   font-family: var(--font-fam-primary);
-  font-size: var(--text-xl);
+  font-size: var(--text-lg);
   font-weight: 400;
-  line-height: var(--text-xl-lh);
+  line-height: var(--text-lg-lh);
   text-align: left;
   color: var(--color-primary);
 }
 .idx-keyword-group {
   display: none;
+}
+/* .fn-callout {
+  text-decoration: none !important;
+  border-top: 2px solid green !important;
+  outline: none !important;
+  text-decoration: underline !important;
+} */
+/* span.fn-callout.fn.display-inline {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+} */
+fn[callout] {
+  border-top: none !important;
+}
+.fn[callout] {
+  border-top: none !important;
+}
+.display-inline.fn.fn-callout {
+  border-top: none !important;
+}
+.fn.fn-callout::after {
+  content: " ";
+}
+.fn.fn-callout::before {
+  content: " ";
+}
+fn {
+  border-top: none !important;
 }

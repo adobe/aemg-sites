@@ -4,22 +4,19 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>TOC Page Layout</title>
-  <meta name="page-style" content="size:A4 portrait; margin-left:73px; margin-right:73px; margin-top: 80px;  margin-bottom: 140px;" />
+  <meta name="page-style" content="size:A4 portrait; margin-left:73px; margin-right:73px; margin-top: 50px;  margin-bottom: 140px;" />
   <meta name="footnote-style" content="" />
-
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
   <link rel="stylesheet" type="text/css" href="toc_portrait.css" />
 </head>
 <body>
-  <div data-region="header"><br />
+  <!-- <div data-region="header" style=""><br />
     
-  </div>
-  <div class="toc-config" data-region="content" id="toc_firstpage">
-    <!-- <p class="toc-title">Table of Contents</p>
-    <p class="toc-sub_title">2024 Mercedes-Benz EQG</p> -->
-  </div>
+  </div> -->
+  <div class="toc-config" data-region="content" id="toc_firstpage"><!-- <p class="toc-title">Table of Contents</p>
+    <p class="toc-sub_title">2024 Mercedes-Benz EQG</p> --></div>
   <div data-region="footer">
     <hr style="border: 0.5px solid #2C343B; margin: 0; padding: 0;" />
     <div style="font-size: 0.625rem; line-height: 0.75rem; color: var(--color-tertiary); margin-top : 8px;">Smith, J. A. (2020). The future of automotive technology:<br />

@@ -131,6 +131,7 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   margin-bottom: 8px;
+  margin-top: 0px;
 }
 #toc_firstpage .toc-sub_title {
   font-family: var(--font-fam-primary);
@@ -184,8 +185,8 @@
   padding-bottom: 8px;
 }
 #toc_firstpage .toc-level-3 {
-   text-indent: -40px;
-    padding-inline-start: 60px;
+  text-indent: -43px;
+  padding-inline-start: 90px;
 }
 #toc_firstpage .toc-level-4 {
   text-indent: unset;
@@ -203,6 +204,7 @@
 #toc_firstpage .toc-body {
   column-count: 2;
   column-gap: 80px;
+  padding-left: 30px;
 }
 #toc_firstpage .toc-level-1:first-child {
   padding-top: 0;
@@ -221,4 +223,8 @@
 .toc-level-2 {
   text-indent: -28px;
   margin-inline-start: 35px;
+}
+.toc-level-3::before,
+.toc-level-4::before {
+  margin-right: 5px;
 }

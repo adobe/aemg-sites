@@ -99,14 +99,34 @@
         display: block;
         height: 100%;
         position: absolute;
-        background-color: var(--color-bg);
+        background-color: #0D0D0D;
         border-radius: 22px 22px 0 0;
         bottom: 0;
         left: 0px;
         right: 0px;
         top: 35%;
-        padding: 50px 24px 68px 24px;
+        padding-top: 18px;
         z-index: 10;
+        
+        &::before {
+            font-family: "fontawesome";
+            content: "\f00d";
+            color: white;
+            position: absolute;
+            top: 21px;
+            right: 30px;
+        }
+        
+        &> .cmp-container {
+            display: block;
+            height: 100%;
+            padding: 24px 24px 68px;
+            background-color: var(--color-bg);
+        }        
+    }
+    
+    body.dark.vehicles_modal .vehicles_type > .cmp-container {
+       border-top: 2px solid var(--color-border-light); 
     }
 
     .dark .vehicle_search_btn {

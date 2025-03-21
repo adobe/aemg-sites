@@ -1,3 +1,5 @@
+@import "../../../utils/css/vars";
+
 @mixin flex-container {
     display: flex;
 }
@@ -44,11 +46,12 @@
 
         .guide-item {
             margin: 0;
-            padding: 48.5px 25px 48.5px 13px;
+            padding: 49px 16px;
             border: 1px solid #D8D8D8;
             border-radius: 4px;
             max-width: 292px;
             width: 100%;
+            position: relative;
 
             a {
                 text-decoration: none;
@@ -65,6 +68,23 @@
                     text-decoration: none;
                     word-break: break-word;
 
+                }
+                
+                .vehicle-type-label {
+                    position: absolute;
+                    top: 16px;
+                    right: 16px;
+                    font-size: var(--text-3xs);
+                    line-height: var(--text-3xs-lh);
+                    padding: 6px 16px 4px;
+                    color: white;
+                    background-color: #2C343B;
+                    border-radius: 64px;
+                    
+                    @media screen and (max-width: $screen-md) {
+                       top: 8px; 
+                       right: 6px;
+                    }
                 }
 
                 .cmp-teaser__image {

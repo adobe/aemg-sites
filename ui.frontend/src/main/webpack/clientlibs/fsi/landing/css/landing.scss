@@ -117,6 +117,10 @@
   }
 }
 
+.accessibility-line-height .leveloneprops.\.toc-list-meta .guide-item a h3 {
+  -webkit-line-clamp: 1;
+}
+
 @media screen and (max-width: $screen-md) {
   .leveloneprops.\.toc-list-meta {
     margin: 0px 24px 64px 24px;

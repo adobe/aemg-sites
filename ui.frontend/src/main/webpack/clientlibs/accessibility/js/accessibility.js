@@ -1068,14 +1068,25 @@ const currentFontSize = parseFloat(window.getComputedStyle(document.documentElem
 let defaultFontSize = document.querySelector('.default-fs')
 defaultFontSize.innerHTML = currentFontSize;
 
-increaseFontSize.addEventListener('click',()=>{
+increaseFontSize.addEventListener('click', () => {
   const currentFontSize = parseFloat(window.getComputedStyle(document.documentElement).fontSize);
+
+  if(currentFontSize == 22) {
+    return;
+  }
+
   const newFontSize = currentFontSize + 1;
   defaultFontSize.innerHTML = newFontSize;
   document.documentElement.style.fontSize = `${newFontSize}px`;
   const accessibilityElem = document.querySelector('.accessibility-menu');
   accessibilityElem.style.fontSize = 'initial';
-})
+  
+  if (newFontSize == 22) {
+    // Disable the button by changing the cursor style
+    increaseFontSize.style.cursor = 'not-allowed';
+  }
+});
+
 
 decreaseFontSize.addEventListener('click',()=>{
   const currentFontSize = parseFloat(window.getComputedStyle(document.documentElement).fontSize);
@@ -1084,4 +1095,8 @@ decreaseFontSize.addEventListener('click',()=>{
   document.documentElement.style.fontSize = `${newFontSize}px`;
   const accessibilityElem = document.querySelector('.accessibility-menu');
   accessibilityElem.style.fontSize = 'initial';
+  
+  if (newFontSize < 22) {
+    increaseFontSize.style.cursor = 'pointer';
+  }
 });

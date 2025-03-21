@@ -269,7 +269,7 @@ ul li:not(.hazardstatement)::before {
   left: -20px;
   font-size: 1.5em;
   color: var(--color-accent, #821616);
-   top: 4px;
+  top: 4px;
 }
 .hazardstatement li::before,
 .note.hazardstatement ul li::before {
@@ -450,7 +450,7 @@ b,
 .note.tip .prefix-content::before {
   content: "";
   background-image: url(../../../aemguidesDALP/automotives/images/common/tip.png);
-  background-size: 17px 17px;
+  background-size: 20px 20px;
   background-repeat: no-repeat;
   /* width: 24px;
   height: 24px; */
@@ -790,7 +790,7 @@ tm[tmclass="ibm"] {
   height: 40px;
   background-color: var(--color-light-blue-bg);
   border-radius: 10px;
-  background-size: 17px 17px;
+  background-size: 20px 20px;
 }
 .note.note .prefix-content {
   font-weight: bold;
