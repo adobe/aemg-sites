@@ -1,6 +1,6 @@
-body {
+ body {
   font-family: sans-serif;
-  counter-reset: h1\.chapter1 0;
+  counter-reset: h2\.chapter1 h1\.chapter1 0;
   /* counter-reset: table; */
   /* counter-reset: table\.title 0; */
   /* counter-reset: table\.title 0; */
@@ -34,7 +34,7 @@ h1.chapter {
   --list-indent: 0px;
   /* counter-reset: h2\.chapter1 0; */
   /* counter-reset: subsection; */
-  counter-reset: lot-count fig-count subsection h2\.chapter1 0;
+  counter-reset: lot-count fig-count h2\.chapter1 0;
   /* counter-reset: fig-count; */
   position: relative;
   column-span: all;
@@ -45,7 +45,7 @@ h1.chapter {
 h1.chapter:before {
   font-family: PP Editorial New;
   counter-increment: h1\.chapter1;
-  content: counter(h1\.chapter1, decimal)". ";
+  content: counter(h1\.chapter1)". ";
   text-align: left;
   position: absolute;
   left: calc(-0.5* var(--prefix-size) - var(--prefix-gap));
@@ -57,8 +57,15 @@ h1.chapter:before {
   padding-left: 7px;
 }
 h2.chapter:before {
-  counter-increment: subsection;
-  content: counter(h1\.chapter1, decimal) "." counter(subsection) ". ";
+  counter-increment: h2\.chapter1;
+  content: counter(h1\.chapter1) "." counter(h2\.chapter1)". ";
+}
+h2.chapter {
+  counter-reset: h3\.chapter1 0;
+}
+h3.chapter:before {
+  counter-increment: h3\.chapter1;
+  content: counter(h1\.chapter1) "." counter(h2\.chapter1) "." counter(h3\.chapter1) ". ";
 }
 h1.appendix {}
 /**** Paragraph Styles ****/
