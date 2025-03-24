@@ -8,11 +8,11 @@
         cq:name="BackCover_Landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-04T13:37:25.953+05:30"
+        jcr:lastModified="{Date}2025-03-20T15:19:19.202+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-03-04T13:37:25.876+05:30"
+            dam:extracted="{Date}2025-03-20T15:19:19.176+05:30"
             dam:sha1="a20fd7b57bcd70d4190736c1b8fff4d991a006bd"
             dam:size="{Long}2303"
             dc:format="application/octet-stream"

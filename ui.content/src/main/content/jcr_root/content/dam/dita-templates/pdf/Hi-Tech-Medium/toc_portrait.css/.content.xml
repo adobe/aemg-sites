@@ -8,13 +8,13 @@
         cq:name="toc_portrait.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-04T13:37:16.159+05:30"
+        jcr:lastModified="{Date}2025-03-20T15:19:21.843+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-03-04T13:37:15.828+05:30"
-            dam:sha1="81aa673ad639868210ff3deb7892f8aebe3afa19"
-            dam:size="{Long}1946"
+            dam:extracted="{Date}2025-03-20T15:19:21.812+05:30"
+            dam:sha1="c7f038df72fb46fa8cb6c8cdb396478d773182f4"
+            dam:size="{Long}2753"
             dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
