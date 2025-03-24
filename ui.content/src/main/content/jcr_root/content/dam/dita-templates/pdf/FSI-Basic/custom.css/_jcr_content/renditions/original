@@ -797,3 +797,71 @@ tm[tmclass="ibm"] {
 figure {
   break-inside: avoid;
 }
+.thead {
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
+  font-weight: 600;
+  color: var(--color-primary);
+  background-color: var(--color-light-blue-bg);
+  border: 0.5px solid var(--color-tertiary);
+  text-align: left;
+}
+.tbody {
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-secondary);
+  border: 0.5px solid var(--color-accent);
+}
+.tbody .entry {
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-tertiary);
+}
+.tbody b {
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 600;
+  color: var(--color-tertiary);
+  margin-bottom: 16px;
+}
+table .title {
+  font-family: var(--font-fam-secondary);
+  margin: 20px 0px;
+}
+.table {
+  margin-bottom: 40px;
+  font-family: var(--font-fam-secondary);
+}
+.entry {
+  padding: 8px 16px;
+  /* border-left-width: 1px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px; */
+  border-color: var(--color-tertiary);
+  font-weight: 600;
+  text-align: left;
+  border: 0.5px solid var(--color-tertiary);
+}
+table {
+  border-collapse: collapse;
+  text-indent: initial;
+  border-spacing: 0px;
+}
+.title {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-lg);
+  font-weight: 400;
+  line-height: var(--text-lg-lh);
+  text-align: left;
+  color: var(--color-primary);
+}
+h3.title{
+  font-family: var(--font-fam-primary);
+    font-size: var(--text-base);
+    line-height: var(--text-base-lh);
+    font-weight: 600;
+    color: var(--color-primary);
+}
