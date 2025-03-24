@@ -8,13 +8,13 @@
         cq:name="Index_Landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-04T13:37:30.302+05:30"
+        jcr:lastModified="{Date}2025-03-20T15:19:21.771+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-03-04T13:37:30.236+05:30"
-            dam:sha1="a7499a07e5e5edaf4b617adfca9c7b0b0ea4525a"
-            dam:size="{Long}1180"
+            dam:extracted="{Date}2025-03-20T15:19:21.736+05:30"
+            dam:sha1="fbe29b2964cd20fbcb60426b7b0733b1ce1ef576"
+            dam:size="{Long}1155"
             dc:format="application/octet-stream"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
