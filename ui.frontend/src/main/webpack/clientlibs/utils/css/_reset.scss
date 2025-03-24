@@ -116,6 +116,7 @@ textarea, select {
 button{
   border: none;
   background: transparent;
+  cursor: pointer;
 }
 
 /* Make sure textareas without a rows attribute are not tiny */

@@ -1,8 +1,11 @@
 .related-links {
+  margin-top: 40px;
 
   .prefix-content {
     color: var(--color-primary);
     font-weight: 700;
+    font-size: var(--text-lg);
+    line-height: var(--text-lg-lh);
   }
 
   .link {
