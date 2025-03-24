@@ -8,11 +8,11 @@
         cq:name="backcover_portrait.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-04T13:37:28.066+05:30"
+        jcr:lastModified="{Date}2025-03-20T15:19:19.748+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-03-04T13:37:28.013+05:30"
+            dam:extracted="{Date}2025-03-20T15:19:19.717+05:30"
             dam:sha1="e02dd8b00aac8445331fe42a17e634bc211a3f52"
             dam:size="{Long}1869"
             dc:format="text/css"

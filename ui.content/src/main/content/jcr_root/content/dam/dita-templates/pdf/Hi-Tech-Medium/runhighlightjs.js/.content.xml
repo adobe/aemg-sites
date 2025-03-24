@@ -8,13 +8,13 @@
         cq:name="runhighlightjs.js"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-13T15:36:44.697+05:30"
+        jcr:lastModified="{Date}2025-03-20T15:19:20.240+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-03-13T15:36:44.663+05:30"
-            dam:sha1="2dd103819eed341f807c21a20bdb56d6d56092e3"
-            dam:size="{Long}158"
+            dam:extracted="{Date}2025-03-20T15:19:20.221+05:30"
+            dam:sha1="1ad56d2ed7157d22611f9436f80457074afec3a3"
+            dam:size="{Long}154"
             dc:format="application/javascript"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
