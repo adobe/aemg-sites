@@ -247,6 +247,7 @@ fig {
   max-width: 500px;
   padding: 20px 10px 0px 10px;
   margin: 30px auto;
+  break-inside: avoid;
 }
 .fig figcaption,
 figcaption {
@@ -441,8 +442,9 @@ ol li b {
 .note.caution,
 .note.tip {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  flex-direction: column;
   gap: 8px;
   padding: 8px 0px;
   border-top: 0.5px solid #D8D8D8;
@@ -455,6 +457,9 @@ ol li b {
   line-height: 18px;
   color: var(--color-accent);
   font-family: var(--font-fam-primary-regular);
+  padding-left: 56px;
+      margin-left: 0px;
+  padding-right: 10px;
 }
 .note.note .prefix-content,
 .note.danger .prefix-content,
@@ -471,6 +476,7 @@ ol li b {
   align-items: center;
   font-size: var(--text-base);
   font-family: var(--font-fam-primary-regular);
+  transform: translate(-50px, 0px);
 }
 /* long message hazardement statement css */
 .restriction.note.hazardstatement,
@@ -478,12 +484,13 @@ ol li b {
 .danger.note.hazardstatement,
 .notice.note.hazardstatement,
 .caution.note.hazardstatement {
-  display: block;
-  border: none;
-  background: none;
-  width: 95.7%;
-  border-top: 0.5px solid #D8D8D8;
-  border-bottom: 0.5px solid #D8D8D8;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    border-top: 0.5px solid #D8D8D8;
+    border-bottom: 0.5px solid #D8D8D8;
+    margin-left: 0px;
 }
 .restriction.note.hazardstatement .prefix-content,
 .warning.note.hazardstatement .prefix-content,
@@ -563,7 +570,7 @@ ol li b {
 .hazardstatement .messagepanel {
   list-style-type: disc;
   margin-top: 16px;
-  padding-inline-start: 62px;
+  padding-inline-start: 15px;
 }
 .hazardstatement .ul .li {
   background: white;
@@ -722,6 +729,10 @@ td {
 }
 .example h1.title.chapter {
   padding-left: 3px;
+}
+.example .codeblock .hljs-keyword {
+  font-weight: 700;
+  color: var(--color-accent);
 }
 .example .codeblock {
   background-color: var(--color-light-blue-bg);
