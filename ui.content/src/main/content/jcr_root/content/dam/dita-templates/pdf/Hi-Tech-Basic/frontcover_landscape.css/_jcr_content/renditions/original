@@ -16,7 +16,7 @@
 }
 .frontcover_logo-image {
   width: 144px;
-  height: 26px;
+  height: auto;
 }
 .frontcover_cover-image-wrapper-landscape {
   display: flex;
@@ -28,7 +28,7 @@
   width: 257px;
   height: 200px;
   max-width: unset !important;
-  margin-top: 5px;    
+  margin-top: 5px;
 }
 .frontcover_textdata .frontcover_mainbooktitle-landscape {
   font-size: 30px;
