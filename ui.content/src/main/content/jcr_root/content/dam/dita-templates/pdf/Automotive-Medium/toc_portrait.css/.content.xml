@@ -8,13 +8,13 @@
         cq:name="toc_portrait.css"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-13T18:29:46.328+05:30"
+        jcr:lastModified="{Date}2025-03-26T12:43:56.870+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-03-13T18:29:46.235+05:30"
-            dam:sha1="c02e901be8c4d8a75ec41d652e9c0c621c8963b9"
-            dam:size="{Long}6316"
+            dam:extracted="{Date}2025-03-26T12:43:56.760+05:30"
+            dam:sha1="199c2ce4ae6ace1844e694b943e30561608c530b"
+            dam:size="{Long}6203"
             dc:format="text/css"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
