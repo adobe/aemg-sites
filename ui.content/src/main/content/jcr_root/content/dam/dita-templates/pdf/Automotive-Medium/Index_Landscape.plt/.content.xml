@@ -8,11 +8,11 @@
         cq:name="Index_Landscape.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-13T18:29:44.516+05:30"
+        jcr:lastModified="{Date}2025-03-26T12:43:55.192+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-03-13T18:29:44.416+05:30"
+            dam:extracted="{Date}2025-03-26T12:43:55.052+05:30"
             dam:sha1="5f2798ff1aa7ebc964b3a7f4bb4e12ef8afc2cab"
             dam:size="{Long}1587"
             dc:format="application/octet-stream"
