@@ -8,11 +8,11 @@
         cq:name="TOC_Landscape_left.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-04T13:37:27.049+05:30"
+        jcr:lastModified="{Date}2025-03-20T15:19:19.385+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-03-04T13:37:26.978+05:30"
+            dam:extracted="{Date}2025-03-20T15:19:19.342+05:30"
             dam:sha1="a04379aa4be51c1c5f27f37db08fe54c2c97d169"
             dam:size="{Long}1137"
             dc:format="application/octet-stream"

@@ -16,7 +16,7 @@
 }
 .frontcover_logo-image {
   width: 144px;
-  height: 26px;
+  height: auto;
 }
 .frontcover_cover-image-wrapper {
   display: flex;

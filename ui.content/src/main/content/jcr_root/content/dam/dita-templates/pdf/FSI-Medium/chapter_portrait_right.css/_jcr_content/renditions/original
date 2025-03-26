@@ -169,3 +169,6 @@ li {
   display: inline-block;
   margin-top: 10px;
 }
+.table_img {
+    margin: 5px 0px;
+}

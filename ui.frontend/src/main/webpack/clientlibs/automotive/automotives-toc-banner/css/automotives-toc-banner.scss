@@ -57,7 +57,7 @@
     }
 
     .cover-img {
-      width: 79%;
+      width: 76%;
       padding-left: 20px;
 
       @media screen and (max-width: $screen-md) {
@@ -247,6 +247,8 @@
 .breadcrumb{
   ol{
     margin-top: 30px;
+    margin-bottom: 0;
+
     li{
       a{
         font-family: var(--font-fam-secondary);

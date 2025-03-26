@@ -238,3 +238,17 @@ body {
     color: var(--color-primary-dark);
   }
 }
+
+.header-logo {
+  img {
+    max-width: 77px;
+    height: 29px;
+  }
+}
+
+.footer_logo {
+  img {
+    width: 77px;
+    height: 29px;
+  }
+}

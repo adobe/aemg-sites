@@ -71,6 +71,16 @@
                         font-weight: 900;
                     }
                 }
+
+                .go-back-btn {
+                    color: var(--color-accent);
+                    padding: 0;
+                    text-decoration: underline;
+                    cursor: pointer;
+                    text-underline-offset: 2px;
+                    font-size: var(--text-sm);
+                    line-height: var(--text-sm-lh);
+                }
             }
             ul.cmp-search-list__item-group {
                 list-style: none;

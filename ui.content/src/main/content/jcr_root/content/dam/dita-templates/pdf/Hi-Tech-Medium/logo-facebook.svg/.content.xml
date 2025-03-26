@@ -10,7 +10,7 @@
         dam:processingRenditions="[cqdam.metadata.xml,cq5dam.web.1280.1280.jpeg,cq5dam.thumbnail.140.100.png,cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.features.json,cqdam.text.txt,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.48.48.png,cq5dam.thumbnail.319.319.png]"
         dam:processingRequestedDate="{Date}2022-06-06T16:55:22.862Z"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2025-03-04T13:37:18.550+05:30"
+        jcr:lastModified="{Date}2025-03-20T15:19:19.102+05:30"
         jcr:lastModifiedBy="qeadmin"
         jcr:primaryType="dam:AssetContent"
         dxmlLastCreatedVersion="1.0"
@@ -23,7 +23,7 @@
                 reason="RenditionFormatUnsupported"/>
         </dam:failedRenditions>
         <metadata
-            dam:extracted="{Date}2025-03-04T13:37:17.576+05:30"
+            dam:extracted="{Date}2025-03-20T15:19:18.425+05:30"
             dam:sha1="4ed0e8dbd9d5b48b90fe582c91332ebec3a8bcce"
             dam:size="{Long}448"
             dc:format="image/svg+xml"

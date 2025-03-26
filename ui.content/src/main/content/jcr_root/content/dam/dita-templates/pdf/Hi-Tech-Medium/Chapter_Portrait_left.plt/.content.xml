@@ -8,11 +8,11 @@
         cq:name="Chapter_Portrait_left.plt"
         cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Medium"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2025-03-04T13:37:17.845+05:30"
+        jcr:lastModified="{Date}2025-03-20T15:19:19.195+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2025-03-04T13:37:17.756+05:30"
+            dam:extracted="{Date}2025-03-20T15:19:19.154+05:30"
             dam:sha1="f49c8c6bdc674f732276727bbe67672f71c5e70a"
             dam:size="{Long}1388"
             dc:format="application/octet-stream"

@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  counter-reset: h1\.chapter1 0;
+  counter-reset:  h2\.chapter1 h1\.chapter1 0;
   /* counter-reset: table; */
   /* counter-reset: table\.title 0; */
   /* counter-reset: table\.title 0; */
@@ -57,12 +57,19 @@ h1.chapter:before {
   padding-left: 7px;
 }
 h2.chapter:before {
-  counter-increment: subsection;
-  content: counter(h1\.chapter1, decimal) "." counter(subsection) ". ";
+  counter-increment: h2\.chapter1;
+  content: counter(h1\.chapter1) "." counter(h2\.chapter1)". ";
+}
+h2.chapter {
+  counter-reset: h3\.chapter1 0;
+}
+h3.chapter:before {
+  counter-increment: h3\.chapter1;
+  content: counter(h1\.chapter1) "." counter(h2\.chapter1) "." counter(h3\.chapter1) ". ";
 }
 h1.appendix {}
 /**** Paragraph Styles ****/
-p {
+/* p {
   font-size: 11pt;
 }
 .draft-comment {
@@ -75,9 +82,9 @@ p {
   line-height: 1.4em;
   font-weight: 100;
   padding-bottom: 0.8em;
-}
+} */
 /**** Link Styles ****/
-a {
+/* a {
   text-decoration: underline;
 }
 .link {
@@ -96,9 +103,9 @@ a {
 .xref {
   color: #0074D9;
   text-decoration: none;
-}
+} */
 /**** List Styles ****/
-ul,
+/* ul,
 ol {
   margin-top: 0.5em;
   padding-bottom: 0em;
@@ -125,9 +132,9 @@ ol ol {
 }
 ol ol ol {
   list-style-type: lower-roman;
-}
+} */
 /**** Table Styles ****/
-table {
+/* table {
   width: 100%;
   font-size: 11pt;
   border-collapse: collapse;
@@ -165,9 +172,9 @@ table .title {
   border-top-width: 1px;
   border-right-width: 1px;
   border-bottom-width: 1px;
-}
+} */
 /**** Simple Table Styles ****/
-.simpletable {}
+/* .simpletable {}
 .sthead {
   text-align: left;
   background: #fafafa;
@@ -190,9 +197,9 @@ table .title {
   border-top-width: 1px;
   border-right-width: 1px;
   border-bottom-width: 1px;
-}
+} */
 /**** Figure & Image Styles ****/
-.fig {}
+/* .fig {}
 .fig .title {
   font-size: 14pt;
   font-weight: bold;
@@ -209,7 +216,7 @@ table .title {
 video {
   max-height: 100%;
   max-width: 100%;
-}
+} */
 /**** Note Styles ****/
 /* .note {
   border-left: 4px solid #ddd;
@@ -286,7 +293,7 @@ video {
   border: 1px solid #ffb47b;
 } */
 /**** Character Styles ****/
-.apiname {
+/* .apiname {
   font-style: italic;
 }
 .boolean {
@@ -337,25 +344,25 @@ video {
 .var {}
 .varname {
   font-style: italic;
-}
+} */
 /**** Footnote Styles ****/
-.fn {
+/* .fn {
   float: footnote;
   font-weight: normal;
   text-align: left;
-}
-.fn::footnote-call {
-  /*content: counter(footnote, decimal);*/
+} */
+/* .fn::footnote-call {
+  content: counter(footnote, decimal);
 }
 .fn::footnote-marker {
-  /*content: counter(footnote, decimal);*/
+  content: counter(footnote, decimal);
 }
 .fn[id]::footnote-call {
   display: none;
 }
-.xref-fn {}
+.xref-fn {} */
 /**** Quote Styles ****/
-blockquote {
+/* blockquote {
   background: #fff;
   padding: 1rem;
   font-style: italic;
@@ -371,9 +378,9 @@ blockquote::after {
 .cite {
   font-style: italic;
 }
-.q {}
+.q {} */
 /**** Codeblock Styles ****/
-.codeblock {
+/* .codeblock {
   background: #f5f5f5;
   border: 1px solid #eee;
   border-radius: 5px;
@@ -388,9 +395,9 @@ blockquote::after {
   font-size: 11pt;
   background: #f5f5f5;
   border: 1px solid #eee;
-}
+} */
 /**** Definition List Styles ****/
-.dd {
+/* .dd {
   margin-bottom: 0.5rem;
   margin-left: 1.4rem;
   font-size: 11pt;
@@ -411,9 +418,9 @@ blockquote::after {
 }
 .dthd {
   font-weight: bold;
-}
+} */
 /**** Task Styles ****/
-.choice {
+/* .choice {
   margin-top: 0.3rem;
   margin-bottom: 0.3rem;
 }
@@ -486,7 +493,7 @@ li>.tutorialinfo {}
 .tutorialinfo>ul>li:last-child {}
 .prefix-content {
   display: inline;
-}
+} */
 /* table .title {
   text-align: left;
   color: #001F3F;
