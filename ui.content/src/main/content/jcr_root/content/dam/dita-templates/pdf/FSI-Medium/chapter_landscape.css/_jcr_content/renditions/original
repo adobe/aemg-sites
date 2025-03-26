@@ -68,3 +68,6 @@
   background-color: #F9F9F9;
   padding-top: ;
 }
+.table_img {
+    margin: 5px 0px;
+}
