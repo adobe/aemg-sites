@@ -19,5 +19,5 @@ document.querySelector('.cmp-search-bar__clear-icon').addEventListener('click', 
 document.querySelector('.cmp-search-bar__form').addEventListener('submit', (e) => {
     // Trigger click event before form submission
     const clearIcon = document.querySelector('.cmp-search-bar__clear-icon');
-    clearIcon.click();
+    document.querySelector('.search-container').classList.add('display-none');
 });
