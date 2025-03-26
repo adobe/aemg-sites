@@ -200,7 +200,7 @@ info p {
   line-height: 14px;
   font-family: var(--font-fam-primary-regular);
   font-weight: 400;
-  color: var(--color-primary-white);
+  color: var(--color-blue-primary);
   background: var(--color-natural-blue);
   padding: 12px 16px;
 }

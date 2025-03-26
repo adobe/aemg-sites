@@ -19,7 +19,6 @@
   src: url('../../../aemguidesDALP/fonts/inter/Inter-Bold.woff');
   font-weight: 700;
 }
-
 @font-face {
   font-family: Urbanist;
   src: url('../../../aemguidesDALP/fonts/urbanist/Urbanist-Medium.ttf');
@@ -39,10 +38,11 @@
   --color-accent: #0C1256;
   --color-primary: #01EA57;
   --color-primary-white: #FFFFFF;
-  --color-secondry-white: #F2F2F2;  
+  --color-secondry-white: #F2F2F2;
   --color-natural-blue: #87A3FB;
   --color-secondary: #E8F1FF;
   --color-tertiary: #2C343B;
   --color-neutral: #D8D8D8;
   --color-link: #0F85EC;
+  --color-blue-primary: #0000FF;
 }

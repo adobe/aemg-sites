@@ -1,4 +1,4 @@
-.example .pbody {
+.example p, .example .pbody {
   font-family: var(--font-fam-primary);
 }
 .cite,
@@ -418,7 +418,7 @@ b,
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-   flex-direction: column;
+  flex-direction: column;
   gap: 8px;
   padding: 8px 0px;
   border-top: 0.5px solid #D8D8D8;
@@ -428,7 +428,7 @@ b,
   margin: 20px 0px;
   font-size: 12px;
   font-family: var(--font-fam-primary);
-   padding-left: 50px;
+  padding-left: 50px;
 }
 .note.danger .prefix-content,
 .restriction .prefix-content,
@@ -513,6 +513,7 @@ b,
   padding: 8px 0px 8px 0px;
   border-top: unset;
   border-bottom: unset;
+  transform: unset !important;
 }
 .note.danger .prefix-content::before {
   content: "";
@@ -678,7 +679,7 @@ a:hover {
   color: var(--color-secondary);
   margin-bottom: 0px;
   border-top: unset;
-  border-left: 2px solid var(--color-tertiary);
+  border-left: 2px solid var(--color-primary);
   padding: 10px;
 }
 .example h1.chapter:before {
