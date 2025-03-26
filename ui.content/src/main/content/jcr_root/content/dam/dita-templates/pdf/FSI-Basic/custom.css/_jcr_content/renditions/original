@@ -1,4 +1,4 @@
-.example .pbody {
+.example p, .example .pbody {
   font-family: var(--font-fam-primary);
 }
 .cite,
@@ -400,8 +400,9 @@ b,
 .note.caution,
 .tip {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
+  flex-direction: column;
   gap: 8px;
   padding: 8px 0px;
   border-top: 0.5px solid #D8D8D8;
@@ -411,11 +412,13 @@ b,
   margin: 45px 0px;
   font-size: 12px;
   font-family: var(--font-fam-primary);
+  padding-left: 50px;
 }
 .note.danger {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
+  flex-direction: column;
   gap: 8px;
   padding: 8px 0px;
   border-top: 0.5px solid #D8D8D8;
@@ -425,6 +428,7 @@ b,
   margin: 20px 0px;
   font-size: 12px;
   font-family: var(--font-fam-primary);
+  padding-left: 50px;
 }
 .note.danger .prefix-content,
 .restriction .prefix-content,
@@ -438,11 +442,12 @@ b,
   font-size: 16px;
   font-family: var(--font-fam-primary);
   color: var(--color-primary);
+  transform: translate(-50px, 0px);
 }
 .note.restriction .prefix-content::before {
   content: "";
   background-image: url(../../../aemguidesDALP/fsi/images/common/danger.png);
-  background-size: 17px 17px;
+  background-size: 20px 20px;
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -454,7 +459,7 @@ b,
 .note.caution .prefix-content::before {
   content: "";
   background-image: url(../../../aemguidesDALP/fsi/images/common/caution.png);
-  background-size: 17px 17px;
+  background-size: 20px 20px;
   background-repeat: no-repeat;
   width: 32px;
   height: 32px;
@@ -466,7 +471,7 @@ b,
 .note.tip .prefix-content::before {
   content: "";
   background-image: url(../../../aemguidesDALP/fsi/images/common/tip.png);
-  background-size: 13px 13px;
+  background-size: 20px 20px;
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -508,11 +513,12 @@ b,
   padding: 8px 0px 8px 0px;
   border-top: unset;
   border-bottom: unset;
+  transform: unset !important;
 }
 .note.danger .prefix-content::before {
   content: "";
   background-image: url(../../../aemguidesDALP/fsi/images/common/danger.png);
-  background-size: 17px 17px;
+  background-size: 20px 20px;
   background-repeat: no-repeat;
   width: 32px;
   height: 32px;
@@ -673,7 +679,7 @@ a:hover {
   color: var(--color-secondary);
   margin-bottom: 0px;
   border-top: unset;
-  border-left: 2px solid var(--color-tertiary);
+  border-left: 2px solid var(--color-primary);
   padding: 10px;
 }
 .example h1.chapter:before {
@@ -782,6 +788,44 @@ tm[tmclass="ibm"] {
   background-color: var(--color-primary-light);
   border-radius: 10px;
 }
+.note {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0px;
+  padding: 8px 0px;
+  border-top: 0.5px solid #D8D8D8;
+  border-bottom: 0.5px solid #D8D8D8;
+  border-left: unset;
+  background-color: unset;
+  margin: 45px 0px;
+  font-size: 12px;
+  font-family: var(--font-fam-secondary);
+  padding-left: 50px;
+}
+.note .prefix-content::before {
+  content: "";
+  background-image: url(../../../aemguidesDALP/automotives/images/common/note.png);
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-primary-light);
+  border-radius: 10px;
+  background-size: 20px 20px;
+}
+.note.note .prefix-content {
+  font-weight: bold;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 16px;
+  font-family: var(--font-fam-primary);
+  transform: translate(-50px, 0px);
+}
 .lof_footer_urls,
 #index_footer_urls,
 .lot_footer_urls,
@@ -858,10 +902,10 @@ table {
   text-align: left;
   color: var(--color-primary);
 }
-h3.title{
+h3.title {
   font-family: var(--font-fam-primary);
-    font-size: var(--text-base);
-    line-height: var(--text-base-lh);
-    font-weight: 600;
-    color: var(--color-primary);
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
+  font-weight: 600;
+  color: var(--color-primary);
 }

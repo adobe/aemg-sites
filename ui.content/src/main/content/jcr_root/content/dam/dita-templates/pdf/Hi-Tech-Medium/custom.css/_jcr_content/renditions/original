@@ -74,7 +74,6 @@ q::after,
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   /* border-radius: 8px; */
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 .dlhead {
   font-family: var(--font-fam-primary);
@@ -272,7 +271,6 @@ ul li {
   /* background-color: var(--frontcover-text-color, #FFFFFF); */
   padding: 30px;
   border-radius: 8px;
-  /* box-shadow: 0 0 8px rgba(2, 2, 2, 0.1); */
   width: 400px;
   margin: 0px;
   padding: 0px;
@@ -406,8 +404,9 @@ ol li b {
 .note.caution,
 .note.tip {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  flex-direction: column;
   gap: 8px;
   padding: 8px 0px;
   border-top: 0.5px solid #D8D8D8;
@@ -420,6 +419,9 @@ ol li b {
   line-height: 18px;
   color: var(--color-accent);
   font-family: var(--font-fam-primary-regular);
+  padding-left: 56px;
+  padding-right: 10px;
+  margin-left: 0px;
 }
 .note.note .prefix-content,
 .note.danger .prefix-content,
@@ -436,6 +438,7 @@ ol li b {
   align-items: center;
   font-size: var(--text-base);
   font-family: var(--font-fam-primary-regular);
+  transform: translate(-50px, 0px);
 }
 /* long message hazardement statement css */
 .restriction.note.hazardstatement,
@@ -449,6 +452,7 @@ ol li b {
   width: 95.7%;
   border-top: 0.5px solid #D8D8D8;
   border-bottom: 0.5px solid #D8D8D8;
+  margin-left: 0px;
 }
 .restriction.note.hazardstatement .prefix-content,
 .warning.note.hazardstatement .prefix-content,
@@ -528,7 +532,7 @@ ol li b {
 .hazardstatement .messagepanel {
   list-style-type: disc;
   margin-top: 16px;
-  padding-inline-start: 62px;
+  padding-inline-start: 15px;
 }
 .hazardstatement .ul .li {
   background: white;
@@ -684,9 +688,11 @@ td {
   margin-top: 0px;
   margin-bottom: 16px;
   break-inside: avoid;
-}
-.example h1.title.chapter {
   padding-left: 3px;
+}
+.example .codeblock .hljs-keyword {
+  font-weight: 700;
+  color: var(--color-accent);
 }
 .example .codeblock {
   background-color: var(--color-light-blue-bg);
