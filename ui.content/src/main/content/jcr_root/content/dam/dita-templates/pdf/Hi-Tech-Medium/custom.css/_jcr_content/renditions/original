@@ -422,6 +422,7 @@ ol li b {
   padding-left: 56px;
   padding-right: 10px;
   margin-left: 0px;
+  break-inside: avoid;
 }
 .note.note .prefix-content,
 .note.danger .prefix-content,
@@ -453,6 +454,7 @@ ol li b {
   border-top: 0.5px solid #D8D8D8;
   border-bottom: 0.5px solid #D8D8D8;
   margin-left: 0px;
+  break-inside: avoid;
 }
 .restriction.note.hazardstatement .prefix-content,
 .warning.note.hazardstatement .prefix-content,
@@ -711,6 +713,7 @@ td {
   background: var(--color-secondary);
   padding: 24px;
   break-inside: avoid;
+  margin: 15px 0px;
 }
 .lines {
   width: 100%;
