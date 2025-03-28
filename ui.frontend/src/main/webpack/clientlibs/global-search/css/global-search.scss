@@ -144,3 +144,19 @@
 {
     filter: invert(50%) sepia(100%) saturate(200%) hue-rotate(180deg);
 }
+
+/* Search bar clear icon styles */
+#cmp-search-page-result {
+    .search-container {
+        .cmp-search-bar {
+
+            &__input:placeholder-shown+.cmp-search-bar__clear-icon {
+                display: none !important;
+            }
+
+            &__input:not(:placeholder-shown)+.cmp-search-bar__clear-icon {
+                display: block !important;
+            }
+        }
+    }
+}
