@@ -54,12 +54,13 @@
   text-decoration: none;
 }
 .idx-child {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
   column-gap: 150px;
   margin-top: 40px;
   padding-left: 0px;
+  column-count: 2;
 }
 /* #index_footer {
   border-top: 0.5px solid #2C343B;
@@ -91,4 +92,7 @@ a.book-idx-link.idx-link {
   border-top: 0.5px solid #2C343B;
   color: var(--color-tertiary);
   justify-content: flex-start;
+}
+.rh-index-page-wrapper{
+    column-count: 2;
 }
