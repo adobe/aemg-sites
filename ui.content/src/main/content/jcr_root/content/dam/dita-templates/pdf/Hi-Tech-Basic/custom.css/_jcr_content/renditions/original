@@ -458,8 +458,9 @@ ol li b {
   color: var(--color-accent);
   font-family: var(--font-fam-primary-regular);
   padding-left: 56px;
-      margin-left: 0px;
+  margin-left: 0px;
   padding-right: 10px;
+  break-inside: avoid;
 }
 .note.note .prefix-content,
 .note.danger .prefix-content,
@@ -484,13 +485,14 @@ ol li b {
 .danger.note.hazardstatement,
 .notice.note.hazardstatement,
 .caution.note.hazardstatement {
-    display: block;
-    border: none;
-    background: none;
-    width: 100%;
-    border-top: 0.5px solid #D8D8D8;
-    border-bottom: 0.5px solid #D8D8D8;
-    margin-left: 0px;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  border-top: 0.5px solid #D8D8D8;
+  border-bottom: 0.5px solid #D8D8D8;
+  margin-left: 0px;
+    break-inside: avoid;
 }
 .restriction.note.hazardstatement .prefix-content,
 .warning.note.hazardstatement .prefix-content,
