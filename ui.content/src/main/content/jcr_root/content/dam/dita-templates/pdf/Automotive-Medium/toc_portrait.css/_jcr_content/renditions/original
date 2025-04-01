@@ -160,19 +160,29 @@
   letter-spacing: 0.5px;
 }
 #toc_firstpage .toc-level-2 {
-  font-family: var(--font-fam-secondary);
-  color: var(--color-tertiary);
-  font-size: var(--text-xs);
-  font-weight: 400;
-  line-height: var(--text-xs-lh);
-  text-align: left;
-  text-decoration-skip-ink: none;
-  margin-bottom: 2px;
-  text-indent: -33px;
-  padding-left: 20px;
-  padding-bottom: 8px;
+     font-family: var(--font-fam-secondary);
+    color: var(--color-tertiary);
+    font-size: var(--text-xs);
+    font-weight: 400;
+    line-height: var(--text-xs-lh);
+    text-align: left;
+    text-decoration-skip-ink: none;
+    padding-bottom: 8px;
+    margin: 0;
+    padding-left: 55px;
+    text-indent: -27px;
 }
-#toc_firstpage .toc-level-3,
+#toc_firstpage .toc-level-3 {
+     font-family: var(--font-fam-secondary);
+    color: var(--color-tertiary);
+    font-size: var(--text-xs);
+    font-weight: 400;
+    line-height: var(--text-xs-lh);
+    text-align: left;
+    text-decoration-skip-ink: none;
+    text-indent: -27px;
+    margin-inline-start: 110px;
+}
 #toc_firstpage .toc-level-4 {
   font-family: var(--font-fam-secondary);
   color: var(--color-tertiary);
@@ -184,10 +194,7 @@
   margin-bottom: 2px;
   padding-bottom: 8px;
 }
-#toc_firstpage .toc-level-3 {
-  text-indent: -43px;
-  padding-inline-start: 90px;
-}
+
 #toc_firstpage .toc-level-4 {
   text-indent: unset;
   padding-left: 60px;
@@ -218,13 +225,14 @@
   margin-right: 15px;
 }
 .toc-level-2::before {
-  margin-right: 10px;
+  margin-right: 1px;
+  display: inline-block;
+  width: 25px;
+  height: auto;
 }
-.toc-level-2 {
-  text-indent: -28px;
-  margin-inline-start: 35px;
-}
-.toc-level-3::before,
-.toc-level-4::before {
-  margin-right: 5px;
+.toc-level-3::before {
+  margin-right: 1px;
+    display: inline-block;
+    width: 25px;
+    height: auto;
 }

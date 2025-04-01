@@ -28,6 +28,8 @@
   width: 177px;
   padding-top: 4px;
   margin-bottom: 15px;
+  position: relative;
+  bottom: -60px;
 }
 /* .section-content-landscape {
   display: flex;
@@ -85,7 +87,6 @@ h1.title {
 h1.chapter.title {
   margin-bottom: 25px;
 }
-
 /* new css for lanscape content part  */
 .portrait-image {
   display: none;
@@ -98,4 +99,11 @@ h1.chapter.title {
 }
 .content-section {
   column-count: 2;
+}
+.chapter_firstpage_header {
+  margin-bottom: 40px;
+}
+.chapter_header_title {
+  margin: 0;
+  margin-bottom: 16%;
 }

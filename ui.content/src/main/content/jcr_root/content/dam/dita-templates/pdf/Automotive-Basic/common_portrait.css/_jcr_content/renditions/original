@@ -209,3 +209,7 @@ li {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
+.content_col{
+  column-count: 1;
+  column-gap: 0px;
+}
