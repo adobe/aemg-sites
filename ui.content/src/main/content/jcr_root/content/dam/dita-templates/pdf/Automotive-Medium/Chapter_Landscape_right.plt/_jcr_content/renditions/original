@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="layout.css" type="text/css" />
+  <meta name="page-style" content="size:A4 landscape;margin-bottom:140px;" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+  <link rel="stylesheet" type="text/css" href="custom.css" />
+  <title>Page Layout</title>
+  <meta name="footnote-style" content="" />
+</head>
+<body>
+  <div data-region="header" style=""><br />
+    
+  </div>
+  <div data-region="content"></div>
+  <div class="chapter_footer_landscape" data-region="footer" style="
+">
+    <p class="chapter_footer_organization">Smith, J. A. (2020). The future of automotive technology:<br />
+      Innovations and trends. Tech Publishers.</p>
+    <span class="chapter_footer_page-number" data-field="page-number" data-format="default">1</span>
+  </div>
+</body>
+</html>
