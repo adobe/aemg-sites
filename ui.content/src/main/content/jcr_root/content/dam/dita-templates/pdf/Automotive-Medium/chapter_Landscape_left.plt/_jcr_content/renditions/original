@@ -15,7 +15,7 @@
   </div>
   <div data-region="content"></div>
   <div class="chapter_footer_landscape" data-region="footer" style=""><span class="chapter_footer_page-number" data-field="page-number" data-format="default">1</span>
-    <p class="chapter_footer_organization">Smith, J. A. (2020). The future of automotive technology:<br />
+    <p class="chapter_footer_organization" >Smith, J. A. (2020). The future of automotive technology:<br />
       Innovations and trends. Tech Publishers.</p>
   </div>
 </body>
