@@ -41,6 +41,7 @@
 }
 .idx-keyword {
   margin: unset;
+  width: unset;
 }
 .idx-name {
   font-family: var(--font-fam-secondary);
