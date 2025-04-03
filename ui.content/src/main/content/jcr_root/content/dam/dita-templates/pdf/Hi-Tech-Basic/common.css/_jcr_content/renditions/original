@@ -92,6 +92,7 @@ h2.chapter_sub-titles {
   font-size: 14px;
   line-height: 20px;
   color: var(--color-accent);
+  margin-top: 30px;
   font-weight: 500;
   font-family: var(--font-fam-primary-medium);
 }
