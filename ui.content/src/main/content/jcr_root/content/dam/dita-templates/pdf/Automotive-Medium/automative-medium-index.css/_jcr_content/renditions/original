@@ -54,13 +54,14 @@
   text-decoration: none;
 }
 .idx-child {
-  /* display: flex;
+  display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; */
-  column-gap: 150px;
+  flex-wrap: wrap;
+  column-gap: 120px;
   margin-top: 40px;
   padding-left: 0px;
-  column-count: 2;
+  /* column-count: 2; */
+  /* display: block; */
 }
 /* #index_footer {
   border-top: 0.5px solid #2C343B;
@@ -93,6 +94,6 @@ a.book-idx-link.idx-link {
   color: var(--color-tertiary);
   justify-content: flex-start;
 }
-.rh-index-page-wrapper{
-    column-count: 2;
-}
+/* .rh-index-page-wrapper {
+  column-count: 2;
+} */
