@@ -315,7 +315,7 @@ ol li::before {
   content: counter(list-counter);
   position: absolute;
   left: 0;
-  top: 14px;
+  top: 11px;
   transform: translateY(-50%);
   width: 24px;
   height: 24px;
@@ -513,7 +513,7 @@ b,
   padding: 8px 0px 8px 0px;
   border-top: unset;
   border-bottom: unset;
-   transform: unset !important;
+  transform: unset !important;
 }
 .note.danger .prefix-content::before {
   content: "";
@@ -908,4 +908,16 @@ h3.title {
   line-height: var(--text-base-lh);
   font-weight: 600;
   color: var(--color-primary);
+}
+.ph.b {
+  font-family: var(--font-fam-primary);
+  line-height: inherit;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-weight: bold;
+  color: inherit;
+  font-size: inherit;
 }

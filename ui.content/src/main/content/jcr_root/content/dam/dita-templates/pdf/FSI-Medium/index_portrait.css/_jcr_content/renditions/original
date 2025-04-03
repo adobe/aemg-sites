@@ -67,7 +67,7 @@
   border-top: 0.5px solid #2C343B;
 } */
 .index_footer_product-brand {
-  padding-right: 3px;
+  padding-right: 0px;
   padding-top: 8px;
   margin: unset;
   font-family: var(--font-fam-primary);
