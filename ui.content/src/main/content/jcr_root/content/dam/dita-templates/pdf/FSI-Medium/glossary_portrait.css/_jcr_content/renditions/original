@@ -51,7 +51,7 @@ glossdef {
   line-height: var(--text-2xs-lh);
   font-weight: 700;
   color: var(--color-secondary);
-  padding-right: 3px;
+  padding-right: 0px;
 }
 .glossary_footer_product-name {
   padding-top: 8px;
