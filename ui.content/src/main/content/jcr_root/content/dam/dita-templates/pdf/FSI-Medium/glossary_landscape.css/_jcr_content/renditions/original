@@ -56,7 +56,7 @@ glossdef {
   color: var(--color-secondary);
   padding-top: 8px;
   margin: unset;
-  padding-right: 3px;
+  padding-right: 0px;
 }
 .glossary_footer_product-name {
   font-family: var(--font-fam-primary);
