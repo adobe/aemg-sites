@@ -64,14 +64,15 @@ it.
                 // let searchInput = document.querySelector('.cmp-search-bar__input');
                 // console.log("Changed:", searchInput.value);
                 toggleClearButton(searchInput);
-                let clearButton = searchInput.nextElementSibling;
-                clearButton.addEventListener('click', function() {
-                    // searchInput = document.querySelector('.cmp-search-bar__input');
-                    // Clear the input value
-                    searchInput.value = '';
-                    // Hide the clear button
-                    clearButton.style.display = 'none';
-                });
+            });
+
+            let clearButton = searchInput.nextElementSibling;
+            clearButton.addEventListener('click', function() {
+                // searchInput = document.querySelector('.cmp-search-bar__input');
+                // Clear the input value
+                searchInput.value = '';
+                // Hide the clear button
+                clearButton.style.display = 'none';
             });
         })
     }
