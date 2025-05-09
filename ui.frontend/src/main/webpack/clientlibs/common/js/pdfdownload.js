@@ -5,6 +5,10 @@ window.addEventListener("DOMContentLoaded", function () {
   const downloadBtn = document.querySelector(".pdf-download");
   const ctaContainer = document.querySelector(".pdf-download");
 
+  if(!downloadBtn) {
+    return;
+  }
+
   const pdfUrl = getPDFUrl();
   // Check if the PDF file exists before opening it
 

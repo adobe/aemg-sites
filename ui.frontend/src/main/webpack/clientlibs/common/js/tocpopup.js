@@ -1,5 +1,10 @@
 window.addEventListener("DOMContentLoaded", function () {
   const tocPopupInit = document.querySelector(".toc-popup-init");
+
+  if(!tocPopupInit) {
+    return;
+  }
+
   const modal = createTocOverlayModal();
 
   document.querySelector("body").addEventListener("click", function (e) {

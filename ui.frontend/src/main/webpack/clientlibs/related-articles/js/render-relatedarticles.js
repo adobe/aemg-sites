@@ -13,15 +13,19 @@ document.addEventListener('DOMContentLoaded', function () {
     const targetContainer = document.querySelectorAll('.cmp-related-articles__list');
 
     // If target container doesn't exist, exit
-    if (!targetContainer) {
+    if (!targetContainer.length) {
         console.warn('Target container .cmp-related-articles__list not found');
         return;
     }
 
     if(!relatedLinksContainers.length) {
-        const relatedArticles = targetContainer.closest('.relatedarticles');
-        relatedArticles.style.display = "none";
+        targetContainer.forEach(t => {
+            const relatedArticles = t.closest('.relatedarticles');
+            relatedArticles.style.display = "none";
+        });
+        
         console.warn('no related articels found');
+        return;
     }
 
     // Create a document fragment to hold all the new elements

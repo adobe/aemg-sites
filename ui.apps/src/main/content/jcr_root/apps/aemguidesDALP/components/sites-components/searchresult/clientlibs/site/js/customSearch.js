@@ -1,5 +1,8 @@
 window.addEventListener("DOMContentLoaded", function () {
-  fetchSearchData();
+  const ROOT_PATH = document.querySelector("[data-cmp-rootpath]")?.dataset?.cmpRootpath;
+  if(ROOT_PATH) {
+    fetchSearchData();
+  }
 });
 
 async function fetchSearchData() {

@@ -32,45 +32,49 @@ const fullUrl = window.location.href; // Get the full URL (including 'https://')
 const cleanUrl = fullUrl.replace('https://', ''); // Remove 'https://' for display purposes
 
 // Set the title of the page dynamically
-document.getElementById('page-title').textContent = document.title;
+if (document.querySelector('.sharepopup')) {
+  document.getElementById('page-title').textContent = document.title;
+  document.getElementById('page-link').value = cleanUrl;
 
-// Set the input field to show the clean URL without 'https://'
-document.getElementById('page-link').value = cleanUrl;
+  // Set the input field to show the clean URL without 'https://'
 
-// Modal open and close logic
-const viewBtn = document.querySelector(".share"),
-  popup = document.querySelector(".popup"),
-  close = popup.querySelector(".close"),
-  field = popup.querySelector(".field"),
-  input = field.querySelector("input"),
-  copy = field.querySelector("button");
+  // Modal open and close logic
+  const viewBtn = document.querySelector(".share"),
+    popup = document.querySelector(".popup"),
+    close = popup.querySelector(".close"),
+    field = popup.querySelector(".field"),
+    input = field.querySelector("input"),
+    copy = field.querySelector("button");
 
-viewBtn.onclick = () => {
-  popup.classList.toggle("show");
-  document.querySelector('.overlay-modal').classList.add('popup-overlay-active');
-}
-
-close.onclick = () => {
-  viewBtn.click();
-  document.querySelector('.overlay-modal').classList.remove('popup-overlay-active');
-}
-
-copy.onclick = () => {
-  input.select(); // Select input value
-  if (document.execCommand("copy")) { // If the selected text is copied
-    field.classList.add("active");
-    copy.innerText = "Copied";
-    setTimeout(() => {
-      window.getSelection().removeAllRanges(); // Remove selection from page
-      field.classList.remove("active");
-      copy.innerText = "Copy";
-    }, 3000);
+  viewBtn.onclick = () => {
+    popup.classList.toggle("show");
+    document.querySelector('.overlay-modal').classList.add('popup-overlay-active');
   }
-}
 
-document.body.addEventListener('click', function(event) {
-  if (!popup.contains(event.target) && !viewBtn.contains(event.target)) {
-    popup.classList.remove("show");
+  close.onclick = () => {
+    viewBtn.click();
     document.querySelector('.overlay-modal').classList.remove('popup-overlay-active');
   }
-});
+
+  copy.onclick = () => {
+    input.select(); // Select input value
+    if (document.execCommand("copy")) { // If the selected text is copied
+      field.classList.add("active");
+      copy.innerText = "Copied";
+      setTimeout(() => {
+        window.getSelection().removeAllRanges(); // Remove selection from page
+        field.classList.remove("active");
+        copy.innerText = "Copy";
+      }, 3000);
+    }
+  }
+
+  document.body.addEventListener('click', function (event) {
+    if (!popup.contains(event.target) && !viewBtn.contains(event.target)) {
+      popup.classList.remove("show");
+      document.querySelector('.overlay-modal').classList.remove('popup-overlay-active');
+    }
+  });
+}
+
+
