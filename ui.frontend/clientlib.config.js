@@ -40,6 +40,7 @@ const libsBaseConfig = {
 const clientlibArr = [
 
   //common
+  {name: 'common', module: 'common'},
   {name : 'guides-footer', module: 'common'},
   {name : 'guides-header', module: 'common'},
   {name : 'global-search' , module: 'common'},
@@ -49,7 +50,7 @@ const clientlibArr = [
   
 
   //automotive
-  {name : 'automotive_global', module: 'automotive'},
+  {name : 'automotive_global', module: 'automotive', dependencies: ['aemguidesDALP.common']},
   {name : 'automotive-footer', module: 'automotive'},
   {name : 'automoitve_toc', module: 'automotive'},
   {name : 'automotive_topic-body', module: 'automotive'},
@@ -59,7 +60,7 @@ const clientlibArr = [
 
   //fsi
   {name : 'fsi_topic-body' , module: 'fsi'},
-  {name : 'fsi_global' , module: 'fsi'},
+  {name : 'fsi_global' , module: 'fsi', dependencies: ['aemguidesDALP.common']},
   {name : 'fsi_toc' , module: 'fsi'},
   // {name : 'fsi_mini-toc' , module: 'fsi'},
   {name : 'fsi_landing' , module: 'fsi'},
@@ -70,7 +71,7 @@ const clientlibArr = [
 
   // hi-tec
   {name : 'hi-tech_topic-body', module: 'hi-tech'},
-  {name : 'hi-tech_global', module: 'hi-tech'},
+  {name : 'hi-tech_global', module: 'hi-tech', dependencies: ['aemguidesDALP.common'] },
   {name : 'hi-tech_toc', module: 'hi-tech'},
   // {name : 'hi-tech_mini_toc', module: 'hi-tech'},
   {name : 'landing-banner', module: 'hi-tech'},

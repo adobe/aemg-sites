@@ -46,6 +46,7 @@ module.exports = {
         'hi-tech-landing-list' :  SOURCE_ROOT + '/clientlibs/hi-tech/hitech-landing-list/main.ts',
 
         //common
+        'common': SOURCE_ROOT + '/clientlibs/common/main.ts',
         'guides-footer': SOURCE_ROOT + '/clientlibs/guides-footer/main.ts',
         'guides-header' : SOURCE_ROOT + '/clientlibs/guides-header/main.ts',
         'global-search' : SOURCE_ROOT + '/clientlibs/global-search/main.ts',
