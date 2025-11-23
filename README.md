@@ -1,3 +1,4 @@
+
 # Sample AEM project template
 
 This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
@@ -121,3 +122,6 @@ A ClientLib will consist of the following files and directories:
 The project comes with the auto-public repository configured. To setup the repository in your Maven settings, refer to:
 
     http://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html
+=======
+# aemg-sites
+This repository gives you the AEM Sites and components code base, which can be used to deploy this on any AEM instance.
