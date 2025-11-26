@@ -1,0 +1,114 @@
+.toc_landsc_header {
+  display: none;
+}
+.toc-body {
+  column-count: 2;
+  column-gap: 80px;
+  padding: 0 73px 70px 73px;
+}
+.toc-level-1 {
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--color-accent);
+  margin: 30px 0 8px 0;
+  text-transform: uppercase;
+}
+.toc-level-1:first-child {
+  margin-top: 0;
+}
+a.topicref.pdf-toc-level-1.toc-level-1 {
+  display: flex;
+  gap: 15px;
+}
+.toc-level-1::after {
+  display: none;
+}
+.toc-level-2::before {
+    margin-right: 1px;
+    display: inline-block;
+    width: 25px;
+    height: auto;
+}
+.toc-level-2 {
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-accent);
+  margin: 0;
+  padding-bottom: 8px;
+  border-left: 0.5px solid var(--color-gray);
+  padding-left: 75px;
+  text-indent: -27px;
+  margin-inline-start: 8px;
+}
+.toc-level-3::before {
+    margin-right: 1px;
+    display: inline-block;
+    width: 25px;
+    height: auto;
+}
+.toc-level-3 {
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-accent);
+  margin: 0;
+  padding-bottom: 8px;
+  border-left: 0.5px solid var(--color-gray);
+padding-left: 128px;
+    text-indent: -27px;
+  margin-inline-start: 8px;
+}
+.toc-level-2:last-child {
+  padding-bottom: 0;
+}
+
+.toc_landsc_content {
+  display: flex;
+  align-items: baseline;
+}
+.square-dot {
+  height: 4px;
+  width: 4px;
+  background-color: #01EA57;
+  margin-left: 2px;
+}
+.toc_landsc_content_title {
+  font-size: var(--text-xl);
+  line-height: var(--text-xl-lh);
+  font-weight: 500;
+  color: var(--color-accent);
+  padding-bottom: 40px;
+  margin: 85px 2px 0 73px;
+}
+.toc_landsc_footer {
+  background-color: var(--color-secondary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 73px 38px 73px;
+}
+.toc_landsc_footer_text {
+  font-size: var(--text-4xs);
+  line-height: var(--text-4xs-lh);
+  font-weight: 400;
+  color: var(--color-accent);
+  margin: 0;
+}
+.toc_landsc_footer_page_number {
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
+  font-weight: 500;
+  color: var(--color-accent);
+  margin: 0;
+}
+/* .toc-level-1,
+.toc-level-2,
+.toc-level-3,
+.toc-level-4,
+.toc-level-5,
+.toc-level-6 {
+  text-indent: 0px;
+} */

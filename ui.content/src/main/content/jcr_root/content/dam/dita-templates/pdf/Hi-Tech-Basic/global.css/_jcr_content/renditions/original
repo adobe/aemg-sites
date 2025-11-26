@@ -1,0 +1,48 @@
+/*Created with AEM Guides*/
+@font-face {
+  font-family: Inter;
+  src: url('../../../aemguidesDALP/fonts/inter/Inter-Light.woff');
+  font-weight: 300;
+}
+@font-face {
+  font-family: Inter;
+  src: url('../../../aemguidesDALP/fonts/inter/Inter-Regular.woff');
+  font-weight: 400;
+}
+@font-face {
+  font-family: Inter;
+  src: url('../../../aemguidesDALP/fonts/inter/Inter-Medium.woff');
+  font-weight: 500;
+}
+@font-face {
+  font-family: Inter;
+  src: url('../../../aemguidesDALP/fonts/inter/Inter-Bold.woff');
+  font-weight: 700;
+}
+@font-face {
+  font-family: Urbanist;
+  src: url('../../../aemguidesDALP/fonts/urbanist/Urbanist-Medium.ttf');
+  font-weight: 500;
+}
+.global-config,
+:root {
+  /* font family */
+  --font-fam-primary-light: "Inter", sans-serif;
+  --font-fam-primary-regular: "Inter", sans-serif;
+  --font-fam-primary-medium: "Inter", sans-serif;
+  --font-fam-primary-bold: "Inter", sans-serif;
+  --font-fam-secondry: "Urbanist", serif;
+}
+.color-config,
+:root {
+  --color-accent: #0C1256;
+  --color-primary: #01EA57;
+  --color-primary-white: #FFFFFF;
+  --color-secondry-white: #F2F2F2;
+  --color-natural-blue: #87A3FB;
+  --color-secondary: #E8F1FF;
+  --color-tertiary: #2C343B;
+  --color-neutral: #D8D8D8;
+  --color-link: #0F85EC;
+  --color-blue-primary: #0000FF;
+}

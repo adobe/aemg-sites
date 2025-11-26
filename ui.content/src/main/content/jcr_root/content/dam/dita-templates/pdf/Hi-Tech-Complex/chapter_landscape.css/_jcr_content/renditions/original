@@ -1,0 +1,323 @@
+/*Created with AEM Guides*/
+.square-dot {
+  height: 4px;
+  width: 4px;
+  background: #01EA57;
+  margin-left: 2px;
+}
+.chapter_firstpage_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.chapter_leftpage_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chapter_footer_organization {
+  font-family: Adobe Clean;
+  font-size: var(--text-3xs);
+  font-weight: 400;
+  line-height: var(--text-4xs-lh);
+  text-align: left;
+  color: var(--color-accent);
+  margin: 0px;
+}
+.chapter_footer_page-number {
+  font-family: Urbanist;
+  font-size: var(--text-3xl);
+  font-weight: 500;
+  line-height: var(--text-3xl-lh);
+  text-align: left;
+  color: var(--color-accent);
+  margin: 0px;
+}
+.chapter-content {}
+.chapter_header_title {
+  font-family: Urbanist;
+  font-size: var(--text-3xl);
+  font-weight: 500;
+  line-height: var(--text-3xl-lh);
+  text-align: left;
+  color: var(--color-accent);
+  margin: 0px;
+}
+.chapter_footer {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-accent);
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E8F1FF;
+  height: 72px;
+  padding: 0px 73px;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  right: 0px;
+  left: -73px;
+}
+.footer-space {
+  margin-top: 40px;
+}
+.chapter_footer .chapter_page_productname {
+  font-family: Adobe Clean;
+  font-size: var(--text-4xs);
+  font-weight: 400;
+  line-height: var(--text-4xs-lh);
+  text-align: left;
+  color: var(--color-accent);
+}
+.chapter_footer .toc_page_no {
+  font-family: Urbanist;
+  font-size: var(--text-sm);
+  font-weight: 400;
+  line-height: var(--text-base-lh);
+  text-align: left;
+  color: var(--color-accent);
+}
+.chapter_header_titlealts {
+  font-family: Adobe Clean;
+  font-size: var(--text-sm);
+  font-weight: 400;
+  line-height: var(--text-sm-lh);
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-accent);
+  margin: 0px;
+}
+.chapter_firstpage_cover-image {
+  width: 977px;
+  height: 286px;
+  top: 717px;
+  left: 73px;
+  gap: 0px;
+  opacity: 0px;
+  margin-bottom: 40px;
+}
+.chapter-image-content-landscape {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 152px;
+}
+.chapter_leftpage_header-landscape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 18px;
+}
+.chapter_rightpage_header-landscape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 18px;
+}
+.chapter-leftpage-nums-landscape {
+  width: 56px;
+  height: 56px;
+  padding: 18px 25px 18px 25px;
+  background: #01EA57;
+  font-family: Urbanist;
+  font-size: var(--text-base);
+  font-weight: 500;
+  line-height: var(--text-sm-lh);
+  text-align: left;
+  color: var(--color-accent);
+  margin: 0px;
+  box-sizing: border-box;
+  transform: translate(-70px, -2px);
+}
+.chapter-leftpage-lang-landscape {
+  font-family: Urbanist;
+  font-size: var(--text-xs);
+  font-weight: 500;
+  line-height: var(--text-2xs-lh);
+  letter-spacing: 1px;
+  text-align: right;
+  color: var(--color-accent);
+  margin-top: 21px;
+}
+.chapter-rightpage-nums-landscape {
+  width: 56px;
+  height: 56px;
+  padding: 18px 25px 18px 25px;
+  background: #01EA57;
+  font-family: Urbanist;
+  font-size: var(--text-base);
+  font-weight: 500;
+  line-height: var(--text-sm-lh);
+  text-align: left;
+  color: var(--color-accent);
+  margin: 0px;
+  box-sizing: border-box;
+  transform: translate(71px, -2px);
+}
+.chapter-rightpage-lang-landscape {
+  font-family: Urbanist;
+  font-size: var(--text-xs);
+  font-weight: 500;
+  line-height: var(--text-2xs-lh);
+  letter-spacing: 1px;
+  text-align: right;
+  color: var(--color-accent);
+  margin-top: 21px;
+}
+h1.title, h2.title,h3.title {
+  font-family: var(--font-fam-secondry);
+  font-size: var(--text-base);
+  font-weight: 500;
+  line-height: var(--text-sm-lh);
+  letter-spacing: 1px;
+  color: var(--color-accent);
+  margin: 0px;
+  margin-top: 40px;
+}
+h2.chapter_sub-titles {
+  font-family: Urbanist;
+  font-size: var(--text-2xl);
+  font-weight: 500;
+  line-height: 28.8px;
+  margin: 0px;
+  color: var(--color-accent);
+  padding-top: 0px;
+  padding-bottom: 16px;
+  border-bottom: 0.5px solid #9D9D9D;
+  margin-bottom: 24px;
+  margin-top: 49px;
+}
+/* content-image start from here  */
+.Images-content-section-container-landscape {
+  display: flex;
+  gap: unset;
+  flex-direction: row;
+}
+.fig,
+fig .content-figure-image-landscape {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+  background-color: unset;
+  box-shadow: unset;
+  padding: 0;
+  max-width: unset;
+  display: unset;
+}
+.content-figure-image-landscape .title,
+figcaption.title>.prefix-content::after {
+  font-family: var(--font-fam-primary-regular);
+  font-size: var(--text-base);
+  font-weight: 400;
+  line-height: var(--text-4xs-lh);
+  text-align: left;
+  color: var(--color-secondary);
+  margin-bottom: 8px;
+}
+.images-main-container-landscape {
+  display: flex;
+  gap: 9px;
+  width: 648px;
+}
+.image-num-container-landscape {
+  background: #F2F2F2;
+  height: 300px;
+  width: 210px;
+  padding: 14px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.image-num-container-landscape .number-landscape {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #0C1256;
+  color: var(--color-tertiary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+.image-num-container-landscape .resistor-image-landscape {
+  width: 183px;
+  height: 165px;
+  opacity: 0px;
+}
+.content-section-landscape {
+  margin-top: 26px;
+  font-family: Inter;
+  font-size: var(--text-sm);
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: var(--color-accent);
+  column-count: initial;
+  column-gap: initial;
+  padding-left: 80px;
+}
+.content-section-landscape div.p {
+  column-count: initial;
+  column-gap: initial;
+}
+.note-cont {
+  display: flex;
+  font-family: Urbanist;
+  font-size: var(--text-4xs);
+  font-style: italic;
+  font-weight: 400;
+  line-height: 11px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 27px 0px;
+}
+.note-cont img {
+  width: 24px;
+  height: 24px;
+}
+.note-cont .placement-inline {
+  display: inline;
+  width: 17%;
+  height: 100%;
+}
+.p {
+  column-count: initial;
+  column-gap: initial;
+}
+.img-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+}
+.thead {
+  background: #E8F1FF;
+}
+/* for column sepration  */
+.col-2 {
+  column-count: 2;
+  gap: 40px;
+}
+.col-3 {
+  column-count: 3;
+  gap: unset;
+}
+.col-4 {
+  column-count: 4;
+}
+.col-5 {
+  column-count: 5;
+}

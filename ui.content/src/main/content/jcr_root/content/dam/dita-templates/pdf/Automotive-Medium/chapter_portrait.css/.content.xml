@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ed99b701-79e2-486b-90c4-10ed06d4b4bd">
+    <jcr:content
+        cq:name="chapter_portrait.css"
+        cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-03-26T12:43:54.849+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2025-03-26T12:43:54.721+05:30"
+            dam:sha1="53910e3d2a1e497d798d8a8f7afceabdf84ce6cd"
+            dam:size="{Long}3117"
+            dc:format="text/css"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

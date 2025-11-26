@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="934672f0-cb0a-4d6c-ac6f-6a5aa0cb9744">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-08T16:29:25.788+05:30"
+        jcr:lastModifiedBy="fmdita-serviceuser"
+        jcr:primaryType="dam:AssetContent"
+        fmdita-dita-template="{Boolean}true"
+        fmdita-newfile="{Boolean}true"
+        templateDescription="Template for Troubleshooting"
+        templateTitle="Troubleshooting">
+        <metadata
+            dam:extracted="{Date}2025-02-08T16:29:25.659+05:30"
+            dam:sha1="18af8044a4211ba697153e842af9b9508b26bd3f"
+            dam:size="{Long}791"
+            dc:format="application/xml"
+            dc:title="Troubleshooting"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

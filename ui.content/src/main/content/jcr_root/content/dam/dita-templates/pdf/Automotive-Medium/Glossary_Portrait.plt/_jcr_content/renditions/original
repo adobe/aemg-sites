@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="page-style" content="size:A4 portrait;" />
+  <title>Page Layout</title>
+  <meta name="footnote-style" content="" />
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="glossary_portrait.css" />
+</head>
+<body>
+  <div data-region="header" id="glossary_header" style="
+    margin: 0;
+">
+    <h5 id="glossary_header_title">Glossary</h5>
+    <p id="glossary_header_titlealts"><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span></p>
+  </div>
+  <div data-region="content"></div>
+  <div data-region="footer" id="glossary-footer">
+    <p id="glossary_footer_product-name">Smith, J. A. (2020). The future of automotive technology: Innovations and trends. Tech Publishers.</p>
+    <a id="glossary_footer_urls">www.carmanualsite.com/vehicle-overview</a> <a id="glossary_footer_urls">www.carmanualsite.com/dashboard-controls</a>
+  </div>
+</body>
+</html>

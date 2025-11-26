@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="f1a7bc96-b505-4c2f-98f4-4de2be74b9ff">
+    <jcr:content
+        cq:name="index_landscape.css"
+        cq:parentPath="/content/dam/dita-templates/pdf/Hi-Tech-Medium"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-03-20T15:19:19.591+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2025-03-20T15:19:19.559+05:30"
+            dam:sha1="64c21375fe2dd3ff9c2a91500b51c36bd276e080"
+            dam:size="{Long}1942"
+            dc:format="text/css"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

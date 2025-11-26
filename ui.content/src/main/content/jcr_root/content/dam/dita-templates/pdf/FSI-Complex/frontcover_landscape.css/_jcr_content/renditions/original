@@ -1,0 +1,81 @@
+.frontcover_landsc_metadata {
+  padding-top: 80px;
+  padding-left: 73px;
+  width: 389px;
+}
+.frontcover_landsc_product-name {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-6xl);
+  line-height: var(--text-6xl-lh);
+  font-weight: 400;
+  color: var(--color-accent);
+  margin: 0;
+}
+.frontcover_landsc_publish-date {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl-lh);
+  font-weight: 400;
+  color: var(--color-accent);
+  margin: 0;
+  padding-top: 4px;
+}
+.barchart_landsc_image_bg_color {
+  background-color: var(--color-primary);
+  width: 500px;
+  height: 290px;
+  position: absolute;
+  right: 0;
+  bottom: 28%;
+}
+.barchart_landsc_image {
+  width: 344px;
+  height: 422.34px;
+  position: absolute;
+  right: 78px;
+  bottom: 25%;
+  z-index: 1;
+}
+.piechart_landsc_image {
+  width: 83px;
+  height: 107.17px;
+  position: absolute;
+  bottom: 8%;
+  left: 30px;
+  z-index: 1;
+}
+.histogram_landsc_image_container {
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+}
+.histogram_landsc_image {
+  width: 323px;
+  height: 231px;
+}
+.frontcover_landsc_logo_container {
+  width: 799px;
+  height: 230px;
+  padding: 64px 61px 64px 62px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-accent);
+  box-sizing: border-box;
+}
+.frontcover_landsc_logo {
+  width: 123px;
+  height: 50px;
+}
+.frontcover_landsc_text {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl-lh);
+  font-weight: 400;
+  color: var(--color-black);
+  margin: 0;
+  width: 520px;
+}

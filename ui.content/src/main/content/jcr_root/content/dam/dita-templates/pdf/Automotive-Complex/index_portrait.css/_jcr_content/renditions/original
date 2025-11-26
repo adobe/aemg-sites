@@ -1,0 +1,97 @@
+#index-header {
+  margin-bottom: 27px;
+  text-align: left;
+}
+#index_header_title {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xl);
+  line-height: var(--text-xl-lh);
+  font-weight: 400;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+}
+#index_header_titlealts {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-tertiary);
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+.idx-body {
+  column-count: unset;
+  column-fill: unset;
+}
+.idx-title {
+  column-span: all;
+}
+.idx-keyword-group {
+  font-weight: bold;
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
+  margin-top: 16px;
+}
+.idx-keyword-group:first-of-type {
+  margin-top: 0;
+}
+.idx-unit {
+  padding-bottom: 8px;
+  margin: unset;
+}
+.idx-keyword {
+  margin: unset;
+}
+.idx-name {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 350;
+  color: var(--color-primary);
+  margin-bottom: 16px;
+}
+.idx-link {
+  text-decoration: none;
+}
+.idx-child {
+  padding-left: 0px;
+}
+/* #index_footer {
+  border-top: 0.5px solid var(--color-tertiary);
+} */
+#index_footer_product-name {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-tertiary);
+  padding-top: 8px;
+  margin: unset;
+}
+#index_footer_urls {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 400;
+  color: var(--color-link);
+}
+a.book-idx-link.idx-link {
+  color: var(--color-accent);
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 350;
+}
+.book-idx-child.idx-child {
+  column-gap: 85px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.idx-body{
+      column-gap: 85px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.idx-keyword-group{
+  display: none;
+}

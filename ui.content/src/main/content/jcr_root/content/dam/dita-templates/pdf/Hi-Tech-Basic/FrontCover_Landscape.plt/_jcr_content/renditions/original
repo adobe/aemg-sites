@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="layout.css" type="text/css" />
+  <link rel="stylesheet" href="frontcover_landscape.css" type="text/css" />
+  <link rel="stylesheet" href="global.css" type="text/css" />
+  <meta name="page-style" content="size:A4 landscape;background-image:url(&#39;../../../aemguidesDALP/hi-tech/common/note-lines.png&#39;);background-size:50px 50px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;" />
+  <title>Page Layout</title>
+  <meta name="footnote-style" content="" />
+</head>
+<body>
+  <div class="frontcover">
+    <div class="frontcover_header">
+      <div><img class="frontcover_logo-image" src="../../../aemguidesDALP/hi-tech/images/common/hitech logo.png" /></div>
+    </div>
+    <div class="frontcover_cover-image-wrapper-landscape">
+      <div><img class="frontcover_cover-image" src="../../../aemguidesDALP/hi-tech/images/common/jetson-cover-image.png" /></div>
+      <div class="frontcover_textdata">
+        <p><span class="frontcover_mainbooktitle-landscape"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></span></p>
+        <p><span class="frontcover_booktitlealt">Application Note</span></p>
+        <p><span class="frontcover_critdates">DA-11040-001_v1.3 | <span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span></span></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

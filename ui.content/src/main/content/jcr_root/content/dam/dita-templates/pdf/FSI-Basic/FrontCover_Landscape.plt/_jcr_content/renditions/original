@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="page-style" content="size:A4 landscape;margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px;" />
+  <title>Page Layout</title>
+  <meta name="footnote-style" content="" />
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+  <link rel="stylesheet" type="text/css" href="frontcover_landscape.css" />
+</head>
+<body>
+  <div class="frontpage_landsc_header" data-region="header"></div>
+  <div class="content" data-region="content">
+    <div class="frontpage_landsc_content">
+      <div class="frontpage_landsc_img_container" style=""><img class="frontpage_landsc_img" src="../../../aemguidesDALP/fsi/images/common/cover-page-img.png" style="cursor: nesw-resize;" /></div>
+      <div class="frontpage_landsc_content_container">
+        <div class="frontpage_landsc_metadata">
+          <div class="frontpage_landsc_title"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span><br />
+            <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span>
+          </div>
+          <p class="frontpage_landsc_created_year"><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span></p>
+        </div>
+        <div class="frontpage_landsc_footer_content"><img class="frontpage_landsc_footer_logo" src="../../../aemguidesDALP/fsi/images/common/simp-frontcover-logo.png" />
+          <div class="frontpage_landsc_footer_breakline"></div>
+          <span class="frontpage_landsc_footer_product_name">Opening up a world of opportunity</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="frontpage_landsc_footer" data-region="footer"><!-- <p style="text-align: center;"><span data-field="page-number">1</span></p> --></div>
+</body>
+</html>

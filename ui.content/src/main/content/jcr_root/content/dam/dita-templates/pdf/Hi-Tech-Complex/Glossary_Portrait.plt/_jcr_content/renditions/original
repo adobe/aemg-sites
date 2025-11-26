@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="page-style" content="size:portrait;margin-bottom:70px;margin-right:70px;margin-left:70px;" />
+  <link rel="stylesheet" href="glossary_portrait.css" type="text/css" />
+  <title>Glossary Page Layout</title>
+  <meta name="footnote-style" content="" />
+</head>
+<body>
+  <div data-region="header" id="glossary_header" style="
+    margin: 0;
+">
+    <h5 id="glossary_header_title">Glossary<div class="square-dot"></div></h5>
+  </div>
+  <div data-region="content"></div>
+  <div data-region="footer" id="glossary-footer">
+    <p id="glossary_footer_product-name" style="
+"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+  </div>
+</body>
+</html>

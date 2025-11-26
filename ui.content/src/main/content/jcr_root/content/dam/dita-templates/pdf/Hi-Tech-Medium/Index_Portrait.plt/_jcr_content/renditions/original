@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Index Page Layout</title>
+  <meta name="page-style" content="size:portrait;margin-left:0px;margin-right:0px;" />
+  <meta name="footnote-style" content="" />
+  <link rel="stylesheet" type="text/css" href="index_portrait.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+</head>
+<body>
+  <div class="index_header" data-region="header" id="index_firstpage_header" style=""><br />
+    
+  </div>
+  <div class="index_firstpage_content" data-region="content" id="index_firstpage_content">
+    <p class="index_title" style="">Index</p>
+  </div>
+  <div data-region="footer">
+    <div class="index_footer">
+      <p class="index_footer_text" style=""><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+      <!-- <p class="index_footer_page_number"><span data-field="page-number" data-format="default">1</span></p> -->
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="layout.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="content.css" />
+  <link rel="stylesheet" href="chapter_portrait.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="custom.css" />
+  <title>Left Chapter Page Layout</title>
+  <meta name="page-style" content="size:portrait;margin-bottom:110px;margin-left:70px;margin-right:70px;margin-top:73px;" />
+  <meta name="footnote-style" content="margin-top:1rem;" />
+</head>
+<body>
+  <div data-region="header">
+    <div class="chapter_leftpage_header">
+      <p class="chapter-leftpage-nums"><span data-field="chapter-number" data-format="default">1</span></p>
+      <p class="chapter-leftpage-lang">EN</p>
+    </div>
+  </div>
+  <div data-region="content"></div>
+  <div class="footer-space" data-region="footer" style="">
+    <div class="chapter_footer" style="">
+      <p class="toc_page_no"><span data-field="page-number" data-format="default">1</span></p>
+      <p class="chapter_page_productname"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+    </div>
+  </div>
+</body>
+</html>

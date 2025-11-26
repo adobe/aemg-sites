@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="fff6dff4-077c-4852-9f9a-15e1fd43ab16">
+    <jcr:content
+        cq:name="layout.css"
+        cq:parentPath="/content/dam/dita-templates/pdf/Basic"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-03-17T11:32:09.541+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2025-03-17T11:32:09.445+05:30"
+            dam:sha1="38bf3ea2c295ac1d2803bc0cffbcf7061e0ac161"
+            dam:size="{Long}4177"
+            dc:format="text/css"
+            dc:modified="{Date}2022-06-13T16:06:29.603+05:30"
+            jcr:lastModified="{Date}2022-06-13T16:06:29.602+05:30"
+            jcr:lastModifiedBy="fmdita-serviceuser"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            docstate="Draft"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="layout.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="content.css" />
+  <meta name="page-style" content="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;size:A4 landscape;background-image:url(&#39;../../../aemguidesDALP/automotives/images/portrait/benzimg.png&#39;);background-size:100% 100%;background-repeat:no-repeat;" />
+  <title>Front Page</title>
+  <meta name="footnote-style" content="" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+  <link rel="stylesheet" type="text/css" href="frontcover_landscape.css" />
+</head>
+<body>
+  <div class="frontcover-landsc">
+    <div class="frontcover-landsc_header">
+      <div class="frontcover-landsc_header-left" style=""><img class="frontcover-landsc_logo-image" src="../../../aemguidesDALP/automotives/images/landscape/benzlogo_white.png" /></div>
+      <div class="frontcover-landsc_header-right">
+        <p><span class="frontcover-landsc_doctype">Owner&#39;s Manual</span></p>
+        <p><span class="frontcover-landsc_created-date">2024</span></p>
+      </div>
+    </div>
+    <div class="frontcover-landsc_metadata"><span class="frontcover-landsc_created-date" data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span> <span> <span class="frontcover-landsc_product-brand" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span> <span class="frontcover-landsc_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> </span></div>
+    <p class="frontcover-landsc_description">Redefining sophisticated luxury.</p>
+    <div class="frontcover-landsc_footer"><span class="frontcover-landsc_version-label">Software Version / <span class="frontcover-landsc_version">2024.38</span></span> <span class="frontcover-landsc_language-label">Language ― <span class="frontcover-landsc_language">English</span> </span> <a class="frontcover-landsc_urls" href="#">🌐 brandname.com/en/</a></div>
+  </div>
+</body>
+</html>

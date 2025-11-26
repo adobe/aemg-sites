@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="9fdf647d-37af-4b50-bb1e-ea79dac67406">
+    <jcr:content
+        cq:name="BackCover_Portrait.plt"
+        cq:parentPath="/content/dam/dita-templates/pdf/FSI-Complex"
+        dam:assetState="processed"
+        dam:processingId="105796e5-d8da-42fe-90a6-60c649823c93"
+        dam:processingRenditions="[cq5dam.thumbnail.48.48.png,cqdam.metadata.xml,cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.features.json,cqdam.text.txt,cq5dam.web.1280.1280.jpeg,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.tags.json,cq5dam.zoom.2048.2048.jpeg]"
+        dam:processingRequestedDate="{Date}2022-06-06T16:55:14.027Z"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2025-03-04T15:22:19.535+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        fmPostProcessedAt="2022-06-06T16:55:13.389Z|4f416ef6-0c98-45a6-830c-23cacb6d8970|2022-06-06T16:55:13.389Z|13|0"
+        fmUuid="GUID-92c52cc8-5017-44a0-ab4c-e40030046acf">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.zoom.2048.2048.jpeg
+                jcr:primaryType="nt:unstructured"
+                message="Format jpg is not supported for bin files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.thumbnail.319.319.png
+                jcr:primaryType="nt:unstructured"
+                message="Format png is not supported for bin files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.web.1280.1280.jpeg
+                jcr:primaryType="nt:unstructured"
+                message="Format jpg is not supported for bin files"
+                reason="RenditionFormatUnsupported"/>
+            <cqdam.text.txt
+                jcr:primaryType="nt:unstructured"
+                message="Text extraction (fmt=txt) is not supported for bin files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.thumbnail.140.100.png
+                jcr:primaryType="nt:unstructured"
+                message="Format png is not supported for bin files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.thumbnail.48.48.png
+                jcr:primaryType="nt:unstructured"
+                message="Format png is not supported for bin files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            dam:extracted="{Date}2025-03-04T15:22:16.699+05:30"
+            dam:sha1="51b8f53bc2905897d9fae5eabe0fa067a1163a6f"
+            dam:size="{Long}1217"
+            dc:format="application/octet-stream"
+            dc:title="BackCover_Portrait.plt"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            docstate="Draft"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="5bcac02d-4b70-43e5-b12e-7b8513c854c8">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-08T16:29:26.643+05:30"
+        jcr:lastModifiedBy="fmdita-serviceuser"
+        jcr:primaryType="dam:AssetContent"
+        fmdita-dita-template="{Boolean}true"
+        fmdita-newfile="{Boolean}true"
+        templateDescription="Template for glossary topic"
+        templateTitle="Glossary">
+        <metadata
+            dam:extracted="{Date}2025-02-08T16:29:26.506+05:30"
+            dam:sha1="41f53b78983652cbed6cf0860d576e6f1bb009da"
+            dam:size="{Long}218"
+            dc:format="application/xml"
+            dc:title="Glossary"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

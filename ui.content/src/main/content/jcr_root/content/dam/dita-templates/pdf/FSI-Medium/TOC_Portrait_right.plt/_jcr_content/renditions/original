@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>TOC Page Layout</title>
+  <meta name="page-style" content="size:A4 portrait; margin-bottom: 120px;" />
+  <meta name="footnote-style" content="" />
+
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="content.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+  <link rel="stylesheet" type="text/css" href="toc_portrait.css" />
+</head>
+<body>
+  <div data-region="header" style=""></div>
+  <div data-region="content"></div>
+  <div data-region="footer">
+    <div class="toc_footer">
+      <p class="toc_footer_text"><span class="toc_footer_product-brand" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand </span><span class="toc_footer_product-name" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> Sustainability Report<span class="toc_publish-date"> Q3 2024</span></p>
+    </div>
+  </div>
+</body>
+</html>

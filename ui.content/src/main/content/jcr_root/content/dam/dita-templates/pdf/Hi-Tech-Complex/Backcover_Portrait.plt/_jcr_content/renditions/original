@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="layout.css" type="text/css" />
+  <link rel="stylesheet" href="backcover_portrait.css" type="text/css" />
+  <meta name="page-style" content="size:portrait;" />
+  <title>Page Layout</title>
+  <meta name="footnote-style" content="" />
+</head>
+<body>
+  <div data-region="header"><img src="../../../aemguidesDALP/hi-tech/images/common/backcover_logo.png" style="width: 288px; height: 81px; margin-top: 69px;" /></div>
+  <div class="backcover-details" data-regio="content">
+    <p class="main-description"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+    <div class="backcover_organization-details">
+      <div class="backcover_contact-container">
+        <p class="backcover_org-contact-label">CONTACT</p>
+        <span class="backcover_org-contactnumbers"><img class="phone-icon img-icon" src="../../../aemguidesDALP/hi-tech/images/common/phone-img.png" style="cursor: nwse-resize;" /> 000 800 050 01888</span> <span class="backcover_org-emailaddresses"><img class="email-icon img-icon" src="../../../aemguidesDALP/hi-tech/images/common/email-img.png" /><a href="https://myaccount.google.com/email">info@nvidia.com</a></span>
+      </div>
+      <div class="backcover_address-container">
+        <p class="backcover_org-address-label">ADDRESS</p>
+        <span class="backcover_org-addressdetails">2788 San Tomas Express<br />
+          Way, Santa Clara, CA 95051.</span>
+      </div>
+      <div class="backcover_socials-container">
+        <p class="backcover_org-socials-label">SOCIAL MEDIA</p>
+        <span class="backcover_org-socials"><img class="phone-icon img-icon" src="../../../aemguidesDALP/hi-tech/images/common/insta-img.png" /> <a href="https://www.instagram.com/accounts/login/?hl=en">Instagram link</a></span>
+      </div>
+    </div>
+  </div>
+  <div data-region="footer"></div>
+</body>
+</html>

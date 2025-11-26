@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Common Page Layout</title>
+  <meta name="page-style" content="size:A4 portrait;margin-bottom:130px;margin-top:100px;" />
+  <meta name="footnote-style" content="" />
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="content.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+  <link rel="stylesheet" type="text/css" href="common_portrait.css" />
+  <link rel="stylesheet" type="text/css" href="custom.css" />
+</head>
+<body>
+  <div data-region="header">
+    <div class="chapter_header" style=""><span class="chapter_header_page-number" data-field="page-number" data-format="default">1</span> <img class="chapter_header_logo" src="../../../aemguidesDALP/fsi/images/common/simp-firstpage-logo.png" /></div>
+  </div>
+  <div data-region="content"></div>
+  <div data-region="footer">
+    <div class="chapter_footer">
+      <div class="chapter_footer_text_container">
+        <p class="chapter_footer_number">1</p>
+        <p class="chapter_footer_text">As at 31 December 2023</p>
+      </div>
+      <div class="chapter_footer_text_container">
+        <p class="chapter_footer_number">2</p>
+        <p class="chapter_footer_text">Available at <a class="chapter_footer_urls">www.abc.com</a></p>
+      </div>
+      <div class="chapter_footer_text_container">
+        <p class="chapter_footer_number">3</p>
+        <p class="chapter_footer_text">ICMA’s Green Bond Principles June 2021 (with June 2022 Appendix 1);<a class="chapter_footer_urls">https://www.icmagroup.org/sustainable-finance/the-principles-guidelines-and-handbooks/green-bond-principles-gbp/</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="page-style" content="size:A4 landscape;margin-left:0px;margin-right:0px;" />
+  <title>Page Layout</title>
+  <meta name="footnote-style" content="" />
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="backcover_landscape.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+</head>
+<body>
+  <div class="backcover_landsc_header"><img class="backcover_landsc_logo" src="../../../aemguidesDALP/hi-tech/images/common/backcover_logo.png" /></div>
+  <div class="backcover_landsc_content">
+    <div class="backcover_landsc_text">
+      <p class="backcover_landsc_description"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+    </div>
+    <div class="backcover_landsc_organization_details">
+      <div class="backcover_landsc_contact_container">
+        <p class="backcover_landsc_contact_label">Contact</p>
+        <div class="backcover_landsc_phoneno_container"><img class="backcover_landsc_phone_img" src="../../../aemguidesDALP/hi-tech/images/common/phone-img.png" />
+          <p class="backcover_landsc_phone_number">000 800 050 01888</p>
+        </div>
+        <div class="backcover_landsc_email_container"><img class="backcover_landsc_email_img" src="../../../aemguidesDALP/hi-tech/images/common/email-img.png" />
+          <p class="backcover_landsc_email">info@nvidia.com</p>
+        </div>
+      </div>
+      <div class="backcover_landsc_address_container">
+        <p class="backcover_landsc_address_label">Address</p>
+        <p class="backcover_landsc_address">2788 San Tomas Express Way,<br />
+          Santa Clara, CA 95051.</p>
+      </div>
+      <div class="backcover_landsc_socials_container">
+        <p class="backcover_landsc_socials_label">Social media</p>
+        <div class="backcover_landsc_socials_link_container"><img class="backcover_landsc_insta_img" src="../../../aemguidesDALP/hi-tech/images/common/insta-img.png" />
+          <p class="backcover_landsc_social">info@nvidia.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

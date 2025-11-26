@@ -1,0 +1,214 @@
+#toc_firstpage_header_title {
+  font-size: var(--text-lg);
+  font-weight: 400;
+  color: var(--color-primary);
+  line-height: var(--text-lg-lh);
+  margin-bottom: 8px;
+  font-family: var(--font-fam-primary);
+}
+#toc_firstpage_header_titlealts {
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--color-tertiary);
+  line-height: var(--text-xs-lh);
+  font-family: var(--font-fam-secondary);
+}
+#toc_firstpage_header_mainbooktitle {
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--color-primary);
+  line-height: var(--text-xs-lh);
+}
+#toc_firstpage_header_page-number {
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--color-primary);
+  line-height: var(--text-xs-lh);
+}
+#toc_firstpage_footer_title {
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--color-primary);
+  line-height: var(--text-xs-lh);
+}
+#toc_firstpage_footer_mainbooktitle {
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--color-tertiary);
+  line-height: var(--text-xs-lh);
+}
+#toc_firstpage_footer_product-name {
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--color-tertiary);
+  line-height: var(--text-xs-lh);
+}
+#toc_firstpage_footer_copyright {
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--color-tertiary);
+  line-height: var(--text-xs-lh);
+}
+#toc_firstpage_footer_product-brand {
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--color-tertiary);
+  line-height: var(--text-xs-lh);
+}
+#toc_firstpage_footer_page-number {
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--color-tertiary);
+  line-height: var(--text-xs-lh);
+}
+#toc_firstpage_footer_urls {
+  font-size: var(--text-xs);
+  font-weight: 500;
+  color: var(--url-color);
+  line-height: var(--text-xs-lh);
+}
+#toc_firstpage_footer_version {
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--color-tertiary);
+  line-height: var(--text-xs-lh);
+}
+#toc_firstpage_footer_email {
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--color-tertiary);
+  line-height: var(--text-xs-lh);
+  letter-spacing: var(--footerletter-spacing);
+}
+#toc_firstpage_footer_organization {
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--color-tertiary);
+  line-height: var(--text-xs-lh);
+  letter-spacing: var(--footerletter-spacing);
+}
+#toc_firstpage .toc-title,
+.toc-title {
+  color: var(--color-primary);
+  font-size: var(--text-xl);
+  font-weight: 400;
+  line-height: var(--text-xl-lh);
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 8px;
+}
+#toc_firstpage .toc-sub_title,
+.toc-sub_title {
+  color: var(--color-tertiary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  line-height: var(--text-xs-lh);
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+#toc_firstpage .toc-level-1 {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  line-height: var(--text-xs-lh);
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: var(--color-secondary);
+  margin-top: 40px;
+  margin-bottom: 5px;
+  border-top: unset;
+  font-family: var(--font-fam-secondary);
+  text-transform: uppercase;
+}
+#toc_firstpage .toc-level-1:first-child {
+  /* margin-top: 25px; */
+  margin-top: 0px;
+}
+#toc_firstpage .toc-level-2 {
+  color: var(--color-tertiary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  line-height: var(--text-xs-lh);
+  text-align: left;
+  text-decoration-skip-ink: none;
+  margin-bottom: 8px;
+  font-family: var(--font-fam-secondary);
+}
+#toc_firstpage .toc-level-3,
+.toc-level-4,
+.toc-level-3 {
+  color: var(--color-tertiary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  line-height: var(--text-xs-lh);
+  text-align: left;
+  text-decoration-skip-ink: none;
+  margin-bottom: 2px;
+  font-family: var(--font-fam-secondary);
+}
+.toc-level-4,
+.toc-level-5,
+.toc-level-6 {
+  color: var(--color-tertiary);
+}
+#toc_firstpage .pdf-toc-level-1:after {
+  content: "";
+  padding-right: 20px;
+  color: var(--color-accent);
+}
+#toc_firstpage .pdf-toc-level-2:after,
+#toc_firstpage .pdf-toc-level-3:after,
+#toc_firstpage .pdf-toc-level-4:after {
+  color: var(--color-accent);
+  padding-right: 20px;
+  font-weight: 700;
+}
+#toc_firstpage div.topic-body {
+  display: block;
+}
+.toc-title {
+  margin-top: 30px;
+}
+.toc-sub_title {
+  margin-bottom: 24px;
+}
+.toc-body {
+  /* margin-top: 150px; */
+  padding-top: 50px;
+}
+.toc-level-2 {
+  margin-top: unset;
+  text-indent: -28px;
+  margin-inline-start: 80px;
+}
+.toc-level-3 {
+  margin-inline-start: 125px;
+  text-indent: -45px;
+}
+.toc_footer_hr {
+  border: 0.5px solid #2C343B;
+  margin: 0;
+  padding: 0;
+}
+.toc_product_name {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  line-height: var(--text-3xs-lh);
+  font-weight: 400;
+  color: var(--color-tertiary);
+  padding-top: 8px;
+  margin: unset;
+}
+.toc-level-1 {
+  text-indent: -24px;
+  margin-inline-start: 47px;
+}
+.toc-level-1::before {
+  margin-right: 15px;
+}
+.toc-level-2::before {
+  margin-right: 10px;
+}

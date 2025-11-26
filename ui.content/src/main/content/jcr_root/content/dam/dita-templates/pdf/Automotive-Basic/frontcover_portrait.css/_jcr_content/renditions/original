@@ -1,0 +1,94 @@
+/*Created with AEM Guides*/
+p {
+  margin: 0;
+}
+.frontcover {
+  box-sizing: border-box;
+  padding-top: 40px;
+  padding-right: 73px;
+  padding-left: 73px;
+  padding-bottom: 40px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  color: var(--color-primary);
+}
+.frontcover_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.frontcover_header-right {
+  text-align: right;
+}
+.frontcover_doctype {
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+}
+.frontcover_header .frontcover_created-date {
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  font-weight: 700;
+}
+.frontcover_logo-image {
+  height: 46px;
+  width: 184px;
+}
+.frontcover_metadata {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: var(--text-6xl);
+  line-height: var(--text-6xl-lh);
+  margin-bottom: 8px;
+  font-family: var(--font-fam-primary);
+}
+.frontcover_description {
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
+  margin-top: 8px;
+}
+.frontcover_cover-image {
+  width: 612px;
+  height: 406px;
+  margin-top: auto;
+}
+.frontcover_footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-lh);
+  margin-top: 32px;
+}
+.frontcover_version-label {
+  font-weight: 350;
+}
+.frontcover_version {
+  text-align: right;
+  font-weight: 700;
+}
+.frontcover_language-label {
+  font-weight: 350;
+}
+.frontcover_language {
+  font-weight: 700;
+}
+.frontcover_urls {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+.frontcover_brand {}
+.frontcover_prodname {}
+.frontcover_mainbooktitle {}
+.frontcover_booktitlealt {}
+.frontcover_publish-date {}
+.frontcover_organization {}
+.frontcover_critdates {}
+.frontcover_copyright {}
+.frontcover_marketing_claim {}

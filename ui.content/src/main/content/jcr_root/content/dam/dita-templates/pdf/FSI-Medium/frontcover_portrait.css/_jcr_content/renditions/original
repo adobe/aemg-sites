@@ -1,0 +1,82 @@
+.frontcover_metadata {
+  padding-top: 80px;
+  padding-left: 73px;
+  width: 389px;
+}
+.frontcover_product-brand {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-6xl);
+  line-height: var(--text-6xl-lh);
+  font-weight: 400;
+  color: var(--color-accent);
+  margin: 0;
+  padding-right: 6px;
+}
+.frontcover_product-name {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-6xl);
+  line-height: var(--text-6xl-lh);
+  font-weight: 400;
+  color: var(--color-accent);
+  margin: 0;
+}
+.frontcover_publish-date {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl-lh);
+  font-weight: 400;
+  color: var(--color-accent);
+  margin: 0;
+  padding-top: 4px;
+}
+.barchart_image_bg_color {
+  background-color: var(--color-dark);
+  width: 500px;
+  height: 290px;
+  position: absolute;
+  right: 0;
+  bottom: 25%;
+}
+.barchart_image {
+  width: 344px;
+  height: 422.34px;
+  position: absolute;
+  right: 78px;
+  bottom: 23.15%;
+  z-index: 1;
+}
+.histogram_image_container {
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+}
+.histogram_image {
+  width: 294px;
+  height: 290px;
+}
+.frontcover_logo_container {
+  width: 500px;
+  height: 290px;
+  padding: 94px 73px 93.7px 25px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-accent);
+  box-sizing: border-box;
+}
+.frontcover_logo {
+  width: 123px;
+  height: 50px;
+}
+.frontcover_text {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-lh);
+  font-weight: 400;
+  color: var(--color-black);
+  margin: 0;
+  width: 246px;
+}

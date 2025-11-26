@@ -1,0 +1,62 @@
+.frontpage_header {
+  display: none;
+}
+.frontpage_footer {
+  display: none;
+}
+.frontpage_img_container {
+  height: 562px;
+}
+.frontpage_img {
+  width: 100%;
+  height: 562px;
+}
+.frontpage_content_container {
+  background-color: var(--color-primary);
+  padding: 67px 73px 43px 73px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.frontpage_metadata {
+  width: 292px;
+}
+.frontpage_title {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-5xl);
+  line-height: var(--text-5xl-lh);
+  font-weight: 400;
+  color: var(--color-accent);
+  margin: 0;
+}
+.frontpage_created_year {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl-lh);
+  font-weight: 400;
+  color: var(--color-accent);
+  margin: 8px 0 0 0;
+}
+.frontpage_footer_content {
+  display: flex;
+  align-items: center;
+}
+.frontpage_footer_logo {
+  width: 92px;
+  height: 37px;
+}
+.frontpage_footer_breakline {
+  background-color: var(--color-accent);
+  height: 37px;
+  width: 0.93px;
+  margin: 0 16px;
+}
+.frontpage_footer_product_name {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
+  font-weight: 400;
+  color: var(--color-accent);
+  margin: 0;
+}

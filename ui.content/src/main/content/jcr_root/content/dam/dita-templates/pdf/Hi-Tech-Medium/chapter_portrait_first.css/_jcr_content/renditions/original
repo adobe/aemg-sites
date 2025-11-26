@@ -1,0 +1,58 @@
+.chapter_firstpage_header {
+  display: none;
+}
+.chapter-body {
+  padding-left: 73px;
+  padding-right: 73px;
+}
+.chapter_firstpage_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 920px;
+}
+.chapter_firstpage_metadata {
+  width: 311px;
+}
+.chapter_firstpage_title {
+  font-size: var(--text-3xl);
+  line-height: var(--text-3xl-lh);
+  font-weight: 500;
+  color: var(--color-accent);
+  padding-bottom: 8px;
+  margin: 0;
+}
+.chapter_firstpage_description {
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
+  font-weight: 400;
+  color: var(--color-accent);
+  margin: 0;
+}
+.chapter_firstpage_cover-img {
+  width: 648px;
+  height: 286px;
+}
+.chapter_firstpage_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding-left: 73px;
+  padding-right: 73px;
+  /* margin-top: 40px; */
+}
+.chapter_firstpage_footer_text {
+  font-size: var(--text-3xs);
+  line-height: var(--text-3xs);
+  font-weight: 400;
+  color: var(--color-accent);
+  margin: 0;
+}
+.chapter_firstpage_footer_page_number {
+  font-size: var(--text-3xl);
+  line-height: var(--text-3xl-lh);
+  font-weight: 500;
+  color: var(--color-accent);
+  margin: 0;
+}

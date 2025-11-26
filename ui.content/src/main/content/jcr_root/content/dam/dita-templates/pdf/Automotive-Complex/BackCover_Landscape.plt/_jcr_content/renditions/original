@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="page-style" content="size:landscape;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;" />
+  <title>Back Page</title>
+  <meta name="footnote-style" content="" />
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="content.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="backcover_landscape.css" />
+</head>
+<body>
+  <div class="backcover-landsc">
+    <div class="backcover-landsc_header">
+      <div class="backcover-landsc_title" style=""><span class="frontcover_created-date" data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span> <span> <span class="frontcover_brand" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span> <span class="frontcover_prodname" data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span> </span></div>
+      <div class="backcover-landsc_header-text">Redefining sophisticated luxury.</div>
+    </div>
+    <div class="backcover-landsc_desciption">Unparalleled in offroad capabilities, the G-Class boasts advanced features for tackling steep ascents, deep waters, and challenging inclines.</div>
+    <div class="backcover-landsc_organization-details">
+      <div class="backcover-landsc_contact-container">
+        <p class="backcover-landsc_org-contact-label">CONTACT</p>
+        <span class="backcover-landsc_org-contactnumbers"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/common/phone-icon.png" /> 000 800 050 01888</span> <span class="backcover-landsc_org-emailaddresses"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/common/email-icon.png" />car@brandname.com</span>
+      </div>
+      <div class="backcover-landsc_address-container">
+        <p class="backcover-landsc_org-address-label">ADDRESS</p>
+        <span class="backcover-landsc_org-addressdetails">2788 San Tomas Express Way, Santa Clara, CA 95051.</span>
+      </div>
+      <div class="backcover-landsc_socials-container">
+        <p class="backcover-landsc_org-socials-label">SOCIAL MEDIA</p>
+        <span class="backcover-landsc_org-socials"><img class="phone-icon img-icon" src="../../../aemguidesDALP/automotives/images/common/insta-icon.png" /><a href="https://www.instagram.com/">Instagram link</a></span>
+      </div>
+    </div>
+    <div class="backcover-landsc_footer">
+      <sapn class="backcover_created-date">December 2024 |</sapn> <span class="backcover_isbn">ISBN 978-618-26030-0 |</span> <span class="backcover_booknumber">Book No. |</span>
+      <sapn class="backcover_bookseries">Series No.</sapn>
+    </div>
+  </div>
+</body>
+</html>

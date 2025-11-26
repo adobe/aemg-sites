@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Index Page Layout</title>
+  <meta name="page-style" content="size:portrait;margin-left:70px;margin-right:70px;margin-bottom:70px;" />
+  <link rel="stylesheet" type="text/css" href="index_portrait.css" />
+  <meta name="footnote-style" content="" />
+</head>
+<body>
+  <div data-region="header" id="index_header">
+    <h5 id="index_header_title">Index</h5>
+    <div class="square-dot"></div>
+  </div>
+  <div data-region="content" id="idx_content"></div>
+  <div data-region="footer" id="index_footer" style="
+">
+    <p id="index_footer_product-name" style="
+"><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+  </div>
+</body>
+</html>

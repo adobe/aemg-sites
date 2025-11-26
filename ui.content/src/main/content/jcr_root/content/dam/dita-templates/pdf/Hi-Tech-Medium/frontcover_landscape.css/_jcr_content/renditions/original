@@ -1,0 +1,60 @@
+.frontcover_landsc_content_container {
+  width: 648px;
+}
+.frontcover_landsc_mainbooktitle {
+  font-size: var(--text-3xl);
+  line-height: var(--text-3xl-lh);
+  font-weight: 500;
+  font-family: var(--font-fam-secondry);
+  margin: 0;
+  color: var(--color-accent);
+  padding-bottom: 8px;
+}
+.frontcover_landsc_titlealt {
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
+  font-weight: 400;
+  font-family: var(--font-fam-primary-regular);
+  margin: 0;
+  color: var(--color-accent);
+  padding-bottom: 40px;
+}
+.frontcover_landsc_cover_img {
+  width: 976px;
+  height: 286px;
+}
+.frontcover_landsc_footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.frontcover_landsc_metadata {
+  display: flex;
+  align-items: flex-end;
+}
+.frontcover_landsc_version {
+  font-size: var(--text-3xs);
+  line-height: var(--text-3xs-lh);
+  font-weight: 400;
+  font-family: var(--font-fam-primary-regular);
+  margin: 0;
+  color: var(--color-accent);
+}
+.break_line {
+  background-color: var(--color-accent);
+  height: 15px;
+  width: 0.8px;
+  margin: 0 10px;
+}
+.frontcover_landsc_publish_date {
+  font-size: var(--text-3xs);
+  line-height: var(--text-3xs-lh);
+  font-weight: 400;
+  font-family: var(--font-fam-primary-regular);
+  margin: 0;
+  color: var(--color-accent);
+}
+.frontcover_landsc_logo {
+  width: 151px;
+  height: 42px;
+}

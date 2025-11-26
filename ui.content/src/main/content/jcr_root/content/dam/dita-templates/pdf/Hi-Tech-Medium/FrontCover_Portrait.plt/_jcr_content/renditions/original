@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="page-style" content="size:A4 portrait;margin-bottom:105px;" />
+  <title>Page Layout</title>
+  <meta name="footnote-style" content="" />
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <link rel="stylesheet" type="text/css" href="frontcover_portrait.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+</head>
+<body>
+  <div data-region="content">
+    <div class="frontcover_content">
+      <div class="frontcover_content_container">
+        <p class="frontcover_mainbooktitle" style=""><span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+        <p class="frontcover_titlealt">Application Note</p>
+      </div>
+      <img class="frontcover_cover_img" src="../../../aemguidesDALP/hi-tech/images/portrait/hitech-cover-img1-portrait.png" style="cursor: nesw-resize;" />
+    </div>
+  </div>
+  <div data-region="footer">
+    <div class="frontcover_footer">
+      <div class="frontcover_metadata">
+        <p class="frontcover_version">DA-11040-001_v1.3</p>
+        <div class="break_line"></div>
+        <p class="frontcover_publish_date"><span data-field="date" data-format="MMMM YYYY">February 2025</span></p>
+      </div>
+      <img class="frontcover_logo" src="../../../aemguidesDALP/hi-tech/images/common/backcover_logo.png" />
+    </div>
+  </div>
+</body>
+</html>

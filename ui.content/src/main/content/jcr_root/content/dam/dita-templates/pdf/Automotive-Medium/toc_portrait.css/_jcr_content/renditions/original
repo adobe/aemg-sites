@@ -1,0 +1,235 @@
+.toc-config {
+  --toc-gap: 20px;
+  --toc-level-2-gap: var(--toc-gap) * 1;
+  --toc-level-3-gap: var(--toc-gap) * 2;
+}
+#toc_firstpage_header_title {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-lg);
+  font-weight: 400;
+  color: var(--title-color);
+  line-height: var(--text-lg-lh);
+  letter-spacing: -4%;
+}
+#toc_firstpage_header_titlealts {
+  font-family: var(--font-fam-primary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--color-tertiary);
+  line-height: var(--text-xs-lh);
+  letter-spacing: -4%;
+  margin-bottom: 48px;
+}
+#toc_firstpage_header_mainbooktitle {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--title-color);
+  line-height: var(--text-xs-lh);
+  letter-spacing: -4%;
+}
+#toc_firstpage_header_page-number {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--title-color);
+  line-height: var(--text-xs-lh);
+  letter-spacing: -4%;
+  text-align: var(--page-number-text-align);
+}
+#toc_firstpage_footer_title {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--footer-text-primary-color);
+  line-height: var(--text-xs-lh);
+  letter-spacing: var(--footerletter-spacing);
+}
+#toc_firstpage_footer_mainbooktitle {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--footer-text-primary-color);
+  line-height: var(--text-xs-lh);
+  letter-spacing: var(--footerletter-spacing);
+}
+#toc_firstpage_footer_product-name {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--footer-text-primary-color);
+  line-height: var(--text-xs-lh);
+  letter-spacing: var(--footerletter-spacing);
+}
+#toc_firstpage_footer_copyright {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--footer-text-primary-color);
+  line-height: var(--text-xs-lh);
+  letter-spacing: var(--footerletter-spacing);
+}
+#toc_firstpage_footer_product-brand {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--footer-text-primary-color);
+  line-height: var(--text-xs-lh);
+  letter-spacing: var(--footerletter-spacing);
+}
+#toc_firstpage_footer_page-number {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--footer-text-primary-color);
+  line-height: var(--text-xs-lh);
+  letter-spacing: var(--footerletter-spacing);
+  text-align: var(--page-number-text-align);
+}
+#toc_firstpage_footer_urls {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  color: var(--url-color);
+  line-height: var(--text-xs-lh);
+  letter-spacing: var(--footerletter-spacing);
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: false;
+}
+#toc_firstpage_footer_version {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--footer-text-primary-color);
+  line-height: var(--text-xs-lh);
+  letter-spacing: var(--footerletter-spacing);
+}
+#toc_firstpage_footer_email {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--footer-text-primary-color);
+  line-height: var(--text-xs-lh);
+  letter-spacing: var(--footerletter-spacing);
+}
+#toc_firstpage_footer_organization {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--footer-text-primary-color);
+  line-height: var(--text-xs-lh);
+  letter-spacing: var(--footerletter-spacing);
+}
+#toc_firstpage .toc-title {
+  font-family: var(--font-fam-secondary);
+  color: var(--color-primary);
+  font-size: var(--text-xl);
+  font-weight: 400;
+  line-height: var(--text-xl-lh);
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+#toc_firstpage .toc-sub_title {
+  font-family: var(--font-fam-primary);
+  color: var(--color-tertiary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  line-height: var(--text-xs-lh);
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 24px;
+}
+#toc_firstpage .toc-level-1 {
+  font-family: var(--font-fam-secondary);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  line-height: var(--text-xs-lh);
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: var(--color-secondary);
+  padding-top: 40px;
+  margin-bottom: 5px;
+  border: unset;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+#toc_firstpage .toc-level-2 {
+  font-family: var(--font-fam-secondary);
+  color: var(--color-tertiary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  line-height: var(--text-xs-lh);
+  text-align: left;
+  text-decoration-skip-ink: none;
+  padding-bottom: 8px;
+  margin: 0;
+  padding-left: 53px;
+    text-indent: -27px;
+}
+#toc_firstpage .toc-level-3 {
+  font-family: var(--font-fam-secondary);
+  color: var(--color-tertiary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  line-height: var(--text-xs-lh);
+  text-align: left;
+  text-decoration-skip-ink: none;
+  text-indent: -27px;
+  margin-inline-start: 110px;
+}
+#toc_firstpage .toc-level-4 {
+  font-family: var(--font-fam-secondary);
+  color: var(--color-tertiary);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  line-height: var(--text-xs-lh);
+  text-align: left;
+  text-decoration-skip-ink: none;
+  margin-bottom: 2px;
+  padding-bottom: 8px;
+  text-indent: unset;
+  padding-left: 60px;
+}
+#toc_firstpage .pdf-toc-level-1:after {
+  color: var(--color-accent);
+  content: "";
+}
+#toc_firstpage .pdf-toc-level-2:after,
+#toc_firstpage .pdf-toc-level-3:after,
+#toc_firstpage .pdf-toc-level-4:after {
+  color: var(--color-accent);
+}
+#toc_firstpage .toc-body {
+  column-count: 2;
+  column-gap: 80px;
+  padding-left: 30px;
+}
+#toc_firstpage .toc-level-1:first-child {
+  padding-top: 0;
+  margin-top: unset;
+}
+.toc-level-1 {
+  text-indent: -30px;
+  /* margin-inline-start: 45px; */
+}
+.toc-level-1::before {
+  margin-right: 15px;
+}
+.toc-level-2::before {
+  margin-right: 1px;
+  display: inline-block;
+  width: 25px;
+  height: auto;
+}
+.toc-level-3::before {
+  margin-right: 1px;
+  display: inline-block;
+  width: 25px;
+  height: auto;
+}

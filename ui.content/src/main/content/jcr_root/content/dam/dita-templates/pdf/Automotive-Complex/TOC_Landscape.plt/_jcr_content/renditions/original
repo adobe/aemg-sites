@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="page-style" content="size:A4 landscape; margin-left:73px; margin-right:73px; margin-top: 80px;  margin-bottom: 140px;" />
+  <title>Page Layout</title>
+  <!-- <link rel="stylesheet" type="text/css" href="toc_automotive_complex.css" /> -->
+  <meta name="footnote-style" content="" />
+  <!-- <link rel="stylesheet" type="text/css" href="Landscape_complex.css" /> -->
+  <link rel="stylesheet" type="text/css" href="toc_landscape.css" />
+  <link rel="stylesheet" type="text/css" href="global.css" />
+</head>
+<body>
+  <div class="toc_header_landscape" data-region="header" style=""><br />
+    
+    <p class="toc-title" id="toc_firstpage_header_title">Table of Contents</p>
+    <p class="toc-sub_title" id="toc_firstpage_header_titlealts"><span data-field="metadata" data-format="default" data-subtype="//critdates/created/@date">2001-06-12</span> <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/brand">Product Brand</span> <span data-field="metadata" data-format="default" data-subtype="//prodinfo[1]/prodname">Product Name</span></p>
+  </div>
+  <div data-region="content" id="landscape_complex">
+    <div class="toc-img"></div>
+  </div>
+  <div data-region="footer">
+    <hr class="toc_footer_hr" />
+    <div class="toc_product_name">Smith, J. A. (2020). The future of automotive technology:<br />
+      Innovations and trends. Tech Publishers.</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="f8f97d45-b2df-41b9-ad29-b6658dbb9def">
+    <jcr:content
+        dam:assetState="processed"
+        dam:processingId="6fc1020f-3ef5-494b-8350-04f4c9f51f24"
+        dam:processingRenditions="[cq5dam.thumbnail.48.48.png,cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.140.100.png,cq5dam.thumbnail.319.319.png,cqdam.metadata.xml,cqdam.text.txt,cqdam.machine.metadata.features.json,cq5dam.web.1280.1280.jpeg]"
+        dam:processingRequestedDate="{Date}2022-06-06T16:55:20.970Z"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2025-03-12T13:07:34.663+05:30"
+        jcr:lastModifiedBy="qeadmin"
+        jcr:primaryType="dam:AssetContent"
+        dxmlLastCreatedVersion="1.0"
+        fmPostProcessedAt="2022-06-06T16:55:20.145Z|20bba849-70b5-46ce-bbde-38497563c07d|2022-06-06T16:55:20.144Z|13|0"
+        fmUuid="GUID-dcb8795d-d566-414d-bf0c-1ca9291e6810">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cqdam.text.txt
+                jcr:primaryType="nt:unstructured"
+                message="Text extraction (fmt=txt) is not supported for svg files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            dam:extracted="{Date}2025-03-12T13:07:34.085+05:30"
+            dam:sha1="3824921da126a18636d122d95fa4f8b5ee1d59c8"
+            dam:size="{Long}201"
+            dc:format="image/svg+xml"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            docstate="Draft"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
