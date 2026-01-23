@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-12-02T17:37:24.544+01:00"
-        cq:lastModifiedBy="admin"
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-03-04T10:46:46.415Z"
+        cq:lastModifiedBy="sadhna.singh@deptagency.com"
+        cq:lastReplicated="{Date}2025-03-05T12:14:02.246Z"
+        cq:lastReplicated_publish="{Date}2025-03-05T12:14:02.246Z"
+        cq:lastReplicatedBy="sadhna.singh@deptagency.com"
+        cq:lastReplicatedBy_publish="sadhna.singh@deptagency.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
         cq:policy="aemguidesDALP/components/page/policy"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2,mix:versionable]"
         jcr:primaryType="nt:unstructured"
+        jcr:uuid="a863a222-ab67-40df-9900-a5e4873ac2a0"
         sling:resourceType="wcm/core/components/policies/mappings">
         <root
             cq:policy="aemguidesDALP/components/container/policy_1574694950110"
