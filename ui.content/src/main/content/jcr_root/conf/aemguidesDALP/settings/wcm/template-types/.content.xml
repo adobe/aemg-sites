@@ -3,6 +3,9 @@
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
     <xf/>
-    <rep:policy/>
     <page/>
-    </jcr:root>
+    <dita-complex-layout/>
+    <dita-landing/>
+    <dita-topic/>
+    <rep:policy/>
+</jcr:root>
