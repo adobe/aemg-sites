@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <workspaceFilter version="1.0">
+    <filter root="/conf/aemguidesDALP/settings/wcm/policies" mode="replace"/>
     <filter root="/conf/aemguidesDALP" mode="merge"/>
     <filter root="/content/aemguidesDALP" mode="merge"/>
     <filter root="/content/experience-fragments/aemguidesDALP" mode="merge"/>

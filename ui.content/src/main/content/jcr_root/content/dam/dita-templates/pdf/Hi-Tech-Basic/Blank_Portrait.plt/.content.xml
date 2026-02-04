@@ -13,7 +13,7 @@
         dam:runDMProcess="{Boolean}false"
         dam:runPostProcess="{Boolean}true"
         jcr:lastModified="{Date}2025-03-04T13:37:17.544+05:30"
-        jcr:lastModifiedBy="prashant.singh@deptagency.com"
+        jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlLastCreatedVersion="1.0"
         dxmlSkipVersionCreation="{Boolean}true"

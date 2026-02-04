@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/dita-templates/pdf/Automotive-Medium"
         dam:assetState="processed"
         jcr:lastModified="{Date}2025-03-26T12:43:55.348+05:30"
-        jcr:lastModifiedBy="krishna.mulik@deptagency.com"
+        jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlSkipVersionCreation="{Boolean}true">
         <metadata
